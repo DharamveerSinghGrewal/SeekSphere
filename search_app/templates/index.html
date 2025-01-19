@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SeekSphere</title>
+    <link rel="stylesheet" href="{% static 'search_app/styles.css' %}">
+</head>
+<body>
+    <h1>Welcome to SeekSphere</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" name="query" placeholder="Enter your search query">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
