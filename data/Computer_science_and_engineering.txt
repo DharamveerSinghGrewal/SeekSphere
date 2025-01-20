@@ -1,0 +1,15 @@
+Computer Science and Engineering (CSE) or Computer Science (CS) also integrated as Electrical Engineering and Computer Science (EECS) in some universities, is an academic program at many universities which comprises approaches of computer science and computer engineering. There is no clear division in computing between science and engineering, just like in the field of materials science and engineering. However, some classes are historically more related to computer science (e.g. data structures and algorithms), and other to computer engineering (e.g. computer architecture). CSE is also a term often used  in Europe to translate the name of technical or engineering informatics academic programs. It is offered in both undergraduate as well postgraduate with specializations.
+
+
+== Academic courses ==
+Academic programs vary between colleges, but typically include a combination of topics in computer science,computer engineering, and electrical engineering. Undergraduate courses usually include programming, algorithms and data structures, computer architecture, operating systems, computer networks, parallel computing, embedded systems, algorithms design, circuit analysis and electronics, digital logic and processor design, computer graphics, scientific computing, software engineering, database systems, digital signal processing, virtualization, computer simulations and games programming. CSE programs also include core subjects of theoretical computer science such as theory of computation, numerical methods, machine learning, programming theory and paradigms. Modern academic programs also cover emerging computing fields like image processing, data science, robotics, bio-inspired computing, computational biology, autonomic computing and artificial intelligence. Most CSE programs require introductory mathematical knowledge, hence the first year of study is dominated by mathematical courses, primarily discrete mathematics, mathematical analysis, linear algebra, probability, and statistics, as well as the introduction to physics and electrical and electronic engineering. Students usually also have the opportunity to choose one social science subject.
+
+
+== See also ==
+Computer science
+Computer engineering
+Computer graphics (computer science)
+Bachelor of Technology
+
+
+== References ==

@@ -1,0 +1,20 @@
+Algorithmic may refer to:
+
+Algorithm, step-by-step instructions for a calculation
+Algorithmic art, art made by an algorithm
+Algorithmic composition, music made by an algorithm
+Algorithmic trading, trading decisions made by an algorithm
+Algorithmic patent, an intellectual property right in an algorithm
+Algorithmics, the science of algorithms
+Algorithmica, an academic journal for algorithm research
+Algorithmic efficiency, the computational resources used by an algorithm
+Algorithmic information theory, study of relationships between computation and information
+Algorithmic mechanism design, the design of economic systems from an algorithmic point of view
+Algorithmic number theory, algorithms for number-theoretic computation
+Algorithmic game theory, game-theoretic techniques for algorithm design and analysis
+Algorithmic cooling, a phenomenon in quantum computation
+Algorithmic probability, a universal choice of prior probabilities in Solomonoff's theory of inductive inference
+
+
+== See also ==
+Algorithmic complexity (disambiguation)
