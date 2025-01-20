@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>SeekSphere</title>
+    {% load static %}
     <link rel="stylesheet" href="{% static 'search_app/styles.css' %}">
 </head>
 <body>
@@ -11,5 +12,15 @@
         <input type="text" name="query" placeholder="Enter your search query">
         <button type="submit">Search</button>
     </form>
+    <ul>
+    {% if results %}
+        {% for doc, score in results %}
+            <li>{{ doc }} (Score: {{ score }})</li>
+        {% endfor %}
+    {% else %}
+        <li>No results found</li>
+    {% endif %}
+</ul>
+
 </body>
 </html>

@@ -1,4 +1,5 @@
 from django.shortcuts import render
+
 from indexing.query import search
 
 def index(request):
