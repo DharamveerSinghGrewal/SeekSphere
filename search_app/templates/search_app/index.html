@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{% static 'search_app/styles.css' %}">
 </head>
 <body>
+    <h1>SeekSphere</h1>
     <form method="POST">
         {% csrf_token %}
         <input type="text" name="query" placeholder="Enter your search term" value="{{ query }}">
@@ -17,14 +18,14 @@
         <ul>
             {% for result in results %}
                 <li>
-                    <h3>{{ result.title }}</h3>
+                    <h3><a href="{{ result.url }}" target="_blank">{{ result.title }}</a></h3>
                     <p><strong>Score:</strong> {{ result.score }}</p>
-                    <p><strong>Snippet:</strong> {{ result.snippet }}</p>
+                    <p><strong>Snippet:</strong> {{ result.snippet|safe }}</p>
                 </li>
             {% endfor %}
         </ul>
     {% else %}
-        <p>No results found.</p>
+        <h4>your search results will appear here</h4>
     {% endif %}
 </body>
 </html>
