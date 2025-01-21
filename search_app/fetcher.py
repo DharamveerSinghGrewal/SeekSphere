@@ -47,6 +47,9 @@ def save_article_to_file(title, content):
     safe_title = title.replace(" ", "_")
     os.makedirs(DATA_DIR, exist_ok=True)
     filepath = os.path.join(DATA_DIR, f"{safe_title}.txt")
-    if not os.path.exists(filepath):
+    
+    if not os.path.exists(filepath):  # Avoid overwriting
+        snippet = content[:200].replace('\n', ' ') + "..."  # First 200 characters as snippet
         with open(filepath, "w", encoding="utf-8") as f:
-            f.write(content)
+            f.write(f"{snippet}\n\n{content}")  # Save snippet at the top of the file
+
