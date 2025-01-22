@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from .fetcher import fetch_articles
 from indexing.query import search
 from indexing.indexer import update_inverted_index
 from indexing.tokenizer import tokenize
@@ -19,17 +18,11 @@ def index(request):
         # Search in the index
         results = search(query)
 
-        # If fewer than 5 results are found, fetch and re-index
-        if len(results) < 5:
-            fetch_articles(query, max_articles=5)
-            update_inverted_index('./data')
-            results = search(query)
-
         # Enhance results with snippets
         refined_results = []
         for doc_id, score in results:
             filepath = os.path.join('./data', doc_id)
-            snippet = extract_snippet(filepath,query)
+            snippet = extract_snippet(filepath, query)
             article_url = f"https://en.wikipedia.org/wiki/{doc_id.replace('.txt', '').replace('_', '_')}"
             refined_results.append({
                 'title': doc_id.replace('_', ' ').replace('.txt', ''),
