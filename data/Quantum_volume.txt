@@ -1,0 +1,240 @@
+Quantum volume is a metric that measures the capabilities and error rates of a quantum computer. It expresses the maximum size of square quantum circuits that can be implemented successfully by the co...
+
+Quantum volume is a metric that measures the capabilities and error rates of a quantum computer. It expresses the maximum size of square quantum circuits that can be implemented successfully by the computer. The form of the circuits is independent from the quantum computer architecture, but compiler can transform and optimize it to take advantage of the computer's features. Thus, quantum volumes for different architectures can be compared.
+
+
+== Introduction ==
+Quantum computers are difficult to compare. Quantum volume is a single number designed to show all around performance. It is a measurement and not a calculation, and takes into account several features of a quantum computer, starting with its number of qubits—other measures used are gate and measurement errors, crosstalk and connectivity.
+IBM defined its Quantum Volume metric because a classical computer's transistor count and a quantum computer's quantum bit count aren't the same. Qubits decohere with a resulting loss of performance so a few fault tolerant bits are more valuable as a performance measure than a larger number of  noisy, error-prone qubits.
+Generally, the larger the quantum volume, the more complex the problems a quantum computer can solve.
+Alternative benchmarks, such as Cross-entropy benchmarking, reliable Quantum Operations per Second (rQOPS) proposed by  Microsoft, Circuit Layer Operations Per Second (CLOPS) proposed by IBM and IonQ's Algorithmic Qubits, have also been proposed.
+
+
+== Definition ==
+
+
+=== Original definition ===
+The quantum volume of a quantum computer was originally defined in 2018 by Nikolaj Moll et al. However, since around 2021 that definition has been supplanted by IBM's 2019 redefinition.
+The original definition depends on the number of qubits N as well as the number of steps that can be executed, the circuit depth d
+
+  
+    
+      
+        
+          
+            
+              
+                V
+                ~
+              
+            
+          
+          
+            Q
+          
+        
+        =
+        min
+        [
+        N
+        ,
+        d
+        (
+        N
+        )
+        
+          ]
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle {\tilde {V}}_{Q}=\min[N,d(N)]^{2}.}
+  
+
+The circuit depth depends on the effective error rate εeff as
+
+  
+    
+      
+        d
+        ≃
+        
+          
+            1
+            
+              N
+              
+                ε
+                
+                  
+                    e
+                    f
+                    f
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle d\simeq {\frac {1}{N\varepsilon _{\mathrm {eff} }}}.}
+  
+
+The effective error rate εeff is defined as the average error rate of a two-qubit gate. If the physical two-qubit gates do not have all-to-all connectivity, additional SWAP gates may be needed to implement an arbitrary two-qubit gate and εeff > ε, where ε is the error rate of the physical two-qubit gates. If more complex hardware gates are available, such as the three-qubit Toffoli gate, it is possible that εeff < ε.
+The allowable circuit depth decreases when more qubits with the same effective error rate are added. So with these definitions, as soon as d(N) < N, the quantum volume goes down if more qubits are added. To run an algorithm that only requires n < N qubits on an N-qubit machine, it could be beneficial to select a subset of qubits with good connectivity. For this case, Moll et al.  give a refined definition of quantum volume.
+
+  
+    
+      
+        
+          V
+          
+            Q
+          
+        
+        =
+        
+          max
+          
+            n
+            <
+            N
+          
+        
+        
+          {
+          
+            min
+            
+              
+                [
+                
+                  n
+                  ,
+                  
+                    
+                      1
+                      
+                        n
+                        
+                          ε
+                          
+                            
+                              e
+                              f
+                              f
+                            
+                          
+                        
+                        (
+                        n
+                        )
+                      
+                    
+                  
+                
+                ]
+              
+              
+                2
+              
+            
+          
+          }
+        
+        ,
+      
+    
+    {\displaystyle V_{Q}=\max _{n<N}\left\{\min \left[n,{\frac {1}{n\varepsilon _{\mathrm {eff} }(n)}}\right]^{2}\right\},}
+  
+
+where the maximum is taken over an arbitrary choice of n qubits.
+
+
+=== IBM's redefinition ===
+In 2019, IBM's researchers modified the quantum volume definition to be an exponential of the circuit size, stating that it corresponds to the complexity of simulating the circuit on a classical computer:
+
+  
+    
+      
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        
+          V
+          
+            Q
+          
+        
+        =
+        
+          
+            
+              a
+              r
+              g
+              
+              m
+              a
+              x
+            
+            
+              n
+              ≤
+              N
+            
+          
+        
+        
+          {
+          
+            min
+            
+              [
+              
+                n
+                ,
+                d
+                (
+                n
+                )
+              
+              ]
+            
+          
+          }
+        
+      
+    
+    {\displaystyle \log _{2}V_{Q}={\underset {n\leq N}{\operatorname {arg\,max} }}\left\{\min \left[n,d(n)\right]\right\}}
+  
+
+
+== Achievement history ==
+The world record, as of September 2024, for the highest quantum volume is 221. Here is an overview of historically achieved quantum volumes:
+
+
+== Volumetric benchmarks ==
+The quantum volume benchmark defines a family of square circuits, whose number of qubits N and depth d are the same. Therefore, the output of this benchmark is a single number. However, a proposed generalization is the volumetric benchmark framework, which defines a family of rectangular quantum circuits, for which N and d are uncoupled to allow the study of time/space performance trade-offs, thereby sacrificing the simplicity of a single-figure benchmark.
+Volumetric benchmarks can be generalized not only to account for uncoupled N and d dimensions, but also to test different types of quantum circuits. While quantum volume benchmarks the quantum computer's ability to implement a specific type of randomized circuits, these can, in principle, be substituted by other families of random circuits, periodic circuits, or algorithm-inspired circuits. Each benchmark must have a success criterion that defines whether a processor has "passed" a given test circuit.
+While these data can be analyzed in many ways, a simple method of visualization is illustrating the Pareto front of the N versus d trade-off for the processor being benchmarked. This Pareto front provides information on the largest depth d a patch of a given number of qubits N can withstand, or, alternatively, the biggest patch of N qubits that can withstand executing a circuit of given depth d.
+
+
+== See also ==
+Noisy intermediate-scale quantum era
+Quantum fidelity
+
+
+== Notes ==
+
+
+== References ==

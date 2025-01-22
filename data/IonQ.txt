@@ -1,0 +1,28 @@
+IonQ is a quantum computing hardware and software company based in College Park, Maryland. They are developing a general-purpose trapped ion quantum computer and software to generate, optimize, and ex...
+
+IonQ is a quantum computing hardware and software company based in College Park, Maryland. They are developing a general-purpose trapped ion quantum computer and software to generate, optimize, and execute quantum circuits.
+
+
+== History ==
+IonQ was co-founded by Christopher Monroe and Jungsang Kim, professors at Duke University, in 2015, with the help of Harry Weller and Andrew Schoen, partners at venture firm New Enterprise Associates.
+The company is an offshoot of the co-founders’ 25 years of academic research in quantum information science. Monroe's quantum computing research began as a Staff Researcher at the National Institute of Standards and Technology (NIST) with Nobel-laureate physicist David Wineland where he led a team using trapped ions to produce the first controllable qubits and the first controllable quantum logic gate, culminating in a proposed architecture for a large-scale trapped ion computer.
+Kim and Monroe began collaborating formally as a result of larger research initiatives funded by the Intelligence Advanced Research Projects Activity (IARPA). They wrote a review paper for Science Magazine entitled Scaling the Ion Trap Quantum Processor, pairing Monroe's research in trapped ions with Kim's focus on scalable quantum information processing and quantum communication hardware.
+This research partnership became the seed for IonQ's founding. In 2015, New Enterprise Associates invested $2 million to commercialize the technology Monroe and Kim proposed in their Science paper.
+In 2016, they brought on David Moehring from IARPA—where he was in charge of several quantum computing initiatives—to be the company's chief executive. In 2017, they raised a $20 million series B, led by GV (formerly Google Ventures) and New Enterprise Associates, the first investment GV has made in quantum computing technology. They began hiring in earnest in 2017, with the intent to bring an offering to market by late 2018.
+In May 2019, former Amazon Prime executive Peter Chapman was named new CEO of the company. IonQ then partnered to make its quantum computers available to the public through Amazon Web Services, Microsoft Azure, and Google Cloud.
+In October 2021, IonQ became publicly listed on the New York Stock Exchange via a special-purpose acquisition company. The company opened a dedicated research and development facility in Bothell, Washington, in February 2024, touting it as the first quantum computing factory in the United States.
+
+
+== Technology ==
+
+IonQ's hardware is based on a trapped ion architecture, from technology that Monroe developed at the University of Maryland, and that Kim developed at Duke.
+In November 2017, IonQ presented a paper at the IEEE International Conference on Rebooting Computing describing their technology strategy and current progress. It outlines using a microfabricated ion trap and several optical and acousto-optical systems to cool, initialize, and calculate. They also describe a cloud API, custom language bindings, and quantum computing simulators that take advantage of their trapped ion system's complete connectivity
+IonQ and some experts claim that trapped ions could provide a number of benefits over other physical qubit types in several measures, such as accuracy, scalability, predictability, and coherence time. Others criticize the slow operational times and relative size of trapped ion hardware, claiming other qubit technologies are just as promising.
+
+
+== References ==
+
+
+== External links ==
+Official website
+Business data for IonQ:

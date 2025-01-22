@@ -1,0 +1,61 @@
+The Cyber Security Agency (CSA) is a government agency under the Prime Minister's Office, but is managed by the Ministry of Digital Development and Information of the Government of Singapore. It provi...
+
+The Cyber Security Agency (CSA) is a government agency under the Prime Minister's Office, but is managed by the Ministry of Digital Development and Information of the Government of Singapore. It provides centralised oversight of national cyber security functions and works with sector leads to protect Singapore's Critical Information Infrastructure (CII), such as the energy and banking sectors. Formed on 1 April 2015, the agency also engages with various industries and stakeholders to heighten cyber security awareness as well as to ensure the development of Singapore's cyber security. It is headed by the Commissioner of Cyber Security, David Koh.
+
+
+== History and overview ==
+The Cyber Security Agency took over the functions previously carried out by the Singapore Infocomm Technology Security Authority (SITSA), under the Ministry of Home Affairs. SITSA was set up in 2009 as the national specialist authority overseeing operational IT security.
+The CSA also took over some roles undertaken by the then-Infocomm Development of Authority (IDA) such as the Singapore Cyber Emergency Response Team (SingCERT), which facilitates the detection, resolution and prevention of security-related incidents on the Internet.
+The agency builds upon the government's cyber security capabilities, which include strategy and policy development, cyber security operations, industry development and outreach; as well as public communications and engagement.
+It has organised events such as the Singapore International Cyber Week (SICW) in 2016, with over 5,000 attendees from close to 50 countries. The SICW also saw the launch of Singapore's Cybersecurity Strategy.
+In 2017, the second edition of the SICW was held from 18 to 21 September 2017. It also hosted the 2nd ASEAN Ministerial Conference on Cybersecurity.
+
+
+== Singapore's Cybersecurity Strategy ==
+In October 2016, then-Prime Minister Lee Hsien Loong launched Singapore's Cybersecurity Strategy with the aim to create a resilient and trusted cyber environment for Singapore. Four pillars underpinned the strategy:
+
+Building a Resilient Infrastructure
+Creating a Safer Cyberspace
+Developing a Vibrant Cybersecurity Ecosystem
+Strengthening International Partnerships
+Singapore's revised goals were outlined in the Singapore Cybersecurity Strategy 2021. As a result, Singapore's cybersecurity plan, which was originally implemented in 2016, was reviewed and updated.
+
+
+=== Cutting off internet access ===
+In 2016, as part of Singapore's Cybersecurity Strategy, it was announced that internet access of civil servants' work stations will be cut-off. David Koh, chief executive of the then-newly formed agency, said officials realised there was too much data to secure and "there is no way to secure this because the attack surface is like a building with a zillion windows, doors, fire escapes".
+Security experts commented that the move may only raise the defense against cyber attacks slightly but risk damaging the productivity of civil servants and those working at more than four dozen statutory boards, and cutting them off from the people they serve.
+
+
+== Singapore's Cybersecurity Programmes ==
+Singapore Cyber Security Agency has launched various programmes to support its strategy, including:
+
+CSA Common Criteria
+CSAT Programme
+Cybersecurity Labelling Scheme 
+Cybersecurity Career Mentoring Programme
+Cybersecurity Co-innovation and Development Fund
+ICE71
+PSG Cybersecurity Solutions
+SG Cyber Safe Seniors
+SG Cyber Safe Students
+SG Cyber Talent.  These initiatives include:
+Cyber Security Associates and Technologists (CSAT) programme with Infocomm Media Development Authority (IMDA);
+Cybersecurity Career Mentoring programme with the Singapore Computer Society (SCS);
+SG Cyber Women initiative;
+SG Cyber Educators Programme; and
+SG Cyber Youth Programme.
+SG Cyber Safe Programme.
+Singapore’s Cyber Security Agency launched a new cyber security certification scheme recognizing organisations with good cyber security practices at the end of March 2022. 
+
+
+== See also ==
+National Cyber Security Centre
+Government Technology Agency (GovTech)
+
+
+== References ==
+
+
+== External links ==
+Cyber security services
+Official website

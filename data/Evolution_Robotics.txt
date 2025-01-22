@@ -1,0 +1,19 @@
+Evolution Robotics was an American technological company based in Pasadena, California. It specialized in robotics technologies, with computer vision, localization, and autonomous navigation products....
+
+Evolution Robotics was an American technological company based in Pasadena, California. It specialized in robotics technologies, with computer vision, localization, and autonomous navigation products.
+Evolution Robotics cooperated with Cambridge University for research in vision technology. Software products of Evolution Robotics were licensed by the Korean Institute of Industrial Technology and the Sony Robotics Division and were part of WowWee robots like Rovio.
+On September 17, 2012, iRobot acquired Evolution Robotics for $74 Million.
+
+
+== Products ==
+
+In January 2010, Evolution Robotics released Mint, a cleaning robot that dusted and wet-mopped hard surface floors. The robot's "wet mopping mode" had a coverage of 93 sq m (1000 sq ft) and 23 sq m (250 sq ft). The Mint lacked a vacuum motor and was one of the quietest floor-cleaning robots. The Mint was described as a "not fully autonomous robot"; hence, a cleaning cloth had to be attached to the cleaning pad before using it. The robot used an indoor navigation system called NorthStar for navigation. Mint used a navigation cube as a beacon for navigation, and the original model could only handle one of these beacons at a time.
+On September 14, 2011, Evolution Robotics released a second model, Mint Plus. The robot represented an improved version of the original Mint, supporting multiple NorthStar cubes simultaneously. An additional feature of the robot was the ability to continue work at the same spot if the machine was interrupted during cleaning. Mint Plus featured an automatic cleaning solution dispenser that kept the cloth wet during cleaning. One of the two Mint Plus robots had an installed docking station that functioned as a charging stand where the robot could be placed manually.
+In 2013, Mint was rebranded as iRobot Braava.
+
+
+== References ==
+
+
+== External links ==
+http://evolution.com/ − Website of Evolution Robotics (archived)

@@ -1,0 +1,55 @@
+In artificial intelligence, researchers teach AI systems to develop their own ways of communicating by having them work together on tasks and use symbols as parts of a new language. These languages mi...
+
+In artificial intelligence, researchers teach AI systems to develop their own ways of communicating by having them work together on tasks and use symbols as parts of a new language. These languages might grow out of human languages or be built completely from scratch. When AI is used for translating between languages, it can even create a new shared language to make the process easier. Natural Language Processing (NLP) helps these systems understand and generate human-like language, making it possible for AI to interact and communicate more naturally with people.
+
+
+== Evolution from English ==
+In 2017 Facebook Artificial Intelligence Research (FAIR) trained chatbots on a corpus of English text conversations between humans playing a simple trading game involving balls, hats, and books. When programmed to experiment with English and tasked with optimizing trades, the chatbots seemed to evolve a reworked version of English to better solve their task. In some cases the exchanges seemed nonsensical:
+
+Bob: "I can can I I everything else"
+Alice: "Balls have zero to me to me to me to me to me to me to me to me to"
+Facebook's Dhruv Batra said: "There was no reward to sticking to English language. Agents will drift off understandable language and invent codewords for themselves. Like if I say 'the' five times, you interpret that to mean I want five copies of this item." It's often unclear exactly why a neural network decided to produce the output that it did. Because the agents' evolved language was opaque to humans, Facebook modified the algorithm to explicitly provide an incentive to mimic humans. This modified algorithm is preferable in many contexts, even though it scores lower in effectiveness than the opaque algorithm, because clarity to humans is important in many use cases.
+In The Atlantic, Adrienne LaFrance analogized the wondrous and "terrifying" evolved chatbot language to cryptophasia, the phenomenon of some twins developing a language that only the two children can understand.
+
+
+== Beginning of the AI language creation ==
+In 2017 researchers at OpenAI demonstrated a multi-agent environment and learning methods that bring about emergence of a basic language ab initio without starting from a pre-existing language. The language consists of a stream of "ungrounded" (initially meaningless) abstract discrete symbols uttered by agents over time, which comes to evolve a defined vocabulary and syntactical constraints. One of the tokens might evolve to mean "blue-agent", another "red-landmark", and a third "goto", in which case an agent will say "goto red-landmark blue-agent" to ask the blue agent to go to the red landmark. In addition, when visible to one another, the agents could spontaneously learn nonverbal communication such as pointing, guiding, and pushing. The researchers speculated that the emergence of AI language might be analogous to the evolution of human communication.
+Similarly, a 2017 study from Abhishek Das (programmer) and colleagues demonstrated the emergence of language and communication in a visual question-answer context, showing that a pair of chatbots can invent a communication protocol that associates ungrounded tokens with colors and shapes.
+This shows the language generation and how models were trained from scratch for the AI to understand and build off for human communication and understanding.
+
+
+== Interlingua ==
+In 2016, Google deployed to Google Translate an AI designed to directly translate between any of 103 different natural languages, including pairs of languages that it had never before seen translated between. Researchers examined whether the machine learning algorithms were choosing to translate human-language sentences into a kind of "interlingua", and found that the AI was indeed encoding semantics within its structures. The researchers cited this as evidence that a new interlingua, evolved from the natural languages, exists within the network.
+
+
+== Current standpoint of language generation in AI ==
+At the timeline of this page, AI generation is at a slow pace. The development of Natural Language Processing (NLP) has changed the game of language generation which is currently being used throughout various generative AI chatbots such as ChatGPT, Bing AI, and Bard AI. The whole basis of language generation is through the training of computer models and algorithms which can learn from a large dataset of information. For example, there are mixed sentence models which tend to perform better as they take a larger sampling size of sentenced data rather than just words[10].  These models continuously develop over time through the integration of more data. This allows for better communication over time as more information is being learned from which the AI can feed.
+The image on the right portrays how these models are implemented to communicate with users trying to learn about information and things around the world.   
+
+
+== Applications of generative AI ==
+Generative AI for language use has been applicate to industries and markets across the world such as customer service, games, translation, and other technical tasks such as understanding large chunks of data. Focusing in customer service, AI chatbots such as ChatGPT and Bard AI utilize natural language processing (NLP) to work, understand, and communicate with users live to offer responses and opinions depending on the questions asked. They not only mimic human interaction but represent themselves as their own being which allows for one-on-one interaction with users by developing language and their own way of talking. In the field of gaming, non-playable characters (NPC's) are used to better the in game experience by providing insights from the bots and other characters that are implemented in many story-mode and first person shooter (FPS) games. In addition, when using for translation, these generative AI's are able to understand thousands of other languages and translate them to help the user understand information. This is helpful and leads to a larger appeal of an audience. These applications are evolving over time and portray the various uses of language through AI in industries, markets, and daily situations.
+
+
+== Challenges and limitations of AI language creation ==
+Although AI seems to be evolving rapidly, it faces many technical challenges. For example, in many cases the language used by AI is very vague, and thus confusing for the user to understand. In addition, there is a "black-box problem"[11] in which there is a lack of transparency and interpretability in the language of AI outputs. In addition, as premium versions of AI chatbots come forward, they can scrape data from the web, which may lead to biases in the information they present. AI models could accidentally form opinions based on the language (words and sentences) from which they are trained. This is undesirable for a neutral-minded AI.
+It is intended to overcome these limitations and challenges in future, as the models learn more language through conversations and information they receive. This will strengthen language creation and aid in the conversational skills and understanding of the AI, which can then be implemented to an acceptable standard.
+
+
+== Ethical risks in AI language development ==
+Many ethical risks arise from the challenges of AI language development and conversation, such as the misuse of these chatbots to create fake information or manipulate others. In addition, there is a strong privacy concern when using chatbots. Many are concerned with the AI saving and selling information. There are many guidelines from journals such as IEEE and the EU that mention the necessary measures "to ensure privacy preservation ... involving sensitive information". That article calls for responsible AI use, especially for sensitive medical data, as explained within the article.
+As these technologies advance, it is critical that ethical standards are met, in order to achieve privacy of information and to maintain a neutral standpoint in communicating with users.
+
+
+== Future of AI language creation ==
+In conclusion, as AI technology continue to evolve, the goal is to develop refined systems in which there is a neutral, but informative standpoint from the AI. There are many types of upcoming deep learning and neural network models that will be used to dive deeper and develop multiple layers of checking which will be helpful for the NLP as it will ensure enhanced interactions with users. These integrations and stronger models will lead to a safer environment of communication to prevent biases, any irrational claims, and a better environment within games, customer service, VR/AR systems, and translation within thousands of languages. There is a future towards medical scribing and communication with doctors during live surgeries. The future is promising for generative AI language as it will continue to grow by being trained on millions of new words, sentences, and dialect day by day through the use of intricate computational models[14].
+File:Deep Learning in Natural Language Processing.jpeg (this image portrays the intricate modeling of NLP and how it ensures its accuracy during communication)
+
+
+== See also ==
+Artificial language
+Biocommunication (science)
+Evolutionary linguistics
+
+
+== References ==

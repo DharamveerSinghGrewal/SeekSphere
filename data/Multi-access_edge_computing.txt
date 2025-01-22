@@ -1,0 +1,39 @@
+Multi-access edge computing (MEC), formerly mobile edge computing, is an ETSI-defined network architecture concept that enables cloud computing capabilities and an IT service environment at the edge o...
+
+Multi-access edge computing (MEC), formerly mobile edge computing, is an ETSI-defined network architecture concept that enables cloud computing capabilities and an IT service environment at the edge of the cellular network and, more in general at the edge of any network. The basic idea behind MEC is that by running applications and performing related processing tasks closer to the cellular customer, network congestion is reduced and applications perform better. MEC technology is designed to be implemented at the cellular base stations or other edge nodes, and enables flexible and rapid deployment of new applications and services for customers. Combining elements of information technology and telecommunications networking, MEC also allows cellular operators to open their radio access network (RAN) to authorized third parties, such as application developers and content providers.
+Technical standards for MEC are being developed by the European Telecommunications Standards Institute, which has produced a technical white paper about the concept.
+
+
+== Distributed computing in the RAN ==
+MEC provides a distributed computing environment for application and service hosting. It also has the ability to store and process content close to cellular subscribers, for faster response time. Applications can also be exposed to real-time radio access network (RAN) information.
+The key element is the MEC application server, which is integrated at the RAN element. This server provides computing resources, storage capacity, connectivity and access to RAN information. It supports a multitenancy run-time and hosting environment for applications.  The virtual appliance applications are delivered as packaged operating system virtual machine (VM) images or containers incorporating operating systems and applications. The platform also provides a set of middleware application and infrastructure services. Application software can be provided from equipment vendors, service providers and third-parties.
+
+
+== Deployment ==
+The MEC application server can be deployed at the macro base station EnodeB that is part of an LTE cellular network, or at the Radio Network Controller (RNC) that is part of a 3G cellular network and at a multi-technology cell aggregation site. The multi-technology cell aggregation site can be located indoors or outdoors.
+
+
+== Business and technical benefits ==
+By using mobile edge computing technology, a cellular operator can efficiently deploy new services for specific customers or classes of customers. The technology also reduces the signal load of the core network, and can host applications and services in a less costly way. It also collects data about storage, network bandwidth, CPU utilization, etc., for each application or service deployed by a third party. Application developers and content providers can take advantage of close proximity to cellular subscribers and real-time RAN information.
+MEC has been created using open standards and application programming interfaces (APIs), using common programming models, relevant tool chains and software development kits to encourage and expedite the development of new applications for the new MEC environment.
+
+
+== Applications ==
+Since MEC architecture has only recently been proposed, there are as yet very few applications that have adopted this architecture. However, many case studies have been proposed in recent articles. Some of the notable applications in mobile edge computing are computational offloading,  content delivery, mobile big data analytics, edge video caching, collaborative computing, connected cars, smart venues, smart enterprises, healthcare, smartgrids, service function chaining,  indoor positioning, etc.
+
+
+== Current uses ==
+Some applications which incorporate MEC were made available in 2015. For example, active device location tracking allows operators to track active terminal equipment, independent of Global Positioning System devices. This is based on third-party geolocation algorithms within an application hosted on the MEC application server.
+Another use is distributed content and Domain Name System (DNS) caching, which reduces server load and speeds up delivery of data to customers.
+The first commercial product available at a bigger scale is AWS Wavelength. Customers are able to run their applications on AWS services in the edge of a 4G/5G network of a specific telco.
+
+
+== Technical standards ==
+Technical standards for MEC are being developed by the European Telecommunications Standards Institute (ETSI), which created a new Industry Specification Group in 2014 for this purpose. The participating companies are: Allot Communications Systems Ltd, ASTRI, AT&T, B-Com, Cadzow Communications Consulting, Ceragon Networks, Cisco Systems Belgium, ETRI, Eurecom, Fujitsu Laboratories of Europe, Hewlett-Packard France, Huawei TechnologiesFrance, Huawei Technologies(UK) Co. Ltd, IBM Europe, Intel Corporation, ISMB, InterDigital Communication, ITRI, JCP-Connect, Juniper, Motorola Mobility Ltd, National Technique Assistance Centre, NEC Europe Ltd, Nokia Solutions and Networks, NTT Corporation, NTT Docomo, Orange, PoLTE, PeerApp Ltd, PT Portugal SGPS SA, Quortus Limited, Red Hat Ltd, Saguna Networks, Samsung Electronics R&D Institute UK Ltd, Sony Europe Ltd, Sony Mobile Communications, Telecom Italia, Telefonica, Telekom Austria AG, Turk Telekom, Vasona Networks, Verizon, Viavi Solutions, Vodafone Group Services plc, Xilinx Inc., YAANA Ltd, and ZTE Corporation.
+
+
+== References ==
+
+
+== Further reading ==
+Insun Jang, Sukjin Choo, Myeongsu Kim, Sangheon Pack, György Dán, "The Software-Defined Vehicular Cloud: A New Level of Sharing the Road", IEEE Vehicular Technology Magazine, vol. 12, no. 2, Jun. 2017 DOI 10.1109/MVT.2017.2665718,

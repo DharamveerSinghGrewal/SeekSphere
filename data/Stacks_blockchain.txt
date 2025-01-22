@@ -1,0 +1,29 @@
+Stacks, formerly Blockstack, is a layer-2 blockchain that extends the use of Bitcoin to include smart contracts, decentralized finance ("DeFi"), non-fungible tokens (NFTs), and decentralized apps ("DA...
+
+Stacks, formerly Blockstack, is a layer-2 blockchain that extends the use of Bitcoin to include smart contracts, decentralized finance ("DeFi"), non-fungible tokens (NFTs), and decentralized apps ("DApps"), while still maintaining Bitcoin finality. Stacks, like the Lightning Network, Merlin Chain, Rootstock Infrastructure Framework (RIF) and Dovi, is aimed at improving the functionality of Bitcoin.
+
+
+== History ==
+The Blockstack project was originally founded by Muneeb Ali and Ryan Shea in 2013 at the Princeton Computer Science department. The two co-founders took their new start-up through the Y Combinator accelerator program in 2014 and raised $1.33 million in seed investment from Union Square Ventures (known for investing in Twitter, Stripe, Coinbase and more as start-ups), alongside Naval Ravikant and SV Angel. By 2017, Blockstack locked in two additional funding rounds totalling $4 million. In 2017, Blockstack went on to launch an initial coin offering (ICO) which raised close to $53 million. BlockStack PBC (now called Hiro PBC) was the first to launch a SEC qualified token offering in July 2019. The start-up spent almost a year to ensure they met the SEC qualifications and consequently raised another $15.5 million in capital from the token offering.
+In October 2020 the community rebranded the Blockstack network and application ecosystem  to the Stacks ecosystem and the Blockstack PBC company rebranded to Hiro PBC. After the rebrand, Hiro PBC changed its aim from guiding the Stacks blockchain to focusing on developing tools for the Stacks network.
+With the introduction of the Stacks Blockchain 2.0 on 14 January 2021, Hiro PBC revoked their sole control of the network. Due to this, the Stacks token could no longer be viewed as a security under SEC Regulation A+ qualifications and filed an exit report.
+
+
+== Design ==
+At its inception, Blockstack aimed to offer solutions to the problems of internet privacy, security and data breaches (especially in cloud storage). It did so through offering a decentralized internet platform where users could completely own and control their personal information through a network of compatible browsers. With Blockstack, users have choice on what data they share with other users and applications and no longer have to upload data to an external site. By using the decentralized security Bitcoin offers, an user would receive digital private keys to create their internet identity on the Blockstack network.
+After rebranding Blockstack to Stacks and releasing the Stacks Blockchain 2.0, Hiro PBC moved their focus to securing Stacks transactions on Bitcoin, build experiences for the community, offering smart contracts on Bitcoin built on the Clarity programming language and offering developer tools to grow the functionality of Bitcoin and other chains through dApps.
+
+
+== Applications ==
+
+
+=== DeFi ===
+The potential of decentralized finance with Bitcoin security has brought attention to Stacks. Companies like Velar and AlexLab offer Decentralized Exchanges (DEX) among other products that allows trading of SIP-10 tokens and stablecoins. Zest Protocol is another example of a company using Stacks to offer borrowing and lending services. The Nakamoto upgrade has brought more secured and faster transactions to Stacks.
+
+
+=== CityCoins ===
+In 2021, the CityCoins project launched fungible tokens for the cities of Miami and New York City. In September 2021, Miami's city commissioners voted to accept the protocol treasury, valued at $21 million at the time. MiamiCoin's value crashed, and so Stacks donated $5.25M to the City of Miami.
+As of March 2023, Bloomberg was reporting that CityCoin was facing a "quiet demise" as liquidity issues and a lack of interest caused both the New York City and Miami coins to be delisted from the OkCoin cryptocurrency exchange.
+
+
+== References ==

@@ -1,0 +1,26 @@
+EnduroSat AD is a Bulgarian aerospace manufacturer headquartered in Sofia. It was founded in 2015 by Raycho Raychev.  The company designs, builds, and operates CubeSats and Nanosatellites for commerci...
+
+EnduroSat AD is a Bulgarian aerospace manufacturer headquartered in Sofia. It was founded in 2015 by Raycho Raychev. 
+The company designs, builds, and operates CubeSats and Nanosatellites for commercial and scientific missions and is developing inter-satellite linking and data applications. EnduroSat was nominated as one of the top 5 small satellite start-ups.
+EnduroSat is a member of the International Astronautical Federation (IAF) and International Telecommunication Union (ITU).
+
+
+== Missions ==
+EnduroSat One: first Bulgarian CubeSat mission. The cubesat was developed within the Space Challenges 2018 program and aims at raising awareness on the topic of satellite communications and popularizing amateur radio activities. It was embarked on the cargo resupply mission Cygnus CRS-9 to the ISS launched on 21 May 2018 from Wallops Island and was deployed on 13 July 2018 via the ISS' JEM airlock.
+SPARTAN: first Shared Sat mission, it consists in a 6U cubesat carrying a total of 7 payloads. It was launched on 30 June 2021 on a Falcon 9 Block 5 rocket as part of SpaceX Transporter-2 rideshare mission.
+Platform 1 (SharedSat 2141): second 6U Shared Sat mission that includes an electric propulsion demonstration for Hypernova Space Technologies and the Edge computing payload from IBM. It was launched on 25 May 2022 on a Falcon 9 Block 5 rocket as part of SpaceX Transporter-5 mission.
+Platform 2 (SharedSat 2211): it includes a space weather payload from Mission Space and two space propulsion demonstrations, one from Magdrive and one from Hypernova Space Technologies It was launched on 3 January 2023 on a Falcon 9 Block 5 rocket as part of SpaceX Transporter-6 mission.
+Platform 3 (Sateliot_0 Groundbreaker, 2B5GSAT): 6U demonstrator of Sateliot's announced constellation for 5G IoT connectivity in Low Earth orbit. It was launched on 15 April 2023 on a Falcon 9 Block 5 rocket as part of SpaceX Transporter-7 mission.
+TAIFA-1: built on behalf of the Kenyan Space Agency and SayariLabs, it's a 3U cubesat equipped with a hyperspectral Earth observation camera intended to provide disaster prevention and mitigation capabilities.It was launched on 15 April 2023 on a Falcon 9 Block 5 rocket as part of SpaceX Transporter-7 mission.
+Platform 5: Shared Sat mission. No details have been released so far about the payloads hosted on this cubesats. It was launched on 11 November 2023 as part of SpaceX Transporter-9 rideshare mission.
+OSW Cazorla: 3U cubesats built for Odyssey SpaceWorks, a company specialized in operating satellites that house miniaturized R&D labs. This first satellite hosts two labs: one contains a bioreactor to grow multiple independent cultures of animal muscle tissue built by the Kaplan Lab at Tufts University, and one contains sensors made by Physical Synthesis to be tested in high stress environments. It was launched on 11 November 2023 as part of SpaceX Transporter-9 rideshare mission.
+Barry (B1B2): 12U demonstrator for Rogue Space Systems' constellation of orbital robots for close-up inspection and assistance. This first satellite will validate a variety of hardware and software technologies, including Rogue’s Scalable Compute Platform (SCP). It was launched on 11 November 2023 as part of SpaceX Transporter-9 rideshare mission.
+PEARL-1C, 1H: two 6U cubesats for Foxconn. They serve as demonstrators for their planned LEO broadband communications satellites and their beyond 5G (B5G) capabilities. They were launched on 11 November 2023 as part of SpaceX Transporter-9 rideshare mission.
+
+
+== References ==
+
+
+== External links ==
+Official website
+Twitter Account

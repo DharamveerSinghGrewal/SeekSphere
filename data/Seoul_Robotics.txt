@@ -1,0 +1,31 @@
+Seoul Robotics (Korean: 서울로보틱스) is a software company based in Seoul, South Korea. The company was founded in 2017 by HanBin Lee. Seoul Robotics creates 3D vision software for LiDAR and other sensing ...
+
+Seoul Robotics (Korean: 서울로보틱스) is a software company based in Seoul, South Korea. The company was founded in 2017 by HanBin Lee. Seoul Robotics creates 3D vision software for LiDAR and other sensing technologies. Its software is used for applications in fields such as autonomous vehicles, advanced driver assistance systems, smart manufacturing, construction, logistics, and smart cities. Notable partners of Seoul Robotics include BMW, Volvo, Mercedes-Benz, Mando, and Qualcomm.
+As of February 2021, the company has 30 employees. Seoul Robotics' headquarters is located in Seocho-Gu, Seoul. The company has regional offices in the Silicon Valley, Detroit, Michigan, and Munich, Germany.
+
+
+== Company history ==
+Seoul Robotics was founded in August 2017 by members of an online study group who studied artificial intelligence and deep learning together. Led by now CEO HanBin Lee, the study group entered the Didi-Udacity Self-Driving Car Challenge in July 2017 as ‘Team Korea’, and placed 10th out of 2000 teams. The team's success led them to start a business centered around their LiDAR expertise. Seoul Robotics was founded the next month by four founders, including Lee.
+The startup received initial seed funding from Hong Kong accelerator Zeroith.AI, and the Tech Incubator Program for Startups Korea (TIPS). Seoul Robotics announced $5M of Series A round investment in December 2019, led by KB Investment, KDB Capital, Artesian VC and Access Ventures, which is led by the former head of M&A APAC for Google. By April, the company had raised KRW 6.5 billion (US$5.7 million). This funding was used to expand Seoul Robotics' North American operations.
+In the Summer of 2019, Seoul Robotics initiated a series of three major POC projects with BMW, E-mart, and Volvo. The company exhibited their product at the Consumer Electronics Show in both 2020 and 2021, and at MODEX 2020.
+Seoul Robotics officially entered the US market in January 2021, along with the launch of Discovery, an all-in-one hardware and software solution.
+
+
+== Technology ==
+
+
+=== SENSR ===
+
+SENSR (Smart 3D Perception Engine by Seoul Robotics) is the primary software of Seoul Robotics. SENSR recognizes and separately categorizes humans, automobiles and bicycles using deep learning.
+SENSR 3D tracking software is an all-in-one person and vehicle tracking solution that simplifies the 3D sensor experience and lowers the company's barriers to implementing insights from 3D data into systems and processes. Patented 3D computer vision systems, combined with machine learning, can detect, track and classify objects in real-time in real-world 3D space.
+
+
+=== Discovery ===
+Discovery is the primary commercial product of Seoul Robotics. Discovery kits contain both hardware (LiDAR sensors) and software (SENSR) and are specified for specific applications and uses. The product is named after the U.S. Space Shuttle Discovery.
+
+
+== Awards and recognition ==
+In 2019, Seoul Robotics was selected as a K-Global DB-Star top startup by the Korean Ministry of Science and ICT.
+
+
+== References ==

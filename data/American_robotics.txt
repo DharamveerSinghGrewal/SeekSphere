@@ -1,0 +1,158 @@
+Robots of the United States include simple household robots such as Roomba to sophisticated autonomous aircraft such as the MQ-9 Reaper that cost 18 million dollars per unit. The first industrial robo...
+
+Robots of the United States include simple household robots such as Roomba to sophisticated autonomous aircraft such as the MQ-9 Reaper that cost 18 million dollars per unit. The first industrial robot, robot company, and exoskeletons as well as the first dynamically balancing, organic, and nanoscale robots originate from the United States.
+
+
+== History ==
+
+In 1898 Nikola Tesla publicly demonstrated a radio-controlled torpedo. Based on patents for "teleautomation", Tesla hoped to develop it into a weapon system for the US Navy.
+In 1926, Westinghouse Electric Corporation created Televox, the first robot put to useful work. In the 1930s, they created a humanoid robot known as Elektro for exhibition purposes, including the 1939 and 1940 World's Fairs.
+Unimate was the first industrial robot,
+which worked on a General Motors assembly line in New Jersey in 1961.
+It was created by George Devol in the 1950s using his original patents. Devol, together with Joseph F. Engelberger started Unimation, the world's first robot manufacturing company.
+In 2008 the U.S. Air Force 174th Fighter Wing transitioned from F-16 piloted planes to MQ-9 Reaper drones, which are capable remote controlled or autonomous flight, becoming the first all-robot attack squadron.
+
+
+== Modern robots ==
+
+
+=== Domestic ===
+
+PatrolBot a configurable guide/delivery/surveillance robot
+Roomba a vacuum cleaner
+Scooba a floor washer
+Looj a rain gutter cleaner
+
+
+=== Entertainment ===
+iRobot Create
+
+
+=== Extraterrestrial ===
+ATHLETE lunar rover
+Mars Exploration Rover
+
+
+=== Medical ===
+
+Da Vinci Surgical System
+
+
+=== Military (offensive/multi-role) ===
+
+
+==== Aerial ====
+MQ-8 Fire Scout
+MQ-9 Reaper
+
+
+==== Terrestrial ====
+Black Knight unmanned tank
+Gladiator tactical unmanned ground vehicle
+MarkV-A1
+MULE / XM1219
+PackBot / SUGV
+TALON
+
+
+=== Military (non-offensive) ===
+
+
+==== Aerial ====
+RQ-4 Global Hawk
+RQ-7 Shadow
+RQ-14 Dragon Eye
+
+
+==== Terrestrial ====
+ACER
+Battlefield Extraction-Assist Robot
+BigDog dynamically balancing quadruped
+Crusher
+Dragon Runner
+MATILDA
+
+
+=== Nanoscale ===
+
+New York University walking DNA robot Smallest Robot: Science Videos - Science News - ScienCentral
+
+
+=== Walker ===
+
+BigDog dynamically balancing quadruped
+Anybots Dexter, the first dynamically balancing biped 
+Timberjack Walking Machine logger
+
+
+== Non-autonomous (human operated) ==
+These machines are human operated and not autonomous. Therefore, they do fit the classical description of a robot.
+
+
+=== Exoskeleton ===
+
+Berkeley Lower Extremity Exoskeleton
+Sarcos/Raytheon XOS Exoskeleton, currently the most advanced exoskeleton, research for the XOS is funded by DARPA and NIST for use in the military and to "replace the wheelchair".
+
+
+=== Military ===
+MQ-1 Predator
+
+
+== Research ==
+Tufts University morphing chemical robot Tufts to develop morphing 'chemical robots'
+
+
+== Software ==
+
+Microsoft Robotics Studio - .NET based
+VxWorks - operating system, notably used by ASIMO
+Robot App Store - Apps for every robot
+
+
+== American robotics companies ==
+Anybots
+Barrett Technology
+Berkshire Grey
+Bluefin Robotics
+Boston Dynamics
+Brooks Automation
+Cobalt Robotics
+Cobot Nation
+Diligent Robotics
+Energid Technologies
+Evolution Robotics
+Fetch Robotics
+Foster-Miller
+Harvest Automation
+Hydroid
+Inspectorbots
+Intuitive Surgical
+iRobot
+Kiva Systems
+Locus Robotics
+Mitsubishi Electric Automation - Robotics
+Myomo (myoelectric prosthetics)
+Rethink Robotics
+Savioke
+SuperDroid Robots
+Vecna Robotics
+Vishwa Robotics
+Willow Garage
+
+
+== See also ==
+Japanese robotics
+Robots in warfare
+Shadow Hand British Robotics company
+Underwater robot
+Drone
+Terminator, movie about and artificial intelligence
+
+
+== References ==
+
+
+== External links ==
+
+http://www.shadowrobot.com/

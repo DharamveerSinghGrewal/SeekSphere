@@ -1,0 +1,62 @@
+Frank Leymann (25 September 1957 in Bochum) is a German computer scientist and mathematician. He is professor of computer science at the University of Stuttgart, Germany, and director and founder of t...
+
+Frank Leymann (25 September 1957 in Bochum) is a German computer scientist and mathematician. He is professor of computer science at the University of Stuttgart, Germany, and director and founder of the Institute of Architecture of Application Systems (IAAS).
+
+
+== Biography ==
+Leymann studied Mathematics, Physics and Astronomy, and received a Master of Science degree in Mathematics (i.e. Dipl.-Math.) in 1982 from University of Bochum, Germany. He worked as research staff member in the Faculty of Mathematics at University of Bochum, where he obtained his PhD in Mathematics (i.e. Dr. rer. nat.) in 1984. In his PhD thesis he studied foliations on spaces with singularities. After his PhD he went to IBM Research and Development contributing to software products like DB2, Websphere, or MQSeries. Leymann was main co-inventor and chief software architect of IBM's business process management and workflow products, and was appointed IBM Distinguished Engineer for this work. In 2004, he was appointed full professor of computer science at University of Stuttgart where he founded the Institute of Architecture of Application Systems. He holds many granted patents in the area of software.
+
+
+== Work ==
+Frank Leymann's main contributions are from the domains of workflow systems, service-oriented architecture, cloud computing, pattern languages and quantum computing.
+
+
+=== Database management ===
+His initial focus was on database technology:  
+In order to simplify queries on relational databases with many tables, Leymann co-developed a universal relation system
+on top of existing relational database systems. Contributions to architectural aspects of stored procedures and user defined functions followed. The latter resulted in investigating the use of object databases, especially ObjectStore, as the underpinning of other middleware. At this time, developers were quite unfamiliar with object databases, thus, Leymann helped to create tooling to ensure proper performance of corresponding applications.
+
+
+=== Business process management & workflow systems ===
+Workflow systems support companies in modeling, optimizing, and executing their business processes in computing environments. Several languages have been proposed for modeling business processes, out which two languages are widely supported in industry: one of which is the OASIS (organization) standard Business Process Execution Language (BPEL) that Leymann co-invented and which in turn is based on Web Services Flow Language (WSFL), a language that Leymann authored for IBM; the other language is Business Process Model and Notation 2.0 (BPMN), which Leymann co-author too. Such modeling languages support "programming in the large " and allow splitting high-level logic of control- and data flow within an overall application from its low-level logic implementing elementary business functions; this way, workflow-based applications can be created, that allow changing business processes without having to change the programs implementing individual steps of the process. 
+Often, collections of such steps represent long running transactions, i.e. performed steps must succeed or - in case of an error - must be collectively undone; to support this behavior in business processes Leymann introduced compensating transactions in workflow systems
+Based on his contributions to IBM's workflow products, Leymann co-authored the seminal book "Production Workflow" that explains how to build scalable and reliable workflow systems.
+
+
+=== Service computing ===
+The architecture and implementation of workflow systems anticipated many aspects of service-oriented programming like the use of service interfaces, service invoker, or service listener. Consequently, from 2000 on, Leymann helped to define several of the original web service standards like WS-Addressing, WS-Business Activity, BPEL4People, or the Web Services Resource Framework. Especially, aggregation of web services has been addressed by BPEL and WSFL. How the plethora of web service standards fit into an architecture for an enterprise service bus was described in a book on the web service platform co-authored by Leymann.
+
+
+=== Cloud computing ===
+The work on the web services resource framework had already shown that elements of a computing infrastructure like hardware, operating systems etc. can be perceived as services too - just like software functionality. Consequently, complete applications can be outsource to the cloud, which requires standards and technology to provision and manage applications in such environments: Frank Leymann was initial co-author of OASIS TOSCA a language that allows to specify the structure of applications, their artifacts, and dependencies, as well as the associated operational semantics to automatically provision such applications. Leymann's group at University of Stuttgart built an open source implementation of this standard called OpenTOSCA. Guidelines for building applications that fit properly into the cloud have been derived jointly with industry partners and was published as a vendor-neutral language of cloud computing patterns.
+
+
+=== Pattern languages ===
+Leymann and his group investigated the use of pattern languages not only in the area of cloud computing but in several other domains like the internet of things, green business processes, or quantum computing. The use of pattern languages to (semi-)automatically rewrite the architecture of software has been suggested. Patterns are abstractions of concrete working solutions, but in course of the abstraction process the knowledge about these workings solutions is lost - with the consequence that working solutions are created over and over again when a pattern is applied. To avoid this ineffectiveness, the reuse of concrete solutions has been investigated and worked out. In order to show that pattern languages and corresponding new concepts are applicable outside of computer science, they are regularly applied in the humanities, especially to the domain of films and musicology.
+
+
+=== Quantum Computing ===
+Quantum computing has the potential to solve problems that are intractable today. But programming quantum computers is very different from programming classical computers. In order to support practitioners building solutions based on quantum computers, Leymann and his group proposed a platform for sharing knowledge about building corresponding applications. Within the project PlanQK (which Leymann lead as scientific director) this platform was built. Other work focused on a software engineering method for developing hybrid quantum applications, and corresponding development tools supporting the creation of applications even on noisy quantum computers.
+
+
+== Honors and awards ==
+Elected Member, European Academy of Sciences and Arts (2025)
+Fellow, International Artificial Intelligence Industry Alliance (AIIA) (2024)
+Honorary Professor, TU Wien (2023)
+Appointment, WSO2 Technology Fellow (2023)
+Appointment, Kurt Gödel Visiting Professor for Quantum Computing, TU Wien (2020)
+Appointment, Member of the Expert Council for Quantum Computing of the German Government (2020)
+Fellow, Asia-Pacific Artificial Intelligence Association (AAIA) (2020)
+Fellow, Center of Integrated Quantum Science and Technology (IQST) (2019)
+Elected Member, Academia Europaea (2016)
+Honorary Doctorate, University of Crete (2015)
+Appointment, IBM Distinguished Engineer (2000)
+Honorary Professor, University of Stuttgart (1999)
+Elected Member, IBM Academy of Technology (1996)
+
+
+== References ==
+
+
+== External links ==
+Leymann's University of Stuttgart homepage

@@ -1,0 +1,8 @@
+In blockchain technology, a testnet is an instance of a blockchain powered by the same or a newer version of the underlying software, to be used for testing and experimentation without risk to real fu...
+
+In blockchain technology, a testnet is an instance of a blockchain powered by the same or a newer version of the underlying software, to be used for testing and experimentation without risk to real funds or the main chain. Testnet coins are separate and distinct from the official (mainnet) coins, don't have value, and can be obtained freely from faucets.
+Testnets allow for the development of blockchain applications without the risk of losing funds.
+A bug was discovered in the Bitcoin Core software that gave miners the ability to take down essential parts of the Bitcoin infrastructure (nodes) by sending a 'bad' block to the blockchain.
+
+
+== References ==

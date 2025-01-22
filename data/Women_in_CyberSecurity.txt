@@ -1,0 +1,29 @@
+Women in CyberSecurity (WiCyS) is a 501(c)(3) non-profit aimed at supporting the recruitment, retention and advancement of women in cybersecurity. It is a global community of men and women dedicated t...
+
+Women in CyberSecurity (WiCyS) is a 501(c)(3) non-profit aimed at supporting the recruitment, retention and advancement of women in cybersecurity. It is a global community of men and women dedicated to bringing talented women and under-represented groups together to fill the cybersecurity jobs gap and make the field of cybersecurity more inclusive.
+
+
+== History ==
+Women in CyberSecurity was founded in 2013 by Ambareen Siraj from Tennessee Tech University through funding from the National Science Foundation. In less than ten years, the organization has grown into a leading alliance between academia, government, and industry. WiCyS is working to improve diversity and pipeline in the cybersecurity workforce and it does so through numerous initiatives supported by Strategic Partners and more than 500 volunteers.
+Women in CyberSecurity' executive director is Lynn Dohm.
+
+
+== Annual Conference ==
+Women in CyberSecurity (WiCyS) is recognized for the annual cybersecurity conference supporting women in computer sciences. The first conference took place in Nashville, Tennessee. in 2014. The conference was funded by a grant from the National Science Foundation and provided funding for 100 attendees but had approximately 350 attendees due to an extension that was sponsored by 28 organizations.
+This flagship conference is the largest cybersecurity conference with equal representation from industry professionals, academia, and students. It is consistently listed in the top cybersecurity conferences to attend each year. The conference is focused on recruiting, retaining, and promoting women in cybersecurity, providing an opportunity to network and learn from each other and presents research on cybersecurity and technical topics, as well as diversity.
+In 2023 the conference grew to over 2,100 attendees and was sponsored by Bloomberg, Fortinet, Raytheon Technologies, Optum, Amazon Web Services, Google, Cisco, Deloitte, SentinelOne, GE, Carnegie Mellon University and the National Security Agency. The organization continues to gain support from notable names in technology as additional companies choose to commit to solving gender gaps.
+
+
+== Initiatives ==
+Women in CyberSecurity has a variety of initiatives and resources to help women aspiring to a career in cybersecurity or those already in the field. Initiatives include professional affiliates, student internship programs, veterans assistance, mentor/mentee programs and apprentice programs.
+
+
+== Student Chapters ==
+Women in CyberSecurity has over 260 student chapters in sixteen countries. Student chapters work in their school's community to promote the recruitment, retention and advancement of women students in cybersecurity. At least one Chapter representative is awarded a student scholarship to attend the WiCyS Annual Conference each year. A partnership with Microsoft will expand the number of countries participating in student chapters to 23.
+
+
+== Training Programs ==
+In partnership with (ISC)2, Women in CyberSecurity offers a Certified in Cybersecurity certification for underrepresented populations. In partnership with the SANS Institute, Women in CyberSecurity offers a Security Training Scholarship for Women in CyberSecurity members seeking cybersecurity employment. The scholarship is funded by Google, Bloomberg, and Craig Newmark Philanthropies. WiCyS also offers a WiCyS Fortinet NSE4 certification and a Cyber Defense Challenge program with the Target cybersecurity team.
+
+
+== References ==

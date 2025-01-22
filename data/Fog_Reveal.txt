@@ -1,0 +1,44 @@
+Fog Reveal is a tracking tool that aggregates location data from mobile apps. It is a product of FOG Data Science.    == FOG Data Science == FOG Data Science is a limited liability company based in Vi...
+
+Fog Reveal is a tracking tool that aggregates location data from mobile apps. It is a product of FOG Data Science. 
+
+
+== FOG Data Science ==
+FOG Data Science is a limited liability company based in Virginia. It was founded in 2016 by two former United States Department of Homeland Security officials. Matthew Broderick, managing partner at the company, was director of operations for the DHS from 2005 to 2006.
+
+
+== Functionality ==
+FOG Data Science purchases commercially available location data from Virginia-based company Venntel, collected from hundreds of mobile apps that sell information on user interests and movements, including the apps of Starbucks and Waze. The information is derived from advertising IDs, unique user IDs assigned to mobile devices allowing advertisers to track people's movements, habits, and usage of apps. Subscriptions to the service cost at least $7,500 per year. While the data is anonymized, officials have commented that competent law enforcement could use the information to identify individuals. According to FOG Data Science partner Matthew Broderick, their historical data profiles go back three years.
+
+
+== Use by law enforcement ==
+Fog Reveal is used by local, state and federal law enforcement agencies in the United States, since at least 2018. Documents procured by the Electronic Frontier Foundation through the Freedom of Information Act revealed that FOG Data Science had 40 contracts with "nearly two dozen agencies," including the Dallas Police Department and the Rockingham County, North Carolina sheriff's office. The software has been used to track individuals without requiring a search warrant. 
+According to a 2022 Associated Press investigation supported by the Pulitzer Center on Crisis Reporting, law enforcement agencies used Fog Reveal "to search hundreds of billions of records from 250 million mobile devices, and harnessed the data to create location analyses known among law enforcement as 'patterns of life.'"
+In December 2024, it was discovered that Fog Data Science was instructing law enforcement agencies to list the locations of doctor's offices and lawyers of potential suspects.
+
+
+== Reception ==
+Privacy advocates raised concerns that the use of Fog Reveal by law enforcement agencies could constitute an unreasonable search and seizure, violating the Fourth Amendment to the United States Constitution. Electronic Frontier Foundation adviser Bennett Cyphers described the software as "sort of a mass surveillance program on a budget."
+
+
+== See also ==
+Geo-fence warrant
+Mass surveillance in the United States
+Stingray phone tracker
+
+
+== References ==
+
+
+== Further reading ==
+Cyphers, Bennett (31 August 2022). "Inside Fog Data Science, the Secretive Company Selling Mass Surveillance to Local Police". Electronic Frontier Foundation.
+Guariglia, Matthew (31 August 2022). "What is Fog Data Science? Why is the Surveillance Company so Dangerous?". Electronic Frontier Foundation.
+Cops wanted to keep mass surveillance app secret; privacy advocates refused, Ars Technica, September 1, 2022
+How an obscure cellphone tracking tool provides police ‘mass surveillance on a budget’, PBS NewsHour, September 1, 2022
+The Police Found To Be Using ‘Fog Reveal’ App To Keep Tabs On Private Citizens — Causes Outrage, TechVisibility, September 3, 2022
+Here Is the Manual for the Mass Surveillance Tool Cops Use to Track Phones, VICE, September 1, 2022
+
+
+== External links ==
+Fog Reveal log-in Archived
+Fog Revealed: A Guided Tour of How Cops Can Browse Your Location Data, Electronic Frontier Foundation

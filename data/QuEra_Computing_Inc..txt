@@ -1,0 +1,29 @@
+QuEra Computing Inc. is a quantum computing company based in Boston, Massachusetts. The company develops quantum computers using neutral atoms based on research conducted at both Harvard University an...
+
+QuEra Computing Inc. is a quantum computing company based in Boston, Massachusetts. The company develops quantum computers using neutral atoms based on research conducted at both Harvard University and MIT. QuEra also develops software for simulating systems of Rydberg atoms. and finding solutions to Combinatorial Optimization problems.
+QuEra actively conducts research in Condensed Matter Physics and combinatorial optimization using neutral atoms as well.
+
+
+== History ==
+QuEra Computing was founded by Mikhail Lukin, Vladan Vuletić, Markus Greiner, Dirk Englund, Nathan Gemelke, and John Pena in 2018.
+Prior to QuEra’s founding, research into using and controlling neutral atoms had already started in 2015 at Harvard and MIT, culminating in a 51-qubit machine which later led to the development of a 256-qubit machine.
+On October 24th 2024, the Massachusetts Green High Performance Computing Center announced a $16 million expansion to its computing campus, planning to build a quantum computing complex. QuEra Computing was announced as a partner in the project.
+
+
+== Technology ==
+QuEra uses neutral atoms based on Rubidium which are controlled and trapped using lasers as its qubits.
+On November 1, 2022, QuEra released its 256-qubit machine Aquila, to the general public through the Amazon cloud service Braket.
+QuEra currently supports an analog computing mode that relies on the Rydberg blockade phenomena and the position of atoms to achieve superposition and entanglement. The analog mode could allow problems such as the Maximum Weight Independent set (graph theory) (MWIS) to be expressed and solved with research from the company to map other problems onto MWIS as well
+QuEra plans to offer a hybrid analog-digital quantum computer soon followed by a fully digital gate-based system.
+
+
+== See also ==
+Quantum computing
+Cloud-based quantum computing
+
+
+== References ==
+
+
+== External links ==
+Official website

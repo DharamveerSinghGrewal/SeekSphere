@@ -1,0 +1,151 @@
+Nvidia GTC (GPU Technology Conference) is a global artificial intelligence (AI) conference for developers that brings together developers, engineers, researchers, inventors, and IT professionals. Topi...
+
+Nvidia GTC (GPU Technology Conference) is a global artificial intelligence (AI) conference for developers that brings together developers, engineers, researchers, inventors, and IT professionals. Topics focus on AI, computer graphics, data science, machine learning and autonomous machines. Each conference begins with a keynote from Nvidia CEO and founder Jensen Huang, followed by a variety of sessions and talks with experts from around the world.
+It originated in 2009 in San Jose, California, with an initial focus on the potential for solving computing challenges through GPUs. In recent years, the conference focus has shifted to various applications of artificial intelligence and deep learning, including: self-driving cars, healthcare, high performance computing, professional visualization, and Nvidia Deep Learning Institute (DLI) training.
+
+
+== History ==
+GTC 2018 attracted over 8,400 attendees. Due to the COVID pandemic of 2020, GTC 2020 was converted to a digital event and drew roughly 59,000 registrants. The 2021 GTC keynote, which was streamed on YouTube on April 12, included a portion that was made with CGI using the Nvidia Omniverse real-time rendering platform. Due to the photorealism of the event, including a model of CEO Jensen Huang, news outlets reported not being able to discern that a portion of the keynote was CGI until later revealed in a blog post on August 11.
+
+
+== 2021 notable speakers by industry sector ==
+
+
+=== Research ===
+Geoffrey Hinton
+Yann LeCun
+Jürgen Schmidhuber
+Daphne Koller
+Yoshua Bengio, Full Professor, University of Montreal
+Rommie Amaro, Director, National Biomedical Computation Resource, University of California, San Diego
+Founder and Scientific Director, Mila - Quebec Artificial Intelligence Institute
+Peter Boyle, chair, Computational Quantum Field Theory, University of Edinburgh
+Soumith Chintala, Research Engineer, Facebook AI
+Francois Chollet, Software Engineer, Google
+Lillian Chong, Associate Professor, University of Pittsburgh
+Joseph Glover, Provost and SVP for Academic Affairs, University of Florida
+Ken Goldberg, Professor, University of California, Berkeley
+Sepp Hochreiter, Head of the Institute for Machine Learning, Kepler U. Linz
+Hatem Ltaief, Principal Research Scientist, Kaust
+Sriram Raghavan, VP IBM Research AI, IBM
+Raquel Urtasun, Professor, Department of Computer Science, University of Toronto
+
+
+=== Architecture, engineering, construction and design ===
+Amy Bunszel, EVP AEC Design Solutions, Autodesk
+Lori Hufford, VP, Applications Integration, Bentley Systems
+
+
+=== Automotive ===
+Topics around autonomous vehicles: techniques for developing safer, more efficient transportation, advancements in autonomous driving, end-to-end vehicle simulation, robotaxis, and trucking.
+
+Jesse Levinson, co-founder and CTO, Zoox
+Hildegard Wortmann, Member of the Board of Management, Audi AG
+
+
+=== Finance ===
+Sessions concern impacts of technology advances in financial technology (Fintech). Presentations focus on how companies, consumers, and money interact across industries and how AI allows Fintech interactions to be personalized with recommendation engines, how self-service uses conversational AI, how transactions are secured with fraud-detection models.
+
+Jie Chen, managing director in Corporate Model Risk, Wells Fargo
+Gerald Hanweck, VP, Software Eng, CBOE Global Markets
+Richard Huddleston, executive director, Morgan Stanley
+Ashok Srivastava, SVP and Chief Data Officer, Intuit
+
+
+=== Healthcare ===
+Sessions concern impacts of technology advances in healthcare.
+
+Ross Mitchell, AI Officer, Moffitt Cancer Center
+David Mobley, Professor, Pharm Sciences and Chemistry, University of California, Irvine
+David Ruau, Head of Global Data & Decision Science, Bayer
+Edward Suh, Mg Dir Research Information Services, St. Jude Children's Research Hospital
+
+
+=== Media, entertainment and gaming ===
+Vicki Dobbs Beck, Executive In Charge, ILMxLAB
+Rob Legato, VFX Supervisor, Titanic, The Jungle Book, The Lion King
+Kim Libreri, CTO, Epic Games
+Perry Nightingale, SVP and Head of Creative, WPP
+Abhay Parasnis, CTO and Chief Product Officer, Document Cloud, Adobe
+
+
+=== Retail ===
+Rob Armstrong, Director of Data Science, Tesco
+John Bowman, Director of Data Science, Walmart
+
+
+=== Telecommunications ===
+Sessions address subject matters concerning telecommunications and 5G: 5G network acceleration and security, AI-on-5G applications, and 6G research.
+
+Ganesh Harinath, VP and CTO, 5G MEC, Verizon Media
+Pardeep Kohli, President and CEO, Mavenir
+Shailesh Shukla, VP/GM Networking, Google Cloud
+Alex Sinclair, CTO, GSMA
+
+
+== 2022 notable speakers and sessions ==
+Jensen Huang, Founder and CEO, Nvidia: GTC 2022 Keynote
+Andrew Ng, Founder and CEO, DeepLearning.AI, Landing AI: The Data-centric AI Movement
+Lina Halper, Principal Animation Engineer, Nvidia: Deep Dive: One Click Animation Retargeting in Omniverse
+Douwe Kiela, Head of Research, Hugging Face: BigScience: Building a Large Hadron Collider for AI and NLP
+Prof. Dr. Bjorn Stevens, Director of the Department The Atmosphere in the Earth System, Max Planck Institute for Meteorology: Digital Twins for Understanding and Adapting to Climate Change
+Doruk Sonmez, Intelligent Video Analytics Engineer, OpenZeka: End-to-end Edge Solutions: Navigating Pre-qualified Hardware, Software, and Sensors for your NVIDIA Jetson Deployment
+
+
+== Conference topics ==
+
+
+=== Accelerated computing and developer tools ===
+Algorithms / Numerical Techniques; Libraries / Runtimes; Performance Optimization; Profilers / Debuggers / Code Analysis; Programming Languages / Compilers
+
+
+=== Computer vision ===
+Research; Intelligent Video Analytics; Image Processing
+
+
+=== Cybersecurity and Fraud detection ===
+
+
+=== Data science ===
+
+
+=== Data center ===
+Data Center / Cloud - Business Strategy; Data Center / Cloud Infrastructure - Technical; Data Center CPUs; Networking; Virtualization
+
+
+=== Deep learning ===
+Frameworks; Inference; Training
+
+
+=== Internet of things (IoT), 5G, edge computing ===
+Signal & Sensor Processing
+
+
+=== Graphics ===
+AI Applications, Art; Animation / VFX / Virtual Production; Production Rendering and Ray Tracing; Real-Time Rendering and Ray Tracing
+
+
+=== High performance computing (HPC) ===
+Astronomy / Astrophysics; Climate / Weather / Ocean Modeling; Computational Chemistry and Materials Science; Computational Fluid Dynamics; Computational Physics; Quantum Computing; Supercomputing; Scientific Visualization
+
+
+=== Conversational AI and natural language processing ===
+
+
+=== Recommenders and personalization ===
+
+
+=== Autonomous machines ===
+Robotics; Robotics Research; Reinforcement Learning
+
+
+=== 3D design collaboration and simulation ===
+
+
+=== Video streaming and conferencing ===
+
+
+=== XR (virtual and augmented reality) ===
+
+
+== References ==

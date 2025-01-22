@@ -1,0 +1,86 @@
+Laws of robotics are any set of laws, rules, or principles, which are intended as a fundamental framework to underpin the behavior of robots designed to have a degree of autonomy. Robots of this degre...
+
+Laws of robotics are any set of laws, rules, or principles, which are intended as a fundamental framework to underpin the behavior of robots designed to have a degree of autonomy. Robots of this degree of complexity do not yet exist, but they have been widely anticipated in science fiction, films and are a topic of active research and development in the fields of robotics and artificial intelligence.
+The best known set of laws are those written by Isaac Asimov in the 1940s, or based upon them, but other sets of laws have been proposed by researchers in the decades since then.
+
+
+== Isaac Asimov's "Three Laws of Robotics" ==
+
+The best known set of laws are Isaac Asimov's "Three Laws of Robotics". These were introduced in his 1942 short story "Runaround", although they were foreshadowed in a few earlier stories. The Three Laws are:
+
+A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.
+A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.
+In "The Evitable Conflict" the machines generalize the First Law to mean:
+
+No machine may harm humanity; or, through inaction, allow humanity to come to harm.
+This was refined in the end of Foundation and Earth. A zeroth law was introduced, with the original three suitably rewritten as subordinate to it:
+
+Adaptations and extensions exist based upon this framework. As of 2024 they remain a "fictional device".
+
+
+=== Additional laws ===
+Authors other than Asimov have often created extra laws. 
+The 1974 Lyuben Dilov novel, Icarus's Way (a.k.a., The Trip of Icarus) introduced a Fourth Law of robotics: "A robot must establish its identity as a robot in all cases." 
+Dilov gives reasons for the fourth safeguard in this way: "The last Law has put an end to the expensive aberrations of designers to give psychorobots as humanlike a form as possible. And to the resulting misunderstandings..."
+A fifth law was introduced by Nikola Kesarovski in his short story "The Fifth Law of Robotics". This fifth law says: "A robot must know it is a robot." 
+The plot revolves around a murder where the forensic investigation discovers that the victim was killed by a hug from a humaniform robot that did not establish for itself that it was a robot. The story was reviewed by Valentin D. Ivanov in SFF review webzine The Portal.
+For the 1986 tribute anthology, Foundation's Friends, Harry Harrison wrote a story entitled, "The Fourth Law of Robotics". This Fourth Law states: "A robot must reproduce. As long as such reproduction does not interfere with the First or Second or Third Law."
+In 2013 Hutan Ashrafian proposed an additional law that considered the role of artificial intelligence-on-artificial intelligence or the relationship between robots themselves – the so-called AIonAI law. This sixth law states: "All robots endowed with comparable human reason and conscience should act towards one another in a spirit of brotherhood."
+
+
+== EPSRC / AHRC principles of robotics ==
+In 2011, the Engineering and Physical Sciences Research Council (EPSRC) and the Arts and Humanities Research Council (AHRC) of United Kingdom jointly published a set of five ethical "principles for designers, builders and users of robots" in the real world, along with seven "high-level messages" intended to be conveyed, based on a September 2010 research workshop:
+
+Robots should not be designed solely or primarily to kill or harm humans.
+Humans, not robots, are responsible agents. Robots are tools designed to achieve human goals.
+Robots should be designed in ways that assure their safety and security.
+Robots are artifacts; they should not be designed to exploit vulnerable users by evoking an emotional response or dependency. It should always be possible to tell a robot from a human.
+It should always be possible to find out who is legally responsible for a robot.
+The messages intended to be conveyed were:
+
+We believe robots have the potential to provide immense positive impact to society. We want to encourage responsible robot research.
+Bad practice hurts us all.
+Addressing obvious public concerns will help us all make progress.
+It is important to demonstrate that we, as roboticists, are committed to the best possible standards of practice.
+To understand the context and consequences of our research, we should work with experts from other disciplines, including: social sciences, law, philosophy and the arts.
+We should consider the ethics of transparency: are there limits to what should be openly available?
+When we see erroneous accounts in the press, we commit to take the time to contact the reporting journalists.
+The EPSRC principles are broadly recognised as a useful starting point. In 2016 Tony Prescott organised a workshop to revise these principles, e.g. to differentiate ethical from legal principles.
+
+
+== Judicial development ==
+Another  comprehensive terminological codification for the legal assessment of the technological developments in the robotics industry has already begun mainly in Asian countries. This progress represents a contemporary reinterpretation of the law (and ethics) in the field of robotics, an interpretation that assumes a rethinking of traditional legal constellations. These include primarily legal liability issues in civil and criminal law.
+
+
+== Satya Nadella's laws ==
+In June 2016, Satya Nadella, the CEO of Microsoft Corporation, had an interview with the Slate magazine and reflected on what kinds of principles and goals should be considered by industry and society when discussing artificial intelligences:
+
+"A.I. must be designed to assist humanity", meaning human autonomy needs to be respected.
+"A.I. must be transparent" meaning that humans should know and be able to understand how they work.
+"A.I. must maximize efficiencies without destroying the dignity of people."
+"A.I. must be designed for intelligent privacy" meaning that it earns trust through guarding their information.
+"A.I. must have algorithmic accountability so that humans can undo unintended harm."
+"A.I. must guard against bias" so that they must not discriminate against people.
+
+
+== Tilden's laws ==
+Mark W. Tilden is a robotics physicist who was a pioneer in developing simple robotics. His three guiding principles/rules for robots are:
+
+A robot must protect its existence at all costs.
+A robot must obtain and maintain access to its own power source.
+A robot must continually search for better power sources.
+What is notable in these three rules is that these are basically rules for "wild" life, so in essence what Tilden stated is that what he wanted was "proctoring a silicon species into sentience, but with full control over the specs. Not plant. Not animal. Something else."
+
+
+== See also ==
+Friendly AI
+Roboethics
+Ethics of artificial intelligence
+Military robots which may be designed such that they violate Asimov's First Law.
+Three Laws of Transhumanism
+Clarke's three laws
+Niven's laws
+
+
+== References ==

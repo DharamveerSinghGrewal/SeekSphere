@@ -1,0 +1,41 @@
+The European Union Agency for Cybersecurity – self-designation ENISA from the abbreviation of its original name – is an agency of the European Union. It is fully operational since September 1, 2005. T...
+
+The European Union Agency for Cybersecurity – self-designation ENISA from the abbreviation of its original name – is an agency of the European Union. It is fully operational since September 1, 2005. The Agency is located in Athens, Greece and has offices in Brussels, Belgium and Heraklion, Greece.            
+ENISA was created in 2004 by EU Regulation No 460/2004 under the name of European Network and Information Security Agency. ENISA's Regulation is the EU Regulation No 2019/881 of the European Parliament and of the Council of 17 April 2019 on ENISA (the European Union Agency for Cybersecurity) and on information and communications technology cybersecurity certification and repealing EU Regulation No 526/2013 (Cybersecurity Act).  
+ENISA, is the Union’s agency dedicated to achieving a high common level of cybersecurity across Europe. Established in 2004 and strengthened by the EU Cybersecurity Act, the European Union Agency for Cybersecurity contributes to EU cyber policy, enhances the trustworthiness of ICT products, services and processes with cybersecurity certification schemes, cooperates with Member States and EU bodies, and helps Europe prepare for the cyber challenges of tomorrow. Through knowledge sharing, capacity building and awareness raising, the Agency works together with its key stakeholders to strengthen trust in the connected economy, to boost resilience of the Union’s infrastructure, and, ultimately, to keep Europe’s society and citizens digitally secure.
+
+
+== Organisation ==
+ENISA is managed by the executive director and supported by a staff composed of experts representing stakeholders such as the information and communication technologies industry, consumer groups and academic experts. The agency is overseen by the executive board and the management board, which are composed of representatives from the EU member states, the EU Commission and other stakeholders. 
+Set up in 2004 as an informal point of reference into the member states, as of 27 June 2019 the National Liaison Officers network has become a statutory body of ENISA. The National Liaison Officers Network facilitates the exchange of information between ENISA and the member states. The agency is also assisted by the Advisory Group which is composed of “nominated members” and members appointed “ad personam”, all in total 33 members from all over Europe. The advisory group focuses on issues relevant to stakeholders and brings them to the attention of ENISA.
+In order to carry out its tasks, the agency had a budget of nearly €17 million for the year 2019 and 109 statutory staff members. In addition, the agency employs a number of other employees including seconded national experts, trainees and interim agents. There are plans for additional experts to be integrated into the agency following the entering into force of Regulation 2019/881.
+
+
+== History ==
+In 2007, European Commissioner Viviane Reding proposed that ENISA be folded into a new European Electronic Communications Market Authority (EECMA). By 2010, Commissioner Neelie Kroes signalled that the European Commission wanted a reinforced agency. The agency mandate was extended up to 2012 with an annual budget of €8 million, under the leadership of Dr. Udo Helmbrecht. The last extension of ENISA's mandate before it became permanent was done by the EU Regulation 526/2013 of the European Parliament and of the Council of 21 May 2013, repealing Regulation (EC) 460/2004. As of 27 June 2019, ENISA has been established for an indefinite period.
+ENISA headquarters, including its administration and support functions, were originally based in Heraklion, Greece. The choice of a rather remote site was contentious from the outset, particularly since Greece held the EU Council presidency when the agency’s mandate was being negotiated. In addition, the agency has had a liaison office in Athens since October 2009. In 2013, it moved one-third of its staff of then sixty from Crete to Athens. In 2016, the Committee on Budgets backed ENISA’s bid to shut down the Heraklion office. Since 2019, ENISA has two offices in Greece; Its headquarters in Athens and a second office in Heraklion, Greece. In June 2021, the European Commission gave their consent to the establishment of an ENISA office in Brussels.
+In 2019, the agency launched the "EU's Cybersecurity East Project" intended to strengthen cybersecurity in the member states of the EU's Eastern Partnership. On 4 October 2022, the agency hosted a cybersecurity summit with the member states of the EU's Eastern Partnership in Athens. Representatives from Armenia, Azerbaijan, Georgia, Moldova and Ukraine discussed legal frameworks, best practices, and increasing cooperation with the EU.
+Since 2022 the agency has held a cybersecurity competition, known as the International Cybersecurity Challenge. The agency has also been involved in organizing the European Cybersecurity Challenge.
+
+
+== Executive director ==
+2004 - October 2009 : Mr Andrea Pirotti (an Italian national and former Vice-President of Marconi Communications)
+October 2009 – October 2019 : Dr Udo Helmbrecht (a German national and former president/director of the Federal Office for Information Security Germany)
+since October 2019: Juhan Lepassaar (Estonia)
+
+
+== See also ==
+EUDRANET
+European Cybercrime Centre
+Trans European Services for Telematics between Administrations (TESTA)
+European Cybersecurity Challenge
+International Cybersecurity Challenge
+
+
+== References ==
+
+How the European Union works
+
+
+== External links ==
+Official website

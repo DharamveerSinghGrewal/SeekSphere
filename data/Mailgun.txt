@@ -1,0 +1,24 @@
+Mailgun Technologies Inc is an email delivery service for sending, receiving, and tracking emails.   == History == Mailgun Technologies Inc was founded in 2010 by Ev Kontsevoy and Taylor Wakefield. In...
+
+Mailgun Technologies Inc is an email delivery service for sending, receiving, and tracking emails.
+
+
+== History ==
+Mailgun Technologies Inc was founded in 2010 by Ev Kontsevoy and Taylor Wakefield. In 2011, Mailgun Technologies, Inc. was selected for Y Combinator's 2011 class, facilitating the company’s product and growth with early funding from the creators of Yahoo Mail, Gmail, and others.
+Mailgun Technologies, Inc. was acquired by Rackspace in 2012 and in 2013, Mailgun launched their first email validations product.
+In 2017, Mailgun Technologies Inc became an independent company, leaving Rackspace with $50M in growth capital from Turn/River Capital with participation from Scaleworks and Rackspace. Mailgun was acquired by the private equity firm Thoma Bravo in 2019. In December 2019, Mailgun acquired their European competitor Mailjet. In January 2021, Mailgun became a Pathwire brand alongside Mailjet and their validations services.
+The Pathwire family of brands was shortly thereafter owned by the Swedish company Sinch in September of 2021. 
+In 2020, Will Conway, CEO of Mailgun, was one of the two Central Texas finalists for Ernst & Young's yearly Entrepreneur of the Year award.
+
+
+== Cybersecurity ==
+According to ZDNET, in 2019 Mailgun's website was attacked along with other WordPress sites, and used as a redirect to malicious sites. Mailgun resolved the issue within two hours.
+In 2021, Alexei Navalny, a member of opposition in Russia, was a victim of a cyber-attack that has resulted in email addresses of his members of mailing list being leaked. While the messages were delivered via Mailgun, Mailgun was not at fault for the leak, according to the report, with further investigation by the Russian Anti-Corruption Foundation confirming that the group leaked their API key leading to the attacker accessing the Mailgun account to download the data.
+In 2021, one of Mailgun's customers, US-based Chipotle Mexican Grill, was compromised to send 120 spam messages in three days, and Mailgun prevented unauthorized access and launched an investigation in the account.
+
+
+== References ==
+
+
+== External links ==
+Official website

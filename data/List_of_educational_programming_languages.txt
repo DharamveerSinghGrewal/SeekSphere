@@ -1,0 +1,113 @@
+An educational programming language (EPL) is a programming language used primarily as a learning tool, and a starting point before transitioning to more complex programming languages.   == Types of ed...
+
+An educational programming language (EPL) is a programming language used primarily as a learning tool, and a starting point before transitioning to more complex programming languages.
+
+
+== Types of educational programming languages ==
+
+
+=== Assembly languages ===
+Initially, machine code was the sole method of programming computers. Assembly language (ASM), introduced mnemonics to replace low-level instructions, making it one of the oldest programming languages still used today. Numerous dialects and implementations exist, each tailored to a specific computer processor architecture. Assembly languages are low-level and more challenging to use, as they are untyped and rigid. For educational purposes, simplified dialects of assembly languages have been developed to make coding more accessible to beginners.
+
+Assembly languages are designed for specific processor architectures, and they must be written with the corresponding hardware in mind. Unlike higher-level languages, educational assembly languages require a representation of a processor which can be virtual or physical. These languages are often used in educational settings to demonstrate the fundamental operations of a computer processor.
+Little Man Computer (LMC), (1965) is an instructional model of a simple von Neumann architecture computer. It includes the basic features of modern computers and can be programmed using machine code (usually in decimal) or assembly. The model simulates a computer environment using a visual metaphor of a person (the "Little Man") in a room with 100 mailboxes (memory), a calculator (the accumulator) and a program counter. LMC is used to help students understand basic processor functions and memory management.
+MIX (1968) and MMIX (1999) are computer models featured in Donald Knuth's (Art of Computer Programming). The MIX computer is designed for educational purposes, illustrating how a basic machine language operates. Despite its simplicity, it can handle complex tasks typical of high-performance computers. MIX allows programming in both binary and decimal, with software emulators available for both models. MMIX, which superseded MIX, is a 64-bit RISC instruction set architecture, modernized for teaching contemporary computer architecture.
+DLX (1994) is a reduced instruction set computer (RISC) processor architecture created by key developers of the MIPS and Berkeley RISC designs. DLX is a simplified version of MIPS, offering a 32-bit load/store architecture commonly used in college-level computer architecture courses.
+Next Byte Codes (NBC), (2007) is a simple assembly language used for programming Lego Mindstorms NXT programmable bricks. The NBC compiler produces NXT-compatible machine code and is supported on Windows, macOS and Linux.
+Little Computer 3 (LC-3), (2019) is an assembly language with a simplified instruction set, enabling the writing of moderately complex assembly programs. It includes many features found in more advanced languages, making it useful for teaching basic programming and computer architecture. It is primarily used in introductory computer science and engineering courses.
+
+
+=== BASIC variants ===
+BASIC (Beginner's All-purpose Symbolic Instruction Code) was invented in 1964, to provide computer access to non-science students. It became popular on minicomputers during the 1960s and became a standard computing language for microcomputers during the late 1970s and early 1980s. The goals of BASIC were focused on the need to learn to program easily and they are to:
+
+Be easy for beginners to use.
+Be interactive.
+Provide clear and friendly error messages.
+Respond quickly.
+Not require an understanding of computer hardware or operating systems.
+What made BASIC attractive for education was the small size of programs that could illustrate a concept in a dozen lines. BASIC continues to be frequently self-taught with tutorials and implementations.
+See also: List of BASIC dialects by platform
+BASIC offers a learning path from learning-oriented BASICs such as Microsoft Small Basic, BASIC-256 SIMPLE and to more full-featured BASICs like Visual Basic, NET and Gambas.
+
+Microsoft Small Basic is a restricted version of Visual Basic, which is designed as "an introductory programming language for beginners". It's intentionally minimal with just 15 keywords for basic functionality. By providing specific libraries for topics that interest children, they can create programs for both the web and desktop environments. For example, with 6 lines of code, it is possible to demonstrate a random network image viewer using Flickr as the source. The system utilizes the Microsoft Visual Studio IDE to provide auto-completion and context-sensitive help.
+Basic-256 is an easy-to-use version of BASIC designed to teach anybody the basics of computer programming. It uses traditional BASIC control structures (gosub, for loops, goto) for easy understanding of program flow control. It has a built-in graphics mode that allows children to draw pictures on the screen after minutes.
+SiMPLE is a programming development system that was created to provide easy programming abilities for everybody, especially non-professionals. It is somewhat like AppleSoft BASIC. It is compiled and lets users make their own libraries of often-used functions. "Simple" is a generic term for three slightly different versions of the language: Micro-SIMPLE (uses only 4 keywords), Pro-SiMPLE, and Ultra-SiMPLE (using 23 keywords).
+Hot Soup Processor is a BASIC-derived language used in Japanese schools.
+TI-BASIC is a simple BASIC-like language implemented in Texas Instruments graphing calculators, often serving as a student's first look at programming.
+Small BASIC is a fast and easy-to-learn BASIC language interpreter ideal for everyday calculations, scripts and prototypes. It includes trigonometric, matrix and algebra functions, a built-in IDE, a powerful string library, system, sound and graphic commands, and a structured programming syntax.
+
+
+=== C-based ===
+Ch is a C/C++ interpreter designed to help non-CS students learn math, computing and programming in C and C++. It extends C with numerical, 2D/3D graphical plotting and scripting features.
+
+
+=== Java-based ===
+Written in Java and Scala - a development environment for building and exploring scientific models, specifically agent-based models.
+
+
+=== Lisp-based ===
+Lisp is the second oldest family of programming languages in use today and as such has many dialects and implementations with a wide range of difficulties. Lisp was originally created as a practical mathematical notation for computer programs, based on lambda calculus, which makes it particularly well suited for teaching theories of computing. As one of the earliest languages, Lisp pioneered many ideas in computer science, including tree data structures, automatic storage management, dynamic typing, object-oriented programming and the self-hosting compiler, all of which are useful for learning computer science. The name LISP derives from "List Processing language." Linked lists are one of the languages major data structures and Lisp source code is made of lists. Thus, Lisp programs can manipulate source code as a data structure, giving rise to the macro systems that allow programmers to create new syntax or even new domain-specific languages embedded in Lisp. Therefore, Lisp can be useful for learning language design.
+
+
+=== Logo-based ===
+Logo is a language that was specifically designed to introduce children to programming. The first part of learning Logo deals with "turtle graphics" (derived from turtle robots) used as early as 1969. In modern implementations, an abstract drawing device, called the turtle, is used to make programming for children very attractive by concentrating on doing turtle graphics. Seymour Papert, one of the creators of Logo, was a prominent figure in constructionism, a variety of constructivist learning theories. Papert argued that activities like writing would naturally be learned by much younger children provided that they adopt a computing culture. Logo was designed to introduce children to programming through visual aids and concepts in a technology-focused curriculum. "More important than having an early start on intellectual building is being saved from a long period of dependency during which one learns to think of learning as something that has to be dished out by a more powerful other...Such children would not define themselves or allow society to define them as intellectually helpless." It has been used by children as young as 3 years old and has a track record of 30 years of success in education. Since Logo is actually a streamlined version of Lisp with more advanced students, it can be used to introduce the basic concepts of computer science and even artificial intelligence. Logo is available on multiple platforms, offered in both free and commercial versions for educational use.
+
+
+=== Scala-based ===
+Kojo is an interactive desktop development environment, developed primarily for educational purposes. The application runs on Windows, Linux and macOS. Kojo is a learning environment, with many different features that help with the exploration, learning and teaching of concepts in computer programming, critical thinking, math, science, art, music, creative thinking, computer and internet literacy.
+
+
+=== Smalltalk-based ===
+As part of the One Laptop per Child project, a sequence of Smalltalk-based languages has been developed, each designed to act as an introduction to the next. The structure is Scratch to Etoys to Squeak to any Smalltalk. Each provides graphical environments that may be used to teach not only programming concepts to kids but also physics and mathematics simulations, story-telling exercises, etc., through the use of constructive learning. Smalltalk and Squeak have fully featured application development languages that have been around and well-respected for decades; Scratch is a children's learning tool.
+
+Scratch 1.0 is implemented in Smalltalk. See below for more information.
+Etoys is based on the idea of programmable virtual entities behaving on the computer screen. Etoys provides a media-rich authoring environment with a simple, powerful scripted object model for many kinds of objects created by end-users. It includes 2D and 3D graphics, images, text, particles, presentations, web pages, videos, sound and MIDI (the ability to share desktops with other Etoys users in real-time). Many forms of immersive mentoring and play can be done over the Internet. It is multilingual and has been used successfully in the United States, Europe, South America, Japan, Korea, India, Nepal and elsewhere. The program is aimed at children between the ages of 9-12.
+Squeak is a modern, open-source, full-featured implementation of the Smalltalk language and environment. Smalltalk is an object-oriented, dynamically typed, reflective programming language created to underpin the "new world" of computing exemplified by "human-computer symbiosis". Like Lisp, it has image-based persistence, so everything is modifiable from within the language (see Smalltalk#Reflection). It has greatly influenced the industry introducing many of the concepts in object-oriented programming and just-in-time compilation. Squeak is the vehicle for a wide range of projects including multimedia applications, educational platforms and commercial web application development. Squeak is designed to be highly portable and easy to debug, analyze and change, as its virtual machine is written fully in Smalltalk.
+
+
+=== Pascal ===
+Pascal is an ALGOL-based programming language designed by Niklaus Wirth in approximately 1970 with the goal of teaching structured programming. From the late 1970s to the late 1980s, it was the primary choice in introductory computer science classes for teaching students programming in both the US and Europe. Its use for real-world applications has since increased to general usage.
+
+
+=== Other ===
+CircuitPython is a beginner-oriented version of Python for interactive electronics and education.
+Rapira is an ALGOL-like procedural programming language, with a simple interactive development environment, developed in the Soviet Union to teach programming in schools.
+Src:Card is a tactile offline programming language embedded in an educational card game.
+
+
+== Children ==
+AgentSheets and AgentCubes are two computational thinking tools to author 2D/3D games and simulations. Authoring takes place through desktop applications or browser-based apps, and it can create 2D/3D games playable in HTML5 compliant browsers, including mobile ones.
+Alice is a free programming software designed to teach event-driven object-oriented programming (OOP) to children. Programmers create interactive stories using a modern IDE interface with a drag-and-drop style of programming. The target audience ranges from middle school children all the way to university students. Storytelling Alice is a variant of the Alice software designed for younger children, with a greater emphasis on its capabilities in terms of storytelling.
+Blockly is an open-source web-based graphical language where users can drag blocks together to build an application with no typing required. It was developed by Google. It allows users to convert their Blockly code into other programming languages such as PHP, Python, etc.
+CiMPLE was a visual language for programming robotic kit designed for children. It was built on top of C as a DSL. ThinkLabs, an Indian Robotics education-based startup, built it for the iPitara Robotics Kit. The language bore strong resemblance to the C language. At least one school in Bangalore, India bought the iPitara kit and had their students program the robots using CiMPLE. More information is available at the CiMPLE Original Developers Weblog. ThinkLabs eventually switched to using "THiNK VPL" as their visual programming software.
+Physical Etoys is a free open-source extension of Etoys. Its philosophy is that "it helps children explore their own creativity by combining science and art in an infinite laboratory." It can run on Windows, Linux and Sugar. Due to its block scripting system, Physical Etoys allows different electronic devices such as Lego NXT, Arduino boards, Sphero, Kinect, and Wiimote joysticks interact between themselves.
+Hackety Hack is a free Ruby-based environment that aims to make learning programming easy for beginners, especially teenagers.
+Karel, Karel++, and Karel J. Robot are languages aimed at beginners, used to control a simple robot in a city consisting of a rectangular grid of streets. While Karel is its own language, Karel++ is a version of Karel implemented in C++, while Karel J. Robot is a version of Karel implemented in Java.
+Kodu is a language that is simple and entirely icon based. It was developed by Microsoft Research as a project to encourage younger children, especially girls, to enjoy technology. Programs are composed of pages, which are divided into rules, which are further divided into conditions and actions. Conditions are evaluated simultaneously. The Kodu language is designed specifically for game development and provides specialized primitives derived from gaming scenarios. Programs are expressed in physical terms, using concepts like vision, hearing, and time to control characters behavior. The Kodu tool is available in three forms: PC as a free download in public beta and academic forms, and as a low-cost Xbox 360 Live download.
+Logo is an educational language for children designed in 1967 by Daniel G. Bobrow, Wally Feurzeig, Seymour Papert and Cynthia Solomon. Today, the language is remembered mainly for its use of "turtle graphics," in which commands for movement and drawing produce line graphics using a small robot called a "turtle." The language was originally conceived to teach concepts of programming related to Lisp and only later to enable what Papert called "body-syntonic reasoning" where students could understand (and predict and reason about) the turtle's motion by imagining what they would do if they were the turtle.
+Lego Mindstorms is a line of Lego sets combining programmable bricks with electric motors, sensors, Lego bricks, and Lego Technic pieces (such as gears, axles, and beams). Mindstorms originated from the programmable sensor blocks used in the line of educational toys. The first retail version of Lego Mindstorms was released in 1998 and marketed commercially as the Robotics Invention System (RIS). The current version was released in 2006 as Lego Mindstorms NXT. A wide range of programming languages is used for the Mindstorms from Logo to BASIC to derivatives of Java, Smalltalk and C. The Lego Mindstorms approach to programming now has dedicated physical sites called Computer Clubhouses.
+Mama is an educational object oriented language designed to help young students start programming by providing all the language elements in the student's language. Mama language is available in several languages, with both LTR and RTL language direction support. A new variant of Mama was built atop Carnegie Mellon's Alice development environment, supporting scripting of the 3D stage objects. This variant was designed to help young students start programming by building 3D animations and games. A document on educational programming principles explains Mama's design considerations.
+RoboMind is a simple educational programming environment that allows beginners to program a robot. It introduces popular programming techniques along with robotics and artificial intelligence. The robot can be programmed in Arabic, Chinese, Dutch, German, English and Swedish.
+Scratch is a visual language with the goal of teaching programming concepts to children by allowing them to create projects such as games, videos, and music. It does this by simplifying code into function "blocks" that can be dragged and connected, then run by clicking the green flag icon. In Scratch, interactive objects, graphics, and sounds can be easily imported to a new program and combined, getting quick results. The Scratch community has developed and uploaded over 1,000,000,000 projects with over 164,000,000 being publicly shared. It is developed by the Lifelong Kindergarten group at MIT Media Lab.
+ScratchJr is derivative of the Scratch graphical language. It is designed for children with ages around 5-7.
+Snap! is a free open-source blocks-based graphical language implemented in JavaScript and originally derived from MIT's Scratch. Snap! adds the ability to create new blocks and has first-class functions that enables the use of anonymous functions. It is actively maintained by UC Berkeley. The source is entirely hosted on GitHub.
+Stagecast Creator is a visual programming system based on programming by demonstration. Users demonstrate to the system what to do by moving icons on the screen, and it generates rules for the objects (characters). Users can create two-dimensional simulations that model concepts, multi-level games, and interactive stories.
+Stencyl is a visual programming and game development IDE that has been used for education and commerce. The concept of code blocks it implements is based on MIT's Scratch visual language (listed above). It also permits the use of normal typed code (separate or intermingled) through its own API and the Haxe language.
+ToonTalk is a language and environment that looks like a video game. Computational abstractions are mapped to concrete analogs such as robots, houses, trucks, birds, nests, and boxes. It supports big integers and exact rational numbers. It is based upon concurrent constraint programming.
+
+
+== University ==
+Curry is a teaching language designed to amalgamate the most important declarative programming paradigms, namely functional programming (nested expressions, higher-order functions, lazy evaluation) and logic programming (logical variables, partial data structures, built-in search). It also integrates the two most important operational principles developed in the area of integrated functional logic languages: "residuation" and "narrowing."
+Flowgorithm is a graphical authoring tool for writing and executing programs via flowcharts. The approach is designed to emphasize the algorithm rather than the syntax of a given language. The flowchart can be converted to several major languages such as C#, Java, Visual Basic .NET and Python.
+Oz is a language designed to teach computer theory. It supports most major paradigms in one language so that students can learn paradigms without having to learn multiple syntaxes. Oz contains most of the concepts of the major programming paradigms, including logic, functional (both lazy and eager), imperative, object-oriented, constraint, distributed, and concurrent programming. It has a canonical textbook, Concepts, Techniques, and Models of Computer Programming (2004), and a freely available standard implementation, the Mozart Programming System.
+
+
+== See also ==
+Category: Programming language comparisons
+Assembly language – a low-level programming language
+Sugar – a GUI designed for constructive learning
+Design by numbers
+Processing – a language dedicated to artwork
+
+
+== References ==

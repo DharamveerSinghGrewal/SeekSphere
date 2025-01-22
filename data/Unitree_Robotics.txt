@@ -1,0 +1,45 @@
+Hangzhou Yushu Technology Co., Ltd. (Chinese: 杭州宇树科技有限公司; pinyin: Hángzhōu yǔ shù kējì yǒuxiàn gōngsī), trading as Unitree Robotics, is a Chinese robotics company based in Hangzhou, China. It speciali...
+
+Hangzhou Yushu Technology Co., Ltd. (Chinese: 杭州宇树科技有限公司; pinyin: Hángzhōu yǔ shù kējì yǒuxiàn gōngsī), trading as Unitree Robotics, is a Chinese robotics company based in Hangzhou, China. It specializes in quadruped robots aimed on individual consumers. The company was founded by Wang Xingxing in May 2016.
+
+
+== History ==
+In 2013, Wang Xingxing developed quadrupeds during his postgraduate studies at Shanghai University. His first quadruped device, XDog, was developed in 2016 for his master's thesis. The robotic dog became an Internet sensation which attracted buyers and investors. After Wang started to work at the Chinese company DJI, he decided to resign and start his own company, Unitree.
+In 2021, Unitree released Unitree Go1, a quadruped robot similar to Boston Dynamics' Spot. It is fitted with twelve motors; each can generate a maximum torque of 23.7 N⋅m (17.5 lbf⋅ft) and can spin at speeds of up to 30 rad/s (about 280 rpm). According to an article by The Wall Street Journal, the Unitree robotic dog can navigate to different surfaces including sand, rocks, and soil.
+In April 2024, Unitree released a video showcasing the humanoid robot H1. In August 2024, Unitree released Unitree G1, an upgraded version of the H1 robot, for mass production with a price tag of 16,000 USD.
+
+
+== Products ==
+Unitree also received backing from venture capitals such as HongShan, Matrix Partners, and Shunwei Capital.
+
+		
+			
+			
+		
+		
+			
+			
+		
+		
+			
+			
+		
+		
+			
+			
+		
+
+
+== Controversies ==
+
+In August 2022, Unitree denied the allegations about reports of their Go1 robot being used by the Russian Armed Forces.
+In September 2023, the United States Marine Corps used an M72 LAW anti-tank rocket launcher fixed to a Go1 robotic dog during tactical training at the Marine Corps Air Ground Combat Center Twentynine Palms in California.
+In May 2024, The Guardian reported that the Unitree Go2 robot has been used during China's joint military drills with Cambodia, having an automatic rifle on its back. According to the newspaper, this was based on footage broadcast by China Central Television. Unitree, on the same month, stated that they do not sell their products to the People's Liberation Army.
+
+
+== References ==
+
+
+== External links ==
+
+Official website

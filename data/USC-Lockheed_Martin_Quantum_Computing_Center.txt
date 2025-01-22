@@ -1,0 +1,35 @@
+The USC-Lockheed Martin Quantum Computing Center (QCC) is a joint scientific research effort between Lockheed Martin Corporation and the University of Southern California (USC). The QCC is housed at t...
+
+The USC-Lockheed Martin Quantum Computing Center (QCC) is a joint scientific research effort between Lockheed Martin Corporation and the University of Southern California (USC). The QCC is housed at the Information Sciences Institute (ISI), a computer science and engineering research unit of the USC Viterbi School of Engineering, and is jointly operated by ISI and Lockheed Martin.
+USC faculty, ISI researchers and students are performing basic and applied research into quantum computing, and are collaborating with researchers around the world. The QCC uses a D-Wave Two quantum annealing system, manufactured by D-Wave Systems, Inc. The QCC is the first organization outside of D-Wave to operate the system. The second system is installed at NASA Ames Research Center, and is operated jointly by NASA and Google. The systems must be kept extremely cold and electromagnetically shielded to operate with the longest possible coherence time.
+
+
+== Purpose ==
+Quantum information processing, also called quantum computing, theoretically is known to offer dramatic speed-ups and more complete answers for some combinatorial computing problems. Quantum annealing is a branch of quantum computing whose advantages over classical computing are being investigated. In quantum annealing, problems are encoded into the lowest energy state of a physical quantum system. Applications currently under study at the QCC include big data analysis, verification and validation of cyber-physical systems, pattern identification and classification, and optimization and machine learning, any of which may support breakthroughs in multiple industries and government.
+USC and ISI researchers, as well as Lockheed Martin engineers, seek to develop methods to benchmark quantum annealers, and perform tests of 'quantumness'. These include the study of quantum entanglement and, more generally, the performance of quantum annealing experiments.
+Researchers also are working to manage quantum decoherence, the phenomenon that degrades the performance of quantum information processors when quantum states are forced out of quantum superposition. Decoherence can reduce quantum functionality to that of a classical computer, and can be counteracted using quantum error correction. QCC researchers and their collaborators have developed methods to counteract decoherence in quantum annealers by combining quantum error correction with energy penalties that suppress decoherence into a single quantum annealing correction method.
+
+
+== History ==
+The QCC was launched in November, 2011 under the leadership of Scientific and Technical Director Daniel Lidar, a USC professor of electrical engineering, chemistry and physics; Operational Director Robert F. Lucas, director of ISI's Computational Systems and Technology division; and Ned Allen and Greg Tallant of Lockheed Martin. The QCC began with a 128-qubit D-Wave One, which was replaced in March 2013 with the 512-qubit D-Wave Two.
+
+
+== Research ==
+Research initially focused on testing whether the D-Wave is in fact a quantum system, and has expanded to benchmarking the D-Wave against classical algorithms, and various applications, including quantum machine learning. Lockheed Martin researchers have focused on the application of adiabatic quantum computing to the problem of verification and validation of control systems and other tasks with similar mathematical structure, such as the design of special wave forms for RF applications with minimal side-lobes.
+
+
+== People ==
+The team includes more than a dozen USC faculty members, ISI researchers, postdoctoral and graduate students, and more than 100 Lockheed Martin users.
+
+
+== Location ==
+USC is located in downtown Los Angeles. ISI is located in Marina del Rey, California. Lockheed Martin headquarters is located in Bethesda, Maryland. D-Wave is located in Burnaby, British Columbia, Canada.
+
+
+== References ==
+
+
+== External links ==
+isi.edu
+usc.edu
+dwavesys.com

@@ -1,0 +1,33 @@
+Urbasi Sinha is an Indian physicist and professor at the Raman Research Institute. Her research considers quantum information science and quantum photonics. She was named as one of Asia's Top 100 Scie...
+
+Urbasi Sinha is an Indian physicist and professor at the Raman Research Institute. Her research considers quantum information science and quantum photonics. She was named as one of Asia's Top 100 Scientists in 2018, appointed an Emmy Noether Fellow in 2020 and awarded the Chandrasekarendra Saraswathi National Eminence Award in 2023.
+
+
+== Early life and education ==
+Sinha was born in London and completed her undergraduate from Jadavpur university graduate and doctoral degrees at the University of Cambridge. Her research considered superconducting devices. Her doctorate involved explorations of the Josephson effect. She moved to the Institute for Quantum Computing for her postdoctoral research, where she became interested in quantum computing and optics. Here she developed a triple-slit variation to the double-slit experiment; testing the Born rule. The Born rule predicts the probability that a measurement made in a quantum system will give a particular result.
+
+
+== Research and career ==
+When Sinha returned from Canada to Bangalore she was made a professor at the Raman Research Institute. Here she leads the Quantum Information and Computing lab (QuIC) laboratory. Here she started working on quantum photonics and the development of a quantum internet. Alongside technological applications, Sinha is interested in testing fundamental quantum phenomena, including Leggett–Garg inequality. In 2017 Sinha was appointed a Homi Bhabha Fellow at the Cavendish Laboratory.
+In 2020, Sinha was appointed an Emmy Noether Fellow at the Perimeter Institute for Theoretical Physics. Her research group demonstrated a quantum communication channel between fixed and moving platforms in 2023. Urbasi is involved with designing the National Quantum Mission India.
+In 2023, Sinha was awarded a Canada Excellence Research Chair in Photonic Quantum Science and Technologies at the University of Calgary.
+
+
+== Awards and honours ==
+2017 Homi Bhabha Fellow
+2018 ICTP-ICO Gallieno Denardo Award in Optics
+2019 Asia's Top 100 Scientists
+2023 Chandrasekarendra Saraswathi National Eminence Award
+
+
+== Select publications ==
+Urbasi Sinha; Christophe Couteau; Thomas Jennewein; Raymond Laflamme; Gregor Weihs (1 July 2010). "Ruling out multi-order interference in quantum mechanics". Science. 329 (5990): 418–421. arXiv:1007.4193. Bibcode:2010Sci...329..418S. doi:10.1126/SCIENCE.1190545. ISSN 0036-8075. PMID 20651147. Zbl 1226.81016. Wikidata Q34127474.
+Rahul Sawant; Joseph Samuel; Aninda Sinha; Supurna Sinha; Urbasi Sinha (19 September 2014). "Nonclassical paths in quantum interference experiments". Physical Review Letters. 113 (12): 120406. arXiv:1308.2022. doi:10.1103/PHYSREVLETT.113.120406. ISSN 0031-9007. PMID 25279612. Wikidata Q57162751.
+Urbasi Sinha; Christophe Couteau; Zachari Medendorp; et al. (2009), Testing Born’s Rule in Quantum Mechanics with a Triple Slit Experiment, arXiv:0811.2068, doi:10.1063/1.3109942, Wikidata Q62109689
+
+
+== Personal life ==
+Her husband, Aninda Sinha, is a high energy physicist at the Indian Institute of Science.
+
+
+== References ==

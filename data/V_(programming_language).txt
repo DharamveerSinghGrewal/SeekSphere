@@ -1,0 +1,93 @@
+V, also known as vlang, is a statically typed, compiled programming language created by Alexander Medvednikov in early 2019. It was inspired by the language Go, and other influences including Oberon, ...
+
+V, also known as vlang, is a statically typed, compiled programming language created by Alexander Medvednikov in early 2019. It was inspired by the language Go, and other influences including Oberon, Swift, and Rust. It is free and open-source software released under the MIT License, and currently in beta.
+The goals of V include ease of use, readability, and maintainability.
+
+
+== History ==
+According to one of the developers, the new language was created as a result of frustration with existing languages being used for personal projects. The language was originally intended for personal use, but after it was mentioned publicly and gained interest, it was decided to make it public. V was initially created in order to develop a desktop messaging client known as Volt. Upon public release, the compiler was written in V, and could compile itself. Key design goals behind the creation of V were being easy to learn and use, higher readability, fast compilation, increased safety, efficient development, cross-platform usability, improved C interoperability, better error handling, modern features, and more maintainable software.
+V is released and developed through GitHub and maintained by developers and contributors from the community.
+
+
+== Features ==
+
+
+=== Safety ===
+V has policies to facilitate memory-safety, speed, and secure code. The language has various default features for greater program safety. It employs bounds checking, to guard against out of bounds usage of variables. Option/result types are used, where the option type (?) can be represented by none (among possible choices) and the result type (!) can handle any returned errors. To ensure greater safety, the checking of errors are mandatory in V. By default, the following are immutable: variables, structs, and function arguments. This includes string values are immutable, so elements can not be mutated. Other protections, which are the default for the language, are: no usage of undefined values, no shadowing of variables, no usage of null (unless code marked as unsafe), and no usage of global variables (unless enabled via flag).
+
+
+=== Performance ===
+V uses value types and string buffers to reduce memory allocations. The language can be compiled to human-readable C  and is considered to be as performant.
+
+
+=== Memory management ===
+The language's 4 supported options for memory management are the following:
+
+Use of an optional GC (that can be disabled) for handling allocations, and is the default.
+Manual memory management via disabling the GC (-gc none).
+Autofree, which handles most objects via free call insertion, and then the remaining percentage is freed by GC (-autofree).
+Arena allocation (-prealloc).
+
+
+=== Source code translators ===
+V supports a source-to-source compiler (transpiler) and can translate C code into V.
+Working translators are also under development for Go, JavaScript, and WebAssembly.
+
+
+== Syntax ==
+
+
+=== Hello world ===
+The "Hello, World!" program in V: 
+
+
+=== Variables ===
+Variables are immutable by default and are defined using := and a value. Use the mut keyword to make them mutable. Mutable variables can be assigned to using =:
+
+Redeclaring a variable, whether in an inner scope or in the same scope, is not allowed:
+
+
+=== Structs ===
+Struct example:
+
+
+=== Heap structs ===
+Structs are allocated on the stack by default. To allocate a struct on the heap and get a reference to it, the & prefix can be used:
+
+
+=== Methods ===
+Methods in V are functions defined with a receiver argument. The receiver appears in its own argument list between the fn keyword and the method name. Methods must be in the same module as the receiver type.
+The is_registered method has a receiver of type User named u. The convention is not to use receiver names like self or this, but preferably a short name.  For example:
+
+
+=== Error handling ===
+Optional types are for types which may represent none. Result types may represent an error returned from a function.
+Option types are declared by prepending ? to the type name: ?Type. Result types use !: !Type.
+
+
+== See also ==
+
+Comparison of programming languages
+History of programming languages
+List of programming languages
+List of programming languages by type
+
+
+== References ==
+
+
+== Further reading ==
+The V Programming Language basic (in Japanese). Independent Laboratory. 20 June 2020. ASIN B08BKJDRFR.
+Rao, Navule Pavan Kumar (10 December 2021). Getting Started with V Programming. Packt Publishing. ASIN B09FKK3JL7. ISBN 978-1839213434. OCLC 1290492862.
+Lyons, Dakota "Kai" (13 April 2022). Beginning with V Programming. Independently Published. ASIN B09XSZKTJ1. ISBN 979-8801499963.
+Chakraborty, Soubhik; Haldar, Subhomoy (6 December 2023). Randomness Revisited using the V Programming Language. Nova Science Publishers. doi:10.52305/CVCN5241. ISBN 979-8891133280. S2CID 265170755.
+Tsoukalos, Mihalis (May 2022). "Discover the V language". Linux Format Magazine (288). ISSN 1470-4234.
+Martin, Robert (21 November 2024). Mastering V Programming: Crafting Fast and Reliable Software with Simplicity. Independently Published. ASIN B0DNSVRF1K. ISBN 979-8300776398.
+Trex, Nova (24 December 2024). V Programming: Building Robust and Efficient Software Systems. Independently Published. ASIN B0DRJMP1HM. ISBN 979-8304813778.
+
+
+== External links ==
+Official website
+Vlang on GitHub
+Documentation
+Modules

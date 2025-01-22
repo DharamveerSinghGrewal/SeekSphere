@@ -1,0 +1,41 @@
+Universal Robots is a Danish manufacturer of smaller flexible industrial collaborative robot arms (cobots), based in Odense, Denmark. Since 2015, the company is owned by American automatic test equipm...
+
+Universal Robots is a Danish manufacturer of smaller flexible industrial collaborative robot arms (cobots), based in Odense, Denmark. Since 2015, the company is owned by American automatic test equipment designer and manufacturer Teradyne.
+Universal Robots was the first company to launch a collaborative robot that could safely operate alongside employees, eliminating the need for safety cages or fencing.
+As of 2022, Universal Robots was the market leader for collaborative robots, credited with 40-50% of the market share. 
+
+
+== History ==
+Universal Robots was founded in Odense, Denmark in 2005 by Esben Østergaard, Kasper Støy, and Kristian Kassow. During joint research at the Syddansk Universitet Odense, the founders came to the conclusion that the robotics market was dominated by heavy, expensive, and unwieldy robots. That led them to develop the idea to make robot technology accessible to small and medium-sized businesses.
+In 2008, the first UR5 cobots were available on the Danish and German markets. 
+In 2012 the second cobot, UR10, was launched. 
+In spring 2015, the table-top cobot UR3 was launched. 
+In 2015, Universal Robots was acquired by Teradyne for USD 285 million.
+In 2016, Universal Robots launched the UR Academy, a training platform that offers online and in-class robotics training courses. In the same year, Universal Robots launched the UR+ Ecosystem, a platform for third party developers to create and sell products that are compatible with collaborative robots from Universal Robots.
+At Automatica 2018, a German trade fair for smart automation and robotics Munich, Universal Robots introduced a new generation of collaborative robots called the "e-Series".
+In 2019, the company launched the UR16e cobot.
+In 2020, Universal Robots had installed 50,000 collaborative robots worldwide.
+In April 2022, Universal Robots announced that it had broken ground on a new headquarter in Odense, Denmark. The headquarter will be shared with Universal Robot's sister company MiR. It will be the world's largest hub for collaborative robots and autonomous mobile robots.
+In 2022, Universal Robots opened its 100th training center for cobot programming in Täby, Sweden. The company has training centers in 23 countries.
+At Automatica 2022, a German trade fair for smart automation and robotics, the company revealed the UR20 as its latest product addition.
+
+
+== Products ==
+Universal Robots has seven collaborative robots on the market. All robots are six-jointed robot arms. The CB3-series consists of the UR3, UR5 and UR10, while UR16e, UR10e, UR5e and UR3e are part of the newer e-series. The UR20 is the first collaborative robot in a whole new generation of collaborative robots.
+
+Universal Robots' collaborative robots are used for many different applications including welding, machine tending, palletizing and grinding (abrasive cutting) within industries such as automotive, electronics, pharmaceuticals, plastics, food and beverage.
+
+
+== Awards and recognition ==
+Universal Robots received an Honoree in the "robotics" category at Automation World’s “Leadership in Automation” in 2016.
+
+At the Learning Technologies Award in London at the end of 2017, the UR Academy was awarded “Silver” in the category “Excellence in the design of learning content - international commercial sector”
+In 2018, Esben Østergaard, one of the co-founders of Universal Robots, was awarded the Engelberger Robotics Award for his work on developing Universal Robot's collaborative robots.
+At the 2018 Annual Manufacturing Leadership Awards, Universal Robots won three awards in "Collaborative Innovation Leadership" for the UR+ platform, "Smart Products and Services Leadership" for the product portfolio, and co-founder Esben Østergaard received an award in the category "Visionary Leadership".
+
+
+== References ==
+
+
+== External links ==
+Official website

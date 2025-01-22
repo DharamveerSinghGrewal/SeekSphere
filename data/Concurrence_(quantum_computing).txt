@@ -1,0 +1,440 @@
+In quantum information science, the concurrence is a state invariant involving qubits.   == Definition == The concurrence is an entanglement monotone (a way of measuring entanglement) defined for a mi...
+
+In quantum information science, the concurrence is a state invariant involving qubits.
+
+
+== Definition ==
+The concurrence is an entanglement monotone (a way of measuring entanglement) defined for a mixed state of two qubits as:
+
+  
+    
+      
+        
+          
+            C
+          
+        
+        (
+        ρ
+        )
+        ≡
+        max
+        (
+        0
+        ,
+        
+          λ
+          
+            1
+          
+        
+        −
+        
+          λ
+          
+            2
+          
+        
+        −
+        
+          λ
+          
+            3
+          
+        
+        −
+        
+          λ
+          
+            4
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {C}}(\rho )\equiv \max(0,\lambda _{1}-\lambda _{2}-\lambda _{3}-\lambda _{4})}
+  
+
+in which 
+  
+    
+      
+        
+          λ
+          
+            1
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          λ
+          
+            4
+          
+        
+      
+    
+    {\displaystyle \lambda _{1},...,\lambda _{4}}
+  
+ are the eigenvalues, in decreasing order, of the Hermitian matrix
+
+  
+    
+      
+        R
+        =
+        
+          
+            
+              
+                ρ
+              
+            
+            
+              
+                
+                  ρ
+                  ~
+                
+              
+            
+            
+              
+                ρ
+              
+            
+          
+        
+      
+    
+    {\displaystyle R={\sqrt {{\sqrt {\rho }}{\tilde {\rho }}{\sqrt {\rho }}}}}
+  
+
+with
+
+  
+    
+      
+        
+          
+            
+              ρ
+              ~
+            
+          
+        
+        =
+        (
+        
+          σ
+          
+            y
+          
+        
+        ⊗
+        
+          σ
+          
+            y
+          
+        
+        )
+        
+          ρ
+          
+            ∗
+          
+        
+        (
+        
+          σ
+          
+            y
+          
+        
+        ⊗
+        
+          σ
+          
+            y
+          
+        
+        )
+      
+    
+    {\displaystyle {\tilde {\rho }}=(\sigma _{y}\otimes \sigma _{y})\rho ^{*}(\sigma _{y}\otimes \sigma _{y})}
+  
+
+the spin-flipped state of 
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+  
+ and 
+  
+    
+      
+        
+          σ
+          
+            y
+          
+        
+      
+    
+    {\displaystyle \sigma _{y}}
+  
+ a Pauli spin matrix. The complex conjugation 
+  
+    
+      
+        
+          
+
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle {}^{*}}
+  
+ is taken in the eigenbasis of the Pauli matrix 
+  
+    
+      
+        
+          σ
+          
+            z
+          
+        
+      
+    
+    {\displaystyle \sigma _{z}}
+  
+. Also, here, for a positive semidefinite matrix 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+, 
+  
+    
+      
+        
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\sqrt {A}}}
+  
+ denotes a positive semidefinite matrix 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ such that 
+  
+    
+      
+        
+          B
+          
+            2
+          
+        
+        =
+        A
+      
+    
+    {\displaystyle B^{2}=A}
+  
+. Note that 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ is a unique matrix so defined.
+A generalized version of concurrence for multiparticle pure states in arbitrary dimensions (including the case of continuous-variables in infinite dimensions) is defined as:
+
+  
+    
+      
+        
+          
+            
+              C
+            
+          
+          
+            
+              M
+            
+          
+        
+        (
+        ρ
+        )
+        =
+        
+          
+            2
+            (
+            1
+            −
+            
+              Tr
+            
+            
+              ρ
+              
+                
+                  M
+                
+              
+              
+                2
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle {\mathcal {C}}_{\mathcal {M}}(\rho )={\sqrt {2(1-{\text{Tr}}\rho _{\mathcal {M}}^{2})}}}
+  
+
+in which 
+  
+    
+      
+        
+          ρ
+          
+            
+              M
+            
+          
+        
+      
+    
+    {\displaystyle \rho _{\mathcal {M}}}
+  
+ is the reduced density matrix (or its continuous-variable analogue) across the bipartition 
+  
+    
+      
+        
+          
+            M
+          
+        
+      
+    
+    {\displaystyle {\mathcal {M}}}
+  
+ of the pure state, and it measures how much the complex amplitudes deviate from the constraints required for tensor separability. The faithful nature of the measure admits necessary and sufficient conditions of separability for pure states.
+
+
+== Other formulations ==
+Alternatively, the 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{i}}
+  
+'s represent the square roots of the eigenvalues of the non-Hermitian matrix 
+  
+    
+      
+        ρ
+        
+          
+            
+              ρ
+              ~
+            
+          
+        
+      
+    
+    {\displaystyle \rho {\tilde {\rho }}}
+  
+. Note that each 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{i}}
+  
+ is a non-negative real number.  From the concurrence, the entanglement of formation can be calculated.
+
+
+== Properties ==
+For pure states, the square of the concurrence (also known as the tangle) is a polynomial 
+  
+    
+      
+        S
+        L
+        (
+        2
+        ,
+        
+          C
+        
+        
+          )
+          
+            ⊗
+            2
+          
+        
+      
+    
+    {\displaystyle SL(2,\mathbb {C} )^{\otimes 2}}
+  
+ invariant in the state's coefficients. For mixed states, the concurrence can be defined by convex roof extension.
+For the tangle, there is monogamy of entanglement, that is, the tangle of a qubit with the rest of the system cannot ever exceed the sum of the tangles of qubit pairs which it is part of.
+
+
+== References ==

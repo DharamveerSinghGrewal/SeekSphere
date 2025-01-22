@@ -1,0 +1,76 @@
+Q# (pronounced Q sharp) is a domain-specific programming language used for expressing quantum algorithms. It was initially released to the public by Microsoft as part of the Quantum Development Kit. Q...
+
+Q# (pronounced Q sharp) is a domain-specific programming language used for expressing quantum algorithms. It was initially released to the public by Microsoft as part of the Quantum Development Kit.
+Q# works in conjunction with classical languages such as C#, Python and F#, and is designed to allow the use of traditional programming concepts in quantum computing, including functions with variables and branches as well as a syntax-highlighted development environment with a quantum debugger.
+
+
+== History ==
+Historically, Microsoft Research had two teams interested in quantum computing: the QuArC team based in Redmond, Washington, directed by Krysta Svore, that explored the construction of quantum circuitry, and Station Q initially located in Santa Barbara and directed by Michael Freedman, that explored topological quantum computing.
+During a Microsoft Ignite Keynote on September 26, 2017, Microsoft announced that they were going to release a new programming language geared specifically towards quantum computers. On December 11, 2017, Microsoft released Q# as a part of the Quantum Development Kit.
+At Build 2019, Microsoft announced that it would be open-sourcing the Quantum Development Kit, including its Q# compilers and simulators.
+To support Q#, Microsoft developed Quantum Intermediate Representation (QIR) in 2023 as a common interface between programming languages and target quantum processors. The company also announced a compiler extension that generates QIR from Q#.
+Bettina Heim currently leads the Q# language development effort.
+
+
+== Usage ==
+Q# is available as a separately downloaded extension for Visual Studio, but it can also be run as an independent tool from the command line or Visual Studio Code. Q# was introduced on Windows and is available on MacOS and Linux.
+The Quantum Development Kit includes a quantum simulator capable of running Q# and simulated 30 logical qubits.
+In order to invoke the quantum simulator, another .NET programming language, usually C#, is used, which provides the (classical) input data for the simulator and reads the (classical) output data from the simulator.
+
+
+== Features ==
+A primary feature of Q# is the ability to create and use qubits for algorithms. As a consequence, some of the most prominent features of Q# are the ability to entangle and introduce superpositioning to qubits via controlled NOT gates and Hadamard gates, respectively, as well as Toffoli Gates, Pauli X, Y, Z Gate, and many more which are used for a variety of operations (See quantum logic gates).
+The hardware stack that will eventually come together with Q# is expected to implement Qubits as topological qubits. The quantum simulator that is shipped with the Quantum Development Kit today is capable of processing up to 32 qubits on a user machine and up to 40 qubits on Azure.
+
+
+== Documentation and resources ==
+Currently, the resources available for Q# are scarce, but the official documentation is published: Microsoft Developer Network: Q#. Microsoft Quantum Github repository is also a large collection of sample programs implementing a variety of Quantum algorithms and their tests.
+Microsoft has also hosted a Quantum Coding contest on Codeforces, called Microsoft Q# Coding Contest - Codeforces, and also provided related material to help answer the questions in the blog posts, plus the detailed solutions in the tutorials.
+Microsoft hosts a set of learning exercises to help learn Q# on GitHub: microsoft/QuantumKatas with links to resources, and answers to the problems.
+
+
+== Syntax ==
+Q# is syntactically related to both C# and F# yet also has some significant differences.
+
+
+=== Similarities with C# ===
+Uses namespace for code isolation
+All statements end with a ;
+Curly braces are used for statements of scope
+Single line comments are done using //
+Variable data types such as Int Double String and Bool are similar, although capitalised (and Int is 64-bit)
+Qubits are allocated and disposed inside a using block.
+Lambda functions are defined using the => operator.
+Results are returned using the return keyword.
+
+
+=== Similarities with F# ===
+Variables are declared using either let or mutable
+First-order functions
+Modules, which are imported using the open keyword
+The datatype is declared after the variable name
+The range operator ..
+for … in loops
+Every operation/function has a return value, rather than void. Instead of void, an empty Tuple () is returned.
+Definition of record datatypes (using the newtype keyword, instead of type).
+
+
+=== Differences ===
+Functions are declared using the function keyword
+Operations on the quantum computer are declared using the operation keyword
+Lack of multiline comments
+Asserts instead of throwing exceptions
+Documentation is written in Markdown instead of XML-based documentation tags
+
+
+== Example ==
+
+The following source code is a multiplexer from the official Microsoft Q# library repository.
+
+
+== References ==
+
+
+== External links ==
+Official website
+qsharp-language on GitHub

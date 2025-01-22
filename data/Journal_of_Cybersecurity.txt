@@ -1,0 +1,8 @@
+The Journal of Cybersecurity is an open access peer reviewed academic journal of cybersecurity. It is published by Oxford University Press. It was first issued in 2015. Its editors in chief are Tyler ...
+
+The Journal of Cybersecurity is an open access peer reviewed academic journal of cybersecurity. It is published by Oxford University Press. It was first issued in 2015.
+Its editors in chief are Tyler Moore and David Pym.
+The journal is a member of the Committee on Publication Ethics (COPE). The journal concentrates on the belief that computer science approaches are critical, but are not enough to tackle cybersecurity threats. Moreover, the article maintains the belief that interdisciplinary academic contributions are needed to understand the different facets of cybersecurity.
+
+
+== References ==

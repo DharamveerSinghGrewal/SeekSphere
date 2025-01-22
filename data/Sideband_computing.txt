@@ -1,0 +1,47 @@
+Sideband computing is where a user connects to some normal network service, and a separate communication channel is opened through which a server distributes tasks to the clients. Through sideband com...
+
+Sideband computing is where a user connects to some normal network service, and a separate communication channel is opened through which a server distributes tasks to the clients. Through sideband computing method, any network server which has a lot of clients can form into a large-scale super-computing network. During this process, the resources in the clients could be utilized through the central server so long as the main channel is maintained. Sideband computing is related to the distributed computing and multiple communication channels.
+The task can be any task that is performed by individual client and used in the various distributed computing environment such as social computing, volunteer computing, and edge computing, grid computing, or utility computing. Collaborative task in social computing is one example.
+Sideband computing is also a type of super computing where each client carries out some real computation tasks that could be the individually executed. With the server aggregating the results from each client, it effectively achieves the function of a real supercomputer.
+
+
+== Advantage ==
+Sideband computing maximizes the participation and involvement of clients who are connecting with the server so that every client could help to contribute. With little cost, the network server can act as a supercomputer.
+Most other distributed computing requires each client to manually install client side software, proactively participate in the computing and the computation is the sole objective of such client side software.
+With sideband computing, sideband service stays along with a regular network service, which allows the sideband services being served without much interrupting to the main network service that is less intrusive and more user-friendly to the end user.
+On a different view, a client can be viewed as paying its “contributing” in exchange of the regular service it is served. This is similar to volunteer computing
+
+
+== Disadvantage ==
+Sideband computing requires a regular network service being performed beforehand. 
+Without the main network service, it is not called sideband method.
+
+
+== Applicable fields ==
+Ajax and Web 2.0 are claimed to be one of the area where sideband method is used. It is said that Ajax is conducted through asynchronously though additional channel other than a browser-server's main HTTP channel.
+Examples of sideband computing in this sense include collaborative filtering, online auctions, online ranking, mashing up, prediction markets, reputation systems, computational social choice, tagging, and verification games using Ajax.
+A typical setup would involve that the server allows each client to do a small amount of work and the server coordinates and aggregates results every client to form a larger picture.
+For instance, when sideband computing applies to the social computing based on each client creating or recreating social conventions and social contexts through the use of client's computing resource, software and technology.
+Many social networking services, which utilize The Wisdom of Crowds, such as Wikis, social bookmaking, blogging, instant messaging, online bidding, and other kinds of electronic market or electronic negotiation platforms where people interact socially, could found the trace of sideband method.
+Another application of the sideband computing method is P2P, where a peer could not only a client or a server, it also acts as other roles including routing, proxying, caching.
+Other claimed area of the sideband computing method are grid computing, cloud computing, cluster computing and utility computing where a node could perform functions more than its primary duty through a sideband channel.
+
+
+== Intellectual property ==
+A Patent 6,418,462 is granted to the sideband computing method. It is filed on January 7, 1999, and granted on July 9, 2002. Licensing and validity of the patent claims is unknown yet.
+
+
+== References ==
+
+
+== See also ==
+Social computing
+Volunteer computing
+Grid computing
+Utility computing
+Edge computing
+Cloud computing
+Ajax (programming)
+Web 2.0
+P2P
+Clusters

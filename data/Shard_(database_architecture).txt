@@ -1,0 +1,85 @@
+A database shard, or simply a shard, is a horizontal partition of data in a database or search engine. Each shard may be held on a separate database server instance, to spread load. Some data within a...
+
+A database shard, or simply a shard, is a horizontal partition of data in a database or search engine. Each shard may be held on a separate database server instance, to spread load.
+Some data within a database remains present in all shards, but some appear only in a single shard. Each shard (or server) acts as the single source for this subset of data.
+
+
+== Database architecture ==
+Horizontal partitioning is a database design principle whereby rows of a database table are held separately, rather than being split into columns (which is what normalization and vertical partitioning do, to differing extents). Each partition forms part of a shard, which may in turn be located on a separate database server or physical location.
+There are numerous advantages to the horizontal partitioning approach. Since the tables are divided and distributed into multiple servers, the total number of rows in each table in each database is reduced. This reduces index size, which generally improves search performance. A database shard can be placed on separate hardware, and multiple shards can be placed on multiple machines. This enables a distribution of the database over a large number of machines, greatly improving performance. In addition, if the database shard is based on some real-world segmentation of the data (e.g., European customers v. American customers) then it may be possible to infer the appropriate shard membership easily and automatically, and query only the relevant shard.
+In practice, sharding is complex. Although it has been done for a long time by hand-coding (especially where rows have an obvious grouping, as per the example above), this is often inflexible. There is a desire to support sharding automatically, both in terms of adding code support for it, and for identifying candidates to be sharded separately. Consistent hashing is a technique used in sharding to spread large loads across multiple smaller services and servers.
+Where distributed computing is used to separate load between multiple servers (either for performance or reliability reasons), a shard approach may also be useful.  In the 2010s, sharding of execution capacity, as well as the more traditional sharding of data, has emerged as a potential approach to overcome performance and scalability problems in blockchains.
+
+
+== Compared to horizontal partitioning ==
+Horizontal partitioning splits one or more tables by row, usually within a single instance of a schema and a database server. It may offer an advantage by reducing index size (and thus search effort) provided that there is some obvious, robust, implicit way to identify in which partition a particular row will be found, without first needing to search the index, e.g., the classic example of the 'CustomersEast' and 'CustomersWest' tables, where their ZIP code already indicates where they will be found.
+Sharding goes beyond this. It partitions the problematic table(s) in the same way, but it does this across potentially multiple instances of the schema. The obvious advantage would be that search load for the large partitioned table can now be split across multiple servers (logical or physical), not just multiple indexes on the same logical server.
+Splitting shards across multiple isolated instances requires more than simple horizontal partitioning. The hoped-for gains in efficiency would be lost, if querying the database required multiple instances to be queried, just to retrieve a simple dimension table. Beyond partitioning, sharding thus splits large partitionable tables across the servers, while smaller tables are replicated as complete units.
+This is also why sharding is related to a shared-nothing architecture—once sharded, each shard can live in a totally separate logical schema instance / physical database server / data center / continent. There is no ongoing need to retain shared access (from between shards) to the other unpartitioned tables in other shards.
+This makes replication across multiple servers easy (simple horizontal partitioning does not). It is also useful for worldwide distribution of applications, where communications links between data centers would otherwise be a bottleneck.
+There is also a requirement for some notification and replication mechanism between schema instances, so that the unpartitioned tables remain as closely synchronized as the application demands. This is a complex choice in the architecture of sharded systems: approaches range from making these effectively read-only (updates are rare and batched), to dynamically replicated tables (at the cost of reducing some of the distribution benefits of sharding) and many options in between.
+
+
+== Implementations ==
+Altibase provides combined (client-side and server-side) sharding architecture transparent to client applications.
+Apache HBase can shard automatically.
+Azure SQL Database Elastic Database tools shards to scale out and in the data-tier of an application.
+ClickHouse, a fast open-source OLAP database management system, shards.
+Couchbase shards automatically and transparently.
+CUBRID shards since version 9.0
+Db2 Data Partitioning Feature (MPP) which is a shared-nothing database partitions running on separate nodes.
+DRDS (Distributed Relational Database Service) of Alibaba Cloud does database/table sharding, and supports Singles' Day.
+Elasticsearch enterprise search server shards.
+eXtreme Scale is a cross-process in-memory key/value data store (a NoSQL data store). It uses sharding to achieve scalability across processes for both data and MapReduce-style parallel processing.
+Hibernate shards, but has had little development since 2007.
+IBM Informix shards since version 12.1 xC1 as part of the MACH11 technology. Informix 12.10 xC2 added full compatibility with MongoDB drivers, allowing the mix of regular relational tables with NoSQL collections, while still allowing sharding, fail-over and ACID properties.
+Kdb+ shards since version 2.0.
+MariaDB Spider, an storage engine that supports table federation, table sharding, XA transactions, and ODBC data sources. The MariaDB Spider engine is bundled in MariaDB server since version 10.0.4.
+MonetDB, an open-source column-store, does read-only sharding in its July 2015 release.
+MongoDB shards since version 1.6.
+MySQL Cluster automatically and transparently shards across low-cost commodity nodes, allowing scale-out of read and write queries, without requiring changes to the application.
+MySQL Fabric (part of MySQL utilities) shards.
+Oracle Database shards since 12c Release 2 and in one liner: Combination of sharding advantages with well-known capabilities of enterprise ready multi-model Oracle Database.
+Oracle NoSQL Database has automatic sharding and elastic, online expansion of the cluster (adding more shards).
+OrientDB shards since version 1.7
+Solr enterprise search server shards.
+ScyllaDB runs sharded on each core in a server, across all the servers in a cluster
+Spanner, Google's global-scale distributed database, shards across multiple Paxos state machines to scale to "millions of machines across hundreds of data centers and trillions of database rows".
+SQLAlchemy ORM, a data-mapper for the Python programming language shards.
+SQL Server, since SQL Server 2005 shards with help of 3rd party tools.
+Teradata markets a massive parallel database management system as a "data  warehouse"
+Vault, a cryptocurrency, shards to drastically reduce the data that users need to join the network and verify transactions. This allows the network to scale much more.
+Vitess open-source database clustering system shards MySQL. It is a Cloud Native Computing Foundation project.
+ShardingSphere related to a database clustering system providing data sharding, distributed transactions, and distributed database management. It is an Apache Software Foundation (ASF) project.
+
+
+== Disadvantages ==
+Sharding a database table before it has been optimized locally causes premature complexity. Sharding should be used only when all other options for optimization are inadequate.  The introduced complexity of database sharding causes the following potential problems:
+
+SQL complexity - Increased bugs because the developers have to write more complicated SQL to handle sharding logic
+Additional software - that partitions, balances, coordinates, and ensures integrity can fail
+Single point of failure - Corruption of one shard due to network/hardware/systems problems causes failure of the entire table.
+Fail-over server complexity - Fail-over servers must have copies of the fleets of database shards.
+Backups complexity - Database backups of the individual shards must be coordinated with the backups of the other shards.
+Operational complexity - Adding/removing indexes, adding/deleting columns, modifying the schema becomes much more difficult.
+
+
+== Etymology ==
+In a database context, most recognize the term "shard" is most likely derived from either one of two sources: Computer Corporation of America's "A System for Highly Available Replicated Data", which utilized redundant hardware to facilitate data replication (as opposed to horizontal partitioning); or the critically acclaimed 1997 MMORPG video game Ultima Online which set 8 Guinness World Records and was designated by Time as one of the 100 greatest video games produced of all time.
+Richard Garriott, creator of Ultima Online, recollects the term being coined during production phase when they attempted to create a self-regulating virtual ecology system, whereby players may leverage new internet access (a revolutionary technology at the time) to interact and harvest in-game resources. Although the virtual ecology functioned as intended during in-house testing, its natural balance failed "almost instantaneously" due to players killing off every living wildlife across the playable area faster than the spawning system could operate. Garriott's production team attempted to mitigate this issue by separating the global player base into separate sessions, and rewriting part of Ultima Online's fictional connection to the end of Ultima I: The First Age of Darkness, where the defeat of its antagonist Mondain also led to the creation of multiverse "shards". This modification provided Garriott's team with the fictional basis needed to justify creating copies of the virtual environment. However, the game's sharp rise to critical acclaim also meant that the new multiverse virtual ecology system was quickly overwhelmed as well. After several months of testing, Garriott's team decided to abandon the feature altogether, and stripped the game of its functionality.
+Today, the term "shard" refers to the deployment and use of redundant hardware across database systems.
+
+
+== See also ==
+Block Range Index
+Shared-nothing architecture
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Informix JSON data sharding

@@ -1,0 +1,55 @@
+Cloud Foundry is an open source, multi-cloud application platform as a service (PaaS) governed by the Cloud Foundry Foundation, a 501(c)(6) organization. The software was originally developed by VMwar...
+
+Cloud Foundry is an open source, multi-cloud application platform as a service (PaaS) governed by the Cloud Foundry Foundation, a 501(c)(6) organization.
+The software was originally developed by VMware, transferred to Pivotal Software (a joint venture by EMC, VMware and General Electric), who then transferred the software to the Cloud Foundry Foundation upon its inception in 2015.
+
+
+== History ==
+Originally conceived in 2009, Cloud Foundry was designed and developed by a small team at VMware led by Derek Collison and was originally called Project B29. At the time, a different PaaS project written in Java for Amazon EC2 used the name Cloud Foundry. It was founded by Chris Richardson in 2008 and acquired by SpringSource in 2009, the same year VMware acquired SpringSource. The current project is unrelated to the project under SpringSource, but the name was adopted when the original SpringSource project ended.
+The announcement of Cloud Foundry took place in April 2011. A year later, in April 2012, BOSH, an open source tool chain for release engineering, deployment, and life-cycle management of large scale distributed services, was publicly launched. In April 2013, Pivotal was created from EMC and VMware, to market assets including Cloud Foundry, RabbitMQ and Spring.
+By February 2014, it was announced that there would be an open governance foundation established with seven Platinum members and two Gold members.
+In May 2014, there was an announcement of expanded membership with the addition of eight new companies. By December 2014, the membership had increased to 40.
+
+
+== Cloud Foundry Foundation ==
+In January 2015, the Cloud Foundry Foundation was created as an independent not-for-profit 501(c)(6) Linux Foundation Collaborative Project.
+Following the creation of the Cloud Foundry Foundation, the Cloud Foundry software (source code and all associated trademarks) was transferred to be held by the open source software foundation. It is primarily written in Ruby, Go and Java.
+As of February 2019, the Foundation had 65 members.
+The foundation serves as a neutral party holding all Cloud Foundry intellectual property. Once intellectual property is contributed to Cloud Foundry, it becomes property of the Foundation and these assets cannot be transferred to for-profit entities, as per the laws governing 501(c)(6) organizations. The Foundation holds two contributed types of intellectual property: trademarks and a copyright on the collective work of the community. It also has a license to use and re-license all code contributions, but does not own copyright on those contributions.
+
+
+== Usage ==
+Cloud Foundry is promoted for continuous delivery as it supports the full application development lifecycle, from initial development through all testing stages to deployment. Cloud Foundry’s container-based architecture runs apps in any programming language over a variety of cloud service providers. This multi-cloud environment allows developers to use the cloud platform that suits specific application workloads and move those workloads as necessary within minutes with no changes to the application.
+
+
+== Services ==
+Applications deployed to Cloud Foundry access external resources via an Open Service Broker API, which was launched in December 2016.
+In a platform, all external dependencies such as databases, messaging systems, file systems and so on are considered services. Cloud Foundry allows administrators to create a marketplace of services, from which users can provision these services on-demand. When an application is pushed to Cloud Foundry the services it needs may also be specified. This process puts the credentials in an environment variable.
+
+
+== Software ==
+The development of Cloud Foundry is supported by the Cloud Foundry Foundation, through the governance process agreed to by its members.
+The source code is under an Apache License 2.0. and contributions are made based on the Cloud Foundry contributors' licenses for individuals and corporations.
+Born on a container-based architecture, Cloud Foundry is able to support innovation in containers through collaboration with other projects and standards such as Open Container Initiative (OCI) and Container Network Interface (CNI).
+Languages and frameworks that can be deployed using the buildpack lifecycle include:
+
+In addition to the buildpack lifecycle, applications packaged as Docker images can be deployed using the Docker lifecycle.
+Cloud Foundry Application Runtime can be deployed to many different infrastructure providers, including VMware’s vSphere, OpenStack, Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform, SAP Cloud Platform, Alibaba Cloud and others using the Cloud Provider Interface (CPI) capability of the Cloud Foundry BOSH project. Cloud Foundry is deprecated on IBM Cloud as of October 2022.
+It is also possible to install Cloud Foundry using a BOSH-Lite Vagrant virtual machine.
+
+
+== Platform ==
+The Cloud Foundry platform is available from either the Cloud Foundry Foundation as open-source software or from a variety of commercial providers as either a software product or delivered as a service.
+Cloud Foundry is open-source software, and hence, it is available to anyone. Deploying Cloud Foundry involves interfacing with the underlying infrastructure using the Cloud Foundry BOSH deployment system, another open-source tool governed by the Cloud Foundry Foundation.
+In December 2015, the Cloud Foundry Foundation announced the “Cloud Foundry PaaS Certification program” which delineated criteria to be considered a Cloud Foundry Certified Provider.
+
+
+== See also ==
+Cloud-computing comparison
+
+
+== References ==
+
+
+== External links ==
+Official website

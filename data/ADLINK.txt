@@ -1,0 +1,13 @@
+ADLINK Technology Inc. ( AY-dee-link) is a company that designs and manufactures products for embedded computing, test and measurement, and automation applications. ADLINK's product line includes comp...
+
+ADLINK Technology Inc. ( AY-dee-link) is a company that designs and manufactures products for embedded computing, test and measurement, and automation applications. ADLINK's product line includes computer-on-modules, industrial motherboards, data acquisition modules and complete systems. Headquartered in Taiwan, ADLINK has operations in Beijing, Mannheim, Paris, San Jose, Seoul, Shanghai, Shenzhen, Singapore and Tokyo. 
+ADLINK sells to original equipment manufacturers (OEMs) and system integrators.
+
+ADLINK acquired Ampro Computers, Inc. in April 2008, and markets Ampro products under the brand Ampro by ADLINK.
+ADLINK acquired LiPPERT Embedded Computers GmbH in February 2012, and markets LiPPERT products under the brand LiPPERT by ADLINK.
+ADLINK acquired PENTA GmbH in March 2014, and markets PENTA products under the brand PENTA-ADLINK.
+ADLINK acquired Prismtech in December 2015.
+ADLINK chief technical officer Jeff Munch is chair of the Advanced Telecommunications Computing Architecture PICMG 3.0 technical subcommittee and PICMG COM Express design guide subcommittee. ADLINK is an associate member of the Intel Communications Alliance.
+
+
+== References ==

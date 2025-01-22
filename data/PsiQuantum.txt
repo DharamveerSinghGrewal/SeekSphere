@@ -1,0 +1,15 @@
+PsiQuantum, Corp. (formerly PsiQ) is an American quantum computing company based in Palo Alto, California. It is developing a general-purpose silicon photonic quantum computer.   == History == PsiQuan...
+
+PsiQuantum, Corp. (formerly PsiQ) is an American quantum computing company based in Palo Alto, California. It is developing a general-purpose silicon photonic quantum computer.
+
+
+== History ==
+PsiQuantum was co-founded in 2016 by Jeremy O'Brien, Terry Rudolph, Peter Shadbolt, and Mark Thompson. They are or were professors and researchers at the University of Bristol and Imperial College London, England.
+As of July 2021, PsiQuantum was reported to have raised $665 million from investors at a valuation of $3.15 billion. Its investors include BlackRock, Baillie Gifford, and Microsoft's venture fund M12.
+In 2022, PsiQuantum and GlobalFoundries received U.S. federal funding for quantum computer research and development. PsiQuantum also entered into a collaboration with the Air Force Research Laboratory.
+In 2023, DARPA selected PsiQuantum as one of the companies to receive funding under its Underexplored Systems for Utility-Scale Quantum Computing (US2QC) program. The UK Government also provided funding for PsiQuantum to open a test facility for cryogenic testing in the UK.
+In 2024, the Australian Commonwealth and Queensland governments announced a A$940 million investment into the company via share equity (US$250 million) and loans. to build the world's first utility-scale, fault-tolerant quantum computer in Brisbane, Queensland. PsiQuantum stated that it had an aggressive plan to have the system operational by the end of 2027. In July 2024, PsiQuantum announced it had signed a memorandum of understanding (MOU) with five Queensland universities (The University of Queensland, Griffith University, Queensland University of Technology, University of Southern Queensland and the University of the Sunshine Coast) to develop educational programs in quantum fields and collaborate on research projects.
+Later in July 2024, PsiQuantum announced it would be partnering with the State of Illinois, Cook County, and the City of Chicago to anchor Governor JB Pritzker's new Illinois Quantum and Microelectronics Park.
+
+
+== References ==

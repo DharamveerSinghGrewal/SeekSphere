@@ -1,0 +1,27 @@
+Wakefield Scott Stornetta (born June 1959) is an American physicist and scientific researcher. His 1991 paper "How to Time-Stamp a Digital Document”, co-authored with Stuart Haber, won the 1992 Discov...
+
+Wakefield Scott Stornetta (born June 1959) is an American physicist and scientific researcher. His 1991 paper "How to Time-Stamp a Digital Document”, co-authored with Stuart Haber, won the 1992 Discover Award for Computer Software and is considered to be one of the most important papers in the development of cryptocurrencies.
+Stornetta is currently a fellow at the Creative Destruction Lab, a science and technology-based startup accelerator at the Rotman School of Management at the University of Toronto. He is also a founding partner and chief scientist of Yugen Partners, a blockchain-focused venture capital firm that counsels investors on blockchain startup opportunities and governments on blockchain policy, as well as the director of the board of advisors for the American Blockchain PAC.
+
+
+== Career ==
+In 1989, Stornetta began working as a scientific researcher at Bell Communications Research (Bellcore), where he met Stuart Haber, his future scientific partner and collaborator.
+In 1994, Stornetta and Haber co-founded Surety Technologies, a spinoff of Bellcore. In 1995, Surety’s offering constituted the first commercial deployment of a blockchain and is currently the oldest running blockchain.
+In 2019, Stornetta and Haber delivered the keynote address at the Becker Friedman Institute for Research in Economics at the University of Chicago Cryptocurrencies and Blockchains Conference. He also spoke in both the Distinguished Lecture Series at Virginia Tech University and the Decentralized Learning Series at the University of Nicosia.
+A resident of Morristown, New Jersey, Stornetta has spent time in the education field, working at both at Columbia High School and Morristown High School teaching computer science and math courses.
+Currently, Stornetta is Partner and Chief Scientist at Yugen Partners, a blockchain private equity firm.
+
+
+== Contributions ==
+Stornetta and Stuart Haber are the most cited authors in Satoshi Nakamoto’s original Bitcoin white paper; of the eight citations, three reference their work.
+Their 1991 paper "How to Time-Stamp a Digital Document” is where they first describe a digital hierarchy system called "Blockchain". In this study, Stornetta and Haber sought to create mechanisms to create digital time stamps, offering a solution for maintaining the integrity of digital records and ensuring that they could not be modified or manipulated. 
+In 1992, Stornetta, Haber, and Dave Bayer incorporated Merkle trees into their design, improving its efficiency by allowing many document certificates to be collected into one block.
+Stornetta is a co-author of "Central Bank Digital Currencies and a Euro for the Future", a report published in June 2021 by the EU Blockchain Observatory and Forum. The report addresses the latest trends and developments of digital currencies and discusses the future of blockchain in Europe and the rest of the world.
+
+
+== Personal life ==
+Stornetta is a member of The Church of Jesus Christ of Latter-day Saints.
+He describes himself as a libertarian.
+
+
+== References ==

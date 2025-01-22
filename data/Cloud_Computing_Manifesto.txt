@@ -1,0 +1,39 @@
+The Cloud Computing Manifesto is a manifesto containing a "public declaration of principles and intentions" for cloud computing providers and vendors, annotated as "a call to action for the worldwide ...
+
+The Cloud Computing Manifesto is a manifesto containing a "public declaration of principles and intentions" for cloud computing providers and vendors, annotated as "a call to action for the worldwide cloud community" and "dedicated belief that the cloud should be open". It follows the earlier development of the Cloud Computing Bill of Rights which addresses similar issues from the users' point of view.
+The document was developed "by way of an open community consensus process" in response to a request by Microsoft that "any 'manifesto' should be created, from its inception, through an open mechanism like a Wiki, for public debate and comment, all available through a Creative Commons license". Accordingly, it is hosted on a MediaWiki wiki and licensed under the CC-BY-SA 3.0 license.
+The original, controversial version of the document called the Open Cloud Manifesto was sharply criticised by Microsoft who "spoke out vehemently against it" for being developed in secret by a "shadowy group of IT industry companies", raising questions about conflicts of interest and resulting in extensive media coverage over the following days. A pre-announcement commits to the official publication of this document on 30 March 2009 (in spite of calls to publish it earlier), at which time the identities of the signatories ("several of the largest technology companies and organizations" led by IBM along with OMG and believed also to include Cisco, HP, and Sun Microsystems) is said to be revealed. Amazon, Google, Microsoft and Salesforce.com are among those known to have rejected the document by declining to be signatories. The document was leaked by Geva Perry in a blog post on 27 March 2009 and confirmed to be authentic shortly afterwards.
+The authors of both public and private documents have agreed to "work to bring together the best points of each effort".
+
+
+== Controversy ==
+The Open Cloud Manifesto version, developed in private by a secret consortium of companies, was prematurely revealed by Microsoft's Senior Director of Developer Platform Product Management, Steve Martin on 26 March 2009. They claim that they were "privately shown a copy of the document, warned that it was a secret, and told that it must be signed 'as is,' without modifications or additional input", a point which is disputed by Reuven Cohen (originally believed to be the document's author). Some commentators found it ironic that Microsoft should speak out in support of open standards while others felt that their criticism was justified, comparing it to the "long, ugly war over WS-I". The call for open cloud standards was later echoed by Brandon Watson, Microsoft's Director of Cloud Services Ecosystem.
+
+
+== Principles ==
+The following principles are defined by the document:
+
+User centric systems enrich the lives of individuals, education, communication, collaboration, business, entertainment and society as a whole; the end user is the primary stakeholder in cloud computing.
+Philanthropic initiatives can greatly increase the well-being of mankind; they should be enabled or enhanced by cloud computing where possible.
+Openness of standards, systems and software empowers and protects users; existing standards should be adopted where possible for the benefit of all stakeholders.
+Transparency fosters trust and accountability; decisions should be open to public collaboration and scrutiny and never be made "behind closed doors".
+Interoperability ensures effectiveness of cloud computing as a public resource; systems must be interoperable over a minimal set of community defined standards and vendor lock-in must be avoided.
+Representation of all stakeholders is essential; interoperability and standards efforts should not be dominated by vendor(s).
+Discrimination against any party for any reason is unacceptable; barriers to entry must be minimised.
+Evolution is an ongoing process in an immature market; standards may take some time to develop and coalesce but activities should be coordinated and collaborative.
+Balance of commercial and consumer interests is paramount; if in doubt consumer interests prevail.
+Security is fundamental, not optional.
+
+
+== See also ==
+Cloud computing
+List of Web service specifications
+
+
+== References ==
+
+
+== External links ==
+Cloud Computing Manifesto Archived 22 December 2022 at the Wayback Machine in the Cloud Computing Community wiki
+Open Cloud Manifesto leaked document
+A Manifesto for Future Generation Cloud Computing: Research Directions for the Next Decade

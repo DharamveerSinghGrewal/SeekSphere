@@ -1,0 +1,70 @@
+Computation offloading is the transfer of resource intensive computational tasks to a separate processor, such as a hardware accelerator, or an external platform, such as a cluster, grid, or a cloud. ...
+
+Computation offloading is the transfer of resource intensive computational tasks to a separate processor, such as a hardware accelerator, or an external platform, such as a cluster, grid, or a cloud.  Offloading to a coprocessor can be used to accelerate applications including: image rendering and mathematical calculations. Offloading computing to an external platform over a network can provide computing power and overcome hardware limitations of a device, such as limited computational power, storage, and energy.
+
+
+== History ==
+The first concepts of stored-program computers were developed in the design of the ENIAC, the first general-purpose digital computer. The ENIAC was limited in performance to single tasks which led to the development of the EDVAC which would become the first computer designed to perform instructions of various types. Developing computing technologies facilitated the increase in performance of computers, and subsequently has led to a variety of configurations and architecture.
+The first instances of computation offloading were the use of simple sub-processors to handle Input/output processing through a separate system called Channel I/O. This concept improved overall system performance as the mainframe only needed to set parameters for the operations while the channel processors carried out the I/O formatting and processing. During the 1970s, coprocessors began being used to accelerate floating-point arithmetic faster than earlier 8-bit and 16-bit processors which used software. As a result, math coprocessors became common for scientific and engineering calculations. Another form of coprocessor was the graphics coprocessor. As image processing became more popular, specialized graphics chips began being used to offload the creation of images from the CPU. Coprocessors were common in most computers, however, declined in usage due to the development in microprocessor technologies which integrated many coprocessor functions. Dedicated graphics processing units, however, are still widely used for their effectiveness in many tasks including; image processing, machine learning, parallel computing, computer vision, and physical simulation.
+The concept of time-sharing, the sharing of computing resources, was first implemented by John McCarthy. At the time, mainframe computing was not practical due to the costs associated with purchasing and maintaining mainframe computers. Time-sharing was a viable solution for this problem as computing time could be available to smaller companies. In the 1990s telecommunications companies started offering virtual private network (VPN) services. This allowed companies to balance traffic on servers which resulted in an effective use of bandwidth. The cloud symbol became synonymous with the interaction between providers and users. This computing extended past network servers and allowed computing power to be available to users through time-sharing. The availability of virtual computers allowed users to offload tasks from a local processor.
+In 1997 distributed.net sought to obtain volunteer computing to solve computational intensive tasks by using the performance of networked PCs. This concept known as grid computing was associated with cloud computing systems.
+The first concept of linking large mainframes to provide an effective form of parallelism was developed in the 1960s by IBM. Cluster computing was used by IBM was to increase hardware, operating system, and software performance while allowing users to run existing applications. This concept gained momentum during the 1980s as high-performance microprocessors and high-speed networks, tools for high performance distributed computing, emerged. Clusters could efficiently split and offload computation to individual nodes for increased performance while also gaining scalability.
+
+
+== Concept ==
+Computational tasks are handled by a central processor which executes instructions by carrying out rudimentary arithmetic, control logic, and input/output operations. The efficiency of computational tasks is dependent on the instructions per seconds that a CPU can perform which vary with different types of processors. Certain application processes can be accelerated by offloading tasks from the main processor to a coprocessor while other processes might require an external processing platform.
+
+
+=== Hardware Acceleration ===
+Hardware offers greater possible performance for certain tasks when compared to software. The use of specialized hardware can perform functions faster than software processed on a CPU. Hardware has the benefit of customization which allows for dedicated technologies to be used for distinct functions. For example, a graphics processing unit (GPU), which consists of numerous low-performance cores, is more efficient at graphical computation than a CPU which features fewer, high power, cores. Hardware accelerators, however, are less versatile when compared to a CPU.
+
+
+=== Cloud Computing ===
+Cloud Computing refers to both the applications transported over the Internet and the hardware and software in the data centers that provide services; which include data storage and computing. This form of computing is reliant on high-speed internet access and infrastructure investment. Through network access, a computer can migrate part of its computing to the cloud. This process involves sending data to a network of data centers that have access to computing power needed for computation.
+
+
+=== Cluster Computing ===
+Cluster computing is a type of parallel processing system which combines interconnected stand-alone computers to work as a single computing resource. Clusters employ a parallel programming model which requires fast interconnection technologies to support high-bandwidth and low latency for communication between nodes. In a shared memory model, parallel processes have access to all memory as a global address space. Multiple processors have the ability to operate independently but they share the same memory, therefore, changes in memory by one processor are reflected on all other processors.
+
+
+=== Grid Computing ===
+Grid computing is a group of networked computers that work together as a virtual supercomputer to perform intensive computational tasks, such as analyzing huge sets of data. Through the cloud, it is possible to create and use computer grids for purposes and specific periods. Splitting computational tasks over multiple machines significantly reduces processing time to increase efficiency and minimize wasted resources. Unlike with parallel computing, grid computing tasks usually have no time dependency associated with them, but instead, they use computers that are part of the grid only when idle, and users can perform tasks unrelated to the grid at any time.
+
+
+== Advantages ==
+There are several advantages in offloading computation to an external processor:
+
+External processing units can offer greater computational performance, storage, and flexibility when compared to a local computer.
+Computational limitations of a device could be ignored by offloading the workload to other systems with better performance and resources. Other aspects of the device could be improved including; energy consumption, cost, and portability.
+Enterprises that require hardware to perform business do not have to allocate resources towards information technology and infrastructure development.
+Cluster computing is more cost-effective than a single computer and is much more flexible in terms of adding more processing units.
+
+
+== Limitations ==
+There are several limitations in offloading computation to an external processor:
+
+Cloud computing services have issues regarding downtime, as outages can occur when service providers are overloaded with tasks.
+External computing requires network dependency which could lead to downtime if a network connection runs into issues.
+Computing over a network introduces latency which is not desired for latency-sensitive applications, including autonomous driving and video analytics.
+Cloud Providers are not always secure, and in an event of a security breach, important information could be disclosed.
+Modern computers integrate various technologies including; graphics, sound hardware, and networking within the main circuit board which makes many hardware accelerators irrelevant.
+Using cloud services removes individual control over the hardware and forces users to trust that cloud providers will maintain infrastructure and properly secure their data.
+Application software may not be available on the target processor or operating system.  Software may need to be rewritten for the target environment.  This can lead to additional software development, testing and costs.
+
+
+== Application ==
+
+
+=== Cloud Services ===
+Cloud services can be described by 3 main cloud service models: SaaS, PaaS, and IaaS. Software as a service (SaaS) is an externally hosted service which can be easily accessed by a consumer through a web browser. Platform as a service (PaaS) is a development environment where software can be built, tested, and deployed without the user having to focus on building and maintaining computational infrastructure. Infrastructure as a service (IaaS) is access to an infrastructure's resources, network technology, and security compliance which can be used by enterprises to build software. Cloud computing services provide users with access to large amounts of computational power and storage not viable on local computers without having significant expenditure.
+
+
+=== Mobile Cloud Computing ===
+Mobile devices, such as smartphones and wearable devices, are limited in terms of computational power, storage, and energy. Despite the constant development in key components including; CPU, GPU, memory, and wireless access technologies; mobile devices need to be portable and energy efficient. Mobile cloud computing is the combination of cloud computing and mobile computing, in which mobile devices perform computation offloading to balance the power of the cloud for accelerating application execution and saving energy consumption. In this computation offloading, a mobile device migrates part of its computing to the cloud. This process involves application partitioning, offloading decision, and distributed task execution.
+
+
+=== Video Gaming ===
+Video games are electronic games that involve input, an interaction with a user interface, and generate output, usually visual feedback on a video display device. These input/output operations rely on a computer and its components, including the CPU, GPU, RAM, and storage. Game files are stored in a form of secondary memory which is then loaded into the main memory when executed. The CPU is responsible for processing input from the user and passing information to the GPU. The GPU does not have access to a computer's main memory so instead, graphical assets have to be loaded into VRAM which is the GPU's memory. The CPU is responsible for instructing the GPU while the GPU uses the information to render an image on to an output device. CPU's are able to run games without a GPU through software rendering, however, offloading rendering to a GPU which has specialized hardware results in improved performance.
+
+
+== References ==

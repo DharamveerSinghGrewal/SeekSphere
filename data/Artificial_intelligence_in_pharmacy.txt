@@ -1,0 +1,15 @@
+Artificial intelligence in pharmacy is the application of artificial intelligence (AI) to the discovery, development, and the treatment of patients with medications. AI in pharmacy practices has the p...
+
+Artificial intelligence in pharmacy is the application of artificial intelligence (AI) to the discovery, development, and the treatment of patients with medications. AI in pharmacy practices has the potential to revolutionize all aspects of pharmaceutical research as well as to improve the clinical application of pharmaceuticals to prevent, treat, or cure disease. AI, a technology that enables machines to simulate human intelligence, has found applications in pharmaceutical research, drug manufacturing, drug delivery systems, clinical trial optimization, treatment plans, and patient-centered services.
+
+
+== Drug discovery and development ==
+
+AI algorithms analyze vast datasets with greater speed and accuracy than traditional methods. This has enabled the identification of potential drug candidates, prediction of their interactions, and optimization of formulations. AI-driven simulations and modeling assist researchers in understanding molecular interactions, thus expediting the drug development timeline.
+
+
+== Drug delivery systems ==
+AI is revolutionizing the drug delivery systems. AI technology can assist in identifying biological targets for pharmaceuticals, evaluating the pharmacological profiles of potential drugs, and analyzing genetic information; in the future, this could lead to drugs personalized to an individual, targeted cancer treatments, and edible vaccines.
+
+
+== References ==

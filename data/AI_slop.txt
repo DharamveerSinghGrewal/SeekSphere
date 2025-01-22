@@ -1,0 +1,48 @@
+"AI slop", often simply "slop", is a term for low-quality media, including writing and images, made using generative artificial intelligence technology. Coined in the 2020s, the term has a derogatory ...
+
+"AI slop", often simply "slop", is a term for low-quality media, including writing and images, made using generative artificial intelligence technology. Coined in the 2020s, the term has a derogatory connotation akin to "spam".
+It has been variously defined as "digital clutter", "filler content produced by AI tools that prioritize speed and quantity over substance and quality", and "shoddy or unwanted AI content in social media, art, books and, increasingly, in search results".
+Jonathan Gilmore, Professor of Philosophy at the City University of New York, describes the "incredibly banal, realistic style" of AI slop as being "very easy to process".
+
+
+== Origin of the term ==
+As large language models (LLMs) and image diffusion models accelerated the creation of high-volume but low-quality written content and images, discussion commenced for the appropriate term for the volume. Terms proposed included "AI garbage", "AI pollution", and "AI-generated dross". Early uses of the term "slop" as a descriptor for low-grade AI material apparently came in reaction to the release of AI image generators in 2022. Its early use has been noted among 4chan, Hacker News and YouTube commentators as a form of in-group slang.
+The British computer-programmer Simon Willison is credited for being an early champion of the term "slop" in the mainstream, which he did in May 2024 on his personal blog. However, he has said it was in use long before he began pushing for the term. 
+The term gained increased popularity in second quarter 2024 in part because of Google's use of its Gemini AI model to generate responses to search queries, and was widely used in media headlines by the fourth quarter of 2024.
+Research found that training LLMs on slop causes model collapse: a consistent decrease in the lexical, syntactic, and semantic diversity of the model outputs through successive iterations, notably remarkable for tasks demanding high levels of creativity.
+
+
+== On social media ==
+
+AI image and video slop proliferated on social media in part because it was revenue generating for its creators on Facebook and TikTok. This incentivizes individuals from developing countries to create images that appeal to audiences in the United States which attract higher advertising rates.
+The journalist Jason Koebler speculated that the bizarre nature of some of the content may be due to the creators using Hindi, Urdu, and Vietnamese prompts (languages which are underrepresented in the model's training data), or using erratic speech-to-text methods to translate their intentions into English.
+Speaking to New York magazine, a Kenyan creator of slop images described giving ChatGPT prompts such as "WRITE ME 10 PROMPT picture OF JESUS WHICH WILLING BRING HIGH ENGAGEMENT ON FACEBOOK", and then feeding those created prompts into a text-to-image AI service such as Midjourney.
+
+
+=== In politics ===
+
+In August 2024, The Atlantic noted that AI slop was becoming associated with the political right in the United States, who were using it for shitposting and engagement farming on social media, the technology offering "cheap, fast, on-demand fodder for content".
+In the aftermath of Hurricane Helene in the United States, members of the Republican Party circulated an AI-generated image of a young girl holding a puppy in a flood, and used it as evidence of the failure of President Joe Biden to respond to the disaster. Some, like Amy Kremer, shared the image on social media even while acknowledging that it was not genuine.
+
+
+=== In event listings ===
+
+Fantastical promotional graphics for the 2024 Willy's Chocolate Experience event, characterized as "AI-generated slop", misled audiences into attending an event that was held in a cheaply decorated warehouse. Tickets were marketed through Facebook advertisements showing AI-generated imagery, with no genuine photographs of the venue. 
+In October 2024, thousands of people were reported to have assembled for a non-existent Halloween parade in Dublin as a result of a listing on an aggregation listings website, MySpiritHalloween.com, which used AI-generated content. The listing went viral on TikTok and Instagram. While a similar parade had been held in Galway, and Dublin had hosted parades in prior years, there was no parade in Dublin in 2024. One analyst characterized the website, which appeared to use AI-generated staff pictures, as likely using artificial intelligence "to create content quickly and cheaply where opportunities are found". The site's owner said that "We asked ChatGPT to write the article for us, but it wasn't ChatGPT by itself." In the past the site had removed non-existent events when contacted by their venues, but in the case of the Dublin parade the site owner said that "no one reported that this one wasn't going to happen". MySpiritHalloween.com updated their page to say that the parade had been "canceled" when they became aware of the issue.
+
+
+== In advertising ==
+In November 2024, Coca-Cola used artificial intelligence to create three commercials as part of their annual holiday campaign. These videos were immediately met with negative reception from both casual viewers and artists, with animator Alex Hirsch, creator of Gravity Falls, criticizing the company's decision to not employ human artists to create the commercial. In response to the negative feedback, the company defended their decision to use generative artificial intelligence stating that "Coca-Cola will always remain dedicated to creating the highest level of work at the intersection of human creativity and technology".
+
+
+== See also ==
+Enshittification
+Hallucination (artificial intelligence)
+Dead Internet theory
+
+
+== References ==
+
+
+== External links ==
+ The dictionary definition of slop at Wiktionary

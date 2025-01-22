@@ -1,0 +1,15 @@
+In software engineering, critical mass is a stage in the life cycle when the source code grows too complicated to effectively manage without a complete rewrite. At the critical mass stage, fixing a bu...
+
+In software engineering, critical mass is a stage in the life cycle when the source code grows too complicated to effectively manage without a complete rewrite. At the critical mass stage, fixing a bug introduces one or more new bugs.
+Tools such as high-level programming languages and techniques such as programming in the large, code refactoring and test-driven development, exist to make it easier to maintain large, complicated programs.
+
+
+== See also ==
+High-level programming language
+Programming in the large
+Code refactoring
+Test-driven development
+The Mythical Man-Month
+
+
+== References ==

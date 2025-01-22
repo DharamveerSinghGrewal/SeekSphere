@@ -1,0 +1,63 @@
+Weisong Shi (Chinese: 施巍松) is a Chinese-American computer scientist, known for his leadership in fostering the edge computing research community.  He is currently an Alumni Distinguished Professor and...
+
+Weisong Shi (Chinese: 施巍松) is a Chinese-American computer scientist, known for his leadership in fostering the edge computing research community.  He is currently an Alumni Distinguished Professor and Department Chair of Computer and Information Sciences at University of Delaware in Newark, Delaware, where he leads the Connected and Autonomous Research (CAR) Laboratory. He is an internationally renowned expert in Edge Computing and Autonomous Vehicles (a.k.a. self-driving car).  He was named a Fellow of the Institute of Electrical and Electronics Engineers (IEEE) in 2016 for his contributions to distributed systems and Internet computing. He is the Editor-in-Chief of IEEE Internet Computing Magazine and the inaugural Editor-in-Chief of Elsevier Smart Health Journal.
+
+
+== Education ==
+Weisong Shi received his Bachelor's degree in computer science from Xidian University, China, in July 1995. He went on to obtain his Ph.D. in computer engineering from the Institute of Computing Technology, Chinese Academy of Sciences, in March 2000.
+
+
+== Career ==
+Weisong Shi began his academic career at Courant Institute of Mathematical Sciences (CIMS), New York University as an Associate Research Scientist (2000-2002), working with Zvi Kedem and Vijay Karamcheti. After that, he had spent 20 years at Wayne State University as a faculty member in the Department of Computer Science, where he made significant contributions to the field of distributed systems and Internet computing. At Wayne State University, he served in multiple administrative roles, including Associate Dean for Research and Graduate Studies at the College of Engineering and Interim Chair of the Computer Science Department. In October 2022, he joined the University of Delaware as a Professor and Chair of the Department of Computer and Information Sciences. He leads the Connected and Autonomous Research Laboratory (CAR) . During 2013-2015, he had spent two years as a Program Director at the Division of Computer and Network System (CNS), Directorate of Computer and Information Science and Engineering at the National Science Foundation.
+
+
+== Research ==
+Weisong Shi is a leading figure in the field of edge computing, which aims to bring computation and data storage closer to the location where it is needed to improve response times and save bandwidth. Dr. Shi has significantly contributed to multiple domains in computer and networked systems and their applications over the last two decades, including connected and autonomous vehicles, and connected health. He has published more than 300 peer-reviewed conference papers and journal articles.
+
+He founded the Connected and Autonomous Research Laboratory (CAR Lab), which aims to become a world-class research laboratory dedicated to autonomous driving software systems. The CAR lab maintains close ties with colleagues in academia and industry. Dr. Shi's research has been supported by internationally renowned companies such as  Autoware Foundation, GM, Meta, Tier-IV, Toyota, West Digital, to name a few.
+
+
+== Selected Publications ==
+Baofu Wu, Ren Zhong, Yuxin Wang, Jian Wan, Jilin Zhang, and Weisong Shi, "VPI: Vehicle Programming Interface for Vehicle Computing," Journal of Computer Science and Technology, Vol. 39, No.1, pp. 22–44, January 2024.
+Sidi Lu and Weisong Shi, Vehicle Computing, Springer, 2024.
+Liangkai Liu, Sidi Lu, Ren Zhong, Baofu Wu, Yongtao Yao, Qingyang Zhang, Weisong Shi, "Computing Systems for Autonomous Driving: State-of-the-Art and Challenges," IEEE Internet of Things Journal (IoTJ), Vol. 8, No. 8, April 2021. pp. 6469–6486.
+Shaoshan Liu, Liangkai Liu, Jie Tang, Bo Yu, Yifan Wang and Weisong Shi, "Edge Computing for Autonomous Driving: Opportunities and Challenges," Proceedings of the IEEE (PIEEE), Vol. 107, No. 8, August 2019. pp. 1697–1716.
+Weisong Shi, Hui Sun, Jie Cao, Quan Zhang, and Wei Liu, "边缘计算:万物互联时代新型计算模型," 计算机研究与发展, Vol. 54, No. 5, pp. 907–924. May 2017.
+Weisong Shi, Jie Cao, Quan Zhang, Youhuizi Li and Lanyu Xu, "Edge Computing: Vision and Challenges," IEEE Internet of Things Journal (IoTJ), Vol. 3, No. 5, October 2016, pp. 637–646.
+
+
+== Awards and Honors ==
+CCC Council member (2024 - )
+NSF CISE Advisory Committee (2023 - )
+Crain's Notable Leaders in EV (2022)
+IEEE TCI Distinguished Service Award (2020)
+IEEE Fellow (2016, IEEE Computer Society)
+NSF CAREER Award (2007)
+
+
+== Professional Services ==
+As the chairs of IEEE Computer Society Technical Committee on the Internet (TCI) and the IEEE STC on Autonomous Driving Technologies, he has profoundly influenced the trajectory of this rapidly evolving field, and won the 2020 IEEE TCI Distinguished Service Award. His leadership role at the NSF IUCRC on electric, connected, and autonomous technology for mobility (eCAT) and his Autoware Steering Committee service display his dedication and commitment to propelling these technologies forward. In 2016, he co-founded the ACM/IEEE Symposium on Edge Computing (SEC), IEEE/ACM International Conference on Connected Health (CHASE), a top venue for computer scientists and engineers to publish their work on smart and connected health. in 2023, he funded the IEEE International Conference on Mobility: Operations, Services, and Technologies (MOST), which builds upon the successful Connected and Autonomous Driving workshop (MetroCAD).
+He served as the General Chair of the 30th ACM Annual International Conference on Mobile Computing and Networking (MobiCom'24), which has a record-high 556 registered attendees in Washington D.C..
+He is serving on the Computing Research Association's Computing Community Consortium (CCC) Council (2024-2027) and US National Science Foundation's Directorate of Computer and Information Science and Engineering (CISE) Advisory Committee (2023-2026).
+
+
+== Advisees in Academia ==
+Sidi Lu (2023), College of William & Mary
+Liangkai Liu (2023), University of Michigan
+Lanyu Xu (2021), Oakland University
+Jie Cao (2018), Eastern Michigan University
+Safwan Al-Omari (2008), Loyola University Chicago
+Kewei Sha (2008), University of North Texas
+
+
+== Personal life ==
+Weisong Shi is married and has two children. In his spare time, he enjoys traveling and exploring new technologies.
+
+
+== External links ==
+Weisong Shi's Homepage
+Google Scholar Profile
+LinkedIn Profile
+
+
+== References ==

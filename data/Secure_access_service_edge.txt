@@ -1,0 +1,108 @@
+A secure access service edge (SASE) (also secure access secure edge) is technology used to deliver wide area network (WAN) and security controls as a cloud computing service directly to the source of ...
+
+A secure access service edge (SASE) (also secure access secure edge) is technology used to deliver wide area network (WAN) and security controls as a cloud computing service directly to the source of connection (user, device, Internet of things (IoT) device, or edge computing location) rather than a data center. It uses cloud and edge computing technologies to reduce the latency that results from backhauling all WAN traffic over long distances to one or a few corporate data centers, due to the increased movement off-premises of dispersed users and their applications. This also helps organizations support dispersed users.
+Security is based on digital identity, real-time context, and company and regulatory compliance policies, rather than a security appliance like a firewall. A digital identity may be attached to anything from a person to a device, cloud service, application software, IoT system, or any computing system.  
+The term was coined in 2019 by market analyst, Neil MacDonald of Gartner.
+
+
+== Overview ==
+SASE combines SD-WAN with network security functions, including cloud access security brokers (CASB), Secure Web Gateways (SWG), antivirus/malware inspection, virtual private networking (VPN), firewall as a service (FWaaS), and data loss prevention (DLP), all delivered by a single cloud service at the network edge.
+SASE SD-WAN functions may include traffic prioritization, WAN optimization, converged backbones and self-healing using artificial intelligence platforms AIOps to improve reliability and performance. 
+WAN and security functions are typically delivered as a single service at dispersed SASE points of presence (PoPs) located as close as possible to dispersed users, branch offices and cloud services. To access SASE services, edge locations or users connect to the closest available PoP. SASE vendors may contract with several backbone providers and peering partners to offer customers fast, low-latency WAN performance for long-distance PoP-to-PoP connections.
+
+
+== History ==
+The term SASE was coined by Gartner analysts Neil McDonald and Joe Skorupa and described in a July 29, 2019, networking hype cycle and market trends report, and an August 30, 2019, Gartner report.
+In 2021, Gartner defined a subset of SASE capabilities, called Secure services edge (SSE). SSE is a collection of SASE security services that can be implemented together with network services, like SD-WAN, to provide a complete solution.
+
+
+== Drivers ==
+SASE is driven by the rise of mobile, edge and cloud computing in the enterprise at the expense of the LAN and corporate data center. As users, applications and data move out of the enterprise data center to the cloud and network edge, moving security and the WAN to the edge as well is necessary to minimize latency and performance issues.
+The cloud computing model is meant to delegate and simplify delivery of SD-WAN and security functions to multiple edge computing devices and locations. Based on policy, different security functions may also be applied to different connections and sessions from the same entity, whether SaaS applications, social media, data center applications or personal banking, according to Gartner.
+The cloud architecture provides typical cloud enhancements such as elasticity, flexibility, agility, global reach and delegated management.
+
+
+== Characteristics ==
+SASE principal elements are:
+
+Convergence of WAN and network security functions.
+A cloud-native architecture delivering converged WAN and security as a service that offers the scalability, elasticity, adaptability and self-healing typical of all cloud services.
+Globally distributed fabric of PoPs delivering a full range of WAN and security capabilities with low latency, wherever business offices, cloud applications and mobile users are located. To deliver low latency at any location, SASE PoPs have to be more numerous and extensive than those offered by typical public cloud providers and SASE providers must have extensive peering relationships.
+Identity-driven services. An identity can be attached to anything from a person or branch office to a device, application, service, IoT device or edge computing location at the source of connection. Identity is the most significant context affecting SASE security policy. However, location, time of day, risk/trust posture of the connecting device and application and data sensitivity will provide other real-time context determining the security services and policies applied to and throughout each WAN session.
+Support for all edges equally, including physical locations, cloud data centers, users’ mobile devices and edge computing, with placement of all capabilities at the local PoP rather than the edge location. Edge connections to the local PoP may vary from an SD-WAN for a branch office to a VPN client or clientless Web access for a mobile user, to multiple tunnels from the cloud or direct cloud connections inside a global data center.
+Gartner and others promote a SASE architecture for the mobile, cloud enabled enterprise. Benefits include:
+
+
+=== Reduced complexity ===
+SASE reduces complexity with its Cloud computing model and a single vendor for all WAN and security functions, vs. multiple security appliances from multiple vendors at each location. Reduced complexity also comes from a single-pass architecture that decrypts the traffic stream and inspects it once with multiple policy engines rather than chaining multiple inspection services together.
+
+
+=== Universal access ===
+A SASE architecture is architected to provide consistent fast, secure access to any resource from any entity at any location, as opposed to access primarily based on the corporate data center.
+
+
+=== Cost efficiency ===
+Cost efficiency of the cloud model, which shifts up-front capital costs to monthly subscription fees, consolidates providers and vendors, and reduces the number of physical and virtual branch appliances and software agents IT has to purchase manage and maintain in-house. Cost reduction also comes from delegation of maintenance, upgrades and hardware refreshes to the SASE provider.
+
+
+=== Performance ===
+Performance of applications and services enhanced by latency-optimized routing, which is particularly beneficial for latency-sensitive video, VoIP and collaboration applications. SASE providers can optimize and route traffic through high-performance backbones contracted with carrier and peering partners. Performance is also increased by implementing all security functions with a single-pass architecture inside a single PoP, to avoid unnecessary routing. Depending on the implementation, SASE may reduce the number of apps and agents required for a device to a single app, while providing a consistent experience to the user regardless of where they are or what they are accessing.
+
+
+=== Consistent security ===
+Consistent security via a single cloud service for all WAN security functions and WAN connections. Security is based on the same set of policies, with the same security functions delivered by the same cloud service to any access session, regardless of application, user or device location and destination (cloud, data center application). Once the SASE provider adapts to a new threat, the adaptation can be available to all the edges.
+
+
+== Criticism ==
+Criticism of SASE has come from several sources, including IDC and IHS Markit, as cited in a November 9, 2019 sdxcentral post written by Tobias Mann. Both analyst firms criticize SASE as a Gartner term that is neither a new market, technology nor product, but rather an integration of existing technology with a single source of management.
+Clifford Grossner of IHS Markit criticizes the lack of analytics, artificial intelligence and machine learning as part of the SASE concept and the likelihood that enterprises won't want to get all SD-WAN and security functions from a single vendor. Gartner counters that service chaining of security and SD-WAN functions from multiple vendors yields “inconsistent services, poor manageability and high latency.”
+IDC analyst Brandon Butler cites IDC's position that SD-WAN will evolve to SD-Branch, defined as centralized deployment and management of virtualized SD-WAN and security functions at multiple branch office locations.
+
+
+== SASE technologies ==
+
+
+=== SD-WAN ===
+
+SD-WAN is a technology that simplifies wide area networking through centralized control of the networking hardware or software that directs traffic across the WAN. It also allows organizations to combine or replace private WAN connections with Internet broadband, LTE and/or 5g connections. The central controller sets policies and prioritizes, optimizes and routes WAN traffic, selecting the best link and path dynamically for optimum performance. SD-WAN vendors may offer some security functions with their SD-WAN virtual or physical appliances, which are typically deployed at the data center or branch office.
+Typically SASE incorporates SD-WAN as part of a cloud service that also delivers mobile access and a full security stack delivered from a local PoP.
+
+
+=== Next Generation Firewall (NGFW) ===
+
+NGFW combines a traditional firewall with other security and networking functions geared to the virtualized data center. Security functions include application control, deep and encrypted packet inspection, intrusion prevention, Web site filtering, anti-malware, identity management, threat intelligence and even WAN quality of service and bandwidth management.
+NGFW offers a subset of the security stack offered by SASE, and typically doesn't include SD-WAN services. NGFW may be deployed on premises or as a cloud service, while SASE is a cloud architecture by definition. While SASE focuses security on WAN connections, a NGFW can be deployed anywhere including internally in the data center.
+
+
+=== Firewall as a Service (FWaaS) ===
+
+FWaaS is a firewall offered as a cloud service, rather than on premises as software or hardware. Most FWaaS providers offer NGFW capabilities. Typically, an entire organization is connected to a single FWaaS cloud with no requirement for maintaining its own firewall infrastructure. SASE combines edge FWaaS with other security functions and SD-WAN.
+
+
+== Similar technology ==
+
+
+=== Network as a Service (NaaS) ===
+
+SASE and NaaS overlap in concept. NaaS delivers virtualized network infrastructure and services using a cloud subscription business model. Like SASE it offers reduced complexity and management costs. Typically, different NaaS providers offer different service packages, such as a package of WAN and secure VPNs as a service, bandwidth on demand, or hosted networks as a service. By contrast SASE is meant to be a single comprehensive secure SD-WAN solution for branch offices, mobile users, data centers and any other secure enterprise WAN requirement.
+
+
+=== Zero Trust Edge ===
+Research firm Forrester refers to a SASE-like type of converged network and security stack as Zero Trust Edge (ZTE). Forrester describes its model as similar to Gartner’s, but with additional emphasis on incorporating zero trust principles to authenticate and authorize users.
+
+
+== Marketplace ==
+Gartner expects the market for SASE solutions to grow to $15 billion in 2025 with buyers split between adopting a single or multiple vendor solution. Some vendors focus on the networking aspects while others focus on the security aspect which is now referred to as Secure Service Edge (SSE). A March 2022 study by Dell’Oro Group identified over 30 vendors offering SASE solutions, and identified vendors Cato Networks, Versa, and VMware as having a unified SASE platform. 
+
+
+== Standards ==
+MEF, originally known as the Metro Ethernet Forum, has become a next generation standards organization with a broad focus around software defined network and security infrastructure services for service provider, technology manufacturers, and enterprise network design.  For the purpose of creating a future where interoperation between "best of breed" solutions is possible, MEF set out to create a number of industry standards that could be leveraged for training as well as integration.  The MEF SASE Services Definition (MEF W117) committee was established and will be providing a draft technical specification for public use.  This specification has been the work of a number of technology manufacturers as well as several service providers and is based on current MEF Technical Specifications such as MEF 70.1 Draft Release 1 SD-WAN Service Attributes and Service Framework.
+MEF released a Working Draft; "MEF W117 draft 1.01 SASE (Secure Access Service Edge) SASE Service Attributes and Service Framework" August 2021.  The document is available to MEF participating companies and members.
+
+
+== See also ==
+Network function virtualization
+Zero trust security model
+
+
+== References ==

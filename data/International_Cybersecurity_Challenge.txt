@@ -1,0 +1,23 @@
+The International Cybersecurity Challenge is a cybersecurity competition created and organised by a global consortium including Europe (European Union Agency for Cybersecurity (ENISA)), Asia (Code Blu...
+
+The International Cybersecurity Challenge is a cybersecurity competition created and organised by a global consortium including Europe (European Union Agency for Cybersecurity (ENISA)), Asia (Code Blue, Div0, BoB, Bitscore), USA (Katzcy), Canada (Cyber*Sci), Oceania (The University of Queensland), Africa (Namibia University of Science and Technology), and Latin America (ICC Latino America)      for people up to the age of 25. The challenges include web and system exploitations, cryptography, reverse engineering, hardware, and attack/defense. It has been held since 2022.
+
+
+== Events ==
+
+
+=== 2022 ===
+The 2022 event was held in Athens, Greece between 14 and 17 June. There were 7 teams which represented 64 countries, and was won by Team Europe.
+Results
+
+
+=== 2023 ===
+The 2023 challenge was held in San Diego, California between 1 and 4 August. It was part of the International Cybersecurity Championship & Conference (IC3). The competition had 7 teams representing a region: Africa, Asia, Canada, Europe, Latin America, Oceania, and the United States. 65 countries in total were represented. Team Europe won again, Team Oceania came second Team Asia third.
+Results
+
+
+=== 2024 ===
+In 2024 the event will be held from 28 October to 1 November in Santiago, Chile. The competition will feature Africa, Asia, Canada, Europe, Latin America, Oceania, United States and potentially Middle East.
+
+
+== References ==

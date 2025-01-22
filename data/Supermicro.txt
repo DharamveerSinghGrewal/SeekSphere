@@ -1,0 +1,62 @@
+Super Micro Computer, Inc., doing business as Supermicro, is an American information technology company based in San Jose, California. The company is one of the largest producers of high-performance a...
+
+Super Micro Computer, Inc., doing business as Supermicro, is an American information technology company based in San Jose, California. The company is one of the largest producers of high-performance and high-efficiency servers, while also providing server management software, and storage systems for various markets, including enterprise data centers, cloud computing, artificial intelligence, 5G, and edge computing. Supermicro was founded on November 1, 1993, and has manufacturing operations in Silicon Valley, the Netherlands, and in Taiwan at its Science and Technology Park.
+
+
+== History ==
+In 1993, Supermicro began as a five-person business operation run by Charles Liang, a Taiwanese-American, alongside his wife and company treasurer, Chiu-Chu Liu, known as Sara. Prior to founding Supermicro, Liang earned a B.S. in electrical engineering from the National Taiwan University of Science and Technology and a M.S. in electrical engineering from the University of Texas at Arlington. Liang holds several patents for server technology and was previously the president and chief design engineer of Micro Center Computer, a motherboard design and manufacturing company, from July 1991 to August 1993.
+
+
+=== International expansion ===
+In 1996, the company opened a manufacturing subsidiary, Ablecom, in Taiwan, which is run by Charles's brothers, Steve Liang and Bill Liang. Charles Liang and his wife own close to 31 percent of Ablecom, while Steve Liang and other members of the family own close to 50 percent. In 1998, Supermicro opened a subsidiary in the Netherlands.
+In 2006, Supermicro pleaded guilty to a felony charge and paid a $150,000 fine due to a violation of a United States embargo against the sale of computer systems to Iran. In a plea agreement, it was acknowledged that Supermicro became aware of the investigation in February 2004 and set up an export-control program that same year.
+In May 2010, Supermicro further expanded into Europe with the opening of its system integration logistics center in the Netherlands. Two years later, the company opened its Taiwan Science and Technology Park, totaling $99 million in construction costs.
+
+
+=== Server tampering allegation ===
+On October 4, 2018, Bloomberg Businessweek published a report, citing unnamed corporate and governmental sources, which claimed that the Chinese People's Liberation Army had forced Supermicro's Chinese sub-contractors to add microchips with hardware backdoors to its servers. The report claimed that the compromised servers had been sold to U.S. government divisions (including the CIA and Department of Defense) and contractors and at least 30 commercial clients. Supermicro denied the report, stating that they had not been contacted by government agencies and were unaware of any investigation. The report was also disputed by sources and companies who were named therein. On October 9, 2018, Bloomberg issued a second report, alleging that Supermicro-manufactured datacenter servers of an unnamed U.S. telecom firm had been compromised by a hardware implant on an Ethernet connector.
+On October 22, 2018, Supermicro announced that "despite the lack of any proof that a malicious hardware chip exists" it was reviewing its motherboards for potential spy chips in response to the article. Supermicro filed a letter with the Securities and Exchange Commission stating that it was "confident" that "no malicious hardware chip had been implanted" during the manufacture of its motherboards.
+In February 2021, Bloomberg Business reported that despite Supermicro having been compromised since 2011, U.S. intelligence kept it a secret to gather intelligence about China and warned only a small number of potential targets.
+
+
+=== Accounting practices and short-seller allegations ===
+Supermicro settled with the SEC in August 2020 over violations in accounting practices between 2014 and 2017 by the company and its former chief financial officer, and agreed to pay $17.5 million in penalties. In 2018, the company was briefly delisted from the Nasdaq after delaying to file financial reports by nearly two years.
+In 2024, short-seller Hindenburg Research alleged that Supermicro continued to engage in accounting violations, adding that the company rehired executives who were involved in the accounting scandal. The report also alleged that the company was evading U.S. export restrictions by shipping advanced technology products to Russia. Hindenburg also pointed out alleged "circular" financial relationship with Supermicro's suppliers, Ablecom and Compuware, which are controlled and partially owned by the brothers of Supermicro's CEO. The next day, Supermicro said it would delay the filing of its annual report, causing its stock to collapse over 25%. The U.S. Department of Justice opened a preliminary probe into the company a month after the report, according to The Wall Street Journal. In October 2024, Supermicro's auditors, Ernst & Young resigned after raising significant concerns over the company's internal controls, board independence and accounting practices, which led the company to lose a third of its market value.
+
+
+=== Recent developments ===
+In November 2021, the joint venture of Super Micro Computer and Fiberhome Telecommunication Technologies won a contract for supplying servers to Xinjiang Bingtuan for 'public safety purposes', which is associated with the suppression of Uyghurs ethnic group and construction of a surveillance system in the province of Xinjiang.
+On December 21, 2021, the Washington Post, together with Russian dissident authors Andrei Soldatov and Irina Borogan, accused the company of supplying 30 servers to the Moscow control center for Internet censorship in Russia. Supermicro responded by stating the following: "Supermicro complies with applicable laws and regulations, and our policies are consistent with international principles of human rights. We act appropriately to ensure this is the case."
+On December 25, 2024, Super Micro Computer announced a joint venture with Taiwanese development company Guo Rui to build an artificial intelligence data center powered solely by renewable energy at an undisclosed location in Taiwan.
+
+
+== Products ==
+In 2012, Supermicro debuted its new 2U and 4U/Tower platforms.
+In 2016, Supermicro sent 30,000 MicroBlade servers to a Silicon Valley data center with a claimed power usage effectiveness (PUE) of 1.06. While Supermicro did not name the customer, it was likely Intel, who opened a similar data center in November 2015 with a PUE of 1.06.
+In April 2020, Supermicro announced the H12 A+ Superblade, a blade server based on the 2nd gen Epyc 1P family of CPUs. It was the first blade server platform to implement AMD's Epyc processors.
+In April 2021, Supermicro introduced over 100 application-optimized server product SKUs using (new at the time) 3rd Gen Intel Xeon Scalable processors, including Hyper, SuperBlade, the Twin Product Family (BigTwin, TwinPro, and FatTwin), Ultra, CloudDC, GPU, Telco/5Gand Edge servers.
+In 2023, Supermicro partnered with Rakuten Symphony on high-performing Open RAN technologies and storage systems for operators of cloud-based mobile services. Later in the year, Supermicro debuted servers with liquid cooling, focusing on ESG policies. The servers save approximately 40% of the power expended on air-cooled data centers. In June 2023, Supermicro saw increased demand for its large language model optimized AI systems, featuring NVIDIA chips.
+In July 2024, VentureBeat reported that Supermicro would be providing half the servers for Elon Musk's artificial intelligence start-up, xAI, with Dell providing the other half. Supermicro would also be supplying servers for Tesla's Gigafactory Texas.
+
+
+== Corporate affairs ==
+In September 2014, Supermicro moved its corporate headquarters to the former Mercury News headquarters in North San Jose, California, along Interstate 880, naming the campus Supermicro Green Computing Park. The main building was designed by Warren B. Heid in the modernist style, which was common for commercial buildings in the 1960s, and built by the Carl N. Swenson Company. During the time it served as the Mercury News's headquarters, the main building was expanded from 185,000-square-foot (17,200 m2) to 312,000 square feet (29,000 m2). Until recently, a bronze sculpture, Chandelier by John Jagger, hung from the ceiling of an elliptical loggia at the entrance. The loggia is distinguished by a series of metal columns and the moat that surrounds it. In 2017, the company completed a new 182,000 square-foot manufacturing building on the campus, which was designed to meet LEED gold certification. The company expanded its San Jose campus in September 2021 with a manufacturing facility for advanced storage and server equipment. Supermicro was reported to have 2,400 people working in San Jose.
+
+
+=== Board of directors ===
+As of August 2024, Supermicro's board of directors consists of co-founder Charles Liang, co-founder Sara Liu, Daniel W. Fairfax, Tally Liu, Sherman Tuan, Judy Lin, Robert Blair, and Wally Liaw, another founding member of the company.
+
+
+=== Financials ===
+On March 8, 2007, Supermicro raised $64 million in an initial public offering, selling 8 million shares at $8 a share. Supermicro's stock trades under the ticker symbol SMCI on the Nasdaq exchange.
+In 2009, Supermicro sold about $720 million worth of computer servers and related products and employed almost 1,100 people. By the end of 2023, the company had reported a fiscal year 2023 revenue of $7.1 billion and employed over 5,000 workers globally.
+Supermicro replaced Whirlpool in the S&P 500 after a large rally in the company's stock lifted its market cap from $4.5B at the end of 2022 to $60B in March 2024. On July 22, 2024, Supermicro became a Nasdaq-100 company, replacing Walgreens Boots Alliance in the index.
+
+
+== References ==
+
+
+== External links ==
+
+Official website 
+Business data for Super Micro Computer, Inc.:

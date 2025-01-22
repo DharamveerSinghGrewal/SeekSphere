@@ -1,0 +1,21 @@
+Eve Meryl Schooler is an American computer scientist who works for Intel as a principal engineer, and as director of emerging internet of things networks in the IoT Group. She is known for her work on...
+
+Eve Meryl Schooler is an American computer scientist who works for Intel as a principal engineer, and as director of emerging internet of things networks in the IoT Group. She is known for her work on internet standards for distributed computing and multimedia, and in particular as one of the designers of the Session Initiation Protocol; her work also involves fog computing and edge computing.
+
+
+== Education and career ==
+Schooler majored in computer science at Yale University, working there with Josh Fisher in the early 1980s and graduating in 1983. In 1988 she earned a master's degree at the University of California, Los Angeles, working there with Leonard Kleinrock on distributed debugging. She completed a Ph.D. at the California Institute of Technology in 2000, with the dissertation Why Multicast Protocols (Don’t) Scale: An Analysis of Multipoint Algorithms for Scalable Group Communication on multicast communication, supervised by K. Mani Chandy.
+Meanwhile, she had been working as a software engineer since 1983, and from 1988 to 1995 worked in the technical staff of the Information Sciences Institute of the University of Southern California. It was in this time that she developed Multimedia Conference Control, one of the multimedia systems that formed a key predecessor to the Session Initiation Protocol. After completing her doctoral studies at Caltech, she became a researcher at AT&T Labs Research from 2001 to 2003, and it is under this affiliation that the Session Initiation Protocol was published.
+After a year as a consultant, she moved to Intel in 2005, and has been a principal engineer there since 2008. Her work there included developing multicast extensions for the RTP Control Protocol, published in 2010. Her position as director for Emerging IoT Networks began in 2018.
+
+
+== Recognition ==
+With Stephen L. Casner, Schooler received the 2020 IEEE Internet Award, "for distinguished leadership in developing standards for Internet multimedia, and formative contributions to the design of Internet multimedia protocols." Schooler was named an IEEE Fellow, in the 2021 class of fellows, "for contributions to multimedia protocols and internet standards".
+
+
+== References ==
+
+
+== External links ==
+Home page
+Eve Schooler publications indexed by Google Scholar

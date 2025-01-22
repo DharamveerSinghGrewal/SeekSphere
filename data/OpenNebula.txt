@@ -1,0 +1,116 @@
+OpenNebula is an open source cloud computing platform for managing heterogeneous data center, public cloud and edge computing infrastructure resources. OpenNebula manages on-premises and remote virtua...
+
+OpenNebula is an open source cloud computing platform for managing heterogeneous data center, public cloud and edge computing infrastructure resources. OpenNebula manages on-premises and remote virtual infrastructure to build private, public, or hybrid implementations of infrastructure as a service (IaaS) and multi-tenant Kubernetes deployments. The two primary uses of the OpenNebula platform are data center virtualization and cloud deployments based on the KVM hypervisor, LXD/LXC system containers, and AWS Firecracker microVMs. The platform is also capable of offering the cloud infrastructure necessary to operate a cloud on top of existing VMware infrastructure. In early June 2020, OpenNebula announced the release of a new Enterprise Edition for corporate users, along with a Community Edition. OpenNebula CE is free and open-source software, released under the Apache License version 2. OpenNebula CE comes with free access to patch releases containing critical bug fixes but with no access to the regular EE maintenance releases. Upgrades to the latest minor/major version is only available for CE users with non-commercial deployments or with significant open source contributions to the OpenNebula Community. OpenNebula EE is distributed under a closed-source license and requires a commercial Subscription.
+
+
+== History ==
+The OpenNebula Project was started as a research venture in 2005 by Ignacio M. Llorente and Ruben S. Montero. The first public release of the software occurred in 2008. The goals of the research were to create efficient solutions for managing virtual machines on distributed infrastructures. It was also important that these solutions had the ability to scale at high levels. Open-source development and an active community of developers have since helped mature the project. As the project matured it began to become more and more adopted and in March 2010 the primary writers of the project founded C12G Labs, now known as OpenNebula Systems, which provides value-added professional services to enterprises adopting or utilizing OpenNebula.
+
+
+== Description ==
+OpenNebula orchestrates storage, network, virtualization, monitoring, and security technologies to deploy multi-tier services (e.g. compute clusters) as virtual machines on distributed infrastructures, combining both data center resources and remote cloud resources, according to allocation policies. According to the European Commission's 2010 report "... only few cloud dedicated research projects in the widest sense have been initiated – most prominent amongst them probably OpenNebula ...".
+The toolkit includes features for integration, management, scalability, security and accounting. It also claims standardization, interoperability and portability, providing cloud users and administrators with a choice of several cloud interfaces (Amazon EC2 Query, OGF Open Cloud Computing Interface and vCloud) and hypervisors (VMware vCenter, KVM, LXD/LXC and AWS Firecracker), and can accommodate multiple hardware and software combinations in a data center.
+OpenNebula is sponsored by OpenNebula Systems (formerly C12G).
+OpenNebula is widely used by a variety of industries, including cloud providers, telecommunication, information technology services, government, banking, gaming, media, hosting, supercomputing, research laboratories, and international research projects.
+
+
+== Development ==
+Major upgrades generally occur every 3-5 years and each upgrade generally has 3-5 updates. The OpenNebula project is mainly open-source and possible thanks to the active community of developers and translators supporting the project. Since version 5.12 the upgrade scripts are under a closed source license, which makes upgrading between versions impossible without a subscription unless you can prove you are operating a non-profit cloud or made a significant contribution to the project.
+
+
+=== Release History ===
+Version TP and TP2, technology previews, offered host and VM management features, based on Xen hypervisor.
+Version 1.0 was the first stable release, introduced KVM and EC2 drivers, enabling hybrid clouds.
+Version 1.2 added new structure for the documentation and more hybrid functionality.
+Version 1.4 added public cloud APIs on top of oned to build public cloud and virtual network management.
+Version 2.0 added mysql backend, LDAP authentication, management of images and virtual networks.
+Version 2.2 added integration guides, ganglia monitoring and OCCI (converted as add-ons in later releases), Java bindings for the API and the Sunstone GUI.
+Version 3.0 added a migration path from previous versions, VLAN, ebtables and OVS integration for virtual networks, ACLs and accounting subsystem, VMware driver, Virtual Data Centers and federation across data centers.
+Version 3.2 added firewalling for VMs (deprecated later on by security groups).
+Version 3.4 introduced iSCSI datastore, cluster as a first class citizen and quotas.
+Version 3.6 added Virtual Routers, LVM datastores and the public OpenNebula marketplace integration.
+Version 3.8 added the OneFlow components for service management and OneGate for application insight.
+Version 4.0 added support for Ceph and Files datastore and the onedb tool.
+Version 4.2 added a new self service portal (Cloud View) and VMFS datastore.
+Version 4.4 released in 2014, brought a number of innovations in Open Cloud, improved cloud bursting, and implemented the use of multiple system datastores for storage load policies.
+Version 4.6 allowed users to have different instances of OpenNebula in geographically dispersed and different data centers, this was known as the Federation of OpenNebula. A new cloud portal for cloud consumers was also introduced and in App market support was provided to import OVAs.
+Version 4.8 began offering support for Microsoft Azure and IBM. Developers, it also continued evolving and improving the platform by incorporating support for OneFlow in cloud view. This meant end users could now define virtual machine applications and services elastically.
+Version 4.10 integrated the support portal with the Sunstone GUI. Login token was also developed, and support was provided for VMS and vCenter.
+Version 4.12 offered new functionality to implement security groups and improve vCenter integration. Show back model was also deployed to track and analyze clouds due to different departments.
+Version 4.14 introduced a newly redesigned and modularized graphical interface code, Sunstone. This was intended to improve code readability and ease the task of adding new components.
+Version 5.0 'Wizard' introduced marketplaces as means to share images across different OpenNebula instances. Management of Virtual Routers with a network topology visual tool in Sunstone.
+Version 5.2 'Excession' added a IPAM subsystem to aid in network integrations, and also added LDAP group dynamic mapping.
+Version 5.4 'Medusa' introduced Full storage and network management for vCenter, and support for VM Groups to define affinity between VMs and hypervisors. Own implementation of RAFT for HA of the controller.
+Version 5.6 'Blue Flash' focused on scalability improvements, as well as UX improvements.
+Version 5.8 'Edge' added support for LXD for infrastructure containers, automatic NIC selection and Distributed Datacenters (DDC), which is the ability to use bare metal providers to build remote clusters in edge and hybrid cloud environments.
+Version 5.10 'Boomerang' added NUMA and CPU pinning, NSX integration, revamped hook subsystem based ion 0MQ, DPDK support and 2FA authentication for Sunstone.
+Version 5.12 'Firework' removal of upgrade scripts, added support to AWS Firecracker micro-VMs, a new integration with Docker Hub, Security Group integration (NSX), several improvements to Sunstone, a revamped OneFlow component, and an improved monitoring subsystem.
+Version 6.0 'Mutara' new multi-cloud architecture based on "Edge Clusters", enhanced Docker and Kubernetes support, new FireEdge webUI, revamped OneFlow, new backup capabilities.
+Version 6.2 'Red Square' improvements to LXC driver, new support to workload portability, beta preview of the new Sunstone GUI.
+Version 6.4 'Archeon' new support to the automatic deployment and management of edge clusters based on Ceph using on-premises infrastructure or AWS bare-metal resources, addition of the notion of network states, improvements to the new Sunstone GUI, to the LXC driver, and to the integration with VMware vCenter, and new module for WHMCS (only for EE).
+Version 6.6 'Electra' new integration of Prometheus for advanced monitoring combined with a new set of Grafana dashboards (only for EE), new native support for incremental backups based on datastore back-ends and the development of new drivers for restic (only for EE) and rsync, and several improvements for Telco Cloud environments, including enhanced management of virtual networks and VNFs.
+Version 6.8 'Rosette' new Virtual Data Center (VDC) and User tabs in the FireEdge Sunstone GUI (e.g. to display accounting and showback information), introduction of backup jobs for creating a unified backup policies across multiple VMs, and several improvements in the KVM driver (e.g. to fine-tune CPU flags, optimize disks, customize VM video, or boost Windows performance).
+Version 6.10 'Bubble' features enhanced backups (incremental backups, in-place restores, selective disk restore, custom locations), improved PCI passthrough (simplified device management, expanded GPU support), better recovery for powered-off or suspended VMs, multi-tenancy upgrades (custom quotas, restricted attributes), and support for Ubuntu 24 and Debian 12. Additional improvements include new components in Community Edition (Prometheus integration and Restic backup support from the Enterprise Edition), simplified deployment (new playbooks and roles for easy OpenNebula cloud setup), and efficient VMware migration (enhanced OneSwap tool for a streamlined vCenter Server to OpenNebula Cloud migration). Plus, the FireEdge Sunstone UI is now updated with advanced features and a modern tech stack.
+
+
+== Internal architecture ==
+
+
+=== Basic components ===
+
+Host: Physical machine running a supported hypervisor.
+Cluster: Pool of hosts that share datastores and virtual networks.
+Template: Virtual Machine definition.
+Image: Virtual Machine disk image.
+Virtual Machine: Instantiated Template. A Virtual Machine represents one life-cycle, and several Virtual Machines can be created from a single Template.
+Virtual Network: A group of IP leases that VMs can use to automatically obtain IP addresses. It allows the creation of Virtual Networks by mapping over the physical ones. They will be available to the VMs through the corresponding bridges on hosts. Virtual network can be defined in three different parts:
+Underlying of physical network infrastructure.
+The logical address space available (IPv4, IPv6, dual stack).
+Context attributes (e.g. net mask, DNS, gateway). OpenNebula also comes with a Virtual Router appliance to provide networking services like DHCP, DNS etc.
+
+
+== Components and deployment model ==
+
+The OpenNebula Project's deployment model resembles classic cluster architecture which utilizes
+
+A front-end (master node)
+Hypervisor enabled hosts (worker nodes)
+Datastores
+A physical network
+
+
+=== Front-end machine ===
+The master node, sometimes referred to as the front-end machine, executes all the OpenNebula services. This is the actual machine where OpenNebula is installed. OpenNebula services on the front-end machine include the management daemon (oned), scheduler (sched), the web interface server (Sunstone server), and other advanced components. These services are responsible for queuing, scheduling, and submitting jobs to other machines in the cluster. The master node also provides the mechanisms to manage the entire system. This includes adding virtual machines, monitoring the status of virtual machines, hosting the repository, and transferring virtual machines when necessary. Much of this is possible due to a monitoring subsystem which gathers information such as host status, performance, and capacity use. The system is highly scalable and is only limited by the performance of the actual server.
+
+
+=== Hypervisor enabled-hosts ===
+The worker nodes, or hypervisor enabled-hosts, provide the actual computing resources needed for processing all jobs submitted by the master node. OpenNebula hypervisor enabled-hosts use a virtualization hypervisor such as Vmware, Xen, or KVM. The KVM hypervisor is natively supported and used by default.
+Virtualization hosts are the physical machines that run the virtual machines and various platforms can be used with OpenNebula. A Virtualization Subsystem interacts with these hosts to take the actions needed by the master node.
+
+
+=== Storage ===
+
+The datastores simply hold the base images of the Virtual Machines. The datastores must be accessible to the front-end; this can be accomplished by using one of a variety of available technologies such as NAS, SAN, or direct attached storage.
+Three different datastore classes are included with OpenNebula, including system datastores, image datastores, and file datastores. System datastores hold the images used for running the virtual machines. The images can be complete copies of an original image, deltas, or symbolic links depending on the storage technology used. The image datastores are used to store the disk image repository. Images from the image datastores are moved to or from the system datastore when virtual machines are deployed or manipulated. The file datastore is used for regular files and is often used for kernels, ram disks, or context files.
+
+
+=== Physical networks ===
+Physical networks are required to support the interconnection of storage servers and virtual machines in remote locations. It is also essential that the front-end machine can connect to all the worker nodes or hosts. At the very least two physical networks are required as OpenNebula requires a service network and an instance network. The instance network allows the virtual machines to connect across different hosts. The network subsystem of OpenNebula is easily customizable to allow easy adaptation to existing data centers.
+
+
+== See also ==
+
+OpenStack
+CloudStack
+Cloud computing
+Cloud-computing comparison
+Ganeti
+openQRM
+oVirt
+
+
+== References ==
+
+
+== External links ==
+OpenNebula Website

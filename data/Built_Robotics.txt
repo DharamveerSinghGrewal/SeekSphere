@@ -1,0 +1,67 @@
+Built Robotics Inc. is a San Francisco, California, based vehicular automation startup that develops software and hardware to automate construction equipment. The company was founded in San Francisco ...
+
+Built Robotics Inc. is a San Francisco, California, based vehicular automation startup that develops software and hardware to automate construction equipment. The company was founded in San Francisco in 2016 by Noah Ready-Campbell and Andrew Liang. The company's primary product is the "Exosystem", an aftermarket kit that adds autonomous robotic capabilities onto existing heavy equipment through a combination of GPS, cameras, and artificial intelligence technology.
+
+
+== Technology ==
+
+
+=== Exosystem ===
+The Exosystem began development in 2018 and was first brought to market in 2021. The technology is marketed as a means to enable autonomous excavation, earthmoving, and pile driving.
+The Exosystem is installed on the tail of excavators. The company claims the Exosystem can be installed on machinery from Caterpillar, Hitachi, John Deere, Volvo, and other major manufacturers. The Exosystem advertises itself as consisting  of an all-weather enclosure that houses the hardware and software needed to enable autonomous operation. Additional sensors such as cameras, GPS, and IMUs are mounted at various points on the piece of heavy equipment.
+The Exosystem controls the heavy equipment through the electric-over-hydraulic (EH) systems for autonomous operation or remote control. The Exosystem can be turned off, which  allows the heavy equipment to be manually operated by a person inside the cab.
+
+As with factory robots, human robotic operators, referred to by Built as "Robot Equipment Operators" (REOs), must still start the system's initial operation before autonomous activities take control. REOs use a proprietary web-based platform, Everest, to supervise and control the robot. The REO can switch from autonomous to remote control mode, which allows an operator to move the robot through a remote interface.
+
+
+=== RPD 35 ===
+
+Built Robotics entered the utility-scale solar market in 2023 with the announcement of a new product called the RPD 35, or Robotic Pile Driver. The RPD 35 is advertised by the company as an excavator-based robot that can  automate multiple steps in the solar piling process. The company claims that the robot can autonomously perform surveying of pile locations, distribution of piles, driving of piles, and generation of as-builts. Built utilizes a modified  Caterpillar 335 by adding various main components: an Exosystem, pile-carrying sleds, and a custom-engineered hammer.
+
+
+== History ==
+
+
+=== Proof of Concept ===
+Built Robotics began attracting attention in 2018 as one of several new companies bringing automation to the construction industry, which had been relatively slow to adopt technical innovations compared to related industries.  Commentators noted that a dearth of skilled workers available to fill construction and heavy equipment operator positions, coupled with a need for infrastructure renewal and housing, were likely driving forces behind the industry's adoption of new technologies.
+Built Robotics claims to be the first of these companies to commercially deploy fully autonomous heavy equipment in construction settings.  Founder Ready-Campbell, a former Google product manager who studied software engineering and had previously founded another startup, Twice, got his inspiration for Built Robotics from his father, who worked as a carpenter.
+
+
+=== AI Guidance System ===
+The company's first product was called the "AI Guidance System", which began development in 2016 and was first brought to market in 2018. The technology was marketed as a solution in the excavation and grading to enable skid-steers, CTLs, excavators, and bulldozers to function autonomously.
+The company started out by expanding its market to other business areas on the functionality that the AI Guidance System can be installed on different types of existing construction equipment, including dozers and skid-steers in addition to excavators.  Built initially focused their AI system on heavy civil, wind, energy, residential housing, solar, and utility work. In 2023, Built narrowed their focus on the solar industry by developing a pile driving robot for utility-scale solar projects.
+
+
+== Company ==
+
+
+=== Financing ===
+Built Robotics is currently a Series C startup company, having been financed through three rounds of fundraising from private venture capital funds.  The company has raised a combined total of US$112 million through its Series A, Series B, and Series C financings. Investors who have contributed to the financings include Tiger Global, Next47, NEA, Founders Fund, Building Ventures, Presidio Ventures, Lemnos, and other investors.  Notable advisors of the company include Carl Bass, Jeff Immelt, and Justin Kan.
+
+
+=== Patents ===
+Built Robotics has a number of patents issued by the US Patent and Trademark office, including "Excavating earth from a dig site using an excavation vehicle;” "Obstacle detection and manipulation by a vehicle within a dig site;” and "Checking volume in an excavation tool".
+
+
+=== Markets ===
+The technology developed by Built has been deployed on job sites in multiple US states, which do not require regulatory approval for autonomous equipment used on non-public roads.  In March 2020, the company announced that it would be expanding internationally with the onboarding of its first Australian client, MPC Kinetic.  Notable customers and business partners include Black & Veatch, MPC Kinetic, Mortenson, and Sunstate.
+
+
+=== Labor Relations ===
+In March 2020, the International Union of Operating Engineers announced a formal partnership with Built Robotics through which the union will train its members to use the Built Robotics automation platform, citing a steady growth rate in jobs for heavy equipment operators coupled with an industry-wide shortage of workers.
+In 2023, Built renewed their partnership with the IUOE, extending their strategic partnership through 2026. James Callahan, general president of the IUOE, stated,'' Our partnership with Built has and continues to receive very positive feedback, and we are excited to renew this agreement to provide our over 400,000 members with the advanced training that keeps them at the forefront of the industry".
+
+
+=== Roin Technologies ===
+In 2023, Built robotics acquired Roin Technologies, a company claiming to be the makers of the first automated concrete power trowel. Roin Technology focused on automating tasks within the concrete industry. Jim Delaney, Founder and CEO of Roin Technologies, joined the company. In the company's announcement, it was stated that the technologies underlying Roin's automated power trowel and shotcrete robot would be integrated into Built's software and hardware systems.
+
+
+== References ==
+
+
+== Further reading ==
+Nichols, Greg (February 27, 2019). "Retrofit: The $15.5 trillion industry undergoing a robotic remodel". ZD Net. Retrieved 19 September 2019.
+Nichols, Greg (May 21, 2018). "Construction is embracing automation as legacy players team up with tech innovators". ZD Net. Retrieved 19 September 2019.
+Simon, Matt (October 19, 2017). "This Robot Tractor Is Ready to Disrupt Construction". Wired. Retrieved 21 November 2018.
+Francis, Sam (March 19, 2018). "Startup Built Robotics raises $15 million to develop technology to enable autonomous construction". Robotics and Automation News. Retrieved 21 November 2018.
+Rubenstone, Jeff (October 31, 2017). "Tech Start-up Sets Sights on Autonomous Earthmoving". Engineering News-Record. BNP Media. Retrieved 21 November 2018.

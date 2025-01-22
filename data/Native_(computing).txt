@@ -1,0 +1,30 @@
+In computing, native software or data-formats are those that were designed to run on a particular operating system. In a more technical sense, native code is code written specifically for a certain pr...
+
+In computing, native software or data-formats are those that were designed to run on a particular operating system. In a more technical sense, native code is code written specifically for a certain processor. In contrast, cross-platform software can be run on multiple operating systems and/or computer architectures.
+For example, a Game Boy receives its software through a cartridge, which contains code that runs natively on the Game Boy. The only way to run this code on another processor is to use an emulator, which simulates an actual Game Boy. This usually comes at the cost of speed.
+
+
+== Applications ==
+Something running on a computer natively means that it is running without any external layer requiring fewer software layers. For example, in Microsoft Windows the Native API is an application programming interface specific for the Windows NT kernel, which can be used to give access to some kernel functions, which cannot be directly accessed through a more universal Windows API.
+
+
+== Operating systems ==
+Used to denote either the absence of virtualization or virtualization at its lowest level. When various levels of virtualization take place, the lowest level operating system—the one that actually maintains direct control of the hardware—is referred to as a "Native VM," for example.
+
+
+== Machine code ==
+
+Machine code, also known as native code, is a program which is written in machine language. Machine code is usually considered the lowest level of code for a computer, that, in its lowest level form, is written in binary (0s and 1s), but is often written in hexadecimal or octal to make it a little easier to handle. These instruction sets are then interpreted by the computer. With this, there is no need for translation. machine code is strictly numerical and usually isn't what programmers program in, due to this complex nature. Machine code is also as close as you can get to the processor, so using this language, you are programming specifically for that processor as machine code for each processor may differ. Typically programmers will code in high-level languages such as C, C++, Pascal, (or other directly compiled languages) which gets translated into assembly code, which then translates it into machine code (or in most cases the compiler generates machine code directly). Since each CPU is different, programs need to be recompiled or rewritten in order to work on that CPU.
+
+
+== Data ==
+
+Applied to data, native data formats or communication protocols are those supported by a certain computer hardware or software, with maximal consistency and minimal amount of additional components.
+For example, EGA and VGA video adapters natively support code page 437. This does not preclude supporting other code pages, but it requires either a font uploading or using graphic modes.
+
+
+== Cloud computing ==
+In cloud computing, "cloud native" refers to the software approach of building, deploying, and managing modern applications in cloud computing environments, for software optimised for running on a cloud-based platform. A cloud native application typically consists of individual modular microservices.
+
+
+== References ==

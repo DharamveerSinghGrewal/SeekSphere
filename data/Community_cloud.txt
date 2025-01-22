@@ -1,0 +1,17 @@
+A  community cloud in computing is a collaborative effort in which infrastructure is shared between several organizations from a specific community with common concerns (security, compliance, jurisdic...
+
+A  community cloud in computing is a collaborative effort in which infrastructure is shared between several organizations from a specific community with common concerns (security, compliance, jurisdiction, etc.), whether managed internally or by a third party and hosted internally or externally.  This is controlled and used by a group of organizations that have shared interests. The costs are spread over fewer users than a public cloud (but more than a private cloud), so only some of the cost savings potential of cloud computing are realized.
+The community cloud is provisioned for use by a group of consumers from different organizations who share the same concerns (e.g., application, security, policy, and efficiency demands).
+
+
+== References ==
+
+
+== Further reading ==
+Briscoe, G.; Marinos, A. Digital ecosystems in the clouds: Towards community cloud computing. IEEE Conference on Digital Ecosystems and Technologies. pp. 103–108. arXiv:0903.0694. doi:10.1109/DEST.2009.5276725.
+El CDB Noves juega contra Fuensalida en Noves a las 16:30
+
+
+== See also ==
+FedRAMP
+Cloud

@@ -1,0 +1,111 @@
+The version history of the HarmonyOS distributed operating system began with the public release of the HarmonyOS 1.0 for Honor Vision smart TVs on August 9, 2019. The first expanded commercial version...
+
+The version history of the HarmonyOS distributed operating system began with the public release of the HarmonyOS 1.0 for Honor Vision smart TVs on August 9, 2019. The first expanded commercial version of the Embedded, IoT AI, Edge computing based operating system, HarmonyOS 2.0, was released on June 2, 2021, for phones, tablets, smartwatches, smart speakers, routers, and internet of things. Beforehand, DevEco Studio, the HarmonyOS app development IDE, was released in September 2020 together with the HarmonyOS 2.0 Beta. HarmonyOS is developed by Huawei. New major releases are announced at the Huawei Developers Conference (HDC) in the fourth quarter of each year together with the first public beta version of the operating system's next major version. The next major stable version is then released in the third to fourth quarter of the following year.
+
+
+== Overview ==
+The first public release of HarmonyOS 1.0 with LiteOS and Linux kernel space with AOSP compatibility layer occurred with the release of Huawei's former brand Honor Vision smart TVs on August 15, 2019, after it was announced on August 10, 2019, as the first HarmonyOS powered commercial product in Huawei's domestic market, China alongside smart IoT devices on LiteOS kernel.
+HarmonyOS 2.0 with Linux kernel that carried AOSP dual-framework base mobile telephony with OpenHarmony L3-L5 source code branch with EMUI fork was released on June 2, 2021, commercially in Huawei's domestic Chinese market, as de facto Beta testers for Chinese users, and was quickly adopted by 10 million users within a week. It was gradually rolled out globally to tablets, smartwatches and bands in Huawei's product lines between the second half of 2021 and the first half of 2022. Followed by HarmonyOS 3.0 API 8 iteration with the introduction of declarative programming and stronger Super Device connectivity with terminal devices in July 2022.
+HarmonyOS 3.1 with API 9 and an enhanced feature built for Qualcomm Snapdragon chipsets set was released March 30, 2023 that was first preinstalled on the latest Huawei flagship smartphones Huawei P60 series.
+The current release HarmonyOS 4.0 was released on August 4, 2023, with OpenHarmony 3.2 API 9 that saw reduction of AOSP codebase on some started and small Linux kernel mode devices in transition with OpenHarmony L3-L5 codebase expansion, followed by OpenHarmony 4.0 API 10 October 26, 2023 where both versions are in line with earlier HarmonyOS NEXT builds that is the unified modular OS software stack, closed distro branch from OpenHarmony L0-L2 codebase branch with main kernels of Linux kernel standard, small and LiteOS kernel with M small and A mini systems conglomerated, which carries Linux syscalls on POSIX components for standard, small and mini devices on Zephyr kernel in user mode of HarmonyOS NEXT system that carries the new retrofitted real-time, Microkernel architecture of HarmonyOS kernel on kernel mode in latest builds.
+On 18 January 2024, Huawei released its core software operating system, custom OpenHarmony based HarmonyOS NEXT Developer Preview 1 for all registered public developers in China that will be integrated into the next HarmonyOS Galaxy Edition (Star River) version of HarmonyOS NEXT, folded into consumer HarmonyOS 5 version, the successor of current HarmonyOS which was announced at HarmonyOS Developers event held in China that is due for commercial release on November 26, 2024 that aims to replace the  current dual-framework closed L3-L5 OpenHarmony source code version of HarmonyOS that contains Linux, AOSP and LiteOS compatibilities next to native HarmonyOS APIs which versioning are now streamlined with OpenHarmony L0-L2 branch open source code as single framework.
+
+
+=== First Generation: Original initial version with LiteOS kernel and Linux kernel with AOSP (standard) ===
+
+
+=== Second Generation: Dual framework with EMUI/AOSP [Linux kernel], with multi-framework OpenHarmony mobile convergence (L3-L5) with LiteOS kernel ===
+
+
+=== Third Generation: Native single framework with HarmonyOS NEXT iterative versions, OpenHarmony based (L0-L2) ===
+
+
+== Version history ==
+
+The following tables show the release dates and key features of all HarmonyOS operating system updates to date, listed chronologically by their official application programming interface (API) versions.
+
+
+=== Pre-release (Internal) ===
+Harmony kernel 1.0 - Technology verified (2017)
+Harmony kernel 2.0 - Used for devices TEE (2018)
+
+
+=== HarmonyOS 1.0.0 ===
+HarmonyOS 1.0 [1.0.0 - OpenHarmony 1.0.0] (API version 5), HarmonyOS 1.
+The first release of HarmonyOS was on August 9, 2019, for the Honor-branded smart TV series, followed by Huawei Vision S-branded smart TV series during (HDC) Huawei Developer Conference of 2019 alongside Wireless Wi-Fi routers and IoT systems in 2020. The system incorporated the HarmonyOS microkernel for Trusted execution environment with hardware and user authentication for security, alongside system for Linux kernel and LiteOS kernel space. Introduced with in-house development using Ark Compiler with LiteOS Studio IDE for third-party apps in LiteOS kernel and Linux kernel environment with Ark Compiler Android apps support on AOSP libraries with comprehensive programming languages support as well as Huawei Quick App IDE for Quick Apps for Vision TVs on screen and screenless devices, this version incorporates the key modules based on the open-source framework with the following features:
+On September 9, 2020, Huawei opened up HAP app development for HarmonyOS 1.0 Vision TV with the new DevEco Studio IDE alongside HarmonyOS 2 Beta with the newer HarmonyOS SDK. Huawei donated HarmonyOS 1.0 L0-L2 branch source code to the OpenAtom Foundation, and launched the first version of the open source variant operating system called OpenHarmony 1.0 on September 10, 2020. The final minor update for Honor and Huawei Vision TVs, HarmonyOS 1.0.1.66 SP3 was released October 20, 2020.
+
+
+=== HarmonyOS 2.0.0 ===
+HarmonyOS 2.0 [2.0.0 - OpenHarmony 2.2.0] (API version 6).
+HarmonyOS 2 was launched at the Huawei Developer Conference on 10 September 2020 as a public beta for smart home applications, smartwatches, and head-on-displays and Vision TVs only. Huawei announced it intended to ship the operating system on its smartphones in 2021. The first developer beta of HarmonyOS 2.0 was released on December 16, 2020, for the Chinese domestic market on older Huawei smartphone models which include developer features to build HAP apps and SDK tools for developers. Huawei also released the DevEco Studio 1.0 IDE, which is based on IntelliJ IDEA, and a cloud emulator for developers in early access on September 9, 2020. An updated DevEco Studio 2.0 IDE Developer Beta version for HarmonyOS app development with HarmonyOS 2.0 beta on smartphones on December 16, 2020 with subsequent beta releases of 2.1 beta releases in the early first half of 2021. The system was able to run native HarmonyOS apps built on HarmonyOS Ability Package (HAP) with a new app package .app across the whole ecosystem of devices.
+Released as public beta on June 2, 2021, HarmonyOS 2 includes in-house development for the teeOS kernel and app framework for the general public in the Chinese domestic market of smartphones, tablets, HiCar systems, wearables, IoT systems and Vision TVs with an updated DevEco Studio 2.1 IDE alongside subsequent DevEco Studio 2.2 beta releases afterwards.
+On August 5, 2021, stable official release of HarmonyOS 2 was launched on 65 Huawei devices in China.
+This version includes a new Harmony OS 2.0 home screen based on EMUI design, new control panel design layout with Super Device, Service Center, Service Cards, and App Snippets for the atomic services platform exclusive to native HarmonyOS apps. It has shared multitasking known as Task Center for Huawei devices between phone and tablets as well as running more than one app on tablet and phone screens. The new OS is also optimized for Huawei Super Device, connecting Huawei computers, tablets and smartphones with on-screen gestures and multi-screen collaboration.
+
+
+=== HarmonyOS 3.0.0 ===
+HarmonyOS 3.0 [3.0.0 - OpenHarmony 3.1] (API version 8),
+HarmonyOS 3 was announced on Huawei Developers Conference 2021 on October 22, 2021. and launched on July 27, 2022 as beta with stable release on October 26, 2022 in China.
+The Harmony OS 3 version was reported to bring more stability and increased performance of the system's kernel for better user experience and low power consumption. The new release also aims to bring more power to the Super Device feature, which allows connectivity between smart devices with a single super device such as a smartphone. It includes Huawei services such as Huawei Mobile Services (HMS) for Harmony Ability Packages (HAP) native HarmonyOS apps, Celia Assistant and Service Center in global markets.
+Java language support dropped on HMOS 3.0 for main full support of eTS, JS programming languages in the new version of the operating system with an updated DevEco Studio 3.0 IDE released afterwards on September 17, 2022. Since API Level 8, .hap apps can run on both HarmonyOS and OpenHarmony simultaneously in one unified development environment as one project.
+Huawei aims to release the new version of the operating system globally to older models gradually and release new smartphone and tablet models in two months after the release.
+
+
+=== HarmonyOS 3.1.0 ===
+HarmonyOS 3.1 [3.1.0 - OpenHarmony 3.2] (API version 9) was announced on Huawei Developers Conference 2022 on November 4, 2022 as closed beta and launched on March 30, 2023, as public beta with stable release on May 16, 2023 in Chinese domestic market.
+The Harmony OS 3.1 version was reported being a more evolution of version 3.0, that brings more stability at API level and increased system animation fluidness improvements as well as visually refined on the user interface side for better user experiences and also API improvements for app developers with a following release of an updated DevEco Studio 3.1 IDE on April 8, 2023.
+
+
+=== HarmonyOS 4.0.0 ===
+HarmonyOS 4.0 [4.0.0 - OpenHarmony 3.2] (API version 9), HarmonyOS 4 was announced and launched at Huawei Developers Conference 2023 on August 4, 2023, as public beta.
+HarmonyOS 4.0 stable version rolled out to various 34 smartphone and tablet model devices between August 18 and August 29, 2023, on .111, .112 and .113 stable builds in China.
+The Harmony OS 4.0 version brings more advanced features set at API level and increased system animation fluidness improvements as well as visually refined on the user interface side for better user experiences and also API improvements for app developers.
+
+
+=== HarmonyOS 4.2.0 ===
+HarmonyOS 4.2 [4.2.0 - OpenHarmony 3.2] (API version 9) was revealed at Huawei VMALL ecommerce service in China on April 9, 2024, with Pre-sale activity on Huawei Smart TV S5 and launched on April 11, 2024. Devices such as Huawei Smart TV S5 series and Huawei Pura70 flagship series bundled with this new firmware version. On the same day, HarmonyOS 4.2 is open for registration and public beta rollout for devices such as: Huawei Pocket 2, Huawei Pocket 2 Art Custom Edition, Huawei Mate 60, Huawei Mate 60 Pro, Huawei Mate 60 Pro+, Huawei Mate 60 RS Ultimate Design, HUAWEI Mate X5, HUAWEI Mate X5 Collector's Edition,  MatePad Pro 11-inch 2024, Matepad Pro 13.2 and Matepad Pro 13.2.
+On April 26, 2024 stable versions of HarmonyOS 4.2 was released on 21 Huawei devices, including Mate 60 series in Chinese domestic market.
+Preparing AOT compilation codebase shifting from L3-L5 on OpenHarmony with HarmonyOS 4.x/EMUI 14.x versioning to pure L0-L2 OpenHarmony codebase with pure blooded Hongmeng Galaxy Edition with HarmonyOS NEXT system stack for HarmonyOS 5.0 OS codebase.
+
+
+=== HarmonyOS 4.5.0 ===
+HarmonyOS 4.5 [4.5.0 - OpenHarmony 3.2] (API version 9) was revealed at Huawei's domestic event in China on September 24, 2024, with sale activity on Huawei Smart TV V5 110-inch marking the last version of HarmonyOS 4. Preparing AOT compilation codebase shifting from L3-L5 on OpenHarmony with HarmonyOS 4.x/EMUI 14.x versioning to pure L0-L2 OpenHarmony codebase with pure blooded Hongmeng Galaxy Edition with HarmonyOS NEXT system stack for HarmonyOS 5.0 OS codebase for TV systems.
+
+
+=== HarmonyOS 5.0.0 ===
+
+HarmonyOS 5 [5.0.0 - OpenHarmony 5.0.0] (API version 12)
+August 4, 2023 (API 9) Developer Preview 1 for HarmonyOS NEXT internal cooperative developers, for native software development switched from L3-L5 dual framework to pure unified, single L0-L2 source code branch codebase of full fledged OpenHarmony base. January 2024 Developer Preview 1 Beta for public registered developers (API 10), Q2 Developer Preview 2 (API 11–12), Public Beta (API 12) builds and Commercial (API 12) stable builds:
+On January 18, 2024, at the HarmonyOS Developer event in China, Huawei announced that the third generation HarmonyOS operating system with an internal version called HarmonyOS Galaxy Edition on HarmonyOS NEXT system. The developer preview version is open for application development, alongside the release of Beta version for enterprise developers ahead of HarmonyOS 5. The HarmonyOS NEXT version of HarmonyOS Galaxy Edition developer beta version of the program is due for Q2 launch for all unregistered public developers as HarmonyOS NEXT system is integrated into the operating system of HarmonyOS 5 general release version as planned.
+A commercial system version for all users is to be released in Q4 on the commercial HarmonyOS 5.0.0 baseline preview version, from the previous HarmonyOS 4.0 versioning requirement baseline OTA rollout on specific devices, alongside new factory devices shipped with the new OS.
+The first batch of devices tested on HarmonyOS NEXT Developer Preview 1 are the Mate 60, Mate 60 Pro, and Mate X5 phones.
+On April 2, 2024, External beta expansion of Developer Preview 2 rolled out on more registered developers' handsets with latest pre-release canary build.
+On April 11, 2024, the company announced its incoming HarmonyOS 5.0.0 operating system version of Galaxy Edition version under HarmonyOS NEXT system that will first be released as open beta program for developers and users at its annual Huawei Developer Conference in June 2024 before Q4 commercial consumer release with upcoming Mate 70 flagship, among other ecosystem devices.
+On June 21, 2024, at the Huawei Developer Conference of 2024, the company announced its Developer Beta 1 program for registered developers introducing Developer wide program in China outside Huawei partners oriented Developer Preview builds. It included key features such as Harmony Intelligence embedded in the OS AI system stack of PanGu 5.0 upgraded LLM with Embedded variant, MindSpore with Neural Network Runtime API kit that includes the new smarter Celia (Xiaoyi) AI body Feed with further finalised UI overhaul enhancements across the system.
+On September 19, 2024, at Huawei consumer event in Barcelona, the company announced Huawei Watch GT 5 series line that ships with transitional early builds of HarmonyOS 5 NEXT Lite system software, marking it the first devices out of the box.
+On September 27, 2024, Huawei rolled out the last internal beta version patch NEXT.0.0.70 with EROFS support. On October 7, 2024, latest beta version patch NEXT.0.0.71 released alongside public beta launch on October 8 with 5.0.0 release beta soft launch by October 22, 2024.
+On November 3, 2024, HarmonyOS NEXT beta version 5.0.0.102 update was released added "Touch to share" and "Multiple group" functions for sharing capabilities with device interactions.
+On November 8, 2024, HarmonyOS NEXT beta version 5.0.0.102 SP8 update came with screen reading functionality.
+On November 18, 2024 HarmonyOS NEXT beta version 5.0.0.107 came with improved camera functionalities and optimisations. On November 19, 2024 tablet HarmonyOS NEXT beta version 5.0.0.107 SP8 update improved file and other system functionalities of utilities.
+
+
+=== HarmonyOS 5.0.1 ===
+On November 12, 2024 the first developer beta was released as "Beta3" of HarmonyOS 5.0.1 that came with finalised refinements of system, system platform stability for future updates and UI refinements across system. Also, 3rd party app ecosystem support for NearLink API Kit functionalities added, released for developer testing only first. 
+
+
+== See also ==
+
+iOS version history
+Android version history
+Windows 10 version history
+LiteOS
+EulerOS
+
+
+== References ==
+
+
+== External links ==
+Official HarmonyOS website
+OpenHarmony website

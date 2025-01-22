@@ -1,0 +1,1901 @@
+In gate-based quantum computing, various sets of quantum logic gates are commonly used to express quantum operations. The following tables list several unitary quantum logic gates, together with their...
+
+In gate-based quantum computing, various sets of quantum logic gates are commonly used to express quantum operations. The following tables list several unitary quantum logic gates, together with their common name, how they are represented, and some of their properties. Controlled or conjugate transpose (adjoint) versions of some of these gates may not be listed.
+
+
+== Identity gate and global phase ==
+
+The identity gate is the identity operation 
+  
+    
+      
+        I
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle I|\psi \rangle =|\psi \rangle }
+  
+, most of the times this gate is not indicated in circuit diagrams, but it is useful when describing mathematical results.
+It has been described as being a "wait cycle", and a NOP.
+The global phase gate introduces a global phase 
+  
+    
+      
+        
+          e
+          
+            i
+            φ
+          
+        
+      
+    
+    {\displaystyle e^{i\varphi }}
+  
+ to the whole qubit quantum state. A quantum state is uniquely defined up to a phase. Because of the Born rule, a phase factor has no effect on a measurement outcome: 
+  
+    
+      
+        
+          |
+        
+        
+          e
+          
+            i
+            φ
+          
+        
+        
+          |
+        
+        =
+        1
+      
+    
+    {\displaystyle |e^{i\varphi }|=1}
+  
+ for any 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+.
+Because 
+  
+    
+      
+        
+          e
+          
+            i
+            δ
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        ⊗
+        
+          |
+        
+        ϕ
+        ⟩
+        =
+        
+          e
+          
+            i
+            δ
+          
+        
+        (
+        
+          |
+        
+        ψ
+        ⟩
+        ⊗
+        
+          |
+        
+        ϕ
+        ⟩
+        )
+        ,
+      
+    
+    {\displaystyle e^{i\delta }|\psi \rangle \otimes |\phi \rangle =e^{i\delta }(|\psi \rangle \otimes |\phi \rangle ),}
+  
+ when the global phase gate is applied to a single qubit in a quantum register, the entire register's global phase is changed.
+Also, 
+  
+    
+      
+        
+          P
+          h
+        
+        (
+        0
+        )
+        =
+        I
+        .
+      
+    
+    {\displaystyle \mathrm {Ph} (0)=I.}
+  
+
+These gates can be extended to any number of qubits or qudits.
+
+
+== Clifford qubit gates ==
+This table includes commonly used Clifford gates for qubits.
+
+Other Clifford gates, including higher dimensional ones are not included here but by definition can be generated using 
+  
+    
+      
+        H
+        ,
+        S
+      
+    
+    {\textstyle H,S}
+  
+ and 
+  
+    
+      
+        
+          C
+          N
+          O
+          T
+        
+      
+    
+    {\textstyle \mathrm {CNOT} }
+  
+.
+Note that if a Clifford gate A is not in the Pauli group, 
+  
+    
+      
+        
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\sqrt {A}}}
+  
+ or controlled-A are not in the Clifford gates.
+The Clifford set is not a universal quantum gate set.
+
+
+== Non-Clifford qubit gates ==
+
+
+=== Relative phase gates ===
+
+The phase shift is a family of single-qubit gates that map the basis states 
+  
+    
+      
+        P
+        (
+        φ
+        )
+        
+          |
+        
+        0
+        ⟩
+        =
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle P(\varphi )|0\rangle =|0\rangle }
+  
+ and 
+  
+    
+      
+        P
+        (
+        φ
+        )
+        
+          |
+        
+        1
+        ⟩
+        =
+        
+          e
+          
+            i
+            φ
+          
+        
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle P(\varphi )|1\rangle =e^{i\varphi }|1\rangle }
+  
+. The probability of measuring a 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+  
+ or 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+ is unchanged after applying this gate, however it modifies the phase of the quantum state. This is equivalent to tracing a horizontal circle (a line of latitude), or a rotation along the z-axis on the Bloch sphere by 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+ radians. A common example is the T gate where 
+  
+    
+      
+        φ
+        =
+        
+          
+            π
+            4
+          
+        
+      
+    
+    {\textstyle \varphi ={\frac {\pi }{4}}}
+  
+ (historically known as the 
+  
+    
+      
+        π
+        
+          /
+        
+        8
+      
+    
+    {\displaystyle \pi /8}
+  
+ gate), the phase gate. Note that some Clifford gates are special cases of the phase shift gate: 
+  
+    
+      
+        P
+        (
+        0
+        )
+        =
+        I
+        ,
+        
+        P
+        (
+        π
+        )
+        =
+        Z
+        ;
+        P
+        (
+        π
+        
+          /
+        
+        2
+        )
+        =
+        S
+        .
+      
+    
+    {\displaystyle P(0)=I,\;P(\pi )=Z;P(\pi /2)=S.}
+  
+
+The argument to the phase shift gate is in U(1), and the gate performs a phase rotation in U(1) along the specified basis state (e.g. 
+  
+    
+      
+        P
+        (
+        φ
+        )
+      
+    
+    {\displaystyle P(\varphi )}
+  
+ rotates the phase about 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+). Extending 
+  
+    
+      
+        P
+        (
+        φ
+        )
+      
+    
+    {\displaystyle P(\varphi )}
+  
+ to a rotation about a generic phase of both basis states of a 2-level quantum system (a qubit) can be done with a series circuit: 
+  
+    
+      
+        P
+        (
+        β
+        )
+        ⋅
+        X
+        ⋅
+        P
+        (
+        α
+        )
+        ⋅
+        X
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    e
+                    
+                      i
+                      α
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    e
+                    
+                      i
+                      β
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle P(\beta )\cdot X\cdot P(\alpha )\cdot X={\begin{bmatrix}e^{i\alpha }&0\\0&e^{i\beta }\end{bmatrix}}}
+  
+. When 
+  
+    
+      
+        α
+        =
+        −
+        β
+      
+    
+    {\displaystyle \alpha =-\beta }
+  
+ this gate is the rotation operator 
+  
+    
+      
+        
+          R
+          
+            z
+          
+        
+        (
+        2
+        β
+        )
+      
+    
+    {\displaystyle R_{z}(2\beta )}
+  
+ gate and if 
+  
+    
+      
+        α
+        =
+        β
+      
+    
+    {\displaystyle \alpha =\beta }
+  
+ it is a global phase.
+The T gate's historic name of 
+  
+    
+      
+        π
+        
+          /
+        
+        8
+      
+    
+    {\displaystyle \pi /8}
+  
+ gate comes from the identity 
+  
+    
+      
+        
+          R
+          
+            z
+          
+        
+        (
+        π
+        
+          /
+        
+        4
+        )
+        Ph
+        ⁡
+        
+          (
+          
+            
+              π
+              8
+            
+          
+          )
+        
+        =
+        P
+        (
+        π
+        
+          /
+        
+        4
+        )
+      
+    
+    {\displaystyle R_{z}(\pi /4)\operatorname {Ph} \left({\frac {\pi }{8}}\right)=P(\pi /4)}
+  
+, where 
+  
+    
+      
+        
+          R
+          
+            z
+          
+        
+        (
+        π
+        
+          /
+        
+        4
+        )
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    e
+                    
+                      −
+                      i
+                      π
+                      
+                        /
+                      
+                      8
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    e
+                    
+                      i
+                      π
+                      
+                        /
+                      
+                      8
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle R_{z}(\pi /4)={\begin{bmatrix}e^{-i\pi /8}&0\\0&e^{i\pi /8}\end{bmatrix}}}
+  
+.
+Arbitrary single-qubit phase shift gates 
+  
+    
+      
+        P
+        (
+        φ
+        )
+      
+    
+    {\displaystyle P(\varphi )}
+  
+ are natively available for transmon quantum processors through timing of microwave control pulses. It can be explained in terms of change of frame.
+As with any single qubit gate one can build a controlled version of the phase shift gate. With respect to the computational basis, the 2-qubit controlled phase shift gate is: shifts the phase with 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+ only if it acts on the state 
+  
+    
+      
+        
+          |
+        
+        11
+        ⟩
+      
+    
+    {\displaystyle |11\rangle }
+  
+:
+
+  
+    
+      
+        
+          |
+        
+        a
+        ,
+        b
+        ⟩
+        ↦
+        
+          
+            {
+            
+              
+                
+                  
+                    e
+                    
+                      i
+                      φ
+                    
+                  
+                  
+                    |
+                  
+                  a
+                  ,
+                  b
+                  ⟩
+                
+                
+                  
+                    
+                      for 
+                    
+                  
+                  a
+                  =
+                  b
+                  =
+                  1
+                
+              
+              
+                
+                  
+                    |
+                  
+                  a
+                  ,
+                  b
+                  ⟩
+                
+                
+                  
+                    
+                      otherwise.
+                    
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle |a,b\rangle \mapsto {\begin{cases}e^{i\varphi }|a,b\rangle &{\mbox{for }}a=b=1\\|a,b\rangle &{\mbox{otherwise.}}\end{cases}}}
+  
+
+The controlled-Z (or CZ) gate is the special case where 
+  
+    
+      
+        φ
+        =
+        π
+      
+    
+    {\displaystyle \varphi =\pi }
+  
+.
+The controlled-S gate is the case of the controlled-
+  
+    
+      
+        P
+        (
+        φ
+        )
+      
+    
+    {\displaystyle P(\varphi )}
+  
+ when 
+  
+    
+      
+        φ
+        =
+        π
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \varphi =\pi /2}
+  
+ and is a commonly used gate.
+
+
+=== Rotation operator gates ===
+
+The rotation operator gates 
+  
+    
+      
+        
+          R
+          
+            x
+          
+        
+        (
+        θ
+        )
+        ,
+        
+          R
+          
+            y
+          
+        
+        (
+        θ
+        )
+      
+    
+    {\displaystyle R_{x}(\theta ),R_{y}(\theta )}
+  
+ and 
+  
+    
+      
+        
+          R
+          
+            z
+          
+        
+        (
+        θ
+        )
+      
+    
+    {\displaystyle R_{z}(\theta )}
+  
+ are the analog rotation matrices in three Cartesian axes of SO(3), along the x, y or z-axes of the Bloch sphere projection.
+As Pauli matrices are related to the generator of rotations, these rotation operators can be written as matrix exponentials with Pauli matrices in the argument. Any 
+  
+    
+      
+        2
+        ×
+        2
+      
+    
+    {\displaystyle 2\times 2}
+  
+ unitary matrix in SU(2) can be written as a product (i.e. series circuit) of three rotation gates or less. Note that for two-level systems such as qubits and spinors, these rotations have a period of 4π. A rotation of 2π (360 degrees) returns the same statevector with a different phase.
+We also have 
+  
+    
+      
+        
+          R
+          
+            b
+          
+        
+        (
+        −
+        θ
+        )
+        =
+        
+          R
+          
+            b
+          
+        
+        (
+        θ
+        
+          )
+          
+            †
+          
+        
+      
+    
+    {\displaystyle R_{b}(-\theta )=R_{b}(\theta )^{\dagger }}
+  
+ and 
+  
+    
+      
+        
+          R
+          
+            b
+          
+        
+        (
+        0
+        )
+        =
+        I
+      
+    
+    {\displaystyle R_{b}(0)=I}
+  
+ for all 
+  
+    
+      
+        b
+        ∈
+        {
+        x
+        ,
+        y
+        ,
+        z
+        }
+        .
+      
+    
+    {\displaystyle b\in \{x,y,z\}.}
+  
+
+The rotation matrices are related to the Pauli matrices in the following way: 
+  
+    
+      
+        
+          R
+          
+            x
+          
+        
+        (
+        π
+        )
+        =
+        −
+        i
+        X
+        ,
+        
+          R
+          
+            y
+          
+        
+        (
+        π
+        )
+        =
+        −
+        i
+        Y
+        ,
+        
+          R
+          
+            z
+          
+        
+        (
+        π
+        )
+        =
+        −
+        i
+        Z
+        .
+      
+    
+    {\displaystyle R_{x}(\pi )=-iX,R_{y}(\pi )=-iY,R_{z}(\pi )=-iZ.}
+  
+
+It's possible to work out the adjoint action of rotations on the Pauli vector, namely rotation effectively by double the angle a to apply Rodrigues' rotation formula:
+
+  
+    
+      
+        
+          R
+          
+            n
+          
+        
+        (
+        −
+        a
+        )
+        
+          
+            
+              σ
+              →
+            
+          
+        
+        
+          R
+          
+            n
+          
+        
+        (
+        a
+        )
+        =
+        
+          e
+          
+            i
+            
+              
+                a
+                2
+              
+            
+            
+              (
+              
+                
+                  
+                    
+                      n
+                      ^
+                    
+                  
+                
+                ⋅
+                
+                  
+                    
+                      σ
+                      →
+                    
+                  
+                
+              
+              )
+            
+          
+        
+         
+        
+          
+            
+              σ
+              →
+            
+          
+        
+         
+        
+          e
+          
+            −
+            i
+            
+              
+                a
+                2
+              
+            
+            
+              (
+              
+                
+                  
+                    
+                      n
+                      ^
+                    
+                  
+                
+                ⋅
+                
+                  
+                    
+                      σ
+                      →
+                    
+                  
+                
+              
+              )
+            
+          
+        
+        =
+        
+          
+            
+              σ
+              →
+            
+          
+        
+        cos
+        ⁡
+        (
+        a
+        )
+        +
+        
+          
+            
+              n
+              ^
+            
+          
+        
+        ×
+        
+          
+            
+              σ
+              →
+            
+          
+        
+         
+        sin
+        ⁡
+        (
+        a
+        )
+        +
+        
+          
+            
+              n
+              ^
+            
+          
+        
+         
+        
+          
+            
+              n
+              ^
+            
+          
+        
+        ⋅
+        
+          
+            
+              σ
+              →
+            
+          
+        
+         
+        (
+        1
+        −
+        cos
+        ⁡
+        (
+        a
+        )
+        )
+         
+        .
+      
+    
+    {\displaystyle R_{n}(-a){\vec {\sigma }}R_{n}(a)=e^{i{\frac {a}{2}}\left({\hat {n}}\cdot {\vec {\sigma }}\right)}~{\vec {\sigma }}~e^{-i{\frac {a}{2}}\left({\hat {n}}\cdot {\vec {\sigma }}\right)}={\vec {\sigma }}\cos(a)+{\hat {n}}\times {\vec {\sigma }}~\sin(a)+{\hat {n}}~{\hat {n}}\cdot {\vec {\sigma }}~(1-\cos(a))~.}
+  
+
+Taking the dot product of any unit vector with the above formula generates the expression of any single qubit gate when sandwiched within adjoint rotation gates. For example, it can be shown that 
+  
+    
+      
+        
+          R
+          
+            y
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        )
+        X
+        
+          R
+          
+            y
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+        =
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        ⋅
+        (
+        
+          
+            
+              y
+              ^
+            
+          
+        
+        ×
+        
+          
+            
+              σ
+              →
+            
+          
+        
+        )
+        =
+        Z
+      
+    
+    {\displaystyle R_{y}(-\pi /2)XR_{y}(\pi /2)={\hat {x}}\cdot ({\hat {y}}\times {\vec {\sigma }})=Z}
+  
+. Also, using the anticommuting relation we have 
+  
+    
+      
+        
+          R
+          
+            y
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        )
+        X
+        
+          R
+          
+            y
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+        =
+        X
+        
+          R
+          
+            y
+          
+        
+        (
+        +
+        π
+        
+          /
+        
+        2
+        )
+        
+          R
+          
+            y
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+        =
+        X
+        (
+        −
+        i
+        Y
+        )
+        =
+        Z
+      
+    
+    {\displaystyle R_{y}(-\pi /2)XR_{y}(\pi /2)=XR_{y}(+\pi /2)R_{y}(\pi /2)=X(-iY)=Z}
+  
+.
+Rotation operators have interesting identities. For example, 
+  
+    
+      
+        
+          R
+          
+            y
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+        Z
+        =
+        H
+      
+    
+    {\displaystyle R_{y}(\pi /2)Z=H}
+  
+ and 
+  
+    
+      
+        X
+        
+          R
+          
+            y
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+        =
+        H
+        .
+      
+    
+    {\displaystyle XR_{y}(\pi /2)=H.}
+  
+ Also, using the anticommuting relations we have 
+  
+    
+      
+        Z
+        
+          R
+          
+            y
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        )
+        =
+        H
+      
+    
+    {\displaystyle ZR_{y}(-\pi /2)=H}
+  
+ and 
+  
+    
+      
+        
+          R
+          
+            y
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        )
+        X
+        =
+        H
+        .
+      
+    
+    {\displaystyle R_{y}(-\pi /2)X=H.}
+  
+
+Global phase and phase shift can be transformed into each other's with the Z-rotation operator: 
+  
+    
+      
+        
+          R
+          
+            z
+          
+        
+        (
+        γ
+        )
+        Ph
+        ⁡
+        
+          (
+          
+            
+              γ
+              2
+            
+          
+          )
+        
+        =
+        P
+        (
+        γ
+        )
+      
+    
+    {\displaystyle R_{z}(\gamma )\operatorname {Ph} \left({\frac {\gamma }{2}}\right)=P(\gamma )}
+  
+.: 11 : 77–83 
+The 
+  
+    
+      
+        
+          
+            X
+          
+        
+      
+    
+    {\displaystyle {\sqrt {X}}}
+  
+ gate represents a rotation of π/2 about the x axis at the Bloch sphere 
+  
+    
+      
+        
+          
+            X
+          
+        
+        =
+        
+          e
+          
+            i
+            π
+            
+              /
+            
+            4
+          
+        
+        
+          R
+          
+            x
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+      
+    
+    {\displaystyle {\sqrt {X}}=e^{i\pi /4}R_{x}(\pi /2)}
+  
+.
+Similar rotation operator gates exist for SU(3) using Gell-Mann matrices. They are the rotation operators used with qutrits.
+
+
+=== Two-qubit interaction gates ===
+
+The qubit-qubit Ising coupling or Heisenberg interaction gates Rxx, Ryy and Rzz are 2-qubit gates that are implemented natively in some trapped-ion quantum computers, using for example the Mølmer–Sørensen gate procedure.
+Note that these gates can be expressed in sinusoidal form also, for example 
+  
+    
+      
+        
+          R
+          
+            x
+            x
+          
+        
+        (
+        ϕ
+        )
+        =
+        exp
+        ⁡
+        
+          (
+          
+            −
+            i
+            
+              
+                ϕ
+                2
+              
+            
+            X
+            ⊗
+            X
+          
+          )
+        
+        =
+        cos
+        ⁡
+        
+          (
+          
+            
+              ϕ
+              2
+            
+          
+          )
+        
+        I
+        ⊗
+        I
+        −
+        i
+        sin
+        ⁡
+        
+          (
+          
+            
+              ϕ
+              2
+            
+          
+          )
+        
+        X
+        ⊗
+        X
+      
+    
+    {\displaystyle R_{xx}(\phi )=\exp \left(-i{\frac {\phi }{2}}X\otimes X\right)=\cos \left({\frac {\phi }{2}}\right)I\otimes I-i\sin \left({\frac {\phi }{2}}\right)X\otimes X}
+  
+.
+The CNOT gate can be further decomposed as products of rotation operator gates and exactly a single two-qubit interaction gate, for example
+
+  
+    
+      
+        
+          
+            CNOT
+          
+        
+        =
+        
+          e
+          
+            −
+            i
+            
+              
+                π
+                4
+              
+            
+          
+        
+        
+          R
+          
+            
+              y
+              
+                1
+              
+            
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        )
+        
+          R
+          
+            
+              x
+              
+                1
+              
+            
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        )
+        
+          R
+          
+            
+              x
+              
+                2
+              
+            
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        )
+        
+          R
+          
+            x
+            x
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+        
+          R
+          
+            
+              y
+              
+                1
+              
+            
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+        .
+      
+    
+    {\displaystyle {\mbox{CNOT}}=e^{-i{\frac {\pi }{4}}}R_{y_{1}}(-\pi /2)R_{x_{1}}(-\pi /2)R_{x_{2}}(-\pi /2)R_{xx}(\pi /2)R_{y_{1}}(\pi /2).}
+  
+
+The SWAP gate can be constructed from other gates, for example using the two-qubit interaction gates: 
+  
+    
+      
+        
+          SWAP
+        
+        =
+        
+          e
+          
+            i
+            
+              
+                π
+                4
+              
+            
+          
+        
+        
+          R
+          
+            x
+            x
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+        
+          R
+          
+            y
+            y
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+        
+          R
+          
+            z
+            z
+          
+        
+        (
+        π
+        
+          /
+        
+        2
+        )
+      
+    
+    {\displaystyle {\text{SWAP}}=e^{i{\frac {\pi }{4}}}R_{xx}(\pi /2)R_{yy}(\pi /2)R_{zz}(\pi /2)}
+  
+.
+In superconducting circuits, the family of gates resulting from Heisenberg interactions is sometimes called the fSim gate set. They can be realized using flux-tunable qubits with flux-tunable coupling, or using microwave drives in fixed-frequency qubits with fixed coupling.
+
+
+=== Non-Clifford swap gates ===
+
+The √SWAP gate performs half-way of a two-qubit swap (see Clifford gates). It is universal such that any many-qubit gate can be constructed from only √SWAP and single qubit gates. More than one application of the √SWAP is required to produce a Bell state from product states. The √SWAP gate arises naturally in systems that exploit exchange interaction.
+For systems with Ising like interactions, it is sometimes more natural to introduce the imaginary swap or iSWAP. Note that 
+  
+    
+      
+        i
+        
+          
+            SWAP
+          
+        
+        =
+        
+          R
+          
+            x
+            x
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        )
+        
+          R
+          
+            y
+            y
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        )
+      
+    
+    {\displaystyle i{\mbox{SWAP}}=R_{xx}(-\pi /2)R_{yy}(-\pi /2)}
+  
+ and 
+  
+    
+      
+        
+          
+            i
+            
+              
+                SWAP
+              
+            
+          
+        
+        =
+        
+          R
+          
+            x
+            x
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        4
+        )
+        
+          R
+          
+            y
+            y
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        4
+        )
+      
+    
+    {\displaystyle {\sqrt {i{\mbox{SWAP}}}}=R_{xx}(-\pi /4)R_{yy}(-\pi /4)}
+  
+, or more generally 
+  
+    
+      
+        
+          
+            
+              i
+              
+                
+                  SWAP
+                
+              
+            
+            
+              n
+            
+          
+        
+        =
+        
+          R
+          
+            x
+            x
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        n
+        )
+        
+          R
+          
+            y
+            y
+          
+        
+        (
+        −
+        π
+        
+          /
+        
+        2
+        n
+        )
+      
+    
+    {\displaystyle {\sqrt[{n}]{i{\mbox{SWAP}}}}=R_{xx}(-\pi /2n)R_{yy}(-\pi /2n)}
+  
+ for all real n except 0.
+SWAPα arises naturally in spintronic quantum computers.
+The Fredkin gate (also CSWAP or CS gate), named after Edward Fredkin, is a 3-bit gate that performs a controlled swap. It is universal for classical computation. It has the useful property that the numbers of 0s and 1s are conserved throughout, which in the billiard ball model means the same number of balls are output as input.
+
+
+=== Other named gates ===
+
+
+== Notes ==
+
+
+== References ==

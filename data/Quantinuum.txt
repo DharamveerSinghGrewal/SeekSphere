@@ -1,0 +1,82 @@
+Quantinuum is a quantum computing company formed by the merger of Cambridge Quantum and Honeywell Quantum Solutions. The company's H-Series trapped-ion quantum computers set the highest quantum volume...
+
+Quantinuum is a quantum computing company formed by the merger of Cambridge Quantum and Honeywell Quantum Solutions. The company's H-Series trapped-ion quantum computers set the highest quantum volume to date of 1,048,576 in April 2024. This architecture supports all-to-all qubit connectivity, allowing entangled states to be created between all qubits, and enables a high fidelity of quantum states.
+Quantinuum has developed middleware and software products that run on trapped-ion and other quantum computing platforms for cybersecurity, quantum chemistry, quantum machine learning, quantum Monte Carlo integration, and quantum artificial intelligence. The company also offers quantum-computing-hardened encryption keys designed to protect data assets and enhance cryptographic defenses.
+
+
+== History ==
+Formed in 2021, Quantinuum is the combination of the quantum hardware team from Honeywell Quantum Solutions (HQS) and the quantum software team at Cambridge Quantum Computing (CQC).
+HQS was founded in 2014. The company used a trapped-ion architecture for its quantum computing hardware, which Honeywell believed could be used to fulfill the needs of its various business units in aerospace, building technology, performance materials, safety and productivity solutions.
+CQC was founded in 2014 as an independent quantum computing company through the University of Cambridge’s “Accelerate Cambridge” program. CQC focused on building tools for the commercialization of quantum technologies with a focus on quantum software and quantum cybersecurity. By coming together as Quantinuum, the company offers an integrated, end-to-end quantum platform.
+Ilyas Khan, the founder of Cambridge Quantum, the founding chairman of the Stephen Hawking Foundation, and fellow at Cambridge Judge Business School, was named the CEO of Quantinuum. Tony Uttley, formerly an operations manager at NASA and president of Honeywell Quantum Solutions, served as the president and chief operating officer through 2023. In 2023, Quantinuum named Rajeeb “Raj” Hazra, formerly a corporate vice president and general manager at Intel, as the new CEO of Quantinuum. Hazra has over 30 years of experience working in supercomputing, quantum and other technical roles. Khan was named chief product officer and vice chair of the board of directors.
+In January 2024, Quantinuum announced an equity funding round of $300 million led by JPMorgan Chase. The company has raised $625 million in total and is valued at $5 billion. Honeywell was in an early phase of exploring an initial public offering of the company in July 2024.
+
+
+== Technology and products ==
+
+
+=== H-Series ===
+When developing its H-Series quantum computers, Powered by Honeywell, Quantinuum chose a quantum charge-coupled device (QCCD) architecture as its path to scalable universal quantum computing because it allows full connectivity between identical high-fidelity qubits (atomic ions).
+Quantinuum launched its first generation of quantum computers with the System Model H1-1, a trapped-ion computer running on 12 qubits, in 2020.
+In May 2023, Quantinuum launched the System Model H2, with a quantum volume of 65,536 (216), the largest on record at that time. The H2 achieved the largest GHZ state on record, the first demonstration of magic state distillation, and the first demonstration of the creation and control of topological qubits whose linking properties can help make quantum computing fault-tolerant. Braiding quasiparticles called non-Abelian anyons creates a historical record of the event, and the paths they trace are more robust to errors, which could eventually lead to the development of a topological quantum computer.
+The H-Series systems have consistently broken records for quantum volume, recently reaching a quantum volume of 1,048,576 (220) in April 2024. Quantum volume is one of 15 performance benchmarks that Quantinuum scientists measured on the latest generation of its trapped-ion quantum computer which are available on arXiv and GitHub.
+The company also holds the record for two-qubit gate fidelity, becoming the first to reach 99.9%. Microsoft and Quantinuum created four logical qubits on the H2 quantum computer, running 14,000 experiments without a single error.
+Demonstrating the ability to scale the H-Series, the company solved the qubit “wiring problem,” using a new chip arranged in a 2D grid to efficiently sort qubits and minimize the number of signals required for qubit control. The work reduces the ratio from as many as 20 analog wires per qubit to 1 digital wire per qubit with a fixed number of analog lines.
+Quantinuum also offers an H-Series Emulator, which allows researchers to compare data in quantum hardware experiments and approximate noise, accelerating simulation workflows.
+
+
+=== Quantum cybersecurity – Quantum Origin ===
+Quantum Origin uses quantum computing to strengthen the cryptographic keys that protect online transactions and identification processes. The software produces provably unpredictable cryptographic keys to support traditional algorithms, such as RSA and AES, as well as post-quantum cryptography algorithms.
+Quantum Origin is said to be the first commercial application of a quantum computer offering a solution that classical computers cannot achieve. In April 2022, Quantinuum partnered with PureVPN to make their OpenVPN protocol quantum-resistant. In 2024, the company partnered with Mitsui and Eaglys to integrate Quantum Origin in a secured data analytics AI platform.
+In 2023, Quantinuum introduced Quantum Origin Onboard, an innovation in post-quantum cryptography that extends the quantum-hardened cyber protection to connected devices by maximizing the strength of keys generated within the devices themselves. In collaboration with Honeywell, the quantum-hardened keys began to be integrated in smart utility meters. The company also released Quantum Origin Cloud, which allows subscribers to request secure keys on-demand or integrate with hardware security modules.
+Quantinuum's Quantum Origin was recognized in 2022 by UK Business Tech with the Best Use of Innovation award.
+
+
+=== Quantum computational chemistry platform – InQuanto ===
+InQuanto is a quantum computational chemistry software platform. InQuanto uses Quantinuum's open-source Python toolkit, TKET, to improve the performance of quantum devices with electronic structure simulations. The stand-alone platform is designed to help computational chemists experiment with quantum algorithms and eventually create prototypes of real-life problems using quantum computers.
+
+
+=== Quantum software development platform – TKET ===
+TKET is a platform-agnostic compiler for optimizing quantum algorithms as well as a software development kit for building and running programs for gate-based quantum computers. It is platform-inclusive and open source. The quantum programming environment is accessible through the PyTKET Python package, with extension modules that work with quantum computers, classical simulators, and quantum software libraries.
+
+
+=== Quantum NLP/Compositional Intelligence ===
+Quantinuum's Quantum Natural Language Processing team is developing reasoning-based quantum artificial intelligence that works with modern machine learning-based techniques to produce AI systems that are more interpretable, transparent, and cost effective, requiring less data. This quantum compositional intelligence is based on categorical quantum mechanics, which studies quantum processes and how they are composed.
+
+
+=== Quantum Monte Carlo Integration ===
+Quantinuum's full Quantum Monte Carlo Integration engine is designed to use quantum algorithms to perform estimations more efficiently and accurately than equivalent classical tools, inferring an early-stage quantum advantage in areas such as derivative pricing, portfolio risk calculations and regulatory reporting.
+
+
+=== Lambeq ===
+Lambeq is an open-source software library for the design and implementation of quantum natural language processing applications.
+To build a quantum natural language processing model, Lambeq parses the grammatical structure of an input sentence into a task-specific output. This is encoded into an abstract representation called a string diagram, which reflects the relationships between the words in the original sentence.
+
+
+=== Quantum machine learning ===
+Quantinuum has efforts in QML with a focus on quantum circuit learning on near-term noisy intermediate-scale quantum (NISQ) computers. The company has commercial work in deploying deep learning for time-series modeling and decision-making and specializes in quantum enhanced solutions for machine learning and optimization problems.
+At the intersection of classical machine learning and quantum computing, Quantinuum collaborated with Google DeepMind to use AI (Alpha-Tensor) to optimize the T-gate count. This research serves to minimize the compute costs resulting from one of the most expensive quantum logic gates in terms of time and resources required.
+
+
+=== Optimization ===
+Among the primary uses for quantum computing is combinatorial optimization, as its applications extend to logistics, supply chain optimization, and route planning.
+In 2023, Quantinuum created an improved variational quantum algorithm for solving combinatorial optimization problems that uses minimal quantum resources and takes advantage of the H-Series’ all-to-all connectivity and native parameterized two-qubit gates. In 2021, Deutsche Bahn partnered with Quantinuum to explore how quantum computers can improve the rescheduling of rail traffic.
+
+
+=== Simulation ===
+In 2021, Nippon Steel Corporation used Quantinuum's algorithms to simulate the behavior of iron crystals in different configurations. The chemical simulation is so complex at scale that it cannot be accurately simulated on classical computers.
+
+
+== Ownership ==
+Quantinuum is not listed on any stock exchange and is privately held. 54% of the company is owned by Honeywell, and Ilyas Khan, the founder of Cambridge Quantum and Chief Product Officer of Quantinuum, is the next largest shareholder.
+
+
+== Locations ==
+Quantinuum has a European headquarters in Cambridge, UK and a North American headquarters in Broomfield, Colorado. It has offices in Brooklyn Park, Minnesota, Washington, D.C., London (Victoria and St. James's), Oxford, and Tokyo.
+
+
+== External links ==
+Official website
+
+
+== References ==

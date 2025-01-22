@@ -1,0 +1,474 @@
+This is a "genealogy" of programming languages. Languages are categorized under the ancestor language with the strongest influence. Those ancestor languages are listed in alphabetic order. Any such ca...
+
+This is a "genealogy" of programming languages. Languages are categorized under the ancestor language with the strongest influence. Those ancestor languages are listed in alphabetic order. Any such categorization has a large arbitrary element, since programming languages often incorporate major ideas from multiple sources.
+
+
+== ALGOL based ==
+ALGOL (also under Fortran)
+Atlas Autocode
+ALGOL 58 (IAL, International Algorithmic Language)
+MAD and GOM (Michigan Algorithm Decoder and Good Old MAD)
+ALGOL 60
+MAD/I
+Simula (see also Simula based)
+SETL
+ABC
+Python
+Julia (also under Lisp, Ruby, ALGOL)
+Nim (also under Oberon)
+Ring (also under C, BASIC, Ruby, C#, Lua)
+Swift (also under Ruby, Objective-C, and Haskell)
+Boo
+Cobra (syntax and features)
+ALGOL 68
+ALGOL W
+Pascal
+Ada
+SPARK
+PL/SQL
+Turbo Pascal
+Object Pascal (Delphi)
+Free Pascal (FPC)
+Kylix (same as Delphi, but for Linux)
+Euclid
+Concurrent Euclid
+Turing
+Turing+ (Turing Plus)
+Object-Oriented Turing
+Mesa
+Modula-2
+Modula-3
+Oberon (Oberon-1)
+Go (also under C)
+V (Vlang)
+Nim (also under Python)
+Oberon-2
+Component Pascal
+Active Oberon
+Zonnon
+Oberon-07
+Lua (also under Scheme and SNOBOL)
+Ring (also under C, BASIC, Ruby, Python, C#)
+SUE
+Plus
+CPL
+BCPL
+B
+C (see also C based)
+
+
+== APL based ==
+APL
+A+
+J (also under FL)
+K (also under LISP)
+NESL
+PDL (also under Perl)
+
+
+== BASIC based ==
+BASIC (also under Fortran II)
+AmigaBASIC
+AMOS BASIC
+BASIC Stamp
+Basic-256
+BASIC09
+BBC Basic
+Blitz BASIC
+Blitz3D
+BlitzMax
+BlitzPlus
+Business Basic
+Caché Basic
+Chinese BASIC
+COMAL
+Commodore BASIC
+DarkBASIC
+DarkBASIC Professional
+Euphoria
+GLBasic
+GRASS
+GW-BASIC
+QuickBASIC
+QBasic
+Basic4GL
+FreeBASIC
+Liberty BASIC
+Run BASIC
+Visual Basic
+VBScript
+Visual Basic for Applications (VBA)
+LotusScript
+Visual Basic .NET
+Small Basic
+B4X
+Basic for Qt
+OpenOffice Basic
+HBasic
+Gambas
+WinWrap Basic
+WordBasic
+QB64
+PureBasic
+REALbasic (Xojo)
+Ring (also under C, Ruby, Python, C#, Lua)
+TI-BASIC
+True BASIC
+Turbo Basic
+PowerBASIC
+wxBasic
+SdlBasic
+RCBasic
+XBasic
+YaBasic
+
+
+== Batch languages ==
+MS-DOS Batch files
+Winbatch
+CLIST
+IBM Control Language (CL)
+IBM Job Control Language (JCL)
+
+
+== C based ==
+C (also under BCPL)
+Lua
+Alef
+C++
+Rust (also under Cyclone, Haskell, and OCaml)
+D
+C#
+Windows PowerShell (also under DCL, ksh, and Perl)
+Ring (also under BASIC, Ruby, Python, Lua)
+Cobra (class/object model and other features)
+Java (see also Java based)
+C--
+Cyclone
+Rust (also under C++, Haskell, and OCaml)
+ColdFusion
+Go (also under Oberon)
+V (Vlang)
+Harbour
+Limbo
+LPC
+Pike
+Objective-C (also under Smalltalk)
+Swift (also under Ruby, Python, and Haskell)
+PCASTL (also under Lisp)
+Perl
+Windows PowerShell (also under C#, DCL, and ksh)
+S2
+PHP
+Ruby (also under Smalltalk)
+Julia (also under Lisp, Python, ALGOL)
+Ring (also under C, BASIC, Python, C#, Lua)
+Swift (also under Objective-C, Python, and Haskell)
+Crystal
+Elixir (also under Erlang)
+PDL (also under APL)
+Raku
+QuakeC
+Ring (also under BASIC, Ruby, Python, C#, Lua) 
+tcsh (also under sh)
+
+
+== C# based ==
+C#
+Chapel
+Clojure
+Crystal
+D
+J#
+Dart
+F#
+Hack
+Java
+Kotlin
+Nemerle
+Oxygene
+Ring
+Rust
+Swift
+Vala
+TypeScript
+
+
+== COBOL based ==
+COBOL
+ABAP
+DIBOL
+WATBOL
+
+
+== COMIT based ==
+COMIT
+SNOBOL
+Icon
+Unicon
+Lua (also under Modula and Scheme)
+Ring (also under C, BASIC, Ruby, Python, C#)
+
+
+== DCL based ==
+DCL
+Windows PowerShell (also under C#, ksh, and Perl)
+
+
+== ed based ==
+ed (programming language)
+sed
+AWK
+Perl (also under C)
+
+
+== Eiffel based ==
+Eiffel
+Cobra (design by contract)
+Sather
+Ubercode
+
+
+== Forth based ==
+Forth
+InterPress
+PostScript
+Joy
+Factor
+Rebol (also under Lisp)
+RPL (also under Lisp)
+
+
+== Fortran based ==
+Fortran
+Fortran II
+BASIC (see also BASIC based)
+SAKO
+Fortran IV
+WATFOR
+WATFIV
+Fortran 66
+FORMAC
+Ratfor
+Fortran 77
+WATFOR-77
+Ratfiv
+Fortran 90
+Fortran 95
+F
+Fortran 2003
+Fortran 2008
+Fortran 2018
+ALGOL (see also ALGOL based)
+
+
+== FP based ==
+FP (Function Programming)
+FL (Function Level)
+J (also under APL)
+FPr (also under Lisp and object-oriented programming)
+
+
+== HyperTalk based ==
+HyperTalk
+ActionScript (also under JavaScript)
+AppleScript
+LiveCode
+SenseTalk
+SuperTalk
+Transcript
+
+
+== Java based ==
+Java (also under C)
+Ateji PX
+C#
+Ceylon
+Fantom
+Apache Groovy
+OptimJ
+Processing
+Scala
+Join Java
+J#
+Kotlin
+X10
+
+
+== JavaScript based ==
+JavaScript (also under Scheme, Self)
+ActionScript (also under HyperTalk)
+Haxe
+Asm.js
+CoffeeScript
+ECMAScript
+JavaScript OSA
+JScript
+TypeScript
+AssemblyScript
+
+
+== JOSS based ==
+JOSS
+CAL
+TELCOMP
+FOCAL
+MUMPS
+Caché ObjectScript
+JOSS also inspired features for several versions of BASIC, including Tymshare's SUPER BASIC and DEC's BASIC-PLUS.
+
+
+== Lisp based ==
+Lisp
+Arc
+AutoLISP
+Clojure
+Common Lisp
+uLisp (A subset of Common Lisp for microcontrollers)
+Emacs Lisp
+ISLISP
+Interlisp
+Julia (has Lisp-like macros, but ALGOL-like syntax) (also under Python, Ruby, ALGOL)
+K (also under APL)
+LFE
+Logo
+Turtle graphics
+MacLisp
+Nu programming language
+PicoLisp
+REBOL
+Red (programming language)
+RPL (also under Forth)
+S
+R
+PCASTL (also under ALGOL)
+Scheme
+GNU Guile
+Racket
+Hop
+Pico
+T
+Lua (also under Modula and SNOBOL)
+Ring (also under C, BASIC, Ruby, Python, C#)
+JavaScript (also based on Self)
+ECMAScript (also based on Self)
+
+
+== ML based ==
+ML
+Standard ML (SML)
+Caml
+OCaml
+F#
+Reason
+Rust (also under C++, Cyclone, and Haskell)
+
+
+== PL/I based ==
+PL/I
+PL/M
+PL/C
+REXX
+Object Rexx (also under Smalltalk)
+SP/k
+XPL
+
+
+== Prolog based ==
+Prolog
+CLP(R), CLP(FD)
+Mercury
+Erlang
+Cuneiform
+Elixir (also under Ruby)
+Logtalk
+
+
+== SASL based ==
+SASL
+Kent Recursive Calculator
+Miranda
+Haskell
+Agda
+Elm
+Idris
+Rust (also under C++, Cyclone, and OCaml)
+Swift (also under Ruby, Python, and Objective-C)
+PureScript
+Nix
+
+
+== SETL based ==
+SETL
+ABC
+Python (also under ALGOL)
+Julia (also under Lisp, Ruby, ALGOL)
+Nim (also under Oberon)
+Ring (also under C, BASIC, Ruby, C#, Lua)
+Swift (also under Ruby, Objective-C, and Haskell)
+Boo
+Cobra (syntax and features)
+
+
+== sh based ==
+Sh
+bash
+csh (also under C)
+tcsh
+Hamilton C shell
+fish
+zsh
+ksh
+Windows PowerShell (also under C#, DCL, and Perl)
+Qshell
+
+
+== Simula based ==
+Simula (also under ALGOL 60)
+C++ (also under C)
+Smalltalk
+Objective-C (hybrid of C and Smalltalk)
+Swift (also under Ruby, Python, and Haskell)
+Cobra (support both dynamic and static types)
+Ruby (also under Perl)
+Swift (also under Objective-C, Python, and Haskell)
+Elixir (also under Erlang)
+Self
+JavaScript (also under Scheme) (see also JavaScript based)
+NewtonScript
+Io
+Object Rexx (also under REXX)
+BETA
+
+
+== Tcl based ==
+Tcl
+Expect
+Tea
+
+
+== Others ==
+Assembly
+BLISS
+CORAL
+Curl
+GPSS
+LabVIEW
+NXT-G
+Microsoft Power Fx
+occam
+POP-2, POP-11
+REFAL
+RPG (Report Program Generator)
+Seed7
+SQL (Structured Query Language)
+TACL (Tandem Advanced Command Language)
+TUTOR
+
+
+== References ==
+
+
+== External links ==
+
+Diagram & history of programming languages Archived 2008-05-13 at the Wayback Machine

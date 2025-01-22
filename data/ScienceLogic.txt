@@ -1,0 +1,20 @@
+ScienceLogic is a software and service vendor. It produces information technology (IT) management and monitoring software for IT Operations and cloud computing.   == Product == The company's flagship ...
+
+ScienceLogic is a software and service vendor. It produces information technology (IT) management and monitoring software for IT Operations and cloud computing.
+
+
+== Product ==
+The company's flagship product, SL1, is a singular infrastructure monitoring and AIOps platform that provides operations teams with actionable insights to predict, detect, and resolve IT problems faster. It works by performing discovery, dependency mapping, monitoring, alerting, ticketing, workflow automation, dashboarding, and reporting for the cloud, networks, compute, storage, and applications.
+The ScienceLogic SL1 platform monitors both on-premises and cloud-based IT assets, enabling customers who use public cloud services, such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud to manage hybrid and multi-cloud workloads. SL1 deployment models support on-premises and SaaS-based options.
+
+
+== History ==
+ScienceLogic was founded in Reston, Virginia, in 2003 by David Link, Christopher Cordray, and Richard Chart. The company tripled its revenue growth year-over year, and had triple digit growth from 2005-2007.
+In 2008, ScienceLogic posted $5.9M in revenue. That same year, Inc. Magazine placed ScienceLogic on its annual list of America's 500 Fastest Growing Private Companies at #350, also including it as #42 in the Top 100 IT Services Companies.
+In 2010, ScienceLogic received $15 million in Series A funding from New Enterprise Associates. Two years later, ScienceLogic raised an additional $15 million in funding from Intel Capital. In 2015, ScienceLogic received $43 million in Series D funding, led by Goldman Sachs In 2016, ScienceLogic announced the acquisition of AppFirst.
+Following the launch of the SL1 product line in 2018, which by the company and its partners said was the industry's first context-infused AIOps platform, ScienceLogic received $25 million in growth financing from Square 1 Bank.
+In 2020, ScienceLogic updated its platform to include behavioral correlation, an artificial intelligence/machine learning approach for IT in diagnosing and remediating service disruptions.
+In 2024 monitoring data from Rackspace was stolen using a vulnerability in ScienceLogic's  SL1 platform.
+
+
+== References ==

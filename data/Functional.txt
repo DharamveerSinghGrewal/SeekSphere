@@ -1,0 +1,38 @@
+Functional may refer to:  Movements in architecture: Functionalism (architecture) Form follows function Functional group, combination of atoms within molecules Medical conditions without currently vis...
+
+Functional may refer to:
+
+Movements in architecture:
+Functionalism (architecture)
+Form follows function
+Functional group, combination of atoms within molecules
+Medical conditions without currently visible organic basis:
+Functional symptom
+Functional disorder
+Functional classification for roads
+Functional organization
+Functional training
+
+
+== In mathematics ==
+Functional (mathematics), a term applied to certain scalar-valued functions in mathematics and computer science
+Functional analysis
+Linear functional, a type of functional often simply called a functional in the context of functional analysis
+Higher-order function, also called a functional, a function that takes other functions as arguments
+
+
+== In computer science, software engineering ==
+"Functional" (noun) may be used as a synonym for Higher-order function
+functional (C++), a header file in the C++ Standard Library
+Functional design, a paradigm used to simplify the design of hardware and software devices
+Functional model, a structured representation of functions, activities or processes in systems and software engineering
+Functional programming, a programming paradigm based on mathematical functions rather than changes in variable states
+In an ontology (information science), "functional" is a property or relation that can only hold a single value for a given individual
+
+
+== See also ==
+All pages with titles containing Functional
+Function (disambiguation)
+Functionalism (disambiguation)
+Functional group (disambiguation)
+Functional grammar (disambiguation)

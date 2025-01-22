@@ -1,0 +1,9 @@
+Blockchain is a sequential distributed database used in cryptocurrencies. Blockchain or block chain may also refer to:  Blockchain.com, a bitcoin exchange, wallet, and explorer service Cipher Block Ch...
+
+Blockchain is a sequential distributed database used in cryptocurrencies.
+Blockchain or block chain may also refer to:
+
+Blockchain.com, a bitcoin exchange, wallet, and explorer service
+Cipher Block Chaining, a block cipher mode of operation in cryptography
+Blockchain, a 2021 mixtape by Money Man
+Bar-link chain, a kind of mechanical drive chain also known as a block chain

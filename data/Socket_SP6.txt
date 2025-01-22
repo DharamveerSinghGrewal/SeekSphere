@@ -1,0 +1,27 @@
+Socket SP6 (LGA 4844) is a zero insertion force land grid array CPU socket designed by AMD supporting its Zen 4c-based Siena Epyc server processors that launched on September 18, 2023. It is designed ...
+
+Socket SP6 (LGA 4844) is a zero insertion force land grid array CPU socket designed by AMD supporting its Zen 4c-based Siena Epyc server processors that launched on September 18, 2023. It is designed for server systems targeting infrastructure and edge computing segments.
+
+
+== History ==
+In November 2022, AMD launched the SP5 socket alongside its Epyc 9004 series of processors, codenamed Genoa. The large physical socket and thermal footprint excluded SP5 from certain edge applications. Socket SP6 was created as a smaller variant of socket SP5 with fewer pins and less memory support, reducing the footprint from 72×75.4 mm to 58.5×75.4 mm, identical to that of SP3. The SP6 platform comes in at a lower cost than the SP5 platform's Genoa and Bergamo server processors.
+Socket SP6 serves segments of the server market where performance is not a priority, but cost, value, small footprint, and low power consumption / heat dissipation are. Examples of this are infrastructure computing and edge computing. Currently, it only supports Epyc 8004 processors, codenamed "Siena". It supports processor TDPs up to 225 W.
+On October 19, 2023, AMD announced Threadripper 7000 high-end desktop and workstation processors, utilizing the sTR5 socket, which is physically identical to the SP6 socket, but not electrically compatible. Threadripper 7000 processors were launched on November 21.
+
+
+== Features ==
+Supports 6 channels of DDR5 ECC memory
+Supports 96 lanes of PCI Express 5.0
+Supports 48 CXL 1.1 lanes (as a subset of the PCIe 5.0 lanes)
+Single socket only
+
+
+== See also ==
+Socket AM5, contemporary desktop socket from AMD in use since 2022
+Socket SP5, server socket for mainstream and high power Genoa and Bergamo series processors
+
+
+== Notes ==
+
+
+== References ==

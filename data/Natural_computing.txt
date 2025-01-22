@@ -1,0 +1,346 @@
+Natural computing, also called natural computation, is a terminology introduced to encompass three classes of methods: 1) those that take inspiration from nature for the development of novel problem-s...
+
+Natural computing, also called natural computation, is a terminology introduced to encompass three classes of methods: 1) those that take inspiration from nature for the development of novel problem-solving techniques; 2) those that are based on the use of computers to synthesize natural phenomena; and 3) those that employ natural materials (e.g., molecules) to compute. The main fields of research that compose these three branches are artificial neural networks, evolutionary algorithms, swarm intelligence, artificial immune systems, fractal geometry, artificial life, DNA computing, and quantum computing, among others.
+Computational paradigms studied by natural computing are abstracted from natural phenomena as diverse as self-replication, the functioning of the brain, Darwinian evolution, group behavior, the immune system, the defining properties of life forms, cell membranes, and morphogenesis. 
+Besides traditional electronic hardware, these computational paradigms can be implemented on alternative physical media such as biomolecules (DNA, RNA), or trapped-ion quantum computing devices.
+Dually, one can view  processes occurring in nature as information processing. Such processes include self-assembly, 
+developmental processes, gene regulation networks, protein–protein interaction networks, biological transport (active transport, passive transport) networks, and gene assembly in unicellular organisms. Efforts to
+understand biological systems also  include engineering of semi-synthetic organisms, and understanding the universe itself from the point of view of information processing. Indeed, the idea was even  advanced that information is more fundamental than matter or energy. 
+The Zuse-Fredkin thesis, dating back to the 1960s,  states that the entire universe is a huge cellular automaton which continuously updates its rules.
+Recently it has been suggested that the whole universe is a quantum computer that computes its own behaviour.
+The universe/nature as computational mechanism is addressed by, exploring nature with help the ideas of computability, and  studying natural processes as computations (information processing).
+
+
+== Nature-inspired models of computation ==
+The most established "classical" nature-inspired models of computation are cellular automata, neural computation, and evolutionary computation. More recent computational systems abstracted from natural processes include swarm intelligence, artificial immune systems, 
+membrane computing,  and amorphous computing. Detailed reviews can be found in many books
+.
+
+
+=== Cellular automata ===
+
+A cellular automaton is a dynamical system consisting of an array of cells. Space and time are discrete and each of the cells can be in a finite number of states. The cellular automaton  updates the states of its cells
+synchronously according to the transition rules given a priori. The  next state of a cell is computed by a transition rule and it depends only  on its current state and the states of its neighbors.
+Conway's Game of Life is one of the best-known examples of cellular automata, shown to be computationally universal. Cellular automata have been applied to modelling a variety of phenomena such as communication, growth, reproduction, competition, evolution and other physical and biological processes.
+
+
+=== Neural computation ===
+
+Neural computation is the field of research that emerged from the comparison between computing machines and the human nervous system.
+This field aims both to understand  how the brain of living organisms works  
+(brain theory or computational neuroscience), and to design efficient algorithms  based on the principles of how the human brain processes information (Artificial Neural Networks, ANN ).
+An artificial neural network is a network of artificial neurons. 
+An artificial neuron A is equipped with a function  
+  
+    
+      
+        
+          f
+          
+            A
+          
+        
+      
+    
+    {\displaystyle f_{A}}
+  
+, receives n real-valued inputs 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle x_{1},x_{2},\ldots ,x_{n}}
+  
+ with respective weights 
+  
+    
+      
+        
+          w
+          
+            1
+          
+        
+        ,
+        
+          w
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          w
+          
+            n
+          
+        
+      
+    
+    {\displaystyle w_{1},w_{2},\ldots ,w_{n}}
+  
+, and it  outputs 
+  
+    
+      
+        
+          f
+          
+            A
+          
+        
+        (
+        
+          w
+          
+            1
+          
+        
+        
+          x
+          
+            1
+          
+        
+        +
+        
+          w
+          
+            2
+          
+        
+        
+          x
+          
+            2
+          
+        
+        +
+        …
+        +
+        
+          w
+          
+            n
+          
+        
+        
+          x
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle f_{A}(w_{1}x_{1}+w_{2}x_{2}+\ldots +w_{n}x_{n})}
+  
+. Some neurons are selected to be  the output neurons, and the network function is the vectorial function that associates to the n input values, the outputs of the m selected output neurons.
+Note that different choices of weights produce different network functions for the same inputs. Back-propagation is a supervised learning method by which the weights of the connections in the network are repeatedly adjusted so as to minimize the difference between the vector of actual outputs and that of desired outputs. Learning algorithms based on backwards propagation of errors can be used to find optimal weights for given topology of the network and input-output pairs.
+
+
+=== Evolutionary computation ===
+
+Evolutionary computation is a computational paradigm inspired by Darwinian evolution.
+An artificial evolutionary system is a computational system  based on the notion of simulated evolution. It comprises a constant- or variable-size population of individuals, a fitness criterion, and genetically inspired operators that produce the next generation from the current one. 
+The initial population is typically generated randomly or heuristically, and typical operators 
+are mutation and recombination.  At each step, the individuals are evaluated according to the given fitness function (survival of the fittest). The next generation is obtained from selected individuals (parents) by using  genetically inspired operators. The choice of parents can be guided by a  selection operator which reflects the biological principle of mate selection.  This  process of simulated evolution eventually converges towards a nearly optimal population of individuals, from the point of view of the fitness function.
+The study of evolutionary systems has historically evolved along three main branches: 
+Evolution strategies provide a solution to parameter optimization problems for real-valued as well as discrete and mixed types of parameters.  
+Evolutionary programming originally aimed at creating  optimal "intelligent agents" modelled, e.g., as finite state machines.
+Genetic algorithms applied   the idea of evolutionary computation to the problem of finding a (nearly-)optimal solution to a given problem. Genetic algorithms initially consisted of an input population of individuals encoded as fixed-length bit strings, the genetic operators mutation (bit flips) and recombination (combination of a prefix of a parent with the suffix of the other),  and a problem-dependent fitness function.
+Genetic algorithms have been used to optimize computer programs, called genetic programming, and today they are also  applied to real-valued parameter optimization problems as well as to many types of combinatorial tasks.
+Estimation of Distribution Algorithm (EDA), on the other hand, are evolutionary algorithms that substitute traditional reproduction operators by model-guided ones. Such models are learned from the population by employing machine learning techniques and represented as Probabilistic Graphical Models, from which new solutions can be sampled or generated from guided-crossover.
+
+
+=== Swarm intelligence ===
+Swarm intelligence, sometimes referred to as collective intelligence, is defined as the problem solving behavior that emerges from  the interaction of individual agents (e.g., bacteria, ants, termites, bees, spiders, fish, birds) which communicate with other agents by acting on their local environments.
+Particle swarm optimization applies this idea  to the problem of finding an optimal solution to a given problem
+by a search through a  (multi-dimensional) solution space.  The initial set-up is a swarm of particles, each representing a  possible solution to the problem. Each particle has  its own  velocity  which depends  on its previous velocity (the inertia component), the tendency towards the past personal best position (the nostalgia component), and  its tendency towards  a global neighborhood  optimum or local neighborhood optimum (the social component). Particles thus move through a multidimensional space and  eventually converge towards a point between the global best and their personal best. 
+Particle swarm optimization algorithms have been applied to various optimization problems, and to unsupervised learning, game learning, and scheduling applications.
+In the  same vein, ant algorithms model the  foraging behaviour of ant colonies. 
+To find the best path between  the nest and a source of food, ants rely on indirect communication by laying a pheromone trail on the way back to the nest if they found food, respectively  
+following the concentration of pheromones if they are looking for food. Ant algorithms have been successfully applied to a variety of combinatorial optimization problems over discrete search spaces.
+
+
+=== Artificial immune systems ===
+Artificial immune systems  (a.k.a. immunological computation or immunocomputing) are computational systems inspired by the natural immune systems of biological organisms.
+Viewed as an information processing system, the natural immune system of organisms performs many complex tasks in parallel and distributed computing fashion. 
+These include  distinguishing  between self and nonself, neutralization of nonself pathogens (viruses, bacteria, fungi, and parasites), learning, memory, associative retrieval, self-regulation, and fault-tolerance. 
+Artificial immune systems are abstractions of the natural immune system, emphasizing these computational aspects. 
+Their applications include computer virus detection, anomaly detection in a time series of data, fault diagnosis, pattern recognition, machine learning, bioinformatics, optimization, robotics and control.
+
+
+=== Membrane computing ===
+Membrane computing investigates computing models abstracted from the compartmentalized structure of living cells affected by membranes. 
+A generic membrane system (P-system) consists of cell-like compartments (regions) delimited by membranes, that are placed in a nested hierarchical structure.  Each membrane-enveloped region contains objects, transformation rules which modify these objects, as well as transfer rules, which specify whether the objects will be transferred outside or stay inside the region. 
+Regions communicate with each other via the transfer of objects. 
+The computation by a membrane system starts with an initial configuration, where the number (multiplicity) of each object is set to some value for each region (multiset of objects). 
+It proceeds by choosing, nondeterministically and in a maximally parallel manner,
+which rules are applied to which objects. The output of the computation is collected from an a priori determined output region.
+Applications of membrane systems include machine learning,  modelling  of biological processes (photosynthesis, certain signaling pathways, quorum sensing in bacteria, cell-mediated immunity), as well as computer science applications such as  computer graphics, public-key cryptography, approximation and sorting algorithms, as well as analysis of various computationally hard problems.
+
+
+=== Amorphous computing ===
+In biological organisms, morphogenesis (the development of  well-defined shapes and functional structures) is achieved by the interactions between cells  guided by the genetic program encoded in the organism's DNA.
+Inspired by this idea, amorphous computing aims at engineering well-defined shapes and patterns, or  coherent computational behaviours, from the local interactions of a multitude of simple unreliable,  irregularly placed, asynchronous, identically programmed computing elements (particles). 
+As a  programming paradigm, the aim is to find   new programming techniques that would work well for amorphous computing environments.  Amorphous computing also plays an important role as the basis for "cellular computing" (see the topics synthetic biology and cellular computing, below).
+
+
+=== Morphological computing ===
+The understanding that the morphology performs computation is used to analyze the relationship between morphology and control and to theoretically guide the design of robots with reduced control requirements, has been used in both robotics and for understanding of cognitive processes in living organisms, see Morphological computation and 
+.
+
+
+=== Cognitive computing ===
+Cognitive computing CC is a new type of computing, typically with the goal of modelling of functions of human sensing, reasoning, and response to stimulus, see Cognitive computing and 
+.
+Cognitive capacities of present-day cognitive computing are far from human level. The same info-computational approach can be applied to other, simpler living organisms. Bacteria are an example of a cognitive system modelled computationally, see  Eshel Ben-Jacob
+and Microbes-mind.
+
+
+== Synthesizing nature by means of computing ==
+
+
+=== Artificial life ===
+Artificial life (ALife) is a  research field whose ultimate goal is to understand the essential properties of life organisms  by building,  within electronic computers or other artificial media, ab initio systems  that exhibit properties normally associated only with living organisms. 
+Early examples include Lindenmayer systems (L-systems), that have been  used to model plant growth and development. An L-system  is a parallel rewriting system that starts with an initial word, and applies its rewriting rules in parallel to all letters of the word.
+Pioneering experiments in artificial life included the design of evolving "virtual  block creatures"  acting in simulated environments with realistic features such as kinetics, dynamics, gravity, collision, and friction. 
+These artificial creatures were selected for their abilities endowed  to swim, or walk, or jump, and they competed for a common limited resource (controlling a cube). The simulation resulted in the evolution of creatures  exhibiting surprising behaviour: some developed hands to grab the cube, others developed  legs to move towards the cube. This computational  approach was further  combined with rapid manufacturing technology to actually build the physical robots that virtually evolved. This marked the emergence of the field of mechanical artificial life.
+The field of synthetic biology explores a biological implementation of similar ideas. 
+Other  research directions within the field of artificial life include artificial chemistry as well as traditionally biological phenomena explored  in artificial systems, ranging from  computational processes such as co-evolutionary adaptation and development, to physical processes such as growth, self-replication, and self-repair.
+
+
+== Nature-inspired novel hardware ==
+All of the computational techniques mentioned above, while inspired by nature,  have been implemented until now mostly on traditional electronic hardware. In contrast, the two paradigms introduced here, molecular computing and quantum computing, employ radically different types of hardware.
+
+
+=== Molecular computing ===
+Molecular computing (a.k.a. biomolecular computing, biocomputing, biochemical computing, DNA computing) is a computational paradigm in which data is encoded as biomolecules such as DNA strands, and molecular biology tools act  on the data to perform various operations (e.g., arithmetic or logical operations).
+The first experimental realization of special-purpose molecular computer was the 1994 breakthrough experiment by Leonard Adleman who solved a
+7-node  instance of the Hamiltonian Path Problem solely by manipulating DNA strands in test tubes. 
+DNA computations start  from an initial input  encoded as a DNA sequence (essentially a sequence over the four-letter alphabet {A, C, G, T}),
+and proceed by a succession of  bio-operations such as cut-and-paste (by restriction enzymes and ligases), 
+extraction of strands containing a certain subsequence (by using Watson-Crick complementarity), copy (by  using polymerase chain reaction that employs the polymerase enzyme), and read-out. 
+Recent experimental research succeeded in solving more complex instances of NP-complete problems such as a 20-variable instance of  3SAT, and wet DNA implementations of finite state machines with potential applications to the design of smart drugs.
+
+One of the most notable contributions of research in this field is to the understanding of self-assembly. 
+Self-assembly is the bottom-up process by which objects autonomously come together to form complex structures. Instances in nature abound, and include  atoms binding  by chemical bonds to form molecules, and molecules forming crystals or macromolecules. Examples of  self-assembly research  topics include self-assembled DNA nanostructures such as Sierpinski triangles or arbitrary nanoshapes obtained using the  DNA origami technique, and DNA nanomachines such as DNA-based circuits (binary counter, bit-wise cumulative XOR), ribozymes for logic operations, molecular switches (DNA tweezers), and autonomous molecular motors (DNA walkers).
+Theoretical research in molecular computing has yielded several novel models of DNA computing (e.g. splicing systems introduced by Tom Head already in 1987) and their computational power has been investigated. Various subsets of bio-operations are now known to be able to achieve the computational power of Turing machines .
+
+
+=== Quantum computing ===
+
+A quantum computer processes data stored as quantum bits (qubits), and uses  quantum mechanical phenomena such as superposition and entanglement to perform computations.
+A qubit can hold a "0", a "1", or a quantum superposition of these. 
+A quantum computer  operates on qubits with quantum logic gates. 
+Through Shor's polynomial algorithm for factoring integers, and Grover's algorithm for quantum database search that has a quadratic time advantage, quantum computers were shown to potentially possess a significant benefit relative to electronic computers.
+Quantum cryptography is not based on the complexity of the computation, but  on the special properties of quantum information, such as the fact that  quantum information cannot be measured reliably and any attempt at measuring it results in an unavoidable and irreversible disturbance. 
+A successful  open air experiment in quantum cryptography was reported in 2007, where data was transmitted  securely over a distance of 144 km. 
+Quantum teleportation is another promising application, in which a quantum state (not matter or energy) is transferred to an arbitrary distant location. Implementations of practical quantum computers are based on  various substrates such as  ion-traps, 
+superconductors, nuclear magnetic resonance, etc. 
+As of 2006, the largest  quantum computing experiment  used  liquid state nuclear magnetic resonance quantum information processors, and could operate on up to 12 qubits.
+
+
+== Nature as information processing ==
+The dual aspect of natural computation is  that it aims to understand nature by regarding natural phenomena as information processing. 
+Already in the 1960s, Zuse and Fredkin suggested the idea that the entire universe is a computational (information processing) mechanism, modelled as a cellular automaton which continuously updates its rules. A recent quantum-mechanical approach of Lloyd suggests the universe as a quantum computer that computes its own behaviour, while Vedral 
+suggests that information is the most fundamental building block of reality.
+The universe/nature as computational mechanism is elaborated in, exploring the nature with help of the ideas of computability, whilst, based on the idea of nature as network of networks of information processes on different levels of organization, is studying natural processes as computations (information processing).
+The main directions of research in this area are systems biology, synthetic biology
+and cellular computing.
+
+
+=== Systems biology ===
+
+Computational systems biology (or simply systems biology) is an integrative and qualitative approach that investigates the complex communications and interactions taking place in biological systems. 
+Thus, in systems biology, the focus of the study is the interaction networks themselves and the properties of biological systems that arise due to these networks, rather than the individual components of functional processes in an organism. 
+This type of  research  on organic components has focused strongly on four different interdependent interaction networks: gene-regulatory networks, biochemical networks, transport networks, and carbohydrate networks.
+Gene regulatory networks comprise gene-gene interactions, as well as interactions between genes and other substances in the cell.
+Genes are transcribed into messenger RNA (mRNA), and then translated into proteins according to the genetic code. 
+Each gene is associated with other DNA segments (promoters, enhancers, or silencers) that act as binding sites for activators or repressors for gene transcription. 
+Genes  interact with each other either through their gene products (mRNA, proteins) which can regulate gene transcription, or through  small RNA species that can directly regulate genes.
+These gene-gene interactions, together with genes' interactions with other substances in the cell, form the most basic interaction
+network: the gene regulatory networks. They perform information processing tasks within the cell, including the assembly and maintenance of other networks. Models of gene regulatory networks include random and probabilistic Boolean networks, asynchronous automata, and network motifs.
+Another viewpoint is that the entire genomic regulatory system is a computational system,  a genomic computer. This interpretation allows  one to compare human-made electronic computation with computation as it occurs in nature. 
+
+In addition, unlike a conventional computer, robustness  in a genomic computer is achieved by various feedback mechanisms  by which   poorly functional processes are rapidly degraded,  poorly functional cells are killed by apoptosis, and poorly functional organisms are out-competed by more fit species.
+Biochemical networks refer to  the interactions between proteins, and they perform various mechanical and metabolic tasks inside a cell.  Two or more proteins may bind to each other via binding of their interactions sites,  and form  a dynamic protein complex  (complexation). These protein complexes may act as catalysts for other chemical reactions, or may chemically modify each other. 
+Such modifications cause changes to available binding sites of proteins.  There are tens of thousands of proteins in a cell, and they interact with each other. To describe such a massive scale interactions, Kohn maps were  introduced
+as a graphical notation to depict molecular interactions in succinct pictures.  Other approaches  to describing accurately and succinctly protein–protein interactions include the use of textual bio-calculus or pi-calculus enriched with stochastic features.
+Transport networks refer to the separation and transport of substances mediated by lipid membranes.
+Some lipids can self-assemble into biological membranes. A lipid membrane  consists of a lipid bilayer in which  proteins and other molecules are embedded, being able to travel along this layer. Through lipid bilayers, substances are transported between the inside and outside of membranes to interact with other molecules. 
+Formalisms depicting  transport networks  include membrane systems and  brane calculi.
+
+
+=== Synthetic biology ===
+
+Synthetic biology aims at engineering synthetic biological components, with the ultimate goal of assembling whole biological systems from their constituent components.  The history of synthetic biology can be traced back to the 1960s, when François Jacob and Jacques Monod discovered the  mathematical logic in gene regulation. Genetic engineering techniques, based on  recombinant DNA technology,  are  a precursor of today's synthetic biology which  extends these techniques to entire systems of genes and gene products.
+Along with the possibility of synthesizing longer and longer DNA strands, the prospect  of creating synthetic genomes with the purpose of building entirely artificial synthetic organisms became a reality. 
+Indeed, rapid assembly of chemically synthesized short DNA strands made it possible to generate a 5386bp synthetic genome of a virus.
+Alternatively, Smith et al. found about 100 genes that can be removed individually from the genome of Mycoplasma Genitalium. 
+This discovery  paves the way to the assembly of a minimal but still viable artificial genome consisting of the essential genes only.
+A third approach to engineering  semi-synthetic cells is the construction of a single type of RNA-like molecule with the ability of self-replication. Such a molecule could be obtained by guiding the rapid evolution  of an initial population of RNA-like molecules, by selection for the desired traits.
+Another effort in this field is towards engineering multi-cellular systems by designing, e.g., cell-to-cell communication modules used to coordinate living bacterial cell populations.
+
+
+=== Cellular computing ===
+Computation in living cells (a.k.a. cellular computing, or in-vivo computing) is another approach to understand nature as computation. 
+One particular study in this area is that of the computational nature of gene assembly  in unicellular organisms called ciliates. 
+Ciliates store a copy of their DNA  containing functional genes in the macronucleus, and another "encrypted" copy in the micronucleus. Conjugation of two ciliates consists of the exchange of their micronuclear genetic information, leading to the formation of two new micronuclei, followed by each ciliate re-assembling the information from its new micronucleus to construct a new  functional macronucleus. 
+The latter process is called gene assembly, or gene re-arrangement. It involves re-ordering some fragments of DNA (permutations and possibly inversion) and deleting other fragments from the micronuclear copy. 
+From the computational point of view, the study of this gene assembly process led to many challenging research themes and results, such as the Turing universality of various models of this process.
+From the biological point of view, a plausible hypothesis about the "bioware" that implements the gene-assembly process was proposed, based on template guided recombination.
+Other approaches to cellular computing include developing an in vivo programmable and autonomous finite-state automaton with E. coli, designing and constructing in vivo cellular logic gates and genetic circuits that harness the cell's existing biochemical processes (see for example ) and the global optimization of stomata aperture in leaves, following a set of local rules resembling a cellular automaton.
+
+
+== See also ==
+Computational intelligence
+Bio-inspired computing
+DNA computing
+Natural Computing journal
+Quantum computing
+Synthetic biology
+Unconventional computing
+
+
+== References ==
+
+
+== Further reading ==
+This article was written based on the following references with the kind permission of their authors:
+
+Lila Kari, Grzegorz Rozenberg (October 2008). "The Many Facets of Natural Computing". Communications of the ACM. 51 (10): 72–83. CiteSeerX 10.1.1.141.1586. doi:10.1145/1400181.1400200.
+Leandro Nunes de Castro (March 2007). "Fundamentals of Natural Computing: An Overview". Physics of Life Reviews. 4 (1): 1–36. Bibcode:2007PhLRv...4....1D. doi:10.1016/j.plrev.2006.10.002.
+Many of the constituent research areas of natural computing have their own specialized journals and books series.
+Journals and book series dedicated to the broad field of Natural Computing include the journals Natural Computing (Springer Verlag), Theoretical Computer Science, Series C: Theory of Natural Computing (Elsevier),  the Natural Computing book series (Springer Verlag), and the Handbook of Natural Computing (G.Rozenberg, T.Back, J.Kok, Editors, Springer Verlag).
+
+Ridge, E.; Kudenko, D.; Kazakov, D.; Curry, E. (2005). "Moving Nature-Inspired Algorithms to Parallel, Asynchronous and Decentralised Environments". Self-Organization and Autonomic Informatics (I). 135: 35–49. CiteSeerX 10.1.1.64.3403.
+Swarms and Swarm Intelligence by Michael G. Hinchey, Roy Sterritt, and Chris Rouff,
+For readers interested in popular science article, consider this one on Medium:
+Nature-Inspired Algorithms

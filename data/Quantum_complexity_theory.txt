@@ -1,0 +1,1692 @@
+Quantum complexity theory is the subfield of computational complexity theory that deals with complexity classes defined using quantum computers, a computational model based on quantum mechanics. It st...
+
+Quantum complexity theory is the subfield of computational complexity theory that deals with complexity classes defined using quantum computers, a computational model based on quantum mechanics. It studies the hardness of computational problems in relation to these complexity classes, as well as the relationship between quantum complexity classes and classical (i.e., non-quantum) complexity classes.
+Two important quantum complexity classes are BQP and QMA.
+
+
+== Background ==
+
+A complexity class is a collection of computational problems that can be solved by a computational model under certain resource constraints. For instance, the complexity class P is defined as the set of problems solvable by a Turing machine in polynomial time. Similarly, quantum complexity classes may be defined using quantum models of computation, such as the quantum circuit model or the equivalent quantum Turing machine. One of the main aims of quantum complexity theory is to find out how these classes relate to classical complexity classes such as P, NP, BPP, and PSPACE.
+One of the reasons quantum complexity theory is studied are the implications of quantum computing for the modern Church-Turing thesis. In short the modern Church-Turing thesis states that any computational model can be simulated in polynomial time with a probabilistic Turing machine. However, questions around the Church-Turing thesis arise in the context of quantum computing. It is unclear whether the Church-Turing thesis holds for the quantum computation model. There is much evidence that the thesis does not hold. It may not be possible for a probabilistic Turing machine to simulate quantum computation models in polynomial time.
+Both quantum computational complexity of functions and classical computational complexity of functions are often expressed with asymptotic notation. Some common forms of asymptotic notion of functions are 
+  
+    
+      
+        O
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle O(T(n))}
+  
+, 
+  
+    
+      
+        Ω
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle \Omega (T(n))}
+  
+, and 
+  
+    
+      
+        Θ
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle \Theta (T(n))}
+  
+. 
+  
+    
+      
+        O
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle O(T(n))}
+  
+ expresses that something is bounded above by 
+  
+    
+      
+        c
+        T
+        (
+        n
+        )
+      
+    
+    {\displaystyle cT(n)}
+  
+ where 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+ is a constant such that 
+  
+    
+      
+        c
+        >
+        0
+      
+    
+    {\displaystyle c>0}
+  
+ and 
+  
+    
+      
+        T
+        (
+        n
+        )
+      
+    
+    {\displaystyle T(n)}
+  
+ is a function of 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+, 
+  
+    
+      
+        Ω
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle \Omega (T(n))}
+  
+ expresses that something is bounded below by 
+  
+    
+      
+        c
+        T
+        (
+        n
+        )
+      
+    
+    {\displaystyle cT(n)}
+  
+ where 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+  
+ is a constant such that 
+  
+    
+      
+        c
+        >
+        0
+      
+    
+    {\displaystyle c>0}
+  
+ and 
+  
+    
+      
+        T
+        (
+        n
+        )
+      
+    
+    {\displaystyle T(n)}
+  
+ is a function of 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+, and  
+  
+    
+      
+        Θ
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle \Theta (T(n))}
+  
+ expresses both 
+  
+    
+      
+        O
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle O(T(n))}
+  
+ and 
+  
+    
+      
+        Ω
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle \Omega (T(n))}
+  
+. These notations also have their own names. 
+  
+    
+      
+        O
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle O(T(n))}
+  
+ is called Big O notation, 
+  
+    
+      
+        Ω
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle \Omega (T(n))}
+  
+ is called Big Omega notation, and 
+  
+    
+      
+        Θ
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle \Theta (T(n))}
+  
+ is called Big Theta notation.
+
+
+== Overview of complexity classes ==
+The important complexity classes P, BPP, BQP, PP, and PSPACE can be compared based on promise problems. A promise problem is a decision problem which has an input assumed to be selected from the set of all possible input strings. A promise problem is a pair 
+  
+    
+      
+        A
+        =
+        (
+        
+          A
+          
+            yes
+          
+        
+        ,
+        
+          A
+          
+            no
+          
+        
+        )
+      
+    
+    {\displaystyle A=(A_{\text{yes}},A_{\text{no}})}
+  
+, where 
+  
+    
+      
+        
+          A
+          
+            yes
+          
+        
+      
+    
+    {\displaystyle A_{\text{yes}}}
+  
+ is the set of yes instances and 
+  
+    
+      
+        
+          A
+          
+            no
+          
+        
+      
+    
+    {\displaystyle A_{\text{no}}}
+  
+ is the set of no instances, and the intersection of these sets is empty: 
+  
+    
+      
+        
+          A
+          
+            yes
+          
+        
+        ∩
+        
+          A
+          
+            no
+          
+        
+        =
+        ∅
+      
+    
+    {\displaystyle A_{\text{yes}}\cap A_{\text{no}}=\varnothing }
+  
+. All of the previous complexity classes contain promise problems.
+
+
+== BQP ==
+
+The class of problems that can be efficiently solved by a quantum computer with bounded error is called BQP ("bounded error, quantum, polynomial time"). More formally, BQP is the class of problems that can be solved by a polynomial-time quantum Turing machine with error probability of at most 1/3.
+As a class of probabilistic problems, BQP is the quantum counterpart to BPP ("bounded error, probabilistic, polynomial time"), the class of problems that can be efficiently solved by probabilistic Turing machines with bounded error. It is known that 
+  
+    
+      
+        
+          
+            B
+            P
+            P
+            ⊆
+            B
+            Q
+            P
+          
+        
+      
+    
+    {\displaystyle {\mathsf {BPP\subseteq BQP}}}
+  
+ and widely suspected, but not proven, that 
+  
+    
+      
+        
+          
+            B
+            Q
+            P
+            ⊈
+            B
+            P
+            P
+          
+        
+      
+    
+    {\displaystyle {\mathsf {BQP\nsubseteq BPP}}}
+  
+, which intuitively would mean that quantum computers are more powerful than classical computers in terms of time complexity. BQP is a subset of PP.
+The exact relationship of BQP to P, NP, and PSPACE is not known. However, it is known that 
+  
+    
+      
+        
+          
+            P
+            ⊆
+            B
+            Q
+            P
+            ⊆
+            P
+            S
+            P
+            A
+            C
+            E
+          
+        
+      
+    
+    {\displaystyle {\mathsf {P\subseteq BQP\subseteq PSPACE}}}
+  
+; that is, the class of problems that can be efficiently solved by quantum computers includes all problems that can be efficiently solved by deterministic classical computers but does not include any problems that cannot be solved by classical computers with polynomial space resources. It is further suspected that BQP is a strict superset of P, meaning there are problems that are efficiently solvable by quantum computers that are not efficiently solvable by deterministic classical computers. For instance, integer factorization and the discrete logarithm problem are known to be in BQP and are suspected to be outside of P. On the relationship of BQP to NP, little is known beyond the fact that some NP problems are in BQP (integer factorization and the discrete logarithm problem are both in NP, for example). It is suspected that 
+  
+    
+      
+        
+          
+            N
+            P
+            ⊈
+            B
+            Q
+            P
+          
+        
+      
+    
+    {\displaystyle {\mathsf {NP\nsubseteq BQP}}}
+  
+; that is, it is believed that there are efficiently checkable problems that are not efficiently solvable by a quantum computer. As a direct consequence of this belief, it is also suspected that BQP is disjoint from the class of NP-complete problems (if any NP-complete problem were in BQP, then it follows from NP-hardness that all problems in NP are in BQP).
+The relationship of BQP to the essential classical complexity classes can be summarized as:
+
+  
+    
+      
+        
+          
+            P
+            ⊆
+            B
+            P
+            P
+            ⊆
+            B
+            Q
+            P
+            ⊆
+            P
+            P
+            ⊆
+            P
+            S
+            P
+            A
+            C
+            E
+          
+        
+      
+    
+    {\displaystyle {\mathsf {P\subseteq BPP\subseteq BQP\subseteq PP\subseteq PSPACE}}}
+  
+
+It is also known that BQP is contained in the complexity class ⁠
+  
+    
+      
+        
+          
+            
+              #
+              P
+            
+          
+        
+      
+    
+    {\displaystyle \color {Blue}{\mathsf {\#P}}}
+  
+⁠ (or more precisely in the associated class of decision problems ⁠
+  
+    
+      
+        
+          
+            
+              P
+              
+                #
+                P
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathsf {P^{\#P}}}}
+  
+⁠), which is a subset of PSPACE.
+
+
+== Simulation of quantum circuits ==
+There is no known way to efficiently simulate a quantum computational model with a classical computer. This means that a classical computer cannot simulate a quantum computational model in polynomial time. However, a quantum circuit of 
+  
+    
+      
+        S
+        (
+        n
+        )
+      
+    
+    {\displaystyle S(n)}
+  
+ qubits with 
+  
+    
+      
+        T
+        (
+        n
+        )
+      
+    
+    {\displaystyle T(n)}
+  
+ quantum gates can be simulated by a classical circuit with 
+  
+    
+      
+        O
+        (
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+        T
+        (
+        n
+        
+          )
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle O(2^{S(n)}T(n)^{3})}
+  
+ classical gates. This number of classical gates is obtained by determining how many bit operations are necessary to simulate the quantum circuit. In order to do this, first the amplitudes associated with the 
+  
+    
+      
+        S
+        (
+        n
+        )
+      
+    
+    {\displaystyle S(n)}
+  
+ qubits must be accounted for. Each of the states of the 
+  
+    
+      
+        S
+        (
+        n
+        )
+      
+    
+    {\displaystyle S(n)}
+  
+ qubits can be described by a two-dimensional complex vector, or a state vector. These state vectors can also be described a linear combination of its component vectors with coefficients called amplitudes. These amplitudes are complex numbers which are normalized to one, meaning the sum of the squares of the absolute values of the amplitudes must be one. The entries of the state vector are these amplitudes. Which entry each of the amplitudes are correspond to the none-zero component of the component vector which they are the coefficients of in the linear combination description. As an equation this is described as 
+  
+    
+      
+        α
+        
+          
+            [
+            
+              
+                
+                  1
+                
+              
+              
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+        +
+        β
+        
+          
+            [
+            
+              
+                
+                  0
+                
+              
+              
+                
+                  1
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  α
+                
+              
+              
+                
+                  β
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \alpha {\begin{bmatrix}1\\0\end{bmatrix}}+\beta {\begin{bmatrix}0\\1\end{bmatrix}}={\begin{bmatrix}\alpha \\\beta \end{bmatrix}}}
+  
+ or 
+  
+    
+      
+        α
+        
+          |
+          1
+          ⟩
+        
+        +
+        β
+        
+          |
+          0
+          ⟩
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  α
+                
+              
+              
+                
+                  β
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \alpha \left\vert 1\right\rangle +\beta \left\vert 0\right\rangle ={\begin{bmatrix}\alpha \\\beta \end{bmatrix}}}
+  
+ using Dirac notation. The state of the entire 
+  
+    
+      
+        S
+        (
+        n
+        )
+      
+    
+    {\displaystyle S(n)}
+  
+ qubit system can be described by a single state vector. This state vector describing the entire system is the tensor product of the state vectors describing the individual qubits in the system. The result of the tensor products of the 
+  
+    
+      
+        S
+        (
+        n
+        )
+      
+    
+    {\displaystyle S(n)}
+  
+ qubits is a single state vector which has 
+  
+    
+      
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle 2^{S(n)}}
+  
+ dimensions and entries that are the amplitudes associated with each basis state or component vector. Therefore, 
+  
+    
+      
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle 2^{S(n)}}
+  
+amplitudes must be accounted for with a 
+  
+    
+      
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle 2^{S(n)}}
+  
+ dimensional complex vector which is the state vector for the 
+  
+    
+      
+        S
+        (
+        n
+        )
+      
+    
+    {\displaystyle S(n)}
+  
+ qubit system. In order to obtain an upper bound for the number of gates required to simulate a quantum circuit we need a sufficient upper bound for the amount data used to specify the information about each of the 
+  
+    
+      
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle 2^{S(n)}}
+  
+ amplitudes. To do this 
+  
+    
+      
+        O
+        (
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle O(T(n))}
+  
+ bits of precision are sufficient for encoding each amplitude. So it takes 
+  
+    
+      
+        O
+        (
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+        T
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle O(2^{S(n)}T(n))}
+  
+ classical bits to account for the state vector of the 
+  
+    
+      
+        S
+        (
+        n
+        )
+      
+    
+    {\displaystyle S(n)}
+  
+ qubit system. Next the application of the 
+  
+    
+      
+        T
+        (
+        n
+        )
+      
+    
+    {\displaystyle T(n)}
+  
+ quantum gates on  
+  
+    
+      
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle 2^{S(n)}}
+  
+ amplitudes must be accounted for. The quantum gates can be represented as 
+  
+    
+      
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+        ×
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle 2^{S(n)}\times 2^{S(n)}}
+  
+ sparse matrices. So to account for the application of each of the 
+  
+    
+      
+        T
+        (
+        n
+        )
+      
+    
+    {\displaystyle T(n)}
+  
+ quantum gates, the state vector must be multiplied by a 
+  
+    
+      
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+        ×
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle 2^{S(n)}\times 2^{S(n)}}
+  
+ sparse matrix for each of the 
+  
+    
+      
+        T
+        (
+        n
+        )
+      
+    
+    {\displaystyle T(n)}
+  
+ quantum gates. Every time the state vector is multiplied by a 
+  
+    
+      
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+        ×
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle 2^{S(n)}\times 2^{S(n)}}
+  
+ sparse matrix, 
+  
+    
+      
+        O
+        (
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+        )
+      
+    
+    {\displaystyle O(2^{S(n)})}
+  
+ arithmetic operations must be performed. Therefore, there are 
+  
+    
+      
+        O
+        (
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+        T
+        (
+        n
+        
+          )
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle O(2^{S(n)}T(n)^{2})}
+  
+ bit operations for every quantum gate applied to the state vector. So 
+  
+    
+      
+        O
+        (
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+        T
+        (
+        n
+        
+          )
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle O(2^{S(n)}T(n)^{2})}
+  
+ classical gate are needed to simulate 
+  
+    
+      
+        S
+        (
+        n
+        )
+      
+    
+    {\displaystyle S(n)}
+  
+ qubit circuit with just one quantum gate. Therefore, 
+  
+    
+      
+        O
+        (
+        
+          2
+          
+            S
+            (
+            n
+            )
+          
+        
+        T
+        (
+        n
+        
+          )
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle O(2^{S(n)}T(n)^{3})}
+  
+ classical gates are needed to simulate a quantum circuit of 
+  
+    
+      
+        S
+        (
+        n
+        )
+      
+    
+    {\displaystyle S(n)}
+  
+ qubits with 
+  
+    
+      
+        T
+        (
+        n
+        )
+      
+    
+    {\displaystyle T(n)}
+  
+ quantum gates. While there is no known way to efficiently simulate a quantum computer with a classical computer, it is possible to efficiently simulate a classical computer with a quantum computer. This is evident from the fact that 
+  
+    
+      
+        
+          
+            B
+            P
+            P
+            ⊆
+            B
+            Q
+            P
+          
+        
+      
+    
+    {\displaystyle {\mathsf {BPP\subseteq BQP}}}
+  
+.
+
+
+== Quantum query complexity ==
+One major advantage of using a quantum computational system instead of a classical one, is that a quantum computer may be able to give a polynomial time algorithm for some problem for which no classical polynomial time algorithm exists, but more importantly, a quantum computer may significantly decrease the calculation time for a problem that a classical computer can already solve efficiently. Essentially, a quantum computer may be able to both determine how long it will take to solve a problem, while a classical computer may be unable to do so, and can also greatly improve the computational efficiency associated with the solution to a particular problem. Quantum query complexity refers to how complex, or how many queries to the graph associated with the solution of a particular problem, are required to solve the problem. Before we delve further into query complexity, let us consider some background regarding graphing solutions to particular problems, and the queries associated with these solutions.
+
+
+=== Query models of directed graphs ===
+One type of problem that quantum computing can make easier to solve are graph problems. If we are to consider the amount of queries to a graph that are required to solve a given problem, let us first consider  the most common types of graphs, called directed graphs, that are associated with this type of computational modelling. In brief, directed graphs are graphs where all edges between vertices are unidirectional. Directed graphs are formally defined as the graph 
+  
+    
+      
+        G
+        =
+        (
+        N
+        ,
+        E
+        )
+      
+    
+    {\displaystyle G=(N,E)}
+  
+, where N is the set of vertices, or nodes, and E is the set of edges.
+
+
+==== Adjacency matrix model ====
+When considering quantum computation of the solution to directed graph problems, there are two important query models to understand. First, there is the adjacency matrix model, where the graph of the solution is given by the adjacency matrix: 
+  
+    
+      
+        M
+        ∈
+        {
+        0
+        ,
+        1
+        }
+        
+          a
+          
+            n
+            
+              X
+            
+            n
+          
+        
+      
+    
+    {\displaystyle M\in \{0,1\}a^{n\mathrm {X} n}}
+  
+, with 
+  
+    
+      
+        
+          M
+          
+            i
+            j
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle M_{ij}=1}
+  
+, if and only if 
+  
+    
+      
+        (
+        
+          v
+          
+            i
+          
+        
+        ,
+        
+          v
+          
+            j
+          
+        
+        )
+        ∈
+        E
+      
+    
+    {\displaystyle (v_{i},v_{j})\in E}
+  
+.
+
+
+==== Adjacency array model ====
+Next, there is the slightly more complicated adjacency array model built on the idea of adjacency lists, where every vertex, 
+  
+    
+      
+        u
+      
+    
+    {\displaystyle u}
+  
+, is associated with an array of neighboring vertices such that 
+  
+    
+      
+        
+          f
+          
+            i
+          
+        
+        :
+        [
+        
+          d
+          
+            i
+          
+          
+            +
+          
+        
+        ]
+        →
+        [
+        n
+        ]
+      
+    
+    {\displaystyle f_{i}:[d_{i}^{+}]\rightarrow [n]}
+  
+, for the out-degrees of vertices 
+  
+    
+      
+        
+          d
+          
+            i
+          
+          
+            +
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          d
+          
+            n
+          
+          
+            +
+          
+        
+      
+    
+    {\displaystyle d_{i}^{+},...,d_{n}^{+}}
+  
+, where 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ is the minimum value of the upper bound of this model, and 
+  
+    
+      
+        
+          f
+          
+            i
+          
+        
+        (
+        j
+        )
+      
+    
+    {\displaystyle f_{i}(j)}
+  
+ returns the "
+  
+    
+      
+        
+          j
+          
+            t
+            h
+          
+        
+      
+    
+    {\displaystyle j^{th}}
+  
+" vertex adjacent to 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+. Additionally, the adjacency array model satisfies the simple graph condition, 
+  
+    
+      
+        ∀
+        i
+        ∈
+        [
+        n
+        ]
+        ,
+        j
+        ,
+        
+          j
+          ′
+        
+        ∈
+        [
+        k
+        ]
+        ,
+        j
+        ≠
+        
+          j
+          ′
+        
+        :
+        
+          f
+          
+            i
+          
+        
+        (
+        j
+        )
+        ≠
+        
+          f
+          
+            i
+          
+        
+        (
+        
+          j
+          ′
+        
+        )
+      
+    
+    {\displaystyle \forall i\in [n],j,j'\in [k],j\neq j':f_{i}(j)\neq f_{i}(j')}
+  
+, meaning that there is only one edge between any pair of vertices, and the number of edges is minimized throughout the entire model (see Spanning tree model for more background).
+
+
+=== Quantum query complexity of certain types of graph problems ===
+Both of the above models can be used to determine the query complexity of particular types of graphing problems, including the connectivity, strong connectivity (a directed graph version of the connectivity model), minimum spanning tree, and single source shortest path models of graphs. An important caveat to consider is that the quantum complexity of a particular type of graphing problem can change based on the query model (namely either matrix or array) used to determine the solution. The following table showing the quantum query complexities of these types of graphing problems illustrates this point well.
+
+Notice the discrepancy between the quantum query complexities associated with a particular type of problem, depending on which query model was used to determine the complexity. For example, when the matrix model is used, the quantum complexity of the connectivity model in Big O notation is 
+  
+    
+      
+        Θ
+        (
+        
+          n
+          
+            3
+            
+              /
+            
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle \Theta (n^{3/2})}
+  
+, but when the array model is used, the complexity is 
+  
+    
+      
+        Θ
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Theta (n)}
+  
+. Additionally, for brevity, we use the shorthand 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+ in certain cases, where 
+  
+    
+      
+        m
+        =
+        Θ
+        (
+        
+          n
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle m=\Theta (n^{2})}
+  
+. The important implication here is that the efficiency of the algorithm used to solve a graphing problem is dependent on the type of query model used to model the graph.
+
+
+=== Other types of quantum computational queries ===
+In the query complexity model, the input can also be given as an oracle (black box). The algorithm gets information about the input only by querying the oracle. The algorithm starts in some fixed quantum state and the state evolves as it queries the oracle.
+Similar to the case of graphing problems, the quantum query complexity of a black-box problem is the smallest number of queries to the oracle that are required in order to calculate the function. This makes the quantum query complexity a lower bound on the overall time complexity of a function.
+
+
+==== Grover's algorithm ====
+An example depicting the power of quantum computing is Grover's algorithm for searching unstructured databases. The algorithm's quantum query complexity is 
+  
+    
+      
+        O
+        
+          
+            (
+            
+              
+                N
+              
+            
+            )
+          
+        
+      
+    
+    {\textstyle O{\left({\sqrt {N}}\right)}}
+  
+, a quadratic improvement over the best possible classical query complexity 
+  
+    
+      
+        O
+        (
+        N
+        )
+      
+    
+    {\displaystyle O(N)}
+  
+, which is a linear search. Grover's algorithm is asymptotically optimal; in fact, it uses at most a 
+  
+    
+      
+        1
+        +
+        o
+        (
+        1
+        )
+      
+    
+    {\displaystyle 1+o(1)}
+  
+ fraction more queries than the best possible algorithm.
+
+
+==== Deutsch-Jozsa algorithm ====
+The Deutsch-Jozsa algorithm is a quantum algorithm designed to solve a toy problem with a smaller query complexity than is possible with a classical algorithm. The toy problem asks whether a function 
+  
+    
+      
+        f
+        :
+        {
+        0
+        ,
+        1
+        
+          }
+          
+            n
+          
+        
+        →
+        {
+        0
+        ,
+        1
+        }
+      
+    
+    {\displaystyle f:\{0,1\}^{n}\rightarrow \{0,1\}}
+  
+ is constant or balanced, those being the only two possibilities. The only way to evaluate the function 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ is to consult a black box or oracle. A classical deterministic algorithm will have to check more than half of the possible inputs to be sure of whether or not the function is constant or balanced. With 
+  
+    
+      
+        
+          2
+          
+            n
+          
+        
+      
+    
+    {\displaystyle 2^{n}}
+  
+ possible inputs, the query complexity of the most efficient classical deterministic algorithm is 
+  
+    
+      
+        
+          2
+          
+            n
+            −
+            1
+          
+        
+        +
+        1
+      
+    
+    {\displaystyle 2^{n-1}+1}
+  
+. The Deutsch-Jozsa algorithm takes advantage of quantum parallelism to check all of the elements of the domain at once and only needs to query the oracle once, making its query complexity 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+  
+.
+
+
+== Other theories of quantum physics ==
+It has been speculated that further advances in physics could lead to even faster computers. For instance, it has been shown that a non-local hidden variable quantum computer based on Bohmian Mechanics could implement a search of an N-item database in at most 
+  
+    
+      
+        O
+        (
+        
+          
+            N
+            
+              3
+            
+          
+        
+        )
+      
+    
+    {\displaystyle O({\sqrt[{3}]{N}})}
+  
+ steps, a slight speedup over Grover's algorithm, which runs in 
+  
+    
+      
+        O
+        (
+        
+          
+            N
+          
+        
+        )
+      
+    
+    {\displaystyle O({\sqrt {N}})}
+  
+ steps. Note, however, that neither search method would allow quantum computers to solve NP-complete problems in polynomial time. Theories of quantum gravity, such as M-theory and loop quantum gravity, may allow even faster computers to be built. However, defining computation in these theories is an open problem due to the problem of time; that is, within these physical theories there is currently no obvious way to describe what it means for an observer to submit input to a computer at one point in time and then receive output at a later point in time.
+
+
+== See also ==
+Quantum computing
+Quantum Turing machine
+Polynomial hierarchy (PH)
+
+
+== Notes ==
+
+
+== References ==
+Nielsen, Michael; Chuang, Isaac (2000). Quantum Computation and Quantum Information. Cambridge: Cambridge University Press. ISBN 978-0-521-63503-5. OCLC 174527496.
+Arora, Sanjeev; Barak, Boaz (2016). Computational Complexity: A Modern Approach. Cambridge University Press. pp. 201–236. ISBN 978-0-521-42426-4.
+Watrous, John (2008). "Quantum Computational Complexity". arXiv:0804.3401v1 [quant-ph].
+Watrous J. (2009) Quantum Computational Complexity. In: Meyers R. (eds) Encyclopedia of Complexity and Systems Science. Springer, New York, NY
+
+
+== External links ==
+MIT lectures by Scott Aaronson

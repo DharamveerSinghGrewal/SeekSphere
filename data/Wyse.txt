@@ -1,0 +1,159 @@
+Wyse Technology, Inc., or simply Wyse, was an independent American manufacturer of cloud computing systems. Wyse are best remembered for their video terminal line introduced in the 1980s, which compet...
+
+Wyse Technology, Inc., or simply Wyse, was an independent American manufacturer of cloud computing systems. Wyse are best remembered for their video terminal line introduced in the 1980s, which competed with the market-leading Digital. They also had a successful line of IBM PC compatible workstations in the mid-to-late 1980s. But starting late in the decade, Wyse were outcompeted by companies such as eventual parent Dell. Current products include thin client hardware and software as well as desktop virtualization solutions. Other products include cloud software-supporting desktop computers, laptops, and mobile devices. Dell Cloud Client Computing is partnered with IT vendors such as Citrix, IBM, Microsoft, and VMware.
+On April 2, 2012, Dell and Wyse announced that Dell intended to take over the company. With this acquisition Dell surpassed their rival Hewlett-Packard in the market for thin clients. On May 25, 2012, Dell informed the market that it had completed the acquisition.
+
+
+== History ==
+
+
+=== 1980s ===
+Wyse Technology was founded in 1981 by Garwing Wu, Bernard Tse, and Grace Tse. The company became famous in the 1980s as a manufacturer of character terminals. Most of these terminals can emulate several other terminal types in addition to their native escape sequences. These terminals were often used with library card catalogs such as Dynix. In 1983, Wyse began shipping the WY50, a terminal that was priced some 44 percent lower than its nearest competitor. It became their first big-selling product, and had a larger screen and higher resolution than competitor products at the time. Following the WY50 was the WY60, the best-selling general purpose terminal of all time. In addition to standard character-mode operation, the WY60 supported box graphics that could be used to produce more attractive displays. The Wyse 99GT and 160 terminals added graphical capability through Tektronix 4014 emulation. The WY325 and 375 models added color support with Tektronix graphics.
+In 1984, Wyse entered the personal computer marketplace. The first of these was the Wyse 1000, a computer based on the Intel 80186 (which did not see huge volumes because its integrated hardware was incompatible with the hardware used in the original IBM PC). Next came the WYSEpc, an IBM-compatible computer based on the 8088 processor, which had a good following due to its slim-line design. Later, Wyse introduced personal computers compatible with the IBM PC/AT based on the 80286 and 80386, which were top sellers.  Wyse sold through 2-tier distribution, which limited growth in the late 1980s as mail order companies like Dell and Gateway entered the marketplace. In 1984 Wyse became one of the leaders in the general purpose text (GPT) terminal industry and on August 17, 1984, went public on the New York Stock Exchange. In the following years, Wyse added the PC product line Wyse pc3216. The Wyse 3216 was based on Intel's newest 386 chip. It sold for $1,500 less than a comparable Compaq DeskPro, $2,000 less than an IBM System 80, and performed at a higher speed than both. In 1989, Wyse developed LAN-attached communication devices.
+In January 1986, Wyse acquired Amdek Corporation, a popular maker of aftermarket personal computer monitors, for $8.5 million in a stock swap. Under Wyse's ownership, Amdek released a series of IBM PC compatibles while continuing to offer their mainstay monitors. Wyse kept the Amdek brand going into the mid-1990s.
+In June 1987, Wyse acquired Fremont CA based terminal manufacturer Link Technologies Inc. in exchange for an undisclosed number of Wyse common shares.
+
+
+=== 1990s ===
+Wyse was an early innovator in off-shore electronics production, with its products being built in Taiwan in company owned facilities. In 1990 Dr. Morris Chang organized Channel International, a Taiwan consortium, which gathered business owners together and was a booster for Taiwanese individuals owning U.S. companies. In 1990, Channel International acquired Wyse.
+
+From 1990 to 1994 Wyse focused on PCs with CPU upgradability. Wyse created a proprietary upgradability concept called Modular Systems Architecture, or MSA. In October 1992, Wyse became ISO 9001:2000 certified.
+In the mid-1990s Wyse Taiwan became the parent company of Wyse Technology. As the PC and server industry became more competitive, in 1994 Wyse management began to focus on making the next generation of terminals. Four employees were directed to investigate and chart the next product course for the company.  In 1994, executives Curt Schwebke and Jeff McNaught proposed a new type of terminal that would combine the low costs of terminals with the advanced display capability of Windows PCs. A year of R&D resulted in the most advanced terminals Wyse had developed to date.  They worked on enabling them to support the graphics and capabilities needed to display Microsoft Windows and Internet applications.  In late 1994, the company developed two thin client prototypes, and selected Citrix, then a small company, to provide the protocol and server side of the model.
+The machines differed from traditional text-mode terminals by supporting modern GUI applications using a mouse and windowing systems.  The clients are able to access these applications using protocols that send drawing commands or raw pixel data (instead of strings of text characters) over the data connection.  Because of the greater bandwidth this requires these machines typically use ethernet connections to the server, rather than the RS-232 links used in the past.
+In November 1995, Citrix and Wyse shared a booth at the Comdex tradeshow. Wyse introduced the Winterm windows terminal (now referred to as a thin client) models 2000 and 2500. Citrix introduced WinFrame, the Windows NT-based “Windows mainframe” software it connected to.   At the show, the Wyse Winterm was awarded the “Best of Comdex” award.  Later, Wyse secured a patent (# 5918039) for the thin client design. In 1997, Microsoft released Windows NT Terminal Service Edition, which supported the Wyse thin clients.
+After the thin clients were well received by the market, Wyse introduced several additional models, including stand-alone (Winterm 2300), LCD monitor-integrated (Winterm 2600), and the tablet-shaped mobile Winterm 2900 and 2930 models. In 1997, Wyse introduced the first thin-client remote management software system, Wyse Remote Administrator.
+In 1999, Wyse Technology once again went public, but this time on the Taiwan Stock Exchange (TSE).
+
+
+=== 2000-present ===
+In 2000 Wyse acquired Netier Technologies of Texas, and turned Netier's Rapport thin device management software into the Wyse Device Manager. In 2003 Wyse went private and company shareholders reorganized the company, selling assets such as real estate and company-owned manufacturing facilities in favor of contract manufacturing. In April 2005 the controlling interest of Wyse was acquired by Garnett & Helfrich Capital, a private equity firm specializing in venture buyouts.
+
+In 2005, Wyse, working closely with Citrix, Microsoft, and VMware, expanded thin clients to support the newly introduced virtual desktop infrastructure (VDI). In April, Wyse and IBM signed a Joint Initiative Agreement (JIA).
+Tarkan Maner was appointed CEO in February 2007. Under Maner, the company significantly expanded research and development.
+In August 2007, Wyse recapitalized, with overseas investors regaining the controlling interest from Garnett & Helfrich Capital. In March 2008 the company formalized a partnership with Novell. In October of that year, Wyse formed a global partnership with IBM under the Global Alliance Agreement.
+In August 2010, Wyse created its Mobile Cloud Business Unit with the introduction of Wyse PocketCloud. The mobile cloud app allows users to access their desktop on iOS or Android devices. In the same month, Wyse became ISO 9001:2008 certified, and in November became ISO 14001:2004 certified and announced a "Strategic Collaboration Partnership with Cisco.
+The company introduced zero clients in 2010.
+According to the IDC, as of 2011 Wyse is an international leader in what are called "enterprise devices" (terminal clients and thin clients combined).
+In April 2012, Dell announced an agreement to purchase Wyse for an undisclosed amount. The acquisition was completed on May 25, 2012.
+
+
+== Recent awards ==
+Education Investor Award 2011 Finalist: Technology Supplier of the Year
+Wyse Voted as 2011 Top Work Place
+2011 Microsoft Windows Embedded OEM Partner Excellence Award
+2011 Mobile Merit Awards Winners Announced! - Wyse PocketCloud
+TechAmerica Foundation Announces 2011 American Technology Awards Finalists — Wyse Xenith
+The Top 20 Cloud Software & Apps Vendors of 2011
+2011 Appy Awards Winner — Productivity Category — Wyse PocketCloud
+Thin / Zero Client Computing (Winner) - Wyse Xenith 1.0
+Tech & Learning Leader of the Year award
+
+
+== Notable employees ==
+Martin Eberhard began his career as an electrical engineer at Wyse Technology, where he designed the WY-30 ASCII computer terminal as his first product. Eberhard went on to be a founder of Tesla Motors.
+David Dix worked first on the very first Wyse terminals and later the high end personal computers, as well as at HP, prior to Wyse, and is now at ShoreTel.
+Wyse CTO Curt Schwebke and CMO Jeff McNaught prototyped and led the design of the first Winterm products. They are also holders of the first thin client patent. McNaught later architected the idea of a Citrix-focused "Zero Client", Called Wyse Xenith.  Citrix and Wyse partnered to make the Xenith one of the best-selling thin-clients of all time, based on its ease of use, support of Citrix key features, and improved data security capabilities.
+
+
+== Facilities ==
+Wyse Technology is headquartered in Silicon Valley in Santa Clara, California. It also has development centers in India, and Beijing, China. It has sales offices around the United States and in:
+
+
+== Environmental initiatives ==
+Wyse has published research on the environmental benefits of cloud client computing. According to the company, to minimize environmental impact, their cloud client computing products are smaller than that of competitors. Up to 90 percent of Wyse products can be recycled, and the hardware meets WEEE recycling process guidelines. The company also has an e-waste recycling program.
+
+
+== Products ==
+
+
+=== Software ===
+Management software
+Wyse Management Suite – Wyse enterprise-class server software that is either on-prem or on public-cloud and allows easy configuration and management of just a few to many thousands of Wyse thin clients
+Virtualization software
+Wyse Converter for PCs – Wyse software that converts fat clients into thin client-like devices with a combination of both local and server based computation for increased security, at the same time leverage existing PC investments.
+Wyse TCX – Wyse software that resides on Wyse cloud clients to accelerate and enhance the user desktop experience
+
+
+=== Hardware ===
+Thin clients
+S10 – Economical, compact thin client running Wyse ThinOS operating system.
+C10 – Compact thin client running Wyse ThinOS operating system.
+V10LE – Expandable thin client running Wyse ThinOS operating system.  Supports dual video and numerous I/O options
+R10L – Very thin client running ThinOS operating system, supports multiple video displays and is suited to high-end users running demanding multimedia apps
+S30 – Economical, compact thin client running Windows CE operating system
+C30LE – Compact thin client running Windows Embedded operating system.
+V30LE – Expandable thin client running Windows Embedded Compact operating system.  Supports dual video and numerous I/O options
+C50LE – Compact thin client running a Linux operating system.
+T50 – Compact, economical thin client running Ubuntu Linux operating system.  Sets a new price/performance standard for thin clients.
+V50LE – Expandable thin client running Linux operating system.  Supports dual video and numerous I/O options.
+R50L – High performance thin client running Linux.  Supports dual video and numerous I/O options.
+R50LE – The R50L with an expansion slot to add more connectivity options.
+C90LE – Compact thin client running Windows XPe operating system.
+V90LE – Expandable thin client running Windows XPe operating system.
+R90L – High performance thin client running Windows XPe operating system.  Supports dual video and numerous I/O options.
+R90LE – The R90L with an expansion slot to add more connectivity options.
+C90LEW – Compact thin client running Windows Embedded Standard 2009 operating system.
+V90LEW –  Expandable thin client running Windows Embedded Standard 2009 operating system.
+R90LW – High performance thin client running Windows Embedded Standard 2009 operating system.  Supports dual video and numerous I/O options.
+R90LEW – The R90LW with an expansion slot to add more connectivity options.
+Z90SW – Wyse's highest performance single-core processor thin client running Windows Embedded Standard 2009 operating system.  Supports dual hi-def video and numerous I/O options.
+Z90DW – The Z90SW except dual-core
+C90LE7 – Compact, thin client running Windows Embedded Standard 7 operating system.
+R90L7 – High performance thin client running Windows Embedded Standard 7 operating system.  Supports dual video and numerous I/O options.
+Z90S7 – Wyse's highest performance single-core processor thin client running Windows Embedded Standard 7 operating system.  Supports dual hi-def video and numerous I/O options.
+Z90D7 – The Z90S7 with a dual-core processor
+Zero Clients
+E02 – Wyse zero client for use with Microsoft Windows Multipoint Server (WMS) 2011
+Xenith / Xenith Pro – Wyse zero client family for Citrix. Both are designed for Citrix HDX environments, Xenith Pro offers extra performance and connectivity options for high-end, demanding multimedia applications.
+P20 – Wyse zero client for VMware.  Leverages on-chip PCoIP processing to increase performance and graphics display.
+Cloud PCs
+C00LE – Compact cloud PC
+V00LE – Expandable cloud PC supporting dual video and numerous I/O options
+R00L – High performance cloud PC with dual video and numerous I/O options
+R00LE – The R00L with an expansion slot to add more connectivity options.
+Z00D – Wyse's highest performance cloud PC with dual hi-def video and numerous I/O options.
+Mobile Clients
+X50c – Mobile thin client running Linux operating system
+X90cw – Mobile thin client running Windows Embedded Standard 2009 operating system with an 11.6” display.
+X90c7 – Similar to the X90cw, except it runs on Windows Embedded Standard 7
+X90mW – Mobile thin client running Windows Embedded Standard 2009 operating system, dual-core processor, and a 14” display.
+7492-X90m7 – Similar to the X90mW except it runs on Windows Embedded Standard 7 operating system.
+Terminals
+
+WYSE-100 – First terminal
+WYSE-50 – the first really mass market terminal
+WYSE-30 – New design, more features
+WYSE-60 – Another step up in product capabilities
+Personal computers
+
+WYSE-1000 – Wyse's first computer – 80186 based computer – paired with WYSE-50 monitor.  Ran MS-DOS 3.2.
+WYSEpc – Wyse's first IBM compatible computer.
+WYSE-2100 Series – Wyse computers utilizing 80286 processors,  also featured passive backplane to allow CPU upgrades after purchase.
+WYSE-3100 Series – Wyse computer utilizing 80386 processors, also featured passive backplane to allow CPU upgrades after purchase.
+Personal computer video cards
+
+WYSE WY-700 ISA-bus compatible monochrome/greyscale graphics card, capable of resolutions up to 1280x800.
+
+
+== See also ==
+Cloud computing
+Desktop virtualization
+Green computing
+Thin client
+Virtual desktop
+Virtualization
+
+
+== References ==
+
+
+== Further reading ==
+McNaught, Jeff. "Wyse: 2011 Predictions — Computing Infrastructure Choice". VM Blog. (December 2010)
+"Is a shift to cloud computing inevitable? - Video Interview". FT Trading Room. (January 2011)
+Nash, Kim. "H&R Block Shifts from PCs to Virtualized Thin Clients". CIO. Archived from the original on November 6, 2011. Retrieved October 20, 2011. (July 2011)
+Dotson, Kit. "Wyse CEO Tarkan Maner Makes Plans to Disrupt the PC Paradigm". Silicon Angle. (September 2011)
+Shanbhag, Raju. "Wyse and VMware Customers Move into Post-PC World". TCMnet. (September 2011)
+
+
+== External links ==
+Official website at the Wayback Machine (archived December 30, 2011)

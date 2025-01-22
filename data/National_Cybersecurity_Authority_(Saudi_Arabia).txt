@@ -1,0 +1,23 @@
+National Cybersecurity Authority, National Cyber Security Authority, or the Saudi National Cybersecurity Authority, is a government security entity in Saudi Arabia which focuses primarily on the count...
+
+National Cybersecurity Authority, National Cyber Security Authority, or the Saudi National Cybersecurity Authority, is a government security entity in Saudi Arabia which focuses primarily on the country's computer security. Created in 2017, it is directly linked to the office of the king.
+
+
+== History ==
+The organization was set up through the royal decree issued by King Salman bin Abdul Aziz Al Saud on 31 October 2017 which was heavily backed by Crown Prince Muhammad bin Salman bin Abdul Aziz Al Saud.
+
+“The authority will be linked to the King and is created to boost cyber security of the state, protect its vital interests, national security and sensitive infrastructure” ― Saudi Press Agency
+
+
+== Recent announcements ==
+King Salman bin Abdul Aziz Al Saud issued a royal decree dated 23 July 2018/10 Dhul Qada 1439 which stressed that all government agencies should upgrade their cyber security to protect their networks, systems and electronic data, and abide by policies, frameworks, standards and guidelines issued by NCA.
+On 6 October 2018, NCA had issued core cyber security controls document for minimum standards to be applied in various national agencies to reduce the risk of cyber threats.
+Along with circulating the news to the private sectors, NCA also said the same to government departments that they have to abide by the policies, frameworks, criteria, guidelines and regulations issued by the authority in this regard.
+On October 5, 2020, the NCA announced the issuing of the Cloud Cybersecurity Controls, with the goal of bolstering the reliability of cloud services. The announcement came alongside many of the NCA's existing efforts to protect businesses and the community from cybersecurity threats.
+
+
+== Global Cybersecurity Forum (GCF) ==
+The authority is organizing a two-day Global Cybersecurity Forum (GCF) under the patronage of King Salman bin Abdulaziz. The forum will take place in February 2020 The Saudi capital Riyadh bringing decision-makers and experts from governments. It also invites participants from business and academia. A range of investors and representatives of international organizations will be participating to address cyber-related issues and challenges.
+
+
+== References ==

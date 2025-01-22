@@ -1,0 +1,24 @@
+A Cyber Security Management System is a form of Information security management system, particularly focussed on protecting automation and transport systems. The EU Cybersecurity Act, of 2019, led to ...
+
+A Cyber Security Management System is a form of Information security management system, particularly focussed on protecting automation and transport systems. The EU Cybersecurity Act, of 2019, led to the creation of UNECE working groups which developed the Cyber Security Management Systems (CSMS) concept (and also an approach for securing over-the-air updates of vehicle systems), which were formalised in UN Regulation 155.
+
+
+== Context ==
+Security technologies, and threats, can evolve much more quickly than regulatory bodies; so the CSMS emphasises a system of technologies and processes which can adapt more quickly, without relying on a narrowly-defined list of technical controls in a standard. Consequently, the CSMS is intended to be technology-neutral, much like ISO 27001, unlike detailed technical security standards such as PCI DSS.
+
+
+== Framework ==
+
+
+== See also ==
+IEC 62443
+ISO/SAE 21434
+ISO/IEC 27001
+Cyber Essentials
+
+
+== References ==
+
+
+== Further reading ==
+Draft Recommendation on Cyber Security of the Task Force on Cyber Security and Over-the-air issues of UNECE WP.29 GRVA

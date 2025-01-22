@@ -1,0 +1,35 @@
+Milrem Robotics is a United Arab Emirates–Estonian robotic vehicle manufacturer. Their primary products are the THeMIS UGV, the Multiscope UGV and a robotic combat vehicle designated as the Type-X. Th...
+
+Milrem Robotics is a United Arab Emirates–Estonian robotic vehicle manufacturer. Their primary products are the THeMIS UGV, the Multiscope UGV and a robotic combat vehicle designated as the Type-X.
+The company runs subsidiaries in the Netherlands, Finland, Sweden and the US.
+In February 2023 the EDGE group located in the UAE bought a majority share of the company.
+
+
+== Leadership ==
+Kuldar Väärsi is founder and CEO of Milrem Robotics.
+
+
+== History ==
+Milrem Robotics was established in 2013. Development on the first unmanned ground vehicle (UGV) began late 2014. The first UGV (THeMIS) was introduced at DSEI 2015 in London. An upgraded THeMIS was introduced at the 2019 Defence and Security Equipment International conference.
+In 2019 the Estonian Defence Forces deployed the THeMIS UGV to a combat zone, Mali, for the first time as part of a French led counter-terrorism Operation Barkhane.
+In December 2023, after testing the system through Ukraine's Brave1 innovation system, Milrem signed an agreement with the Ukrainian Defense Industry to start development and production of robotic defense systems.
+
+
+== Product lines ==
+
+
+=== THeMIS ===
+
+The THeMIS is a medium-sized military UGV intended to provide support for dismounted troops by serving as a transport platform, remote weapon station, IED detection and disposal unit etc. The vehicle’s open architecture gives it multi-missions capability. The THeMIS has been integrated with a number of weapons and weapons systems including the FGM-148 Javelin, deFNder Medium, PROTECTOR RWS, IMPACT and Brimstone anti-tank system.
+
+
+==== Multiscope ====
+The Multiscope is the civilian version of the THeMIS UGV.
+
+
+=== Type-X ===
+
+The Type-X is an in-development 12-tonne class UGV.
+
+
+== References ==

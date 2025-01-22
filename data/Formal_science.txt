@@ -1,0 +1,42 @@
+Formal science is a branch of science studying disciplines concerned with abstract structures described by formal systems, such as logic, mathematics, statistics, theoretical computer science, artific...
+
+Formal science is a branch of science studying disciplines concerned with abstract structures described by formal systems, such as logic, mathematics, statistics, theoretical computer science, artificial intelligence, information theory, game theory, systems theory, decision theory and theoretical linguistics. Whereas the natural sciences and social sciences seek to characterize physical systems and social systems, respectively, using empirical methods, the formal sciences use language tools concerned with characterizing abstract structures described by formal systems. The formal sciences aid the natural and social sciences by providing information about the structures used to describe the physical world, and what inferences may be made about them.
+
+
+== Branches ==
+Logic (also a branch of philosophy)
+Mathematics
+Statistics
+Systems science
+Data science
+Information science
+Computer science
+Cryptography
+
+
+== Differences from other sciences ==
+One reason why mathematics enjoys special esteem, above all other sciences, is that its laws are absolutely certain and indisputable, while those of other sciences are to some extent debatable and in constant danger of being overthrown by newly discovered facts.
+Because of their non-empirical nature, formal sciences are construed by outlining a set of axioms and definitions from which other statements (theorems) are deduced. For this reason, in Rudolf Carnap's logical-positivist conception of the epistemology of science, theories belonging to formal sciences are understood to contain no synthetic statements, instead containing only analytic statements.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Mario Bunge (1985). Philosophy of Science and Technology. Springer.
+Mario Bunge (1998). Philosophy of Science. Rev. ed. of: Scientific research. Berlin, New York: Springer-Verlag, 1967.
+C. West Churchman (1940). Elements of Logic and Formal Science, J.B. Lippincott Co., New York.
+James Franklin (1994). The formal sciences discover the philosophers' stone. In: Studies in History and Philosophy of Science. Vol. 25, No. 4, pp. 513–533, 1994
+Stephen Leacock (1906). Elements of Political Science. Houghton, Mifflin Co, 417 pp.
+Popper, Karl R. (2002) [1959]. The Logic of Scientific Discovery. New York, NY: Routledge Classics. ISBN 0-415-27844-9. OCLC 59377149.
+Bernt P. Stigum (1990). Toward a Formal Science of Economics. MIT Press
+Marcus Tomalin (2006), Linguistics and the Formal Sciences. Cambridge University Press
+William L. Twining (1997). Law in Context: Enlarging a Discipline. 365 pp.
+
+
+== External links ==
+ Media related to Formal sciences at Wikimedia Commons
+Interdisciplinary conferences — Foundations of the Formal Sciences

@@ -1,0 +1,61 @@
+Ampere Computing LLC is an American fabless semiconductor company based in Santa Clara, California that develops processors for servers operating in large scale environments. It was founded in 2017 by...
+
+Ampere Computing LLC is an American fabless semiconductor company based in Santa Clara, California that develops processors for servers operating in large scale environments. It was founded in 2017 by Renée James.
+Ampere has offices in: Portland, Oregon; Taipei, Taiwan; Raleigh, North Carolina; Bangalore, India; Warsaw, Poland; and Ho Chi Minh City, Vietnam.
+
+
+== History ==
+Ampere Computing was founded in the Fall of 2017 by Renée James, ex-President of Intel, with funding from The Carlyle Group. James acquired a team from MACOM Technology Solutions (formerly AppliedMicro) in addition to several industry hires to start the company. Ampere Computing is an ARM architecture licensee and develops its own server microprocessors. Ampere fabricates its products at TSMC.
+In April 2019, Ampere announced its second major investment round, including investment from Arm Holdings and Oracle Corporation. In June 2019, Nvidia announced a partnership with Ampere to bring support for Compute Unified Device Architecture (CUDA). In November 2019, Nvidia announced a reference design platform for graphics processing unit (GPU)-accelerated ARM-based servers including Ampere.
+In the first half of 2020, Ampere announced Ampere Altra an 80-core and Ampere Altra Max a 128-core processor without the use of simultaneous multithreading.
+In March 2020, the company announced a partnership with Oracle. In September of that year, Oracle said it would launch bare-metal and virtual machine instances in early 2021 based on Ampere Altra.
+In November 2020, Ampere was named one of the top 10 hottest semiconductor startups by CRN.
+In May 2021, the company announced a partnership with Microsoft. In July of that year, Ampere acquired OnSpecta, an AI technology startup. After the acquisition, the companies were able to demonstrate four times faster acceleration on Ampere-based instances running AI-inference workloads.
+In April 2022, Ampere said that it had filed a confidential prospectus with the U.S. Securities and Exchange Commission, signaling its intent to go public.
+In June 2022, HPE announced their Gen11 ProLiant system would use Ampere Altra and Ampere Altra Max Cloud Native Processors.
+In July 2022, Google announced T2A instances using Ampere Altra in the Google cloud and in August 2022 Microsoft announced their instances of Ampere running in Azure.
+
+
+== Products ==
+Ampere develops ARM-based computer processors and CPU cores under their Altra brands. These are used in databases, media encoding, web services, network acceleration, mobile gaming, AI inference processing, and other applications and programs that need to scale.
+On February 5, 2018, Ampere announced the eMAG 8180 featuring 32x Skylark cores fabricated on TSMC's 16FF+ process. It supports a turbo of up to 3.3 GHz with a TDP of 125 W, 8ch 64-bit DDR4, up to 1 TB DDR4 per socket, and 42x PCIe 3.0 Lanes. The Skylark cores were based on AppliedMicro's X-Gene 3. Packet offers servers with the eMAG 8180 and 128 GB DRAM, 480 GB SSD, and 2x 10 Gbit/s networking. On September 19, 2018, Ampere announced the availability of a version featuring 16x Skylark cores.
+
+
+=== 2020 ===
+On March 3, 2020, Ampere announced the Ampere Altra featuring 80 cores fabricated on TSMC's N7 process for hyperscale computing. It was the first server-grade processor to include 80 cores and the Q80-30 conserves power by running at 161 W in use. The cores are semi-custom Arm Neoverse N1 cores with Ampere modifications. It supports a frequency of up to 3.3 GHz with TDP of 250 W, 8ch 72-bit DDR4, up to 4 TB DDR4-3200 per socket, 128x PCIe 4.0 Lanes, 1 MB L2 per core and 32 MB SLC.
+Ampere also announced their roadmap with Ampere Altra Max (2021) in development and AmpereOne (2022) defined.
+
+
+=== 2021 ===
+The 128-core Altra Max was released in 2021 and targeted hyperscale cloud providers. It uses the same server socket and platforms as Ampere Altra, and both products have one thread per core. The Altra Max CPUs provide 128 Arm v8.2+ cores per chip and run up to 3.0 GHz. They also support eight channels of DDR4-3200 memory and 128 lanes of PCIe Gen4.
+Also in 2021, Oracle launched its Oracle Cloud Infrastructure (OCI) using Ampere Altra processors.
+
+
+=== 2022 ===
+In February 2022, Ampere and Rigetti Computing announced a strategic partnership to create hybrid quantum-classical computers. The companies will combine Ampere's Altra Max CPUs with Rigetti's Quantum Processing Units (QPU) in cloud-based High-Performance Computing (HPC) environments.
+In April, Microsoft previewed its Azure Virtual Machines running on the Ampere Altra. The VMs run scale-out workloads, web servers, application servers, open source databases, cloud native .NET applications, Java applications, gaming servers, media servers, and other processes.
+In May, Ampere announced the sampling of AmpereOne CPUs, 5 nanometer chips based on its in-house Ampere-developed core. AmpereOne will add support for DDR5 main memory and PCIe Gen5 peripherals.
+On June 28, 2022, HPE became first tier-one server provider to offer compute with optimized cloud-native silicon for service providers and enterprises embracing cloud-native development with new line of HPE ProLiant RL Gen11 servers, using Ampere® Altra® and Ampere® Altra® Max processors, delivering high performance and power efficiency.
+
+
+=== 2023 ===
+During April 2023, Ampere released the Altra developer's kit, an IoT Prototype Kit based on Ampere Altra, aimed at cloud developers, available in 32-core, 64-core, and 80-core formats.
+
+
+=== 2024 ===
+In May 2024, Ampere updated its AmpereOne roadmap to 256 cores  and announced a joint effort with Qualcomm on CPUs and accelerators.
+
+
+== Customers ==
+Ampere's customers include Microsoft Azure, Tencent Cloud, Oracle, ByteDance, Hewlett Packard Enterprise (HPE), Cloudflare, Equinix, Kingsoft Cloud, Meituan, Scaleway, UCloud, Foxconn Industrial Internet, Gigabyte, Inspur, Cruise, Hetzner, Project Ronin, Wiwynn and Google Cloud Platform
+Cruise uses an Ampere Altra variant for its autonomous driving unit. The CPU was selected because of its throughput and low power consumption.
+In 2021, Oracle, Microsoft, Tencent, and ByteDance committed to using Ampere's customized chips, first announced in May. In April 2022, Microsoft previewed Ampere Altra processors in its new Azure D-and E- series virtual machines. The Dpsv5 series is built for Linux enterprise application types, and the Epsv5 series is for memory-intensive Linux workloads. They provide up to 64 vCPUs, include VM sizes with 2GiB, 4GiB, and 8GiB per vCPU memory configurations, up to 40 Gbit/s networking, and high-performance local SSD storage.
+In 2022, Microsoft's Ampere Altra-based Azure servers became the first cloud solution provider server to be Arm SystemReady SR certified. The Azure VMs, powered by Altra processors, were also the first to be SystemReady Virtual Environment standard certified. SystemReady defines a set of firmware and hardware standards as a baseline for system development for software developers, original equipment vendors, and chipmakers.
+
+
+== References ==
+
+
+== External links ==
+
+Official website

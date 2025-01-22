@@ -1,0 +1,36 @@
+An edge case is a problem or situation that occurs only at an extreme (maximum or minimum) operating parameter. For example, a stereo speaker might noticeably distort audio when played at maximum volu...
+
+An edge case is a problem or situation that occurs only at an extreme (maximum or minimum) operating parameter. For example, a stereo speaker might noticeably distort audio when played at maximum volume, even in the absence of any other extreme setting or condition.
+An edge case can be expected or unexpected. In engineering, the process of planning for and gracefully addressing edge cases can be a significant task, and yet this task may be overlooked or underestimated.
+Some common causes of edge cases are:
+
+Unpredictable user behavior
+Evolution of use cases (e.g. user behavior may change over time)
+Limited test coverage
+Product complexity (for instance, in distributed systems or microservice architectures)
+Resource limitations (e.g. limited processing power, computer memory, or computer storage)
+Other external causes
+Some basic examples of edge cases include:
+
+A long username in an app overflows and displays incorrectly
+A booking system does not handle reservations correctly on a leap day (February 29th)
+Non-trivial edge cases can result in the failure of an object that is being engineered. They may not have been foreseen during the design phase, and they may not have been thought possible during normal use of the object. For this reason, attempts to formalize good engineering standards often include information about edge cases.
+
+
+== Software engineering ==
+In programming, an edge case typically involves input values that require special handling in an algorithm behind a computer program. As a measure for validating the behavior of computer programs in such cases, unit tests are usually created; they are testing boundary conditions of an algorithm, function or method. A series of edge cases around each "boundary" can be used to give reasonable coverage and confidence using the assumption that if it behaves correctly at the edges, it should behave everywhere else.
+For example, a function that divides two numbers might be tested using both very large and very small numbers. This assumes that if it works for both ends of the magnitude spectrum, it should work correctly in between.
+Programmers may also create integration tests to address edge cases not covered by unit tests. These tests cover cases which only appear when a system is tested as a whole. For example, while a unit test may ensure that a function correctly calculates a result, an integration test ensures that this function works properly when integrated with a database or an external API. These tests are particularly relevant with increasing system complexity in distributed systems, microservices, and Internet of things (IoT) devices. With microservices in particular, testing becomes a challenge as integration tests may not cover all microservice endpoints, resulting in uncovered edge cases.
+Other types of testing which relate to edge cases may include load testing and negative/failure testing. Both methods aim at expanding the test coverage of a system, reducing the likelihood of unexpected edge cases.
+In test-driven development, edge cases may be determined by system requirements and accounted for by tests, before writing code. Such documentation may go inside a product requirements document after discussions with stakeholders and other teams.
+
+
+== See also ==
+Corner case, an issue that occurs only when multiple environmental conditions are simultaneously at extreme (maximum or minimum) levels
+Forensic engineering
+Fuzzing
+Random testing
+Happy path
+
+
+== References ==

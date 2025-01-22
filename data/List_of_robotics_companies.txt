@@ -1,0 +1,31 @@
+A robotics company produces or manufactures and sells robots for domestic or industrial use. In the 21st century, investment in robotics companies has grown due to increasing demand for automation. Th...
+
+A robotics company produces or manufactures and sells robots for domestic or industrial use. In the 21st century, investment in robotics companies has grown due to increasing demand for automation.
+These firms specialize in a wide range of applications, from autonomous drones to robots tailored for factory work or warehousing and logistics. Robotics companies may also produce cobots which interact with and collaborate with humans. 
+
+
+== Notable examples ==
+
+ABB – Swedish–Swiss multinational robotics and electrical equipment company
+Agility Robotics – Humanoid robotics company
+Amazon Robotics – Division of Amazon
+Boston Dynamics – US engineering and robotics design company
+CRS Robotics – Canadian robotics company
+Dobot – Global Collaborative Robots Manufacturer
+Ecovacs Robotics – Chinese in-home robotics appliances company
+Evolution Robotics – American technology company
+FANUC – Japanese robotics company
+Fastbrick Robotics – Perth based robotics company
+Figure AI – US robotics company
+Hanson Robotics – Hong Kong-based engineering and robotics company
+Honeybee Robotics – US spacecraft and robotics company
+Horizon Robotics – Chinese AI chip company
+IRobot – American technology company that produces consumer robots
+Milrem Robotics – Company based in Estonia
+Moley Robotics – British robotics company
+Siasun Robotics – Chinese robotics manufacturer
+Unitree Robotics – Chinese robotics company
+Universal Robots – Danish robotics manufacturer
+
+
+== References ==

@@ -1,0 +1,4978 @@
+The one-way quantum computer, also known as measurement-based quantum computer (MBQC), is a method of quantum computing that first prepares an entangled resource state, usually a cluster state or grap...
+
+The one-way quantum computer, also known as measurement-based quantum computer (MBQC), is a method of quantum computing that first prepares an entangled resource state, usually a cluster state or graph state, then performs single qubit measurements on it.  It is "one-way" because the resource state is destroyed by the measurements.
+The outcome of each individual measurement is random, but they are related in such a way that the computation always succeeds. In general, the choices of basis for later measurements need to depend on the results of earlier measurements, and hence the measurements cannot all be performed at the same time.
+The implementation of MBQC is mainly considered for photonic devices, due to the difficulty of entangling photons without measurements, and the simplicity of creating and measuring them. However, MBQC is also possible with matter-based qubits. The process of entanglement and measurement can be described with the help of graph tools and group theory, in particular by the elements from the stabilizer group.
+
+
+== Definition ==
+The purpose of quantum computing focuses on building an information theory with the features of quantum mechanics: instead of encoding a binary unit of information (bit), which can be switched to 1 or 0, a quantum binary unit of information (qubit) can simultaneously turn to be 0 and 1 at the same time, thanks to the phenomenon called superposition. Another key feature for quantum computing relies on the entanglement between the qubits.
+
+In the quantum logic gate model, a set of qubits, called register, is prepared at the beginning of the computation, then a set of logic operations over the qubits, carried by unitary operators, is implemented. A quantum circuit is formed by a register of qubits on which unitary transformations are applied over the qubits. In the measurement-based quantum computation, instead of implementing a logic operation via unitary transformations, the same operation is executed by entangling a number 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  
+ of input qubits with a cluster of 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  
+ ancillary qubits, forming an overall source state of 
+  
+    
+      
+        a
+        +
+        k
+        =
+        n
+      
+    
+    {\displaystyle a+k=n}
+  
+ qubits, and then measuring a number 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+ of them. The remaining 
+  
+    
+      
+        k
+        =
+        n
+        −
+        a
+      
+    
+    {\displaystyle k=n-a}
+  
+ output qubits will be affected by the measurements because of the entanglement with the measured qubits. The one-way computer has been proved to be a universal quantum computer, which means it can reproduce any unitary operation over an arbitrary number of qubits.
+
+
+=== General procedure ===
+The standard process of measurement-based quantum computing consists of three steps: entangle the qubits, measure the ancillae (auxiliary qubits) and correct the outputs. In the first step, the qubits are entangled in order to prepare the source state. In the second step, the ancillae are measured, affecting the state of the output qubits. However, the measurement outputs are non-deterministic result, due to undetermined nature of quantum mechanics: in order to carry on the computation in a deterministic way, some correction operators, called byproducts, are introduced.
+
+
+=== Preparing the source state ===
+
+At the beginning of the computation, the qubits can be distinguished into two categories: the input and the ancillary qubits. The inputs represent the qubits set in a generic 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        α
+        
+          |
+        
+        0
+        ⟩
+        +
+        β
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle =\alpha |0\rangle +\beta |1\rangle }
+  
+ state, on which some unitary transformations are to be acted. In order to prepare the source state, all the ancillary qubits must be prepared in the 
+  
+    
+      
+        
+          |
+        
+        +
+        ⟩
+      
+    
+    {\displaystyle |+\rangle }
+  
+ state:
+
+  
+    
+      
+        
+          |
+        
+        +
+        ⟩
+        =
+        
+          
+            
+              
+                
+                  |
+                
+                0
+                ⟩
+                +
+                
+                  |
+                
+                1
+                ⟩
+              
+              
+                2
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle |+\rangle ={\tfrac {|0\rangle +|1\rangle }{\sqrt {2}}},}
+  
+
+where 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+  
+ and 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+ are the quantum encoding for the classical 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+  
+ and 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+  
+ bits:
+
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+        =
+        
+          
+            (
+            
+              
+                
+                  1
+                
+              
+              
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        ;
+        
+        
+          |
+        
+        1
+        ⟩
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+              
+              
+                
+                  1
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle |0\rangle ={\begin{pmatrix}1\\0\end{pmatrix}};\quad |1\rangle ={\begin{pmatrix}0\\1\end{pmatrix}}}
+  
+.
+A register with 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ qubits will be therefore set as 
+  
+    
+      
+        
+          |
+        
+        +
+        
+          ⟩
+          
+            ⊗
+            n
+          
+        
+      
+    
+    {\displaystyle |+\rangle ^{\otimes n}}
+  
+. Thereafter, the entanglement between two qubits can be performed by applying a (Controlled) 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ gate operation. The matrix representation of such two-qubits operator is given by
+
+  
+    
+      
+        C
+        Z
+        =
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  −
+                  1
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle CZ={\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&-1\end{bmatrix}}.}
+  
+
+The action of a 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ gate over two qubits can be described by the following system:
+
+  
+    
+      
+        
+          
+            {
+            
+              
+                
+                  C
+                  Z
+                  
+                    |
+                  
+                  0
+                  +
+                  ⟩
+                  =
+                  
+                    |
+                  
+                  0
+                  +
+                  ⟩
+                
+              
+              
+                
+                  C
+                  Z
+                  
+                    |
+                  
+                  0
+                  −
+                  ⟩
+                  =
+                  
+                    |
+                  
+                  0
+                  −
+                  ⟩
+                
+              
+              
+                
+                  C
+                  Z
+                  
+                    |
+                  
+                  1
+                  +
+                  ⟩
+                  =
+                  
+                    |
+                  
+                  1
+                  −
+                  ⟩
+                
+              
+              
+                
+                  C
+                  Z
+                  
+                    |
+                  
+                  1
+                  −
+                  ⟩
+                  =
+                  
+                    |
+                  
+                  1
+                  +
+                  ⟩
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{cases}CZ|0+\rangle =|0+\rangle \\CZ|0-\rangle =|0-\rangle \\CZ|1+\rangle =|1-\rangle \\CZ|1-\rangle =|1+\rangle \end{cases}}}
+  
+
+When applying a 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ gate over two ancillae in the 
+  
+    
+      
+        
+          |
+        
+        +
+        ⟩
+      
+    
+    {\displaystyle |+\rangle }
+  
+ state, the overall state 
+
+  
+    
+      
+        C
+        Z
+        
+          |
+        
+        +
+        +
+        ⟩
+        =
+        
+          
+            
+              
+                |
+              
+              0
+              +
+              ⟩
+              +
+              
+                |
+              
+              1
+              −
+              ⟩
+            
+            
+              2
+            
+          
+        
+      
+    
+    {\displaystyle CZ|++\rangle ={\frac {|0+\rangle +|1-\rangle }{\sqrt {2}}}}
+  
+
+turns to be an entangled pair of qubits. When entangling two ancillae, no importance is given about which is the control qubit and which one the target, as far as the outcome turns to be the same. Similarly, as the 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ gates are represented in a diagonal form, they all commute each other, and no importance is given about which qubits to entangle first.
+Photons are the most common qubit system that is used in the context of one-way quantum computing. However, deterministic 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ gates between photons are difficult to realize. Therefore, probabilistic entangling gates such as Bell state measurements are typically considered. Furthermore, quantum emitters such as atoms or quantum dots can be used to create deterministic entanglement between photonic qubits.
+
+
+=== Measuring the qubits ===
+
+The process of measurement over a single-particle state can be described by projecting the state on the eigenvector of an observable. Consider an observable 
+  
+    
+      
+        O
+      
+    
+    {\displaystyle O}
+  
+ with two possible eigenvectors, say 
+  
+    
+      
+        
+          |
+        
+        
+          o
+          
+            1
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |o_{1}\rangle }
+  
+ and 
+  
+    
+      
+        
+          |
+        
+        
+          o
+          
+            2
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |o_{2}\rangle }
+  
+, and suppose to deal with a multi-particle quantum system 
+  
+    
+      
+        
+          |
+        
+        Ψ
+        ⟩
+      
+    
+    {\displaystyle |\Psi \rangle }
+  
+. Measuring the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+-th qubit by the 
+  
+    
+      
+        O
+      
+    
+    {\displaystyle O}
+  
+ observable means to project the 
+  
+    
+      
+        
+          |
+        
+        Ψ
+        ⟩
+      
+    
+    {\displaystyle |\Psi \rangle }
+  
+ state over the eigenvectors of 
+  
+    
+      
+        O
+      
+    
+    {\displaystyle O}
+  
+:
+
+  
+    
+      
+        
+          |
+        
+        
+          Ψ
+          ′
+        
+        ⟩
+        =
+        
+          |
+        
+        
+          o
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          o
+          
+            i
+          
+        
+        
+          |
+        
+        Ψ
+        ⟩
+      
+    
+    {\displaystyle |\Psi '\rangle =|o_{i}\rangle \langle o_{i}|\Psi \rangle }
+  
+.
+The actual state of the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+-th qubit is now 
+  
+    
+      
+        
+          |
+        
+        
+          o
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |o_{i}\rangle }
+  
+, which can turn to be 
+  
+    
+      
+        
+          |
+        
+        
+          o
+          
+            1
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |o_{1}\rangle }
+  
+ or 
+  
+    
+      
+        
+          |
+        
+        
+          o
+          
+            2
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |o_{2}\rangle }
+  
+, depending on the outcome from the measurement (which is probabilistic in quantum mechanics). The measurement projection can be performed over the eigenstates of the 
+  
+    
+      
+        M
+        (
+        θ
+        )
+        =
+        cos
+        ⁡
+        (
+        θ
+        )
+        X
+        +
+        sin
+        ⁡
+        (
+        θ
+        )
+        Y
+      
+    
+    {\displaystyle M(\theta )=\cos(\theta )X+\sin(\theta )Y}
+  
+ observable:
+
+  
+    
+      
+        M
+        (
+        θ
+        )
+        =
+        cos
+        ⁡
+        (
+        θ
+        )
+        
+          
+            [
+            
+              
+                
+                  0
+                
+                
+                  1
+                
+              
+              
+                
+                  1
+                
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+        +
+        sin
+        ⁡
+        (
+        θ
+        )
+        
+          
+            [
+            
+              
+                
+                  0
+                
+                
+                  −
+                  i
+                
+              
+              
+                
+                  i
+                
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  0
+                
+                
+                  
+                    e
+                    
+                      −
+                      i
+                      θ
+                    
+                  
+                
+              
+              
+                
+                  
+                    e
+                    
+                      i
+                      θ
+                    
+                  
+                
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle M(\theta )=\cos(\theta ){\begin{bmatrix}0&1\\1&0\end{bmatrix}}+\sin(\theta ){\begin{bmatrix}0&-i\\i&0\end{bmatrix}}={\begin{bmatrix}0&e^{-i\theta }\\e^{i\theta }&0\end{bmatrix}}}
+  
+,
+where 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ belong to the Pauli matrices. The eigenvectors of 
+  
+    
+      
+        M
+        (
+        θ
+        )
+      
+    
+    {\displaystyle M(\theta )}
+  
+ are 
+  
+    
+      
+        
+          |
+        
+        
+          θ
+          
+            ±
+          
+        
+        ⟩
+        =
+        
+          |
+        
+        0
+        ⟩
+        ±
+        
+          e
+          
+            i
+            θ
+          
+        
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |\theta _{\pm }\rangle =|0\rangle \pm e^{i\theta }|1\rangle }
+  
+. Measuring a qubit on the 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+-
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ plane, i.e. by the 
+  
+    
+      
+        M
+        (
+        θ
+        )
+      
+    
+    {\displaystyle M(\theta )}
+  
+ observable, means to project it over 
+  
+    
+      
+        
+          |
+        
+        
+          θ
+          
+            +
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\theta _{+}\rangle }
+  
+ or 
+  
+    
+      
+        
+          |
+        
+        
+          θ
+          
+            −
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\theta _{-}\rangle }
+  
+. In the one-way quantum computing, once a qubit has been measured, there is no way to recycle it in the flow of computation. Therefore, instead of using the 
+  
+    
+      
+        
+          |
+        
+        
+          o
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          o
+          
+            i
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |o_{i}\rangle \langle o_{i}|}
+  
+ notation, it is common to find 
+  
+    
+      
+        ⟨
+        
+          o
+          
+            i
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle \langle o_{i}|}
+  
+ to indicate a projective measurement over the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+-th qubit.
+
+
+=== Correcting the output ===
+After all the measurements have been performed, the system has been reduced to a smaller number of qubits, which form the output state of the system. Due to the probabilistic outcome of measurements, the system is not set in a deterministic way: after a measurement on the 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+-
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ plane, the output may change whether the outcome had been 
+  
+    
+      
+        
+          |
+        
+        
+          θ
+          
+            +
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\theta _{+}\rangle }
+  
+ or 
+  
+    
+      
+        
+          |
+        
+        
+          θ
+          
+            −
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\theta _{-}\rangle }
+  
+. In order to perform a deterministic computation, some corrections must be introduced. The correction operators, or byproduct operators, are applied to the output qubits after all the measurements have been performed. The byproduct operators which can be implemented are 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ and 
+  
+    
+      
+        Z
+      
+    
+    {\displaystyle Z}
+  
+.  Depending on the outcome of the measurement, a byproduct operator can be applied or not to the output state: a 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ correction over the 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+-th qubit, depending on the outcome of the measurement performed over the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+-th qubit via the 
+  
+    
+      
+        M
+        (
+        θ
+        )
+      
+    
+    {\displaystyle M(\theta )}
+  
+ observable, can be described as 
+  
+    
+      
+        
+          X
+          
+            j
+          
+          
+            
+              s
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle X_{j}^{s_{i}}}
+  
+, where 
+  
+    
+      
+        
+          s
+          
+            i
+          
+        
+      
+    
+    {\displaystyle s_{i}}
+  
+ is set to be 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+  
+ if the outcome of measurement was 
+  
+    
+      
+        
+          |
+        
+        
+          θ
+          
+            +
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\theta _{+}\rangle }
+  
+, otherwise is 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+  
+ if it was 
+  
+    
+      
+        
+          |
+        
+        
+          θ
+          
+            −
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\theta _{-}\rangle }
+  
+. In the first case, no correction will occur, in the latter one a 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ operator will be implemented on the 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+-th qubit. Eventually, even though the outcome of a measurement is not deterministic in quantum mechanics, the results from measurements can be used in order to perform corrections, and carry on a deterministic computation.
+
+
+== CME pattern ==
+
+The operations of entanglement, measurement and correction can be performed in order to implement unitary gates. Such operations can be performed time by time for any logic gate in the circuit, or rather in a pattern which allocates all the entanglement operations at the beginning, the measurements in the middle and the corrections at the end of the circuit. Such pattern of computation is referred to as CME standard pattern. In the CME formalism, the operation of entanglement between the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ and 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+ qubits is referred to as 
+  
+    
+      
+        
+          E
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle E_{ij}}
+  
+. The measurement on the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ qubit, in the 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+-
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ plane, with respect to a 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ angle, is defined as 
+  
+    
+      
+        
+          M
+          
+            i
+          
+          
+            θ
+          
+        
+      
+    
+    {\displaystyle M_{i}^{\theta }}
+  
+. At last, the 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ byproduct over a 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ qubit, with respect to the measurement over a 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+ qubit, is described as 
+  
+    
+      
+        
+          X
+          
+            i
+          
+          
+            
+              s
+              
+                j
+              
+            
+          
+        
+      
+    
+    {\displaystyle X_{i}^{s_{j}}}
+  
+, where 
+  
+    
+      
+        
+          s
+          
+            j
+          
+        
+      
+    
+    {\displaystyle s_{j}}
+  
+ is set to 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+  
+ if the outcome is the 
+  
+    
+      
+        
+          |
+        
+        
+          θ
+          
+            +
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\theta _{+}\rangle }
+  
+ state, 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+  
+ when the outcome is 
+  
+    
+      
+        
+          |
+        
+        
+          θ
+          
+            −
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\theta _{-}\rangle }
+  
+. The same notation holds for the 
+  
+    
+      
+        Z
+      
+    
+    {\displaystyle Z}
+  
+ byproducts.
+When performing a computation following the CME pattern, it may happen that two measurements 
+  
+    
+      
+        
+          M
+          
+            i
+          
+          
+            
+              θ
+              
+                1
+              
+            
+          
+        
+      
+    
+    {\displaystyle M_{i}^{\theta _{1}}}
+  
+ and 
+  
+    
+      
+        
+          M
+          
+            j
+          
+          
+            
+              θ
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle M_{j}^{\theta _{2}}}
+  
+ on the 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+-
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ plane depend one on the outcome from the other. For example, the sign in front of the angle of measurement on the 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+-th qubit can be flipped with respect to the measurement over the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+-th qubit: in such case, the notation will be written as 
+  
+    
+      
+        [
+        
+          M
+          
+            j
+          
+          
+            
+              θ
+              
+                2
+              
+            
+          
+        
+        
+          ]
+          
+            
+              s
+              
+                i
+              
+            
+          
+        
+        
+          M
+          
+            i
+          
+          
+            
+              θ
+              
+                1
+              
+            
+          
+        
+      
+    
+    {\displaystyle [M_{j}^{\theta _{2}}]^{s_{i}}M_{i}^{\theta _{1}}}
+  
+, and therefore the two operations of measurement do commute each other no more. If 
+  
+    
+      
+        
+          s
+          
+            i
+          
+        
+      
+    
+    {\displaystyle s_{i}}
+  
+ is set to 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+  
+, no flip on the 
+  
+    
+      
+        
+          θ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \theta _{2}}
+  
+ sign will occur, otherwise (when 
+  
+    
+      
+        
+          s
+          
+            i
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle s_{i}=1}
+  
+) the 
+  
+    
+      
+        
+          θ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \theta _{2}}
+  
+ angle will be flipped to 
+  
+    
+      
+        −
+        
+          θ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle -\theta _{2}}
+  
+. The notation 
+  
+    
+      
+        [
+        
+          M
+          
+            j
+          
+          
+            
+              θ
+              
+                2
+              
+            
+          
+        
+        
+          ]
+          
+            
+              s
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle [M_{j}^{\theta _{2}}]^{s_{i}}}
+  
+ can therefore be rewritten as 
+  
+    
+      
+        
+          M
+          
+            j
+          
+          
+            (
+            −
+            
+              )
+              
+                
+                  s
+                  
+                    i
+                  
+                
+              
+            
+            
+              θ
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle M_{j}^{(-)^{s_{i}}\theta _{2}}}
+  
+.
+
+
+=== An example: Euler rotations ===
+As an illustrative example, consider the Euler rotation in the 
+  
+    
+      
+        X
+        Z
+        X
+      
+    
+    {\displaystyle XZX}
+  
+ basis: such operation, in the gate model of quantum computation, is described as
+
+  
+    
+      
+        
+          e
+          
+            i
+            γ
+          
+        
+        
+          R
+          
+            X
+          
+        
+        (
+        ϕ
+        )
+        
+          R
+          
+            Z
+          
+        
+        (
+        θ
+        )
+        
+          R
+          
+            X
+          
+        
+        (
+        λ
+        )
+      
+    
+    {\displaystyle e^{i\gamma }R_{X}(\phi )R_{Z}(\theta )R_{X}(\lambda )}
+  
+,
+where 
+  
+    
+      
+        ϕ
+        ,
+        θ
+        ,
+        λ
+      
+    
+    {\displaystyle \phi ,\theta ,\lambda }
+  
+ are the angles for the rotation, while 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+  
+ defines a global phase which is irrelevant for the computation. To perform such operation in the one-way computing frame, it is possible to implement the following CME pattern:
+
+  
+    
+      
+        
+          Z
+          
+            5
+          
+          
+            
+              s
+              
+                1
+              
+            
+            +
+            
+              s
+              
+                3
+              
+            
+          
+        
+        
+          X
+          
+            5
+          
+          
+            
+              s
+              
+                2
+              
+            
+            +
+            
+              s
+              
+                4
+              
+            
+          
+        
+        [
+        
+          M
+          
+            4
+          
+          
+            −
+            ϕ
+          
+        
+        
+          ]
+          
+            
+              s
+              
+                1
+              
+            
+            +
+            
+              s
+              
+                3
+              
+            
+          
+        
+        [
+        
+          M
+          
+            3
+          
+          
+            −
+            θ
+          
+        
+        
+          ]
+          
+            
+              s
+              
+                2
+              
+            
+          
+        
+        [
+        
+          M
+          
+            2
+          
+          
+            −
+            λ
+          
+        
+        
+          ]
+          
+            
+              s
+              
+                1
+              
+            
+          
+        
+        
+          M
+          
+            1
+          
+          
+            0
+          
+        
+        
+          E
+          
+            4
+            ,
+            5
+          
+        
+        
+          E
+          
+            3
+            ,
+            4
+          
+        
+        
+          E
+          
+            2
+            ,
+            3
+          
+        
+        
+          E
+          
+            1
+            ,
+            2
+          
+        
+      
+    
+    {\displaystyle Z_{5}^{s_{1}+s_{3}}X_{5}^{s_{2}+s_{4}}[M_{4}^{-\phi }]^{s_{1}+s_{3}}[M_{3}^{-\theta }]^{s_{2}}[M_{2}^{-\lambda }]^{s_{1}}M_{1}^{0}E_{4,5}E_{3,4}E_{2,3}E_{1,2}}
+  
+,
+where the input state 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        α
+        
+          |
+        
+        0
+        ⟩
+        +
+        β
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle =\alpha |0\rangle +\beta |1\rangle }
+  
+ is the qubit 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+  
+, all the other qubits are auxiliary ancillae and therefore have to be prepared in the 
+  
+    
+      
+        
+          |
+        
+        +
+        ⟩
+      
+    
+    {\displaystyle |+\rangle }
+  
+ state. In the first step, the input state 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  
+ must be entangled with the second qubits; in turn, the second qubit must be entangled with the third one and so on. The entangling operations 
+  
+    
+      
+        
+          E
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle E_{ij}}
+  
+ between the qubits can be performed by the 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ gates.
+In the second place, the first and the second qubits must be measured by the 
+  
+    
+      
+        M
+        (
+        θ
+        )
+      
+    
+    {\displaystyle M(\theta )}
+  
+ observable, which means they must be projected onto the eigenstates 
+  
+    
+      
+        
+          |
+        
+        θ
+        ⟩
+      
+    
+    {\displaystyle |\theta \rangle }
+  
+ of such observable. When the 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ is zero, the 
+  
+    
+      
+        
+          |
+        
+        
+          θ
+          
+            ±
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\theta _{\pm }\rangle }
+  
+ states reduce to 
+  
+    
+      
+        
+          |
+        
+        ±
+        ⟩
+      
+    
+    {\displaystyle |\pm \rangle }
+  
+ ones, i.e. the eigenvectors for the 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ Pauli operator. The first measurement 
+  
+    
+      
+        
+          M
+          
+            1
+          
+          
+            0
+          
+        
+      
+    
+    {\displaystyle M_{1}^{0}}
+  
+ is performed on the qubit 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+  
+ with a 
+  
+    
+      
+        θ
+        =
+        0
+      
+    
+    {\displaystyle \theta =0}
+  
+ angle, which means it has to be projected onto the 
+  
+    
+      
+        ⟨
+        ±
+        
+          |
+        
+      
+    
+    {\displaystyle \langle \pm |}
+  
+ states. The second measurement 
+  
+    
+      
+        [
+        
+          M
+          
+            2
+          
+          
+            −
+            λ
+          
+        
+        
+          ]
+          
+            
+              s
+              
+                1
+              
+            
+          
+        
+      
+    
+    {\displaystyle [M_{2}^{-\lambda }]^{s_{1}}}
+  
+ is performed with respect to the 
+  
+    
+      
+        −
+        λ
+      
+    
+    {\displaystyle -\lambda }
+  
+ angle, i.e. the second qubit has to be projected on the 
+  
+    
+      
+        ⟨
+        0
+        
+          |
+        
+        ±
+        
+          e
+          
+            i
+            λ
+          
+        
+        ⟨
+        1
+        
+          |
+        
+      
+    
+    {\displaystyle \langle 0|\pm e^{i\lambda }\langle 1|}
+  
+ state. However, if the outcome from the previous measurement has been 
+  
+    
+      
+        ⟨
+        −
+        
+          |
+        
+      
+    
+    {\displaystyle \langle -|}
+  
+, the sign of the 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  
+ angle has to be flipped, and the second qubit will be projected to the 
+  
+    
+      
+        ⟨
+        0
+        
+          |
+        
+        +
+        
+          e
+          
+            −
+            i
+            λ
+          
+        
+        ⟨
+        1
+        
+          |
+        
+      
+    
+    {\displaystyle \langle 0|+e^{-i\lambda }\langle 1|}
+  
+ state; if the outcome from the first measurement has been 
+  
+    
+      
+        ⟨
+        +
+        
+          |
+        
+      
+    
+    {\displaystyle \langle +|}
+  
+, no flip needs to be performed. The same operations have to be repeated for the third 
+  
+    
+      
+        [
+        
+          M
+          
+            3
+          
+          
+            θ
+          
+        
+        
+          ]
+          
+            
+              s
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle [M_{3}^{\theta }]^{s_{2}}}
+  
+ and the fourth 
+  
+    
+      
+        [
+        
+          M
+          
+            4
+          
+          
+            ϕ
+          
+        
+        
+          ]
+          
+            
+              s
+              
+                1
+              
+            
+            +
+            
+              s
+              
+                3
+              
+            
+          
+        
+      
+    
+    {\displaystyle [M_{4}^{\phi }]^{s_{1}+s_{3}}}
+  
+ measurements, according to the respective angles and sign flips. The sign over the 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+ angle is set to be 
+  
+    
+      
+        (
+        −
+        
+          )
+          
+            
+              s
+              
+                1
+              
+            
+            +
+            
+              s
+              
+                3
+              
+            
+          
+        
+      
+    
+    {\displaystyle (-)^{s_{1}+s_{3}}}
+  
+. Eventually the fifth qubit (the only one not to be measured) figures out to be the output state.
+At last, the corrections 
+  
+    
+      
+        
+          Z
+          
+            5
+          
+          
+            
+              s
+              
+                1
+              
+            
+            +
+            
+              s
+              
+                3
+              
+            
+          
+        
+        
+          X
+          
+            5
+          
+          
+            
+              s
+              
+                2
+              
+            
+            +
+            
+              s
+              
+                4
+              
+            
+          
+        
+      
+    
+    {\displaystyle Z_{5}^{s_{1}+s_{3}}X_{5}^{s_{2}+s_{4}}}
+  
+ over the output state have to be performed via the byproduct operators. For instance, if the measurements over the second and the fourth qubits turned to be 
+  
+    
+      
+        ⟨
+        
+          ϕ
+          
+            +
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle \langle \phi _{+}|}
+  
+ and 
+  
+    
+      
+        ⟨
+        
+          λ
+          
+            +
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle \langle \lambda _{+}|}
+  
+, no correction will be conducted by the 
+  
+    
+      
+        
+          X
+          
+            5
+          
+        
+      
+    
+    {\displaystyle X_{5}}
+  
+ operator, as 
+  
+    
+      
+        
+          s
+          
+            2
+          
+        
+        =
+        
+          s
+          
+            4
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle s_{2}=s_{4}=0}
+  
+. The same result holds for  a 
+  
+    
+      
+        ⟨
+        
+          ϕ
+          
+            −
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle \langle \phi _{-}|}
+  
+ 
+  
+    
+      
+        ⟨
+        
+          λ
+          
+            −
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle \langle \lambda _{-}|}
+  
+ outcome, as 
+  
+    
+      
+        
+          s
+          
+            2
+          
+        
+        =
+        
+          s
+          
+            4
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle s_{2}=s_{4}=1}
+  
+ and thus the squared Pauli operator 
+  
+    
+      
+        
+          X
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X^{2}}
+  
+ returns the identity.
+As seen in such example, in the measurement-based computation model, the physical input qubit (the first one) and output qubit (the third one) may differ each other.
+
+
+== Equivalence between quantum circuit model and MBQC ==
+The one-way quantum computer allows the implementation of a circuit of unitary transformations through the operations of entanglement and measurement. At the same time, any quantum circuit can be in turn converted into a CME pattern: a technique to translate quantum circuits into a MBQC pattern of measurements has been formulated by V. Danos et al.
+Such conversion can be carried on by using a universal set of logic gates composed by the 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ and the 
+  
+    
+      
+        J
+        (
+        θ
+        )
+      
+    
+    {\displaystyle J(\theta )}
+  
+ operators: therefore, any circuit can be decomposed into a set of 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ and the 
+  
+    
+      
+        J
+        (
+        θ
+        )
+      
+    
+    {\displaystyle J(\theta )}
+  
+ gates. The 
+  
+    
+      
+        J
+        (
+        θ
+        )
+      
+    
+    {\displaystyle J(\theta )}
+  
+ single-qubit operator is defined as follows:
+
+  
+    
+      
+        J
+        (
+        θ
+        )
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          
+            (
+            
+              
+                
+                  1
+                
+                
+                  
+                    e
+                    
+                      i
+                      θ
+                    
+                  
+                
+              
+              
+                
+                  1
+                
+                
+                  −
+                  
+                    e
+                    
+                      i
+                      θ
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle J(\theta )={\frac {1}{\sqrt {2}}}{\begin{pmatrix}1&e^{i\theta }\\1&-e^{i\theta }\end{pmatrix}}}
+  
+.
+The 
+  
+    
+      
+        J
+        (
+        θ
+        )
+      
+    
+    {\displaystyle J(\theta )}
+  
+ can be converted into a CME pattern as follows, with qubit 1 being the input and qubit 2 being the output:
+
+  
+    
+      
+        J
+        (
+        θ
+        )
+        =
+        
+          X
+          
+            2
+          
+          
+            
+              s
+              
+                1
+              
+            
+          
+        
+        
+          M
+          
+            1
+          
+          
+            −
+            θ
+          
+        
+        
+          E
+          
+            1
+            ,
+            2
+          
+        
+      
+    
+    {\displaystyle J(\theta )=X_{2}^{s_{1}}M_{1}^{-\theta }E_{1,2}}
+  
+
+which means, to implement a 
+  
+    
+      
+        J
+        (
+        θ
+        )
+      
+    
+    {\displaystyle J(\theta )}
+  
+ operator, the input qubits 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  
+ must be entangled with an ancilla qubit 
+  
+    
+      
+        
+          |
+        
+        +
+        ⟩
+      
+    
+    {\displaystyle |+\rangle }
+  
+, therefore the input must be measured on the 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+-
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ plane, thereafter the output qubit is corrected by the 
+  
+    
+      
+        
+          X
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X_{2}}
+  
+ byproduct. Once every 
+  
+    
+      
+        J
+        (
+        θ
+        )
+      
+    
+    {\displaystyle J(\theta )}
+  
+ gate has been decomposed into the CME pattern, the operations in the overall computation will consist of 
+  
+    
+      
+        
+          E
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle E_{ij}}
+  
+ entanglements, 
+  
+    
+      
+        
+          M
+          
+            i
+          
+          
+            −
+            
+              θ
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle M_{i}^{-\theta _{i}}}
+  
+ measurements and 
+  
+    
+      
+        
+          X
+          
+            j
+          
+        
+      
+    
+    {\displaystyle X_{j}}
+  
+ corrections. In order to lead the whole flow of computation to a CME pattern, some rules are provided.
+
+
+=== Standardization ===
+In order to move all the 
+  
+    
+      
+        
+          E
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle E_{ij}}
+  
+ entanglements at the beginning of the process, some rules of commutation must be pointed out:
+
+  
+    
+      
+        
+          E
+          
+            i
+            j
+          
+        
+        
+          Z
+          
+            i
+          
+          
+            s
+          
+        
+        =
+        
+          Z
+          
+            i
+          
+          
+            s
+          
+        
+        
+          E
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle E_{ij}Z_{i}^{s}=Z_{i}^{s}E_{ij}}
+  
+
+  
+    
+      
+        
+          E
+          
+            i
+            j
+          
+        
+        
+          X
+          
+            i
+          
+          
+            s
+          
+        
+        =
+        
+          X
+          
+            i
+          
+          
+            s
+          
+        
+        
+          Z
+          
+            j
+          
+          
+            s
+          
+        
+        
+          E
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle E_{ij}X_{i}^{s}=X_{i}^{s}Z_{j}^{s}E_{ij}}
+  
+
+  
+    
+      
+        
+          E
+          
+            i
+            j
+          
+        
+        
+          A
+          
+            k
+          
+        
+        =
+        
+          A
+          
+            k
+          
+        
+        
+          E
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle E_{ij}A_{k}=A_{k}E_{ij}}
+  
+.
+The entanglement operator 
+  
+    
+      
+        
+          E
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle E_{ij}}
+  
+ commutes with the 
+  
+    
+      
+        Z
+      
+    
+    {\displaystyle Z}
+  
+ Pauli operators and with any other operator 
+  
+    
+      
+        
+          A
+          
+            k
+          
+        
+      
+    
+    {\displaystyle A_{k}}
+  
+ acting on a qubit 
+  
+    
+      
+        k
+        ≠
+        i
+        ,
+        j
+      
+    
+    {\displaystyle k\neq i,j}
+  
+, but not with the 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ Pauli operators acting on the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+-th or 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+-th qubits.
+
+
+=== Pauli simplification ===
+The measurement operations 
+  
+    
+      
+        
+          M
+          
+            i
+          
+          
+            θ
+          
+        
+      
+    
+    {\displaystyle M_{i}^{\theta }}
+  
+ commute with the corrections in the following manner:
+
+  
+    
+      
+        
+          M
+          
+            i
+          
+          
+            θ
+          
+        
+        
+          X
+          
+            i
+          
+          
+            s
+          
+        
+        =
+        [
+        
+          M
+          
+            i
+          
+          
+            θ
+          
+        
+        
+          ]
+          
+            s
+          
+        
+      
+    
+    {\displaystyle M_{i}^{\theta }X_{i}^{s}=[M_{i}^{\theta }]^{s}}
+  
+
+  
+    
+      
+        
+          M
+          
+            i
+          
+          
+            θ
+          
+        
+        
+          Z
+          
+            i
+          
+          
+            t
+          
+        
+        =
+        
+          S
+          
+            i
+          
+          
+            t
+          
+        
+        
+          M
+          
+            i
+          
+          
+            θ
+          
+        
+      
+    
+    {\displaystyle M_{i}^{\theta }Z_{i}^{t}=S_{i}^{t}M_{i}^{\theta }}
+  
+,
+where 
+  
+    
+      
+        [
+        
+          M
+          
+            i
+          
+          
+            θ
+          
+        
+        
+          ]
+          
+            s
+          
+        
+        =
+        
+          M
+          
+            i
+          
+          
+            (
+            −
+            
+              )
+              
+                s
+              
+            
+            θ
+          
+        
+      
+    
+    {\displaystyle [M_{i}^{\theta }]^{s}=M_{i}^{(-)^{s}\theta }}
+  
+. Such operation means that, when shifting the 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ corrections at the end of the pattern, some dependencies between the measurements may occur. The 
+  
+    
+      
+        
+          S
+          
+            i
+          
+          
+            t
+          
+        
+      
+    
+    {\displaystyle S_{i}^{t}}
+  
+ operator is called signal shifting, whose action will be explained in the next paragraph. For particular 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ angles, some simplifications, called Pauli simplifications, can be introduced:
+
+  
+    
+      
+        
+          M
+          
+            i
+          
+          
+            0
+          
+        
+        
+          X
+          
+            i
+          
+          
+            s
+          
+        
+        =
+        
+          M
+          
+            i
+          
+          
+            0
+          
+        
+      
+    
+    {\displaystyle M_{i}^{0}X_{i}^{s}=M_{i}^{0}}
+  
+
+  
+    
+      
+        
+          M
+          
+            i
+          
+          
+            π
+            
+              /
+            
+            2
+          
+        
+        
+          X
+          
+            i
+          
+          
+            s
+          
+        
+        =
+        
+          M
+          
+            i
+          
+          
+            π
+            
+              /
+            
+            2
+          
+        
+        
+          Z
+          
+            i
+          
+          
+            s
+          
+        
+      
+    
+    {\displaystyle M_{i}^{\pi /2}X_{i}^{s}=M_{i}^{\pi /2}Z_{i}^{s}}
+  
+.
+
+
+=== Signal shifting ===
+The action of the signal shifting operator 
+  
+    
+      
+        
+          S
+          
+            i
+          
+          
+            t
+          
+        
+      
+    
+    {\displaystyle S_{i}^{t}}
+  
+ can be explained through its rules of commutation:
+
+  
+    
+      
+        
+          X
+          
+            i
+          
+          
+            s
+          
+        
+        
+          S
+          
+            i
+          
+          
+            t
+          
+        
+        =
+        
+          S
+          
+            i
+          
+          
+            t
+          
+        
+        
+          X
+          
+            i
+          
+          
+            s
+            [
+            (
+            
+              s
+              
+                i
+              
+            
+            +
+            t
+            )
+            
+              /
+            
+            
+              s
+              
+                i
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle X_{i}^{s}S_{i}^{t}=S_{i}^{t}X_{i}^{s[(s_{i}+t)/s_{i}]}}
+  
+
+  
+    
+      
+        
+          Z
+          
+            i
+          
+          
+            s
+          
+        
+        
+          S
+          
+            i
+          
+          
+            t
+          
+        
+        =
+        
+          S
+          
+            i
+          
+          
+            t
+          
+        
+        
+          Z
+          
+            i
+          
+          
+            s
+            [
+            (
+            
+              s
+              
+                i
+              
+            
+            +
+            t
+            )
+            
+              /
+            
+            
+              s
+              
+                i
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle Z_{i}^{s}S_{i}^{t}=S_{i}^{t}Z_{i}^{s[(s_{i}+t)/s_{i}]}}
+  
+.
+The 
+  
+    
+      
+        s
+        [
+        (
+        t
+        +
+        
+          s
+          
+            i
+          
+        
+        )
+        
+          /
+        
+        
+          s
+          
+            i
+          
+        
+        ]
+      
+    
+    {\displaystyle s[(t+s_{i})/s_{i}]}
+  
+ operation has to be explained: suppose to have a sequence of signals 
+  
+    
+      
+        s
+      
+    
+    {\displaystyle s}
+  
+, consisting of 
+  
+    
+      
+        
+          s
+          
+            1
+          
+        
+        +
+        
+          s
+          
+            2
+          
+        
+        +
+        .
+        .
+        .
+        +
+        
+          s
+          
+            i
+          
+        
+        +
+        .
+        .
+        .
+      
+    
+    {\displaystyle s_{1}+s_{2}+...+s_{i}+...}
+  
+, the operation 
+  
+    
+      
+        s
+        [
+        (
+        t
+        +
+        
+          s
+          
+            i
+          
+        
+        )
+        
+          /
+        
+        
+          s
+          
+            i
+          
+        
+        ]
+      
+    
+    {\displaystyle s[(t+s_{i})/s_{i}]}
+  
+ means to substitute 
+  
+    
+      
+        
+          s
+          
+            i
+          
+        
+      
+    
+    {\displaystyle s_{i}}
+  
+ with 
+  
+    
+      
+        
+          s
+          
+            i
+          
+        
+        +
+        t
+      
+    
+    {\displaystyle s_{i}+t}
+  
+ in the sequence 
+  
+    
+      
+        s
+      
+    
+    {\displaystyle s}
+  
+, which becomes 
+  
+    
+      
+        
+          s
+          
+            1
+          
+        
+        +
+        
+          s
+          
+            2
+          
+        
+        +
+        .
+        .
+        .
+        +
+        
+          s
+          
+            i
+          
+        
+        +
+        t
+        +
+        .
+        .
+        .
+      
+    
+    {\displaystyle s_{1}+s_{2}+...+s_{i}+t+...}
+  
+. If no 
+  
+    
+      
+        
+          s
+          
+            i
+          
+        
+      
+    
+    {\displaystyle s_{i}}
+  
+ appears in the 
+  
+    
+      
+        s
+      
+    
+    {\displaystyle s}
+  
+ sequence, no substitution will occur. To perform a correct CME pattern, every signal shifting operator 
+  
+    
+      
+        
+          S
+          
+            i
+          
+          
+            t
+          
+        
+      
+    
+    {\displaystyle S_{i}^{t}}
+  
+ must be translated at the end of the pattern.
+
+
+== Stabilizer formalism ==
+
+When preparing the source state of entangled qubits, a graph representation can be given by the stabilizer group. The stabilizer group 
+  
+    
+      
+        
+          
+            
+              S
+            
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\mathcal {S}}_{n}}
+  
+ is an abelian subgroup from the Pauli group 
+  
+    
+      
+        
+          
+            
+              P
+            
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\mathcal {P}}_{n}}
+  
+, which one can be described by its generators 
+  
+    
+      
+        {
+        ±
+        1
+        ,
+        ±
+        i
+        }
+        ×
+        {
+        I
+        ,
+        X
+        ,
+        Y
+        ,
+        Z
+        
+          }
+          
+            ⊗
+            n
+          
+        
+      
+    
+    {\displaystyle \{\pm 1,\pm i\}\times \{I,X,Y,Z\}^{\otimes n}}
+  
+. A stabilizer state is a 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+-qubit state 
+  
+    
+      
+        
+          |
+        
+        Ψ
+        ⟩
+      
+    
+    {\displaystyle |\Psi \rangle }
+  
+ which is a unique eigenstate for the generators 
+  
+    
+      
+        
+          S
+          
+            i
+          
+        
+      
+    
+    {\displaystyle S_{i}}
+  
+ of the 
+  
+    
+      
+        
+          
+            
+              S
+            
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\mathcal {S}}_{n}}
+  
+ stabilizer group:
+
+  
+    
+      
+        
+          S
+          
+            i
+          
+        
+        
+          |
+        
+        Ψ
+        ⟩
+        =
+        
+          |
+        
+        Ψ
+        ⟩
+        .
+      
+    
+    {\displaystyle S_{i}|\Psi \rangle =|\Psi \rangle .}
+  
+
+Of course, 
+  
+    
+      
+        
+          S
+          
+            i
+          
+        
+        ∈
+        
+          
+            
+              S
+            
+          
+          
+            n
+          
+        
+        
+        ∀
+        i
+      
+    
+    {\displaystyle S_{i}\in {\mathcal {S}}_{n}\,\forall i}
+  
+.
+
+It is therefore possible to define a 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ qubit graph state 
+  
+    
+      
+        
+          |
+        
+        G
+        ⟩
+      
+    
+    {\displaystyle |G\rangle }
+  
+ as a quantum state associated with a graph, i.e. a set 
+  
+    
+      
+        G
+        =
+        (
+        V
+        ,
+        E
+        )
+      
+    
+    {\displaystyle G=(V,E)}
+  
+ whose vertices 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+  
+ correspond to the qubits, while the edges 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+  
+ represent the entanglements between the qubits themselves. The vertices can be labelled by a 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ index, while the edges, linking the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+-th vertex to the 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+-th one, by two-indices labels, such as 
+  
+    
+      
+        (
+        i
+        ,
+        j
+        )
+      
+    
+    {\displaystyle (i,j)}
+  
+. In the stabilizer formalism, such graph structure can be encoded by the 
+  
+    
+      
+        
+          K
+          
+            i
+          
+        
+      
+    
+    {\displaystyle K_{i}}
+  
+ generators of 
+  
+    
+      
+        
+          
+            
+              S
+            
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\mathcal {S}}_{n}}
+  
+, defined as
+
+  
+    
+      
+        
+          K
+          
+            i
+          
+        
+        =
+        
+          X
+          
+            i
+          
+        
+        
+          ∏
+          
+            j
+            ∈
+            (
+            i
+            ,
+            j
+            )
+          
+        
+        
+          Z
+          
+            j
+          
+        
+      
+    
+    {\displaystyle K_{i}=X_{i}\prod _{j\in (i,j)}Z_{j}}
+  
+,
+where 
+  
+    
+      
+        
+          j
+          ∈
+          (
+          i
+          ,
+          j
+          )
+        
+      
+    
+    {\displaystyle {j\in (i,j)}}
+  
+ stands for all the 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+ qubits neighboring with the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+-th one, i.e. the 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+ vertices linked by a 
+  
+    
+      
+        (
+        i
+        ,
+        j
+        )
+      
+    
+    {\displaystyle (i,j)}
+  
+ edge with the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ vertex. Each 
+  
+    
+      
+        
+          K
+          
+            i
+          
+        
+      
+    
+    {\displaystyle K_{i}}
+  
+ generator commute with all the others. A graph composed by 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ vertices can be described by 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ generators from the stabilizer group:
+
+  
+    
+      
+        ⟨
+        
+          K
+          
+            1
+          
+        
+        ,
+        
+          K
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          K
+          
+            n
+          
+        
+        ⟩
+      
+    
+    {\displaystyle \langle K_{1},K_{2},...,K_{n}\rangle }
+  
+.
+While the number of 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+      
+    
+    {\displaystyle X_{i}}
+  
+ is fixed for each 
+  
+    
+      
+        
+          K
+          
+            i
+          
+        
+      
+    
+    {\displaystyle K_{i}}
+  
+ generator, the number of 
+  
+    
+      
+        
+          Z
+          
+            j
+          
+        
+      
+    
+    {\displaystyle Z_{j}}
+  
+ may differ, with respect to the connections implemented by the edges in the graph.
+
+
+=== The Clifford group ===
+
+The Clifford group 
+  
+    
+      
+        
+          
+            
+              C
+            
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\mathcal {C}}_{n}}
+  
+ is composed by elements which leave invariant the elements from the Pauli's group 
+  
+    
+      
+        
+          
+            
+              P
+            
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\mathcal {P}}_{n}}
+  
+:
+
+  
+    
+      
+        
+          
+            
+              C
+            
+          
+          
+            n
+          
+        
+        =
+        {
+        U
+        ∈
+        S
+        U
+        (
+        
+          2
+          
+            n
+          
+        
+        )
+        
+        
+          |
+        
+        
+        U
+        S
+        
+          U
+          
+            †
+          
+        
+        ∈
+        
+          
+            
+              P
+            
+          
+          
+            n
+          
+        
+        ,
+        S
+        ∈
+        
+          
+            
+              P
+            
+          
+          
+            n
+          
+        
+        }
+      
+    
+    {\displaystyle {\mathcal {C}}_{n}=\{U\in SU(2^{n})\;|\;USU^{\dagger }\in {\mathcal {P}}_{n},S\in {\mathcal {P}}_{n}\}}
+  
+.
+The Clifford group requires three generators, which can be chosen as the Hadamard gate 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+ and the phase rotation 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ for the single-qubit gates, and another two-qubits gate from the 
+  
+    
+      
+        C
+        N
+        O
+        T
+      
+    
+    {\displaystyle CNOT}
+  
+ (controlled NOT gate) or the 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ (controlled phase gate):
+
+  
+    
+      
+        H
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  1
+                
+              
+              
+                
+                  1
+                
+                
+                  −
+                  1
+                
+              
+            
+            ]
+          
+        
+        ,
+        
+        S
+        =
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  i
+                
+              
+            
+            ]
+          
+        
+        ,
+        
+        C
+        N
+        O
+        T
+        =
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle H={\frac {1}{\sqrt {2}}}{\begin{bmatrix}1&1\\1&-1\end{bmatrix}},\quad S={\begin{bmatrix}1&0\\0&i\end{bmatrix}},\quad CNOT={\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\end{bmatrix}}}
+  
+.
+Consider a state 
+  
+    
+      
+        
+          |
+        
+        G
+        ⟩
+      
+    
+    {\displaystyle |G\rangle }
+  
+ which is stabilized by a set of stabilizers 
+  
+    
+      
+        
+          S
+          
+            i
+          
+        
+      
+    
+    {\displaystyle S_{i}}
+  
+. Acting via an element 
+  
+    
+      
+        U
+      
+    
+    {\displaystyle U}
+  
+ from the Clifford group on such state, the following equalities hold:
+
+  
+    
+      
+        U
+        
+          |
+        
+        G
+        ⟩
+        =
+        U
+        
+          S
+          
+            i
+          
+        
+        
+          |
+        
+        G
+        ⟩
+        =
+        U
+        
+          S
+          
+            i
+          
+        
+        
+          U
+          
+            †
+          
+        
+        U
+        
+          |
+        
+        G
+        ⟩
+        =
+        
+          S
+          
+            i
+          
+          ′
+        
+        U
+        
+          |
+        
+        G
+        ⟩
+      
+    
+    {\displaystyle U|G\rangle =US_{i}|G\rangle =US_{i}U^{\dagger }U|G\rangle =S'_{i}U|G\rangle }
+  
+.
+Therefore, the 
+  
+    
+      
+        U
+      
+    
+    {\displaystyle U}
+  
+ operations map the 
+  
+    
+      
+        
+          |
+        
+        G
+        ⟩
+      
+    
+    {\displaystyle |G\rangle }
+  
+ state to 
+  
+    
+      
+        U
+        
+          |
+        
+        G
+        ⟩
+      
+    
+    {\displaystyle U|G\rangle }
+  
+ and its 
+  
+    
+      
+        
+          S
+          
+            i
+          
+        
+      
+    
+    {\displaystyle S_{i}}
+  
+ stabilizers to 
+  
+    
+      
+        U
+        
+          S
+          
+            i
+          
+        
+        
+          U
+          
+            †
+          
+        
+      
+    
+    {\displaystyle US_{i}U^{\dagger }}
+  
+. Such operation may give rise to different representations for the 
+  
+    
+      
+        
+          K
+          
+            i
+          
+        
+      
+    
+    {\displaystyle K_{i}}
+  
+ generators of the stabilizer group.
+The Gottesman–Knill theorem states that, given a set of logic gates from the Clifford group, followed by 
+  
+    
+      
+        Z
+      
+    
+    {\displaystyle Z}
+  
+ measurements, such computation can be efficiently simulated on a classical computer in the strong sense, i.e. a computation which elaborates in a polynomial-time the probability 
+  
+    
+      
+        P
+        (
+        x
+        )
+      
+    
+    {\displaystyle P(x)}
+  
+ for a given output 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ from the circuit.
+
+
+== Hardware and applications ==
+
+
+=== Topological cluster state quantum computer ===
+Measurement-based computation on a periodic 3D lattice cluster  state can be used to implement topological quantum error correction. Topological cluster state computation is closely related to Kitaev's toric code, as the 3D topological cluster state can be constructed and measured over time by a repeated sequence of gates on a 2D array.
+
+
+=== Implementations ===
+One-way quantum computation has been demonstrated by running the 2 qubit Grover's algorithm on a 2x2 cluster state of photons.  A linear optics quantum computer based on one-way computation has been proposed.
+Cluster states have also been created in optical lattices, but were not used for computation as the atom qubits were too close together to measure individually.
+
+
+=== AKLT state as a resource ===
+It has been shown that the (spin 
+  
+    
+      
+        
+          
+            
+              3
+              2
+            
+          
+        
+      
+    
+    {\displaystyle {\tfrac {3}{2}}}
+  
+) AKLT state on a 2D honeycomb lattice can be used as a resource for MBQC.
+More recently it has been shown that a spin-mixture AKLT state can be used as a resource.
+
+
+== See also ==
+
+
+== References ==
+
+General

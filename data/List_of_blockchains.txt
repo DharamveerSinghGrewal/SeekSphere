@@ -1,0 +1,18 @@
+This is a list of blockchains - decentralized, cryptographic databases - and other distributed ledgers.   == List ==   == See also == Category:Blockchains List of cryptocurrencies   == References ==  ...
+
+This is a list of blockchains - decentralized, cryptographic databases - and other distributed ledgers.
+
+
+== List ==
+
+
+== See also ==
+Category:Blockchains
+List of cryptocurrencies
+
+
+== References ==
+
+
+=== General refs ===
+https://arxiv.org/pdf/1708.05665.pdf

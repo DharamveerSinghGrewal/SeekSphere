@@ -1,0 +1,33 @@
+The National Cybersecurity and Communications Integration Center (NCCIC) is part of the Cybersecurity Division of the Cybersecurity and Infrastructure Security Agency, an agency of the U.S. Department...
+
+The National Cybersecurity and Communications Integration Center (NCCIC) is part of the Cybersecurity Division of the Cybersecurity and Infrastructure Security Agency, an agency of the U.S. Department of Homeland Security. It acts to coordinate various aspects of the U.S. federal government's cybersecurity and cyberattack mitigation efforts through cooperation with civilian agencies, infrastructure operators, state and local governments, and international partners.
+It is also responsible for coordinating the national response to significant cyber incidents in accordance with the National Cyber Incident Response Plan (NCIRP).
+The NCCIC consists of four branches:
+
+NCCIC Operations & Integration (NO&I)
+United States Computer Emergency Readiness Team (US-CERT)
+Industrial Control Systems Cyber Emergency Response Team (ICS-CERT)
+National Coordinating Center for Communications  (NCC)
+According to the National Cybersecurity and Communications Integration Center (NCCIC), their mission is to "reduce the risk of systemic cybersecurity and communications challenges in our role as the Nation’s flagship cyber defense, incident response, and operational integration center."
+
+
+== History ==
+NCCIC was created in March 2008, and it is based on the requirements of National Security Presidential Directive 54/Homeland Security Presidential Directive 23 (NSPD-54/HSPD-23), reporting directly to the DHS Secretary.  The NCC is tasked with protecting the U.S. Government's communications networks.  The Center monitors, collects and shares information on systems belonging to NSA, FBI, DoD, and DHS.
+The first Director appointed to head the Center was Rod Beckstrom, an entrepreneur and co-author of The Starfish and the Spider.   On March 5, 2009, Beckstrom tendered his resignation as the Director of the National Cybersecurity Center.  According to The Washington Post, Beckstrom resigned, "...due to a lack of resources and because there were efforts underway to fold his group – as well as the division Reitinger is joining – into a facility at the NSA." On March 11, 2009, Phil Reitinger, then at Microsoft, was appointed to the position.
+On October 30, 2009, DHS Secretary Janet Napolitano opened NCCIC. It combined two DHS organizations: the United States Computer Emergency Readiness Team (US-CERT) and the National Coordinating Center for Telecommunications (NCC). It also integrates the efforts of the National Cybersecurity Center (NCC), the DHS Office of Intelligence and Analysis (I&A), and private-sector partners of DHS.
+
+
+== US President's Cyber Security Policy Review ==
+In June 2009, the White House published a Cyber Security Policy Review; however, the NCCIC was not explicitly mentioned in that document.
+
+
+== National Program Office ==
+In coordination with the United States Department of Commerce, the White House cybersecurity office announced on January 7, 2011, that it will create an office within the commerce department that is devoted to helping the development of technologies or platforms that will eventually allow sensitive online transactions to be carried out with greater levels of trust. The new office is called the National Program Office. Its primary duty is to coordinate the federal activities necessary to carry out the National Strategy for Trusted Identities in Cyberspace (NSTIC), a White House initiative dedicated to making the Internet a more secure environment for consumers.
+
+
+== References ==
+
+
+== External links ==
+About CISA
+ This article incorporates public domain material from websites or documents of the United States Department of Homeland Security.

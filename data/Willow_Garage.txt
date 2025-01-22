@@ -1,0 +1,57 @@
+Willow Garage was a robotics research lab and technology incubator devoted to developing hardware and open source software for personal robotics applications. The company was best known for its open s...
+
+Willow Garage was a robotics research lab and technology incubator devoted to developing hardware and open source software for personal robotics applications. The company was best known for its open source software suite Robot Operating System (ROS), which rapidly became a common, standard tool among robotics researchers upon its initial release in 2010. It was begun in late 2006 by Scott Hassan, who had worked with Larry Page and Sergey Brin to develop the technology that became the Google Search engine. Steve Cousins was the president and CEO. Willow Garage was located in Menlo Park, California.
+Willow Garage shut down in early 2014. Most employees were retained by Suitable Technologies, Inc, while the support and services responsibilities were transferred to Clearpath Robotics. Willow Garage's website, however, remained open until April 20th, 2021.
+
+
+== History ==
+Willow Garage hired its first employees in January 2007, Jonathan Stark, Melonee Wise, Curt Meyers, and John Hsu. All four were recruited by Scott Hassan to work on Willow Garage's first projects which included an SUV entrant into the DARPA Grand Challenge (2007) and an autonomous solar powered boat for deploying scientific payloads in open oceans. In the Fall of 2008, Eric Berger and Keenan Wyrobek pitched Willow Garage on creating common hardware (PR1) and software Robot Operating System (ROS) platforms and the idea of creating a Personal Robotics Program at Willow Garage. They had previously started the Stanford Personal Robotics Program to build the platform technologies that would enable the personal robotics industry. At Willow Garage they led the development of PR2, the common hardware platform for robotics R&D, and ROS, the open source robotics middleware.
+The teams from the DARPA car program and the autonomous boat program were eventually merged into the Personal Robotics Program, which by the end of 2008, became the focus of Willow Garage.
+In the summer of 2009, Willow Garage achieved the second of its milestones, enabling PR2 to autonomously open doors, locate power outlets, and plug itself in. A video of this is available on YouTube.
+In January 2010, Willow Garage achieved the third major milestone in the Personal Robotics Program releasing ROS at 1.0 and having PR2 ready for beta production.
+At the end of 2010 with PR2 for sale
+and the ROS community on its way to 100 repositories worldwide, Keenan Wyrobek and Eric Berger left Willow Garage to pursue their next venture.
+Willow Garage spun off into at least seven separate companies:
+
+hiDOF, Inc., a software consulting company. Acquired by Google in 2013.
+Industrial Perception Inc. – Acquired by Google in August 2013, IPI had as its broader mission "eyes and brains for industrial robots", focused on new robotic applications in logistics such as autonomous truck unloading.
+Open Perception Foundation – Their mission is to advance the development and adoption of open source software for 2D and 3D processing of sensory data, for the benefit of the industrial and research communities.
+Open Robotics (formerly the Open Source Robotics Foundation) – Open Robotics is an independent non-profit formed to support the development, distribution, and adoption of open source software for use in robotics research, education, and product development.
+Redwood Robotics – A joint venture between Meka Robotics, Willow Garage, and SRI. Acquired by Google in 2013.
+Suitable Technologies – Creating Texai, a remote presence robotic product.
+Unbounded Robotics – Low-cost mobile manipulation platform.
+In 2012, the company entered into a joint venture with Meka Robotics and SRI International to found Redwood Robotics, a company specializing in robotic arms.
+In August 2013, Suitable Technologies Inc. retained a majority of employees from Willow Garage to increase and enhance the development of Suitable Technologies’ Beam™ remote presence system. Willow Garage supported customers of its PR2 personal robotics platform and sold its remaining stock of PR2 systems until its shutdown in 2014.
+In addition to spinoffs, former employees have created several other companies:
+
+Zipline co-founded by Keenan Wyrobek (former co-director with Eric Berger of ROS and PR2 at Willow Garage) delivers blood and other medical supplies by drone.
+Savioke led by Steve Cousins (former CEO of Willow Garage) produces a service robot for the hotel industry.
+Fetch Robotics led by Melonee Wise (former Robot Development Manager at Willow Garage) produces autonomous mobile robots for logistics and manufacturing.
+Fyusion led by Radu Rusu (former Perception Researcher at Willow Garage) produces a 2.5D image capture/viewer.
+
+
+== Open source software ==
+Willow Garage was maintaining Robot Operating System (ROS), the OpenCV computer vision library, and Point Cloud Library (PCL). These projects all use one of the BSD licenses, an open source software license. ROS development is now overseen by Open Robotics.
+
+
+== Robots ==
+
+Willow Garage's first major robot is called PR2. It is of a size similar to a human. PR2 is designed as a common hardware and software platform for robot researchers. PR2 is a spinoff of PR1, a robotics platform being developed at Stanford University. PR stands for "personal robot".
+The PR2 has two 7-DOF arms with a payload of 1.8 kilograms (4.0 lb). Sensors include a 5-megapixel camera, a tilting laser range finder, and an inertial measurement unit. The "texture projector" projects a pattern on the environment to create 3D information for capture by the cameras. Willow Garage calls this "textured light", but this approach is better known as structured light. The head-mounted laser scanner measures distance by time-of-flight. The two computers located in the base of the robot are 8-core servers, each of which has 24 gigabytes of RAM, for 48 GB. The battery system consists of 16 laptop batteries. The consulting firm Function Engineering performed the majority of the Mechanical Design of the PR2, under the direction of Keenan Wyrobek.
+On May 26, 2010, Willow Garage  held a graduation party in which the 11 PR2s were introduced. Some PR2s "danced" with humans while being led by their grippers. At least one party-goer attended by telepresence using the Willow Garage Texai remote presence device. Jonathan Knowles of Autodesk attended an XPrize cocktail party using a Texai to hobnob with Robin Williams.
+Project Texai resulted in the Willow Garage spinoff of Suitable Technologies. Project Texai became the prototype for the product announced by Suitable in September 2012, the Beam. 
+In June 2010, Willow Garage made two-year loans of a PR2 to 11 research teams. Each PR2 included two arms, a "rich sensor suite", a mobile base, 16 CPU cores, and the company's free, open-source Robot Operating System framework, which controls the PR2 and comes with software libraries for perception, navigation, and manipulation. The teams were to have a chance not only to program a general-purpose robot but also to contribute their work on Willow Garage's open-source robotics platform to a broad community of researchers.
+In August 2010, Willow Garage announced that the PR2 robot was available for purchase.
+The PR2 is being programmed to make increasingly technical and dexterous applications including opening doors and folding towels.
+3D models of the PR2 are available for many robotics simulation software. This allows users to visualize its 3D model, engage its joints and check its list of sensors.
+
+
+== See also ==
+TurtleBot
+
+
+== References ==
+
+
+== External links ==
+Ashlee Vance, Willow Garage's Last Days, Bloomberg Business, February 20, 2014.

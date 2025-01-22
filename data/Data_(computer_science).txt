@@ -1,0 +1,66 @@
+In computer science, data (treated as singular, plural, or as a mass noun) is any sequence of one or more symbols; datum is a single symbol of data. Data requires interpretation to become information....
+
+In computer science, data (treated as singular, plural, or as a mass noun) is any sequence of one or more symbols; datum is a single symbol of data. Data requires interpretation to become information. Digital data is data that is represented using the binary number system of ones (1) and zeros (0), instead of analog representation. In modern (post-1960) computer systems, all data is digital. 
+Data exists in three states: data at rest, data in transit and data in use. Data within a computer, in most cases, moves as parallel data. Data moving to or from a computer, in most cases, moves as serial data. Data sourced from an analog device, such as a temperature sensor, may be converted to digital using an analog-to-digital converter. Data representing quantities, characters, or symbols on which operations are performed by a computer are stored and recorded on magnetic, optical, electronic, or mechanical recording media, and transmitted in the form of digital electrical or optical signals. Data pass in and out of computers via peripheral devices.
+Physical computer memory elements consist of an address and a byte/word of data storage. Digital data are often stored in relational databases, like tables or SQL databases, and can generally be represented as abstract key/value pairs. Data can be organized in many different types of data structures, including arrays, graphs, and objects. Data structures can store data of many different types, including numbers, strings and even other data structures.
+
+
+== Characteristics ==
+Metadata helps translate data to information. Metadata is data about the data. Metadata may be implied, specified or given.  
+Data relating to physical events or processes will have a temporal component. This temporal component may be implied. This is the case when a device such as a temperature logger receives data from a temperature sensor. When the temperature is received it is assumed that the data has a temporal reference of now. So the device records the date, time and temperature together. When the data logger communicates temperatures, it must also report the date and time as metadata for each temperature reading.
+Fundamentally, computers follow a sequence of instructions they are given in the form of data. A set of instructions to perform a given task (or tasks) is called a program. A program is data in the form of coded instructions to control the operation of a computer or other machine. In the nominal case, the program, as executed by the computer, will consist of machine code. The elements of storage manipulated by the program, but not actually executed by the central processing unit (CPU), are also data. At its most essential, a single datum is a value stored at a specific location. Therefore, it is possible for computer programs to operate on other computer programs, by manipulating their programmatic data.
+To store data bytes in a file, they have to be serialized in a file format. Typically, programs are stored in special file types, different from those used for other data. Executable files contain programs; all other files are also data files. However, executable files may also contain data used by the program which is built into the program. In particular, some executable files have a data segment, which nominally contains constants and initial values for variables, both of which can be considered data.
+The line between program and data can become blurry. An interpreter, for example, is a program. The input data to an interpreter is itself a program, just not one expressed in native machine language. In many cases, the interpreted program will be a human-readable text file, which is manipulated with a text editor program. Metaprogramming similarly involves programs manipulating other programs as data. Programs like compilers, linkers, debuggers, program updaters, virus scanners and such use other programs as their data.
+For example, a user might first instruct the operating system to load a word processor program from one file, and then use the running program to open and edit a document stored in another file. In this example, the document would be considered data. If the word processor also features a spell checker, then the dictionary (word list) for the spell checker would also be considered data. The algorithms used by the spell checker to suggest corrections would be either machine code data or text in some interpretable programming language.
+In an alternate usage, binary files (which are not human-readable) are sometimes called data as distinguished from human-readable text. 
+The total amount of digital data in 2007 was estimated to be 281 billion gigabytes (281 exabytes).
+
+
+== Data keys and values, structures and persistence ==
+Keys in data provide the context for values. Regardless of the structure of data, there is always a key component present. Keys in data and data-structures are essential for giving meaning to data values. Without a key that is directly or indirectly associated with a value, or collection of values in a structure, the values become meaningless and cease to be data. That is to say, there has to be a key component linked to a value component in order for it to be considered data.
+Data can be represented in computers in multiple ways, as per the following examples:
+
+
+=== RAM ===
+Random access memory (RAM) holds data that the CPU has direct access to. A CPU may only manipulate data within its processor registers or memory. This is as opposed to data storage, where the CPU must direct the transfer of data between the storage device (disk, tape...) and memory. RAM is an array of linear contiguous locations that a processor may read or write by providing an address for the read or write operation. The processor may operate on any location in memory at any time in any order. In RAM the smallest element of data is the binary bit. The capabilities and limitations of accessing RAM are processor specific. In general main memory is arranged as an array of locations beginning at address 0 (hexadecimal 0). Each location can store usually 8 or 32 bits depending on the computer architecture.
+
+
+=== Keys ===
+Data keys need not be a direct hardware address in memory. Indirect, abstract and logical keys codes can be stored in association with values to form a data structure. Data structures have predetermined offsets (or links or paths) from the start of the structure, in which data values are stored. Therefore, the data key consists of the key to the structure plus the offset (or links or paths) into the structure. When such a structure is repeated, storing variations of the data values and the data keys within the same repeating structure, the result can be considered to resemble a table, in which each element of the repeating structure is considered to be a column and each repetition of the structure is considered as a row of the table. In such an organization of data, the data key is usually a value in one (or a composite of the values in several) of the columns.
+
+
+=== Organised recurring data structures ===
+The tabular view of repeating data structures is only one of many possibilities. Repeating data structures can be organised hierarchically, such that nodes are linked to each other in a cascade of parent-child relationships. Values and potentially more complex data-structures are linked to the nodes. Thus the nodal hierarchy provides the key for addressing the data structures associated with the nodes. This representation can be thought of as an inverted tree. Modern computer operating system file systems are a common example; and XML is another.
+
+
+=== Sorted or ordered data ===
+Data has some inherent features when it is sorted on a key. All the values for subsets of the key appear together. When passing sequentially through groups of the data with the same key, or a subset of the key changes, this is referred to in data processing circles as a break, or a control break. It particularly facilitates the aggregation of data values on subsets of a key.
+
+
+=== Peripheral storage ===
+Until the advent of bulk non-volatile memory like flash, persistent data storage was traditionally achieved by writing the data to external block devices like magnetic tape and disk drives. These devices typically seek to a location on the magnetic media and then read or write blocks of data of a predetermined size. In this case, the seek location on the media, is the data key and the blocks are the data values. Early used raw disk data file-systems or disc operating systems reserved contiguous blocks on the disc drive for data files. In those systems, the files could be filled up, running out of data space before all the data had been written to them. Thus much unused data space was reserved unproductively to ensure adequate free space for each file. Later file-systems introduced partitions. They reserved blocks of disc data space for partitions and used the allocated blocks more economically, by dynamically assigning blocks of a partition to a file as needed. To achieve this, the file system had to keep track of which blocks were used or unused by data files in a catalog or file allocation table. Though this made better use of the disc data space, it resulted in fragmentation of files across the disc, and a concomitant performance overhead due additional seek time to read the data. Modern file systems reorganize fragmented files dynamically to optimize file access times. Further developments in file systems resulted in virtualization of disc drives i.e. where a logical drive can be defined as partitions from a number of physical drives.
+
+
+=== Indexed data ===
+Retrieving a small subset of data from a much larger set may imply inefficiently searching through the data sequentially. Indexes are a way to copy out keys and location addresses from data structures in files, tables and data sets, then organize them using inverted tree structures to reduce the time taken to retrieve a subset of the original data. In order to do this, the key of the subset of data to be retrieved must be known before retrieval begins. The most popular indexes are the B-tree and the dynamic hash key indexing methods. Indexing is overhead for filing and retrieving data. There are other ways of organizing indexes, e.g. sorting the keys and using a binary search algorithm.
+
+
+=== Abstraction and indirection ===
+Object-oriented programming uses two basic concepts for understanding data and software:
+The taxonomic rank-structure of classes, which is an example of a hierarchical data structure; and
+at run time, the creation of references to in-memory data-structures of objects that have been instantiated from a class library.
+It is only after instantiation that an object of a specified class exists. After an object's reference is cleared, the object also ceases to exist. The memory locations where the object's data was stored are garbage and are reclassified as unused memory available for reuse.
+
+
+=== Database data ===
+The advent of databases introduced a further layer of abstraction for persistent data storage. Databases use metadata, and a structured query language protocol between client and server systems, communicating over a computer network, using a two phase commit logging system to ensure transactional completeness, when saving data.
+
+
+=== Parallel distributed data processing ===
+Modern scalable and high-performance data persistence technologies, such as Apache Hadoop, rely on massively parallel distributed data processing across many commodity computers on a high bandwidth network. In such systems, the data is distributed across multiple computers and therefore any particular computer in the system must be represented in the key of the data, either directly, or indirectly. This enables the differentiation between two identical sets of data, each being processed on a different computer at the same time.
+
+
+== See also ==
+
+
+== References ==

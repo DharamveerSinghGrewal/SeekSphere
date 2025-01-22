@@ -1,0 +1,25 @@
+Nimbus is a toolkit that, once installed on a cluster, provides an infrastructure as a service cloud to its client via WSRF-based or Amazon EC2 WSDL web service APIs. Nimbus is free and open-source so...
+
+Nimbus is a toolkit that, once installed on a cluster, provides an infrastructure as a service cloud to its client via WSRF-based or Amazon EC2 WSDL web service APIs. Nimbus is free and open-source software, subject to the requirements of the Apache License, version 2.
+Nimbus supports both the hypervisors Xen and KVM and virtual machine schedulers Portable Batch System and Oracle Grid Engine. It allows deployment of self-configured virtual clusters via contextualization.  It is configurable with respect to scheduling, networking leases, and usage accounting.
+
+
+== Requirements ==
+Xen 3.x
+Kernel-based Virtual Machine
+Java 1.5+
+Python (2.4+)
+Linux kernel's Netfilter and ebtables for a bridging firewall
+DHCP server
+
+
+== See also ==
+
+Cloud-computing comparison
+
+
+== References ==
+
+
+== External links ==
+Official website

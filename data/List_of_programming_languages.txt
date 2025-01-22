@@ -1,0 +1,95 @@
+This is an index to notable programming languages, in current or historical use. Dialects of BASIC, esoteric programming languages, and markup languages are not included. A programming language does n...
+
+This is an index to notable programming languages, in current or historical use. Dialects of BASIC, esoteric programming languages, and markup languages are not included. A programming language does not need to be imperative or Turing-complete, but must be executable and so does not include markup languages such as HTML or XML, but does include domain-specific languages such as SQL and its dialects.
+
+
+== A ==
+
+
+== B ==
+
+
+== C ==
+
+
+== D ==
+
+
+== E ==
+
+
+== F ==
+
+
+== G ==
+
+
+== H ==
+
+
+== I ==
+
+
+== J ==
+
+
+== K ==
+
+
+== L ==
+
+
+== M ==
+
+
+== N ==
+
+
+== O ==
+
+
+== P ==
+
+
+== Q ==
+
+
+== R ==
+
+
+== S ==
+
+
+== T ==
+
+
+== U ==
+
+
+== V ==
+
+
+== W ==
+
+
+== X ==
+
+
+== Y ==
+
+
+== Z ==
+
+
+== See also ==
+
+Lists of programming languages
+List of programming languages by type
+Comparison of programming languages
+List of BASIC dialects
+List of markup languages
+List of stylesheet languages
+List of programming languages for artificial intelligence
+History of programming languages
+Category:Programming languages
+ List of hello world programs at Wikibooks

@@ -1,0 +1,460 @@
+This is a list of notable programming languages, grouped by type. The groupings are overlapping; not mutually exclusive. A language can be listed in multiple groupings.   == Agent-oriented programming...
+
+This is a list of notable programming languages, grouped by type.
+The groupings are overlapping; not mutually exclusive. A language can be listed in multiple groupings.
+
+
+== Agent-oriented programming languages ==
+
+Agent-oriented programming allows the developer to build, extend and use software agents, which are abstractions of objects that can message other agents.
+
+Clojure
+F#
+GOAL
+SARL
+
+
+== Array languages ==
+
+Array programming (also termed vector or multidimensional) languages generalize operations on scalars to apply transparently to vectors, matrices, and higher-dimensional arrays.
+
+
+== Aspect-oriented programming languages ==
+
+Aspect-oriented programming enables developers to add new functionality to code, known as "advice", without modifying that code itself; rather, it uses a pointcut to implement the advice into code blocks.
+
+Ada
+AspectJ
+Groovy
+Nemerle
+Raku
+
+
+== Assembly languages ==
+
+Assembly languages directly correspond to a machine language (see below), so machine code instructions appear in a form understandable by humans, although there may not be a one-to-one mapping between an individual statement and an individual instruction. Assembly languages let programmers use symbolic addresses, which the assembler converts to absolute or relocatable addresses. Most assemblers also support macros and symbolic constants.
+
+
+== Authoring languages ==
+
+An authoring language is a programming language designed for use by a non-computer expert to easily create tutorials, websites, and other interactive computer programs.
+
+Darwin Information Typing Architecture (DITA)
+Lasso
+PILOT
+TUTOR
+Authorware
+
+
+== Command-line interface languages ==
+Command-line interface (CLI) languages are also called batch languages or job control languages. Examples:
+
+
+== Compiled languages ==
+
+These are languages typically processed by compilers, though theoretically any language can be compiled or interpreted.
+
+
+== Concatenative programming languages ==
+
+A concatenative programming language is a point-free computer programming language in which all expressions denote functions, and the juxtaposition of expressions denotes function composition. Concatenative programming replaces function application, which is common in other programming styles, with function composition as the default way to build subroutines.
+
+Factor
+Forth
+jq (function application is also supported)
+Joy
+PostScript
+Raku
+
+
+== Concurrent languages ==
+
+Message passing languages provide language constructs for concurrency. The predominant paradigm for concurrency in mainstream languages such as Java is shared memory concurrency. Concurrent languages that make use of message passing have generally been inspired by process calculi such as communicating sequential processes (CSP) or the π-calculus.
+
+
+== Constraint programming languages ==
+
+A constraint programming language is a declarative programming language where relationships between variables are expressed as constraints. Execution proceeds by attempting to find values for the variables which satisfy all declared constraints.
+
+Claire
+Constraint Handling Rules
+CHIP
+ECLiPSe
+Kaleidoscope
+Raku
+
+
+== Curly bracket languages ==
+A curly bracket or curly brace language has syntax that defines a block as the statements between curly brackets, a.k.a. braces, {}. This syntax originated with BCPL (1966), and was popularized by C. Many curly bracket languages descend from or are strongly influenced by C. Examples:
+
+
+== Dataflow languages ==
+Dataflow programming languages rely on a (usually visual) representation of the flow of data to specify the program.  Frequently used for reacting to discrete events or for processing streams of data.  Examples of dataflow languages include:
+
+
+== Data-oriented languages ==
+Data-oriented languages provide powerful ways of searching and manipulating the relations that have been described as entity relationship tables which map one set of things into other sets. Examples of data-oriented languages include:
+
+
+== Decision table languages ==
+Decision tables can be used as an aid to clarifying the logic before writing a program in any language, but in the 1960s a number of languages were developed where the main logic is expressed directly in the form of a decision table, including:
+
+Filetab
+
+
+== Declarative languages ==
+
+Declarative languages express the logic of a computation without describing its control flow in detail. Declarative programming stands in contrast to imperative programming via imperative programming languages, where control flow is specified by serial orders (imperatives). (Pure) functional and logic-based programming languages are also declarative, and constitute the major subcategories of the declarative category. This section lists additional examples not in those subcategories.
+
+
+== Embeddable languages ==
+
+
+=== In source code ===
+Source embeddable languages embed small pieces of executable code inside a piece of free-form text, often a web page.
+Client-side embedded languages are limited by the abilities of the browser or intended client. They aim to provide dynamism to web pages without the need to recontact the server.
+Server-side embedded languages are much more flexible, since almost any language can be built into a server. The aim of having fragments of server-side code embedded in a web page is to generate additional markup dynamically; the code itself disappears when the page is served, to be replaced by its output.
+
+
+==== Server side ====
+PHP
+VBScript
+Tcl – server-side in NaviServer and an essential component in electronics industry systems
+WebDNA – dedicated to database-driven websites
+The above examples are particularly dedicated to this purpose. A large number of other languages, such as Erlang, Scala, Perl, Ring and Ruby can be adapted (for instance, by being made into Apache modules).
+
+
+==== Client side ====
+ActionScript
+JavaScript (aka ECMAScript or JScript)
+VBScript (Windows only)
+
+
+=== In object code ===
+A wide variety of dynamic or scripting languages can be embedded in compiled executable code. Basically, object code for the language's interpreter needs to be linked into the executable. Source code fragments for the embedded language can then be passed to an evaluation function as strings. Application control languages can be implemented this way, if the source code is input by the user. Languages with small interpreters are preferred.
+
+
+== Educational programming languages ==
+
+Languages developed primarily for the purpose of teaching and learning of programming.
+
+
+== Esoteric languages ==
+
+An esoteric programming language is a programming language designed as a test of the boundaries of computer programming language design, as a proof of concept, or as a joke.
+
+
+== Extension languages ==
+Extension programming languages are languages embedded into another program and used to harness its features in extension scripts.
+
+
+== Fourth-generation languages ==
+
+Fourth-generation programming languages are high-level languages built around database systems. They are generally used in commercial environments.
+
+
+== Functional languages ==
+
+Functional programming languages define programs and subroutines as mathematical functions and treat them as first-class. Many so-called functional languages are "impure", containing imperative features. Many functional languages are tied to mathematical calculation tools. Functional languages include:
+
+
+=== Pure ===
+
+
+=== Impure ===
+
+
+== Hardware description languages ==
+
+In electronics, a hardware description language (HDL) is a specialized computer language used to describe the structure, design, and operation of electronic circuits, and most commonly, digital logic circuits. The two most widely used and well-supported HDL varieties used in industry are Verilog and VHDL. Hardware description languages include:
+
+
+=== HDLs for analog circuit design ===
+Verilog-AMS (Verilog for Analog and Mixed-Signal)
+VHDL-AMS (VHDL with Analog/Mixed-Signal extension)
+
+
+=== HDLs for digital circuit design ===
+
+
+== Imperative languages ==
+Imperative programming languages may be multi-paradigm and appear in other classifications. Here is a list of programming languages that follow the imperative paradigm:
+
+
+== Interactive mode languages ==
+Known as REPL - Interactive mode languages act as a kind of shell: expressions or statements can be entered one at a time, and the result of their evaluation seen immediately.
+
+
+== Interpreted languages ==
+Interpreted languages are programming languages in which programs may be executed from source code form, by an interpreter. Theoretically, any language can be compiled or interpreted, so the term interpreted language generally refers to languages that are usually interpreted rather than compiled.
+
+
+== Iterative languages ==
+Iterative languages are built around or offering generators.
+
+
+== Languages by memory management type ==
+
+
+=== Garbage collected languages ===
+Garbage Collection (GC) is a form of automatic memory management. The garbage collector attempts to reclaim memory that was allocated by the program but is no longer used. 
+
+
+=== Languages with manual memory management ===
+
+ALGOL 68
+Assembly (various)
+BLISS
+C
+C++
+Component Pascal
+Forth
+Fortran
+FreeBASIC
+Modula-2
+Oberon
+Pascal
+PL/I
+Zig
+
+
+=== Languages with optional manual memory management ===
+Ada implementations are not required to offer garbage collection, but the language semantics support it, and many implementations include it.
+Blitz BASIC (also known as BlitzMax) is usually reference-counted, and also supports a garbage collector. However, it also ships with optional utilities for using pointers and for directly allocating and freeing memory.
+COBOL supports pointers and heap allocation as of COBOL 2002, along with a garbage collector.
+Cython provides optional manual memory management by letting the user import malloc, realloc, and free from C, which they can then use in Python code.
+D provides programmers with full control over its own garbage collector, including the ability to disable it outright.
+Nim is usually garbage-collected or reference-counted by default, depending on its configuration, but the programmer may use the switch --mm:none to deallocate memory manually.
+Objective-C and Objective-C++ support optional reference counting and garbage collection as alternatives to manual memory management (Apple deprecated the garbage collector).
+PostScript originally required developers to manually reclaim memory using the save and restore operators. PostScript Level 2 introduced a garbage collector, but its usage is optional.
+Rust supports optional reference counting, but manual memory management is preferred.
+Scala normally manages the memory automatically in its JVM and JavaScript targets. However, the LLVM-based Scala Native compiler supports the use of pointers, as well as C-style heap allocation (e.g. malloc, realloc, free) and stack allocation (stackalloc).
+Swift normally uses reference counting, but also allows the user to manually manage the memory using malloc and free. On Apple platforms, these functions are imported from the C standard library (which is imported from Foundation, AppKit or UIKit); on Linux, the developer needs to import Glibc, and ucrt on Windows.
+V (Vlang) uses GC by default, for user convenience, which can be turned off (-gc none).  Users are free to manage memory manually.  Can also use autofree (-autofree) or arena allocation (-prealloc).
+Vala uses reference counting by default, but the user is free to manage the memory manually if they wish.
+
+
+=== Languages with deterministic memory management ===
+
+Ada
+C
+C++
+Fortran
+Nim
+Pascal
+Rust
+Objective-C
+Zig
+Modula-3
+
+
+=== Languages with automatic reference counting (ARC) ===
+
+Nim
+Objective-C
+Perl
+Swift
+Visual Basic
+Xojo
+
+
+== List-based languages – LISPs ==
+List-based languages are a type of data-structured language that are based on the list data structure.
+
+
+== Little languages ==
+Little languages serve a specialized problem domain.
+
+awk – used for text file manipulation.
+sed – parses and transforms text
+SQL – has only a few keywords and not all the constructs needed for a full programming language – many database management systems extend SQL with additional constructs as a stored procedure language
+
+
+== Logic-based languages ==
+
+Logic-based languages specify a set of attributes that a solution must-have, rather than a set of steps to obtain a solution.
+Notable languages following this programming paradigm include:
+
+ALF
+Alma-0
+Curry
+Datalog
+Fril
+Flix (a functional programming language with first-class Datalog constraints)
+Janus
+λProlog (a logic programming language featuring polymorphic typing, modular programming, and higher-order programming)
+Oz, and Mozart Programming System cross-platform Oz
+Prolog (formulates data and the program evaluation mechanism as a special form of mathematical logic called Horn logic and a general proving mechanism called logical resolution)
+Mercury (based on Prolog)
+Visual Prolog (object-oriented Prolog extension)
+ROOP
+Soufflé
+
+
+== Machine languages ==
+Machine languages are directly executable by a computer's CPU. They are typically formulated as bit patterns, usually represented in octal or hexadecimal. Each bit pattern causes the circuits in the CPU to execute one of the fundamental operations of the hardware. The activation of specific electrical inputs (e.g., CPU package pins for microprocessors), and logical settings for CPU state values, control the processor's computation. Individual machine languages are specific to a family of processors; machine-language code for one family of processors cannot run directly on processors in another family unless the processors in question have additional hardware to support it (for example, DEC VAX processors included a PDP-11 compatibility mode). They are (essentially) always defined by the CPU developer, not by 3rd parties. The symbolic version, the processor's assembly language, is also defined by the developer, in most cases. Some commonly used machine code instruction sets are:
+
+
+== Macro languages ==
+
+
+=== Textual substitution macro languages ===
+Macro languages transform one source code file into another. A "macro" is essentially a short piece of text that expands into a longer one (not to be confused with hygienic macros), possibly with parameter substitution. They are often used to preprocess source code. Preprocessors can also supply facilities like file inclusion.
+Macro languages may be restricted to acting on specially labeled code regions (pre-fixed with a # in the case of the C preprocessor). Alternatively, they may not, but in this case it is still often undesirable to (for instance) expand a macro embedded in a string literal, so they still need a rudimentary awareness of syntax. That being the case, they are often still applicable to more than one language. Contrast with source-embeddable languages like PHP, which are fully featured.
+
+cpp (the C preprocessor)
+m4 (originally from AT&T, bundled with Unix)
+ML/I (general-purpose macro processor)
+TTM (developed at the California Institute of Technology)
+
+
+=== Application macro languages ===
+Scripting languages such as Tcl and ECMAScript (ActionScript, ECMAScript for XML, JavaScript, JScript) have been embedded into applications. These are sometimes called "macro languages", although in a somewhat different sense to textual-substitution macros like m4.
+
+
+== Metaprogramming languages ==
+Metaprogramming is the writing of programs that write or manipulate other programs, including themselves, as their data or that do part of the work that is otherwise done at run time during compile time. In many cases, this allows programmers to get more done in the same amount of time as they would take to write all the code manually.
+
+
+== Multiparadigm languages ==
+
+Multiparadigm languages support more than one programming paradigm. They allow a program to use more than one programming style. The goal is to allow programmers to use the best tool for a job, admitting that no one paradigm solves all problems in the easiest or most efficient way.
+
+
+== Numerical analysis ==
+Several general-purpose programming languages, such as C and Python, are also used for technical computing, this list focuses on languages almost exclusively used for technical computing.
+
+
+== Non-English-based languages ==
+
+Chinese BASIC (Chinese)
+Fjölnir (Icelandic)
+Language Symbolique d'Enseignement (French)
+Rapira (Russian)
+ezhil (Tamil)
+
+
+== Object-oriented class-based languages ==
+Class-based object-oriented programming languages support objects defined by their class. Class definitions include member data. Message passing is a key concept, if not the main concept, in object-oriented languages.
+Polymorphic functions parameterized by the class of some of their arguments are typically called methods. In languages with single dispatch, classes typically also include method definitions. In languages with multiple dispatch, methods are defined by generic functions. There are exceptions where single dispatch methods are generic functions (e.g. Bigloo's object system).
+
+
+=== Multiple dispatch ===
+
+
+=== Single dispatch ===
+
+
+== Object-oriented prototype-based languages ==
+Prototype-based languages are object-oriented languages where the distinction between classes and instances has been removed:
+
+
+== Off-side rule languages ==
+
+Off-side rule languages denote blocks of code by their indentation.
+
+
+== Procedural languages ==
+Procedural programming languages are based on the concept of the unit and scope (the data viewing range) of an executable code statement. A procedural program is composed of one or more units or modules, either user coded or provided in a code library; each module is composed of one or more procedures, also called a function, routine, subroutine, or method, depending on the language. Examples of procedural languages include:
+
+
+== Query languages ==
+
+
+== Reflective languages ==
+Reflective programming languages let programs examine and possibly modify their high-level structure at runtime or compile-time. This is most common in high-level virtual machine programming languages like Smalltalk, and less common in lower-level programming languages like C. Languages and platforms supporting reflection:
+
+
+== Rule-based languages ==
+Rule-based languages instantiate rules when activated by conditions in a set of data. Of all possible activations, some set is selected and the statements belonging to those rules execute. Rule-based languages include:
+
+
+== Scripting languages ==
+
+
+== Stack-based languages ==
+
+Stack-based languages are a type of data-structured language that are based on the stack data structure.
+
+
+== Synchronous languages ==
+
+Synchronous programming languages are optimized for programming reactive systems, systems that are often interrupted and must respond quickly. Many such systems are also called realtime systems, and are used often in embedded systems.
+Examples:
+
+Argus
+Averest
+Esterel
+Lustre
+Signal
+Céu (programming language)
+
+
+== Shading languages ==
+
+A shading language is a graphics programming language adapted to programming shader effects. Such language forms usually consist of special data types, like "color" and "normal". Due to the variety of target markets for 3D computer graphics.
+
+
+=== Real-time rendering ===
+They provide both higher hardware abstraction and a more flexible programming model than previous paradigms which hardcoded transformation and shading equations. This gives the programmer greater control over the rendering process and delivers richer content at lower overhead.
+
+
+=== Offline rendering ===
+Shading languages used in offline rendering produce maximum image quality. Processing such shaders is time-consuming. The computational power required can be expensive because of their ability to produce photorealistic results.
+
+
+== Syntax-handling languages ==
+These languages assist with generating lexical analyzers and parsers for context-free grammars.
+
+ANTLR
+Coco/R (EBNF with semantics)
+GNU bison (FSF's version of Yacc)
+GNU Flex (FSF version of Lex)
+lex (Lexical Analysis, from Bell Labs)
+M4
+Parsing expression grammar (PEG)
+Prolog
+Emacs Lisp
+Lisp
+Raku
+SableCC
+Scheme
+yacc (yet another compiler-compiler, from Bell Labs)
+JavaCC
+
+
+== System languages ==
+The system programming languages are for low-level tasks like memory management or task management. A system programming language usually refers to a programming language used for system programming; such languages are designed for writing system software, which usually requires different development approaches when compared with application software.
+System software is computer software designed to operate and control the computer hardware, and to provide a platform for running application software. System software includes software categories such as operating systems, utility software, device drivers, compilers, and linkers. Examples of system languages include:
+
+
+== Transformation languages ==
+
+Transformation languages serve the purpose of transforming (translating) source code specified in a certain formal language into a defined destination format code. It is most commonly used in intermediate components of more complex super-systems in order to adopt internal results for input into a succeeding processing routine.
+
+
+== Visual languages ==
+
+Visual programming languages let users specify programs in a two-(or more)-dimensional way, instead of as one-dimensional text strings, via graphic layouts of various types. Some dataflow programming languages are also visual languages.
+
+
+== Wirth languages ==
+Computer scientist Niklaus Wirth designed and implemented several influential languages.
+
+
+== XML-based languages ==
+These are languages based on or that operate on XML.
+
+
+== See also ==
+Programming paradigm
+IEC 61131-3 – a standard for programmable logic controller (PLC) languages
+List of educational programming languages
+List of markup languages
+Esoteric programming language
+
+
+== Notes ==
+
+
+== References ==

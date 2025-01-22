@@ -1,0 +1,92 @@
+5G network slicing is a network architecture that enables the multiplexing of virtualized and independent logical networks on the same physical network infrastructure. Each network slice is an isolate...
+
+5G network slicing is a network architecture that enables the multiplexing of virtualized and independent logical networks on the same physical network infrastructure. Each network slice is an isolated end-to-end network tailored to fulfill diverse requirements requested by a particular application.
+For this reason, this technology assumes a central role to support 5G mobile networks that are designed to efficiently embrace a plethora of services with very different service level requirements (SLR). The realization of this service-oriented view of the network leverages on the concepts of software-defined networking (SDN) and network function virtualization (NFV) that allow the implementation of flexible and scalable network slices on top of a common network infrastructure.
+From a business model perspective, each network slice is administrated by a mobile virtual network operator (MVNO). The infrastructure provider (the owner of the telecommunication infrastructure) leases its physical resources to the MVNOs that share the underlying physical network. According to the availability of the assigned resources, a MVNO can autonomously deploy multiple network slices that are customized to the various applications provided to its own users.
+
+
+== History ==
+The history of network slicing can be tracked back to the late 80s with the introduction of the concept of "slice" in the networking field. Overlay networks provided the first form of network slicing since heterogeneous network resources were combined to create virtual networks over a common infrastructure. However, they lacked a mechanism that could enable their programmability.
+In the early 2000s, PlanetLab introduced a virtualization framework that allowed groups of users to program network functions in order to obtain isolated and application-specific slices. The advent of SDN technologies in 2009 further extended the programmability capabilities via open interfaces that enabled the realization of fully configurable and scalable network slices.
+In the context of mobile networks, network slicing evolved from the concept of RAN sharing that was initially introduced in LTE standard. Examples of such technology are multi-operator radio access networks (MORAN) and multi-operator core networks (MOCN), which allow network operators to share common LTE resources within the same radio access network (RAN).
+
+
+== Key concepts ==
+The "one-size-fits-all" network paradigm employed in the past mobile networks (2G, 3G and 4G) is no longer suited to efficiently address a market model composed of very different applications like machine-type communication, ultra reliable low latency communication and enhanced mobile broadband content delivery.
+Network slicing emerges as an essential technique in 5G networks to accommodate such different and possibly contrasting quality of service (QoS) requirements exploiting a single physical network infrastructure.
+The basic idea of network slicing is to "slice" the original network architecture in multiple logical and independent networks that are configured to effectively meet the various services requirements. To quantitatively realize such concept, several techniques are employed:
+
+Network functions: they express elementary network functionalities that are used as "building blocks" to create every network slice.
+Virtualization: it provides an abstract representation of the physical resources under a unified and homogeneous scheme. In addition, it enables a scalable slice deployment relying on NFV that allows the decoupling of each network function instance from the network hardware it runs on.
+Orchestration: it is a process that allows coordination of all the different network components that are involved in the life-cycle of each network slice. In this context, SDN is employed to enable a dynamic and flexible slice configuration.
+
+
+=== Impact and applications ===
+In commercial terms, network slicing allows a mobile operator to create specific virtual networks that cater to particular clients and use cases. Certain applications - such as mobile broadband, machine-to-machine communications (e.g. in manufacturing or logistics), or smart cars - will benefit from leveraging different aspects of 5G technology. One might require higher speeds, another low latency, and yet another access to edge computing resources. By creating separate slices that prioritise specific resources a 5G operator can offer tailored solutions to particular industries.: 3  Some sources insist this will revolutionise industries like marketing, augmented reality, or mobile gaming, while others are more cautious, pointing to unevenness in network coverage and poor reach of advantages beyond increased speed.
+Slicing will be very useful to MVNOs as different use cases can be supported in a layer  based on parameters  like low latency high speed for video streaming for OTT focused MVNOs,  similarly telemetry operations could have lower speed parameter and as on.
+Slicing can also enhance service continuity via improved roaming across networks, by creating a virtual network running on physical infrastructure that spans multiple local or national networks; or by allowing a host network to create an optimised virtual network which replicates the one offered by a roaming device's home network.: 6 
+
+
+== Architecture overview ==
+
+Although there are different proposals of network slice architectures, it is possible to define a general architecture that maps the common elements of each solution into a general and unified framework. From a high-level perspective, the network slicing architecture can be considered as composed of two mains blocks, one dedicated to the actual slice implementation and the other dedicated to the slice management and configuration. The first block is designed as a multi-tier architecture composed by three layers (service layer, network function layer, infrastructure layer), where each one contributes to the slice definition and deployment with distinct tasks. The second block is designed as a centralized network entity, generically denoted as network slice controller, that monitors and manages the functionalities between the three layers in order to efficiently coordinate the coexistence of multiple slices.
+
+
+=== Service layer ===
+The service layer interfaces directly with the network business entities (e.g. MVNOs and 3rd party service providers) that share the underlying physical network and it provides a unified vision of the service requirements. Each service is formally represented as service instance, which embeds all the network characteristics in the form of SLA requirements that are expected to be fully satisfied by a suitable slice creation.
+
+
+=== Network function layer ===
+The network function layer is in charge of the creation of each network slice according to service instance requests coming from the upper layer. It is composed of a set of network functions that embody well-defined behaviors and interfaces. Multiple network functions are placed over the virtual network infrastructure and chained together to create an end-to-end network slice instance that reflects the network characteristics requested by the service. The configuration of the network functions are performed by means of a set of network operations that allow management of their full lifecycle (from their placement when a slice is created to their de-allocation when the function provided is no longer needed).
+To increase resource usage efficiency, the same network function can be simultaneously shared by different slices at the cost of an increase in the complexity of operations management. Conversely, a one-to-one mapping between each network function and each slice eases the configuration procedures, but can lead to poor and inefficient resource usage.
+
+
+=== Infrastructure layer ===
+The infrastructure layer represents the actual physical network topology (radio access network, transport network and core network) upon which every network slice is multiplexed and it provides the physical network resources to host the several network functions composing each slice.
+The network domain of the available resources includes a heterogeneous set of infrastructure components like data centers (storage and computation capacity resources), devices enabling network connectivity such as routers (networking resources) and base stations (radio bandwidth resources).
+
+
+=== Network slice controller ===
+The network slice controller is defined as a network orchestrator, which interfaces with the various functionalities performed by each layer to coherently manage each slice request. The benefit of such network element is that it enables an efficient and flexible slice creation that can be reconfigured during its life-cycle. Operationally, the network slice controller oversees several tasks that provide more effective coordination between the aforementioned layers:
+
+End-to-end service management: mapping of the various service instances expressed in terms of SLA requirements with suitable network functions capable of satisfying the service constraints.
+Virtual resources definition: virtualization of the physical network resources in order to simplify the resources management operations performed to allocate network functions.
+Slice life-cycle management: slice performance monitoring across all the three layers in order to dynamically reconfigure each slice to accommodate possible SLA requirements modifications.
+Due to the complexity of the performed tasks which address different purposes, the network slice controller can be composed by multiple orchestrators that independently manage a subset of functionalities of each layer. To fulfill the service requirements, the various orchestration entities need to coordinate with each other by exchanging high-level information about the state of the operations involved in the slice creation and deployment.
+
+
+== Slice isolation ==
+Slice isolation is an important requirement that allows enforcing the core concept of network slicing about the simultaneous coexistence of multiple slices sharing the same infrastructure. This property is achieved by imposing that each slice's performance must not have any impact on the other slice's performance. The benefit of this design choice is that enhances the network slice architecture in two main aspects:
+
+Slice security: cyber-attacks or faults occurrences affect only the target slice and have limited impact on the life-cycle of other existing slices.
+Slice privacy: private information related to each slice (e.g. user statistics, MVNO business model) are not shared among other slices.
+
+
+== Guaranteeing QoS ==
+Slicing has become an important part of 5G networks, but we don't have to forget to guarantee the QoS. Some studies have demonstrated that formulating the problem with the QoS as a stochastic problem, permit us to maximize the average throughput of the AP, while satisfying the constraints related to the QoS.
+
+
+== Monetizing 5G network slicing ==
+Monetizing 5G services faster is one of the topics that interests network operators the most because the costs of building and maintaining 5G networks are high, and it's difficult to predict the demand for 5G services. 5G network slicing is one of the effective ways to offer customized services for different industries such as manufacturing, transportation, and healthcare. Combined with AIOps, ML/AI-driven automation and 5G lifecycle optimization, it can reduce OpEx and increase revenues for network operators. 
+
+
+== 5G core network slicing ==
+In the 3GPP 5G core architecture, the user plane and control plane functions are separated. Control plane capabilities, for instance, session management, access authentication, policy management, and user data storage are independent of the user plane functionality. The user plane handles packet forwarding, encapsulation or de-capsulation, and associated transport level specifics. This separation leads to the distribution of the user plane functions close to the edge of network slices (e.g., so as to reduce latency) and to be independent of the control plane. The main 5G core network entities are the Authentication server function (AUSF), Unstructured data storage network function (UDSF), Network exposure function (NEF), NF repository function (NRF), Policy control function (PCF), Unified data management (UDM), Network Slice Selection Function (NSSF), Communication Service Management Function (CSMF), AMF, SMF, and UPF. The AMF (as a function of the CP) controls UEs that have been authenticated to use the services of the operator and manages the mobility of the UEs across the gNBs. The SMF (again part of the CP) manages the sessions of UEs, while AMF transmits the session management messages between the UEs and SMF. UPF (as part of the UP) performs the processing and forwarding of the user data. NSSF (as a function of the CP) is responsible for the management and orchestration of network slices. CSMF (as a function of the CP) translates the requirements of services to requirements relating to network slices. 5G Core network functions can be sliced to support specific services for different UEs. Thanks to the modular nature of the 5G core, the network functions of the 5G core can be split and shared between different network slices to reduce management complexity. In general, we can perform 5G core network slicing in two ways. We can implement dedicated core network functions per network slice. In this architecture, each network slice has a set of completely dedicated core network functions (e.g., AUSF, AMF, SMF, and UDM). The UEs can access various services from network slices and different core networks. Alternatively, we can share some control plane functions between the network slices while others such as user plane functions are slice specific (e.g., UPF). AMF is usually shared by several network slices, while SMF and UPF are usually dedicated to specific network slices. The AMF function will be shared between different network slices in order to reduce the mobility management signaling when the UE uses the services of different network slices simultaneously. For example, UE location management or the control signaling between the UE and the old AMF will be reduced when it will be connected to the new AMF of another network slice. Also, UDM and NSSF are typically shared by all network slices to reduce the management complexity of network slices.
+
+
+== Network slicing security ==
+The emergence of network slicing also exposes novel security and privacy challenges, primarily related to aspects such as network slicing life-cycle security, inter-slice security, intra-slice security, slice broker security, zero-touch network and management security, and blockchain security. Therefore, enhancing the security, privacy, and trust of network slicing has become a key research area toward realizing the true capabilities of 5G. Various security solutions are proposed for resolving the security threats, challenges, and issues of network slicing. These solutions include artificial intelligence based solutions, security orchestration, blockchain based solutions, Security Service Level Agreement (SSLA)  and policy based solutions, security monitoring based solutions, slice isolation, security-by-design and privacy-by-design, and offering security as a service.
+
+
+== See also ==
+APN
+NGAP
+5G
+Network virtualization
+Software-defined networking
+Network orchestration
+Network service
+5G NR frequency bands
+
+
+== References ==

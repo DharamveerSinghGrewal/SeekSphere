@@ -1,0 +1,49 @@
+The International Olympiad in Artificial Intelligence (IOAI) is an International Science Olympiad in the field of artificial intelligence (AI). IOAI is a team competition for high school students - ea...
+
+The International Olympiad in Artificial Intelligence (IOAI) is an International Science Olympiad in the field of artificial intelligence (AI). IOAI is a team competition for high school students - each country or territory participates with up to two teams, consisting of up to four students, supported by one leader. The first IOAI was held in Burgas, Bulgaria, in 2024.
+
+
+== Structure ==
+The IOAI consists of two rounds: scientific and practical.
+
+Scientific round: the scientific round consists of two parts: at-home (with minor weight) and on-site. Participants have a month to solve the at-home problems and eight hours for the on-site ones.
+Practical round: The practical round is held on-site over four hours and consists of two problems, covering image and video generation. The participants work with existing AI tools to produce a visual result.
+Awards distribution: roughly 50% of the participants in each round receive gold, silver and bronze distinctions in ratio of 1:2:3, respectively (medals in the scientific round and awards in the practical round). The top 3 teams receive honorary trophies.
+As an AI Olympiad, IOAI is actively engaged in discussions with the general public about the ethical aspects and the future of AI, primarily through its practical round and conference. IOAI aims to involve a local celebrity each year to promote IOAI and together with the students to inspire broader community dialogue about AI. At the IOAI conference teams and guests of the Olympiad have the opportunity to attend lectures and participate in practical sessions on current topics in artificial intelligence.
+
+
+== Founders ==
+The IOAI was founded by the LERAI Foundation, with members Lora Dineva, Elena Marinova, Rositsa Dekova, Aleksandar Velinov, and Iva Gumnishka. The Olympiad collaborates with renowned scientists from leading universities to develop its competition tasks. IOAI's partners and sponsors include institutions, NGOs, and companies worldwide.
+
+
+== Governance ==
+The current IOAI board consists of:
+
+Elena Marinova, chair of the board, founder
+Aleksandar Velinov, President, founder
+Katya Protsko, secretary
+Ali Sharifi Zarchi, Chair of the Scientific Committee
+Yova Kementchedjhieva, Secretary of the Scientific Committee
+Lora Dineva, founder
+Rositsa Dekova, founder
+Iva Gumnishka, founder
+Antonio Carlan
+Steven Chen
+Young Mao, representative of the 2025 host
+
+
+== History ==
+The 1st IOAI took place in Burgas, Bulgaria, from August 9 to 15, 2024. The event featured nearly 200 students from 32 countries and territories from 6 continents, organized into 41 teams. The focus of the 2024 IOAI scientific round was on natural language processing, machine learning, and computer vision. In the practical round, the students worked in the space of AI and art, creating a single cover and video for the remix of the song "Love" by Bulgarian singer Maria Ilieva.
+For the 2025 International Artificial Intelligence Olympiad, Beijing, China, has been chosen as the host city.
+
+
+== Participating countries and territories ==
+2024, founding countries and territories:
+Australia, Bangladesh, Brazil, Bulgaria, Canada, China, Colombia, El Salvador, Estonia, Hong Kong, Hungary, Iran, Isle of Man, Japan, Jordan, Kazakhstan, Kyrgyzstan, Macau, Malaysia, Mongolia, Nepal, Netherlands, Poland, "Letovo", Romania, Singapore, Sweden, Chinese Taipei, Tunisia, Turkey, United Arab Emirates, United States, Vietnam.
+
+
+== References ==
+
+
+== External links ==
+Official website of the IOAI

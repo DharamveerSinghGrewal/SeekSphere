@@ -1,0 +1,19 @@
+Security orchestration, automation and response (SOAR) is a group of cybersecurity technologies that allow organizations to respond to some incidents automatically. It collects inputs monitored by the...
+
+Security orchestration, automation and response (SOAR) is a group of cybersecurity technologies that allow organizations to respond to some incidents automatically. It collects inputs monitored by the security operations team such as alerts from the SIEM system, TIP, and other security technologies and helps define, prioritize, and drive standardized incident response activities.
+Organizations uses SOAR platforms to improve the efficiency of physical and digital security operations. SOAR enables administrators to handle security alerts without the need for manual intervention. When the network tool detects a security event, depending on its nature, SOAR can raise an alert to the administrator or take some other action.
+
+
+== Components ==
+"Orchestration" connects the different security tools and systems of the Information system. It integrates custom-built applications with built-in security tools, so they all work with each other. It also connects diverse endpoints, firewalls and behavior analysis tools.
+"Automation" takes the huge amount of information generated through orchestration and analyzes it through machine learning processes. SOAR handle a lot of manual tasks of log analysis and can also handle ticket requests, vulnerability checks and auditing processes.
+"Incident response" allows security teams to react when a potential threat is indicated. This component also handles post-incident activities such as threat intelligence sharing in an automated way.
+
+
+== Playbooks and runbooks ==
+SOAR allows security administrators to define the potential incidents and the response, thanks to playbooks and runbooks.
+A playbook is a document that describes how to verify a cybersecurity incident and how the incident should be responded. The purpose of the playbook is to document what the runbook should do. Playbook can be used as a manual backup in case the SOAR fails.
+A runbook implements the playbook data into an automated tool so that it performs predefined actions to mitigate the threat.
+
+
+== References ==

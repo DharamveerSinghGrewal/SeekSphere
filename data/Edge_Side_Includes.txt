@@ -1,0 +1,38 @@
+Edge Side Includes (ESI) is a small markup language for edge level dynamic web content assembly. The purpose of ESI is to tackle the problem of web infrastructure scaling. It is an application of edge...
+
+Edge Side Includes (ESI) is a small markup language for edge level dynamic web content assembly. The purpose of ESI is to tackle the problem of web infrastructure scaling. It is an application of edge computing.
+It is fairly common for websites to have generated content. It could be because of changing content like catalogs or forums, or because of personalization. This creates a problem for caching systems. To overcome this problem a group of companies (Akamai, Art Technology Group, BEA Systems, Circadence Corporation, Digital Island, Inc., Interwoven, Inc., Open Market, whose ESI-related technology is now owned by FatWire Software, Oracle Corporation and Vignette Corporation) developed the ESI specification and submitted it to the W3C for approval. The proposal editor was Mark Nottingham.
+ESI Language Specification 1.0 was submitted to the World Wide Web Consortium (W3C) for approval in August 2001. The W3C has acknowledged receipt, but has not accepted the proposal.
+ESI is implemented by some content delivery networks, such as Akamai, and by some caching proxy servers such as Varnish, Squid and Mongrel ESI, although many do not implement the complete specification. Akamai also adds additional features to the version they support.
+
+
+== Syntax ==
+ESI element tags are inserted into HTML or other text based content during creation. Instead of being displayed to viewers, these ESI tags are directives that instruct an ESI processor to take some action. The XML based ESI tags indicate to the edge-side processing agent the action that needs to be taken to complete the page's assembly. One simple example of an ESI element is the include tag which is used to include content external to the page. An ESI include tag placed in-line within an HTML document would look like:
+
+In this case the ESI processor would retrieve the src URL, or failing that the alt URL, or if that failed do nothing. The ESI system is usually a caching proxy server so it may have a local copy of these files which it can insert without going back to the server. Alternatively the whole page with the ESI tags may be cached, and only the ESI requests may be made to the origin server. This allows different caching times for different parts of the page, or different degrees of personalisation.
+
+
+== Features ==
+There are four main features in ESI: 
+
+inclusion of page fragments, as illustrated above;
+variables which can be set from cookies or HTTP headers and then used in other ESI statements or written into markup;
+conditions so that different markup can be used based on variables, for example if a cookie is set or not;
+error handling, so that a failover can be used if an origin server is unavailable.
+
+
+== Alternatives ==
+The main alternatives to ESI are 
+
+to do assembly on the origin server using Server Side Includes and many types of server-side scripting.
+to use client-side scripting and techniques collectively known as Ajax (see: Dynamic web page) in the browser
+to establish a protocol between origin and edge such that recurring content will be included on the edge automatically, as with Cloudflare's Railgun protocol 
+to do assembly in the browser using web components.
+
+
+== References ==
+
+
+== External links ==
+Akamai's ESI developer resources
+W3C Note "ESI Language Specification 1.0"

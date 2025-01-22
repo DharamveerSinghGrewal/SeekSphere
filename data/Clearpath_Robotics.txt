@@ -1,0 +1,39 @@
+Clearpath Robotics, Inc. (also known as Clearpath) was founded in 2009 by a group of four University of Waterloo graduates, and remains headquartered in Waterloo Region, Canada. The original goal of C...
+
+Clearpath Robotics, Inc. (also known as Clearpath) was founded in 2009 by a group of four University of Waterloo graduates, and remains headquartered in Waterloo Region, Canada. The original goal of Clearpath was to streamline field robotics research for universities and private corporations, but the company has since expanded and is now also manufacturing and selling the OTTO line of self-driving vehicles for industrial environments.
+
+
+== History ==
+Clearpath Robotics was founded in 2009 by a group of four University of Waterloo graduates—Matthew Rendall, Ryan Gariepy, Pat Martinson and Bryan Webb—based on a growing demand for environmental monitoring and robotics research equipment. Unlike other robotics startups, they only raised a small amount of angel investment upon founding, and sought to achieve profitability before raising more.
+In 2012, Open Robotics (then the Open Source Robotics Foundation) was established to ensure that there was continuity in the work being done with ROS, with Clearpath CTO Ryan Gariepy joining the founding board. Not too long after, original ROS creator Willow Garage announced a reduction in formal support. Due to concerns raised by the academic community regarding the future of robotics research, Clearpath issued a statement to reinforce that it would continue to do what it could to support ROS.
+With the complete shutdown of Willow Garage in early 2014, Clearpath took over complete maintenance and support of the PR2 robot until through at least 2016.
+In August 2014, Clearpath became the first robotics company in the world to pledge not to make 'killer robots' (lethal autonomous weapons), and continues to back initiatives to ensure AI and autonomous systems are developed in an ethical fashion.
+By March 2015, Clearpath announced a $14 million Series A investment led by RRE Ventures meant to fund the development of products capable of automating dangerous jobs in industrial and manufacturing facilities. Shortly thereafter, they announced the first of their OTTO line of vehicles with General Electric as a first customer and strategic investor, as well as announced that Tesla, Inc. co-founder Marc Tarpenning had joined their advisory board. At the same time, it continued to develop and sell systems meant to fulfill its original mandate of helping researchers work more efficiently.
+A Series B funding round was announced in October 2016 led by iNovia Capital, which also added Caterpillar Inc. as another strategic investor.
+Clearpath is currently one of the most well-known Canadian robotics startups, and is regularly recognized as one of the "Top 50 Most Influential Companies in Robotics" by Robotics Business Review.
+In September 2023, Clearpath Robotics was acquired by an American industrial automation company Rockwell Automation in a deal valued at over US$600 million.
+
+
+== Divisions ==
+
+
+=== Clearpath Robotics ===
+The original Clearpath Robotics brand encompasses the manufacture and sale of a variety of land and sea vehicles used for robotics research, as well as the sale of individual components for robotics prototyping through its online store. It also provides custom robotics integration as well as ROS consulting services, with a portion of the revenue of the latter going to support Open Robotics.
+Clearpath was one of the original manufacturers and distributors of the TurtleBot series of open-source research robots, with the newest version now being produced in partnership with Open Robotics and iRobot.
+
+
+=== OTTO Motors ===
+The complete OTTO Motors brand was announced in 2016, and is Clearpath's first known entry into the large scale deployment of autonomous vehicles. Its first customer was General Electric, and other notable clients include John Deere and Toyota.
+
+
+== Litigation ==
+In August 2016, Clearpath filed a complaint in the Northern district of California against Otto (company) with respect to Clearpath Robotics Inc.'s OTTO brand. The action was dismissed with prejudice on February 1, 2017. As of May 2017, Uber has ceased using the OTTO trademark, and Clearpath continues to operate the OTTO brand.
+In light of Waymo LLC v. Uber Technologies, Inc. et al., Clearpath has issued a statement to clarify brand confusion.
+
+
+== References ==
+
+
+== External links ==
+Clearpath Robotics Official Site
+OTTO Motors Official Site

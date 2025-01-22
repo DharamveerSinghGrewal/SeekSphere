@@ -1,0 +1,17 @@
+Horovod is a free and open-source software framework for distributed deep learning training using TensorFlow, Keras, PyTorch, and Apache MXNet. Horovod is hosted under the Linux Foundation AI (LF AI)....
+
+Horovod is a free and open-source software framework for distributed deep learning training using TensorFlow, Keras, PyTorch, and Apache MXNet. Horovod is hosted under the Linux Foundation AI (LF AI). Horovod has the goal of improving the speed, scale, and resource allocation when training a machine learning model.
+
+
+== See also ==
+Comparison of deep learning software
+Differentiable programming
+All-Reduce
+
+
+== References ==
+
+
+== External links ==
+Official website
+horovod on GitHub

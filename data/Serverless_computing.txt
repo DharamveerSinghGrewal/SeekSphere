@@ -1,0 +1,66 @@
+Serverless computing is a cloud service category in which the customer can use different cloud capabilities types without the customer having to provision, deploy and manage either hardware or softwar...
+
+Serverless computing is a cloud service category in which the customer can use different cloud capabilities types without the customer having to provision, deploy and manage either hardware or software resources, other than providing customer application code or providing customer data. Serverless computing represents a form of virtualized computing." according to ISO/IEC 22123-2.  Function as a Service (FaaS) and serverless databases are examples of serverless computing. However, serverless computing is considered to be broader than these components.  Sheen Brisals suggests that serverless technology should be viewed as an ecosystem that includes the cloud provider, FaaS, managed services, as well as tools, frameworks, engineers, stakeholders, and other interconnected elements. 
+
+
+== Overview ==
+Serverless is a misnomer in the sense that servers are still used by cloud service providers to execute code for developers.  The definition of serverless computing has evolved over time, leading to varied interpretations. According to Ben Kehoe, serverless represents a spectrum rather than a rigid definition. Emphasis should shift from strict definitions and specific technologies to adopting a serverless mindset, focusing on leveraging serverless solutions to address business challenges. 
+Serverless computing does not eliminate complexity but shifts much of it from the operations team to the development team. However, this shift is not absolute, as operations teams continue to manage aspects such as identity and access management (IAM), networking, security policies, and cost optimization. Additionally, while breaking down applications into finer-grained components can increase management complexity, the relationship between granularity and management difficulty is not strictly linear. There is often an optimal level of modularization where the benefits outweigh the added management overhead. 
+Serverless code can be used in conjunction with code deployed in traditional styles, such as microservices or monoliths. Alternatively, applications can be written to be purely serverless and use no provisioned servers at all. This should not be confused with computing or networking models that do not require an actual server to function, such as peer-to-peer (P2P).
+According to Yan Cui, serverless should be adopted only when it helps to deliver customer value faster. And while adopting, organizations should take small steps and de-risk along the way.
+
+
+== Disadvantages ==
+Serverless applications are prone to fallacies of distributed computing. In addition, they are prone to following fallacies:
+
+Versioning is simple
+Compensating transactions always work
+Observability is optional
+
+
+=== Resource limits ===
+Serverless computing is not suited to some computing workloads, such as high-performance computing, because of the resource limits imposed by cloud providers, and also because it would likely be cheaper to bulk-provision the number of servers believed to be required at any given point in time. This makes it challenging to deploy complex applications (such as those with a directed acyclic graph of functions); serverless computing out of the box is most suited for execution of individual stateless functions. Some commercial offerings like AWS Step Functions from Amazon and Azure Durable Functions from Microsoft are meant to ease this challenge.
+
+
+=== Monitoring and debugging ===
+Diagnosing performance or excessive resource usage problems with serverless code may be more difficult than with traditional server code, because although entire functions can be timed, there is typically no ability to dig into more detail by attaching profilers, debuggers, or APM tools. Furthermore, the environment in which the code runs is typically not open source, so its performance characteristics cannot be precisely replicated in a local environment.
+
+
+=== Security ===
+According to OWASP, serverless applications are vulnerable to variations of traditional  attacks, insecure code, and some serverless-specific attacks (like Denial of Wallet). So, the risks have changed and attack prevention requires a shift in mindset.
+
+
+=== Standards ===
+Serverless computing is covered by International Data Center Authority (IDCA) in their Framework AE360. However, the part related to portability can be an issue when moving business logic from one public cloud to another, for which the Docker solution was created. Cloud Native Computing Foundation (CNCF) is also working on developing a specification with Oracle.
+
+
+=== Vendor lock-in ===
+Serverless computing is provided as a third-party service. Applications and software that run in the serverless environment are by default locked to a specific cloud vendor. This issue is exacerbated in serverless computing, as with its increased level of abstraction, public vendors only allow customers to upload code to a FaaS platform without the authority to configure underlying environments. More importantly, when considering a more complex workflow that includes Backend-as-a-Service (BaaS), a BaaS offering can typically only natively trigger a FaaS offering from the same provider. This makes the workload migration in serverless computing virtually impossible. Therefore, considering how to design and deploy serverless workflows from a multi-cloud perspective seems promising and is starting to prevail.
+
+
+== Anti-patterns ==
+The "Grain of Sand Anti-pattern" refers to the creation of excessively small components (e.g., functions) within a system, often resulting in increased complexity, operational overhead, and performance inefficiencies.  "Lambda Pinball" is a related anti-pattern that can occur in serverless architectures when functions (e.g., AWS Lambda, Azure Functions) excessively invoke each other in fragmented chains, leading to latency, debugging and testing challenges, and reduced observability.  These anti-patterns are associated with the formation of a distributed monolith.
+These anti-patterns are often addressed through the application of clear domain boundaries, which distinguish between public and published interfaces.   Public interfaces are technically accessible interfaces, such as methods, classes, API endpoints, or triggers, but they do not come with formal stability guarantees. In contrast, published interfaces involve an explicit stability contract, including formal versioning, thorough documentation, a defined deprecation policy, and often support for backward compatibility. Published interfaces may also require maintaining multiple versions simultaneously and adhering to formal deprecation processes when breaking changes are introduced. 
+Fragmented chains of function calls are often observed in systems where serverless components (functions) interact with other resources in complex patterns, sometimes described as spaghetti architecture or a distributed monolith. In contrast, systems exhibiting clearer boundaries typically organize serverless components into cohesive groups, where internal public interfaces manage inter-component communication, and published interfaces define communication across group boundaries. This distinction highlights differences in stability guarantees and maintenance commitments, contributing to reduced dependency complexity.  
+Additionally, patterns associated with excessive serverless function chaining are sometimes addressed through architectural strategies that emphasize native service integrations instead of individual functions, a concept referred to as the functionless mindset. However, this approach is noted to involve a steeper learning curve, and integration limitations may vary even within the same cloud vendor ecosystem. 
+
+
+== Principles ==
+Adopting DevSecOps practices can help improve the use and security of serverless technologies.  
+In serverless applications, the distinction between infrastructure and business logic is often blurred, with applications typically distributed across multiple services. To maximize the effectiveness of testing, integration testing is emphasized for serverless applications.  Additionally, to facilitate debugging and implementation, orchestration is used within the  bounded context, while choreography is employed between different bounded contexts. 
+Ephemeral resources are typically kept together to maintain high cohesion. However, shared resources with long spin-up times, such as AWS RDS clusters and landing zones, are often managed in separate repositories, deployment pipeline, and stacks. 
+
+
+== See also ==
+Cloud computing
+Function as a service
+
+
+== References ==
+
+
+== Further reading ==
+Roberts, Mike (25 July 2016). "Serverless Architectures". MartinFowler.com. Retrieved 30 July 2016.
+Jamieson, Frazer (4 September 2017). "Losing the server? Everybody is talking about serverless architecture". BCS, the Chartered Institute for IT. Retrieved 7 November 2017.
+Anderson, David (9 March 2022). "Power the Future and Accelerate Your Organization to the Modern Cloud and Serverless with 'The Value Flywheel Effect'". The Serverless Edge. Retrieved 9 March 2022.
+14 authors from UC Berkeley (9 February 2019). "Cloud Programming Simplified: A Berkeley View on Serverless Computing".

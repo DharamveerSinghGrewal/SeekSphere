@@ -1,0 +1,35 @@
+Autel Robotics Co., Ltd. is a Chinese aerial drone manufacturer.   == History == Autel Robotics Co., Ltd. was founded in 2014 in Shenzhen by Maxwell Lee and Li Hongjing. Maxwell Lee is a Chinese Ameri...
+
+Autel Robotics Co., Ltd. is a Chinese aerial drone manufacturer.
+
+
+== History ==
+Autel Robotics Co., Ltd. was founded in 2014 in Shenzhen by Maxwell Lee and Li Hongjing. Maxwell Lee is a Chinese American entrepreneur.
+Autel Robotics has received government funding and support from the Chinese government. The company released its first drone called X-Star in 2015 in global markets and has other notable product lines, including the Evo and Dragon Fish series.
+In 2021 Autel Robotics had a 7% share of the UAV market in the United States. Its market share increased after leading rival DJI was restricted by the US government. Along with DJI their drones have been widely acquired by US law enforcement and government agencies. Concerns have frequently been raised about potential risks associated with this use, but significant evidence of risk has not been presented and there is criticism of those concerns.
+In 2023 at the Consumer Electronics Show in Las Vegas Autel Robotics made its intention to surpass DJI in both technology and market share known.
+
+
+== Organization ==
+Autel Robotics Co., Ltd. used to be a subsidiary of Autel Intelligent Technology but was spun-off prior to Autel Intelligent Technology's IPO.
+In 2023 Autel Robotics had offices in China, Italy, the United States, Germany, and Singapore. The company's branch in the U.S. is located in Seattle.
+
+
+== Products ==
+
+EVO Nano+, ultra-light drone
+EVO Lite, light drone with a 4k camera. Small enough that a FAA remote ID is not required
+EVO Lite +, light drone with a 5k camera
+Autel EVO II V3, most popular model in 2023
+Autel EVO Max, intended for the emergency response market
+EVO Max T4, intended to be a serious competitor to DJI's offering. It has increased autonomy, AI features, and an open architecture. Features a thermal camera as standard.
+Dragonfish, fixed wing drone with VTOL capabilities
+Dragonfish Lite, smaller version of the Dragonfish
+Dragonfish Pro, a long range variant of the Dragonfish
+
+
+== Users ==
+U.S. Capitol Police, briefly operated Autel Robotics drones before being retired due to security concerns. The adoption of the drones was criticized by Senator Ted Cruz
+
+
+== References ==

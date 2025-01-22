@@ -1,0 +1,44 @@
+Optimus (named after the Transformers character with the same name), also known as Tesla Bot, is a general-purpose robotic humanoid under development by Tesla, Inc. It was announced at the company's A...
+
+Optimus (named after the Transformers character with the same name), also known as Tesla Bot, is a general-purpose robotic humanoid under development by Tesla, Inc. It was announced at the company's Artificial Intelligence (AI) Day event on August 19, 2021, and a prototype was shown in 2022. CEO Elon Musk stated in 2022 that he thinks Optimus "has the potential to be more significant than [Tesla's] vehicle business over time." Media and expert opinions based on corporate showcases have been mixed.
+
+
+== History ==
+On April 7, 2022, a display for the product was featured at the Tesla Giga Texas manufacturing facility during the Cyber Rodeo event. Musk said that he hoped to have the robot production ready by 2023 and claimed Optimus will eventually be able to do "anything that humans don’t want to do." 
+In June 2022, Musk announced the first prototype that Tesla hoped to unveil later in 2022 at the second AI Day event and stated on Twitter that it would not look anything like the model displayed at the Cyber Rodeo event.
+In September 2022, semi-functional prototypes of Optimus were displayed at Tesla's second AI Day. One prototype was able to walk about the stage and another, sleeker version could move its arms.
+In September 2023, Tesla released a video of Optimus demonstrating how it could perform new activities including sorting colored blocks by color, locate its limbs in space, and had increased flexibility as it could maintain a yoga pose.
+
+
+=== Generation 2 ===
+In December 2023, Musk's X page released a video titled "Optimus" in which it shows Optimus Generation 2 walking and showing new features, such as dancing and poaching an egg. The Optimus Generation 2 features a slimmer figure with improved hands and movements. In May 2024, a Twitter update shared Optimus performing various tasks at a Tesla factory.
+Critics pointed out that the robots in the promotional videos required the use of teleoperation in order to perform some of the tasks. Competitors produced their own videos in response highlighting how their robotic humanoids could complete similar tasks autonomously.
+In June 2024, Musk claimed that Optimus would enter limited production in 2025, with plans for over 1,000 to be used in Tesla facilities and the possibility of production for other companies in 2026.
+Optimus was featured at Tesla's "We, Robot" event in October 2024. While many praised the interactive demonstrations, critics again pointed out that the robots mainly utilised teleoperation to interact with crowds; Tesla was also criticized for not being transparent about this. Musk said that Optimus would be able to perform a wide range of everyday tasks in and outside of the home, and he estimated that the robot would be available for purchase at around US$30,000.
+
+
+== Specifications ==
+
+Optimus is planned to measure 5 ft 8 in (173 cm) tall and weigh 125 lb (57 kg). According to the presentation made during the 2021 AI Day event, Optimus will be "controlled by the same AI system Tesla is developing for the advanced driver-assistance system used in its cars" and have a carrying capacity of 45 lb (20 kg). Proposed tasks for Optimus are ones that are "dangerous, repetitive and boring", such as providing manufacturing assistance.
+In 2023, the hands of the Generation 2 Optimus had 11 degrees of freedom.
+
+
+== Reception ==
+
+
+=== Initial reactions ===
+Soon after the 2021 AI Day event, many publications reacted with skepticism about the proposed product. Bloomberg News claimed that such a product constituted "mission creep" and stood outside "the company’s clean-energy initiatives." The Washington Post argued that "Tesla has a history of exaggerating timelines and overpromising at its product unveilings and investor presentations." The Verge similarly noted that "Tesla’s history is littered with fanciful ideas that never panned out... it’s anyone’s guess as to whether a working Tesla Bot will ever see the light of day" and, in an editorial, described the Optimus reveal as a "bizarre and brilliant bit of tomfoolery".
+The progress made with the prototypes shown at the 2022 AI Day was praised by some commentators. Other commentators stipulated that all that was shown in these latest presentations had already been accomplished by other robotics programs, and that there appears to be little to suggest Tesla could "outpace other companies working on similar things."
+
+
+=== Expert opinions ===
+Reactions across the robotics community to Optimus and its prototypes have been "diverse", with some experts commending the venture while describing early demonstrations as less than impressive.
+Carl Berry, a lecturer of robotics engineering, described the 2021 AI Day presentation as "the usual overblown hype." Following the Optimus display at the Cyber Rodeo event, researcher Gary Marcus stated he would "bet that no robot will be able to do all human tasks by the end of 2023." 
+Regarding the 2022 AI Day presentation, Deutsche Welle cited experts – AI researcher Filip Piekniewski, robotics expert Cynthia Yeung, and executive director of Mass Robotics Tom Ryden – calling the project a "complete and utter scam", questioning how advanced it really was, and criticizing the choice of a humanoid form.
+
+
+== Name ==
+Optimus is named after the main character in the Transformers media series.
+
+
+== References ==

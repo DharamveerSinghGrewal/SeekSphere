@@ -1,0 +1,25 @@
+Starsky Robotics was an autonomous truck company founded in 2016. It developed trucks to drive without a person in the vehicle. The company started in 2015 and had raised $21.7 million by 2018. It fai...
+
+Starsky Robotics was an autonomous truck company founded in 2016. It developed trucks to drive without a person in the vehicle. The company started in 2015 and had raised $21.7 million by 2018. It failed to find further investors in November 2019, and shut down by March 2020.
+
+
+== History ==
+In 2017, Starsky Robotics announced that it had raised $5 million from Y Combinator, Sam Altman, Trucks VC, and Data Collective to create an autonomous trucking company. In 2018, company closed a $16.5 million Series A, led by Shasta Ventures.
+In February 2018, Starsky Robotics completed a 7-mile fully driverless trip in Florida without a single human in the truck. Starsky is the first company to publicly test an empty cabin for autonomous trucks.
+In November 2019 over 85% of staff were laid off after the company failed to find further investment, due to concerns over the financial stability of its freight-hauling arm. By March 2020 the company sold off the remaining assets, including patents relating to operating remote vehicles.
+
+
+== Technology ==
+The company developed proprietary technology that allowed drivers to remotely pilot trucks from a central headquarters. The company successfully completed full deliveries with 85% autonomy. Starsky Robotics’ system worked to solve the issue of final-mile delivery by removing drivers from the cab entirely and putting them in an office where they could remotely operate the truck from terminal to delivery.
+
+
+== See also ==
+Otto
+Komatsu Limited
+
+
+== References ==
+
+
+== External links ==
+Starsky Robotics Official Site

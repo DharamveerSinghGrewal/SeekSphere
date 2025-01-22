@@ -1,0 +1,19 @@
+Xanadu Quantum Technologies is a Canadian quantum computing hardware and software company headquartered in Toronto, Ontario. The company develops cloud accessible photonic quantum computers and develo...
+
+Xanadu Quantum Technologies is a Canadian quantum computing hardware and software company headquartered in Toronto, Ontario. The company develops cloud accessible photonic quantum computers and develops open-source software for quantum machine learning and simulating quantum photonic devices.
+
+
+== History ==
+Xanadu was founded in 2016 by Christian Weedbrook and was a participant in the Creative Destruction Lab's accelerator program. Since then, Xanadu has raised a total of US$245M in funding with venture capital financing from Bessemer Venture Partners, Capricorn Investment Group, Tiger Global Management, In-Q-Tel, Business Development Bank of Canada, OMERS Ventures, Georgian, Real Ventures, Golden Ventures and Radical Ventures and innovation grants from Sustainable Development Technology Canada and DARPA.
+
+
+== Technology ==
+Xanadu's hardware efforts have been focused on developing programmable Gaussian boson sampling (GBS) devices. GBS is a generalization of boson sampling, which traditionally uses single photons as an input; GBS uses squeezed states of light. In 2020, Xanadu published a blueprint for building a fault-tolerant quantum computer using photonic technology.
+In June 2022 Xanadu reported on a boson sampling experiment summing up to those of Google and University of Science and Technology of China (USTC). Their setup used loops of optical fiber and multiplexing to replace the network of beam splitters by a single one which made it also more easily reconfigurable. They detected a mean of 125 to 219 photons from 216 squeezed modes (squeezed light follows a photon number distribution so they can contain more than one photon per mode) and claimed to have obtained a speedup 50 million times bigger than previous experiments.
+
+
+== References ==
+
+
+== External links ==
+Official website

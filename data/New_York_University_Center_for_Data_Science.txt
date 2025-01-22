@@ -1,0 +1,40 @@
+The NYU Center for Data Science (CDS) is a degree-granting graduate institute and research center at New York University. It was established in 2013 by computer scientist Yann LeCun. CDS offers a M.S....
+
+The NYU Center for Data Science (CDS) is a degree-granting graduate institute and research center at New York University. It was established in 2013 by computer scientist Yann LeCun. CDS offers a M.S. in Data Science and, as of 2017, it was one of the first universities in the U.S. to offer a Ph.D. in Data Science. Its M.S. in Data Science program is one of the most highly regarded and selective in the country.
+CDS's director is Julia Kempe.
+
+
+== History and background ==
+In 2011, New York University launched a university-wide initiative in Data Science and Statistics under the leadership of Gerard Ben Arous, who was the director of the Courant Institute of Mathematical Sciences and NYU's Vice Provost for Science and Engineering at the time. Yann LeCun was invited to chair the working group, and they eventually recommended the creation of a multidisciplinary data science center in response to the growing demand for data scientists in academia, industry, and government. CDS was publicly announced in 2013, with Yann LeCun as its founding director.
+Today, CDS is the focal point for all data science research initiatives at the university. The center is highly interdisciplinary, and collaborates with several departments and schools across the university.
+CDS offers degrees in data science at the undergraduate, masters and doctoral levels.
+
+
+== Research ==
+The center has been engaged in a range of research projects across several fields in the humanities and the sciences.
+It is also part of the Moore-Sloan Data Science Environment, a five-year $37.8 million cross-institutional partnership with Berkeley Institute for Data Science and the University of Washington that aims to advance data-intensive scientific discovery.
+The center also holds multiple speaker series throughout the year, like the Text-as-Data & NLP seminars, Math and Data seminars, and the Moore-Sloan Research Lunch seminars.
+
+
+== Notable faculty ==
+
+
+=== Full-Time ===
+Julia Kempe
+Richard Bonneau
+Vasant Dhar
+Juliana Freire
+Panos Ipeirotis
+Yann LeCun
+Foster Provost
+Claudio Silva
+Eero Simoncelli
+S.R. Srinivasa Varadhan
+Pascal Wallisch
+
+
+== References ==
+
+
+== External links ==
+Official website

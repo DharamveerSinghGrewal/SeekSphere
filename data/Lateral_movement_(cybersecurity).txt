@@ -1,0 +1,7 @@
+Lateral movement refers to the techniques that cyber attackers, or threat actors, use to progressively move through a network as they search for the key data and assets that are ultimately the target ...
+
+Lateral movement refers to the techniques that cyber attackers, or threat actors, use to progressively move through a network as they search for the key data and assets that are ultimately the target of their attack campaigns. While the development of more sophisticated sequences of attack has helped threat actors develop better strategies and evade detection as compared to the past, similar to planning a heist, cyber defenders have also learned to use lateral movement against attackers in that they use it to detect their location and respond more effectively to an attack.
+Lateral movement is a part of the ATT&CK framework within the 14 categories of Tactics, Techniques, and Procedures.
+
+
+== References ==

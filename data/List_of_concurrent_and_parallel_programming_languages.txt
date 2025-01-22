@@ -1,0 +1,197 @@
+This article lists concurrent and parallel programming languages, categorizing them by a defining paradigm. Concurrent and parallel programming languages involve multiple timelines.  Such languages pr...
+
+This article lists concurrent and parallel programming languages, categorizing them by a defining paradigm. Concurrent and parallel programming languages involve multiple timelines.  Such languages provide synchronization constructs whose behavior is defined by a parallel execution model. A concurrent programming language is defined as one which uses the concept of simultaneously executing processes or threads of execution as a means of structuring a program. A parallel language is able to express programs that are executable on more than one processor. Both types are listed, as concurrency is a useful tool in expressing parallelism, but it is not necessary. In both cases, the features must be part of the language syntax and not an extension such as a library (libraries such as the posix-thread library implement a parallel execution model but lack the syntax and grammar required to be a programming language).
+The following categories aim to capture the main, defining feature of the languages contained, but they are not necessarily orthogonal.
+
+
+== Coordination languages ==
+CnC (Concurrent Collections)
+Glenda
+Linda coordination language
+Millipede
+
+
+== Dataflow programming ==
+
+CAL
+E (also object-oriented)
+Joule (also distributed)
+LabVIEW (also synchronous, also object-oriented)
+Lustre (also synchronous)
+Preesm (also synchronous)
+Signal (also synchronous)
+SISAL
+BMDFM
+
+
+== Distributed computing ==
+
+Bloom
+Emerald
+Hermes
+Julia
+Limbo
+MPD
+Oz - Multi-paradigm language with particular support for constraint and distributed programming.
+Sequoia
+SR
+
+
+== Event-driven and hardware description ==
+
+Esterel (also synchronous)
+SystemC
+SystemVerilog
+Verilog
+Verilog-AMS - math modeling of continuous time systems
+VHDL
+
+
+== Functional programming ==
+
+Clojure
+Concurrent ML
+Elixir
+Elm
+Erlang
+Futhark
+Gleam
+Haskell
+Id
+MultiLisp
+SequenceL
+
+
+== Logic programming ==
+
+Constraint Handling Rules
+Parlog
+Prolog
+Mercury
+
+
+== Monitor-based ==
+
+Concurrent Pascal
+Concurrent Euclid
+Emerald
+
+
+== Multi-threaded ==
+
+C=
+Cilk
+Cilk Plus
+Cind
+C#
+Clojure
+Concurrent Pascal
+Emerald
+Fork – programming language for the PRAM model.
+Go
+Java
+LabVIEW
+ParaSail
+Python
+Rust
+SequenceL
+
+
+== Object-oriented programming ==
+
+Ada
+C*
+C#
+JavaScript
+TypeScript
+C++ AMP
+Charm++
+Cind
+D programming language
+Eiffel SCOOP (Simple Concurrent Object-Oriented Programming)
+Emerald
+Fortran from the ISO Fortran 2003 standard
+Java
+Join Java - A Java-based language with features from the join-calculus.
+LabVIEW
+ParaSail
+Python
+Ruby
+
+
+== Partitioned global address space (PGAS) ==
+
+Chapel
+Coarray Fortran (included in standard/ISO Fortran since Fortran 2008, further extensions were added with the Fortran 2018 standard)
+Fortress
+High Performance Fortran
+Titanium
+Unified Parallel C
+X10
+ZPL
+
+
+== Message passing ==
+
+Ateji PX - An extension of Java with parallel primitives inspired from pi-calculus.
+Rust
+Smalltalk: p.17 Part IV, see table following fig. 11–29 
+
+
+=== Actor model ===
+
+Axum - a domain-specific language being developed by Microsoft.
+Dart - using Isolates
+Elixir (runs on BEAM, the Erlang virtual machine)
+Erlang
+Pony (programming language)
+Janus
+Red
+SALSA
+Scala/Akka (toolkit)
+Smalltalk
+Akka.NET
+LabVIEW - LabVIEW Actor Framework
+
+
+=== CSP-based ===
+
+Alef
+Crystal
+Ease
+FortranM
+Go
+JCSP
+JoCaml
+Joyce
+Limbo (also distributed)
+Newsqueak
+Occam
+Occam-π – a derivative of Occam that integrates features from the pi-calculus
+PyCSP
+SuperPascal
+XC – a C-based language, integrating features from Occam, developed by XMOS
+
+
+== APIs/frameworks ==
+These application programming interfaces support parallelism in host languages.
+
+Apache Beam
+Apache Flink
+Apache Hadoop
+Apache Spark
+CUDA
+OpenCL
+OpenHMPP
+OpenMP for C, C++, and Fortran (shared memory and attached GPUs)
+Message Passing Interface for C, C++, and Fortran (distributed computing)
+SYCL
+
+
+== See also ==
+Concurrent computing
+List of concurrent programming languages
+Parallel programming model
+
+
+== References ==

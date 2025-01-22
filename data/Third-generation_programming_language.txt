@@ -1,0 +1,19 @@
+A third-generation programming language (3GL) is a high-level computer programming language that tends to be more machine-independent and programmer-friendly than the machine code of the first-generat...
+
+A third-generation programming language (3GL) is a high-level computer programming language that tends to be more machine-independent and programmer-friendly than the machine code of the first-generation and assembly languages of the second-generation, while having a less specific focus to the fourth and fifth generations. Examples of common and historical third-generation programming languages are ALGOL, BASIC, C, COBOL, Fortran, Java, and Pascal.
+
+
+== Characteristics ==
+3GLs are much more machine-independent and more programmer-friendly. This includes features like improved support for aggregate data types, and expressing concepts in a way that favors the programmer, not the computer. A third generation language improves over a second-generation language by having the computer take care of non-essential details.  3GLs are more abstract than previous generations of languages, and thus can be considered higher-level languages than their first- and second-generation counterparts. First introduced in the late 1950s, Fortran, ALGOL, and COBOL are examples of early 3GLs.
+Most popular general-purpose languages today, such as C, C++, C#, Java, BASIC and Pascal, are also third-generation languages, although each of these languages can be further subdivided into other categories based on other contemporary traits. Most 3GLs support structured programming. Many support object-oriented programming. Traits like these are more often used to describe a language rather than just being a 3GL.
+A 3GL enables a programmer to write programs that are more or less independent from a particular type of computer. Such languages are considered high-level because they are closer to human languages and further from machine languages, and hence require compilation or interpretation. In contrast, machine languages are considered low-level because they are designed for and executed by physical hardware without further translation required.
+The main advantage of high-level languages over low-level languages is that they are easier to read, write, and maintain. Ultimately, programs written in a high-level language must be translated into machine language by a compiler or directly into behaviour by an interpreter.
+These programs could run on different machines (they are portable) so they were machine-independent. As new, more abstract languages have been developed, however, the concept of high- and low-level languages have become rather relative. Many of the early "high-level" languages are now considered relatively low-level in comparison to languages such as Python, Ruby, and Common Lisp, which have some features of fourth-generation programming languages and were called very high-level programming languages in the 1990s.
+
+
+== See also ==
+Programming language generations
+Domain-specific programming language
+
+
+== References ==

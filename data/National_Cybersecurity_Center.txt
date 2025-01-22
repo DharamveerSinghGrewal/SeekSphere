@@ -1,0 +1,89 @@
+The National Cybersecurity Center (NCC)  is a 501(c)(3) nonprofit organization founded in early 2016 in Colorado Springs, Colorado. The creation of the NCC was initially envisioned by Governor John Hi...
+
+The National Cybersecurity Center (NCC)  is a 501(c)(3) nonprofit organization founded in early 2016 in Colorado Springs, Colorado. The creation of the NCC was initially envisioned by Governor John Hickenlooper, in coordination with individuals from the University of Colorado Colorado Springs (UCCS) and local community members. The NCC provides services to public and private organizations and individuals through training, education, and research.   
+The NCC is not to be confused with the National Cybersecurity and Communications Integration Center (NCCIC), an office within the United States Department of Homeland Security. 
+
+
+== Leadership ==
+Ed Rios was CEO of the NCC from October 2016 to 2018.
+Vance Brown was CEO from 2018 to 2020.
+In 2020, Harry D. Raduege, Jr., Lieutenant General, USAF (Ret.) became CEO.
+Board members included
+Senator John Hickenlooper, Governor Jared Polis, Mayor John Suthers, 
+and several retired US military officers.
+
+Kyle Hybl (Chairman of the Board)
+Andre McGregor (Vice Chairman of the Board)
+Harry Raduege (CEO and Board President)
+Forrest Senti (Board Secretary)
+Mayor John Suthers (Past Chairman)
+Christian Anschutz
+Kathy Boe
+Gretchen Bliss
+Rick Crandall
+Kim Crider
+Honorable Karen S. Evans
+Sen. John Hickenlooper
+Gary McAlum
+Dawn Meyerriecks
+Erik Mitisek
+Governor Jared Polis
+Greg Oslan
+Mark Rasch
+Ed Rios
+Mark Weatherford
+Senior Vice Chancellor Martin Wood
+Ray Yepes
+
+
+== Cyber education ==
+
+The National Cybersecurity Center provides cybersecurity leadership, centered around two main pillars: K-12 education with the NCC Student Alliance, and the Adult Education Initiative.
+
+
+=== Student Alliance ===
+The NCCSA is a student organization focused on cybersecurity education. Its mission is to address the growing demand for trained cybersecurity professionals while providing students with valuable knowledge, career guidance, and academic pathways in this essential field.
+NCCSA is a network of student-run chapters at schools, offering opportunities for learning, competition, leadership development, soft skills enhancement, networking, skill-building, and social engagement. The organization originated as a collaborative effort among students, educators, community college peers, and the National Cybersecurity Center (NCC), with support from various partners and stakeholders, to create a student organization that serves the needs of cybersecurity students nationwide.
+
+The NCC has organized events such as cyber camps, Capture the Flag competitions, and other activities to provide students with hands-on experience.
+
+
+=== Cyber Force ===
+The NCC Cyber Force Initiative is designed to increase the number of cybersecurity professionals in the workforce and increase the number of underrepresented groups in the cybersecurity workforce.  The NCC offers both self-guide and instructor-led classes.
+
+
+== Space Information Sharing and Analysis Center ==
+On April 8, 2019, the NCC announced a partnership with Space ISAC. The Space ISAC is an Information Sharing and Analysis Center focused on space industry threats. Space ISAC collaborates across the global space industrial base to enhance the nation's ability to prepare for and respond to vulnerabilities, incidents, and threats. Space ISAC provides members with timely and actionable information and serves as the primary communications channel for the sector. 
+On February 25, 2021, the Space Information Sharing and Analysis Center (Space ISAC) announced a significant milestone, declaring the organization has reached Initial Operating Capability (IOC) following the launch of Space ISAC’s member portal and threat intelligence sharing platform. This capability will serve as the first of its kind, enabling commercial industry and international space partners to share timely, actionable information about space-based threats.
+On May 5, 2022, the NCC participated in the ribbon-cutting ceremony held by the University of Colorado Colorado Springs (UCCS) to celebrate the expansion of the Kevin W. O’Neil Cybersecurity Education and Research Center and Space Information Sharing and Analysis Center (Space ISAC). This facility, which houses the Space Information Sharing and Analysis Center(ISAC), is the only all-threats security information source for the public and private space sector, operated by the NCC since its formation in 2019.
+
+
+=== Founding members ===
+Founding board member include Kratos Defense & Security Solutions, Inc., Booz Allen Hamilton, MITRE, SES, Lockheed Martin, Northrop Grumman, Parsons Corporation, Purdue University, the Space Dynamics Laboratory, the Johns Hopkins University Applied Physics Laboratory, the Aerospace Corporation, and the University of Colorado Colorado Springs.
+
+
+== Cybersecurity for Government Leaders (CfGL) ==
+In 2021, the NCC launched Cybersecurity for State Leaders (CfSL) - as it was originally named - a cyber hygiene training for state leaders, supported by Google. Briefings were offered in all 50 states and trained 2,342 state and local leaders as a part of the program. (See 2021 Cybersecurity for State Leaders Program Report for more highlights.) 
+The program trained state legislatures on cybersecurity best practices through live, viral, on-demand, and text courses. CfSL aimed to educate state lawmakers and staff on "ways to strengthen defenses against digital attacks". A series of experts from all over the country including West Virginia U.S. Senator Joe Manchin; former DHS Cybersecurity Deputy Undersecretary, Mark Weatherford; senior experts and researchers at Google, Microsoft, and IBM; and Shark Tank’s Shark and cybersecurity guru, Robert Herjavec, helped teach some of the top cyber tips.
+The NCC offered briefings in all 50 states and trained 1,342 state and local leaders as a part of the program (see 2021 Cybersecurity for State Leaders Program Report for more highlights). 
+While reaching out to only state leaders, the NCC received many requests from government leaders and their staff at the local level to join the training as well. In 2023, the NCC expanded the training to be more inclusive of all government leaders and their staff and Cybersecurity for Government Leaders (CfGL) was created.
+
+
+== Colorado Cyber Resource Center (CCRC) ==
+In 2021 the National Cybersecurity Center (NCC) announced the launch of the Colorado Cyber Resource Center (CCRC) to help Colorado’s local governments, school districts, special districts, and critical infrastructure towards a more cyber-secure future.
+The Colorado Cyber Resource Center is the shared product of the Colorado Whole of State Working Group and the NCC. Led by local jurisdictions and supporting state and federal agencies, the Whole of State Working Group has evolved over the past several years into an organized collaborative working towards rising the tide of cybersecurity in Colorado. Concerned with the needs of our least-resourced jurisdictions, the Working Group uses feedback from smaller jurisdictions as a starting point for developing cyber resources in Colorado.
+
+
+=== PISCES ===
+The CCRC will soon serve as the hub for Colorado’s chapter of PISCES- an initiative that helps monitor network flows of smaller jurisdictions at no charge while allowing cybersecurity students to gain experience that translates into workforce talent. The Public Infrastructure Security Cyber Education System (PISCES) provides qualified students with curricula and supervised experiences to act as entry-level cyber analysts. Students analyze streaming data for small communities or municipalities who may otherwise not be able to obtain cybersecurity to the extent needed. Through PISCES, a reliable, high-quality pipeline is being developed to address the shortage of cyber professionals ready for the workforce.
+PISCES works with professors to develop a curriculum for students in cyber-related fields and to give those students controlled access to real data from communities and municipalities. Students learn and enhance their skills in detecting threats while providing information to the municipalities and communities to secure the threat and prevent future attacks.
+
+
+== See also ==
+National Cyber Security Alliance, which assists U.S. home users, small businesses and education
+National Cybersecurity Center of Excellence, which assists businesses
+NH-ISAC, in healthcare
+National Cyber Security Centre (disambiguation)
+
+
+== References ==

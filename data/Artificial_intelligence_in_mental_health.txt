@@ -1,0 +1,106 @@
+Artificial intelligence in mental health is the application of artificial intelligence (AI), computational technologies and algorithms to supplement the understanding, diagnosis, and treatment of ment...
+
+Artificial intelligence in mental health is the application of artificial intelligence (AI), computational technologies and algorithms to supplement the understanding, diagnosis, and treatment of mental health disorders. AI is becoming a ubiquitous force in everyday life which can be seen through frequent operation of models like ChatGPT. Utilizing AI in the realm of mental health signifies a form of digital healthcare, in which, the goal is to increase accessibility in a world where mental health is becoming a growing concern. Prospective ideas involving AI in mental health include identification and diagnosis of mental disorders, explication of electronic health records, creation of personalized treatment plans, and predictive analytics for suicide prevention.  Learning how to apply AI in healthcare proves to be a difficult task with many challenges, thus it remains rarely used as efforts to bridge gaps are deliberated. 
+
+
+== Background ==
+In 2019, 1 in every 8 people, or 970 million people around the world were living with a mental disorder, with anxiety and depressive disorders the most common. In 2020, the number of people living with anxiety and depressive disorders rose significantly because of the COVID-19 pandemic. Additionally, the prevalence of mental health and addiction disorders exhibits a nearly equal distribution across genders, emphasizing the widespread nature of the issue.
+The use of AI in mental health aims to support responsive and sustainable interventions against the global challenge posed by mental health disorders. Some issues common to the mental health industry are provider shortages, inefficient diagnoses, and ineffective treatments. The AI industry sees a market in healthcare, with a focus on mental health applications, which are projected to grow substantially, from $5 billion in 2020 to an estimated $45 billion by 2026. This growth indicates a growing interest in AI's ability to address critical challenges in mental healthcare provision through the development and implementation of innovative solutions.
+
+
+== Types of AI in mental health ==
+As of 2020, there was no Food and Drug Administration (FDA) approval for AI in the field of Psychiatry. There are two components of AI that are currently widely available for multiple applications, they are Machine learning (ML) and Natural language processing (NLP).
+
+
+=== Machine learning ===
+Machine learning is a way for a computer to learn from large datasets presented to it, without explicit instructions. It requires structured databases; unlike scientific research which begins with a hypothesis, ML begins by looking at the data and finding its own hypothesis based on the patterns that it detects. It then creates algorithms to be able to predict new information, based on the created algorithm and pattern that it was able to generate from the original dataset. This model of AI is data driven, as it requires a huge amount of structured data—an obstacle in the field of psychiatry—with a lot of its patient encounters being based on interview and storytelling on the part of the patient. Due to these limitations, some researchers have adopted a different method of developing ML models, a process named transfer learning, to be used in psychiatry based on trained models from different fields.
+Transfer learning was used by researchers to develop a modified algorithm to detect alcoholism vs. non-alcoholism, and on another occasion, the same method was used to detect the signs of post-traumatic stress disorder.
+
+
+=== Natural language processing ===
+One of the obstacles for AI is finding or creating an organized dataset to train and develop a useful algorithm. Natural language processing can be used to create such a dataset. NLP is a way for a computer to analyze text and speech, process semantic and lexical representations, as well as recognize speech and optical characters in data. This is crucial because many of the diagnoses and DSM-5 mental health disorders are diagnosed via speech in doctor-patient interviews, utilizing the clinician's skill for behavioral pattern recognition and translating it into medically relevant information to be documented and used for diagnoses. NLP can be used to extract, organize, and structure data from patients' everyday interactions, not just during a clinical visit, raises ethical and legal concerns over consent to personal data use and data anonymization.
+
+
+== Applications ==
+
+
+=== Diagnosis ===
+AI with the use of NLP and ML can be used to help diagnose individuals with mental health disorders. It can be used to differentiate closely similar disorders based on their initial presentation to inform timely treatment before disease progression. For example, it may be able to differentiate unipolar from bipolar depression by analyzing imaging and medical scans. AI also has the potential to identify novel diseases that were overlooked due to the heterogeneity of presentation of a single disorder. Doctors may overlook the presentation of a disorder because while many people get diagnosed with depression, that depression may take on different forms and be enacted in different behaviors. AI can parse through the variability found in human expression data and potentially identify different types of depression.
+
+
+=== Prognosis ===
+AI can be used to create accurate predictions for disease progression once diagnosed. AI algorithms can also use data-driven approaches to build new clinical risk prediction models without relying primarily on current theories of psychopathology. However, internal and external validation of an AI algorithm is essential for its clinical utility. In fact, some studies have used neuroimaging, electronic health records, genetic data, and speech data to predict how depression would present in patients, their risk for suicidality or substance abuse, or functional outcomes.
+
+
+=== Treatment ===
+In psychiatry, in many cases multiple drugs are trialed with the patients until the correct combination or regimen is reached to effectively treat their ailment—AI could theoretically be used to predict treatment response based on observed data collected from various sources. This use of AI could bypass all the time, effort, resources needed,  and burden placed on both patients and clinicians.
+
+
+== Benefits ==
+AI in mental health offers several benefits, such as:
+
+Improving the accuracy of diagnosis: AI-based systems can analyze data from various sources, such as brain imaging and genetic tests, to identify biomarkers of mental health conditions and improve the accuracy of diagnosis.
+Personalized treatment: AI-based systems can analyze data from electronic health records (EHRs), brain imaging, and genetic tests to identify the most effective treatment for specific individuals.
+Improving access to mental healthcare: AI-based systems can be used to deliver mental health interventions, such as cognitive behavioral therapy, in virtual environments, which can improve access to mental healthcare in areas where access is limited.
+Intelligent monitoring and early warning signs: AI-based systems can assist in recognition of mental health concerns earlier on, hence quicker turn overs in strategizing action plans and decreased chances of extreme episodes.
+Chatbots and virtual assistants: AI-based systems can accelerate the rate of customer care and boost overall efficiency through task features like appointment scheduling and organization of patient background information.
+Predictive analytics for suicide prevention: AI-based systems may be optimized to analyze data regarding suicide to locate trends to help better understand potential risks and probabilities in different groups of people.
+
+
+== Challenges ==
+AI in mental health also poses several challenges, including:
+
+Informed consent: AI-based systems are intricate, along with possessing biases and data-related complications. Properly informing patients of these drawbacks is crucial, though the responsibility falls in the hands of clinicians.
+Right to explanation: AI-based systems may initiate patient questions or desired expounding on diagnoses or suggested treatments which must be provided to patients upon their request.
+Patient privacy: AI-based systems must foster compatibility between the functionality of AI and the protection of those utilizing it to ease uneasiness towards the idea.
+Insufficiency of diversity: AI-based training must be wholistic to cater towards a diverse group of patients while providing comprehensive care, rather than disproportionately representing groups or being unskillful in supporting certain populations.
+Apprehension of providers and organizations: AI-based systems must be well grasped by those employed in healthcare and who serve complementarily to its functions, as a lack of accord between the two can diminish patient care.
+Tarasoff Duty: Since providers who are human have a real duty to warn people in the instance of where they perceive the patient is a risk to others or themselves, questions of who would bear that responsibility arise. [1]
+Data acquisition and quality: Mental health data collection faces strict ethical and privacy constraints, and a great deal of related information is private and not publicly available. This makes it challenging for AI to access high-quality, diverse datasets. And lack of data or poor data quality can directly affect the accuracy and effectiveness of AI systems, thus preventing them from being widely used in real life. Translated with DeepL.com (free version)
+
+
+== Current AI trends in mental health ==
+Mental health tech startups continue to lead investment activity in digital health despite the ongoing impacts of macroeconomic factors like inflation, supply chain disruptions, and interest rates.
+According to CB Insights, State of Mental Health Tech 2021 Report, mental health tech companies raised $5.5 billion worldwide (324 deals), a 139% increase from the previous year that recorded 258 deals. 
+A number of startups that are using AI in mental healthcare have closed notable deals in 2022 as well. Among them is the AI chatbot Wysa (20$ million in funding), BlueSkeye that is working on improving early diagnosis (£3.4 million), the Upheal smart notebook for mental health professionals (€1.068 million), and the AI-based mental health companion clare&me (€1 million).
+An analysis of the investment landscape and ongoing research suggests that we are likely to see the emergence of more emotionally intelligent AI bots and new mental health applications driven by AI prediction and detection capabilities.
+For instance, researchers at Vanderbilt University Medical Center in Tennessee, US, have developed an ML algorithm that uses a person’s hospital admission data, including age, gender, and past medical diagnoses, to make an 80% accurate prediction of whether this individual is likely to take their own life. And researchers at the University of Florida are about to test their new AI platform aimed at making an accurate diagnosis in patients with early Parkinson’s disease. Research is also underway to develop a tool combining explainable AI and deep learning to prescribe personalized treatment plans for children with schizophrenia.
+In January of 2024, Cedars-Sinai physician-scientists developed a first-of-its-kind program that uses immersive virtual reality and generative artificial intelligence to provide mental health support. [2] The program is called XAIA which employs a large language model programmed to resemble a human therapist. [3]
+The University of Southern California is researching the effectiveness of a virtual therapist named Ellie. Through a webcam and microphone, this AI is able to process and analyze the emotional cues derived from the patient's face and the variation in expressions and tone of voice. [4]
+A team of Stanford Psychologists and AI experts created "Woebot". Woebot is an app that makes therapy sessions available 24/7. WoeBot tracks its users' mood through brief daily chat conversations and offers curated videos or word games to assist users in managing their mental health. [5] A Scandinavian team of software engineers and a clinical psychologist created "Heartfelt Services". Heartfelt Services is an application meant to simulate conventional talk therapy with an AI therapist. 
+
+
+== Criticism ==
+AI in mental health is still an emerging field and there are still some concerns and criticisms about the use of AI in this area, such as:
+
+Lack of data: There is a lack of data available to train AI systems, which limits their ability to accurately identify patterns in mental health conditions and predict outcomes.
+Bias: AI systems can be biased if the data used to train them is biased. This can lead to inaccurate predictions and unfair treatment of certain groups of people.
+Privacy: The use of AI in mental health raises concerns about privacy, as large amounts of personal data need to be collected and analyzed.
+Harmful Advice: The use of AI in mental health raises concerns about harmful advice being given since it is an AI [6]; one man killed himself after a chatbot told him to "sacrifice himself" [7] and some chatbots have already been taken down due to the bad advice they gave [8]
+Relationship: For decades research has consistently shown that the therapeutic relationship plays the most important role in whether and how therapy works. [9]
+Empathy? Some question whether a human would experience empathy from an AI chatbot in the same way they would receive empathy from a human. As an AI has never experienced a heartbreak and does not know what addiction truly feels like, some question whether AI therapy can be considered a substitute for huma therapy
+
+
+== Ethical issues ==
+Though there is a large deal of progression to be made, the incorporation of AI in mental health emphasizes a necessity for legal and regulatory frameworks as advancements are made. Constructing harmony amidst human engagement and AI is a difficult task, as there is a risk of healthcare becoming seemingly robotic and losing the humanness that has previously defined the field. Furthermore, granting patients a feeling of security and safety is a priority considering AI's reliance on individual data to perform and respond to inputs. If not approached properly, the process of trying to increase accessibility could remove elements that negatively alter patient experience with receiving mental support. To avoid veering in the wrong direction, more research should continue to develop a deeper understanding of where the incorporation of AI produces advantages and disadvantages.
+
+
+== See also ==
+Artificial intelligence in healthcare
+Artificial intelligence detection software
+AI alignment
+Artificial intelligence in healthcare
+Artificial intelligence
+Glossary of artificial intelligence
+Clinical decision support system
+Computer-aided diagnosis
+Health software
+
+
+== References ==
+
+
+== Further reading ==
+Lee, Ellen E.; Torous, John; De Choudhury, Munmun; Depp, Colin A.; Graham, Sarah A.; Kim, Ho-Cheol; Paulus, Martin P.; Krystal, John H.; Jeste, Dilip V. (2021). "Artificial Intelligence for Mental Health Care: Clinical Applications, Barriers, Facilitators, and Artificial Wisdom". Biological Psychiatry: Cognitive Neuroscience and Neuroimaging. 6 (9): 856–864. doi:10.1016/j.bpsc.2021.02.001.
+Alhuwaydi, Ahmed M. (2024). "Exploring the Role of Artificial Intelligence in Mental Healthcare: Current Trends and Future Directions – A Narrative Review for a Comprehensive Insight". Risk Management and Healthcare Policy. 17: 1339–1348. doi:10.2147/RMHP.S461562.
+Liu, Feng; Ju, Qianqian; Zheng, Qijian; Peng, Yujia (2024). "Artificial intelligence in mental health: innovations brought by artificial intelligence techniques in stress detection and interventions of building resilience". Current Opinion in Behavioral Sciences. 60: 101452. doi:10.1016/j.cobeha.2024.101452.

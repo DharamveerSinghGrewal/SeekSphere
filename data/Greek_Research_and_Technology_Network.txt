@@ -1,0 +1,39 @@
+The National Infrastructure for  Research and Technology Network or GRNET (Greek: Εθνικό Δίκτυο Υποδομών Τεχνολογίας και Έρευνας, ΕΔΥΤΕ) is the national research and education network - NREN of Greece...
+
+The National Infrastructure for  Research and Technology Network or GRNET (Greek: Εθνικό Δίκτυο Υποδομών Τεχνολογίας και Έρευνας, ΕΔΥΤΕ) is the national research and education network - NREN of Greece and was formerly named Greek Research and Educational Network. GRNET S.A. provides internet connectivity, e-infrastructure, and other services to the Greek Educational, Academic, and Research community. Additionally, GRNET makes digital applications. It also provides services to the following sectors: Education, Research, Health, Culture. GRNET supports all Universities, Technological Education Institutes, Research Centers, and over 9,500 schools.
+The GRNET head office is located in Athens, Greece.
+
+
+== E-Infrastructures and Innovative Services ==
+The GRNET backbone interconnects more than 100 institutions including all universities and technological institutions, research centers, public hospitals, museums, and libraries, as well as the Greek School Network.
+GRNET is present in global networking for research and education, representing Greece in GÉANT.
+
+
+== Large Scale Computing Services for Researchers (Cloud Computing) ==
+GRNET offers Cloud Computing services that are available via the Infrastructure as a Service model, under the brand name “Okeanos” to promote academic, educational, and research aims. These services are hosted on GRNET's own infrastructure and fall into the category of Infrastructure as a Service (IaaS). More specifically, the following cloud services are provided:
+
+~Okeanos: Cloud Service with end users in the academic and research community powered by Synnefo, an IaaS cloud computing project.
+ViMa: Virtual Private Server (VPS) Service provided to GRNET peers for hosting of services.
+“~Okeanos” service provides academic users the ability to create a multi-layer virtual infrastructure and instantiate virtual computing machines, local networks, and a storage space inside the virtual machine. The Cloud Computing infrastructure and services of GRNET have been made available to the pan-European R&E community via the “Okeanos-global” service.
+
+
+== Hellenic High Performance Computing Infrastructure ==
+The GRNET “ARIS”  is a national high-performance computing infrastructure providing scientists with additional computational power, storage space, and software (pre-installed compilers, scientific libraries, and popular scientific application suites) to assist the development and execution of scientific applications.
+The system went into a pilot operational phase in June 2015, and it is available for research-related use to researchers and scientists across Greek universities, technological institutions, and research centers.
+
+
+== GR-IX ==
+GRNET operates the Greek Internet Exchange (GR-IX). GR-IX interconnects Internet Service Providers, content providers, and other entities and facilitates the exchange of IP traffic among them.
+
+
+== International activities ==
+GRNET participates in international projects funded by the European Union. It also participates in regional and European projects that aim to bridge the digital divide between countries of South-East Europe and the rest of Europe, such as the SEEREN and SEEFIRE projects.
+
+
+== See also ==
+Communications in Greece
+Internet in Greece
+List of Projects with GRNET Participation
+
+
+== References ==

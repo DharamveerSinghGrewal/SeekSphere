@@ -1,0 +1,20 @@
+The Saudi Federation For Cybersecurity, Programming and Drones (SAFCSP) is a national institution in Saudi Arabia aiming at developing professional skills in the fields of cybersecurity and programmin...
+
+The Saudi Federation For Cybersecurity, Programming and Drones (SAFCSP) is a national institution in Saudi Arabia aiming at developing professional skills in the fields of cybersecurity and programming.
+
+
+== Structure ==
+SAFCSP is associated with the Saudi Arabian Olympic Committee and governed by the board of directors that is chaired by Faisal Al-Khamisi.
+
+
+== Hajj Hackathon ==
+In 2018, SAFCSP organized the Hajj Hackathon event in Jeddah, west of Saudi Arabia, with 2,950 participants from over 100 countries. With this number of participants, SAFCSP broke the Guinness World Record for 'Most participants in a hackathon'.
+
+
+== Bug Bounty ==
+In 2019, SAFCSP has introduced Bug Bounty, a rewards platform that aims at exploiting the capabilities of individual talents and research to detect and discover vulnerabilities in software and websites of organizations.
+
+
+== References ==
+
+Saudi Arabia portal

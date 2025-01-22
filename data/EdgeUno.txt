@@ -1,0 +1,26 @@
+EdgeUno is a technology company established in 2018. It provides services related to cloud computing, edge computing, and connectivity. The company was founded by Mehmet Akcin, who has previously held...
+
+EdgeUno is a technology company established in 2018. It provides services related to cloud computing, edge computing, and connectivity. The company was founded by Mehmet Akcin, who has previously held positions at Microsoft, Yahoo, and ICANN. EdgeUno's services are primarily targeted towards the Latin American market.
+
+
+== Services ==
+EdgeUno provides a range of services including managed hosting, managed cloud, content delivery network (CDN), and Internet exchange point (IXP).
+
+
+== Expansion ==
+As of 2023, EdgeUno operates 50 data centers in Latin America and has plans to increase this number by the end of the year. The company is also considering expansion into four additional Latin American countries.
+
+
+== Network ==
+EdgeUno's network has a capacity of 300 Tbps and includes over 50 data centers. The company has direct peering arrangements with more than 3000 networks across Latin America.
+
+
+== Sports sponsorship ==
+EdgeUno sponsors the Fortaleza football club, a professional football team based in Bogotá, Colombia.
+
+
+== References ==
+
+
+== External links ==
+Official website

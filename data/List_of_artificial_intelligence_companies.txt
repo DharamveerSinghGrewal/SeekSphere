@@ -1,0 +1,62 @@
+Below is a list of notable companies that primarily focuses on artificial intelligence (AI). Companies that simply makes use of AI but have a different primary focus are not included.    == Americas =...
+
+Below is a list of notable companies that primarily focuses on artificial intelligence (AI). Companies that simply makes use of AI but have a different primary focus are not included. 
+
+
+== Americas ==
+
+
+=== Canada ===
+Cohere
+Element AI
+
+
+=== United States ===
+
+
+== Asia ==
+
+
+=== China ===
+
+
+=== Hong Kong ===
+Artisse AI
+
+
+=== Israel ===
+AI21 Labs
+
+
+=== UAE ===
+LocAI
+
+
+== Europe ==
+
+
+=== France ===
+Mistral AI
+
+
+=== Germany ===
+Aleph Alpha
+
+
+=== Switzerland ===
+Art Recognition
+
+
+=== Ukraine ===
+Respeecher
+
+
+=== United Kingdom ===
+
+
+== See also ==
+List of artificial intelligence projects
+List of self-driving system suppliers
+
+
+== References ==

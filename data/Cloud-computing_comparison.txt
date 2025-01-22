@@ -1,0 +1,37 @@
+The following is a comparison of cloud-computing software and providers.   == IaaS (Infrastructure as a service) ==   === Providers ===   ==== General ====   == SaaS (Software as a Service) ==   === G...
+
+The following is a comparison of cloud-computing software and providers.
+
+
+== IaaS (Infrastructure as a service) ==
+
+
+=== Providers ===
+
+
+==== General ====
+
+
+== SaaS (Software as a Service) ==
+
+
+=== General ===
+
+
+=== Supported hosts ===
+
+
+=== Supported guests ===
+
+
+== PaaS (Platform as a service) ==
+
+
+=== Providers ===
+
+
+=== Providers on IaaS ===
+PaaS providers which can run on IaaS providers ("itself" means the provider is both PaaS and IaaS):
+
+
+== References ==

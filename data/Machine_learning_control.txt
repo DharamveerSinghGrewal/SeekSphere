@@ -1,0 +1,37 @@
+Machine learning control (MLC) is a subfield of machine learning, intelligent control, and control theory which aims to solve optimal control problems with machine learning methods. Key applications a...
+
+Machine learning control (MLC) is a subfield of machine learning, intelligent control, and control theory which aims to solve optimal control problems with machine learning methods. Key applications are complex nonlinear systems for which linear control theory methods are not applicable.
+
+
+== Types of problems and tasks ==
+Four types of problems are commonly encountered:
+
+Control parameter identification: MLC translates to a parameter identification if the structure of the control law is given but the parameters are unknown. One example is the genetic algorithm for optimizing coefficients of a PID controller or discrete-time optimal control.
+Control design as regression problem of the first kind: MLC approximates a general nonlinear mapping from sensor signals to actuation commands, if the sensor signals and the optimal actuation command are known for every state. One example is the computation of sensor feedback from a known full state feedback. Neural networks are commonly used for such tasks.
+Control design as regression problem of the second kind: MLC may also identify arbitrary nonlinear control laws which minimize the cost function of the plant. In this case, neither a model, the control law structure, nor the optimizing actuation command needs to be known. The optimization is only based on the control performance (cost function) as measured in the plant. Genetic programming is a powerful regression technique for this purpose.
+Reinforcement learning control: The control law may be continually updated over measured performance changes (rewards) using reinforcement learning.
+
+
+== Applications ==
+MLC has been successfully applied
+to many nonlinear control problems,
+exploring unknown and often unexpected actuation mechanisms. Example applications include:
+
+spacecraft attitude control,
+thermal control of buildings,
+feedback control of turbulence,
+and remotely operated underwater vehicles.
+Many more engineering MLC application are summarized in the review article of PJ Fleming & RC Purshouse (2002).
+As is the case for all general nonlinear methods,
+MLC does not guarantee convergence, 
+optimality, or robustness for a range of operating conditions.
+
+
+== See also ==
+Reinforcement learning
+
+
+== References ==
+
+
+== Further reading ==

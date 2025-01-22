@@ -1,0 +1,36 @@
+Research software engineering is the use of software engineering practices, methods and techniques for research software, i.e. software that was made for and is mainly used within research projects. T...
+
+Research software engineering is the use of software engineering practices, methods and techniques for research software, i.e. software that was made for and is mainly used within research projects. The term was proposed in a research paper in 2010 in response to an empirical survey on tools used for software development in research projects. It started to be used in United Kingdom in 2012, when it was needed to define the type of software development needed in research. This focuses on reproducibility, reusability, and accuracy of data analysis and applications created for research.
+
+
+== Support ==
+Various type of associations and organisations have been created around this role to support the creation of posts in universities and research institutes. In 2014 a Research Software Engineer Association was created in UK, which attracted 160 members in the first three months and which lead to the creation of the Society of Research Software Engineering in 2019. Other countries like the Netherlands, Germany, and the USA followed creating similar communities and there are similar efforts being pursued in Asia, Australia, Canada, New Zealand, the Nordic countries, and Belgium. In January 2021 the International Council of RSE Associations was introduced.
+UK counts over 40 universities and institutes with groups that provide access to software expertise to different areas of research. Additionally, the Engineering and Physical Sciences Research Council created a Research Software Engineer fellowship to promote this role and help the creation of RSE groups across UK, with calls in 2015, 2017, and 2020.
+The world first RSE conference took place in UK in September 2016 and it has been repeated annually (except for a gap in 2020) since. In 2019 the first national RSE conferences in Germany and the Netherlands were held, next editions were planned for 2020 and then cancelled.
+The SORSE (A Series of Online Research Software Events) community was established in late‑2020 in response to the COVID-19 pandemic and ran its first online event in September 2020.
+
+
+== Recognition and Awards ==
+The annual Research Software Engineering Conference organised by the Society of Research Software Engineering recognises outstanding contributions to the field of research software engineering through awards presented at the conference. The RSE Society Award was first presented in 2019, at the Fourth Conference of Research Software Engineering held at the University of Birmingham, to recognise outstanding contributions to the research software engineering community over a sustained period of time. In 2022, three community awards were created to recognise contributions to the RSE community over the past 12 months: Rising Star, Training & Education, and Impact. From 2023, these were renamed the Claire Wyatt Community Awards, "to recognise the incredible contribution that Claire [Wyatt] made to the Society over the last decade}.
+
+
+== See also ==
+Open Energy Modelling Initiative — relevant here because the bulk of the development occurs in universities
+
+
+== References ==
+
+
+== Further reading ==
+The Turing Way
+Research Software Engineering with Python
+Software Carpentry
+Good Research Code Handbook
+
+
+== External links ==
+SORSE — A Series of Online Research Software Events — listing of online events tailored for the COVID-19 era
+Research Software Engineers: State of the Nation Report 2017
+Research Software Alliance (ReSA) (international)
+Society of Research Software Engineering (UK)
+US RSE Association

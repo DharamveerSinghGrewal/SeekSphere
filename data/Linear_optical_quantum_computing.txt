@@ -1,0 +1,1244 @@
+Linear optical quantum computing or linear optics quantum computation (LOQC), also photonic quantum computing (PQC), is a paradigm of quantum computation, allowing (under certain conditions, described...
+
+Linear optical quantum computing or linear optics quantum computation (LOQC), also photonic quantum computing (PQC), is a paradigm of quantum computation, allowing (under certain conditions, described below) universal quantum computation. LOQC uses photons as information carriers, mainly uses linear optical elements, or optical instruments (including reciprocal mirrors and waveplates) to process quantum information, and uses photon detectors and quantum memories to detect and store quantum information.
+
+
+== Overview ==
+Although there are many other implementations for quantum information processing (QIP) and quantum computation, optical quantum systems are prominent candidates, since they link quantum computation and quantum communication in the same framework. In optical systems for quantum information processing, the unit of light in a given mode—or photon—is used to represent a qubit. Superpositions of quantum states can be easily represented, encrypted, transmitted and detected using photons. Besides, linear optical elements of optical systems may be the simplest building blocks to realize quantum operations and quantum gates. Each linear optical element equivalently applies a unitary transformation on a finite number of qubits. The system of finite linear optical elements constructs a network of linear optics, which can realize any quantum circuit diagram or quantum network based on the quantum circuit model. Quantum computing with continuous variables is also possible under the linear optics scheme.
+The universality of 1- and 2-bit gates to implement arbitrary quantum computation has been proven. Up to 
+  
+    
+      
+        N
+        ×
+        N
+      
+    
+    {\displaystyle N\times N}
+  
+ unitary matrix operations (
+  
+    
+      
+        U
+        (
+        N
+        )
+      
+    
+    {\displaystyle U(N)}
+  
+) can be realized by only using mirrors, beam splitters and phase shifters (this is also a starting point of boson sampling and of computational complexity analysis for LOQC). It points out that each 
+  
+    
+      
+        U
+        (
+        N
+        )
+      
+    
+    {\displaystyle U(N)}
+  
+ operator with 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ inputs and 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ outputs can be constructed  via 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        
+          N
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}(N^{2})}
+  
+ linear optical elements. Based on the reason of universality and complexity, LOQC usually only uses mirrors, beam splitters, phase shifters and their combinations such as Mach–Zehnder interferometers with phase shifts to implement arbitrary quantum operators. If using a non-deterministic scheme, this fact also implies that LOQC could be resource-inefficient in terms of the number of optical elements and time steps needed to implement a certain quantum gate or circuit, which is a major drawback of LOQC.
+Operations via linear optical elements (beam splitters, mirrors and phase shifters, in this case) preserve the photon statistics of input light. For example, a coherent (classical) light input produces a coherent light output; a superposition of quantum states input yields a quantum light state output. Due to this reason, people usually use single photon source case to analyze the effect of linear optical elements and operators. Multi-photon cases can be implied through some statistical transformations.
+An intrinsic problem in using photons as information carriers is that photons hardly interact with each other. This potentially causes a scalability problem for LOQC, since nonlinear operations are hard to implement, which can increase the complexity of operators and hence can increase the resources required to realize a given computational function. One way to solve this problem is to bring nonlinear devices into the quantum network. For instance, the Kerr effect can be applied into LOQC to make a single-photon controlled-NOT and other operations.
+
+
+=== KLM protocol ===
+
+It was believed that adding nonlinearity to the linear optical network was sufficient to realize efficient quantum computation. However, to implement nonlinear optical effects is a difficult task. In 2000, Knill, Laflamme and Milburn proved that it is possible to create universal quantum computers solely with linear optical tools. Their work has become known as the "KLM scheme" or "KLM protocol", which uses linear optical elements, single photon sources and photon detectors as resources to construct a quantum computation scheme involving only ancilla resources, quantum teleportations and error corrections. It uses another way of efficient quantum computation with linear optical systems, and promotes nonlinear operations solely with linear optical elements.
+At its root, the KLM scheme induces an effective interaction between photons by making projective measurements with photodetectors, which falls into the category of non-deterministic quantum computation. It is based on a non-linear sign shift between two qubits that uses two ancilla photons and post-selection. It is also based on the demonstrations that the probability of success of the quantum gates can be made close to one by using entangled states prepared non-deterministically and quantum teleportation with single-qubit operations Otherwise, without a high enough success rate of a single quantum gate unit, it may require an exponential amount of computing resources. Meanwhile, the KLM scheme is based on the fact that proper quantum coding can reduce the resources for obtaining accurately encoded qubits efficiently with respect to the accuracy achieved, and can make LOQC fault-tolerant for photon loss, detector inefficiency and phase decoherence. As a result, LOQC can be robustly implemented through the KLM scheme with a low enough resource requirement to suggest practical scalability, making it as promising a technology for QIP as other known implementations.
+
+
+=== Boson sampling ===
+
+The more limited boson sampling model was suggested and analyzed by Aaronson and Arkhipov in 2010. It is not believed to be universal, but can still solve problems that are believed to be beyond the ability of classical computers, such as the boson sampling problem.
+On 3 December 2020, a team led by Chinese Physicist Pan Jianwei (潘建伟) and Lu Chaoyang (陆朝阳) from University of Science and Technology of China in Hefei, Anhui Province submitted their results to Science in which they solved a problem that is virtually unassailable by any classical computer; thereby proving Quantum supremacy of their photon-based quantum computer called Jiu Zhang Quantum Computer (九章量子计算机).  The boson sampling problem was solved in 200 seconds, they estimated that China's Sunway TaihuLight Supercomputer would take 2.5 billion years to solve - a quantum supremacy of around 10^14. Jiu Zhang was named in honor of China's oldest surviving mathematical text (Jiǔ zhāng suàn shù) The Nine Chapters on the Mathematical Art 
+
+
+== Ingredients ==
+DiVincenzo's criteria for quantum computation and QIP give that a universal system for QIP should satisfy at least the following requirements:
+
+a scalable physical system with well characterized qubits,
+the ability to initialize the state of the qubits to a simple fiducial state, such as 
+  
+    
+      
+        
+          |
+        
+        000
+        ⋯
+        ⟩
+      
+    
+    {\displaystyle |000\cdots \rangle }
+  
+,
+long relevant decoherence times, much longer than the gate operation time,
+a "universal" set of quantum gates (this requirement cannot be satisfied by a non-universal system),
+a qubit-specific measurement capability;if the system is also aiming for quantum communication, it should also satisfy at least the following two requirements:
+the ability to interconvert stationary and flying qubits, and
+the ability to faithfully transmit flying qubits between specified location.
+As a result of using photons and linear optical circuits, in general LOQC systems can easily satisfy conditions 3, 6 and 7. The following sections mainly focus on the implementations of quantum information preparation, readout, manipulation, scalability and error corrections, in order to discuss the advantages and disadvantages of LOQC as a candidate for QIP
+
+
+=== Qubits and modes ===
+A qubit is one of the fundamental QIP units. A qubit state which can be represented by
+
+  
+    
+      
+        α
+        
+          |
+        
+        0
+        ⟩
+        +
+        β
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle \alpha |0\rangle +\beta |1\rangle }
+  
+ is a superposition state which, if measured in the orthonormal basis 
+  
+    
+      
+        {
+        
+          |
+        
+        0
+        ⟩
+        ,
+        
+          |
+        
+        1
+        ⟩
+        }
+      
+    
+    {\displaystyle \{|0\rangle ,|1\rangle \}}
+  
+, has probability 
+  
+    
+      
+        
+          |
+        
+        α
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\alpha |^{2}}
+  
+ of being in the 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+  
+ state and probability 
+  
+    
+      
+        
+          |
+        
+        β
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\beta |^{2}}
+  
+ of being in the 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+ state, where 
+  
+    
+      
+        
+          |
+        
+        α
+        
+          
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          |
+        
+        β
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle |\alpha |^{2}+|\beta |^{2}=1}
+  
+ is the normalization condition. An optical mode is a distinguishable optical communication channel, which is usually labeled by subscripts of a quantum state. There are many ways to define distinguishable optical communication channels. For example, a set of modes could be different polarization of light which can be picked out with linear optical elements, various frequencies, or a combination of the two cases above.
+In the KLM protocol, each of the photons is usually in one of two modes, and the modes are different between the photons (the possibility that a mode is occupied by more than one photon is zero). This is not the case only during implementations of controlled quantum gates such as CNOT. When the state of the system is as described, the photons can be distinguished, since they are in different modes, and therefore a qubit state can be represented using a single photon in two modes, vertical (V) and horizontal (H): for example, 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+        ≡
+        
+          |
+        
+        0
+        ,
+        1
+        
+          ⟩
+          
+            V
+            H
+          
+        
+      
+    
+    {\displaystyle |0\rangle \equiv |0,1\rangle _{VH}}
+  
+ and 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+        ≡
+        
+          |
+        
+        1
+        ,
+        0
+        
+          ⟩
+          
+            V
+            H
+          
+        
+      
+    
+    {\displaystyle |1\rangle \equiv |1,0\rangle _{VH}}
+  
+. It is common to refer to the states defined via occupation of modes as Fock states.
+In boson sampling, photons are not distinguished, and therefore cannot directly represent the qubit state. Instead, we represent the qubit state of the entire quantum system by using the Fock states of 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+ modes which are occupied by 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ indistinguishable single photons (this is a 
+  
+    
+      
+        
+          
+            
+              
+                (
+              
+              
+                
+                  M
+                  +
+                  N
+                  −
+                  1
+                
+                M
+              
+              
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\tbinom {M+N-1}{M}}}
+  
+-level quantum system).
+
+
+=== State preparation ===
+To prepare a desired multi-photon quantum state for LOQC, a single-photon state is first required. Therefore, non-linear optical elements, such as single-photon generators and some optical modules, will be employed. For example, optical parametric down-conversion can be used to conditionally generate the 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+        ≡
+        
+          |
+        
+        1
+        ,
+        0
+        
+          ⟩
+          
+            V
+            H
+          
+        
+      
+    
+    {\displaystyle |1\rangle \equiv |1,0\rangle _{VH}}
+  
+ state in the vertical polarization channel at time 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+ (subscripts are ignored for this single qubit case). By using a conditional single-photon source, the output state is guaranteed, although this may require several attempts (depending on the success rate). A joint multi-qubit state can be prepared in a similar way. In general, an arbitrary quantum state can be generated for QIP with a proper set of photon sources.
+
+
+=== Implementations of elementary quantum gates ===
+To achieve universal quantum computing, LOQC should be capable of realizing a complete set of universal gates. This can be achieved in the KLM protocol but not in the boson sampling model.
+Ignoring error correction and other issues, the basic principle in implementations of elementary quantum gates using only mirrors, beam splitters and phase shifters is that by using these linear optical elements, one can construct any arbitrary 1-qubit unitary operation; in other words, those linear optical elements support a complete set of operators on any single qubit.
+The unitary matrix associated with a beam splitter 
+  
+    
+      
+        
+          
+            B
+          
+          
+            θ
+            ,
+            ϕ
+          
+        
+      
+    
+    {\displaystyle \mathbf {B} _{\theta ,\phi }}
+  
+ is:
+
+  
+    
+      
+        U
+        (
+        
+          
+            B
+          
+          
+            θ
+            ,
+            ϕ
+          
+        
+        )
+        =
+        
+          
+            [
+            
+              
+                
+                  cos
+                  ⁡
+                  θ
+                
+                
+                  −
+                  
+                    e
+                    
+                      i
+                      ϕ
+                    
+                  
+                  sin
+                  ⁡
+                  θ
+                
+              
+              
+                
+                  
+                    e
+                    
+                      −
+                      i
+                      ϕ
+                    
+                  
+                  sin
+                  ⁡
+                  θ
+                
+                
+                  cos
+                  ⁡
+                  θ
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle U(\mathbf {B} _{\theta ,\phi })={\begin{bmatrix}\cos \theta &-e^{i\phi }\sin \theta \\e^{-i\phi }\sin \theta &\cos \theta \end{bmatrix}}}
+  
+,
+where 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ and 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+ are determined by the reflection amplitude 
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+  
+ and the transmission amplitude 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+ (relationship will be given later for a simpler case). For a symmetric beam splitter, which has a phase shift 
+  
+    
+      
+        ϕ
+        =
+        
+          
+            π
+            2
+          
+        
+      
+    
+    {\displaystyle \phi ={\frac {\pi }{2}}}
+  
+ under the unitary transformation condition 
+  
+    
+      
+        
+          |
+        
+        t
+        
+          
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          |
+        
+        r
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle |t|^{2}+|r|^{2}=1}
+  
+ and 
+  
+    
+      
+        
+          t
+          
+            ∗
+          
+        
+        r
+        +
+        t
+        
+          r
+          
+            ∗
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle t^{*}r+tr^{*}=0}
+  
+, one can show that
+
+  
+    
+      
+        U
+        (
+        
+          
+            B
+          
+          
+            θ
+            ,
+            ϕ
+            =
+            
+              
+                π
+                2
+              
+            
+          
+        
+        )
+        =
+        
+          
+            [
+            
+              
+                
+                  t
+                
+                
+                  r
+                
+              
+              
+                
+                  r
+                
+                
+                  t
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  cos
+                  ⁡
+                  θ
+                
+                
+                  −
+                  i
+                  sin
+                  ⁡
+                  θ
+                
+              
+              
+                
+                  −
+                  i
+                  sin
+                  ⁡
+                  θ
+                
+                
+                  cos
+                  ⁡
+                  θ
+                
+              
+            
+            ]
+          
+        
+        =
+        cos
+        ⁡
+        θ
+        
+          
+            
+              I
+              ^
+            
+          
+        
+        −
+        i
+        sin
+        ⁡
+        θ
+        
+          
+            
+              
+                σ
+                ^
+              
+            
+          
+          
+            x
+          
+        
+        =
+        
+          e
+          
+            −
+            i
+            θ
+            
+              
+                
+                  
+                    σ
+                    ^
+                  
+                
+              
+              
+                x
+              
+            
+          
+        
+      
+    
+    {\displaystyle U(\mathbf {B} _{\theta ,\phi ={\frac {\pi }{2}}})={\begin{bmatrix}t&r\\r&t\end{bmatrix}}={\begin{bmatrix}\cos \theta &-i\sin \theta \\-i\sin \theta &\cos \theta \end{bmatrix}}=\cos \theta {\hat {I}}-i\sin \theta {\hat {\sigma }}_{x}=e^{-i\theta {\hat {\sigma }}_{x}}}
+  
+,
+which is a rotation of the single qubit state about the 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+-axis by 
+  
+    
+      
+        2
+        θ
+        =
+        2
+        
+          cos
+          
+            −
+            1
+          
+        
+        ⁡
+        (
+        
+          |
+        
+        t
+        
+          |
+        
+        )
+      
+    
+    {\displaystyle 2\theta =2\cos ^{-1}(|t|)}
+  
+ in the Bloch sphere.
+A mirror is a special case where the reflecting rate is 1, so that the corresponding unitary operator is a rotation matrix given by
+
+  
+    
+      
+        R
+        (
+        θ
+        )
+        =
+        
+          
+            [
+            
+              
+                
+                  cos
+                  ⁡
+                  θ
+                
+                
+                  −
+                  sin
+                  ⁡
+                  θ
+                
+              
+              
+                
+                  sin
+                  ⁡
+                  θ
+                
+                
+                  cos
+                  ⁡
+                  θ
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle R(\theta )={\begin{bmatrix}\cos \theta &-\sin \theta \\\sin \theta &\cos \theta \\\end{bmatrix}}}
+  
+.
+For most cases of mirrors used in QIP, the incident angle 
+  
+    
+      
+        θ
+        =
+        
+          45
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle \theta =45^{\circ }}
+  
+.
+Similarly, a phase shifter operator 
+  
+    
+      
+        
+          
+            P
+          
+          
+            ϕ
+          
+        
+      
+    
+    {\displaystyle \mathbf {P} _{\phi }}
+  
+ associates with a unitary operator described by 
+  
+    
+      
+        U
+        (
+        
+          
+            P
+          
+          
+            ϕ
+          
+        
+        )
+        =
+        
+          e
+          
+            i
+            ϕ
+          
+        
+      
+    
+    {\displaystyle U(\mathbf {P} _{\phi })=e^{i\phi }}
+  
+, or, if written in a 2-mode format
+
+  
+    
+      
+        U
+        (
+        
+          
+            P
+          
+          
+            ϕ
+          
+        
+        )
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    e
+                    
+                      i
+                      ϕ
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    e
+                    
+                      i
+                      ϕ
+                      
+                        /
+                      
+                      2
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    e
+                    
+                      −
+                      i
+                      ϕ
+                      
+                        /
+                      
+                      2
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        
+          (global phase ignored )
+        
+        =
+        
+          e
+          
+            i
+            
+              
+                ϕ
+                2
+              
+            
+            
+              
+                
+                  
+                    σ
+                    ^
+                  
+                
+              
+              
+                z
+              
+            
+          
+        
+      
+    
+    {\displaystyle U(\mathbf {P} _{\phi })={\begin{bmatrix}e^{i\phi }&0\\0&1\end{bmatrix}}={\begin{bmatrix}e^{i\phi /2}&0\\0&e^{-i\phi /2}\end{bmatrix}}{\text{(global phase ignored )}}=e^{i{\frac {\phi }{2}}{\hat {\sigma }}_{z}}}
+  
+,
+which is equivalent to a rotation of 
+  
+    
+      
+        −
+        ϕ
+      
+    
+    {\displaystyle -\phi }
+  
+ about the 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  
+-axis.
+Since any two 
+  
+    
+      
+        S
+        U
+        (
+        2
+        )
+      
+    
+    {\displaystyle SU(2)}
+  
+ rotations along orthogonal rotating axes can generate arbitrary rotations in the Bloch sphere, one can use a set of symmetric beam splitters and mirrors to realize an arbitrary 
+  
+    
+      
+        S
+        U
+        (
+        2
+        )
+      
+    
+    {\displaystyle SU(2)}
+  
+ operators for QIP. The figures below are examples of implementing a Hadamard gate and a Pauli-X-gate (NOT gate) by using beam splitters (illustrated as rectangles connecting two sets of crossing lines with parameters 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ and 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+) and mirrors (illustrated as rectangles connecting two sets of crossing lines with parameter 
+  
+    
+      
+        R
+        (
+        θ
+        )
+      
+    
+    {\displaystyle R(\theta )}
+  
+).
+
+In the above figures, a qubit is encoded using two mode channels (horizontal lines): 
+  
+    
+      
+        
+          |
+          0
+          ⟩
+        
+      
+    
+    {\displaystyle \left\vert 0\right\rangle }
+  
+ represents a photon in the top mode, and 
+  
+    
+      
+        
+          |
+          1
+          ⟩
+        
+      
+    
+    {\displaystyle \left\vert 1\right\rangle }
+  
+ represents a photon in the bottom mode.
+
+
+== Using integrated photonic circuits ==
+In reality, assembling a whole bunch (possibly on the order of 
+  
+    
+      
+        
+          10
+          
+            4
+          
+        
+      
+    
+    {\displaystyle 10^{4}}
+  
+) of beam splitters and phase shifters in an optical experimental table is challenging and unrealistic. To make LOQC functional, useful and compact, one solution is to miniaturize all linear optical elements, photon sources and photon detectors, and to integrate them onto a chip. If using a semiconductor platform, single photon sources and photon detectors can be easily integrated. To separate modes, there have been integrated arrayed waveguide grating (AWG) which are commonly used as optical (de)multiplexers in wavelength division multiplexed (WDM). In principle, beam splitters and other linear optical elements can also be miniaturized or replaced by equivalent nanophotonics elements. Some progress in these endeavors can be found in the literature, for example, Refs. In 2013, the first integrated photonic circuit for quantum information processing has been demonstrated using photonic crystal waveguide to realize the interaction between guided field and atoms.
+
+
+== Implementations comparison ==
+
+
+=== Comparison of the KLM protocol and the boson sampling model ===
+The advantage of the KLM protocol over the boson sampling model is that while the KLM protocol is a universal model, boson sampling is not believed to be universal. On the other hand, it seems that the scalability issues in boson sampling are more manageable than those in the KLM protocol.
+In boson sampling only a single measurement is allowed, a measurement of all the modes at the end of the computation. The only scalability problem in this model arises from the requirement that all the photons arrive at the photon detectors within a short-enough time interval and with close-enough frequencies.
+In the KLM protocol, there are non-deterministic quantum gates, which are essential for the model to be universal. These rely on gate teleportation, where multiple probabilistic gates are prepared offline and additional measurements are performed mid-circuit. Those two factors are the cause for additional scalability problems in the KLM protocol.
+In the KLM protocol the desired initial state is one in which each of the photons is in one of two modes, and the possibility that a mode is occupied by more than one photon is zero. In boson sampling, however, the desired initial state is specific, requiring that the first 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ modes are each occupied by a single photon (
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ is the number of photons and 
+  
+    
+      
+        M
+        ≥
+        N
+      
+    
+    {\displaystyle M\geq N}
+  
+ is the number of modes) and all the other states are empty.
+
+
+=== Earlier models ===
+Another, earlier model which relies on the representation of several qubits by a single photon is based on the work of C. Adami and N. J. Cerf. By using both the location and the polarization of photons, a single photon in this model can represent several qubits; however, as a result, CNOT-gate can only be implemented between the two qubits represented by the same photon.
+The figures below are examples of making an equivalent Hadamard-gate and CNOT-gate using beam splitters (illustrated as rectangles connecting two sets of crossing lines with parameters 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ and 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+) and phase shifters (illustrated as rectangles on a line with parameter 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+).
+
+In the optical realization of the CNOT gate, the polarization and location are the control and target qubit, respectively.
+
+
+== References ==
+
+
+== External links ==
+"Optical chip allows for reprogramming quantum computer in seconds". kurzweilai.net. August 14, 2015.
+The Mathematics of Quantum Computers | Infinite Series, retrieved 2019-11-23

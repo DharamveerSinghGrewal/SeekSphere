@@ -1,0 +1,53 @@
+Data scraping is a technique where a computer program extracts data from human-readable output coming from another program.   == Description == Normally, data transfer between programs is accomplished...
+
+Data scraping is a technique where a computer program extracts data from human-readable output coming from another program.
+
+
+== Description ==
+Normally, data transfer between programs is accomplished using data structures suited for automated processing by computers, not people.  Such interchange formats and protocols are typically rigidly structured, well-documented, easily parsed, and minimize ambiguity.  Very often, these transmissions are not human-readable at all.
+Thus, the key element that distinguishes data scraping from regular parsing is that the output being scraped is intended for display to an end-user, rather than as an input to another program. It is therefore usually neither documented nor structured for convenient parsing.  Data scraping often involves ignoring binary data (usually images or multimedia data), display formatting, redundant labels, superfluous commentary, and other information which is either irrelevant or hinders automated processing.
+Data scraping is most often done either to interface to a legacy system, which has no other mechanism which is compatible with current hardware, or to interface to a third-party system which does not provide a more convenient API.  In the second case, the operator of the third-party system will often see screen scraping as unwanted, due to reasons such as increased system load, the loss of advertisement revenue, or the loss of control of the information content.
+Data scraping is generally considered an ad hoc, inelegant technique, often used only as a "last resort" when no other mechanism for data interchange is available.  Aside from the higher programming and processing overhead, output displays intended for human consumption often change structure frequently.  Humans can cope with this easily, but a computer program will fail. Depending on the quality and the extent of error handling logic present in the computer, this failure can result in error messages, corrupted output or even program crashes. 
+However, setting up a data scraping pipeline nowadays is straightforward, requiring minimal programming effort to meet practical needs (especially in biomedical data integration).
+
+
+== Technical variants ==
+
+
+=== Screen scraping ===
+
+Although the use of physical "dumb terminal" IBM 3270s is slowly diminishing, as more and more mainframe applications acquire Web interfaces, some Web applications merely continue to use the technique of screen scraping to capture old screens and transfer the data to modern front-ends.
+Screen scraping is normally associated with the programmatic collection of visual data from a source, instead of parsing data as in web scraping. Originally, screen scraping referred to the practice of reading text data from a computer display terminal's screen. This was generally done by reading the terminal's memory through its auxiliary port, or by connecting the terminal output port of one computer system to an input port on another. The term screen scraping is also commonly used to refer to the bidirectional exchange of data. This could be the simple cases where the controlling program navigates through the user interface, or more complex scenarios where the controlling program is entering data into an interface meant to be used by a human.
+As a concrete example of a classic screen scraper, consider a hypothetical legacy system dating from the 1960s—the dawn of computerized data processing. Computer to user interfaces from that era were often simply text-based dumb terminals which were not much more than virtual teleprinters (such systems are still in use today, for various reasons). The desire to interface such a system to more modern systems is common.  A robust solution will often require things no longer available, such as source code, system documentation, APIs, or programmers with experience in a 50-year-old computer system.  In such cases, the only feasible solution may be to write a screen scraper that "pretends" to be a user at a terminal.  The screen scraper might connect to the legacy system via Telnet, emulate the keystrokes needed to navigate the old user interface, process the resulting display output, extract the desired data, and pass it on to the modern system. A sophisticated and resilient implementation of this kind, built on a platform providing the governance and control required by a major enterprise—e.g. change control, security, user management, data protection, operational audit, load balancing, and queue management, etc.—could be said to be an example of robotic process automation software, called RPA or RPAAI for self-guided RPA 2.0 based on artificial intelligence.
+In the 1980s, financial data providers such as Reuters, Telerate, and Quotron displayed data in 24×80 format intended for a human reader. Users of this data, particularly investment banks, wrote applications to capture and convert this character data as numeric data for inclusion into calculations for trading decisions without re-keying the data. The common term for this practice, especially in the United Kingdom, was page shredding, since the results could be imagined to have passed through a paper shredder. Internally Reuters used the term 'logicized' for this conversion process, running a sophisticated computer system on VAX/VMS called the Logicizer.
+More modern screen scraping techniques include capturing the bitmap data from the screen and running it through an OCR engine, or for some specialised automated testing systems, matching the screen's bitmap data against expected results. This can be combined in the case of GUI applications, with querying the graphical controls by programmatically obtaining references to their underlying programming objects. A sequence of screens is automatically captured and converted into a database.
+Another modern adaptation to these techniques is to use, instead of a sequence of screens as input, a set of images or PDF files, so there are some overlaps with generic "document scraping" and report mining techniques.
+There are many tools that can be used for screen scraping.
+
+
+=== Web scraping ===
+
+Web pages are built using text-based mark-up languages (HTML and XHTML), and frequently contain a wealth of useful data in text form.  However, most web pages are designed for human end-users and not for ease of automated use. Because of this, tool kits that scrape web content were created. A web scraper is an API or tool to extract data from a website. Companies like Amazon AWS and Google provide web scraping tools, services, and public data available free of cost to end-users. Newer forms of web scraping involve listening to data feeds from web servers.  For example, JSON is commonly used as a transport storage mechanism between the client and the webserver. A web scraper uses a website's URL to extract data, and stores this data for subsequent analysis. This method of web scraping enables the extraction of data in an efficient and accurate manner.
+Recently, companies have developed web scraping systems that rely on using techniques in DOM parsing, computer vision and natural language processing to simulate the human processing that occurs when viewing a webpage to automatically extract useful information.
+Large websites usually use defensive algorithms to protect their data from web scrapers and to limit the number of requests an IP or IP network may send. This has caused an ongoing battle between website developers and scraping developers.
+
+
+=== Report mining ===
+Report mining is the extraction of data from human-readable computer reports. Conventional data extraction requires a connection to a working source system, suitable connectivity standards or an API, and usually complex querying. By using the source system's standard reporting options, and directing the output to a spool file instead of to a printer, static reports can be generated suitable for offline analysis via report mining. This approach can avoid intensive CPU usage during business hours, can minimise end-user licence costs for ERP customers, and can offer very rapid prototyping and development of custom reports. Whereas data scraping and web scraping involve interacting with dynamic output, report mining involves extracting data from files in a human-readable format, such as HTML, PDF, or text. These can be easily generated from almost any system by intercepting the data feed to a printer. This approach can provide a quick and simple route to obtaining data without the need to program an API to the source system.
+Legal and Ethical Considerations
+The legality and ethics of data scraping are often argued. Scraping publicly accessible data is generally legal, however scraping in a manner that infringes a website's terms of service, breaches security measures, or invades user privacy can lead to legal action. Moreover, some websites particularly prohibit data scraping in their robots.
+
+
+== See also ==
+
+
+== References ==
+
+12. Multilogin. (n.d.). Multilogin | Prevent account bans and enables scaling. How to Scrape Data on Google: 2024 Step-by-Step Guide 
+13. Mitchell, R. (2022). "The Ethics of Data Scraping." Journal of Information Ethics, 31(2), 45-61.
+14. Kavanagh, D. (2021). "Anti-Detect Browsers: The Next Frontier in Web Scraping." Web Security Review, 19(4), 33-48.
+15.Walker, J. (2020). "Legal Implications of Data Scraping." Tech Law Journal, 22(3), 109-126.
+
+
+== Further reading ==
+Hemenway, Kevin and Calishain, Tara. Spidering Hacks. Cambridge, Massachusetts: O'Reilly, 2003. ISBN 0-596-00577-6.

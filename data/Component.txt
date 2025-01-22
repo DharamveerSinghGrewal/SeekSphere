@@ -1,0 +1,57 @@
+Component may refer to:   == In engineering, science, and technology ==   === Generic systems === System components, an entity with discrete structure, such as an assembly or software module, within a...
+
+Component may refer to:
+
+
+== In engineering, science, and technology ==
+
+
+=== Generic systems ===
+System components, an entity with discrete structure, such as an assembly or software module, within a system considered at a particular level of analysis
+Lumped element model, a model of spatially distributed systems
+
+
+=== Electrical ===
+Component video, a type of analog video information that is transmitted or stored as two or more separate signals
+Electronic component, a constituent of an electronic circuit
+Symmetrical components, in electrical engineering, analysis of unbalanced three-phase power systems
+
+
+=== Mathematics ===
+Color model, a way of describing how colors can be represented, typically as multiple values or color components
+Component (group theory), a quasi-simple subnormal sub-group
+Connected component (graph theory), a maximal connected subgraph
+Connected component (topology), a maximal connected subspace of a topological space
+Vector component, result of the decomposition of a vector into various directions
+
+
+=== Science ===
+Component (thermodynamics), a chemically independent constituent of a phase of a system
+
+
+=== Software ===
+Component (UML), definition of component in the Unified Modeling Language
+Component-based software engineering, a field within software engineering dealing with reusable software elements
+Software component, a reusable software element
+
+
+=== Chinese ===
+Chinese character component, a structural unit between Chinese character strokes and Chinese whole characters.
+
+
+== Other uses ==
+Component (VTA), a light-rail station in San Jose, California
+Part of the grammatical structure of a sentence, a concept relating to the catena
+Component ingredient, in a culinary dish
+
+
+== See also ==
+Composition (disambiguation)
+Decomposition (disambiguation)
+Giant component
+Identity component
+Irreducible component
+Spare part
+Strongly connected component
+Tangential and normal components
+Category:Components

@@ -1,0 +1,237 @@
+Linear optics is a sub-field of optics, consisting of linear systems, and is the opposite of nonlinear optics. Linear optics includes most applications of lenses, mirrors, waveplates, diffraction grat...
+
+Linear optics is a sub-field of optics, consisting of linear systems, and is the opposite of nonlinear optics. Linear optics includes most applications of lenses, mirrors, waveplates, diffraction gratings, and many other common optical components and systems.
+If an optical system is linear, it has the following properties (among others):
+
+If monochromatic light enters an unchanging linear-optical system, the output will be at the same frequency. For example, if red light enters a lens, it will still be red when it exits the lens.
+The superposition principle is valid for linear-optical systems. For example, if a mirror transforms light input A into output B, and input C into output D, then an input consisting of A and C simultaneously give an output of B and D simultaneously.
+Relatedly, if the input light is made more intense, then the output light is made more intense but otherwise unchanged.
+These properties are violated in nonlinear optics, which frequently involves high-power pulsed lasers. Also, many material interactions including absorption and fluorescence are not part of linear optics.
+
+
+== Linear versus non-linear transformations (examples) ==
+As an example, and using the Dirac bracket notations (see bra-ket notations), the transformation 
+  
+    
+      
+        
+          |
+        
+        k
+        ⟩
+        →
+        
+          e
+          
+            i
+            k
+            θ
+          
+        
+        
+          |
+        
+        k
+        ⟩
+      
+    
+    {\displaystyle |k\rangle \rightarrow e^{ik\theta }|k\rangle }
+  
+
+is linear, while the transformation
+
+  
+    
+      
+        
+          α
+          
+            0
+          
+        
+        
+          |
+        
+        0
+        ⟩
+        +
+        
+          α
+          
+            1
+          
+        
+        
+          |
+        
+        1
+        ⟩
+        +
+        
+          α
+          
+            2
+          
+        
+        
+          |
+        
+        2
+        ⟩
+        →
+        
+          α
+          
+            0
+          
+        
+        
+          |
+        
+        0
+        ⟩
+        +
+        
+          α
+          
+            1
+          
+        
+        
+          |
+        
+        1
+        ⟩
+        −
+        
+          α
+          
+            2
+          
+        
+        
+          |
+        
+        2
+        ⟩
+      
+    
+    {\displaystyle \alpha _{0}|0\rangle +\alpha _{1}|1\rangle +\alpha _{2}|2\rangle \rightarrow \alpha _{0}|0\rangle +\alpha _{1}|1\rangle -\alpha _{2}|2\rangle }
+  
+ is non-linear. In the above examples, 
+  
+    
+      
+        k
+        =
+        0
+        ,
+        1
+        ,
+        …
+      
+    
+    {\displaystyle k=0,1,\ldots }
+  
+ is an integer representing the number of photons. The transformation in the first example is linear in the number of photons, while in the second example it is not. This specific nonlinear transformation plays an important role in optical quantum computing.
+
+
+== Linear versus nonlinear optical devices (examples) ==
+Phase shifters and beam splitters are examples of devices commonly used in linear optics. 
+In contrast, frequency-mixing processes, the optical Kerr effect, cross-phase modulation, and Raman amplification, are a few examples of nonlinear effects in optics.
+
+
+== Connections to quantum computing ==
+One currently active field of research is the use of linear optics versus the use of nonlinear optics in quantum computing. For example, one model of linear optical quantum computing, the KLM model, is universal for quantum computing, and another model, the boson sampling-based model, is believed to be non-universal (for quantum computing) yet still seems to be able to solve some problems exponentially faster than a classical computer.
+The specific nonlinear transformation 
+  
+    
+      
+        
+          α
+          
+            0
+          
+        
+        
+          |
+        
+        0
+        ⟩
+        +
+        
+          α
+          
+            1
+          
+        
+        
+          |
+        
+        1
+        ⟩
+        +
+        
+          α
+          
+            2
+          
+        
+        
+          |
+        
+        2
+        ⟩
+        →
+        
+          α
+          
+            0
+          
+        
+        
+          |
+        
+        0
+        ⟩
+        +
+        
+          α
+          
+            1
+          
+        
+        
+          |
+        
+        1
+        ⟩
+        −
+        
+          α
+          
+            2
+          
+        
+        
+          |
+        
+        2
+        ⟩
+      
+    
+    {\displaystyle \alpha _{0}|0\rangle +\alpha _{1}|1\rangle +\alpha _{2}|2\rangle \rightarrow \alpha _{0}|0\rangle +\alpha _{1}|1\rangle -\alpha _{2}|2\rangle }
+  
+, (called "a gate" when using computer science terminology) presented above,  plays an important role in optical quantum computing: on the one hand, it is useful for deriving a universal set of gates, and on the other hand, with (only) linear-optical devices and post-selection of specific outcomes plus a feed-forward process, it can be applied with high success probability, and be used for obtaining universal linear-optical quantum computing, as done in the KLM model.
+
+
+== See also ==
+
+Optics
+Quantum optics
+Nonlinear optics
+Linear optical quantum computing (LOQC)
+KLM model for LOQC
+Optical phase space
+Optical physics
+Nonclassical light

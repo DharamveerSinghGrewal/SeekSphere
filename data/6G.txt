@@ -1,0 +1,48 @@
+In telecommunications, 6G is the designation for a future technical standard of a sixth-generation technology for wireless communications. It is the planned successor to 5G (ITU-R IMT-2020), and is cu...
+
+In telecommunications, 6G is the designation for a future technical standard of a sixth-generation technology for wireless communications.
+It is the planned successor to 5G (ITU-R IMT-2020), and is currently in the early stages of the standardization process, tracked by the ITU-R as IMT-2030 with the framework and overall objectives defined in recommendation ITU-R M.2160-0. Similar to previous generations of the cellular architecture, standardization bodies such as 3GPP and ETSI, as well as industry groups such as the Next Generation Mobile Networks (NGMN) Alliance, are expected to play a key role in its development.
+Numerous companies (Airtel, Anritsu, Apple, Ericsson, Fly, Huawei, Jio, Keysight, LG, Nokia, NTT Docomo, Samsung, Vi, Xiaomi), research institutes (Technology Innovation Institute, the Interuniversity Microelectronics Centre) and countries (United States, United Kingdom, European Union member states, Russia, China, India, Japan, South Korea, Singapore, Saudi Arabia, United Arab Emirates, and Israel) have shown interest in 6G networks, and are expected to contribute to this effort.
+6G networks will likely be significantly faster than previous generations, thanks to further improvements in radio interface modulation and coding techniques, as well as physical-layer technologies. Proposals include a ubiquitous connectivity model which could include non-cellular access such as satellite and WiFi, precise location services, and a framework for distributed edge computing supporting more sensor networks, AR/VR and AI workloads. Other goals include network simplification and increased interoperability, lower latency, and energy efficiency. It should enable network operators to adopt flexible decentralized business models for 6G, with local spectrum licensing, spectrum sharing, infrastructure sharing, and intelligent automated management. Some have proposed that machine-learning/AI systems can be leveraged to support these functions.
+The NGMN alliance have cautioned that "6G must not inherently trigger a hardware refresh of 5G RAN infrastructure", and that it must "address demonstrable customer needs". This reflects industry sentiment about the cost of the 5G rollout, and concern that certain applications and revenue streams have not lived up to expectations. 6G is expected to begin rolling out in the early 2030s, but given such concerns it is not yet clear which features and improvements will be implemented first.
+
+
+== Expectations ==
+
+6G networks are expected to be developed and released by the early 2030s. The largest number of 6G patents have been filed in China.
+
+
+=== Features ===
+Recent academic publications have been conceptualizing 6G and new features that may be included. Artificial intelligence (AI) is included in many predictions, from 6G supporting AI infrastructure to "AI designing and optimizing 6G architectures, protocols, and operations." Another study in Nature Electronics looks to provide a framework for 6G research stating "We suggest that human-centric mobile communications will still be the most important application of 6G and the 6G network should be human-centric. Thus, high security, secrecy and privacy should be key features of 6G and should be given particular attention by the wireless research community."
+
+
+=== Transmission ===
+The frequency bands for 6G are undetermined. Initially, Terahertz was considered an important band for 6G, as indicated by the Institute of Electrical and Electronics Engineers which stated that "Frequencies from 100 GHz to 3 THz are promising bands for the next generation of wireless communication systems because of the wide swaths of unused and unexplored spectrum."
+One of the challenges in supporting the required high transmission speeds will be the limitation of energy consumption and associated thermal protection in the electronic circuits.
+As of now, mid bands are being considered by WRC for 6G/IMT-2030.
+
+
+== Terahertz and millimeter wave progress ==
+Millimeter waves (30 to 300 GHz) and terahertz radiation (300 to 3,000 GHz) might, according to some speculations, be used in 6G. However, the wave propagation of these frequencies is much more sensitive to obstacles than the microwave frequencies (about 2 to 30 GHz) used in 5G and Wi-Fi, which are more sensitive than the radio waves used in 1G, 2G, 3G and 4G. Therefore, there are concerns those frequencies may not be commercially viable, especially considering that 5G mmWave deployments are very limited due to deployment costs.
+In October 2020, the Alliance for Telecommunications Industry Solutions (ATIS) launched a "Next G Alliance", an alliance consisting of AT&T, Ericsson, Telus, Verizon, T-Mobile, Microsoft, Samsung, and others that "will advance North American mobile technology leadership in 6G and beyond over the next decade."
+In January 2022, Purple Mountain Laboratories of China claimed that its research team had achieved a world record of 206.25 gigabits per second (Gbit/s) data rate for the first time in a lab environment within the terahertz frequency band, which is supposed to be the base of 6G cellular technology.
+In February 2022, Chinese researchers stated that they had achieved a record data streaming speed using vortex millimetre waves, a form of extremely high-frequency radio wave with rapidly changing spins, the researchers transmitted 1 terabyte of data over a distance of 1 km (3,300 feet) in a second. The spinning potential of radio waves was first reported by British physicist John Henry Poynting in 1909, but making use of it proved to be difficult. Zhang and colleagues said their breakthrough was built on the hard work of many research teams across the globe over the past few decades. Researchers in Europe conducted the earliest communication experiments using vortex waves in the 1990s. A major challenge is that the size of the spinning waves increases with distance, and the weakening signal makes high-speed data transmission difficult. The Chinese team built a unique transmitter to generate a more focused vortex beam, making the waves spin in three different modes to carry more information, and developed a high-performance receiving device that could pick up and decode a huge amount of data in a split second.
+In 2023, Nagoya University in Japan reported successful fabrication of three-dimensional wave guides with niobium metal,
+a superconducting material that minimizes attenuation due to absorption and radiation, for transmission of waves in the 100GHz frequency band, deemed useful in 6G networking.
+
+
+== Test satellites ==
+On November 6, 2020, China launched a Long March 6 rocket with a payload of thirteen satellites into orbit. One of the satellites reportedly served as an experimental testbed for 6G technology, which was described as "the world's first 6G satellite."
+
+
+== Geopolitics ==
+During rollout of 5G, China banned Ericsson in favour of Chinese suppliers, primarily Huawei and ZTE. Huawei and ZTE were banned in many Western countries over concerns of spying. This creates a risk of 6G network fragmentation. Many power struggles are expected during the development of common standards. In February 2024, the U.S., Australia, Canada, the Czech Republic, Finland, France, Japan, South Korea, Sweden and the U.K. released a joint statement stating that they support a set of shared principles for 6G for "open, free, global, interoperable, reliable, resilient, and secure connectivity."
+6G is considered a key technology for economic competitiveness, national security, and the functioning of society. It is a national priority in many countries and is named as priority in China's Fourteenth five-year plan.
+Many countries are favouring the OpenRAN approach, where different suppliers can be integrated together and hardware and software are independent of supplier.
+
+
+== References ==
+
+
+== External links ==
+Sharma, Ankush (November 9, 2020). "6G Companies: Telecom Players Kickstart Research Activities". GreyB. Retrieved June 2, 2021.

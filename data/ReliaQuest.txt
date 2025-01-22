@@ -1,0 +1,18 @@
+ReliaQuest, LLC is an American cybersecurity technology company. As of 2022, they are the title sponsor of the ReliaQuest Bowl in the National Collegiate Athletic Association.   == History == ReliaQue...
+
+ReliaQuest, LLC is an American cybersecurity technology company. As of 2022, they are the title sponsor of the ReliaQuest Bowl in the National Collegiate Athletic Association.
+
+
+== History ==
+ReliaQuest was founded in 2007 by CEO Brian Murphy in Tampa, Florida.  In 2020, ReliaQuest raised $300 million in funding, and in 2021 ReliaQuest's valuation grew to more than $1 billion. In 2022, ReliaQuest acquired Digital Shadows for $160 million and EclecticIQ in 2023 for an undisclosed amount. It remains headquartered in Tampa and has offices in Salt Lake City, Las Vegas, London, Dublin and Pune.
+
+
+== Technology ==
+The company creates the technology-agnostic cyber security platform GreyMatter, built on an open XDR architecture. The company holds 52 patents for technology including universal translation of various client data in order to create a common source for each evaluation. The software is used by enterprise companies in the banking industry, airline industry, healthcare industry, and organizations such as the Boston Celtics.
+
+
+== Community outreach ==
+The company is the title sponsor of the ReliaQuest Bowl in the NCAA. According to Fortune magazine, Founder and CEO Brian Murphy said his decision to become the sponsor was to raise awareness of the importance of cybersecurity and of the opportunities within cybersecurity careers. They also sponsor coding classes at the elementary school and university levels in the Florida education system; which included coding boot camps focused on cybersecurity training.
+
+
+== References ==

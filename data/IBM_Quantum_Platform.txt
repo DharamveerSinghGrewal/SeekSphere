@@ -1,0 +1,100 @@
+IBM Quantum Platform (previously known as IBM Quantum Experience) is an online platform allowing public and premium access to cloud-based quantum computing services provided by IBM. This includes acce...
+
+IBM Quantum Platform (previously known as IBM Quantum Experience) is an online platform allowing public and premium access to cloud-based quantum computing services provided by IBM. This includes access to a set of IBM's prototype quantum processors, a set of tutorials on quantum computation, and access to an interactive textbook. As of February 2021, there are over 20 devices on the service, six of which are freely available for the public. This service can be used to run algorithms and experiments, and explore tutorials and simulations around what might be possible with quantum computing.
+IBM's quantum processors are made up of superconducting transmon qubits, located in dilution refrigerators at the IBM Research headquarters at the Thomas J. Watson Research Center. Users interact with a quantum processor through the quantum circuit model of computation. Circuits can be created either graphically with the Quantum Composer, or programmatically with the Jupyter notebooks of the Quantum Lab. Circuits are created using Qiskit and can be compiled down to OpenQASM for execution on real quantum systems.
+
+
+== History ==
+The service was launched in May 2016 as the IBM Quantum Experience with a five-qubit quantum processor and matching simulator connected in a star shaped pattern. At this time, users could only interact with the hardware through the quantum composer GUI. Quantum circuits were also limited to the specific two-qubit gates available on the hardware.
+In July 2016, IBM launched the IBM Quantum Experience community forum. This was subsequently replaced by a Slack workspace.
+In January 2017, IBM made a number of additions to the IBM Quantum Experience, including increasing the set of two-qubit interactions available on the five-qubit quantum processor, expanding the simulator to custom topologies up to twenty qubits, and allowing users to interact with the device and simulator using quantum assembly language code.
+In March 2017, IBM released Qiskit to enable users to more easily write code and run experiments on the quantum processor and simulator. A user guide for beginners was also added.
+In May 2017, IBM made an additional 16-qubit processor available on the IBM Quantum service.
+In January 2018, IBM launched a quantum awards program, which it hosted on the IBM Quantum Experience.
+In May 2019 a large overhaul of the service was made, including the addition of web-hosted Jupyter notebooks and integration with the online and interactive Qiskit textbook.
+After a redesign in March 2021, a greater distinction was made between the composer GUI and the Jupyter notebooks. The IBM Quantum Experience name was retired in favour of the separate names IBM Quantum Composer and IBM Quantum Lab. Now its collectively called IBM Quantum Platform.
+
+
+== IBM Quantum Composer ==
+
+The Quantum Composer is a graphic user interface (GUI) designed by IBM to allow users to construct various quantum algorithms or run other quantum experiments. Users may see the results of their quantum algorithms by either running it on a real quantum processor or by using a simulator. Algorithms developed in the Quantum Composer are referred to as a "quantum score", in reference to the Quantum Composer resembling a musical sheet.
+The composer can also be used in scripting mode, where the user can write programs in the OpenQASM-language instead. Below is an example of a very small program, built for IBMs 5-qubit computer. The program instructs the computer to generate a quantum state 
+  
+    
+      
+        
+          |
+        
+        Ψ
+        ⟩
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          (
+          
+            
+              |
+            
+            000
+            ⟩
+            +
+            
+              |
+            
+            111
+            ⟩
+          
+          )
+        
+      
+    
+    {\displaystyle |\Psi \rangle ={\frac {1}{\sqrt {2}}}\left(|000\rangle +|111\rangle \right)}
+  
+, a 3-qubit GHZ state, which can be thought of as a variant of the Bell state, but with three qubits instead of two. It then measures the state, forcing it to collapse to one of the two possible outcomes, 
+  
+    
+      
+        
+          |
+        
+        000
+        ⟩
+      
+    
+    {\displaystyle |000\rangle }
+  
+ or 
+  
+    
+      
+        
+          |
+        
+        111
+        ⟩
+      
+    
+    {\displaystyle |111\rangle }
+  
+.
+
+Every instruction in the QASM language is the application of a quantum gate, initialization of the chips registers to zero or measurement of these registers.
+
+
+== Usage ==
+In 2018 IBM reported that there were over 80,000 users of the IBM Quantum Experience, who have collectively run over 3 million experiments.
+Many academic papers have been published by researchers who have conducted experiments using the service.
+
+
+== References ==
+
+
+== External links ==
+IBM Quantum Platform

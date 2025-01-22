@@ -1,0 +1,140 @@
+Optical computing or photonic computing uses light waves produced by lasers or incoherent sources for data processing, data storage or data communication for computing. For decades, photons have shown...
+
+Optical computing or photonic computing uses light waves produced by lasers or incoherent sources for data processing, data storage or data communication for computing. For decades, photons have shown promise to enable a higher bandwidth than the electrons used in conventional computers (see optical fibers).
+Most research projects focus on replacing current computer components with optical equivalents, resulting in an optical digital computer system processing binary data. This approach appears to offer the best short-term prospects for commercial optical computing, since optical components could be integrated into traditional computers to produce an optical-electronic hybrid. However, optoelectronic devices consume 30% of their energy converting electronic energy into photons and back; this conversion also slows the transmission of messages. All-optical computers eliminate the need for optical-electrical-optical (OEO) conversions, thus reducing electrical power consumption.
+Application-specific devices, such as synthetic-aperture radar (SAR) and optical correlators, have been designed to use the principles of optical computing. Correlators can be used, for example, to detect and track objects, and to classify serial time-domain optical data.
+
+
+== Optical components for binary digital computer ==
+The fundamental building block of modern electronic computers is the transistor. To replace electronic components with optical ones, an equivalent optical transistor is required. This is achieved by crystal optics (using materials with a non-linear refractive index). In particular, materials exist where the intensity of incoming light affects the intensity of the light transmitted through the material in a similar manner to the current response of a bipolar transistor. Such an optical transistor can be used to create optical logic gates, which in turn are assembled into the higher level components of the computer's central processing unit (CPU). These will be nonlinear optical crystals used to manipulate light beams into controlling other light beams.
+Like any computing system, an optical computing system needs four things to function well:
+
+optical processor
+optical data transfer, e.g. fiber-optic cable
+optical storage,
+optical power source (light source)
+Substituting electrical components will need data format conversion from photons to electrons, which will make the system slower.
+
+
+=== Controversy ===
+There are some disagreements between researchers about the future capabilities of optical computers; whether or not they may be able to compete with semiconductor-based electronic computers in terms of speed, power consumption, cost, and size is an open question. Critics note that real-world logic systems require "logic-level restoration, cascadability, fan-out and input–output isolation", all of which are currently provided by electronic transistors at low cost, low power, and high speed. For optical logic to be competitive beyond a few niche applications, major breakthroughs in non-linear optical device technology would be required, or perhaps a change in the nature of computing itself.
+
+
+== Misconceptions, challenges, and prospects ==
+A significant challenge to optical computing is that computation is a nonlinear process in which multiple signals must interact. Light, which is an electromagnetic wave, can only interact with another electromagnetic wave in the presence of electrons in a material, and the strength of this interaction is much weaker for electromagnetic waves, such as light, than for the electronic signals in a conventional computer. This may result in the processing elements for an optical computer requiring more power and larger dimensions than those for a conventional electronic computer using transistors.
+A further misconception is that since light can travel much faster than the drift velocity of electrons, and at frequencies measured in THz, optical transistors should be capable of extremely high frequencies. However, any electromagnetic wave must obey the transform limit, and therefore the rate at which an optical transistor can respond to a signal is still limited by its spectral bandwidth. In fiber-optic communications, practical limits such as dispersion often constrain channels to bandwidths of tens of GHz, only slightly better than many silicon transistors. Obtaining dramatically faster operation than electronic transistors would therefore require practical methods of transmitting ultrashort pulses down highly dispersive waveguides.
+
+
+== Photonic logic ==
+
+Photonic logic is the use of photons (light) in logic gates (NOT, AND, OR, NAND, NOR, XOR, XNOR). Switching is obtained using nonlinear optical effects when two or more signals are combined.
+Resonators are especially useful in photonic logic, since they allow a build-up of energy from constructive interference, thus enhancing optical nonlinear effects.
+Other approaches that have been investigated include photonic logic at a molecular level, using photoluminescent chemicals. In a demonstration, Witlicki et al. performed logical operations using molecules and SERS.
+
+
+== Unconventional approaches ==
+
+
+=== Time delays optical computing ===
+The basic idea is to delay light (or any other signal) in order to perform useful computations. Of interest would be to solve NP-complete problems as those are difficult problems for the conventional computers.
+There are two basic properties of light that are actually used in this approach:
+
+The light can be delayed by passing it through an optical fiber of a certain length.
+The light can be split into multiple (sub)rays. This property is also essential because we can evaluate multiple solutions in the same time.
+When solving a problem with time-delays the following steps must be followed:
+
+The first step is to create a graph-like structure made from optical cables and splitters. Each graph has a start node and a destination node.
+The light enters through the start node and traverses the graph until it reaches the destination. It is delayed when passing through arcs and divided inside nodes.
+The light is marked when passing through an arc or through a node so that we can easily identify that fact at the destination node.
+At the destination node we will wait for a signal (fluctuation in the intensity of the signal) which arrives at a particular moment(s) in time. If there is no signal arriving at that moment, it means that we have no solution for our problem. Otherwise the problem has a solution. Fluctuations can be read with a photodetector and an oscilloscope.
+The first problem attacked in this way was the Hamiltonian path problem.
+The simplest one is the subset sum problem. An optical device solving an instance with four numbers {a1, a2, a3, a4} is depicted below:
+
+The light will enter in Start node. It will be divided into two (sub)rays of smaller intensity. These two rays will arrive into the second node at moments a1 and 0. Each of them will be divided into two subrays which
+will arrive in the third node at moments 0, a1, a2 and a1 + a2. These represents the all subsets of the set {a1, a2}. We expect fluctuations in the intensity of the signal at no more than four different moments. In the destination node we expect fluctuations at no more than 16 different moments (which are all the subsets of the given). If we have a fluctuation in the target moment B, it means that we have a solution of the problem, otherwise there is no subset whose sum of elements equals B. For the practical implementation we cannot have zero-length cables, thus all cables are increased with a small (fixed for all) value k'. In this case the solution is expected at moment B+n×k.
+
+
+=== On-Chip Photonic Tensor Cores ===
+With increasing demands on graphical processing unit-based accelerator technologies, in the second decade of the 21st century, there has been a huge emphasis on the use of on-chip integrated optics to create photonics-based processors. The emergence of both deep learning neural networks based on phase modulation, and more recently amplitude modulation using photonic memories  have created a new area of photonic technologies for neuromorphic computing, leading to new photonic computing technologies, all on a chip such as the photonic tensor core.
+
+
+=== Wavelength-based computing ===
+Wavelength-based computing can be used to solve the 3-SAT problem with n variables, m clauses and with no more than three variables per clause. Each wavelength, contained in a light ray, is considered as possible value-assignments to n variables. The optical device contains prisms and mirrors are used to discriminate proper wavelengths which satisfy the formula.
+
+
+=== Computing by xeroxing on transparencies ===
+This approach uses a photocopier and transparent sheets for performing computations. k-SAT problem with n variables, m clauses and at most k variables per clause has been solved in three steps:
+
+Firstly all 2n possible assignments of n variables have been generated by performing n photocopies.
+Using at most 2k copies of the truth table, each clause is evaluated at every row of the truth table simultaneously.
+The solution is obtained by making a single copy operation of the overlapped transparencies of all m clauses.
+
+
+=== Masking optical beams ===
+The travelling salesman problem has been solved by Shaked et al. (2007) by using an optical approach. All possible TSP paths have been generated and stored in a binary matrix which was multiplied with another gray-scale vector containing the distances between cities. The multiplication is performed optically by using an optical correlator.
+
+
+=== Optical Fourier co-processors ===
+Many computations, particularly in scientific applications, require frequent use of the 2D discrete Fourier transform (DFT) – for example in solving differential equations describing propagation of waves or transfer of heat. Though modern GPU technologies typically enable high-speed computation of large 2D DFTs, techniques have been developed that can perform continuous Fourier transform optically by utilising the natural Fourier transforming property of lenses. The input is encoded using a liquid crystal spatial light modulator and the result is measured using a conventional CMOS or CCD image sensor. Such optical architectures can offer superior scaling of computational complexity due to the inherently highly interconnected nature of optical propagation, and have been used to solve 2D heat equations.
+
+
+=== Ising machines ===
+Physical computers whose design was inspired by the theoretical Ising model are called Ising machines.
+Yoshihisa Yamamoto's lab at Stanford pioneered building Ising machines using photons. Initially Yamamoto and his colleagues built an Ising machine using lasers, mirrors, and other optical components commonly found on an optical table.
+Later a team at Hewlett Packard Labs developed photonic chip design tools and used them to build an Ising machine on a single chip, integrating 1,052 optical components on that single chip.
+
+
+== Industry ==
+Some additional companies involved with optical computing development include IBM, Microsoft, Procyon Photonics, Lightelligence, Lightmatter, Optalysys, Xanadu Quantum Technologies, QuiX Quantum, ORCA Computing, PsiQuantum, Quandela, and TundraSystems Global.
+
+
+== See also ==
+Linear optical quantum computing
+Optical interconnect
+Optical neural network
+Photonic crystal § Applications
+Photonic integrated circuit
+Photonic molecule
+Photonic transistor
+Programmable photonics
+Silicon photonics
+Unconventional computing
+
+
+== References ==
+
+
+== Further reading ==
+Feitelson, Dror G. (1988). Optical Computing: A Survey for Computer Scientists. Cambridge, Massachusetts: MIT Press. ISBN 978-0-262-06112-4.
+McAulay, Alastair D. (1991). Optical Computer Architectures: The Application of Optical Concepts to Next Generation Computers. New York, NY: John Wiley & Sons. ISBN 978-0-471-63242-9.
+Ibrahim TA; Amarnath K; Kuo LC; Grover R; Van V; Ho PT (2004). "Photonic logic NOR gate based on two symmetric microring resonators". Opt Lett. 29 (23): 2779–81. Bibcode:2004OptL...29.2779I. doi:10.1364/OL.29.002779. PMID 15605503.
+Biancardo M; Bignozzi C; Doyle H; Redmond G (2005). "A potential and ion switched molecular photonic logic gate". Chem. Commun. (31): 3918–20. doi:10.1039/B507021J. PMID 16075071.
+Jahns, J.; Lee, S.H., eds. (1993). Optical Computing Hardware: Optical Computing. Elsevier Science. ISBN 978-1-4832-1844-1.
+Barros S; Guan S; Alukaidey T (1997). "An MPP reconfigurable architecture using free-space optical interconnects and Petri net configuring". Journal of System Architecture. 43 (6–7): 391–402. doi:10.1016/S1383-7621(96)00053-7.
+D. Goswami, "Optical Computing", Resonance, June 2003; ibid July 2003. Web Archive of www.iisc.ernet.in/academy/resonance/July2003/July2003p8-21.html
+Main T; Feuerstein RJ; Jordan HF; Heuring VP; Feehrer J; Love CE (1994). "Implementation of a general-purpose stored-program digital optical computer". Applied Optics. 33 (8): 1619–28. Bibcode:1994ApOpt..33.1619M. doi:10.1364/AO.33.001619. PMID 20862187. S2CID 25927679.
+Guan, T.S.; Barros, S.P.V. (April 1994). "Reconfigurable Multi-Behavioural Architecture using Free-Space Optical Communication". Proceedings of the IEEE International Workshop on Massively Parallel Processing using Optical Interconnections. IEEE. pp. 293–305. doi:10.1109/MPPOI.1994.336615. ISBN 978-0-8186-5832-7. S2CID 61886442.
+Guan, T.S.; Barros, S.P.V. (August 1994). "Parallel Processor Communications through Free-Space Optics". TENCON '94. IEEE Region 10's Ninth Annual International Conference. Theme: Frontiers of Computer Technology. Vol. 2. IEEE. pp. 677–681. doi:10.1109/TENCON.1994.369219. ISBN 978-0-7803-1862-5. S2CID 61493433.
+Guha A.; Ramnarayan R.; Derstine M. (1987). "Architectural issues in designing symbolic processors in optics". Proceedings of the 14th annual international symposium on Computer architecture (ISCA '87). ACM. pp. 145–151. doi:10.1145/30350.30367. ISBN 978-0-8186-0776-9. S2CID 14228669.
+K.-H. Brenner, Alan Huang: "Logic and architectures for digital optical computers (A)", J. Opt. Soc. Am., A 3, 62, (1986)
+Brenner, K.-H. (1988). "A programmable optical processor based on symbolic substitution". Appl. Opt. 27 (9): 1687–91. Bibcode:1988ApOpt..27.1687B. doi:10.1364/AO.27.001687. PMID 20531637. S2CID 43648075.
+Streibl N.; Brenner K.-H.; Huang A.; Jahns J.; Jewell J.L.; Lohmann A.W.; Miller D.A.B.; Murdocca M.J.; Prise M.E.; Sizer II T. (1989). "Digital Optics". Proc. IEEE. 77 (12): 1954–69. doi:10.1109/5.48834. S2CID 59276160.
+NASA scientists working to improve optical computing technology, 2000
+Optical solutions for NP-complete problems
+Dolev, S.; Haist, T.; Oltean, M. (2008). Optical SuperComputing: First International Workshop, OSC 2008, Vienna, Austria, August 26, 2008, Proceedings. Springer. ISBN 978-3-540-85672-6.
+Dolev, S.; Oltean, M. (2009). Optical Supercomputing: Second International Workshop, OSC 2009, Bertinoro, Italy, November 18–20, 2009, Proceedings. Springer. ISBN 978-3-642-10441-1.
+Dolev, S.; Oltean, M. (2011). Optical Supercomputing: Third International Workshop, OSC 2010, Bertinoro, Italy, November 17–19, 2010, Revised Selected Papers. Springer. ISBN 978-3-642-22493-5.
+Dolev, S.; Oltean, M. (2013). Optical Supercomputing: 4th International Workshop, OSC 2012, in Memory of H. John Caulfield, Bertinoro, Italy, July 19–21, 2012. Revised Selected Papers. Springer. ISBN 978-3-642-38250-5.
+Speed-of-light computing comes a step closer New Scientist
+Caulfield H.; Dolev S. (2010). "Why future supercomputing requires optics". Nature Photonics. 4 (5): 261–263. Bibcode:2010NaPho...4..261C. doi:10.1038/nphoton.2010.94.
+Cohen E.; Dolev S.; Rosenblit M. (2016). "All-optical design for inherently energy-conserving reversible gates and circuits". Nature Communications. 7: 11424. Bibcode:2016NatCo...711424C. doi:10.1038/ncomms11424. PMC 4853429. PMID 27113510.
+Karasik, Yevgeny B. (2019). Optical Computational Geometry. ISBN 979-8511243344.
+
+
+== External links ==
+ Media related to Optical computing at Wikimedia Commons
+
+This Laser Trick's a Quantum Leap
+Photonics Startup Pegs Q2'06 Production Date Archived 2007-05-16 at archive.today
+Stopping light in quantum leap
+High Bandwidth Optical Interconnects

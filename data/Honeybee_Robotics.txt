@@ -1,0 +1,32 @@
+Honeybee Robotics, LLC is a subsidiary of Blue Origin that builds advanced spacecraft, robotic rovers, and other technologies for the exploration of Mars and other planetary bodies in deep space. The ...
+
+Honeybee Robotics, LLC is a subsidiary of Blue Origin that builds advanced spacecraft, robotic rovers, and other technologies for the exploration of Mars and other planetary bodies in deep space. The company, headquartered in Longmont, Colorado, has additional facilities in Altadena, California and Greenbelt, Maryland. The company has 284 employees and creates exploration systems, infrastructure systems, and motion control software for the National Aeronautics and Space Administration (NASA), the Japanese Aerospace Exploration Agency (JAXA), Blue Origin, and other customers. On May 19th, 2023, Honeybee Robotics' parent company, Blue Origin, won a $3.4 Billion contract to build a moon lander and additional spacecraft for NASA's Artemis program. The team, led by Blue Origin, is a partnership between Lockheed Martin, Draper, Boeing, Astrobotic, and Honeybee Robotics.
+
+
+== History ==
+Honeybee Robotics was founded in January 1983 by Steve Gorevan and Chris Chapman as a systems integrator using off-the-shelf robots. The company's first offices were above a piano shop on the Lower East Side of New York City. Their early work included robotic arms, robot end-effectors, and smart task-oriented electromechanical systems for companies including IBM, Allied Signal, The Salk Institute, Merck, 3M, and Con Edison.
+Honeybee Robotics received its first NASA contract in 1986 and continues to receive contracts to design and develop space systems.
+Honeybee Robotics was acquired by Ensign-Bickford Industries in 2017. In 2018, Avior Control Technologies was acquired by Ensign-Bickford Industries, which then merged Avior with Honeybee in 2019. Avior had been founded in 2010 by Scott Starin to design and manufacture motion-control components including custom motors, gearboxes, dampers, transducers, and actuators for the space, aerospace, and down-hole industries. In January 2022, Honeybee Robotics was sold to Blue Origin.
+In February 2023, the company shipped the Phobos Mining System to the Japanese Aerospace Exploration Agency (JAXA) and has also partnered with NASA and the Japanese Aerospace Exploration Agency (JAXA) to study the Martian moons, Phobos and Deimos.
+On May 19th, 2023, Honeybee Robotics' parent company, Blue Origin, won a $3.4 Billion contract to build a moon lander and additional spacecraft for NASA's Artemis program. The team, led by Blue Origin, is a partnership between Lockheed Martin, Draper, Boeing, Astrobotic, and Honeybee Robotics. 
+
+
+== Products ==
+Honeybee Robotics has particular expertise in developing and operating small mechanical tools used on Mars missions. Some of the company's robotic devices that have been used on Mars include: 
+
+The Rock Abrasion Tool (RAT) instruments used on both Mars Exploration Rovers
+The Icy Soil Acquisition Device (ISAD), sometimes called the "Phoenix Scoop", a soil scoop and a precision ice-sampling tool successfully demonstrated on the 2008 Mars Phoenix Lander mission
+The Sample Manipulation System and Dust Removal Tool used on the Mars Science Laboratory mission, which landed in August 2012
+
+The company is now helping design instruments for NASA's VIPER rover.
+Honeybee Robotics develops systems for future planet missions that will explore our solar system including Mars, Venus, the Moon, two Jovian moons, an asteroid, and a comet among others. The company has partnered with Bigelow Aerospace to develop a preliminary design for a solar array deployment mechanism that was used on the solar arrays of Bigelow's Genesis inflatable space habitat. Terrestrial projects include developing mechanisms, installations, and systems for a broad array of clients including Con Edison, the U.S. Navy, Coca-Cola, Nike, and architects Diller Scofidio + Renfro. 
+In December, 2022, NASA awarded Honeybee Robotics a contract to provide several systems for the upcoming Mars Sample Return mission. These include the Capture, Containment, and Retrieval System (CCRS), Earth Entry System (EES), and Spin Eject Mechanism (SEM).
+
+
+== References ==
+
+
+== External links ==
+Official website
+Mars robot PDF
+NASA

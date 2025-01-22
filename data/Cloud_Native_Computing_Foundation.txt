@@ -1,0 +1,202 @@
+The Cloud Native Computing Foundation (CNCF) is a Linux Foundation project that was started in 2015 to help advance container technology and align the tech industry around its evolution. It was announ...
+
+The Cloud Native Computing Foundation (CNCF) is a Linux Foundation project that was started in 2015 to help advance container technology and align the tech industry around its evolution.
+It was announced alongside Kubernetes 1.0, an open source container cluster manager, which was contributed to the Linux Foundation by Google as a seed technology. Founding members include Google, CoreOS, Mesosphere, Red Hat, Twitter, Huawei, Intel, RX-M, Cisco, IBM, Docker, Univa, and VMware. Today, CNCF is supported by over 450 members. In order to establish qualified representatives of the technologies governed by the CNCF, a program was announced at the inaugural CloudNativeDay in Toronto in August, 2016.
+Dan Kohn (who also helped launch the Core Infrastructure Initiative) led CNCF as executive director until May 2020. The foundation announced Priyanka Sharma, director of Cloud Native Alliances at GitLab, would step into a general manager role in his place. Sharma describes CNCF as "a very impactful organization built by a small group of people but [within] a very large ecosystem" and believes that CNCF is entering into a "second wave" due to increased industry awareness and adoption.
+In August 2018 Google announced that it was handing over operational control of Kubernetes to the community. Since its creation, CNCF has launched a number of hosted sub-projects.
+In January 2020, the CNCF annual report for the previous year was issued and reflected significant growth to the foundation across membership, event attendance, training, and industry investment. In 2019, CNCF grew by 50% since the previous year with 173 new members and nearly 90% growth in end-users. The report revealed a 78% increase in the usage of Kubernetes in production.
+
+
+== CNCF projects ==
+CNCF technology projects are cataloged with a maturity level of Sandbox, Incubated, and Graduated, in ascending order. The defined criteria include rate of adoption, longevity and whether the open source project can be relied upon to build a production-grade product.
+CNCF's process brings projects in as incubated projects and then aims to move them through to graduation, which implies a level of process and technology maturity. A graduated project reflects overall maturity; these projects have reached a tipping point in terms of diversity of contribution, community scale/growth, and adoption.
+The CNCF Sandbox is a place for early-stage projects, and it was first announced in March 2019. The Sandbox replaces what had originally been called the "inception project level".
+In July 2020, Priyanka Sharma stated that CNCF is looking to increase the number of open source projects in the cloud native ecosystem.
+
+
+=== Graduated projects ===
+
+
+==== Cilium ====
+
+Cilium provides networking, security, and observability for Kubernetes deployments using eBPF technology. It joined the CNCF at incubation level in October 2021 and the CNCF announced its graduation in October 2023.
+
+
+==== containerd ====
+containerd is an industry-standard core container runtime. It is currently available as a daemon for Linux and Windows, which can manage the complete container lifecycle of its host system. In 2015, Docker donated the OCI Specification to The Linux Foundation with a reference implementation called runc. Since February 28, 2019 it is an official CNCF project. Its general availability and intention to donate the project to CNCF was announced by Docker in 2017.
+
+
+==== CoreDNS ====
+CoreDNS is a DNS server that chains plugins. Its graduation was announced in 2019.
+
+
+==== Envoy ====
+Originally built at Lyft to move their architecture away from a monolith, Envoy is a high-performance open source edge and service proxy that makes the network transparent to applications. Lyft contributed Envoy to Cloud Native Computing Foundation in September 2017.
+
+
+==== etcd ====
+etcd is a distributed key value store, providing a method of storing data across a cluster of machines. It became a CNCF incubating project in 2018 at KubeCon+CloudNativeCon North America in Seattle that year.
+
+
+==== Falco ====
+Falco is an open source and cloud native runtime security initiative. It is the "de facto Kubernetes threat detection engine". It became an incubating project in January 2020  and graduated in February 2024.
+
+
+==== Harbor ====
+Harbor is an "open source trusted cloud native registry project that stores, signs, and scans content." It became an incubating project in September 2019 and graduated in June 2020.
+
+
+==== Helm ====
+
+Helm is a package manager that helps developers "easily manage and deploy applications onto the Kubernetes cluster." It joined the incubating level in June 2018 and graduated in April 2020.
+
+
+==== Istio ====
+Istio is a service mesh technology. It was accepted by CNCF in September 2022 and graduated on July 12, 2023.
+
+
+==== Jaeger ====
+Created by Uber Engineering, Jaeger is an open source distributed tracing system inspired by Google Dapper paper and OpenZipkin community. It can be used for tracing microservice-based architectures, including distributed context propagation, distributed transaction monitoring, root cause analysis, service dependency analysis, and performance/latency optimization. The Cloud Native Computing Foundation Technical Oversight Committee voted to accept Jaeger as the 12th hosted project in September 2017 and became a graduated project in 2019. In 2020 it became an approved and fully integrated part of the CNCF ecosystem.
+
+
+==== Kubernetes ====
+Kubernetes is an open source framework for automating deployment and managing applications in a containerized and clustered environment. "It aims to provide better ways of managing related, distributed components across the varied infrastructure." It was originally designed by Google and donated to The Linux Foundation to form the Cloud Native Computing Foundation with Kubernetes as the seed technology. The "large and diverse" community supporting the project has made its staying power more robust than other, older technologies of the same ilk. In January 2020, the CNCF annual report showed significant growth in interest, training, event attendance and investment related to Kubernetes.
+
+
+==== Linkerd ====
+Linkerd is CNCF's fifth member project, and the project that coined the term “service mesh". Linkerd adds observability, security, and reliability features to applications by adding them to the platform rather than the application layer, and features a "micro-proxy" to maximize speed and security of its data plane. Linkerd graduated from CNCF in July 2021.
+
+
+==== Open Policy Agent ====
+Open Policy Agent (OPA) is "an open source general-purpose policy engine and language for cloud infrastructure." It became a CNCF incubating project in April 2019. OPA graduated from CNCF in February 2021.
+
+
+==== Prometheus ====
+A Cloud Native Computing Foundation member project, Prometheus is a cloud monitoring tool sponsored by SoundCloud in early iterations. In August 2018, the tool was designated a graduated project by the Cloud Native Computing Foundation.
+
+
+==== Rook ====
+Rook is CNCF's first cloud native storage project. It became an incubation level project in 2018 and graduated in October 2020.
+
+
+==== SPIFFE ====
+SPIFFE is an open standard and framework for workload identity, much the same way that OAuth is an open standard and framework for human identity. It is built from the ground up to accommodate modern computing environments, which operate with systems scale and velocity (as opposed to human scale and velocity), while still maintaining interoperability with existing technologies like OAuth and X.509 Public key infrastructure. Unlike other identity standards, SPIFFE supports multiple credential types for a single identity, ensuring that the highly varied needs of production environments are consistently met without compromise. SPIFFE joined the CNCF as a sandbox project in 2018, was accepted to incubation in 2020, and graduated in 2022.
+
+
+==== SPIRE ====
+SPIRE is an open source identity provider for workloads based on the SPIFFE framework. It is highly pluggable, and fills the attestation and issuance needs required by any workload identity solution. The plugin interfaces it exposes allows users to write integrations with in-house systems, build internal self-service portals, and more. It is a very powerful building block for issuing short-lived identity credentials to dynamic cloud workloads. SPIRE became a CNCF Graduated project in 2022.
+
+
+==== The Update Framework ====
+The Update Framework (TUF) helps developers to secure new or existing software update systems, which are often found to be vulnerable to many known attacks. TUF addresses this widespread problem by providing a comprehensive, flexible security framework that developers can integrate with any software update system. TUF was CNCF's first security-focused project and the ninth project overall to graduate from the foundation's hosting program.
+
+
+==== TiKV ====
+TikV provides a distributed key–value database.
+
+
+==== Vitess ====
+Vitess is a database clustering system for horizontal scaling of MySQL, first created for internal use by YouTube. It became a CNCF project in 2018 and graduated in November 2019.
+
+
+=== Incubating projects ===
+
+
+==== Contour ====
+Contour is a management server for Envoy that can direct the management of Kubernetes' traffic. Contour also provides routing features that are more advanced than Kubernetes' out-of-the-box Ingress specification. VMWare contributed the project to CNCF in July 2020.
+
+
+==== Cortex ====
+Cortex offers horizontally scalable, multi-tenant, long-term storage for Prometheus and works alongside Amazon DynamoDB, Google Bigtable, Cassandra, S3, GCS, and Microsoft Azure. It was introduced into the ecosystem incubator alongside Thanos in August 2020.
+
+
+==== CRI-O ====
+CRI-O is an Open Container Initiative (OCI) based "implementation of Kubernetes Container Runtime Interface". CRI-O allows Kubernetes to be container runtime-agnostic. It became an incubating project in 2019.
+
+
+==== gRPC ====
+
+gRPC is a "modern open source high performance RPC framework that can run in any environment." The project was formed in 2015 when Google decided to open source the next version of its RPC infrastructure ("Stubby"). The project has a number of early large industry adopters such as Square, Inc., Netflix, and Cisco.
+
+
+==== Keycloak ====
+
+KeyCloak is an open-source software product to allow single sign-on with identity and access management aimed at modern applications and services. Until April 2023, this WildFly community project was under the stewardship of Red Hat. In April 2023, Keycloak became a CNCF incubating project. 
+
+
+==== KubeEdge ====
+In September 2020, CNCF's Technical Oversight Committee (TOC) announced that KubeEdge was accepted as an incubating project. The project was created at Futurewei (a Huawei partner). KubeEdge's goal is to "make edge devices an extension of the cloud".
+
+
+==== Kuma ====
+In June 2020, API management platform Kong announced that it would donate its open-source service mesh control plane technology, called Kuma, to CNCF as a sandbox project.
+
+
+==== Litmus ====
+In July 2020, MayaData donated Litmus, an open source chaos engineering tool that runs natively on Kubernetes, to CNCF as a sandbox-level project.
+
+
+==== NATS ====
+NATS consists of a collection of open source messaging technologies that "implements the publish/subscribe, request/reply and distributed queue patterns to help create a performant and secure method of InterProcess Communication (IPC)." It existed independently for a number of years but gained wider reach since becoming a CNCF incubating project.
+
+
+==== Notary ====
+Notary is an open source project that enables widespread trust over arbitrary data collections. Notary was released by Docker in 2015 and became a CNCF project in 2017.
+
+
+==== OpenTelemetry ====
+OpenTelemetry is an open source observability framework created when CNCF merged the OpenTracing and OpenCensus projects. OpenTracing offers "consistent, expressive, vendor-neutral APIs for popular platforms" while the Google-created OpenCensus project acts as a "collection of language-specific libraries for instrumenting an application, collecting stats (metrics), and exporting data to a supported backend." Under OpenTelemetry, the projects create a "complete telemetry system [that is] suitable for monitoring microservices and other types of modern, distributed systems — and [is] compatible with most major OSS and commercial backends." It is the "second most active" CNCF project. In October 2020, AWS announced the public preview of its distro for OpenTelemetry.
+
+
+==== Thanos ====
+Thanos enables global query views and unlimited retention of metrics. It was designed to be easily addable to Prometheus deployments.
+
+
+== CNCF Initiatives ==
+CNCF hosts a number of efforts and initiatives to serve the cloud native community, including:
+
+
+=== Events ===
+CNCF hosts the co-located KubeCon and CloudNativeCon conferences, which have become a keystone events for technical users and business professionals seeking to increase Kubernetes and cloud-native knowledge. The events seek to enable collaboration with industry peers and thought leaders. The North America event was moved to an entirely remote model for its 2020 season due to the COVID-19 pandemic.
+
+
+=== Diversity scholarships and stance on equity and inclusion ===
+CNCF's Diversity Scholarship program covers the ticket and travel to the KubeCon + CloudNativeCon conference. In 2018, $300,000 in diversity scholarships was raised to enable attendees from diverse and minority backgrounds to make the journey to Seattle for KubeCon and CloudNativeCon.
+In August 2020, Priyanka Sharma stated that CNCF stands "in solidarity" with the Black Lives Matter movement. Sharma also stated that she was "personally involved in a project to eradicate racially problematic terminology from code" and that the foundation is "actively working to improve the gender and racial balance inside the cloud native ecosystem" while remaining committed to creating spaces and opportunities for LGBTQIA+, women, Black and Brown people, and differently-abled people, specifically in regards to KubeCon.
+
+
+=== Kubernetes certification and education ===
+One path toward becoming a Kubernetes-certified IT professional is the vendor-agnostic Certified Kubernetes Administrator (CKA) accreditation, which is relevant to admins who work across a range of cloud platforms. There are tens of thousands of Certified Kubernetes Administrators (CKA) and Certified Kubernetes Application Developers (CKAD) worldwide.
+
+
+=== Kubernetes software conformance and training ===
+CNCF's Certified Kubernetes Conformance Program (KCSP) enables vendors to prove that their product and service conformant with a set of core Kubernetes APIs and are interoperable with other Kubernetes implementations. At the end of 2018, there were 76 firms that had validated their offerings with the Certified Kubernetes Conformance Program.
+In 2017, CNCF also helped the Linux Foundation launch a free Kubernetes course on the EdX platform — which has more than 88,000 enrollments. The self-paced course covers the system architecture, the problems Kubernetes solves, and the model it uses to handle containerized deployments and scaling. The course also includes technical instructions on how to deploy a standalone and multi-tier application.
+
+
+=== Cloud Native Landscape ===
+CNCF developed a landscape map that shows the full extent of cloud native solutions, many of which fall under their umbrella. The interactive catalog gives an idea of the problems facing engineers and developers in deciding which products to use. This interactive catalog was created in response to the proliferation of third-party technologies and the resulting decision-fatigue engineers and developers often experience when selecting software tools. In addition to mapping out the relevant and existing cloud native solutions, CNCF's landscape map provides details on the solutions themselves including open source status, contributors, and more.
+The landscape map has been the subject of various jokes on Twitter due to the CNCF ecosystem's expansiveness and visual complexity.
+
+
+=== Cloud Native Trail Map ===
+CNCF's Cloud Native Trail Map outlines the open source cloud native technologies hosted by the Foundation and outlines the recommended path for building a cloud native operation using the projects under its wing. The Cloud Native Trail Map also acts as an interactive and comprehensive guide to cloud technologies.
+
+
+=== DevStats ===
+CNCF's DevStats tool provides analysis of GitHub activity for Kubernetes and the other CNCF projects. Dashboards track a multitude of metrics, including the number of contributions, the level of engagement of contributors, how long it takes to get a response after an issue is opened, and which special interest groups (SIGs) are the most responsive.
+
+
+=== CNCF Technology Radar ===
+In June 2020, CNCF published the inaugural issue of the CNCF Technology Radar, an "opinionated guide to a set of emerging technologies" in the form of a quarterly paper.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Official website
+Cloud Native Computing Foundation on GitHub

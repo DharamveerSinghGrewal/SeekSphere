@@ -1,0 +1,89 @@
+Site Reliability Engineering (SRE) is a discipline in the field of Software Engineering and IT infrastructure support that monitors and improves the availability and performance of deployed software s...
+
+Site Reliability Engineering (SRE) is a discipline in the field of Software Engineering and IT infrastructure support that monitors and improves the availability and performance of deployed software systems and large software services (which are expected to deliver reliable response times across events such as new software deployments, hardware failures, and cybersecurity attacks). There is typically a focus on automation and an Infrastructure as Code methodology. SRE uses elements of software engineering, IT infrastructure, web development, and operations to assist with reliability. It is similar to DevOps as they both aim to improve the reliability and availability of deployed software systems.
+
+
+== History ==
+Site Reliability Engineering originated at Google with Benjamin Treynor Sloss, who founded SRE team in 2003. The concept expanded within the software development industry, leading various companies to employ site reliability engineers. By March 2016, Google had more than 1,000 site reliability engineers on staff. Dedicated SRE teams are common at larger web development companies. In middle-sized and smaller companies, DevOps teams sometimes perform SRE, as well. Organizations that have adopted the concept include Airbnb, Dropbox, IBM, LinkedIn, Netflix, and Wikimedia.
+
+
+== Definition ==
+Site reliability engineers (SREs) are responsible for a combination of system availability, latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning. SREs often have backgrounds in software engineering, systems engineering, and/or system administration. The focuses of SRE include automation, system design, and improvements to system resilience. 
+SRE is considered a specific implementation of DevOps; focusing specifically on building reliable systems, whereas DevOps covers a broader scope of operations. Despite having different focuses, some companies have rebranded their operations teams to SRE teams.
+
+
+== Principles and practices ==
+Common definitions of the practices include (but are not limited to):
+
+Automation of repetitive tasks for cost-effectiveness.
+Defining reliability goals to prevent endless effort.
+Design of systems with a goal to reduce risks to availability, latency, and efficiency.
+Observability, the ability to ask arbitrary questions about a system without having to know ahead of time what to ask.
+Common definitions of the principles include (but are not limited to): 
+
+Toil management, the implementation of the first principle outlined above.
+Defining and measuring reliability goals—SLIs, SLOs, and error budgets.
+Non-Abstract Large Scale Systems Design (NALSD) with a focus on reliability.
+Designing for and implementing observability.
+Defining, testing, and running an incident management process.
+Capacity planning.
+Change and release management, including CI/CD.
+Chaos engineering.
+
+
+== Deployment ==
+SRE teams collaborate with other departments within organizations to guide the implementation of the mentioned principles. Below is an overview of common practices:
+
+
+=== Kitchen Sink ===
+Kitchen Sink refers to the expansive and often unbounded scope of services and workflows that SRE teams oversee. Unlike traditional roles with clearly defined boundaries, SREs are tasked with various responsibilities, including system performance optimization, incident management, and automation. This approach allows SREs to address multiple challenges, ensuring that systems run efficiently and evolve in response to changing demands and complexities. 
+
+
+=== Infrastructure ===
+Infrastructure SRE teams focus on maintaining and improving the reliability of systems that support other teams' workflows. While they sometimes collaborate with platform engineering teams, their primary responsibility is ensuring up-time, performance, and efficiency. Platform teams, on the other hand, primarily develop the software and systems used across the organization. While reliability is a goal for both, platform teams prioritize creating and maintaining the tools and services used by internal stakeholders, whereas Infrastructure SRE teams are tasked with ensuring those systems run smoothly and meet reliability standards.
+
+
+=== Tools ===
+SRE teams utilize a variety of tools with the aim of measuring, maintaining, and enhancing system reliability. These tools play a role in monitoring performance, identifying issues, and facilitating proactive maintenance. For instance, Nagios Core is commonly employed for system monitoring and alerting, while Prometheus (software) is frequently used for collecting and querying metrics in cloud-native environments.
+
+
+=== Product or Application ===
+SRE teams dedicated to specific products or applications are common in large organizations. These teams are responsible for ensuring the reliability, scalability, and performance of key services. In larger companies, it's typical to have multiple SRE teams, each focusing on different products or applications, ensuring that each area receives specialized attention to meet performance and availability targets.
+
+
+=== Embedded ===
+In an embedded model, individual SREs or small SRE pairs are integrated within software engineering teams. These SREs collaborate with developers, applying core SRE principles—such as automation, monitoring, and incident response—directly to the software development lifecycle. This approach aims to enhance reliability, performance, and collaboration between SREs and developers.
+
+
+=== Consulting ===
+Consulting SRE teams specialize in advising organizations on the implementation of SRE principles and practices. Typically composed of seasoned SREs with a history across various implementations, these teams provide insights and guidance for specific organizational needs. When working directly with clients, these SREs are often referred to as 'Customer Reliability Engineers.'
+In large organizations that have adopted SRE, a hybrid model is common. This model includes various implementations, such as multiple Product/Application SRE teams dedicated to addressing the specific reliability needs of different products. An Infrastructure SRE team may collaborate with a Platform engineering group to achieve shared reliability goals for a unified platform that supports all products and applications.
+
+
+== Industry ==
+Since 2014, the USENIX organization has hosted the annual SREcon conference, bringing together site reliability engineers from various industries. This conference is a platform for professionals to share knowledge, explore effective practices, and discuss trends in site reliability engineering.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Limoncelli, Tom; Chalup, Strata R.; Hogan, Christina J. (September 2014). The Practice of Cloud System Administration: DevOps and SRE Practices for Web Services. Vol. 2. Upper Saddle River, NJ: Addison-Wesley. ISBN 978-0133478549. OCLC 891786231.
+Beyer, Betsy; Jones, Chris; Petoff, Jennifer; Murphy, Niall Richard, eds. (2016). Site Reliability Engineering: How Google Runs Production Systems. O'Reilly. ISBN 978-1491929124.
+Blank-Edelman, David N., ed. (2018). Seeking SRE: Conversations About Running Production Systems at Scale (1 ed.). Sebastopol, CA: O'Reilly. ISBN 978-1491978863. OCLC 1052565720.
+Beyer, Betsy; Murphy, Niall; Kawahara, Kent; Rensin, David; Thorne, Stephen (2018). The Site Reliability Workbook: Practical Ways to Implement SRE. O'Reilly. ISBN 978-1492029502.
+Welch, Nat (2018). Real-World SRE: The Survival Guide for Responding to a System Outage and Maximizing Uptime. Packt. ISBN 978-1788628884.
+Adkins, Heather; Beyer, Betsy; Blankinship, Paul; Lewandowski, Piotr; Oprea, Ana; Stubblefield, Adam (2020). Building Secure and Reliable Systems: Best Practices for Designing, Implementing, and Maintaining Systems. O'Reilly. ISBN 978-1-4920-8312-2. OCLC 1129470292.
+Rosenthal, Jones, Casey, Nora (2020). Chaos Engineering: System Resiliency in Practice. O'Reilly. ISBN 978-1492043867.{{cite book}}:  CS1 maint: multiple names: authors list (link)
+
+
+== External links ==
+Awesome Site Reliability Engineering resources list
+How they SRE resources list
+SRE Weekly weekly newsletter devoted to SRE
+SRE at Google landing page for learning more about SRE in Google
+Komodor K8s Reliability learning centre with resources for SREs working with Kubernetes
+SRE: What Do You Need To Know To Master This Role? resource list

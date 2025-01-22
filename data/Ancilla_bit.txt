@@ -1,0 +1,15 @@
+In reversible computing, ancilla bits are extra bits being used to implement irreversible logical operations. In classical computation, any memory bit can be turned on or off at will, requiring no pri...
+
+In reversible computing, ancilla bits are extra bits being used to implement irreversible logical operations. In classical computation, any memory bit can be turned on or off at will, requiring no prior knowledge or extra complexity.  However, this is not the case in quantum computing or classical reversible computing.  In these models of computing, all operations on computer memory must be reversible, and toggling a bit on or off would lose the information about the initial value of that bit.  For this reason, in a quantum algorithm there is no way to deterministically put bits in a specific prescribed state unless one is given access to bits whose original state is known in advance.  Such bits, whose values are known a priori, are known as ancilla bits in a quantum or reversible computing task.
+
+A trivial use for ancilla bits is downgrading complicated quantum gates into simple gates. For example, by placing controls on ancilla bits, a Toffoli gate can be used as a controlled NOT gate or a NOT gate.: 29 
+For classical reversible computation it is known that a constant number O(1) of ancilla bits is necessary and sufficient for universal computation.  Additional ancilla bits are not necessary, but the extra workspace can allow for simpler circuit constructions that use fewer gates.: 131 
+
+
+== Ancilla qubits ==
+The concept of ancilla bit can be extended for quantum computing in terms of ancilla qubits, that can be used for example in quantum error correction.
+One notable example for the use of ancilla qubits in quantum computing is the Deutsch–Jozsa algorithm.
+Quantum catalysis uses ancilla qubits to store entangled states that enable tasks that would not normally be possible with local operations and classical communication (LOCC).
+
+
+== References ==

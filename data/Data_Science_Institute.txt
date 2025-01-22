@@ -1,0 +1,14 @@
+The Data Science Institute is a research institute at the Imperial College London founded in April 2014. The institute is one of five Global Institutes at Imperial College London, alongside the Instit...
+
+The Data Science Institute is a research institute at the Imperial College London founded in April 2014. The institute is one of five Global Institutes at Imperial College London, alongside the Institute of Global Health Innovation, Energy Futures Lab, Institute for Security Science and Technology, and the Grantham Institute - Climate Change and Environment.
+The Data Science Institute has partnerships with international industry and academia, with formal investments from Chinese multinational telecoms company Huawei, multinational consultancy KPMG, and Zhejiang University, China.
+The goal of the institute is to enhance multidisciplinary data science research across the whole of Imperial College by coordinating and promoting data-driven research and education activities. These activities cover all areas across the College including engineering, medicine, natural sciences, and business.
+The institute houses a custom built large-scale immersive data visualization facility called the KPMG Data Observatory, which has a resolution of 132 megapixels that is thought to be the largest such system in Europe.
+
+
+== References ==
+
+
+== External links ==
+Official website
+https://www.imperial.ac.uk/research-and-innovation/about-imperial-research/global-institutes/

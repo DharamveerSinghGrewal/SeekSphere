@@ -1,0 +1,6 @@
+The European Cybersecurity Challenge (ECSC) is an annual cybersecurity competition organized by the European Union Agency for Cybersecurity (ENISA). The event aims to foster young talent in the field ...
+
+The European Cybersecurity Challenge (ECSC) is an annual cybersecurity competition organized by the European Union Agency for Cybersecurity (ENISA). The event aims to foster young talent in the field of cybersecurity by bringing together teams of young individuals from various European countries to compete in solving cybersecurity-related challenges. The challenge days are usually split between the two popular CTF formats: jeopardy and attack-defense. Teams consist of 10 players under the age of 25 including 5 under the age of 20. Each country runs national qualifiers and competitions as part of the selection process. It has been described as "the Eurovision of cybersecurity".
+
+
+== References ==

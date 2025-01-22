@@ -1,0 +1,78 @@
+In physics, the observer effect is the disturbance of an observed system by the act of observation. This is often the result of utilising instruments that, by necessity, alter the state of what they m...
+
+In physics, the observer effect is the disturbance of an observed system by the act of observation. This is often the result of utilising instruments that, by necessity, alter the state of what they measure in some manner. A common example is checking the pressure in an automobile tire, which causes some of the air to escape, thereby changing the amount of pressure one observes. Similarly, seeing non-luminous objects requires light hitting the object to cause it to reflect that light. While the effects of observation are often negligible, the object still experiences a change (leading to the Schrödinger's cat thought experiment). This effect can be found in many domains of physics, but can usually be reduced to insignificance by using different instruments or observation techniques.
+A notable example of the observer effect occurs in quantum mechanics, as demonstrated by the double-slit experiment. Physicists have found that observation of quantum phenomena by a detector or an instrument can change the measured results of this experiment. Despite the "observer effect" in the double-slit experiment being caused by the presence of an electronic detector, the experiment's results have been interpreted by some to suggest that a conscious mind can directly affect reality. However, the need for the "observer" to be conscious is not supported by scientific research, and has been pointed out as a misconception rooted in a poor understanding of the quantum wave function ψ and the quantum measurement process.
+
+
+== Particle physics ==
+An electron is detected upon interaction with a photon; this interaction will inevitably alter the velocity and momentum of that electron. It is possible for other, less direct means of measurement to affect the electron. It is also necessary to distinguish clearly between the measured value of a quantity and the value resulting from the measurement process. In particular, a measurement of momentum is non-repeatable in short intervals of time. A formula (one-dimensional for simplicity) relating involved quantities, due to Niels Bohr (1928) is given by
+
+  
+    
+      
+        
+          |
+        
+        
+          v
+          
+            x
+          
+          ′
+        
+        −
+        
+          v
+          
+            x
+          
+        
+        
+          |
+        
+        Δ
+        
+          p
+          
+            x
+          
+        
+        ≈
+        ℏ
+        
+          /
+        
+        Δ
+        t
+        ,
+      
+    
+    {\displaystyle |v'_{x}-v_{x}|\Delta p_{x}\approx \hbar /\Delta t,}
+  
+
+where 
+
+Δpx is uncertainty in measured value of momentum,
+Δt is duration of measurement,
+vx is velocity of particle before measurement,
+v′x is velocity of particle after measurement,
+ħ is the reduced Planck constant.
+The measured momentum of the electron is then related to vx, whereas its momentum after the measurement is related to v′x. This is a best-case scenario.
+
+
+== Electronics ==
+In electronics, ammeters and voltmeters are usually wired in series or parallel to the circuit, and so by their very presence affect the current or the voltage they are measuring by way of presenting an additional real or complex load to the circuit, thus changing the transfer function and behavior of the circuit itself. Even a more passive device such as a current clamp, which measures the wire current without coming into physical contact with the wire, affects the current through the circuit being measured because the inductance is mutual.
+
+
+== Thermodynamics ==
+In thermodynamics, a standard mercury-in-glass thermometer must absorb or give up some thermal energy to record a temperature, and therefore changes the temperature of the body which it is measuring.
+
+
+== Quantum mechanics ==
+
+
+== See also ==
+Observer (special relativity)
+
+
+== References ==

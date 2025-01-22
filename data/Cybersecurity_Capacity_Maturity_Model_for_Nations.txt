@@ -1,0 +1,161 @@
+Cybersecurity Capacity Maturity Model for Nations (CMM) is a framework developed to review the cybersecurity capacity maturity of a country across five dimensions. The five dimensions covers the capac...
+
+Cybersecurity Capacity Maturity Model for Nations (CMM) is a framework developed to review the cybersecurity capacity maturity of a country across five dimensions. The five dimensions covers the capacity area required by a country to improve its cybersecurity posture. It was designed by Global Cyber Security Capacity Centre (GCSCC) of University of Oxford and first of its kind framework for countries to review their cybersecurity capacity, benchmark it and receive recommendation for improvement. Each dimension is divided into factors and the factors broken down into aspects. The review process includes rating each factor or aspect along five stages that represents the how well a country is doing in respect to that factor or aspect. The recommendations includes guidance on areas of cybersecurity that needs improvement and thus will require more focus and investment. As at June, 2021, the framework has been adopted and implemented in over 80 countries worldwide. Its deployment has been catalyzed by the involvement of international organizations such as the Organization of American States (OAS), the World Bank (WB), the International Telecommunication Union (ITU) and the Commonwealth Telecommunications Union (CTO) and Global Forum on Cyber Expertise (GFCE).
+
+
+== Overview ==
+The World Summit on Information Society identified capacity building in the realm of cybersecurity as one of the pillars necessary to reap the benefits of processes and services digitalization, especially in developing nations. The International Telecommunication Union reported that developing nations lack the necessary cybersecurity capacity to manage ICT risk and respond to cyberthreats. Because cyberattacks and vulnerabilities in one nation can affect other parts of the world, some maturity models were developed to assess the cybersecurity capacity of nations and benchmark the capacity level. One of such models is the CMM.
+The CMM was developed in 2014, through collaborative effort between the GCSCC and over 200 experts from academia, international and regional organizations and the private sector. CMM assesses the capacity of a country from five identified area called dimensions with the objective of improving the coverage, measurement and effectiveness of cyber security capacity building within five levels of progression. Benchmarking of a country's cybersecurity capacity involves reviewing its initiatives and activities against the entire CMM and across all Dimensions. According to the report of a regional CMM assessment of Latin America and the Caribbean, CMM assessment aims to identify cybersecurity gaps and discover actions that works.
+Since 2014, the CMM has undergone revisions and it is intended to be a living model that remain relevant to every aspect of cybersecurity needs at the national level.
+
+
+=== Structure ===
+
+The framework consists of dimensions, factors, aspects, indicators and stages.
+Dimension.
+The dimensions represent the scope of a country's cybersecurity capacity that will be assessed by CMM and it is broken down into factors. The dimensions are not stand alone, rather they are related to one another because a nation's performance in one dimension of capacity may require input from another dimension.
+The five dimensions from the 2021 version are:
+
+Developing cybersecurity policy and strategy - This dimension examines how a nation fares in terms of availability and implementation of Cybersecurity policies and strategy.
+Encouraging responsible cybersecurity culture within society - This dimension views how well citizens of a nation are familiar with digital risk and the provision of a viable channel for reporting cybercriminal activities.
+Building cybersecurity knowledge and capabilities - This dimension explores structures in place for cybersecurity awareness and education within the nation.
+Creating effective legal and regulatory frameworks - Examine the ability of a country to develop, ratify and enforce cybersecurity and privacy related legislation.
+Controlling risks through standards and technologies - This dimension examines the common use of cybersecurity standard and presence of structures for development of such technologies.
+Factors:
+The factors are the important component of a country's capacity whose maturity level is measured and there are 23 factors in the latest version with each having one or more aspects.
+Aspects:
+These are smaller subdivision of factors which helps with understanding each factor and help in evidence gathering and measurement.
+Indicators:
+Each Indicator define the actions that suggest that a nation has maintain a specific stage of maturity. The level of maturity assigned to an aspect depend on the ability of a nation to fulfill the steps and actions listed as its indicator. Evidence will be required to be provided before a particular stage can be attained. It is either an
+evidence is available or not and to move to a higher stage, all of the Indicators within a particular stage will need to have been fulfilled.
+Stage:
+This represent how matured a nations is on each factor or aspect. There are 5 stages of maturity; start-up, formative, established, strategic and dynamic. For a nation to met a particular maturity stage, it has to fulfill some indicators.
+
+Start-up - At this stage, a nation has no presentable evidence to show existence of cybersecurity initiatives.
+Formative - Evidence is available to proof initiatives on some of the aspects, however these efforts may be at the initiation state or be ad hoc.
+Established - The is evidence to show that the aspect is defined, functional and working but adequate resource allocation is lacking.
+Strategic - Aspect has been prioritized based on national need.
+Dynamic - A working adaptable cybersecurity strategy is available, which is evidenced by global leadership on cybersecurity issues, agility of decision-making, and resources allocation.
+
+
+=== Development ===
+The first version of the framework was released in 2014. Based on pilot assessments conducted in six countries, improvements were made on the model and an updated version was published in 2017. Based on lessons learnt over the years from CMM deployments and consultations from GCSCC Expert Advisory Panel, strategic, regional and implementation partners of the GCSCC, and other experts from academia, international and regional organisations, governments, the private sector, and civil society, an updated version was released in 2021.
+The dimensions, factors and aspects have changed overtime between CMM versions.
+The 2014 has 5 dimensions and 21 factors. The 2017 version has 5 dimensions with 24 factors. The 2021 version has 5 dimensions and 23 factors.
+Table 1 lists the dimensions across the three versions.
+
+Table 2 list the factors for each version.
+
+
+== The Review Process ==
+CMM review process has 3 stages.
+Stage 1: Desk research and country-partner identification.
+The first step is selection of a country. A CMM review can be requested by a country or a country can be selected for assessment by an international or regional organization.
+Once a nation is selected for assessment, a relationship is established with the host country and necessary stakeholders identified from academia, civil societies, government ministries/department, international organizations and the private sector.
+Stage 2: The Review
+The actual review with the stakeholders is a three-day consultation process and based on the five dimensions, multiple teams are created across stakeholders.
+Open discussions or focus groups method is applied to ask and answers questions. Questions and answer can also be collected using online tool. Inability to provide evidence for all indicators under each aspect will result in a lower maturity level for that aspect.
+Remote follow-up sessions or email communication may be used for further data collection.
+Stage 3: Review Report
+A report is presented to the country's government and it is at the discretion of that country to make it publicly available or not.
+
+
+== The recommendation ==
+The output of the CMM assessment is a report which details the gaps identified from each aspect and the present maturity level of each indicator. The assessment report is the property of the assessed nation and they choose whether to make it public or not. Depending on a nation's need, it recommend areas that should be given priority in terms of resource allocation.
+The report include a sunburst representation of the cybersecurity capacity of the nation, reason for placing each factor or aspect in a particular stage and recommendation of what can be done to move up along the maturity stage.
+Sample results from some of the reviews are available on GCSCC's website.
+
+
+== Nations with CMM Assessment ==
+The GCSCC website has the list of nations that has been assessed, which have been listed below.
+Albania
+Antigua and Barbuda
+Argentina
+Armenia
+Bahamas
+Bangladesh
+Barbados
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Brazil
+Burkina Faso
+Cabo Verde
+Cameroon
+Chile
+Colombia
+Cook Islands
+Costa Rica
+Cyprus
+Dominica
+Dominican Republic
+Ecuador
+El Salvador
+Eswatini
+Fiji
+Gambia
+Georgia
+Ghana
+Grenada
+Guatemala
+Guyana
+Haiti
+Honduras
+Iceland
+Indonesia
+Ivory Coast
+Jamaica
+Kiribati
+Kosovo
+Kyrgyzstan
+Lesotho
+Liberia
+Lithuania
+Madagascar
+Malawi
+Mauritius
+Mexico
+Micronesia
+Montenegro
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nicaragua
+Niger
+Nigeria
+North Macedonia
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Rwanda
+Saint Kitts and Nevis
+Saint Lucia
+Saint Vincent and the Grenadines
+Samoa
+Senegal
+Serbia
+Sierra Leone
+Somalia
+Sri Lanka
+Suriname
+Switzerland
+Tanzania
+Thailand
+Tonga
+Trinidad and Tobago
+Tunisia
+Tuvalu
+Uganda
+United Kingdom
+Uruguay
+Vanuatu
+Venezuela
+Zambia
+
+
+== References ==

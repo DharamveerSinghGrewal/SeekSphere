@@ -1,0 +1,29 @@
+AIO Robotics is a Los Angeles, California-based company that produces 3D printer and 3D scanner technology.   == History ==  AIO Robotics was founded in May 2013 by Jens Windau, Dr. Kai Chang, and Dr....
+
+AIO Robotics is a Los Angeles, California-based company that produces 3D printer and 3D scanner technology.
+
+
+== History ==
+
+AIO Robotics was founded in May 2013 by Jens Windau, Dr. Kai Chang, and Dr. Christian Siagian. The founding team comes from a unique mix of robotics, artificial intelligence, and computer vision; and previously worked together at the robotics labs of the University of Southern California. Their vision is to build user-friendly, stand-alone, all-in-one systems to improve user experience in 3D technology. AIO Robotics' first product was named ZEUS, the first and only device that allows users to 3D scan, print, copy, and fax objects with a touch of a button from one device. In May 2013, the founding team was accepted into the Viterbi Startup Garage, one of the university's accelerator programs. AIO Robotics received $20,000 in funding, work space, and strategic and financial resources from the university and its partners Kleiner Perkins Caufield & Byers and United Talent Agency. In Fall 2013, AIO Robotics went to Kickstarter to seek funding for their first 3D printer prototype ZEUS. Their Kickstarter project exceeded its $100,000 goal in 24 hours. Inc. named AIO Robotics a "Startup to Watch" at CES 2014. In May 2014, AIO Robotics made ZEUS available for pre-order. Techcrunch described the ZEUS as a "3D Printer, Scanner, And Teleportation Machine All in One". The company started shipping fully assembled ZEUS machines in Fall 2014 from their manufacturing location in Taiwan.
+AIO Robotics announced a strategic partnership with Santec in August 2015 for investment, distribution, and co-development. AIO Robotics' customer base includes educational institutes, libraries, prototyping laboratories, and hobbyists.
+
+
+== Products ==
+
+
+=== ZEUS ===
+
+The ZEUS is the world's first 3D Printer with an integrated 3D Scanner, on-board computer, and touchscreen. Critical technology components of ZEUS are currently patent-pending. The ZEUS has a print volume of 8x6x5.7 inches (WxLxH). The scanning volume is 9 inch (diameter) x 5 inch (height). It also has on-board features such as auto-calibration, meshing, auto-leveling, and on-board slicing, which is powered by a 1.7 GHz high-speed processor. The ZEUS also includes a built-in 7-inch color display, with an intuitive and easy to operate user interface. ZEUS offers internet connection for automated software updates. In Fall 2015, AIO Robotics introduced a report button for ZEUS. Once pressed, a support request is sent from ZEUS directly to AIO Robotics' customer support. In December 2015, the ZEUS received a platinum award in LibraryWorks' second annual Modern Library awards.
+At CES 2016, AIO Robotics announced several new software features including an integrated search functionality to directly search, download and print 3D files from online databases. AIO Robotics also presented the world's first integrated 3D App Store to run customized Apps.
+
+
+=== ZEUS PLUS ===
+AIO Robotics announced the ZEUS PLUS at CES 2016. AIO Robotics' latest product was named a CES 2016 Innovation Award Honoree. The ZEUS PLUS is an upgraded ZEUS version including a heating bed and an air filter. The retail launch date for ZEUS PLUS has not yet been released.
+
+
+== See also ==
+List of 3D printer manufacturers
+
+
+== References ==

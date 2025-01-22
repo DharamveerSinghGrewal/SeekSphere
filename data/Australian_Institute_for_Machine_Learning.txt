@@ -1,0 +1,28 @@
+The Australian Institute for Machine Learning (AIML) is an artificial intelligence (AI) and machine learning research and translation institute based at the Lot Fourteen innovation precinct in Adelaid...
+
+The Australian Institute for Machine Learning (AIML) is an artificial intelligence (AI) and machine learning research and translation institute based at the Lot Fourteen innovation precinct in Adelaide, South Australia. 
+
+
+== History ==
+An institute of the University of Adelaide, AIML was established in 2018 by incorporating the university's Australian Centre of Visual Technologies (ACVT). It officially joined Lot Fourteen as a tenant in 2020. The Government of South Australia put A$7.1m into the opening of the institute.
+In 2018, American aerospace and defence corporation Lockheed Martin became the AIML's first foundation partner. Between 2018 and 2021, AIML worked with 21 companies, improving their AI and machine learning capabilities, creating 30 new jobs and developing a number of new AI products. One of these was visual effects and animation business Rising Sun Pictures, enabling it to develop some cutting-edge new tools. Another is Acacia Systems, a defence technology company that specialises in data fusions and tactical tools.
+In 2019, Rising Sun Pictures worked with AIML to incorporate machine learning techniques in the 2022 film, Elvis.
+In September 2021, Microsoft signed a memorandum of understanding with the AIML to collaboratively investigate how advanced cloud computing, AI, computer vision and machine learning can be applied in space.
+
+
+== Description ==
+AIML is a research institute focused on artificial intelligence and machine learning based at Lot Fourteen  on North Terrace in Adelaide city centre. It has more than 160 members, and is the largest university-based research site dedicated to machine learning in Australia, as well as ranking among the global top sites for its computer vision research capability.
+The institute runs on an open access basis; most of its research is open to the rest of the world, either through conferences and journals or via open source software. Its researchers are using machine learning to assist industries as diverse as agriculture, medical imaging, manufacturing, mining operations, and filmmaking.
+Tat-Jun Chin is professorial chair of sentient satellites at AIML. As of September 2022 Simon Lucey is the director of the institute.
+
+
+== Ranking and awards ==
+AIML is regarded as the best in the world in several areas, for example in pedestrian detection, reconstructing 3D from 2D, semantic segmentation, tracking and identification, overhead image classification and face detection.
+In November 2021, AIML was awarded the Excellence in Science and Industry Collaboration at the SA Science Excellence and Innovation Awards.
+
+
+== References ==
+
+
+== External links ==
+Official website

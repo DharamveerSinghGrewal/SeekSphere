@@ -1,0 +1,111 @@
+The 3rd Generation Partnership Project (3GPP) is an umbrella term for a number of standards organizations which develop protocols for mobile telecommunications. Its best known work is the development ...
+
+The 3rd Generation Partnership Project (3GPP) is an umbrella term for a number of standards organizations which develop protocols for mobile telecommunications. Its best known work is the development and maintenance of:
+
+GSM and related 2G and 2.5G standards, including GPRS and EDGE
+UMTS and related 3G standards, including HSPA and HSPA+
+LTE and related 4G standards, including LTE Advanced and LTE Advanced Pro
+5G NR and related 5G standards, including 5G-Advanced
+An evolved IP Multimedia Subsystem (IMS) developed in an access independent manner
+3GPP is a consortium with seven national or regional telecommunication standards organizations as primary members ("organizational partners") and a variety of other organizations as associate members ("market representation partners"). The 3GPP organizes its work into three different streams: Radio Access Networks, Services and Systems Aspects, and Core Network and Terminals.
+The project was established in December 1998 with the goal of developing a specification for a 3G mobile phone system based on the 2G GSM system, within the scope of the International Telecommunication Union's International Mobile Telecommunications-2000, hence the name 3GPP. It should not be confused with 3rd Generation Partnership Project 2 (3GPP2), which developed a competing 3G system, CDMA2000.
+The 3GPP administrative support team (known as the "Mobile Competence Centre") is located at the European Telecommunications Standards Institute headquarters in the Sophia Antipolis technology park in France.
+
+
+== Organizational Partners ==
+The seven 3GPP Organizational Partners are from Asia, Europe and North America. Their aim is to determine the general policy and strategy of 3GPP and perform the following tasks:
+
+The approval and maintenance of the 3GPP scope;
+The maintenance of the Partnership Project Description;
+Take the decision to create or cease a Technical Specification Groups, and approve their scope and terms of reference;
+The approval of Organizational Partner funding requirements;
+The allocation of human and financial resources provided by the Organizational Partners to the Project Co-ordination Group;
+Act as a body of appeal on procedural matters referred to them.
+Together with the Market Representation Partners (MRPs) perform the following tasks:
+
+The maintenance of the Partnership Project Agreement;
+The approval of applications for 3GPP partnership;
+Take the decision against a possible dissolution of 3GPP.
+The Organizational Partners are:
+
+
+== Market Representation Partners ==
+The 3GPP Organizational Partners can invite a Market Representation Partner to take part in 3GPP, which:
+
+Has the ability to offer market advice to 3GPP and to bring into 3GPP a consensus view of market requirements (e.g., services, features and functionality) falling within the 3GPP scope;
+Does not have the capability and authority to define, publish and set standards within the 3GPP scope, nationally or regionally;
+Has committed itself to all or part of the 3GPP scope;
+Has signed the Partnership Project Agreement.
+As of January 2025, the Market Representation Partners are:
+
+
+== Standards ==
+3GPP standards are structured as Releases. Discussion of 3GPP thus frequently refers to the functionality in one release or another.
+
+Each release incorporates hundreds of individual Technical Specification and Technical Report documents, each of which may have been through many revisions. Current 3GPP standards incorporate the latest revision of the GSM standards.
+The documents are made available without charge on 3GPP's web site. The Technical Specifications cover not only the radio part ("Air Interface") and Core Network, but also billing information and speech coding down to source code level. Cryptographic aspects (such as authentication, confidentiality) are also specified.
+
+
+== Specification groups ==
+The 3GPP specification work is done in Technical Specification Groups (TSGs) and Working Groups (WGs).
+There are three Technical Specifications Groups, each of which consists of multiple WGs:
+
+RAN (Radio Access Network): RAN specifies the UTRAN and the E-UTRAN. It is composed of six working groups.
+
+SA (Service and System Aspects): SA specifies the service requirements and the overall architecture of the 3GPP system. It is also responsible for the coordination of the project. SA is composed of six working groups.
+
+CT (Core Network and Terminals): CT specifies the core network and terminal parts of 3GPP. It includes the core network – terminal layer 3 protocols. It is composed of five working groups.
+
+GERAN (GSM/EDGE Radio Access Network):
+The closure of GERAN was announced in January 2016. The specification work on legacy GSM/EDGE system was transferred to RAN WG, RAN6. RAN6 was closed in July 2020 (https://www.3gpp.org/news-events/2128-r6_geran).
+The 3GPP structure also includes a Project Coordination Group, which is the highest decision-making body. Its missions include the management of overall timeframe and work progress.
+
+
+== Standardization process ==
+3GPP standardization work is contribution-driven. Companies ("individual members") participate through their membership to a 3GPP Organizational Partner. As of December 2020, 3GPP is composed of 719 individual members.
+Specification work is done at WG and at TSG level:
+
+the 3GPP WGs hold several meetings a year. They prepare and discuss change requests against 3GPP specifications. A change request accepted at WG level is called "agreed".
+the 3GPP TSGs hold plenary meetings quarterly. The TSGs can "approve" the change requests that were agreed at WG level. Some specifications are under the direct responsibility of TSGs and therefore, change requests can also be handled at TSG level. The approved change requests are subsequently incorporated in 3GPP specifications.
+3GPP follows a three-stage methodology as defined in ITU-T Recommendation I.130:
+
+stage 1 specifications define the service requirements from the user point of view.
+stage 2 specifications define an architecture to support the service requirements.
+stage 3 specifications define an implementation of the architecture by specifying protocols in details.
+Test specifications are sometimes defined as stage 4, as they follow stage 3.
+Specifications are grouped into releases. A release consists of a set of internally consistent set of features and specifications.
+Timeframes are defined for each release by specifying freezing dates. Once a release is frozen, only essential corrections are allowed (i.e. addition and modifications of functions are forbidden). Freezing dates are defined for each stage.
+The 3GPP specifications are transposed into deliverables by the Organizational Partners.
+
+
+== See also ==
+List of mobile phone generations
+Universal Mobile Telecommunications System (UMTS)
+3GPP Long Term Evolution
+Evolution to 3G
+IP Multimedia Subsystem
+3GP
+3GPP2 – The 3GPP's counterpart in the CDMA2000 sphere.
+GSM services
+LoRaWAN
+Telecoms & Internet converged Services & Protocols for Advanced Networks (TISPAN)
+Open Mobile Alliance
+Service data adaptation protocol
+Service layer
+European Telecommunications Standards Institute
+
+
+== References ==
+
+
+== External links ==
+3GPP website
+3GPP Standards List of Acronyms & Terminology
+3GPP freely published, detailed technical specifications
+3GPP releases descriptions
+ETSI GSM UMTS 3GPP Numbering Cross Reference
+TS/TR
+specification numbering
+Tool for visualizing multiple inter-related 3gpp standards
+Tool for visualizing, decoding, encoding network protocol messages defined by 3gpp
+LTE-3GPP.info: online 3GPP messages decoder fully supporting Rel.15

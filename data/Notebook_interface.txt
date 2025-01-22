@@ -1,0 +1,47 @@
+A notebook interface or computational notebook is a virtual notebook environment used for literate programming, a method of writing computer programs. Some notebooks are WYSIWYG environments including...
+
+A notebook interface or computational notebook is a virtual notebook environment used for literate programming, a method of writing computer programs. Some notebooks are WYSIWYG environments including executable calculations embedded in formatted documents; others separate calculations and text into separate sections. Notebooks share some goals and features with spreadsheets and word processors but go beyond their limited data models.
+Modular notebooks may connect to a variety of computational back ends, called "kernels". Notebook interfaces are widely used for statistics, data science, machine learning, and computer algebra.
+At the notebook core is the idea of literate programming tools which "let you arrange the parts of a program in any order and extract documentation and code from the same source file.", the notebook takes this approach to a new level extending it with some graphic functionality and a focus on interactivity.  According to Stephen Wolfram: "The idea of a notebook is to have an interactive document that freely mixes code, results, graphics, text and everything else.", and according to the Jupyter Project Documentation: "The notebook extends the console-based approach to interactive computing in a qualitatively new direction, providing a web-based application suitable for capturing the whole computation process: developing, documenting, and executing code, as well as communicating the results. The Jupyter notebook combines two components".
+
+
+== History ==
+VisiCalc, the first spreadsheet for personal computers, was published in 1979. Its idea of visual calculations is still widely used today but limited to documents that fit into a table.
+Research on WYSIWYG mathematical systems supporting mixed text and calculations with a document metaphor begin to be published in 1987: Ron Avitzur's Milo, William Schelter's INFOR, Xerox PARC's Tioga and CaminoReal.
+The earliest commercial system using the document metaphor was MathCAD, which also came out in 1987. Wolfram Mathematica 1.0 followed in 1988. Later came Maple 5.2 (1992) and Macsyma 2.0 (1995).
+As the notebook interface increased in popularity over the next two decades, notebooks for various computational back ends ("kernels") have been introduced, including MATLAB, Python, Julia, R, Scala, Elixir, SQL, and others.
+The variety of notebook interface has since been extended and new forms are still evolving.
+
+
+== Use ==
+Notebooks are traditionally used in the sciences as electronic lab notebooks to document research procedures, data, calculations, and findings. Notebooks track methodology to make it easier to reproduce results and calculations with different data sets. In education, the notebook interface provides a digital learning environment, particularly for the teaching of computational thinking. Their utility for combining text with code makes them unique in the realm of education. Digital notebooks are sometimes used for presentations as an alternative to PowerPoint and other presentation software, as they allow for the execution of code inside the notebook environment. Due to their ability to display data visually and retrieve data from different sources by modifying code, notebooks are also entering the realm of business intelligence software.
+
+
+== Notable examples ==
+Example of projects or products of notebooks:
+
+
+=== Free/open-source notebooks ===
+Apache Spark Notebook – Apache License 2.0
+GNU TeXmacs (a document processor which can act as notebook interface as well) – GPLv3
+IPython – BSD
+Jupyter Notebook (formerly IPython) – Modified BSD License (shared copyright model)
+JupyterLab – Revised BSD License
+Org-mode on emacs (with the built-in babel addon) – GPL
+R Markdown – GPLv3
+SageMath – GPLv3
+
+
+=== Partial copyleft ===
+SMath Studio – Freeware, not libre: licensed under Creative Commons Attribution-No Derivatives
+
+
+=== Proprietary notebooks ===
+Wolfram Mathematica
+Mathcad
+MATLAB – Live Editor since 2016.
+Databricks cloud (founded 2013).
+WolframAlpha Notebooks
+
+
+== References ==

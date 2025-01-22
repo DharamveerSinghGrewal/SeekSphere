@@ -1,0 +1,1769 @@
+A neutral atom quantum computer is a modality of quantum computers  built out of Rydberg atoms; this modality has many commonalities with trapped-ion quantum computers. As of December 2023, the concep...
+
+A neutral atom quantum computer is a modality of quantum computers  built out of Rydberg atoms; this modality has many commonalities with trapped-ion quantum computers. As of December 2023, the concept has been used to demonstrate a 48 logical qubit processor.
+To perform computation, the atoms are first trapped in a magneto-optical trap. Qubits are then encoded in the energy levels of the atoms. Initialization and operation of the computer is performed via the application of lasers on the qubits.  For example, the laser can accomplish arbitrary single qubit gates and a 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ gate for universal quantum computation. 
+The 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ gate is carried out by leveraging the Rydberg blockade which leads to strong interactions when the qubits are physically close to each other. To perform a 
+  
+    
+      
+        C
+        Z
+      
+    
+    {\displaystyle CZ}
+  
+ gate a Rydberg 
+  
+    
+      
+        π
+      
+    
+    {\displaystyle \pi }
+  
+ pulse is applied to the control qubit, a 
+  
+    
+      
+        2
+        π
+      
+    
+    {\displaystyle 2\pi }
+  
+ on the target qubit and then a 
+  
+    
+      
+        π
+      
+    
+    {\displaystyle \pi }
+  
+ on the control.  Measurement is enforced at the end of the computation with a camera that generates an image of the outcome by measuring the fluorescence of the atoms.
+
+
+== Architecture ==
+Neutral atom quantum computing makes use of several technological advancements in the field laser cooling, magneto-optical trapping and optical tweezers. In one example of the architecture, an array of atoms is loaded into a laser cooled at micro-kelvin temperatures. In each of these atoms, two levels of hyperfine ground subspace are isolated. The qubits are prepared in some initial state using optical pumping. Logic gates are performed using optical or microwave frequency fields and the measurements are done using resonance fluorescence. Most of these architecture are based on rubidium, caesium, ytterbium, and strontium atoms.
+
+
+== Single qubit gates ==
+Global single qubit gates on all the atoms can be done either by applying a microwave field for qubits encoded in the Hyperfine manifold such as Rb and Cs or by applying an RF magnetic field for qubits encoded in the nuclear spin such as Yb and Sr. Focused laser beams can be used to do single-site one qubit rotation using a lambda-type three level Raman scheme (see figure). In this scheme, the rotation between the qubit states is mediated by an intermediate excited state. Single qubit gate fidelities have been shown to be as high as .999 in state-of-the-art experiments.
+
+
+== Entangling gates ==
+To do universal quantum computation, we need at least one two-qubit entangling gate.  Early proposals for gates included gates that depended on inter-atomic forces. These forces are weak and the gates were predicted to be slow. The first fast gate based on Rydberg states was proposed for charged atoms  making use of the principle of Rydberg Blockade. The principle was later transferred and developed further for neutral atoms. Since then, most gates that have been proposed use this principle. 
+
+
+=== Rydberg mediated gates ===
+Atoms that have been excited to very large principal quantum number 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ are known as Rydberg atoms. These highly excited atoms have several desirable properties including high decay life-time and amplified couplings with electromagnetic fields.
+The basic principle for Rydberg mediated gates is called the Rydberg blockade. Consider two neutral atoms in their respective ground states. When they are close to each other, their interaction potential is dominated by van Der Waals force 
+  
+    
+      
+        
+          V
+          
+            q
+            q
+          
+        
+        ≈
+        
+          
+            
+              μ
+              
+                B
+              
+              
+                2
+              
+            
+            
+              R
+              
+                6
+              
+            
+          
+        
+      
+    
+    {\displaystyle V_{qq}\approx {\frac {\mu _{B}^{2}}{R^{6}}}}
+  
+ where 
+  
+    
+      
+        
+          μ
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \mu _{B}}
+  
+ is the Bohr Magneton and 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ is the distance between the atoms. This interaction is very weak, around 
+  
+    
+      
+        
+          10
+          
+            −
+            5
+          
+        
+      
+    
+    {\displaystyle 10^{-5}}
+  
+ Hz for 
+  
+    
+      
+        R
+        =
+        10
+        μ
+        m
+      
+    
+    {\displaystyle R=10\mu m}
+  
+. When one of the atoms is put into a Rydberg state (state with very high principal quantum number), the interaction between the two atoms is dominated by second order dipole-dipole interaction which is also weak. When both of the atoms are excited to a Rydberg state, then the resonant dipole-dipole interaction becomes 
+  
+    
+      
+        
+          V
+          
+            r
+            r
+          
+        
+        =
+        
+          
+            
+              (
+              
+                n
+                
+                  2
+                
+              
+              e
+              
+                a
+                
+                  0
+                
+              
+              
+                )
+                
+                  2
+                
+              
+            
+            
+              R
+              
+                3
+              
+            
+          
+        
+      
+    
+    {\displaystyle V_{rr}={\frac {(n^{2}ea_{0})^{2}}{R^{3}}}}
+  
+ where 
+  
+    
+      
+        
+          a
+          
+            0
+          
+        
+      
+    
+    {\displaystyle a_{0}}
+  
+ is the Bohr radius. This interaction is around 
+  
+    
+      
+        100
+      
+    
+    {\displaystyle 100}
+  
+MHz at 
+  
+    
+      
+        R
+        =
+        10
+        μ
+        m
+      
+    
+    {\displaystyle R=10\mu m}
+  
+, around twelve orders of magnitude larger. This interaction potential induces a blockade, where-in, if one atom is excited to a Rydberg state, the other nearby atoms cannot be excited to a Rydberg state because the two-atom Rydberg state is far detuned. This phenomenon is called the Rydberg blockade. Rydberg mediated gates make use of this blockade as a control mechanism to implement two qubit controlled gates.
+Let's consider the physics induced by the this blockade. Suppose we are considering two isolated neutral atoms in a magneto-optical trap. Ignoring the coupling of hyperfine levels that make the qubit and motional degrees of freedom, the Hamiltonian of this system can be written as:
+
+  
+    
+      
+        H
+        =
+        
+          H
+          
+            1
+          
+        
+        +
+        
+          H
+          
+            2
+          
+        
+        +
+        
+          V
+          
+            r
+            r
+          
+        
+        
+          |
+        
+        r
+        
+          ⟩
+          
+            1
+          
+        
+        ⟨
+        r
+        
+          |
+        
+        ⊗
+        
+          |
+        
+        r
+        
+          ⟩
+          
+            2
+          
+        
+        ⟨
+        r
+        
+          |
+        
+        )
+      
+    
+    {\displaystyle H=H_{1}+H_{2}+V_{rr}|r\rangle _{1}\langle r|\otimes |r\rangle _{2}\langle r|)}
+  
+
+where, 
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        (
+        (
+        Ω
+        
+          |
+        
+        1
+        
+          ⟩
+          
+            i
+          
+        
+        ⟨
+        r
+        
+          |
+        
+        +
+        
+          Ω
+          
+            ∗
+          
+        
+        
+          |
+        
+        r
+        
+          ⟩
+          
+            i
+          
+        
+        ⟨
+        1
+        
+          |
+        
+        )
+        −
+        Δ
+        
+          |
+        
+        r
+        
+          ⟩
+          
+            i
+          
+        
+        ⟨
+        r
+        
+          |
+        
+      
+    
+    {\displaystyle H_{i}={\frac {1}{2}}((\Omega |1\rangle _{i}\langle r|+\Omega ^{*}|r\rangle _{i}\langle 1|)-\Delta |r\rangle _{i}\langle r|}
+  
+ is the Hamiltonian of i-th atom, 
+
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+  
+ is the Rabi frequency of coupling between the Rydberg states and the 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+ state and 
+  
+    
+      
+        Δ
+      
+    
+    {\displaystyle \Delta }
+  
+ is the detuning (see figure to the right for level diagram). When 
+  
+    
+      
+        
+          |
+        
+        
+          V
+          
+            r
+            r
+          
+        
+        
+          |
+        
+        >>
+        
+          |
+        
+        Ω
+        
+          |
+        
+        ,
+        
+          |
+        
+        Δ
+        
+          |
+        
+      
+    
+    {\displaystyle |V_{rr}|>>|\Omega |,|\Delta |}
+  
+, we are in the so-called Rydberg Blockade regime. In this regime, the 
+  
+    
+      
+        
+          |
+        
+        r
+        r
+        ⟩
+      
+    
+    {\displaystyle |rr\rangle }
+  
+ state is highly detuned from the rest of the system and thus is effectively decoupled. For the rest of this article, we consider only the Rydberg Blockade regime.
+The physics of this Hamiltonian can be divided into several subspaces depending on the initial state. The 
+  
+    
+      
+        
+          |
+        
+        00
+        ⟩
+      
+    
+    {\displaystyle |00\rangle }
+  
+ state is decoupled and does not evolve. Suppose only the i-th the atom is in 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+ state (
+  
+    
+      
+        
+          |
+        
+        10
+        ⟩
+      
+    
+    {\displaystyle |10\rangle }
+  
+, 
+  
+    
+      
+        
+          |
+        
+        01
+        ⟩
+      
+    
+    {\displaystyle |01\rangle }
+  
+), then the Hamiltonian is given by 
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle H_{i}}
+  
+. This Hamiltonian is the standard two-level Rabi hamiltonian. It characterizes the "light shift" in a two level system and has eigenvalues 
+  
+    
+      
+        
+          E
+          
+            L
+            S
+          
+          
+            (
+            1
+            )
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        (
+        Δ
+        ±
+        
+          
+            
+              Ω
+              
+                2
+              
+            
+            +
+            
+              Δ
+              
+                2
+              
+            
+          
+        
+        )
+      
+    
+    {\displaystyle E_{LS}^{(1)}={\frac {1}{2}}(\Delta \pm {\sqrt {\Omega ^{2}+\Delta ^{2}}})}
+  
+.
+If both atoms are in the excited state 
+  
+    
+      
+        
+          |
+        
+        11
+        ⟩
+      
+    
+    {\displaystyle |11\rangle }
+  
+ the effective system evolves in the subspace of 
+  
+    
+      
+        {
+        
+          |
+        
+        1
+        r
+        ⟩
+        ,
+        
+          |
+        
+        r
+        1
+        ⟩
+        ,
+        
+          |
+        
+        11
+        ⟩
+        }
+      
+    
+    {\displaystyle \{|1r\rangle ,|r1\rangle ,|11\rangle \}}
+  
+. It is convenient to rewrite the Hamiltonian in terms of bright 
+  
+    
+      
+        
+          |
+        
+        b
+        ⟩
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        (
+        
+          |
+        
+        r
+        1
+        ⟩
+        +
+        
+          |
+        
+        1
+        r
+        ⟩
+        )
+      
+    
+    {\displaystyle |b\rangle ={\frac {1}{\sqrt {2}}}(|r1\rangle +|1r\rangle )}
+  
+ and dark 
+  
+    
+      
+        
+          |
+        
+        d
+        ⟩
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        (
+        
+          |
+        
+        r
+        1
+        ⟩
+        −
+        
+          |
+        
+        1
+        r
+        ⟩
+        )
+      
+    
+    {\displaystyle |d\rangle ={\frac {1}{\sqrt {2}}}(|r1\rangle -|1r\rangle )}
+  
+ basis states, along with 
+  
+    
+      
+        
+          |
+        
+        11
+        ⟩
+      
+    
+    {\displaystyle |11\rangle }
+  
+. In this basis, the Hamiltonian is given by
+
+  
+    
+      
+        H
+        =
+        −
+        Δ
+        (
+        
+          |
+        
+        b
+        ⟩
+        ⟨
+        b
+        
+          |
+        
+        +
+        
+          |
+        
+        d
+        ⟩
+        ⟨
+        d
+        
+          |
+        
+        )
+        +
+        
+          
+            
+              2
+            
+            2
+          
+        
+        (
+        Ω
+        
+          |
+        
+        b
+        ⟩
+        ⟨
+        11
+        
+          |
+        
+        +
+        
+          Ω
+          
+            ∗
+          
+        
+        
+          |
+        
+        11
+        ⟩
+        ⟨
+        b
+        
+          |
+        
+        )
+      
+    
+    {\displaystyle H=-\Delta (|b\rangle \langle b|+|d\rangle \langle d|)+{\frac {\sqrt {2}}{2}}(\Omega |b\rangle \langle 11|+\Omega ^{*}|11\rangle \langle b|)}
+  
+. 
+
+Note that the dark state is decoupled from the bright state and the 
+  
+    
+      
+        
+          |
+        
+        11
+        ⟩
+      
+    
+    {\displaystyle |11\rangle }
+  
+ state. Thus we can ignore it and the effective evolution reduces to a two-level system consisting of the bright state and 
+  
+    
+      
+        
+          |
+        
+        11
+        ⟩
+      
+    
+    {\displaystyle |11\rangle }
+  
+ state.  In this basis, the dressed eigenvalues and eigenvectors of the hamiltonian are given by:
+
+  
+    
+      
+        
+          E
+          
+            L
+            S
+          
+          
+            (
+            2
+            )
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        (
+        Δ
+        ±
+        
+          
+            2
+            
+              Ω
+              
+                2
+              
+            
+            +
+            
+              Δ
+              
+                2
+              
+            
+          
+        
+        )
+      
+    
+    {\displaystyle E_{LS}^{(2)}={\frac {1}{2}}(\Delta \pm {\sqrt {2\Omega ^{2}+\Delta ^{2}}})}
+  
+
+  
+    
+      
+        
+          |
+        
+        
+          
+            
+              11
+              ~
+            
+          
+        
+        ⟩
+        =
+        cos
+        ⁡
+        (
+        θ
+        
+          /
+        
+        2
+        )
+        
+          |
+        
+        11
+        ⟩
+        +
+        sin
+        ⁡
+        (
+        θ
+        
+          /
+        
+        2
+        )
+        
+          |
+        
+        b
+        ⟩
+      
+    
+    {\displaystyle |{\tilde {11}}\rangle =\cos(\theta /2)|11\rangle +\sin(\theta /2)|b\rangle }
+  
+
+  
+    
+      
+        
+          |
+        
+        
+          
+            
+              b
+              ~
+            
+          
+        
+        ⟩
+        =
+        cos
+        ⁡
+        (
+        θ
+        
+          /
+        
+        2
+        )
+        
+          |
+        
+        b
+        ⟩
+        −
+        sin
+        ⁡
+        (
+        θ
+        
+          /
+        
+        2
+        )
+        
+          |
+        
+        11
+        ⟩
+      
+    
+    {\displaystyle |{\tilde {b}}\rangle =\cos(\theta /2)|b\rangle -\sin(\theta /2)|11\rangle }
+  
+,
+where, 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  
+ depends on the Rabi frequency and detuning.
+We will make use of these considerations in the gates below. The level diagrams of these subspaces have been shown in the figure above.
+
+
+==== Jaksch gate ====
+We can use the Rydberg blockade to implement a controlled-phase gate by applying standard Rabi pulses between the 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+ and 
+  
+    
+      
+        
+          |
+        
+        r
+        ⟩
+      
+    
+    {\displaystyle |r\rangle }
+  
+  levels. Consider the following protocol:
+
+Apply 
+  
+    
+      
+        π
+      
+    
+    {\displaystyle \pi }
+  
+ pulse to control atom (red).
+Apply 
+  
+    
+      
+        2
+        π
+      
+    
+    {\displaystyle 2\pi }
+  
+ pulse the target atom  (brown).
+Apply 
+  
+    
+      
+        π
+      
+    
+    {\displaystyle \pi }
+  
+ pulse to control atom again (red).
+The figure on the right shows what this pulse sequence does. When the state is 
+  
+    
+      
+        
+          |
+        
+        00
+        ⟩
+      
+    
+    {\displaystyle |00\rangle }
+  
+, both levels are uncoupled from the Rydberg states and so the pulses do nothing. When either of the atoms is in 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+  
+ state, the other one picks up a 
+  
+    
+      
+        −
+        1
+      
+    
+    {\displaystyle -1}
+  
+ phase due to the 
+  
+    
+      
+        2
+        π
+      
+    
+    {\displaystyle 2\pi }
+  
+ pulse. When the state is 
+  
+    
+      
+        
+          |
+        
+        11
+        ⟩
+      
+    
+    {\displaystyle |11\rangle }
+  
+, the second atom is off-resonant to its Rydberg state and thus does not pick up any phase, however the first one does. The truth table of this gate is given below. This is equivalent to a controlled-z gate up-to a local rotation to the hyperfine levels.
+
+
+==== Adiabatic gate ====
+The adiabatic gate was introduced as an alternative to the Jaksch gate. It is global and symmetric and thus it does not require locally focused lasers. Moreover, the Adiabatic Gate prevents the problem of spurious phase accumulation when the atom is in Rydberg state. In the Adiabatic Gate, instead of doing fast pulses, we dress the atom with an adiabatic pulse sequence that takes the atom on a trajectory around the Bloch sphere and back. The levels pick up a phase on this trip due to the so-called "light shift" induced by the lasers. The shapes of pulses can be chosen to control this phase.
+If both atoms are in the 
+  
+    
+      
+        
+          |
+        
+        00
+        ⟩
+      
+    
+    {\displaystyle |00\rangle }
+  
+ state, nothing happens so 
+  
+    
+      
+        
+          |
+        
+        00
+        ⟩
+        →
+        
+          |
+        
+        00
+        ⟩
+      
+    
+    {\displaystyle |00\rangle \rightarrow |00\rangle }
+  
+. If one of them is in the 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+  
+  state, the other atom picks up a phase due to light shift: 
+  
+    
+      
+        
+          |
+        
+        01
+        ⟩
+        →
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                1
+              
+            
+          
+        
+        
+          |
+        
+        01
+        ⟩
+      
+    
+    {\displaystyle |01\rangle \rightarrow e^{i\phi _{1}}|01\rangle }
+  
+ and similarly 
+  
+    
+      
+        
+          |
+        
+        10
+        ⟩
+        →
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                1
+              
+            
+          
+        
+        
+          |
+        
+        10
+        ⟩
+      
+    
+    {\displaystyle |10\rangle \rightarrow e^{i\phi _{1}}|10\rangle }
+  
+ with:
+
+  
+    
+      
+        
+          ϕ
+          
+            1
+          
+        
+        =
+        ∫
+        
+          E
+          
+            L
+            S
+          
+          
+            (
+            1
+            )
+          
+        
+        (
+        t
+        )
+        d
+        t
+        =
+        ∫
+        
+          
+            1
+            2
+          
+        
+        (
+        Δ
+        (
+        t
+        )
+        −
+        
+          
+            
+              Ω
+              
+                2
+              
+            
+            (
+            t
+            )
+            +
+            
+              Δ
+              
+                2
+              
+            
+            (
+            t
+            )
+          
+        
+        )
+        d
+        t
+      
+    
+    {\displaystyle \phi _{1}=\int E_{LS}^{(1)}(t)dt=\int {\frac {1}{2}}(\Delta (t)-{\sqrt {\Omega ^{2}(t)+\Delta ^{2}(t)}})dt}
+  
+.
+When both of the atoms are in 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+  states, the atoms pick up a phase due to the two-atom light shift as seen by the eigenvalues of Hamiltonian above, then 
+  
+    
+      
+        
+          |
+        
+        11
+        ⟩
+        →
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                2
+              
+            
+          
+        
+        
+          |
+        
+        11
+        ⟩
+      
+    
+    {\displaystyle |11\rangle \rightarrow e^{i\phi _{2}}|11\rangle }
+  
+ with
+
+  
+    
+      
+        
+          ϕ
+          
+            2
+          
+        
+        =
+        ∫
+        
+          E
+          
+            L
+            S
+          
+          
+            (
+            2
+            )
+          
+        
+        (
+        t
+        )
+        d
+        t
+        =
+        ∫
+        
+          
+            1
+            2
+          
+        
+        (
+        Δ
+        (
+        t
+        )
+        −
+        
+          
+            2
+            
+              Ω
+              
+                2
+              
+            
+            (
+            t
+            )
+            +
+            
+              Δ
+              
+                2
+              
+            
+            (
+            t
+            )
+          
+        
+        )
+        d
+        t
+      
+    
+    {\displaystyle \phi _{2}=\int E_{LS}^{(2)}(t)dt=\int {\frac {1}{2}}(\Delta (t)-{\sqrt {2\Omega ^{2}(t)+\Delta ^{2}(t)}})dt}
+  
+.
+
+Note that this light shift is not equal to twice the single atom light shifts. The single atom light-shifts are then cancelled by a global pulse that implements 
+  
+    
+      
+        U
+        =
+        exp
+        ⁡
+        (
+        −
+        i
+        
+          ϕ
+          
+            1
+          
+        
+        
+          |
+        
+        1
+        ⟩
+        ⟨
+        1
+        
+          |
+        
+        )
+      
+    
+    {\displaystyle U=\exp(-i\phi _{1}|1\rangle \langle 1|)}
+  
+ to get rid of the single qubit light shifts. The truth table for this gate is given to the right. This protocol leaves a total phase of 
+  
+    
+      
+        ∫
+        (
+        
+          E
+          
+            L
+            S
+          
+          
+            (
+            2
+            )
+          
+        
+        (
+        t
+        )
+        −
+        2
+        
+          E
+          
+            L
+            S
+          
+          
+            (
+            1
+            )
+          
+        
+        (
+        t
+        )
+        )
+        d
+        t
+      
+    
+    {\displaystyle \int (E_{LS}^{(2)}(t)-2E_{LS}^{(1)}(t))dt}
+  
+ phase on the 
+  
+    
+      
+        
+          |
+        
+        11
+        ⟩
+      
+    
+    {\displaystyle |11\rangle }
+  
+ state.  We can choose the pulses so that this phase equals 
+  
+    
+      
+        π
+      
+    
+    {\displaystyle \pi }
+  
+, making it a controlled-Z gate. An extension to this gate was introduced to make it robust against errors in reference.
+
+
+==== Levine-Pichler gate ====
+The adiabatic gate is global but it is slow (due to adiabatic condition). The Levine-Pichler gate was introduced as a fast diabatic substitute to the global Adiabatic Gate. This gate uses carefully chosen pulse sequences to perform a controlled-phase gate.
+In this protocol, we apply the following pulse sequence: 
+
+Apply pulse of length 
+  
+    
+      
+        τ
+        =
+        2
+        π
+        
+          /
+        
+        
+          
+            
+              Δ
+              
+                2
+              
+            
+            +
+            2
+            
+              Ω
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau =2\pi /{\sqrt {\Delta ^{2}+2\Omega ^{2}}}}
+  
+ with Rabi frequency 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+  
+ (red).
+Apply another pulse of length 
+  
+    
+      
+        τ
+        =
+        2
+        π
+        
+          /
+        
+        
+          
+            
+              Δ
+              
+                2
+              
+            
+            +
+            2
+            
+              Ω
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau =2\pi /{\sqrt {\Delta ^{2}+2\Omega ^{2}}}}
+  
+ but with a phase shifted Rabi frequency 
+  
+    
+      
+        Ω
+        →
+        
+          e
+          
+            −
+            i
+            ξ
+          
+        
+        Ω
+      
+    
+    {\displaystyle \Omega \rightarrow e^{-i\xi }\Omega }
+  
+ (brown).
+
+The intuition of this gate is best understood in terms of the picture given above. When the state of the system is 
+  
+    
+      
+        
+          |
+        
+        11
+        ⟩
+      
+    
+    {\displaystyle |11\rangle }
+  
+, the pulses send the state around the Bloch sphere twice and accumulates a net phase 
+  
+    
+      
+        
+          ϕ
+          
+            2
+          
+        
+        =
+        
+          
+            
+              4
+              π
+              Δ
+            
+            
+              
+                Δ
+                
+                  2
+                
+              
+              +
+              2
+              
+                Ω
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \phi _{2}={\frac {4\pi \Delta }{\sqrt {\Delta ^{2}+2\Omega ^{2}}}}}
+  
+. When one of the atoms is in 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+  
+ state, the other atom does not go around the Bloch sphere fully after the first pulse due to the mismatch in Rabi frequency. The second pulse corrects for this effect by rotating the state around a different axis. This puts the atom back into the 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+ state with a net phase 
+  
+    
+      
+        
+          ϕ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \phi _{1}}
+  
+, which can be calculated easily. The pulses can be chosen to make 
+  
+    
+      
+        
+          e
+          
+            i
+            
+              ϕ
+              
+                2
+              
+            
+          
+        
+        =
+        
+          e
+          
+            i
+            (
+            2
+            
+              ϕ
+              
+                1
+              
+            
+            +
+            π
+            )
+          
+        
+      
+    
+    {\displaystyle e^{i\phi _{2}}=e^{i(2\phi _{1}+\pi )}}
+  
+. Doing so makes this gate equivalent to a controlled-z gate up-to a local rotation. The truth table of Levine-Pichler gate is given on the right. This gate has been improved using the methods of quantum optimal controls recently.
+Entangling gates in state-of-the art neutral atom quantum computing platforms have been implemented with up-to .995 quantum fidelity.
+
+
+== See also ==
+Superconducting quantum computing
+Trapped-ion quantum computer
+
+
+== References ==

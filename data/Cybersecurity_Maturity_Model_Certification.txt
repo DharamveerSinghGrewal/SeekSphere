@@ -1,0 +1,60 @@
+The Cybersecurity Maturity Model Certification (CMMC) is an assessment framework and assessor certification program designed to increase the trust in measures of compliance to a variety of standards p...
+
+The Cybersecurity Maturity Model Certification (CMMC) is an assessment framework and assessor certification program designed to increase the trust in measures of compliance to a variety of standards published by the National Institute of Standards and Technology.
+The CMMC framework and model was developed by Office of the Under Secretary of Defense for Acquisition and Sustainment (OUSD(A&S)) of the United States Department of Defense through existing contracts with Carnegie Mellon University, The Johns Hopkins University Applied Physics Laboratory, and Futures, Inc. The Cybersecurity Maturity Model Certification Accreditation Body oversees the program under a no cost contract. The program is currently overseen by the DOD CIO office.
+CMMC, which often requires third party assessment if a contractor handles Controlled Unclassified Information, will impact the $768bn Defense industry – 3.2% of the Gross Domestic Product of the United States of America. 
+The purpose of the CMMC is to verify that the information systems used by the contractors of the United States Department of Defense to process, transmit or store sensitive data are compliant with the mandatory information security requirements. The goal is to ensure appropriate protection of controlled unclassified information (CUI) and federal contract information (FCI) that is stored and processed by partner or vendor.  
+
+
+== Model ==
+The framework provides a model for contractors in the Defense Industrial Base to meet the security requirements from NIST SP 800-171 Rev 3, Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations. Some contracts will also include a subset of requirements from NIST SP 800–172, Enhanced Security Requirements for Protecting Controlled Unclassified Information: A Supplement to NIST Special Publication 800–171.
+CMMC organizes these practices into a set of domains, which map directly to the NIST SP 800-171 Rev 2 and NIST SP 800-172 families. There are three levels within CMMC—Level 1, Level 2, and Level 3
+
+CMMC will not be enforced on federal contracts until the final rulemaking has completed and incorporated into the 32 & 48 Code of Federal Regulations (CFR). [1].
+Upcoming guidance has been promised from the CMMC office to help set expectations for companies in the Defense Industrial Base as to what level accreditation should be sought, depending on their role as a prime or sub on various contracts.
+
+
+== History ==
+In 2002 the Federal Information Security Management Act required each federal agency in the United States to develop, document, and implement an agency-wide program to provide information security for the information and information systems.
+In 2002 Cybersecurity Research and Development Act authorized appropriations to the National Science Foundation (NSF) and to the Secretary of Commerce for the National Institute of Standards and Technology (NIST) to establish new programs, and to increase funding for certain current programs, for computer and network security (CNS) research and development and CNS research fellowships. This led to the development of security requirements in the Cybersecurity Maturity Model Certification framework.
+In 2003 FISMA Project, Now the Risk Management Project, launched and published requirements such as FIPS 199, FIPS 200, and NIST Special Publications 800–53, 800–59, and 800–6. Then NIST Special Publications 800–37, 800–39, 800–171, 800-53A.
+In 2010 Executive Order 13556 – Controlled Unclassified Information rescinded a previous order and created a standard for labeling data across the government.
+In 2011 Defense Federal Acquisition Regulation Supplemental (DFARS) the proposed rule 7000 to enact requirements for safeguarding unclassified information specifically as it related to fundamental research got proposed in Case 2011-D039.
+In 2013 DFARS 252.204-7000 Rule goes into effect which required the protection of sensitive data on non-federal systems.
+In 2016 DFARS 7012 clause goes into in effect requiring all contract holders to self-assess to meeting the security requirements of NIST SP 800-171.
+In 2019 the Department of Defense announced the creation of the Cybersecurity Maturity Model Certification (CMMC) to transition from a mechanism of self-attestation of an organization's basic cyber hygiene which was used to govern the Defense Industrial Base. Since 2017 all defense contractors were required to self-assess and report their cybersecurity readiness against the NIST SP 800-171 standard.
+After a series of breaches in the supply chain, the Department of Defense working in partnership with industry created the CMMC model.
+In 2019 interim rule authorizing the inclusion of CMMC in procurement contracts, Defense Federal Acquisition Regulation Supplement (DFARS) 2019-D041, was published on September 29, 2020, with an effective date of November 30, 2020.
+On December 8, 2020, the CMMC Accreditation Board and the Department of Defense released an updated timeline that has the model fully implemented by September 2021.
+On December 8, 2020, the Department of Defense releases seven pathfinder grants that will pilot the CMMC framework and require any contractor on the grant to have a certified third-party assessor measure a company's compliance.
+On December 31, 2020, the General Services Administration released a Request for Proposal for their Polaris program that noted while CMMC currently applies only to the Department of Defense all government contractors, civilian or military, should prepare to meet CMMC requirements.
+On November 4, 2021, the Department of Defense announced the release of CMMC 2.0. This new version was designed to streamline its requirements.
+On September 29, 2022, the Cyber AB (the accreditation body for the CMMC for the Department of Defense), established a subsidiary to manage the training and certification entitled the "Cybersecurity Assessor and Instructor Certification" (CAICO).
+On October 25, 2022, the Cybersecurity Assessor and Instructor Certification Organization (CAICO) announced the launch of the Certified CMMC Professional (CCP) exam. This exam verifies a candidate's knowledge of the Department of Defense's CMMC framework and the roles and responsibilities of the various positions within it.
+On January 5, 2023 RedSpin, a CMMC third party assessor, announced they had successfully assessed a client as part of the Joint Surveillance Voluntary Assessment Program (JSVAP) assessment.
+On December 26, 2023, the Department of Defense issued the Proposed Rule, Cybersecurity Maturity Model Certification (CMMC) Program, to the Federal Register establishing the updated requirements for CMMC 2.0.
+
+
+== Criticism ==
+Industry professionals have voiced significant concern over the lack of centralized official communications and the accelerated timeline for roll-out. The sheer number of companies affected in the Defense industrial base create a level of volume for the still-not-yet accredited CMMC Third Party Assessment Organizations (C3PAOs) that would appear to be unrealistic by the proposed deadlines and has been discussed heavily on LinkedIn. Arrington has responded by asserting that reciprocity with existing certification programs such as FedRAMP and FIPS 140 will remove duplicative work and keep the work level minimal for companies already in compliance.
+CMMC Accreditation Body Chairman Ty Schieber left the board, along with Mark Berman, communications director, amidst an apparently unsanctioned 'Pay to Play' sponsorship program being published to the CMMC-AB website. Karlton Johnson stepped into the Chair role.
+
+
+== See also ==
+CMMI
+Common Criteria
+Defense industrial base (DIB)
+FedRAMP
+FIPS 140
+FIPS 140-2
+FIPS 140-3
+
+
+== References ==
+
+
+== External links ==
+Official CMMC Website
+Cyber AB (Accreditation Board) Official Website
+DoD Cybersecurity Maturity Model Certification (CMMC) Proposed Rule Overview
+CMMC 2.0 Compliance Checklist

@@ -1,0 +1,153 @@
+Data portability is a concept to protect users from having their data stored in "silos" or "walled gardens" that are incompatible with one another, i.e. closed platforms, thus subjecting them to vendo...
+
+Data portability is a concept to protect users from having their data stored in "silos" or "walled gardens" that are incompatible with one another, i.e. closed platforms, thus subjecting them to vendor lock-in and making the creation of data backups or moving accounts between services difficult.
+Data portability requires common technical standards to facilitate the transfer from one data controller to another, such as the ability to export user data into a user-accessible local file, thus promoting interoperability, as well as facilitate searchability with sophisticated tools such as grep.
+Data portability applies to personal data. It involves access to personal data without implying data ownership per se.
+
+
+== Development ==
+At the global level, there are proponents who see the protection of digital data as a human right. Thus, in an emerging civil society draft declaration, one finds mention of the following concepts and statutes: Right to Privacy on the Internet, Right to Digital Data Protection, Rights to Consumer Protection on the Internet – United Nations Guidelines for Consumer Protection.
+At the regional level, there are at least three main jurisdictions where data rights are seen differently: China and India, the United States and the European Union. In the latter, personal data was given special protection under the 2018 General Data Protection Regulation (GDPR).
+The GDPR thus became the fifth of the 24 types of legislation listed in Annex 1 Table of existing and proposed European Directives and Regulations in relation to data.
+Personal data are the basis for behavioral advertising, and early in the 21st century their value began to grow exponentially, at least as measured in the market capitalization of the major platforms holding personal data on their respective users. European Union regulators reacted to this perceived power imbalance between platforms and users, although much still hinges on the terms of consent given by users to the platforms. The concept of data portability comprises an attempt to correct the perceived power imbalance by introducing an element of competition allowing users to choose among platforms.
+
+
+=== Online platforms ===
+With the advent of the General Data Protection Regulations (GDPR), social media platforms such as Twitter, Instagram, Snapchat, and the Wall Street Journal online subscriber community have widely adopted the ability to export and download user data into a ZIP archive file. Other platforms such as Google and Facebook were equipped with export options earlier. Some platforms restrict exports with time delays between each, such as once per 30 days on Twitter, and many platforms lack partial export options.
+Other sites such as Quora and Bumble offer no automated request form, requiring the user to request a copy of their data through personal support email.
+
+
+=== Ratings and reviews ===
+Reputation portability refers to the ability of an individual to transfer their reputation or credibility from one context to another. This concept is becoming increasingly important in today's interconnected world, where individuals are involved in multiple online and offline communities.
+The idea behind reputation portability is that an individual's reputation should not be tied solely to a single community or platform. Rather, it should be transferable across different contexts, such as professional networks, social media platforms, and online marketplaces. This enables individuals to maintain a consistent reputation across various contexts, which can be beneficial in terms of building trust, and overcoming the so-called "cold-start" problem, and hence mitigating platform lock-in.
+Overall, reputation portability is an important concept in today's digital landscape, and research has shown that imported reputation can serve as viable signals for building trust. As technology continues to evolve, it is likely that reputation portability will become increasingly important in shaping how we interact with each other online and offline.
+
+
+== In consumer electronics ==
+
+
+=== Mobile devices ===
+Some mobile apps restrict data portability by storing user data in locked directories while lacking export options. Such may include configuration files, digital bookmarks, browsing history and sessions (e.g. list of open tabs and navigation histories), watch and search histories in multimedia streaming apps, custom playlists in multimedia player software, entries in note taking and memorandum software, digital phone books (contact lists), call logs from the telephone app, and conversations through SMS and instant messaging software.
+Locked directories are inaccessible to an end-user without extraordinary measures such as so-called rooting (Android) or jailbreaking (iOS).
+The former requires the so-called boot loader of the device to be in an unlocked state in advance, which it usually is not by default. Toggling that state involves a full erasure of all user data, known as the wipe, making it a vicious cycle if the user's aim were to access their locked data.
+Other mobile apps only allow the creation of user data backups using proprietary software provided by the vendor, lacking the ability to directly export the data to a local file in the mobile device's common user data directory. Such said software requires an external host computer to run on.
+Some device vendors offer cloud storage and synchronisation services for backing up data. Such services however require registration and depend on internet connection and preferably high internet speeds and data plan limits if used regularly. Some services may only allow moving parts of the data such as text messages and phone books between locked directories on devices of the same vendor (vendor lock-in), without the ability to export the information into local files directly accessible by the end user.
+Restrictions added in more recent versions of operating systems, such as scoped storage, which is claimed to have been implemented with the aim to improve user privacy, compromise both backwards compatibility to established existing software such as file managers and FTP server applications, as well as legitimate uses such as cross-app communication and facilitating large file transfers and backup creation.
+Further possible restraints on data portability are poor reliability, stability and performance of existing means of data transfer, such as described in Media Transfer Protocol § Performance.
+
+
+=== Digital video recorders ===
+Some digital video recorders (DVRs) which store recordings on an internal hard drive lack the ability to back up recordings, forcing a user to delete existing recordings upon exhausted disk space, which is an instance of poor data portability.
+Some DVRs have an operating system that depends on an Internet connection to boot and operate, meaning that recordings stored locally are inaccessible if no internet connection is available. If service for the device gets deprecated by the television service provider, the existing recordings become inaccessible and thus considerably lost.
+
+
+=== Other appliances ===
+Cordless landline telephone units, as well as their associated base stations, which have firmwares with phone book and SMS messaging functionality, commonly lack an interface to connect to a computer for backing the data up.
+
+
+== In software ==
+Some software such as the Discourse forum software offers a built-in ability for users to download their posts into an archive file.
+Other software may operate locally, but store user data in a proprietary format, thus causing vendor lock-in until successfully reverse-engineered by third party developers.
+
+
+== By country ==
+
+
+=== European Union ===
+The right to data portability was laid down in the European Union's General Data Protection Regulation (GDPR) passed in April 2016. The regulation applies to data processors, whether inside or outside the EU, if they process data on individuals who are physically located within an EU member state.
+
+Controllers must make the data available in a structured, commonly used, machine-readable and interoperable format that allows the individual to transfer the data to another controller.
+Earlier the European Data Protection Supervisor had stated that data portability could "let individuals benefit from the value created by the use of their personal data".
+The European-level Article 29 Data Protection Working Party held a consultation on this in English lasting until the end of January 2017.
+Their guidelines and FAQ on the right to data portability contain this call for action:
+
+WP29 strongly encourages cooperation between industry stakeholders and trade associations to work together on a common set of interoperable standards and formats to deliver the requirements of the right to data portability. This challenge has also been addressed by the European Interoperability Framework (EIF).
+The French national data supervisor CNIL hosted a discussion in French. Current participants offer opinions on how the legislation provides few benefits for companies, but many for users.
+In April 2017, new guidelines were published on the Article 29 Working Party website.
+In late 2019 the Data Governance Act was published by the Commission.
+In 2021 researchers, many of them French and Finnish, published a 46-page report covering the state-of-the-art.
+In 2022 the European Commission published the Data Act.
+Although the United Kingdom voted to withdraw from the EU, it intends to incorporate much of the GDPR in its own legislation, which will include data portability, as "...the GDPR itself contains some noteworthy innovations – for instance… the introduction of a new right to data portability".
+In November at the Internet Governance Forum 2019 in Berlin panelists reported that Article 20 GDPR is not actionable, neither legally nor technically. In the UK—ironically post-Brexit—researchers are monitoring developments.
+
+Germany has called to strengthen the European Union's right to data portability using competition law. A commission was set up for the purpose of proposing improvements.
+
+
+=== Switzerland ===
+Likewise, in Switzerland, a nation-state that is related to the EU only on a bilateral basis and as an EFTA member state, there has been a trend moving in the same direction.  The Swiss view was officially published in March 2018 (as a document in PDF).
+An association proposed to have a right to data portability anchored in the constitution of the Swiss Confederation. A law was passed that includes data portability; as described here in German 
+and here in French. The association partners with a cooperative called MIDATA.coop, which will offer users a place to store their data.
+A second association has issued its guideline on the topic.
+Over the longer term, the Swiss may have to consider that data portability is in the GDPR. Given that the GDPR will raise compliance costs for EU-based companies, it is unlikely that the EU would tolerate a situation with third-party countries in which Swiss companies would not be held to the same standard in order to keep competition fair. The legal terms involved are adequacy and reciprocity.
+
+
+=== United States, California ===
+California has a Consumer Privacy Act (CCPA) of 2018, which introduces data portability to the USA.
+
+
+=== Canada ===
+Canada anticipates a law in that it shows  Transparency, Portability and Interoperability as Principle No. 4 of its Digital Charter.
+
+
+=== India ===
+Data portability is included in the Personal Data Protection Bill 2019 about to become law as section 26 in chapter VI.
+
+
+=== Brazil ===
+Data portability is included in the Privacy law#Brazil as its Article 18.
+
+
+=== Australia ===
+In Australia, a Consumer Data Right has been proposed.
+
+
+=== Thailand ===
+Data portability is included in the new law.
+
+
+=== Kenya ===
+A right to data portability is enshrined in the new data protection law under clause 34. However, the intentions behind the new law, its enforcement and relation to the government's new Identity management system have already been contested.
+
+
+== Requirements for effective data interoperability ==
+It is always tricky for legislators to regulate at the right level of precision, as everyone understands technology will evolve faster than the law. So far, only the European Union has formalized the expectations around data portability, requiring the data "in a structured, commonly used, machine-readable and interoperable format".
+This touches on at least two distinct technical requirements for effective interoperability: 
+
+the need to use file standards that allow for easy reuse (for instance CSV or JSON instead of PDF or even printed paper), encompassed by a "structured, commonly used, machine-readable" format.
+the need (hinging on "interoperable") to consider not only an individual's data release on its own, but also in conjunction with other systems and other individuals' data releases from the same company. This hints at requirements regarding data schemas, versioning and specification of those schemas in case of frequent changes, and generally the absence of efforts on the part of the source data controller to complicate the effective interoperability downstream.
+Likewise, European researchers stress that there are both practical and legal gaps that the EU should fill.
+
+
+== Rights of data subjects under the European Union's new GDPR ==
+The list of these rights has grown.
+
+
+=== Data portability in relation to the right of access ===
+The data portability right is slightly different from the Right of access to personal data; see GDPR and the seventh item in the list cited immediately above. The right of access only mandates that the data subject gets to see their personal data. The old EU Data Protection Directive used to require explicitly in such cases for the data to be provided in "intelligible" form, which has been interpreted so far as "human readable". This requirement is still somewhat present in the EU's General Data Protection Regulation, but only implicitly in conjunction with Recital (law). Since the right to portability is mostly concerned with reuse by other services (i.e. most likely automated), it could be that both "human readable" and "raw format" would be inappropriate for effective data portability. Some intermediate level might need to be sought.
+In addition, the GDPR limits the scope of data portability to cases where the processing is made on the basis of either consent of the data subject, or the performance of a contract.
+
+
+=== Data portability in relation to the right of explanation ===
+The data portability right is related to the "right to explanation", i.e. when automated decisions are made that have legal effect or significant impact on individual data subjects. How to display an algorithm? One way is through a decision tree. This right, however, was found to be not very useful in an empirical study.
+The right to explanation is related to the "Right to not be evaluated on the basis of automated processing" shown as the last item in the list shown in Gabel / Hickman. This includes decisions based on profiling. Such a right was included in the EU Data Protection Directive of 1995, but not much enforcement followed. An article in Wired emphasised the poignancy of the discussion. The issue has been discussed by Bygrave, and by Hildebrandt, who claimed this to be one of the most important transparency rights in the era of machine learning and big data. Contrary to Hildebrandt's high expectations in 2012, four years later, after many revisions to the GDPR, when the text was finalized, three other well-known authors contest whether a right to explanation still exists in the GDPR (see below).
+In the United States there was a description of related developments in a seminal book by law professor Frank Pasquale; the relevant passages were reviewed by the Electronic Privacy Information Center (EPIC). Even the U.S. Defense Advanced Research Projects Agency DARPA has an Explainable AI (XAI) program
+cited critically by blogger Artur Kiulian.
+Several papers have been published on these topics in 2016, the first of which, by Goodman / Flaxman, outlines the development of the right to explanation. Pasquale does not think the approach goes far enough, as he has stated in a blog entry at the London School of Economics (LSE). In fact at LSE there is a whole series on Algorithmic Accountability of which that was one entry in Feb. of 2016, and other notable ones were by Joshua Kroll and Mireille Hildebrandt.
+Another 2016 paper, published by Katarinou et al., includes remarks on a right of appeal such that "individuals would have a right to appeal to a machine against a decision made by a human."
+A third 2016 paper, one co-authored by Mittelstadt et al., maps the literature and relates it to the GDPR on its pages 13–14.
+A fourth paper, one co-authored by Wachter, Mittelstadt and Floridi, refutes the idea that such a right might be included in the GDPR, proposes a limited 'right to be informed' instead and calls for the creation of an agency to implement the transparency requirement. A further paper by Edwards and Veale claims such a right is unlikely to apply in the cases of the 'algorithmic harms' attracting recent media attention, and that insufficient attention has been paid to both the computer science literature on explanation and how other GDPR provisions, such as data protection impact assessments and data portability, might help. Almost two years later a paper appeared that challenges earlier papers, especially Wachter / Mittelstadt / Floridi.
+On both sides of the Atlantic, there has been recent activity pertaining to this ongoing debate. Early in 2016 experts on artificial intelligence and UK government officials met during a number of meetings, and developed a Data Science Ethical Framework. On November 7, 2016 an event was held in Brussels, organized by MEP Marietje Schaake in the European Parliament and described by danah Boyd. Only eleven days later at New York University there was a conference on "Fairness, Accountability, and Transparency in Machine Learning " where Principles for Accountable Algorithms and a Social Impact Statement for Algorithms were articulated and placed online for discussion. By mid-December the IEEE came out with a document whose editing was backed up by public comments that were invited by March 2017 on "Ethically Aligned Design".
+Later in 2017 data portability was analysed by professors of data protection as a central innovation of the new GDPR.
+
+
+== See also ==
+External wiki GDPR Hub maintained by Max Schrems et al.
+Data Transfer Project
+Ethics of artificial intelligence
+General Data Protection Regulation
+
+
+== Notes ==
+
+
+== References ==

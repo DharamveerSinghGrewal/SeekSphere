@@ -1,0 +1,26 @@
+The Center of Applied Data Science (CADS) is a private company established in Malaysia in October 2015.   == Founding/History == CADS was founded by Sharala Axryd, a Malaysian entrepreneur; her unusua...
+
+The Center of Applied Data Science (CADS) is a private company established in Malaysia in October 2015.
+
+
+== Founding/History ==
+CADS was founded by Sharala Axryd, a Malaysian entrepreneur; her unusual position as a female CEO was noted by several publications.
+In December 2015, CADS partnered with the Data Incubator, which was founded with grants from Cornell Tech, the computer science school at Cornell University. The Data Incubator is considered among the leading data science incubators in the United States. Through this partnership, CADS was the first in the Association of South-East Asian Nations to offer a data science accelerator program to transform science and engineering talents in Southeast Asia into qualified data scientists. With support from the Malaysian government, the programme was Data Incubator's first international campus.
+
+
+== Programs ==
+In 2016, CADS collaborated with Harvard Business School (HBS) Executive Education to launch a customised Big Data Analytics (BDA) program, with Malaysia Digital Economy Corporation (MDEC) and Human Resource Development Fund (HRDF) as stakeholders. The four-day programme took place for the first time at Hilton Kuala Lumpur from 25th to 28 April 2016 with 53 C-level participants. It was also notable for being the first time Harvard Business School had conducted a program outside its Boston campus. The programme attracted criticism from the Malaysian newspaper The Edge. The paper questioned the integrity of the HRDF's spending allocations and CADS's role in the process. CADS stated in response, denying the allegation and filed a legal case against The Edge. It then ended in a settlement and The Edge had revoked its articles ever since. 
+To position Malaysia as a big data hub in the region, CADS previously served as a delivery partner for the ASEAN Data Analytics eXchange (ADAX). Launched in March 2017, ADAX is an initiative by MDEC and Malaysia’s and the world’s first physical data exchange. The Data Star Program was then launched in October 2017 previously as a collaborative effort between ADAX and MDEC with CADS as a delivery partner. Now run exclusively by CADS, it is a training program for graduates that includes one to two months in-class intensive data science enablement training and mentorship with experienced data scientists. That same year, CADS collaborated with Coursera, the largest ‘massive open online course’ (MOOC) platform in the world to offer a host of data science courses to Malaysians.
+
+
+== Other initiatives ==
+CADS has also moved forward with several nation-building initiatives in Malaysia to develop data-driven states. In 2018 alone, CADS delivered training through Sarawak Centre of Performance Excellence (SCOPE) to oversee the development of 2,500 data professionals by 2022 with programmes such as the Sarawak Talent Enrichment Programme (STEP). Furthermore, CADS collaborated with Penang Skills Development Centre (PSDC) to develop the first Artificial Intelligence (AI) Workforce Analytics platform to drive skills development in AI within Malaysia's Northern Region. More recently, CADS is collaborating with the Malaysian Technology Development Corporation (MTDC) in the areas of capacity-building, training as well as promote education, professional training and module development in Data Science, Analytics and Artificial Intelligence skills and specialisations.
+In 2019, CADS introduced its CADS Certification, a first-of-its-kind certification for data professionals to have their skills and talents recognised globally. This certification corresponds to global industry benchmarks and is a professional credential for any data professional.
+That same year, CADS launched Data For Her with the National Association of Women Entrepreneurs of Malaysia (NAWEM) that encourages the participation of women in data science through workshops and talks by female industry leaders.
+
+
+== References ==
+
+
+== External links ==
+Official website

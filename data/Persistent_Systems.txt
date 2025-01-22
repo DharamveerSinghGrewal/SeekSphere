@@ -1,0 +1,27 @@
+Persistent Systems is an Indian multinational technology services company based in Pune. It is primarily engaged in cloud computing, internet of things, endpoint security, big data analytics and softw...
+
+Persistent Systems is an Indian multinational technology services company based in Pune. It is primarily engaged in cloud computing, internet of things, endpoint security, big data analytics and software product engineering services.
+
+
+== History ==
+
+Persistent Systems was founded in 1990 by Anand Deshpande, a former Hewlett-Packard employee, with an investment of $21,000. In 2000, Intel Capital invested $1 million in the company for a 3.5% stake. In 2005, Persistent raised $18.8 million from Norwest Venture Partners and Gabriel Venture Partners.
+Persistent Systems was listed on the National Stock Exchange of India and Bombay Stock Exchange in March 2010 after its initial public offering.
+In February 2011, Persistent took over the operations of Nagpur-based Infospectrum India. In 2012, Persistent Systems acquired Openwave's location business.
+In 2015, Persistent Systems completed the acquisition of the digital content management solutions business of US-based Akumina. In 2016, Persistent product arm Accelerite purchased Citrix's products CloudPlatform (based on Apache CloudStack) and CloudPortal Business Manager. In 2016, Persistent acquired PRM Cloud Solutions, a Salesforce consulting partner. In 2016, Persistent Systems launched a specialized engineering service for IBM Watson IoT platform.
+In 2017, Persistent Systems acquired a Swiss company called Parx Werk. In 2019, Persistent joined Siemens' MindSphere partner program to deliver industrial internet of things (IIoT) services. In 2019, Persistent Systems acquired Youperience, a Salesforce implementation company. In 2020, the company acquired US-based enterprise software firm Capiot Software.
+In 2021, Persistent Systems acquired certain assets of Sureline Systems, a cloud migration company. In 2021, Persistent acquired Software Corporation International (SCI) and its affiliate company Fusion360 for $53 million. It also announced the acquisition of Shree Partners, a New Jersey–based IT and cloud management company.
+In February 2022, Persistent acquired the American consulting firm Data Glove for $90.5 million. In March 2022, it acquired the American cloud computing services company MediaAgility for $71.71 million.
+In 2024, Persistent acquired Starfish Associates, developer of an enterprise communications automation platform, for $20 million.
+On Sept 30, 2024, Persistent Systems declared its intention to acquire Arrka, a Pune-based data privacy management firm for a consideration of Rs 14.4 crore.
+
+
+== Activities ==
+The company organizes an annual hackathon called Semicolons for its employees. The company also organizes IBM's Call for Code hackathon at its Goa, Nagpur and Pune offices.
+
+
+== References ==
+
+
+== External links ==
+Official website

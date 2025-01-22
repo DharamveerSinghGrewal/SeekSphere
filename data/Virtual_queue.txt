@@ -1,0 +1,38 @@
+Virtual queue is a concept used in both inbound call centers and other businesses to improve wait times for users. Call centers use an Automatic Call Distributor (ACD) to distribute incoming calls to ...
+
+Virtual queue is a concept used in both inbound call centers and other businesses to improve wait times for users. Call centers use an Automatic Call Distributor (ACD) to distribute incoming calls to specific resources (agents) in the center. ACDs hold queued calls in First In, First Out order until agents become available. Virtual queue systems allow callers to receive callbacks instead of waiting in an ACD queue.
+This solution is analogous to the “fast lane” option used at amusement parks, such as Disney's FastPass, in which a computerized system allows park visitors to secure their place in a “virtual queue” rather than waiting in a physical queue. In brick-and-mortar retail and the business world, virtual queuing for large organizations similar to the FastPass and Six Flags' Flash Pass, have been in use since 1999 and 2001 respectively.
+For small businesses, the virtual queue management solutions come in two types: (a) SMS text notification services and (b) apps on smartphones and tablet devices, with in-app notification and remote queue status views.
+The online queue often referred to as a virtual-waiting-room is the brain child of UK Inventor and entrepreneur Matt King whose 2005 patented process EP1751954b1 was the first solution online to prevent visitor websurges and crashes. Before that the online queue to prevent visitor websurges and crashes was invented and patented by Masanori Kubo in 2000. The term virtual-waiting-room was coined by Akamai Technologies in 2004 for its Edge Computing web-based service to prevent visitor websurges and crashes and amongst other used by leading online ticketing agencies, proved valuable to MLB.com's (Major League Baseball) successful ticket sales.
+
+
+== Overview ==
+While there are several different varieties of virtual queuing systems, a standard First In, First Out that maintains the customer's place in line is set to monitor queue conditions until the Estimated Wait Time (EWT) exceeds a predetermined threshold. When the threshold is exceeded, the system intercepts incoming calls before they enter the queue. It informs customers of their EWT and offers the option of receiving a callback in the same amount of time as if they waited on hold.
+If customers choose to remain in a queue, their calls are routed directly to the queue. Customers who opt for a callback are prompted to enter their phone number and then hang up the phone. A “virtual placeholder” maintains the customers' position in the queue while the ACD queue is worked off. The virtual queuing system monitors the rate at which calls in queue are worked off and launches an outbound call to the customer moments before the virtual placeholder is due to reach the top of the queue. When the callback is answered by the customer, the system asks for confirmation that the correct person is on the line and ready to speak with an agent. Upon receiving confirmation, the system routes the call to the next available agent resource, who handles it as a normal inbound call.
+Call centers do not measure this "virtual queue" time as "queue time" because the caller is free to pursue other activities instead of listening to hold music and announcements. The voice circuit is released between the ACD and the telecommunications network, so the call does not accrue any queue time or telecommunications charges.
+
+
+=== Universal Queue ===
+Universal queue (UQ) is concept in contact center design whereby multiple communications channels (such as telephone, fax and email) are integrated into a single 'universal queue' to standardize processing and handling, enabling coherent customer relations management (CRM).
+UQ is generally used for standardised routing, recording, handling, reporting, and management of all communications in a contact center (or across an entire organisation).
+Although UQ was discussed at least as far back as 2004, difficulties in implementing this system prevented its widespread uptake. As of 2008, there is little data available online regarding existing UQ implementations.
+
+
+== Applications ==
+Some utility companies (electric, natural gas, telecommunications, and cable television) use virtual queuing to manage seasonal peaks in call center traffic, as well as unexpected traffic spikes due to weather or service interruptions. Call centers that process inbound telesales calls use virtual queuing to reduce the number of abandoned calls. Customer care organizations use virtual queuing to enhance service levels. Insurance claims processing centers use virtual queuing to manage unforeseen peaks due to natural disasters.
+Various amusement parks around the world have employed a similar virtual queue system for guests wishing to queue for their amusement rides. One of the most notable examples, Disney's Fastpass, issues guests a ticket which details a time for the guest to return and board the attraction. More recent virtual queue systems have utilized technology such as the Q-Bot to reserve a place for them in the queue. Implementations of such a system include the Q-Bot at Legoland parks, the Flash Pass at Six Flags parks and the Q4U at Dreamworld.
+Virtual queueing apps allow small businesses to operate their virtual queue from an application. Their customers take a virtual queue number and wait remotely instead of waiting on-premises.
+During the Covid-19 pandemic, virtual queuing became more popular in order to support businesses while store capacity was limited. Companies such as Qudini have provided customers a way to join a queue by scanning a QR code, granting them permission to wait at a safe distance from other customers. Covid-19 encouraged hospitals to implement virtual queue systems that will maintain social distancing.
+
+
+== References ==
+
+Dan Merriman, The Total Economic Impact Of Virtual Hold’s Virtual Queuing Solutions, Forrester Research, 2006
+David Maister, The Psychology Of Waiting In Lines, 1985
+Mukta Kampllikar, Losing Wait, TMTC Journal of Management, 2005
+Greg Levin, The Viability of Virtual Queuing Tools, CallCenter Magazine, 2006
+Eric Camulli, How to Optimize Skills-Based Routing Using a Virtual Queue, Connections Magazine, Jan/Feb 2007
+Jon Arnold, Virtual Queuing – the End of Music on Hold?, Focus, Dec 2010
+Shai Berger, Virtual Queuing Reaches A Turning Point, April 2012
+Padraig McTiernan, The Business Case for Virtual Queueing, June 2012
+Tom Oristian, Virtual Queuing Simulator, Aug 2012

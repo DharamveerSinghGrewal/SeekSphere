@@ -1,0 +1,73 @@
+Surfshark B.V. is a cybersecurity company that was established in 2018. It launched its first product, a Surfshark VPN, in the same year. Currently, Surfshark offers a range of cybersecurity tools: a ...
+
+Surfshark B.V. is a cybersecurity company that was established in 2018. It launched its first product, a Surfshark VPN, in the same year. Currently, Surfshark offers a range of cybersecurity tools: a VPN, a data leak detection system called Surfshark Alert, a private search tool known as Surfshark Search, and an antivirus named Surfshark Antivirus. The company also provides a personal data removal service called Incogni, an alternative credential generator called Alternative ID, and a Dedicated IP service.
+In 2022, Surfshark and Nord Security merged under one holding company to form a cybersecurity powerhouse while still operating independently.
+Surfshark, initially registered in the British Virgin Islands (BVI), moved its headquarters to the Netherlands on October 1, 2021. The Netherlands serves no legal obligation for companies to log or retain user data and abides by GDPR requirements. Surfshark also has offices in Lithuania, Poland, and Germany.
+
+
+== History ==
+Surfshark was launched in 2018 when it introduced its first VPN application. In 2018, Surfshark's browser extensions underwent an external audit by a German cybersecurity firm, Cure53. In 2019, Surfshark launched Surfshark Alert & Surfshark Search and became one of the first ten VPN packages to receive an official seal of approval granted by an independent IT-Security Institute AV-TEST. The same year Surfshark started their research activities, releasing the first Digital Quality of Life (DQL) index.
+In 2020, Surfshark moved to 100% RAM-only servers, introduced the WireGuard protocol, and became a founding member of the VPN Trust Initiative. In 2021, Surfshark was named Best VPN by the Trusted Reviews Awards, as well as the PCMag Editor's Choice award, and was named TechRadar’s must-have Work from Home app. Surfshark also successfully passed an external audit by Cure53. In the same year, Surfshark launched Surfshark Antivirus & Incogni. 
+In mid-2021, Surfshark began merging with Nord Security, the parent company of NordVPN. The merger was finalized in early 2022, with both brands continuing to operate independently. 
+In August 2022, Surfshark exclusively partnered with digital rights watchdog NetBlocks for greater reporting on internet shutdowns. Later, in 2022, Surfshark closed its physical servers in India in response to CERT-In's (Indian Computer Emergency Response Team) order for VPN companies to store consumers' personal data for five years. Later that year, Surfshark released Linux GUI, and Surfshark Nexus, a technology that connects all of Surfshark's VPN servers into one network. During 2022, Surfshark reached 100 different server country locations and, together with Nord Security, gained Unicorn status. At the end of the year Deloitte tested and approved Surfshark’s compliance with the no-logs policy.
+In 2023, Surfshark launched its Dedicated IP and Alternative ID services. In September 2023, Surfshark received the Trust Seal badge after passing the VPN Trust Initiative (VTI) assessment. The Surfshark VPN app for Android also passed the Mobile App Security Assessment (MASA) audit in 2023.
+In 2023, Surfshark received the Forbes Advisor Best VPN for Unlimited Connections 2023 award.
+In March 2024, Surfshark was ranked 47th in the Financial Times 1000: Europe's Fastest Growing Companies list. Surfshark also ranked 8th in the IT & Software category of the same FT-Statista annual ranking list.
+
+
+== Technology ==
+In December 2019, Surfshark implemented GPS-Spoofing for Android, letting users change their device's physical geolocation to one of the server's locations. That same year, Surfshark launched Surfshark Alert and Surfshark Search.
+Surfshark uses IKEv2, OpenVPN, and WireGuard connection protocols in its applications. All data transferred via Surfshark servers is encrypted using an AES-256-GCM encryption standard.
+In July 2020, Surfshark announced its entire server network is running on RAM-only servers.
+In 2021, Surfshark launched Surfshark Antivirus & Incogni. That same year, Surfshark also launched a cookie pop-up blocker, an in-app notification center, new browser extensions, and a macOS app and started moving their servers to 10Gbps.
+In February 2022, Surfshark added the IP rotator feature and released the Surfshark Nexus technology. Nexus uses Software Defined Networking (SDN) to connect Surfshark’s VPN servers into a single, global network.
+In May 2022, Surfshark announced Linux GUI, added real-time protection to Surfshark Antivirus & added a pause feature to the VPN app. In June 2022, Surfshark shut down physical servers in India in response to the new data law. In August 2022, Surfshark added a manual WireGuard connection feature. In October 2022, Surfshark reached 100 different server country locations.
+In June 2023, Surfshark launched Dedicated IP, which gives a user a unique and static IP address when connected to a VPN. Later that year, Surfshark launched Alternative ID, which generates a brand-new online identity & email.
+In January 2023, Surfshark released Dynamic MultiHop, an upgrade to the double VPN feature called MultiHop. Dynamic MultiHop allows users to choose which two location servers they want to route their traffic through.
+
+
+== Products and features ==
+
+
+=== Surfshark VPN ===
+A cybersecurity software that improves online safety, privacy, and censored content accessibility. A VPN routes traffic through a server, changes the IP address, and encrypts the device’s internet traffic. Surfshark VPN offers unlimited simultaneous connections and all essential VPN features. Available on: Windows, macOS, Linux, iOS, Android, Chrome, Firefox, Edge, routers, FireTV, and other smart TVs.
+
+
+=== Alternative ID ===
+A Surfshark product that generates a brand-new online persona with a name, age, address, and email. The user can create up to three emails at a time and safely forward the incoming traffic to their real email address.  Available on: Windows, macOS, iOS, Android, Chrome extension, and the account page.
+
+
+=== Surfshark Antivirus ===
+A malware protection software that secures the device from the downloads folder to the webcam. Antivirus allows protection for up to 5 devices, lets users schedule system scans, and continually scans the user's device with real-time protection. Available on: Windows, Android, and macOS.
+
+
+=== Surfshark Alert ===
+A personal data monitoring tool that gives immediate alerts whenever the user’s emails, credit cards, or personal IDs are part of a data breach. It also sends quarterly or yearly reports on personal data security. Available on: Windows, macOS, Linux, iOS, Android, Chrome, Firefox, Edge, and the account page.
+
+
+=== Surfshark Search ===
+A private search engine that doesn't track the user and gives purely organic results unaffected by previous searches. Users can also change the search engine’s location to other countries and get local results. Available on: Windows, macOS, iOS, Android, Chrome, Firefox, Edge, or the official website.
+
+
+=== Dedicated IP ===
+A dedicated IP (Internet Protocol) is a unique IP address assigned to only one user. It gives the same IP address whenever the user connects to the designated VPN server. Dedicated IP combines the protection of a VPN with a fixed IP address.  Available on: Windows, macOS, Linux, iOS, Android, Chrome, Firefox, Edge, routers, Apple TV, FireTV, and other smart TVs.
+
+
+== Research ==
+In 2019, Surfshark released the first Digital Quality of Life index, a study evaluating the digital wellbeing of countries worldwide. The research is updated yearly, and the best-performing countries are selected based on internet affordability, internet quality, electronic infrastructure, electronic security, and electronic government.
+Throughout the years, Surfshark collected information about internet regulations, global data breaches, and data vulnerabilities and has conducted five major research projects: Digital Quality of Life Index, Internet Shutdown Tracker, Data Vulnerability Thermometer, Global Data Breach Statistics, Report on Government Requests for User Data.
+
+
+== Social responsibility ==
+Surfshark is one of the founding members of the VPN Trust Initiative (VTI), which was established in 2020. VPN Trust InitiativeMembers focuses on improving internet security for consumers and all of its members must follow the VTI principles, ensuring that member companies are secure, trusted, and transparent to their users. 
+In August 2022, Surfshark collaborated with an internet monitoring organization, NetBlocks, to bring awareness and spread the news of worldwide internet disruptions. 
+In 2022, Surfshark joined EDRi (European Digital Rights), the biggest European network defending digital rights and freedom. That same year, Surfshark joined The Global Encryption Coalition (GEC) to promote strong encryption.
+Surfshark also collaborated with The Internet Society to spread awareness about Splinternet and Electronic Frontier Foundation (EFF) to discuss surveillance technologies.
+
+
+=== Initiatives ===
+In 2022, Surfshark took part in two major initiatives: The Cyberocean initiative, a gamified program for kids meant to teach them about online dangers, and the Women Go Tech mentorship, where some of Surfshark’s employees contributed as mentors to the campaign for diversity in tech-related careers.
+In 2023, Surfshark launched the Emergency VPN program and provided VPN subscriptions to journalists, activists, NGO representatives, and journalists working under harsh conditions.
+
+
+== References ==

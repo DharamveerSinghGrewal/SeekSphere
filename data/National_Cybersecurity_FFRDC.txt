@@ -1,0 +1,12 @@
+The National Cybersecurity FFRDC (NCF) is a federally funded research and development center (FFRDC) operated by MITRE Corporation.  It supports the U.S. National Institute of Standards and Technology...
+
+The National Cybersecurity FFRDC (NCF) is a federally funded research and development center (FFRDC) operated by MITRE Corporation.  It supports the U.S. National Institute of Standards and Technology's (NIST) National Cybersecurity Center of Excellence (NCCoE).  NCF is the first and, as of March 2017, only federally funded research and development center dedicated solely to cybersecurity. The NCF is located at 9700 Great Seneca Hwy in Rockville, Maryland.
+The NCF's mission is to increase the cybersecurity of the business community by providing practical guidance, increasing the adoption rate of more secure technologies, and accelerating innovation.  It supports the Department of Commerce's goal of protecting the economy.
+NCF also fosters public-private collaborations to identify and solve cybersecurity threats.  Through NIST's Work for Others Program, non-profits, and federal, state and local agencies can access the cybersecurity technologies and talent available at the NCF.
+
+
+== History ==
+The contract to operate the NCF was awarded in September 2014 by the NIST to the MITRE Corporation. The press release stated that "FFRDCs operate in the public interest and are required to be free from organizational conflicts of interest as well as bias toward any particular company, technology or product—key attributes given the NCCoE’s collaborative nature…The first three task orders under the contract allowed the NCCoE to expand its efforts in developing use cases and building blocks and provide operations management and facilities planning."
+
+
+== References ==

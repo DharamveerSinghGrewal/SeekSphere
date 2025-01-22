@@ -1,0 +1,11 @@
+Types and Programming Languages, ISBN 0-262-16209-1, is a book by Benjamin C. Pierce on type systems published in 2002.  A review by Frank Pfenning called it "probably the single most important book i...
+
+Types and Programming Languages, ISBN 0-262-16209-1, is a book by Benjamin C. Pierce on type systems published in 2002. 
+A review by Frank Pfenning called it "probably the single most important book in the area of programming languages in recent years."
+
+
+== References ==
+
+
+== External links ==
+Official website

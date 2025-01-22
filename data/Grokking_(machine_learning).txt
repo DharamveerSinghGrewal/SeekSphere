@@ -1,0 +1,13 @@
+In machine learning, grokking, or delayed generalization, is a transition to generalization that occurs many training iterations after the interpolation threshold, after many iterations of seemingly l...
+
+In machine learning, grokking, or delayed generalization, is a transition to generalization that occurs many training iterations after the interpolation threshold, after many iterations of seemingly little progress, as opposed to the usual process where generalization occurs slowly and progressively once the interpolation threshold has been reached.
+Grokking was introduced in January 2022 by OpenAI researchers investigating how neural network perform calculations. It derives from the word grok coined by Robert Heinlein in his novel Stranger in a Strange Land.
+Grokking can be understood as a phase transition during the training process. While grokking has been thought of as largely a phenomenon of relatively shallow models, grokking has been observed in deep neural networks and non-neural models and is the subject of active research.
+One potential explanation is that the weight decay (a component of the loss function that penalizes higher values of the neural network parameters, also called regularization) slightly favors the general solution that involves lower weight values, but that is also harder to find. According to Neel Nanda, the process of learning the general solution may actually be gradual, even though the transition to the general solution occurs more suddenly later.
+
+
+== References ==
+
+
+== See also ==
+Deep double descent

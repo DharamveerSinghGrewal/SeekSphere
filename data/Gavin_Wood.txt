@@ -1,0 +1,25 @@
+Gavin James Wood is an English computer scientist, a co-founder of Ethereum, and creator of Polkadot and Kusama.   == Early life == Wood was born in Lancaster, England, United Kingdom. He attended the...
+
+Gavin James Wood is an English computer scientist, a co-founder of Ethereum, and creator of Polkadot and Kusama.
+
+
+== Early life ==
+Wood was born in Lancaster, England, United Kingdom. He attended the Lancaster Royal Grammar School. He graduated from the University of York with a Master of Engineering (MEng) in Computer Systems and Software Engineering in 2002 and completed his PhD entitled "Content-based visualization to aid common navigation of musical audio" in 2005.
+
+
+== Career ==
+Before working on Ethereum, Wood was a research scientist at Microsoft. He was one of the founders of the Ethereum blockchain, which he has described as "one computer for the entire planet," with Vitalik Buterin, Charles Hoskinson, Anthony Di Iorio, and Joseph Lubin during 2013–2014. Wood proposed and helped develop Solidity, a programming language for writing smart contracts. He also released the paper defining the Ethereum Virtual Machine, the runtime system for smart contracts in Ethereum, in 2014. He also served as the Ethereum Foundation's first chief technology officer. Wood left the Ethereum Foundation in January 2016.
+Wood founded Parity Technologies (formerly Ethcore), which developed a client for the Ethereum network and creates software for companies using blockchain technology, with Jutta Steiner, who also previously worked at the Ethereum Foundation. The company released the Parity Ethereum software client, written in Rust, in early 2016. He held the title of chief web officer at Parity in 2018.
+He founded the Web3 Foundation, a nonprofit organization focusing on decentralized internet infrastructure and technology, starting with the Polkadot network. 
+
+
+== Charity ==
+Amid 2022 Russian invasion of Ukraine Wood donated $5.8 million in cryptocurrency to support Ukraine.
+
+
+== Publications ==
+Ethereum: A Secure Decentralised Generalised Transaction Ledger
+Polkadot: Vision for a Heterogenous Multi-Chain Framework
+
+
+== References ==

@@ -1,0 +1,92 @@
+A robot competition is an event where the abilities and characteristics of robots may be tested and assessed. Usually, they have to outperform other robots in order to win the competition. Many compet...
+
+A robot competition is an event where the abilities and characteristics of robots may be tested and assessed. Usually, they have to outperform other robots in order to win the competition. Many competitions are for schools, but several competitions with professional and hobbyist participants also exist.
+
+
+== History ==
+Robotic competitions have been organized since the 1970s and 1980s. In 1979 a Micromouse competition was organized by the IEEE as shown in the Spectrum magazine.
+Although it is hard to pinpoint the first robotic competition, two events are well known for their longevity: the All Japan Robot-Sumo Tournament, of Robot-Sumo in Japan, and the Trinity College International Fire Fighting Robot Contest.
+Two contemporary events are Robocup and Robo One. Companies like Lego and VEX have also developed branded events, which they call leagues, although they function more like individual cups in regional qualifiers with finals.
+There is some controversy about whether university-specific challenges should be considered competitions or workshops. The general trend is to open competitions to the public, to prevent nepotism and improve the quality of the competing robots.
+Some organizations have tried to standardize robotics competition through the introduction of full-fledged leagues with a standard calendar, but the model has worked only in some countries, such as Spain, where the National League was founded in 2008 and still functioning.
+
+
+== Types of competitions ==
+There are many types of robot competitions, making it hard to compare them or establish standards for them. For example:
+
+Publicly popular, vs. popular with competitors
+Indoors vs. outdoors
+Branded materials (LEGO or VEX) vs. open materials
+Minors/students, vs. professionals/clubs
+Itinerant (Robocup) vs. fixed-location (All Japan Sumo)
+Nature of movement: humanoid, wheeled, aerial, aquatic, underwater, etc.
+
+
+== Competitions ==
+
+
+=== Major competitions and organizations ===
+All these competitions are indoors, itinerant in their location and showcase different categories. The competitions in this listing have a yearly recurrent major impact in their locations with a huge national impact or an international significant reach. Map in reference 
+
+
+=== Historically relevant competitions ===
+
+These competitions had an important impact on the evolution of technology, public awareness or other robotic competitions in the world.
+
+
+=== Local active competitions with Wikipedia pages ===
+Location for these competitions is fixed, usually linked to a venue or institution.
+
+
+== Unsourced or discontinued minor competitions ==
+The following events appear to be inactive or have no reference that show them to be active.
+
+
+=== OFF Road Robotics Competition ===
+This competition is organized by the Robot Association of Finland.
+The goal is to build a robot which is able to move without human help off-road. The competition is held annually at the mid-summer Jämi Fly In air show in Finland. The competition track is randomly selected 10 minutes before competition by the judge, marked with four wooden sticks to make a 200-meter track. The track consists of sand roads and fields containing bushes and rocks. The robots must run outside the sticks from start to finish without human assistance as fast as possible. YouTube movies and pictures from the 2007 and 2008 competitions are available.
+
+
+=== International Autonomous Robot Racing Challenge (IARRC) ===
+Student teams from around the world compete in an outdoor racing competition, where small-scale robots race against other robots to the finish line, without any human guidance or control. Their skills are put to the test in a static judging event, a drag race and a circuit race event, where the vehicles navigate around obstacles and obey the traffic rules. These robots are finding their way into applications such as space exploration, mining, search and rescue, remote sensing and automotive inspection.
+Robot Racing is an effort to promote research in autonomous mobile robotics technology. The competition provides students with engineering design challenges, including components of mechanical, computer, control software, and system integration. Students work together to design and build robotic vehicles that can navigate twisting, obstacle-filled courses without any human guidance or control.
+
+
+=== Mobile Autonomous Systems Laboratory competition (Maslab) ===
+The Mobile Autonomous Systems Laboratory, or Maslab, is a university-level vision-based autonomous robotics competition. The competition is open to students of the Massachusetts Institute of Technology (MIT) and requires multithreaded applications of image processing, robotic movements, and target ball deposition. The robots are run with Ubuntu Linux and run on an independent OrcBoard platform that facilitates sensor-hardware additions and recognition.
+
+
+=== Flying Donkey Challenge ===
+The Flying Donkey Challenge is an escalating series of sub-challenges held annually in Africa with a focus on lifting cargo. The initial challenge was scheduled to take place in Kenya in November 2014 with four enabling technology and design sub-challenges and three non-technical challenges.
+
+
+=== Micro Air Vehicle Events ===
+A series of micro air vehicle (MAV) events have been sponsored by organizations including the University of Florida, the U.S. Army, French DGA, Indian Ministry of Defense, and others. For example, the International Micro Air Vehicle conferences (IMAVs) always include competitions in which capabilities are demonstrated and missions are performed. The goal of most competitions is to stimulate research on full autonomy of the micro air vehicles. Prizes range up to an aggregate value of $600,000 in 2008.
+
+
+=== UBBOTS competition ===
+UBBOTS is an annual robot exhibition taking place at Babes-Bolyai University, Cluj-Napoca, Romania. The teams have to create a robot that helps humans and simplify their life.
+
+
+=== Duke Annual Robo-Climb Competition (DARC) ===
+
+Hosted by Duke University, the Duke Annual Robo-Climb Competition (DARC) challenges students to create wall-climbing robots. The competition is discontinued.
+
+
+=== SAURO ===
+Sakarya University Robotics Competition (SAURO) is a robotics competition hosted by Sakarya University since 2009. The organization is open to undergraduates, graduates and high school students. The competition is discontinued.
+
+
+=== First Robot Olympics ===
+
+The first Robot Olympics took place in Glasgow Scotland on September 27–28, 1990. The event was run by The Turing Institute at the Sports Centre at the University of Strathclyde. It featured 68 robots competing in a range of sporting events. The robots were from 12 different countries and involved over 2,500 visitors over the two-day period. The competition is discontinued.
+
+
+== See also ==
+Robot combat
+Robot-sumo, robotics competition inspired by sumo
+Micromouse
+Mobile robot
+
+
+== Notes ==

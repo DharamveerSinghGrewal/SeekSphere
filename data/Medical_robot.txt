@@ -1,0 +1,38 @@
+A medical robot is a robot used in the medical sciences. They include surgical robots. These are in most telemanipulators, which use the surgeon's activators on one side to control the "effector" on t...
+
+A medical robot is a robot used in the medical sciences. They include surgical robots. These are in most telemanipulators, which use the surgeon's activators on one side to control the "effector" on the other side.
+
+
+== Types ==
+
+Surgical robots: These robots either allow surgical operations to be carried out with better precision than an unaided human surgeon or allow remote surgery where a human surgeon is not physically present with the patient.
+Rehabilitation robots: It facilitates and support the lives of infirm, elderly people, or those with dysfunction of body parts affecting movement. These robots are also used for rehabilitation and related procedures, such as training and therapy.
+Biorobots: A group of robots designed to imitate the cognition of humans and animals.
+Telepresence robots: It allows off-site medical professionals to move, look around, communicate, and participate from remote locations.
+Pharmacy automation: Robotic systems to dispense oral solids in a retail pharmacy setting or preparing sterile IV admixtures in a hospital pharmacy setting.
+Companion robot: It has the capability to engage emotionally with users keeping them company and alerting if there is a problem with their health.
+Disinfection robot: It has the capability to disinfect a whole room in mere minutes, generally using pulsed ultraviolet light. They are being used to fight Ebola virus disease.
+Hospital robots - With a pre-programmed layout of their environment and built-in sensors, hospital robots deliver medications, meals and specimens around hospitals.
+ Robotic prosthetics - Focuses on providing their wearers with life-like limb functionality.
+Laboratory robots - Types of robots found in labs are specially designed to either automate processes or assist lab technicians in completing repetitive tasks.
+
+
+== See also ==
+
+Biothreat
+Robots in healthcare
+Hospi
+Open-source robotics
+Robot & Frank
+
+
+== References ==
+
+
+== External links ==
+Medical Robotics Text Book
+Medical Robots Conference Archived 2014-11-02 at the Wayback Machine
+Robotic IV Automation - RIVA
+Where Are the Elder Care Robots?
+Notable Chinese Firms Emerging in Medical Robots Sector Archived 2019-10-19 at the Wayback Machine (IEEE)
+Medical Robots- Towards Robotics

@@ -1,0 +1,352 @@
+In computer security, a threat is a potential negative action or event enabled by a vulnerability that results in an unwanted impact to a computer system or application. A threat can be either a negat...
+
+In computer security, a threat is a potential negative action or event enabled by a vulnerability that results in an unwanted impact to a computer system or application.
+A threat can be either a negative "intentional" event (i.e. hacking: an individual cracker or a criminal organization) or an "accidental" negative event (e.g. the possibility of a computer malfunctioning, or the possibility of a natural disaster event such as an earthquake, a fire, or a tornado) or otherwise a circumstance, capability, action, or event (incident is often used as a blanket term). A threat actor who is an individual or group that can perform the threat action, such as exploiting a vulnerability to actualise a negative impact. An exploit is a vulnerability that a threat actor used to cause an incident.
+
+
+== Standard definitions ==
+A more comprehensive definition, tied to an Information assurance point of view, can be found in "Federal Information Processing Standards (FIPS) 200, Minimum Security Requirements for Federal Information and Information Systems" by NIST of United States of America
+
+Any circumstance or event with the potential to adversely impact organizational operations (including mission, functions, image, or reputation), organizational assets, or individuals through an information system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service. Also, the potential for a threat-source to successfully exploit a particular information system vulnerability.
+National Information Assurance Glossary defines threat as:
+
+Any circumstance or event with the potential to adversely impact an IS through unauthorized access, destruction, disclosure, modification of data, and/or denial of service.
+ENISA gives a similar definition:
+
+Any circumstance or event with the potential to adversely impact an asset [G.3] through unauthorized access, destruction, disclosure, modification of data, and/or denial of service.
+The Open Group defines threat as:
+
+Anything that is capable of acting in a manner resulting in harm to an asset and/or organization; for example, acts of God (weather, geological events, etc.); malicious actors; errors; failures.
+Factor analysis of information risk defines threat  as:
+
+threats are anything (e.g., object, substance, human, etc.) that are capable of acting against an asset in a manner that can result in harm. A tornado is a threat, as is a flood, as is a hacker. The key consideration is that threats apply the force (water, wind, exploit code, etc.) against an asset that can cause a loss event to occur.
+National Information Assurance Training and Education Center gives a more articulated definition of threat:
+
+The means through which the ability or intent of a threat agent to adversely affect an automated system, facility, or operation can be manifest. Categorize and classify threats as follows: Categories Classes Human Intentional Unintentional Environmental Natural Fabricated 2. Any circumstance or event with the potential to cause harm to a system in the form of destruction, disclosure, modification or data, and/or denial of service.  3. Any circumstance or event with the potential to cause harm to the ADP system or activity in the form of destruction, disclosure, and modification of data, or denial of service. A threat is a potential for harm. The presence of a threat does not mean that it will necessarily cause actual harm. Threats exist because of the very existence of the system or activity and not because of any specific weakness. For example, the threat of fire exists at all facilities regardless of the amount of fire protection available.  4. Types of computer systems related adverse events (i.e., perils) that may result in losses. Examples are flooding, sabotage and fraud.  5. An assertion primarily concerning entities of the external environment (agents); we say that an agent (or class of agents) poses a threat to one or more assets; we write: T(e;i) where: e is an external entity; i is an internal entity or an empty set. 6. An undesirable occurrence that might be anticipated but is not the result of a conscious act or decision. In threat analysis, a threat is defined as an ordered pair, <peril; asset category>, suggesting the nature of these occurrences but not the details (details are specific to events).  7. The potential violation of security. 8. A set of properties of a specific external entity (which may be either an individual or class of entities) that, in union with a set of properties of a specific internal entity, implies a risk (according to a body of knowledge).
+
+
+== Phenomenology ==
+The term "threat" relates to some other basic security terms as shown in the following diagram:
+
+A resource (both physical or logical) can have one or more vulnerabilities that can be exploited by a threat agent in a threat action. The result can potentially compromise the confidentiality, integrity or availability properties of resources (potentially different than the vulnerable one) of the organization and others involved parties (customers, suppliers).
+The so-called CIA triad is the basis of information security.
+The attack can be active when it attempts to alter system resources or affect their operation: so it compromises Integrity or Availability. A "passive attack" attempts to learn or make use of information from the system but does not affect system resources: so it compromises Confidentiality.
+
+OWASP (see figure) depicts the same phenomenon in slightly different terms: a threat agent through an attack vector exploits a weakness (vulnerability) of the system and the related security controls causing a technical impact on an IT resource (asset) connected to a business impact.
+A set of policies concerned with information security management, the Information security management systems (ISMS), has been developed to manage, according to risk management principles, the countermeasures in order to accomplish to a security strategy set up following rules and regulations applicable in a country. Countermeasures are also called security controls; when applied to the transmission of information are named security services.
+The overall picture represents the risk factors of the risk scenario.
+The widespread of computer dependencies and the consequent raising of the consequence of a successful attack, led to a new term cyberwarfare.
+Nowadays the many real attacks exploit Psychology at least as much as technology. Phishing and Pretexting and other methods are called social engineering techniques. The Web 2.0 applications, specifically Social network services, can be a mean to get in touch with people in charge of system administration or even system security, inducing them to reveal sensitive information. One famous case is Robin Sage.
+The most widespread documentation on computer insecurity is about technical threats such as a computer virus, trojan and other malware, but a serious study to apply cost effective countermeasures can only be conducted following a rigorous IT risk analysis in the framework of an ISMS: a pure technical approach will let out the psychological attacks that are increasing threats.
+
+
+== Threats classification ==
+Threats can be classified according to their type and origin:
+
+Types of threats:
+Physical damage: fire, water, pollution
+Natural events: climatic, seismic, volcanic
+Loss of essential services: electrical power, air conditioning, telecommunication
+Compromise of information: eavesdropping, theft of media, retrieval of discarded materials
+Technical failures: equipment, software, capacity saturation
+Compromise of functions: error in use, abuse of rights, denial of actions
+Note that a threat type can have multiple origins.
+
+Deliberate: aiming at information asset
+spying
+illegal processing of data
+Accidental
+equipment failure
+software failure
+Environmental
+natural event
+loss of power supply
+Negligence: Known but neglected factors, compromising the network safety and sustainability
+
+
+== Threats Trends ==
+Recent trends in computer threats show an increase in ransomware attacks, supply chain attacks, and fileless malware. Ransomware attacks involve the encryption of a victim's files and a demand for payment to restore access. Supply chain attacks target the weakest links in a supply chain to gain access to high-value targets. Fileless malware attacks use techniques that allow malware to run in memory, making it difficult to detect.
+
+
+=== Common Threats ===
+Below are the few common emerging threats:
+
+     Computer viruses
+     Trojan horses
+     Worms
+     Rootkits
+     Spyware
+     Adware
+     Ransomware
+     Fileless malware
+
+
+== Threat classification ==
+Microsoft published a mnemonic, STRIDE, from the initials of threat groups:
+
+Spoofing of user identity
+Tampering
+Repudiation
+Information disclosure (privacy breach or Data leak)
+Denial of Service (D.o.S.)
+Elevation of privilege
+Microsoft previously rated the risk of security threats using five categories in a classification called DREAD: Risk assessment model. The model is considered obsolete by Microsoft.
+The categories were:
+
+Damage – how bad would an attack be?
+Reproducibility – how easy it is to reproduce the attack?
+Exploitability – how much work is it to launch the attack?
+Affected users – how many people will be impacted?
+Discoverability – how easy it is to discover the threat?
+The DREAD name comes from the initials of the five categories listed.
+The spread over a network of threats can lead to dangerous situations. In military and civil fields, threat level has been defined: for example INFOCON is a threat level used by the US. Leading antivirus software vendors publish global threat level on their websites.
+
+
+== Associated terms ==
+
+
+=== Threat agents or actors ===
+The term Threat Agent is used to indicate an individual or group that can manifest a threat. It is fundamental to identify who would want to exploit the assets of a company, and how they might use them against the company.
+
+Individuals within a threat population; Practically anyone and anything can, under the right circumstances, be a threat agent – the well-intentioned, but inept, computer operator who trashes a daily batch job by typing the wrong command, the regulator performing an audit, or the squirrel that chews through a data cable.
+Threat agents can take one or more of the following actions against an asset:
+
+Access – simple unauthorized access
+Misuse – unauthorized use of assets (e.g., identity theft, setting up a porn distribution service on a compromised server, etc.)
+Disclose – the threat agent illicitly discloses sensitive information
+Modify – unauthorized changes to an asset
+Deny access – includes destruction, theft of a non-data asset, etc.
+Each of these actions affects different assets differently, which drives the degree and nature of loss. For example, the potential for productivity loss resulting from a destroyed or stolen asset depends upon how critical that asset is to the organization's productivity. If a critical asset is simply illicitly accessed, there is no direct productivity loss. Similarly, the destruction of a highly sensitive asset that does not play a critical role in productivity would not directly result in a significant productivity loss. Yet that same asset, if disclosed, can result in significant loss of competitive advantage or reputation, and generate legal costs. The point is that it is the combination of the asset and type of action against the asset that determines the fundamental nature and degree of loss. Which action(s) a threat agent takes will be driven primarily by that agent's motive (e.g., financial gain, revenge, recreation, etc.) and the nature of the asset. For example, a threat agent bent on financial gain is less likely to destroy a critical server than they are to steal an easily pawned asset like a laptop.
+It is important to separate the concept of the event that a threat agent get in contact with the asset (even virtually, i.e. through the network) and the event that a threat agent act against the asset.
+OWASP collects a list of potential threat agents to prevent system designers, and programmers insert vulnerabilities in the software.
+Threat Agent = Capabilities + Intentions + Past Activities
+These individuals and groups can be classified as follows:
+
+Non-Target Specific: Non-Target Specific Threat Agents are computer viruses, worms, trojans and logic bombs.
+Employees: Staff, contractors, operational/maintenance personnel, or security guards who are annoyed with the company.
+Organized Crime and Criminals: Criminals target information that is of value to them, such as bank accounts, credit cards or intellectual property that can be converted into money. Criminals will often make use of insiders to help them.
+Corporations: Corporations are engaged in offensive information warfare or competitive intelligence. Partners and competitors come under this category.
+Human, Unintentional: Accidents, carelessness.
+Human, Intentional: Insider, outsider.
+Natural: Flood, fire, lightning, meteor, earthquakes.
+
+
+=== Threat source ===
+Threat sources are those who wish a compromise to occur.  It is a term used to distinguish them from threat agents/actors who are those who carry out the attack and who may be commissioned or persuaded by the threat source to knowingly or unknowingly carry out the attack.
+
+
+=== Threat communities ===
+Threat communities
+Subsets of the overall threat agent population that share key characteristics. The notion of threat communities is a powerful tool for understanding who and what we’re up against as we try to manage risk. For example, the probability that an organization would be subject to an attack from the terrorist threat community would depend in large part on the characteristics of your organization relative to the motives, intents, and capabilities of the terrorists. Is the organization closely affiliated with ideology that conflicts with known, active terrorist groups? Does the organization represent a high profile, high impact target? Is the organization a soft target? How does the organization compare with other potential targets? If the organization were to come under attack, what components of the organization would be likely targets? For example, how likely is it that terrorists would target the company information or systems?
+The following threat communities are examples of the human malicious threat landscape many organizations face:
+Internal
+Employees
+Contractors (and vendors)
+Partners
+External
+Cyber-criminals (professional hackers)
+Spies
+Non-professional hackers
+Activists
+Nation-state intelligence services (e.g., counterparts to the CIA, etc.)
+Malware (virus/worm/etc.) authors
+
+
+=== Threat action ===
+Threat action is an assault on system security.
+A complete security architecture deals with both intentional acts (i.e. attacks) and accidental events.
+Various kinds of threat actions are defined as subentries under "threat consequence".
+
+
+=== Threat analysis ===
+Threat analysis is the analysis of the probability of occurrences and consequences of damaging actions to a system. It is the basis of risk analysis.
+
+
+=== Threat modeling ===
+Threat modeling is a process that helps organizations identify and prioritize potential threats to their systems. It involves analyzing the system's architecture, identifying potential threats, and prioritizing them based on their impact and likelihood. By using threat modeling, organizations can develop a proactive approach to security and prioritize their resources to address the most significant risks.
+
+
+=== Threat intelligence ===
+
+Threat intelligence is the practice of collecting and analyzing information about potential and current threats to an organization. This information can include indicators of compromise, attack techniques, and threat actor profiles. By using threat intelligence, organizations can develop a better understanding of the threat landscape and improve their ability to detect and respond to threats.
+
+
+=== Threat consequence ===
+Threat consequence is a security violation that results from a threat action.
+Includes disclosure, deception, disruption, and usurpation.
+The following subentries describe four kinds of threat consequences, and also list and describe the kinds of threat actions that cause each consequence.
+Threat actions that are accidental events are marked by "*".
+
+"Unauthorized disclosure" (a threat consequence)
+A circumstance or event whereby an entity gains access to data for which the entity is not authorized. (See: data confidentiality.). The following threat actions can cause unauthorized disclosure:
+"Exposure"
+
+A threat action whereby sensitive data is directly released to an unauthorized entity. This includes:
+"Deliberate Exposure"
+Intentional release of sensitive data to an unauthorized entity.
+"Scavenging"
+
+Searching through data residue in a system to gain unauthorized knowledge of sensitive data.
+* "Human error"
+Human action or inaction that unintentionally results in an entity gaining unauthorized knowledge of sensitive data.
+* "Hardware/software error"
+System failure that results in an entity gaining unauthorized knowledge of sensitive data.
+"Interception": 
+A threat action whereby an unauthorized entity directly accesses sensitive data travelling between authorized sources and destinations. This includes:
+"Theft"
+Gaining access to sensitive data by stealing a shipment of a physical medium, such as a magnetic tape or disk, that holds the data.
+"Wiretapping (passive)"
+Monitoring and recording data that is flowing between two points in a communication system. (See: wiretapping.)
+"Emanations analysis"
+Gaining direct knowledge of communicated data by monitoring and resolving a signal that is emitted by a system and that contains the data but is not intended to communicate the data.
+"Inference"
+A threat action whereby an unauthorized entity indirectly accesses sensitive data (but not necessarily the data contained in the communication) by reasoning from characteristics or byproducts of communications. This includes:
+"Traffic analysis"
+Gaining knowledge of data by observing the characteristics of communications that carry the data.
+"Signals analysis"
+Gaining indirect knowledge of communicated data by monitoring and analyzing a signal that is emitted by a system and that contains the data but is not intended to communicate the data.
+"Intrusion"
+A threat action whereby an unauthorized entity gains access to sensitive data by circumventing a system's security protections. This includes:
+"Trespass"
+Gaining unauthorized physical access to sensitive data by circumventing a system's protections.
+"Penetration"
+Gaining unauthorized logical access to sensitive data by circumventing a system's protections.
+"Reverse engineering"
+Acquiring sensitive data by disassembling and analyzing the design of a system component.
+"Cryptanalysis"
+Transforming encrypted data into plain text without having prior knowledge of encryption parameters or processes.
+"Deception" (a threat consequence)
+
+A circumstance or event that may result in an authorized entity receiving false data and believing it to be true. The following threat actions can cause deception:
+"Masquerade"
+A threat action whereby an unauthorized entity gains access to a system or performs a malicious act by posing as an authorized entity.
+"Spoof"
+Attempt by an unauthorized entity to gain access to a system by posing as an authorized user.
+"Malicious logic"
+In context of masquerade, any hardware, firmware, or software (e.g., Trojan horse) that appears to perform a useful or desirable function, but actually gains unauthorized access to system resources or tricks a user into executing other malicious logic.
+"Falsification"
+A threat action whereby false data deceives an authorized entity. (See: active wiretapping.)
+"Substitution"
+Altering or replacing valid data with false data that serves to deceive an authorized entity.
+"Insertion"
+Introducing false data that serves to deceive an authorized entity.
+"Repudiation"
+A threat action whereby an entity deceives another by falsely denying responsibility for an act.
+"False denial of origin"
+Action whereby the originator of data denies responsibility for its generation.
+"False denial of receipt"
+Action whereby the recipient of data denies receiving and possessing the data.
+"Disruption" (a threat consequence)
+
+A circumstance or event that interrupts or prevents the correct operation of system services and functions. (See: denial of service.) The following threat actions can cause disruption:
+"Incapacitation"
+A threat action that prevents or interrupts system operation by disabling a system component.
+"Malicious logic"
+In the context of incapacitation, any hardware, firmware, or software (e.g., logic bomb) intentionally introduced into a system to destroy system functions or resources.
+"Physical destruction"
+Deliberate destruction of a system component to interrupt or prevent system operation.
+* "Human error"
+Action or inaction that unintentionally disables a system component.
+* "Hardware or software error"
+Error that causes failure of a system component and leads to disruption of system operation.
+* "Natural disaster"
+Any natural disaster (e.g., fire, flood, earthquake, lightning, or wind) that disables a system component.
+"Corruption"
+A threat action that undesirably alters system operation by adversely modifying system functions or data.
+"Tamper"
+In the context of corruption, deliberate alteration of a system's logic, data, or control information to interrupt or prevent correct operation of system functions.
+"Malicious logic"
+In the context of corruption, any hardware, firmware, or software (e.g., a computer virus) intentionally introduced into a system to modify system functions or data.
+* "Human error"
+Human action or inaction that unintentionally results in the alteration of system functions or data.
+* "Hardware or software error"
+Error that results in the alteration of system functions or data.
+* "Natural disaster"
+Any natural event (e.g. power surge caused by lightning) that alters system functions or data.
+"Obstruction"
+A threat action that interrupts delivery of system services by hindering system operations.
+"Interference"
+Disruption of system operations by blocking communications or user data or control information.
+"Overload"
+Hindrance of system operation by placing excess burden on the performance capabilities of a system component. (See: flooding.)
+"Usurpation" (a threat consequence)
+A circumstance or event that results in the control of system services or functions by an unauthorized entity. The following threat actions can cause usurpation:
+"Misappropriation"
+A threat action whereby an entity assumes unauthorized logical or physical control of a system resource.
+"Theft of service"
+Unauthorized use of service by an entity.
+"Theft of functionality"
+Unauthorized acquisition of actual hardware, software, or firmware of a system component.
+"Theft of data"
+Unauthorized acquisition and use of data.
+"Misuse"
+A threat action that causes a system component to perform a function or service that is detrimental to system security.
+"Tamper"
+In the context of misuse, deliberate alteration of a system's logic, data, or control information to cause the system to perform unauthorized functions or services.
+"Malicious logic"
+In the context of misuse, any hardware, software, or firmware intentionally introduced into a system to perform or control the execution of an unauthorized function or service.
+"Violation of permissions"
+Action by an entity that exceeds the entity's system privileges by executing an unauthorized function.
+
+
+=== Threat landscape or environment ===
+A collection of threats in a particular domain or context, with information on identified vulnerable assets, threats, risks, threat actors and observed trends.
+
+
+== Threat management ==
+Threats should be managed by operating an ISMS, performing all the IT risk management activities foreseen by laws, standards and methodologies.
+Very large organizations tend to adopt business continuity management plans in order to protect, maintain and recover business-critical processes and systems. Some of these plans are implemented by computer security incident response team (CSIRT).
+Threat management must identify, evaluate, and categorize threats. There are two primary methods of threat assessment:
+
+Information security audit
+Penetration test
+Many organizations perform only a subset of these methods, adopting countermeasures based on a non-systematic approach, resulting in computer insecurity.
+Information security awareness is a significant market. There has been a lot of software developed to deal with IT threats, including both open-source software and proprietary software.
+
+
+=== Cyber threat management ===
+Threat management involves a wide variety of threats including physical threats like flood and fire. While ISMS risk assessment process does incorporate threat management for cyber threats such as remote buffer overflows the risk assessment process doesn't include processes such as threat intelligence management or response procedures.
+Cyber threat management (CTM) is emerging as the best practice for managing cyber threats beyond the basic risk assessment found in ISMS. It enables early identification of threats, data-driven situational awareness, accurate decision-making, and timely threat mitigating actions.
+CTM includes:
+
+Manual and automated intelligence gathering and threat analytics
+Comprehensive methodology for real-time monitoring including advanced techniques such as behavioural modelling
+Use of advanced analytics to optimize intelligence, generate security intelligence, and provide Situational Awareness
+Technology and skilled people leveraging situational awareness to enable rapid decisions and automated or manual actions
+
+
+== Threat hunting ==
+Cyber threat hunting is "the process of proactively and iteratively searching through networks to detect and isolate advanced threats that evade existing security solutions." This is in contrast to traditional threat management measures, such as firewalls, intrusion detection systems, and SIEMs, which typically involve an investigation after there has been a warning of a potential threat, or an incident has occurred.
+Threat hunting can be a manual process, in which a security analyst sifts through various data information using their knowledge and familiarity with the network to create hypotheses about potential threats. To be even more effective and efficient, however, threat hunting can be partially automated, or machine-assisted, as well. In this case, the analyst utilizes software that harnesses machine learning and user and entity behaviour analytics (UEBA) to inform the analyst of potential risks. The analyst then investigates these potential risks, tracking suspicious behaviour in the network. Thus hunting is an iterative process, meaning that it must be continuously carried out in a loop, beginning with a hypothesis. There are three types of hypotheses: 
+
+Analytics-driven: "Machine-learning and UEBA, used to develop aggregated risk scores that can also serve as hunting hypotheses"
+Situational-awareness driven: "Crown Jewel analysis, enterprise risk assessments, company- or employee-level trends"
+Intelligence-driven: "Threat intelligence reports, threat intelligence feeds, malware analysis, vulnerability scans"
+The analyst researches their hypothesis by going through vast amounts of data about the network. The results are then stored so that they can be used to improve the automated portion of the detection system and to serve as a foundation for future hypotheses.
+The SANS Institute has conducted research and surveys on the effectiveness of threat hunting to track and disrupt cyber adversaries as early in their process as possible. According to a survey performed in 2019, "61% [of the respondents] report at least an 11% measurable improvement in their overall security posture" and 23.6% of the respondents have experienced a 'significant improvement' in reducing the dwell time.
+
+
+== Threat Mitigation ==
+To protect yourself from computer threats, it's essential to keep your software up-to-date, use strong and unique passwords, and be cautious when clicking on links or downloading attachments. Additionally, using antivirus software and regularly backing up your data can help mitigate the impact of a threat.
+
+
+== See also ==
+
+Cyber threat hunting
+Emergency management – Dealing with all humanitarian aspects of emergencies, i.e. societal threats
+Internet Engineering Task Force (IETF)
+Information security audit
+Information security
+Intrusion detection system
+IT risk
+Physical security
+Vulnerability management
+
+
+== References ==
+
+
+== External links ==
+
+Term in FISMApedia
+Cyber Threat Management Framework

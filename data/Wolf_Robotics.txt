@@ -1,0 +1,32 @@
+Wolf Robotics is an American automation technology company that utilizes industrial robots and computer numerical control systems. Based in Fort Collins, Colorado, it also has employees in Mexico and ...
+
+Wolf Robotics is an American automation technology company that utilizes industrial robots and computer numerical control systems. Based in Fort Collins, Colorado, it also has employees in Mexico and Brazil. These typically incorporate ABB or FANUC robots with Wolf's own robotic positioners.
+Wolf Robotics combines robotic welding with cutting systems used for transportation OEMs and suppliers and heavy fabrication in construction, mining and agriculture.
+In August 2015, welding manufacturer Lincoln Electric acquired Rimrock Holdings Corporation and its two divisions, Rimrock Corporation and Wolf Robotics.
+Following the acquisition, Wolf Robotics was renamed Lincoln Electric Automation Inc.
+
+
+== History ==
+Founded in 1944, Wolf Robotics operated under the name Heath Engineering and manufactured farm implement equipment using shape cutting products. In 1976, ESAB purchased Heath Engineering to make it their robotic welding division. ABB bought ESAB in 1993 and designated it as their Welding Systems Division. In 2003, the Rimrock Corporation bought the division and renamed it Wolf Robotics.
+
+
+== Accomplishments ==
+The company's robotic-grade welding positioners have a load capacity of up to 100,000 kg (220,462 lbs), which are among the strongest in the industry. It introduced robotics to the process of submerged arc welding. As one of the first four companies to be certified by the Robotic Industries Association as a robotic integrator, it is also one of six organizations recognized by the American Welding Society as an approved testing center for the Certified Robotic Arc Welding (CRAW) program.
+By 2014, it had installed over 8,400 robotic systems for mining, construction, agriculture, and other industries.
+In 2021, Wolf Robotics worked with the United States Army Research Laboratory and BAE Systems to develop an Agile Manufacturing Robotic Welding Cell for aluminum structures that make up the hull of a combat vehicle. 
+
+
+== See also ==
+Robotics
+Computer-aided design (CAD)
+Computer-aided manufacturing (CAM)
+Servomechanism
+Gantry robot
+
+
+== References ==
+
+
+== External links ==
+www.wolfrobotics.com
+www.rimrockcorp.com

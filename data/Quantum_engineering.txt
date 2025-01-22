@@ -1,0 +1,47 @@
+Quantum engineering is the development of technology that capitalizes on the laws of quantum mechanics. This type of engineering uses quantum mechanics to develop technologies such as quantum sensors ...
+
+Quantum engineering is the development of technology that capitalizes on the laws of quantum mechanics. This type of engineering uses quantum mechanics to develop technologies such as quantum sensors and quantum computers.
+Devices that rely on quantum mechanical effects such as lasers, MRI imagers and transistors have revolutionized many areas of technology. New technologies are being developed that rely on phenomena such as quantum coherence and on progress achieved in the last century in understanding and controlling atomic-scale systems. Quantum mechanical effects are used as a resource in novel technologies with far-reaching applications, including quantum sensors and novel imaging techniques, secure communication (quantum internet) and quantum computing.
+
+
+== History ==
+The field of quantum technology was explored in a 1997 book by Gerard J. Milburn. It was then followed by a 2003 article by Milburn and Jonathan P. Dowling, and a separate publication by David Deutsch on the same year.
+The application of quantum mechanics was evident in several technologies. These include laser systems, transistors and semiconductor devices, as well as other devices such as MRI imagers. The UK Defence Science and Technology Laboratory (DSTL) grouped these devices as 'quantum 1.0' to differentiate them from what it dubbed as 'quantum 2.0'. This is a definition of the class of devices that actively create, manipulate, and read out quantum states of matter using the effects of superposition and entanglement.
+From 2010 onwards, multiple governments have established programmes to explore quantum technologies, such as the UK National Quantum Technologies Programme, which created four quantum 'hubs'. These hubs are found at the Centre for Quantum Technologies in Singapore, and QuTech, a Dutch center to develop a topological quantum computer. In 2016, the European Union introduced the Quantum Technology Flagship, a €1 Billion, 10-year-long megaproject, similar in size to earlier European Future and Emerging Technologies Flagship projects.
+ In December 2018, the United States passed the National Quantum Initiative Act, which provides a US$1 billion annual budget for quantum research. China is building the world's largest quantum research facility with a planned investment of 76 billion Yuan (approx. €10 Billion). Indian government has also invested 8000 crore Rupees (approx. US$1.02 Billion) over 5-years to boost quantum technologies under its National Quantum Mission.
+In the private sector, large companies have made multiple investments in quantum technologies. Organizations such as Google, D-wave systems, and University of California Santa Barbara have formed partnerships and investments to develop quantum technology.
+
+
+== Applications ==
+
+
+=== Secure communications ===
+
+Quantum secure communication is a method that is expected to be 'quantum safe' in the advent of quantum computing systems that could break current cryptography systems using methods such as Shor's algorithm. These methods include quantum key distribution (QKD), a method of transmitting information using entangled light in a way that makes any interception of the transmission obvious to the user. Another method is the quantum random number generator, which is capable of producing truly random numbers unlike non-quantum algorithms that merely imitate randomness.
+
+
+=== Computing ===
+
+Quantum computers are expected to have a number of important uses in computing fields such as optimization and machine learning. They are perhaps best known for their expected ability to carry out Shor's algorithm, which can be used to factorize large numbers and is an important process in the securing of data transmissions.
+Quantum simulators are types of quantum computers intended to simulate a real world system, such as a chemical compound. Quantum simulators are simpler to build as opposed to general purpose quantum computers because complete control over every component is not necessary. Current quantum simulators under development include ultracold atoms in optical lattices, trapped ions, arrays of superconducting qubits, and others.
+
+
+=== Sensors ===
+
+Quantum sensors are expected to have a number of applications in a wide variety of fields including positioning systems, communication technology, electric and magnetic field sensors, gravimetry as well as geophysical areas of research such as civil engineering and seismology.
+
+
+== Education programs ==
+Quantum engineering is evolving into its own engineering discipline. The quantum industry requires a quantum-literate workforce, a missing resource at the moment. Currently, scientists in the field of quantum technology have mostly either a physics or engineering background and have acquired their ”quantum engineering skills” by experience. A survey of more than twenty companies aimed to understand the scientific, technical, and “soft” skills required of new hires into the quantum industry. Results show that companies often look for people that are familiar with quantum technologies and simultaneously possess excellent hands-on lab skills.
+Several technical universities have launched education programs in this domain. For example, ETH Zurich has initiated a Master of Science in Quantum Engineering, a joint venture between the electrical engineering department (D-ITET) and the physics department (D-PHYS), EPFL offers a dedicated Master’s program in Quantum Science and Engineering, combining coursework in quantum physics and engineering with research opportunities, and the University of Waterloo has launched integrated postgraduate engineering programs within the Institute for Quantum Computing. Similar programs are being pursued at Delft University, Technical University of Munich, MIT, CentraleSupélec and other technical universities.
+In the realm of undergraduate studies, opportunities for specialization are sparse. Nevertheless, some institutions have begun to offer programs. The Université de Sherbrooke offers a bachelor of science in quantum information, University of Waterloo offers a quantum specialization in its electrical engineering program, and the University of New South Wales offers a bachelor of quantum engineering.
+Students are trained in signal and information processing, optoelectronics and photonics, integrated circuits (bipolar, CMOS) and electronic hardware architectures (VLSI, FPGA, ASIC). In addition, they are exposed to emerging applications such as quantum sensing, quantum communication and cryptography and quantum information processing. They learn the principles of quantum simulation and quantum computing, and become familiar with different quantum processing platforms, such as trapped ions, and superconducting circuits. Hands-on laboratory projects help students to develop the technical skills needed for the practical realization of quantum devices, consolidating their education in quantum science and technologies.
+
+
+== See also ==
+Quantum supremacy
+Noisy intermediate-scale quantum era
+Timeline of quantum computing and communication
+
+
+== References ==

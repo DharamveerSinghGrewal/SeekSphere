@@ -1,0 +1,39 @@
+Quantum Computation and Quantum Information is a textbook about quantum information science written by Michael Nielsen and Isaac Chuang, regarded as a standard text on the subject. It is informally kn...
+
+Quantum Computation and Quantum Information is a textbook about quantum information science written by Michael Nielsen and Isaac Chuang, regarded as a standard text on the subject. It is informally known as "Mike and Ike", after the candies of that name. The book assumes minimal prior experience with quantum mechanics and with computer science, aiming instead to be a self-contained introduction to the relevant features of both. (Lov Grover recalls a postdoc disparaging it with the remark, "The book is too elementary – it starts off with the assumption that the reader does not even know quantum mechanics.") The focus of the text is on theory, rather than the experimental implementations of quantum computers, which are discussed more briefly.
+As of December 2024, the book has been cited over 58,000 times on Google Scholar. In 2019, Nielsen adapted parts of the book for his Quantum Country project.
+
+
+== Table of Contents (Tenth Anniversary Edition) ==
+Chapter 1: Introduction and Overview
+Chapter 2: Introduction to Quantum Mechanics
+Chapter 3: Introduction to Computer Science
+Chapter 4: Quantum Circuits
+Chapter 5: The Quantum Fourier Transform and its Applications
+Chapter 6: Quantum Search Algorithms
+Chapter 7: Quantum Computers: Physical Realization
+Chapter 8: Quantum Noise and Quantum Operations
+Chapter 9: Distance Measures for Quantum Information
+Chapter 10: Quantum Error-Correction
+Chapter 11: Entropy and Information
+Chapter 12: Quantum Information Theory
+Appendix 1: Notes on Basic Probability Theory
+Appendix 2: Group Theory
+Appendix 3: The Solovay–Kitaev Theorem
+Appendix 4: Number Theory
+Appendix 5: Public Key Cryptography and the RSA Cryptosystem
+Appendix 6: Proof of Lieb's Theorem
+Bibliography
+Index
+
+
+== Reviews ==
+Peter Shor called the text "an excellent book". Lov Grover called it "the bible of the quantum information field". Scott Aaronson said about it, "'Mike and Ike' as it's affectionately called, remains the quantum computing textbook to which all others are compared." David DiVincenzo said, "More than any of the previous attempts, this book has identified the essential foundations of quantum information theory with a clarity that has even, in a few cases, permitted the authors to obtain some original results and point toward new research directions." A review in the November 2001 edition of Foundations of Physics says, "Among the handful of books that have been written on this new subject, the present volume is the most complete and comprehensive."
+
+
+== Editions ==
+Nielsen, Michael A.; Chuang, Isaac L. (2000). Quantum Computation and Quantum Information (1st ed.). Cambridge: Cambridge University Press. ISBN 978-0-521-63503-5. OCLC 634735192.
+Nielsen, Michael A.; Chuang, Isaac L. (2010). Quantum Computation and Quantum Information (2nd ed.). Cambridge: Cambridge University Press. ISBN 978-1-107-00217-3. OCLC 844974180.
+
+
+== References ==

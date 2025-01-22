@@ -1,0 +1,29 @@
+A robotics suite is a visual environment for robot control and simulation. They are typically an end-to-end platform for robotics development and include tools for visual programming and creating and ...
+
+A robotics suite is a visual environment for robot control and simulation. They are typically an end-to-end platform for robotics development and include tools for visual programming and creating and debugging robot applications. Developers can often interact with robots through web-based or visual interfaces.
+One objective of a robotics suite is to support a variety of different robot platforms through a common programming interface. The key point about a robotics suite is that the same code will run either with a simulated robot or the corresponding real robot without modification.
+Some robotic suites are based in free software, free hardware and both free software and hardware.
+
+
+== Suites ==
+Fedora Robotics
+
+
+== See also ==
+AnyKode Marilou
+ArduPilot
+Debian Science
+Evolution Robotics
+Lego Mindstorms
+Microsoft Robotics Studio
+Player Project (formerly the Player/Stage Project or Player/Stage/Gazebo Project)
+Robot software
+Robot Operating System
+Simbad robot simulator
+URBI
+Webots
+
+
+== References ==
+Jones, M. Tim (5 September 2006). "Open source robotics toolkits". IBM developerWorks. Archived from the original on 22 October 2012. Retrieved 25 January 2014.
+Linux Devices (29 July 2008). "Updated review of robotics software platforms". Linux for Devices. Archived from the original on 27 January 2013. Retrieved 25 January 2014.

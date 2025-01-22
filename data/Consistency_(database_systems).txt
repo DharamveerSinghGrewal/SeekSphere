@@ -1,0 +1,26 @@
+In database systems, consistency (or correctness) refers to the requirement that any given database transaction must change affected data only in allowed ways. Any data written to the database must be...
+
+In database systems, consistency (or correctness) refers to the requirement that any given database transaction must change affected data only in allowed ways. Any data written to the database must be valid according to all defined rules, including constraints, cascades, triggers, and any combination thereof.  This does not guarantee correctness of the transaction in all ways the application programmer might have wanted (that is the responsibility of application-level code) but merely that any programming errors cannot result in the violation of any defined database constraints.
+In a distributed system, referencing CAP theorem, consistency can also be understood as after a successful write, update or delete of a Record, any read request immediately receives the latest value of the Record.
+
+
+== As an ACID guarantee ==
+Consistency is one of the four guarantees that define ACID transactions; however, significant ambiguity exists about the nature of this guarantee. It is defined variously as:
+
+The guarantee that database constraints are not violated, particularly once a transaction commits.
+The guarantee that any transactions started in the future necessarily see the effects of other transactions committed in the past.
+As these various definitions are not mutually exclusive, it is possible to design a system that guarantees "consistency" in every sense of the word, as most relational database management systems in common use today arguably do.
+
+
+== As a CAP trade-off ==
+The CAP theorem is based on three trade-offs, one of which is "atomic consistency" (shortened to "consistency" for the acronym), about which the authors note, "Discussing atomic consistency is somewhat different than talking about an ACID database, as database consistency refers to transactions, while atomic consistency refers only to a property of a single request/response operation sequence. And it has a different meaning than the Atomic in ACID, as it subsumes the database notions of both Atomic and Consistent." In the CAP theorem, you can only have two of the following three properties: consistency, availability, or partition tolerance. Therefore, consistency may have to be traded off in some database systems.
+
+
+== See also ==
+Consistency model
+CAP theorem
+Referential integrity
+Eventual consistency
+
+
+== References ==

@@ -1,0 +1,8 @@
+Cloud-to-Cloud Integration ( C2I ) allows users to connect disparate cloud computing platforms.  While Paas (Platform as a service) and Saas (Software as a service) continue to gain momentum, differen...
+
+Cloud-to-Cloud Integration ( C2I ) allows users to connect disparate cloud computing platforms.  While Paas (Platform as a service) and Saas (Software as a service) continue to gain momentum, different vendors have different implementations for cloud computing, e.g. Database, REST, SOAP API.
+Another name for Cloud-to-Cloud Integration is Cloud-Surfing.
+See also Cloud-based integration
+
+
+== References ==

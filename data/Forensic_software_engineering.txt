@@ -1,0 +1,20 @@
+Forensic software engineering refers to the discipline of analyzing (and sometimes reconstructing) the functionality of software applications or services that have become defunct; are no longer accomp...
+
+Forensic software engineering refers to the discipline of analyzing (and sometimes reconstructing) the functionality of software applications or services that have become defunct; are no longer accompanied by, or previously lacked, documentation; or for which the original engineers are no longer available.
+
+
+== Description ==
+Usually, forensic software engineering is performed with an interest in understanding the functionality - and sometimes intent - of software that has been abandoned by its creators, with an eye to correcting unexpected outcomes or determining whether to port, rebuild, replace, or retire a functional software instance.
+Is often required as a result of a corporate mergers or acquisitions, or during the migration/transition from an old datacenter to a newer one.
+
+
+== See also ==
+
+Charles Babbage Institute
+History of operating systems
+IT History Society
+List of operating systems
+Timeline of operating systems
+
+
+== References ==

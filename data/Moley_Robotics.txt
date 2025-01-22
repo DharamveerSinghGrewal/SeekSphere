@@ -1,0 +1,44 @@
+Moley Robotics is a robotics company headquartered in London, United Kingdom, that has developed the "first robotic kitchen" based on a multifunctional cooking platform. Moley Robotics was founded by ...
+
+Moley Robotics is a robotics company headquartered in London, United Kingdom, that has developed the "first robotic kitchen" based on a multifunctional cooking platform.
+Moley Robotics was founded by Russian and British mathematician, computer scientist and entrepreneur Mark Oleynik in 2015 to create service robots for kitchen use.
+
+
+== History ==
+Moley Robotics was named after its creator: M. Oleynik. It trades as Moley Services UK Ltd.
+Moley Robotics was founded with the aim of providing good food at home without the skills to make it. In 2015, Moley Robotics started working on a robotic kitchen, which made its debut at the Hannover Messe industrial robotics trade fair in Hannover, Germany in April 2015.
+In six years, Moley Robotics moved from a Proof of Concept to a market-ready robotic cooking platform, augmented with a smart kitchen environment.
+The Robotic Kitchen has been distinguished in several international science and engineering events. In May 2015, the Robotic Kitchen won the "Best of the Best" CES Shanghai award in China. In January 2016, the prototype was a finalist at the first edition of the UAE AI & Robotics Award in the international category, health sector.
+The Robotic Kitchen was launched on 6 December 2020, at GITEX technology week in Dubai. In January 2021, Moley Robotics exhibited at CES, presenting its multifunctional kitchen platform in detail. At these two exhibitions, Moley Robotics showcased strong market readiness, preparing around a dozen dishes, including various pasta, soups, risotto, and low-calorie dishes. In total, the recipe library can fit up to 5,000 meals.
+
+
+== Robotic Kitchen ==
+The first Moley Kitchen line is available in two broad versions—X-kitchen and R-kitchen.
+R-kitchen includes two robotic arms and five-finger hands equipped with tactile sensors, developed in collaboration with Universal Robots and German robotic company SCHUNK, Moley's exclusive hand partner. SCHUNK put the robo-chef through 11 development cycles and 100,000 test operation cycles. These highly technological hands can pick up and interact with most kitchen equipment, such as blenders, whisks, and the hob.
+X-kitchen is an IoT cooking platform equipped with a smart fridge and storage in addition to the main cooking area. It includes a supported structure pre-set for future robotic module installation. X-kitchen can be upgraded to a fully automated robotic R model on the client's request.
+Moley Robotic Kitchen facilitates limited human contact during food preparation and the integrated safe UV-disinfection of the worktop and the air in the cooking zone to minimize the risk of contamination.
+Moley Robotics captures, with an integrated 3D camera and wired glove, the entire work of a human chef and upload it into a database. The chef's actions are translated into digital movements using gesture recognition algorithms. Later, The Robotic Kitchen reproduces the whole sequence of actions to cook an identical meal from scratch.
+Moley Robotics introduced a recipe creator tool to add new meals to its culinary library. The first recipe learned by Moley Robotic Kitchen was a crab bisque created by the renowned chef Tim Anderson, the winner of 2011's MasterChef UK competition, restaurateur and author of several cookbooks. Renowned chefs, like Tim Anderson, James Taylor, Andrew Clarke, Toni Tovanen, Ivan and Sergei Berezutskiy, Nicole Pisani, develop recipes for Moley Robotics culinary library.
+The user operates the kitchen via a built-in touchscreen or smartphone application with cooking ingredients prepared in advance and put in preset locations.
+
+
+=== Commercial kitchen ===
+Moley's engineers developed this multi-functional kitchen platform in two modifications: for residential and commercial usage. A commercial version was developed for busy kitchens in restaurant, catering, hotel and other industries.
+
+
+== See also ==
+Domestic robot
+Gesture recognition
+Google Home
+Home automation
+hRecipe
+Instant Pot
+Laundroid
+Multicooker
+
+
+== References ==
+
+
+== External links ==
+Official website of Moley Robotics

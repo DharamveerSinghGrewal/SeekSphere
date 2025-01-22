@@ -1,0 +1,40 @@
+National Initiative for Cybersecurity Careers and Studies (NICCS) is an online training initiative and portal built as per the National Initiative for Cybersecurity Education framework. This is a fede...
+
+National Initiative for Cybersecurity Careers and Studies (NICCS) is an online training initiative and portal built as per the National Initiative for Cybersecurity Education framework. This is a federal cybersecurity training subcomponent, operated and maintained by Cybersecurity and Infrastructure Security Agency.
+
+
+== Overview ==
+The National Initiative for Cybersecurity Careers and Studies was created by the Cybersecurity and Infrastructure Security Agency as a hub that provides access to cybersecurity resources, such as courses and career development, to the public. Its mission is to strengthen the cybersecurity workforce and awareness of cybersecurity and cyberspace through accessible education. With over 6,000 cyber security training courses, career pathway tools, and up-to-date coverage on cybersecurity events and news, NICCS aims to empower current and future generations of cybersecurity professionals. 
+
+
+== History ==
+The initiative was launched by Janet Napolitano, then-Secretary of Homeland Security of Department of Homeland Security on February 21, 2013. The primary objective of the initiative is to develop and train the next generation of American cyber professional by involving academia and the private sector. 
+
+
+== Goals and Objectives ==
+NICCS was founded with the overarching goal of being a national resource for cybersecurity education, careers, and training. It aims to provide its nation with resources to ensure the workforce has the proper training and education in the cybersecurity field. NICCS advocates for cybersecurity awareness, training, education, career advancement, and broadening its nation’s cybersecurity professionals workforce. The initiative employs several strategies to achieve its goals, such as implementing K-12 and collegiate-level programs, disseminating scholarship information, and offering varied training courses. 
+NICCS values cybersecurity as a priority in the nation's development. It believes that cybersecurity is integral to the success of several organizations and businesses. NICCS aims to educate and train the nation’s workforce using rapidly developing technology in the cybersecurity field.
+
+
+=== Federal Virtual Training Environment ===
+NICCS hosts Federal Virtual Training Environment, a completely free online cybersecurity training system for federal and state government employees. It contains more than 800 hours of training materials on ethical hacking, and surveillance, risk management, and malware analysis.
+
+
+=== Training Programs ===
+The NICCS seeks to provide trained, and certified cybersecurity professionals to the nation. They have developed a college to workforce pipeline with the CyberCorps Scholarship for Service program. They have also partnered with the NSA to identify, and recognize institutions that have a robust cybersecurity program, and designate them as CAE’s, or Center of Academic Excellence. In addition, they provide support and resources to K-12 teachers, and students to help them increase their cyber education. They have also partnered with training institutions across the United States to connect individuals with bootcamps, workshops, and training for certifications. They have also endorsed certain certifications like Network+ and Security+ that are relevant to cybersecurity professionals.
+
+
+== Similar Programs and Initiatives ==
+National Cybersecurity Workforce Framework: Sets a universally accepted way to describe cybersecurity work, and workers
+Cybersecurity and Infrastructure Security Agency: Responsible for ensuring critical infrastructure security and resilience
+National Institute of Standards and Technology: Sets technological standards to help promote cooperation and foster innovation
+DoD Cyber Workforce Framework: Establishes descriptions for the type of cybersecurity work individuals based on their tasks
+
+
+== See also ==
+Cybersecurity and Infrastructure Security Agency
+National Cyber Security Division
+National Initiative for Cybersecurity Education
+
+
+== References ==

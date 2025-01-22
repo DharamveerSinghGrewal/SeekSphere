@@ -1,0 +1,41 @@
+This article provides a list of genetic engineering software.   == Cloud-based freemium software == Varstation NGS variants processing and analysis tool BaseSpace Variant Interpreter by Illumina   == ...
+
+This article provides a list of genetic engineering software.
+
+
+== Cloud-based freemium software ==
+Varstation NGS variants processing and analysis tool
+BaseSpace Variant Interpreter by Illumina
+
+
+== Closed-source software ==
+VectorBee
+PeptiCloud
+BlueTractorSoftware DNADynamo
+Agilent Technologies RFLP Decoder Software, Fish Species
+Applied Biosystems GeneMapper
+Joint BioEnergy Institute j5
+CLC bio CLC DNA Workbench Software
+CLC bio CLC Free Workbench Software
+CLC bio CLC Sequence Viewer
+CLC bio Protein Workbench Software
+DNASTAR Lasergene
+Geneious
+LabVantage Solutions Inc. LabVantage Sapphire
+LabVantage Solutions Inc. LV LIMS
+Mega2
+SnapGene
+The GeneRecommender
+
+
+== Open-source software ==
+Autodesk Genetic Constructor (suspended)
+BIOFAB Clotho BIOFAB Edition
+BIOFAB BIOFAB Studio
+EGF Codons and EGF CUBA (Collection of Useful Biological Apps) by the Edinburgh Genome Foundry
+Integrative Genomics Viewer (part of Google Genomics)
+Mengqvist's DNApy
+
+
+== See also ==
+Geppetto (3D engine); an open-source 3D engine for genetic engineering-related functions;also used in the OpenWorm project

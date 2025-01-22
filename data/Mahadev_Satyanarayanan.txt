@@ -1,0 +1,32 @@
+Mahadev "Satya" Satyanarayanan is an Indian experimental computer scientist, an ACM and IEEE fellow, and the Carnegie Group Professor of Computer Science at Carnegie Mellon University (CMU). He is cre...
+
+Mahadev "Satya" Satyanarayanan is an Indian experimental computer scientist, an ACM and IEEE fellow, and the Carnegie Group Professor of Computer Science at Carnegie Mellon University (CMU).
+He is credited with many advances in edge computing, distributed systems, mobile computing, pervasive computing, and the Internet of Things. His research focus is on performance, scalability, availability, and trust challenges in computing systems from the cloud to the mobile edge.
+His work on the Andrew File System (AFS) was recognized with the ACM Software System Award in 2016 and the ACM SIGOPS Hall of Fame Award in 2008 for its influence and impact. His work on disconnected operation in the Coda File System received the ACM SIGOPS Hall of Fame Award in 2015 and the inaugural ACM SIGMOBILE Test-of-Time Award in 2016.
+
+
+== Education ==
+He has a bachelor's and master's degree from the Indian Institute of Technology, Madras, in 1975 and 1977, and his Ph.D. in computer science from CMU in 1983.
+
+
+== Andrew File System ==
+Satya was a project lead for Coda. It also inspired the creation of Maginatics, a startup company advised by Satya that provides cloud-sourced network-attached storage for distributed environments. The NFS v4 network file system protocol standard has been extensively informed by the lessons of AFS.  In 2016, AFS was honored with the prestigious ACM Software System Award.
+
+
+== Coda File System ==
+In 1987, Satya began work on the Coda File System to address a fundamental shortcoming of AFS-like systems.
+
+
+== Odyssey: Application-aware Adaptation for Mobile Applications ==
+In the mid-1990s, Satya initiated the Odyssey project to explore how operating systems should be extended to support future mobile applications.
+
+
+== Aura: Cloud Offload for IoT ==
+In the late 1990s, Satya initiated the Aura Project in collaboration with CMU faculty colleagues David Garlan, Raj Reddy, Peter Steenkiste, Dan Siewiorek and Asim Smailagic.
+
+
+== References ==
+
+
+== External links ==
+Mahadev Satyanarayanan's Home Page

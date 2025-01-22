@@ -1,0 +1,73 @@
+Bisection is a method used in software development to identify change sets that result in a specific behavior change. It is mostly employed for finding the patch that introduced a bug. Another applica...
+
+Bisection is a method used in software development to identify change sets that result in a specific behavior change. It is mostly employed for finding the patch that introduced a bug. Another application area is finding the patch that indirectly fixed a bug.
+
+
+== Overview ==
+The process of locating the changeset that introduced a specific regression was described as "source change isolation" in 1997 by Brian Ness and Viet Ngo of Cray Research. Regression testing was performed on Cray's compilers in editions comprising one or more changesets. Editions with known regressions could not be validated until developers addressed the problem. Source change isolation narrowed the cause to a single changeset that could then be excluded from editions, unblocking them with respect to this problem, while the author of the change worked on a fix. Ness and Ngo outlined linear search and binary search methods of performing this isolation.
+Code bisection has the goal of minimizing the effort to find a specific change set.
+It employs a divide and conquer algorithm that
+depends on having access to the code history which is usually preserved by
+revision control in a code repository.
+
+
+== Bisection method ==
+
+
+=== Code bisection algorithm ===
+Code history has the structure of a directed acyclic graph which can be topologically sorted. This makes it possible to use a divide and conquer search algorithm which:
+
+splits up the search space of candidate revisions
+tests for the behavior in question
+reduces the search space depending on the test result
+re-iterates the steps above until a range with at most one bisectable patch candidate remains
+
+
+=== Algorithmic complexity ===
+Bisection is in LSPACE having an algorithmic complexity of 
+  
+    
+      
+        O
+        (
+        log
+        ⁡
+        N
+        )
+      
+    
+    {\displaystyle O(\log N)}
+  
+ with 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ denoting the number of revisions in the search space, and is similar to a binary search.
+
+
+=== Desirable repository properties ===
+For code bisection it is desirable that each revision in the search space can be built and tested independently.
+
+
+=== Monotonicity ===
+For the bisection algorithm to identify a single changeset which caused the behavior being tested to change, the behavior must change monotonically across the search space. For a Boolean function such as a pass/fail test, this means that it only changes once across all changesets between the start and end of the search space.
+If there are multiple changesets across the search space where the behavior being tested changes between false and true, then the bisection algorithm will find one of them, but it will not necessarily be the root cause of the change in behavior between the start and the end of the search space. The root cause could be a different changeset, or a combination of two or more changesets across the search space. To help deal with this problem, automated tools allow specific changesets to be ignored during a bisection search.
+
+
+== Automation support ==
+Although the bisection method can be completed manually, one of its main advantages is that it can be easily automated. It can thus fit into existing test automation processes: failures in exhaustive automated regression tests can trigger automated bisection to localize faults. Ness and Ngo focused on its potential in Cray's continuous delivery-style environment in which the automatically isolated bad changeset could be automatically excluded from builds.
+The revision control systems Fossil, Git and Mercurial have built-in functionality for code bisection. The user can start a bisection session with a specified range of revisions from which the revision control system proposes a revision to test, the user tells the system whether the revision tested as "good" or "bad", and the process repeats until the specific "bad" revision has been identified. Other revision control systems, such as Bazaar or Subversion, support bisection through plugins or external scripts.
+Phoronix Test Suite can do bisection automatically to find performance regressions.
+
+
+== See also ==
+Delta debugging (generalization of finding a minimal cause of a bug)
+Annotation § Source control (determining changesets that edited a line in a file)
+
+
+== References ==

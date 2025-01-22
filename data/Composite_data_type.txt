@@ -1,0 +1,13 @@
+In computer science, a composite data type or compound data type is a data type that consists of programming language scalar data types and other composite types that may be heterogeneous and hierarch...
+
+In computer science, a composite data type or compound data type is a data type that consists of programming language scalar data types and other composite types that may be heterogeneous and hierarchical in nature. It is sometimes called a structure or by a language-specific keyword used to define one such as struct. It falls into the aggregate type classification which includes homogenous collections such as the array and list.
+
+
+== See also ==
+Object composition – Method in computer programming of forming higher-level object types
+Record (computer science) – Composite data type
+Scalar (mathematics) – Elements of  a field, e.g. real numbers, in the context of linear algebra
+Struct (C programming language) – C keyword for defining a structured data type
+
+
+== References ==

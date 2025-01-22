@@ -1,0 +1,117 @@
+Computer network engineering is a technology discipline within engineering that deals with the design, implementation, and management of computer networks. These systems contain both physical componen...
+
+Computer network engineering is a technology discipline within engineering that deals with the design, implementation, and management of computer networks. These systems contain both physical components, such as routers, switches, cables, and some logical elements, such as protocols and network services. Computer network engineers attempt to ensure that the data is transmitted efficiently, securely, and reliably over both local area networks (LANs) and wide area networks (WANs), as well as across the Internet.
+Computer networks often play a large role in modern industries ranging from telecommunications to cloud computing, enabling processes such as email and file sharing, as well as complex real-time services like video conferencing and online gaming.
+
+
+== Background ==
+The evolution of network engineering is marked by significant milestones that have greatly impacted communication methods. These milestones particularly highlight the progress made in developing communication protocols that are vital to contemporary networking. This discipline originated in the 1960s with projects like ARPANET, which initiated important advancements in reliable data transmission. The advent of protocols such as TCP/IP revolutionized networking by enabling interoperability among various systems, which, in turn, fueled the rapid growth of the Internet. Key developments include the standardization of protocols and the shift towards increasingly complex layered architectures. These advancements have profoundly changed the way devices interact across global networks.
+
+
+== Network infrastructure design ==
+The foundation of computer network engineering lies in the design of the network infrastructure. This involves planning both the physical layout of the network and its logical topology to ensure optimal data flow, reliability, and scalability.
+
+
+=== Physical infrastructure ===
+The physical infrastructure consists of the hardware used to transmit data, which is represented by the first layer of the OSI model.
+
+
+==== Cabling ====
+Copper cables such as ethernet over twisted pair are commonly used for short-distance connections, especially in local area networks (LANs), while fiber optic cables are favored for long-distance communication due to their high-speed transmission capabilities and lower susceptibility to interference. Fiber optics play a significant role in the backbone of large-scale networks, such as those used in data centers and internet service provider (ISP) infrastructures.
+
+
+==== Wireless networks ====
+In addition to wired connections, wireless networks have become a common component of physical infrastructure. These networks facilitate communication between devices without the need for physical cables, providing flexibility and mobility. Wireless technologies use a range of transmission methods, including radio frequency (RF) waves, infrared signals, and laser-based communication, allowing devices to connect to the network.
+Wi-Fi based on IEEE 802.11 standards is the most widely used wireless technology in local area networks and relies on RF waves to transmit data between devices and access points. Wireless networks operate across various frequency bands, including 2.4 GHz and 5 GHz, each offering unique ranges and data rates; the 2.4 GHz band provides broader coverage, while the 5 GHz band supports faster data rates with reduced interference, ideal for densely populated environments. Beyond Wi-Fi, other wireless transmission methods, such as infrared and laser-based communication, are used in specific contexts, like short-range, line-of-sight links or secure point-to-point communication.
+In mobile networks, cellular technologies like 3G, 4G, and 5G enable wide-area wireless connectivity. 3G introduced faster data rates for mobile browsing, while 4G significantly improved speed and capacity, supporting advanced applications like video streaming. The latest evolution, 5G, operates across a range of frequencies, including millimeter-wave bands, and provides high data rates, low latency, and support for more device connectivity, useful for applications like the Internet of Things (IoT) and autonomous systems. Together, these wireless technologies allow networks to meet a variety of connectivity needs across local and wide areas.
+
+
+==== Network devices ====
+Routers and switches help direct data traffic and assist in maintaining network security; network engineers configure these devices to optimize traffic flow and prevent network congestion. In wireless networks, wireless access points (WAP) allow devices to connect to the network. To expand coverage, multiple access points can be placed to create a wireless infrastructure. Beyond Wi-Fi, cellular network components like base stations and repeaters support connectivity in wide-area networks, while network controllers and firewalls manage traffic and enforce security policies. Together, these devices enable a secure, flexible, and scalable network architecture suitable for both local and wide-area coverage.
+
+
+=== Logical topology ===
+
+Beyond the physical infrastructure, a network must be organized logically, which defines how data is routed between devices. Various topologies, such as star, mesh, and hierarchical designs, are employed depending on the network’s requirements. In a star topology, for example, all devices are connected to a central hub that directs traffic. This configuration is relatively easy to manage and troubleshoot but can create a single point of failure. In contrast, a mesh topology, where each device is interconnected with several others, offers high redundancy and reliability but requires a more complex design and larger hardware investment. Large networks, especially those in enterprises, often employ a hierarchical model, dividing the network into core, distribution, and access layers to enhance scalability and performance.
+
+
+== Network protocols and communication standards ==
+
+Communication protocols dictate how data in a network is transmitted, routed, and delivered. Depending on the goals of the specific network, protocols are selected to ensure that the network functions efficiently and securely.
+The Transmission Control Protocol/Internet Protocol (TCP/IP) suite is fundamental to modern computer networks, including the Internet. It defines how data is divided into packets, addressed, routed, and reassembled. The Internet Protocol (IP) is critical for routing packets between different networks.
+In addition to traditional protocols, advanced protocols such as Multiprotocol Label Switching (MPLS) and Segment Routing (SR) enhance traffic management and routing efficiency. For intra-domain routing, protocols like Open Shortest Path First (OSPF) and Enhanced Interior Gateway Routing Protocol (EIGRP) provide dynamic routing capabilities.
+On the local area network (LAN) level, protocols like Virtual Extensible LAN (VXLAN) and Network Virtualization using Generic Routing Encapsulation (NVGRE) facilitate the creation of virtual networks. Furthermore, Internet Protocol Security (IPsec) and Transport Layer Security (TLS) secure communication channels, ensuring data integrity and confidentiality.
+For real-time applications, protocols such as Real-time Transport Protocol (RTP) and WebRTC provide low-latency communication, making them suitable for video conferencing and streaming services. Additionally, protocols like QUIC enhance web performance and security by establishing secure connections with reduced latency.
+
+
+== Network security ==
+
+As networks have become essential for business operations and personal communication, the demand for robust security measures has increased. Network security is a critical component of computer network engineering, concentrating on the protection of networks against unauthorized access, data breaches, and various cyber threats. Engineers are responsible for designing and implementing security measures that ensure the integrity and confidentiality of data transmitted across networks.
+Firewalls serve as barriers between trusted internal networks and external environments, such as the Internet. Network engineers configure firewalls, including next-generation firewalls (NGFW), which incorporate advanced features such as deep packet inspection and application awareness, thereby enabling more refined control over network traffic and protection against sophisticated attacks.
+In addition to firewalls, engineers use encryption protocols, including Internet Protocol Security (IPsec) and Transport Layer Security (TLS), to secure data in transit. These protocols provide a means of safeguarding sensitive information from interception and tampering.
+For secure remote access, Virtual Private Networks (VPNs) are deployed, using technologies to create encrypted tunnels for data transmission over public networks. These VPNs are often used for maintaining security when remote users access corporate networks but are also used ion other settings.
+To enhance threat detection and response capabilities, network engineers implement Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS). Additionally, they may employ Security Information and Event Management (SIEM) solutions that aggregate and analyze security data across the network. Endpoint Detection and Response (EDR) solutions are also used to monitor and respond to threats at the device level, contributing to a more comprehensive security posture.
+Furthermore, network segmentation techniques, such as using VLANs and subnets are commonly employed to isolate sensitive data and systems within a network. This practice limits the potential impact of breaches and enhances overall security by controlling access to critical resources.
+
+
+== Network performance and optimization ==
+As modern networks grow in complexity and scale, driven by data-intensive applications such as cloud computing, high-definition video streaming, and distributed systems, optimizing network performance has become a critical responsibility of network engineers. Network performance and optimization tools aim for scalability, resilience, and efficient resource use with minimal, if any, negative performance impact.
+
+
+=== Quality of Service (QoS) ===
+Modern network architectures require more than basic Quality of Service (QoS) policies. Advanced techniques like service function chaining (SFC) allow engineers to create dynamic service flows, applying specific QoS policies at various points in the traffic path. Additionally, network slicing, widely used in 5G networks, enables custom resource allocation for different service types, aiding high-bandwidth or low-latency services when necessary.
+
+
+=== Intelligent load balancing and traffic engineering ===
+Beyond traditional load balancing, techniques such as intent-based networking (IBN) and AI-driven traffic optimization are now implemented to predict and adjust traffic distribution based on usage patterns, network failures, or infrastructure performance. In hybrid cloud infrastructures, Software-Defined WAN (SD-WAN) optimizes connectivity between on-premises and cloud environments, dynamically managing routes and bandwidth allocation. Policies like data center interconnect (DCI) ensure high-performance connections across geographically distributed data centers.
+
+
+=== Proactive network monitoring and predictive troubleshooting ===
+Traditional network monitoring tools are supplemented by telemetry streaming and real-time analytics solutions. Intent-based networking systems (IBNS) help automatically identify performance deviations from established service intents, while predictive maintenance techniques, powered by machine learning (ML), allow engineers to detect hardware failures or traffic congestion before they impact users. Self-healing networks, using software-defined networking (SDN), can make automatic adjustments to restore performance without always requiring manual intervention.
+
+
+=== Network function virtualization (NFV) and edge computing ===
+With the advent of network function virtualization (NFV), engineers can virtualize network functions, such as routing, firewalls, and load balancing. Additionally, edge computing brings processing and storage closer to end users, which is relevant to applications requiring low-latency, such as IoT and real-time analytics.
+
+
+=== Multipath protocols and application-layer optimization ===
+Multipath transport protocols, such as Multipath TCP (MPTCP), optimize the use of multiple paths simultaneously, improving high availability and distribution of network load. This can be useful in networks that support redundant connections or where latency must be minimized. Simultaneously, application-layer optimizations focus on fine-tuning traffic at the software level to better deliver data flow across distributed systems, reducing overhead and enhancing throughput.
+
+
+== Cloud computing engineering ==
+
+The advent of cloud computing has introduced new paradigms for network engineering, focusing on the design and optimization of virtualized infrastructures. Network engineers can manage the integration of on-premises systems with cloud services with the intention of improving scalability, reliability, and security.
+
+
+=== Cloud network architecture ===
+Cloud network architecture requires the design of virtualized networks that can scale to meet varying demand. Virtual private cloud (VPC) and hybrid cloud models allow organizations to extend their internal networks into cloud environments, balancing on-premises resources with public cloud services. Cloud interconnect solutions, such as dedicated connections, can minimize latency and optimize data transfer between on-premises and cloud infrastructures.
+
+
+=== Software-defined networking (SDN) ===
+Software-defined networking (SDN) is central to cloud networking, enabling centralized control over network configurations. SDN, combined with NFV, allows the management of network resources through software, automating tasks such as load balancing, routing, and firewalling. Overlay networks are commonly employed to create virtual networks on shared physical infrastructure, supporting multi-tenant environments with enhanced security and isolation.
+
+
+=== Cloud network security ===
+Cloud security involves securing data that traverses multiple environments. Engineers implement encryption, Identity and access management (IAM), and zero trust architectures to protect cloud networks. Firewalls, intrusion detection systems, and cloud-native security solutions monitor and safeguard these environments. Micro-segmentation is used to isolate workloads and minimize the attack surface, while VPNs and IPsec tunnels secure communication between cloud and on-premises networks.
+
+
+=== Performance optimization ===
+Optimizing network performance in the cloud is relevant for applications requiring low latency and high throughput. Engineers deploy content delivery networks to reduce latency and configure dedicated connections, and traffic engineering policies ensure optimal routing between cloud regions.
+
+
+=== Tools and protocols ===
+Cloud networking relies on protocols such as VXLAN and Generic Routing Encapsulation (GRE) to facilitate communication across virtualized environments. Automation tools enable Infrastructure As Code (IaC) practices, allowing for more scalable and consistent deployment of cloud network configurations.
+
+
+== Emerging trends ==
+Network engineering is rapidly evolving, driven by advancements in technology and new demands for connectivity. One trend is the integration of artificial intelligence (AI) and machine learning (ML) into network management. AI-powered tools are increasingly used for network automation and optimization, predictive analytics, and intelligent fault detection. AI's role in cybersecurity is also expanding, where it is used to identify and mitigate threats by analyzing patterns in network behavior.
+The development of quantum networking offers the potential for highly secure communications through quantum cryptography and quantum key distribution (QKD). Quantum networking is still in experimental stages.
+Space-based internet systems are also a growing trend in network engineering. Projects involving low Earth orbit (LEO) satellite constellations, like SpaceX's Starlink, aim to extend Internet access to remote and underserved areas.
+In the future, the rollout of 6G networks may improve data transfer rates, latency, and connectivity. 6G is expected to support new technologies such as real-time holographic communication, virtual environments, and AI-driven applications. These advancements will most likely require new approaches to spectrum management, energy efficiency, and sustainable infrastructure design to meet the projected growth of spending on digital transformation.
+
+
+== IoT ==
+The Internet of Things (IoT) is a central theme discussed in this review paper. It represents a comprehensive framework addressing various challenges associated with connecting the internet and the physical world. Currently, the internet plays a vital role in daily life, significantly transforming human experiences. A key aspect of this technological advancement is the integration of multiple technologies with communication systems. One of the most crucial applications of IoT includes the identification and tracking of smart objects. Wireless Sensing Networks (WSN) enable universal sensing mechanisms, impacting many facets of contemporary living. The growth of these devices within a communicative and responsive network will ultimately form the Internet of Things. In this context, sensors and actuators seamlessly interact with the surrounding environment, facilitating information sharing across various platforms to develop a common operating picture (COP). The IoT envisions a future where the digital and physical domains are interconnected through advanced information and wireless communication technologies. This survey outlines the visions, concepts, technologies, challenges, innovative directions, and applications of the Internet of Things (IoT).
+
+
+== References ==

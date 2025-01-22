@@ -1,0 +1,29 @@
+3DR, also known as 3D Robotics, is an American company located in Berkeley, California that produces enterprise drone software for construction, engineering and mining firms, as well as government age...
+
+3DR, also known as 3D Robotics, is an American company located in Berkeley, California that produces enterprise drone software for construction, engineering and mining firms, as well as government agencies.
+Prior to 2016, the company designed and marketed commercial and recreational unmanned aerial vehicles including consumer drones, ready-to-fly quadcopters for aerial photography and mapping, and fixed-wing UAVs based on the Ardupilot platform. However, as of September 2016, 3DR and the major open source Ardupilot development community separated due to disagreements over the license of the open source code on which 3DR products are based.
+The company was co-founded as 3D Robotics in 2009 by Chris Anderson and Jordi Muñoz. The pair met online through the DIY Drones community, which Anderson originally started for aerial vehicle enthusiasts.
+
+
+== Products of 3DR ==
+Below is a list of products released by 3DR. 
+The Solo Drone was released in May 2015 and marketed to the consumer and professional aerial photography market. It is powered by two computers and designed specifically for the GoPro Hero camera. The stated aim of the Solo drone is the ease of both flying the drone and taking professional aerial photos and videos.
+
+The IRIS+ Drone was released in September 2014. It was designed as a recreational drone, and it uses a mounted GoPro camera to take pictures. The drone is capable of achieving a top speed of 40 miles (64 kilometers) per hour and has a range of up to 3,280 feet.
+The X8 Quadcopter was released in November 2014. It has a modular design and comes in two versions. The X8+, with a built-in gimbal and GoPro camera, is aimed at aerial photography and cinematography; the X8-M quadcopter is intended for mapping applications. Both X8 versions support waypoint navigation technology.
+The Aero-M Fixed Wing UAV was released in November 2014. It is fully automated and has a mapping platform that creates geo-referenced and ortho-rectified mosaics. This fixed wing drone has an estimated flight time of up to 40 minutes and is able to photograph an area of up to 250 acres per flight. The Pix4D software allows for the creation of geo-referenced, photogrammetrized, and ortho-rectified mosaics from the images. The Aero-M UAV is intended to benefit conservation efforts and industries such as farming and construction, through the creation of geo-referenced maps.
+As of March 2016, 3DR announced that they would no longer be manufacturing drones. In response to the company ceasing to produce hardware, a former employee, interviewed in Forbes magazine in 2016, is quoted as saying "3DR was a $100 million blunder based on ineptitude."
+
+
+== Flight controllers ==
+
+In addition to its Site Scan platform, 3DR makes flight controllers which are intended for multi-rotor stabilization control of various platforms or heavy payloads in aerial photography, mapping, and personal enjoyment. In addition to the main Pixhawk flight controller model, there is also the APM 2.6 model. Pixhawk is an autopilot system designed by the PX4 open-hardware project and manufactured by 3DR. It contains processors and sensors from STMicroelectronics and a NuttX real-time operating system. The APM 2.6 is an open source autopilot system. It allows the user to turn fixed rotary wing or multirotor vehicles, including cars and boats, into fully autonomous vehicles capable of performing programmed GPS missions with waypoints.
+
+
+== Dronecode ==
+3DR is a founding member of the Dronecode Consortium, a non-profit organization governed by the Linux Foundation. The Consortium was formed in 2014 with the goal of using open source Linux for the benefit of users with affordable and more reliable UAV software. Other notable members are Intel, Qualcomm, Parrot SA, and Walkera.
+
+
+== References ==
+
+BBC News: The Mexican immigrant who set up a global drone firm

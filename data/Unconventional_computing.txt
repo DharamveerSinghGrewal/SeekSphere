@@ -1,0 +1,191 @@
+Unconventional computing (also known as alternative computing or nonstandard computation) is computing by any of a wide range of new or unusual methods.  The term unconventional computation was coined...
+
+Unconventional computing (also known as alternative computing or nonstandard computation) is computing by any of a wide range of new or unusual methods. 
+The term unconventional computation was coined by Cristian S. Calude and John Casti and used at the First International Conference on Unconventional Models of Computation in 1998.
+
+
+== Background ==
+The general theory of computation allows for a variety of methods of computation. Computing technology was first developed using mechanical systems and then evolved into the use of electronic devices. Other fields of modern physics provide additional avenues for development.
+
+
+=== Models of Computation ===
+
+A model of computation describes how the output of a mathematical function is computed given its input. The model describes how units of computations, memories, and communications are organized. The computational complexity of an algorithm can be measured given a model of computation. Using a model allows studying the performance of algorithms independently of the variations that are specific to particular implementations and specific technology. 
+A wide variety of models are commonly used; some closely resemble the workings of (idealized) conventional computers, while others do not. Some commonly used models are register machines, random-access machines, Turing machines, lambda calculus, rewriting systems, digital circuits, cellular automata, and Petri nets.
+
+
+=== Mechanical computing ===
+
+Historically, mechanical computers were used in industry before the advent of the transistor.
+Mechanical computers retain some interest today, both in research and as analogue computers. Some mechanical computers have a theoretical or didactic relevance, such as billiard-ball computers, while hydraulic ones like the MONIAC or the Water integrator were used effectively.
+While some are actually simulated, others are not. No attempt is made to build a functioning computer through the mechanical collisions of billiard balls. The domino computer is another theoretically interesting mechanical computing scheme.
+
+
+=== Analog computing ===
+
+An analog computer is a type of computer that uses analog signals, which are continuous physical quantities, to model and solve problems. These signals can be electrical, mechanical, or hydraulic in nature. Analog computers were widely used in scientific and industrial applications, and were often faster than digital computers at the time. However, they started to become obsolete in the 1950s and 1960s and are now mostly used in specific applications such as aircraft flight simulators and teaching control systems in universities. Examples of analog computing devices include slide rules, nomograms, and complex mechanisms for process control and protective relays. The Antikythera mechanism, a mechanical device that calculates the positions of planets and the Moon, and the planimeter, a mechanical integrator for calculating the area of an arbitrary 2D shape, are also examples of analog computing.
+
+
+=== Electronic digital computers ===
+Most modern computers are electronic computers with the Von Neumann architecture based on digital electronics, with extensive integration made possible following the invention of the transistor and the scaling of Moore's law.
+Unconventional computing is, according to a conference description, "an interdisciplinary research area with the main goal to enrich or go beyond the standard models, such as the Von Neumann computer architecture and the Turing machine, which have dominated computer science for more than half a century". These methods model their computational operations based on non-standard paradigms, and are currently mostly in the research and development stage.
+This computing behavior can be "simulated" using classical silicon-based micro-transistors or solid state computing technologies, but it aims to achieve a new kind of computing.
+
+
+== Generic approaches ==
+These are unintuitive and pedagogical examples that a computer can be made out of almost anything.
+
+
+=== Physical objects ===
+
+A billiard-ball computer is a type of mechanical computer that uses the motion of spherical billiard balls to perform computations. In this model, the wires of a Boolean circuit are represented by paths for the balls to travel on, the presence or absence of a ball on a path encodes the signal on that wire, and gates are simulated by collisions of balls at points where their paths intersect.
+A domino computer is a mechanical computer that uses standing dominoes to represent the amplification or logic gating of digital signals. These constructs can be used to demonstrate digital concepts and can even be used to build simple information processing modules.
+Both billiard-ball computers and domino computers are examples of unconventional computing methods that use physical objects to perform computation.
+
+
+=== Reservoir computing ===
+
+Reservoir computing is a computational framework derived from recurrent neural network theory that involves mapping input signals into higher-dimensional computational spaces through the dynamics of a fixed, non-linear system called a reservoir. The reservoir, which can be virtual or physical, is made up of individual non-linear units that are connected in recurrent loops, allowing it to store information. Training is performed only at the readout stage, as the reservoir dynamics are fixed, and this framework allows for the use of naturally available systems, both classical and quantum mechanical, to reduce the effective computational cost. One key benefit of reservoir computing is that it allows for a simple and fast learning algorithm, as well as hardware implementation through physical reservoirs.
+
+
+=== Tangible computing ===
+
+Tangible computing refers to the use of physical objects as user interfaces for interacting with digital information. This approach aims to take advantage of the human ability to grasp and manipulate physical objects in order to facilitate collaboration, learning, and design. Characteristics of tangible user interfaces include the coupling of physical representations to underlying digital information and the embodiment of mechanisms for interactive control. There are five defining properties of tangible user interfaces, including the ability to multiplex both input and output in space, concurrent access and manipulation of interface components, strong specific devices, spatially aware computational devices, and spatial reconfigurability of devices.
+
+
+=== Human computing ===
+
+The term "human computer" refers to individuals who perform mathematical calculations manually, often working in teams and following fixed rules. In the past, teams of people were employed to perform long and tedious calculations, and the work was divided to be completed in parallel. The term has also been used more recently to describe individuals with exceptional mental arithmetic skills, also known as mental calculators.
+
+
+=== Human-robot interaction ===
+
+Human-robot interaction, or HRI, is the study of interactions between humans and robots. It involves contributions from fields such as artificial intelligence, robotics, and psychology. Cobots, or collaborative robots, are designed for direct interaction with humans within shared spaces and can be used for a variety of tasks, including information provision, logistics, and unergonomic tasks in industrial environments.
+
+
+=== Swarm computing ===
+
+Swarm robotics is a field of study that focuses on the coordination and control of multiple robots as a system. Inspired by the emergent behavior observed in social insects, swarm robotics involves the use of relatively simple individual rules to produce complex group behaviors through local communication and interaction with the environment. This approach is characterized by the use of large numbers of simple robots and promotes scalability through the use of local communication methods such as radio frequency or infrared.
+
+
+== Physics approaches ==
+
+
+=== Optical computing ===
+
+Optical computing is a type of computing that uses light waves, often produced by lasers or incoherent sources, for data processing, storage, and communication. While this technology has the potential to offer higher bandwidth than traditional computers, which use electrons, optoelectronic devices can consume a significant amount of energy in the process of converting electronic energy to photons and back. All-optical computers aim to eliminate the need for these conversions, leading to reduced electrical power consumption. Applications of optical computing include synthetic-aperture radar and optical correlators, which can be used for object detection, tracking, and classification.
+
+
+=== Spintronics ===
+
+Spintronics is a field of study that involves the use of the intrinsic spin and magnetic moment of electrons in solid-state devices. It differs from traditional electronics in that it exploits the spin of electrons as an additional degree of freedom, which has potential applications in data storage and transfer, as well as quantum and neuromorphic computing. Spintronic systems are often created using dilute magnetic semiconductors and Heusler alloys.
+
+
+=== Atomtronics ===
+
+Atomtronics is a form of computing that involves the use of ultra-cold atoms in coherent matter-wave circuits, which can have components similar to those found in electronic or optical systems. These circuits have potential applications in several fields, including fundamental physics research and the development of practical devices such as sensors and quantum computers.
+
+
+=== Fluidics ===
+
+Fluidics, or fluidic logic, is the use of fluid dynamics to perform analog or digital operations in environments where electronics may be unreliable, such as those exposed to high levels of electromagnetic interference or ionizing radiation. Fluidic devices operate without moving parts and can use nonlinear amplification, similar to transistors in electronic digital logic. Fluidics are also used in nanotechnology and military applications.
+
+
+=== Quantum computing ===
+
+Quantum computing, perhaps the most well-known and developed unconventional computing method, is a type of computation that utilizes the principles of quantum mechanics, such as superposition and entanglement, to perform calculations. Quantum computers use qubits, which are analogous to classical bits but can exist in multiple states simultaneously, to perform operations. While current quantum computers may not yet outperform classical computers in practical applications, they have the potential to solve certain computational problems, such as integer factorization, significantly faster than classical computers. However, there are several challenges to building practical quantum computers, including the difficulty of maintaining qubits' quantum states and the need for error correction. Quantum complexity theory is the study of the computational complexity of problems with respect to quantum computers.
+
+
+=== Neuromorphic quantum computing ===
+Neuromorphic Quantum Computing (abbreviated as 'n.quantum computing') is an unconventional type of computing that uses neuromorphic computing to perform quantum operations. It was suggested that quantum algorithms, which are algorithms that run on a realistic model of quantum computation, can be computed equally efficiently with neuromorphic quantum computing.
+
+Both traditional quantum computing and neuromorphic quantum computing are physics-based unconventional computing approaches to computations and don't follow the von Neumann architecture. They both construct a system (a circuit) that represents the physical problem at hand, and then leverage their respective physics properties of the system to seek the "minimum". Neuromorphic quantum computing and quantum computing share similar physical properties during computation.
+
+
+=== Superconducting computing ===
+
+Superconducting computing is a form of cryogenic computing that utilizes the unique properties of superconductors, including zero resistance wires and ultrafast switching, to encode, process, and transport data using single flux quanta. It is often used in quantum computing and requires cooling to cryogenic temperatures for operation.
+
+
+=== Microelectromechanical systems ===
+
+Microelectromechanical systems (MEMS) and nanoelectromechanical systems (NEMS) are technologies that involve the use of microscopic devices with moving parts, ranging in size from micrometers to nanometers. These devices typically consist of a central processing unit (such as an integrated circuit) and several components that interact with their surroundings, such as sensors. MEMS and NEMS technology differ from molecular nanotechnology or molecular electronics in that they also consider factors such as surface chemistry and the effects of ambient electromagnetism and fluid dynamics. Applications of these technologies include accelerometers and sensors for detecting chemical substances.
+
+
+== Chemistry approaches ==
+
+
+=== Molecular computing ===
+
+Molecular computing is an unconventional form of computing that utilizes chemical reactions to perform computations. Data is represented by variations in chemical concentrations, and the goal of this type of computing is to use the smallest stable structures, such as single molecules, as electronic components. This field, also known as chemical computing or reaction-diffusion computing, is distinct from the related fields of conductive polymers and organic electronics, which use molecules to affect the bulk properties of materials.
+
+
+== Biochemistry approaches ==
+
+
+=== Peptide computing ===
+
+Peptide computing is a computational model that uses peptides and antibodies to solve NP-complete problems and has been shown to be computationally universal. It offers advantages over DNA computing, such as a larger number of building blocks and more flexible interactions, but has not yet been practically realized due to the limited availability of specific monoclonal antibodies.
+
+
+=== DNA computing ===
+
+DNA computing is a branch of unconventional computing that uses DNA and molecular biology hardware to perform calculations. It is a form of parallel computing that can solve certain specialized problems faster and more efficiently than traditional electronic computers. While DNA computing does not provide any new capabilities in terms of computability theory, it can perform a high number of parallel computations simultaneously. However, DNA computing has slower processing speeds, and it is more difficult to analyze the results compared to digital computers.
+
+
+=== Membrane computing ===
+
+Membrane computing, also known as P systems, is a subfield of computer science that studies distributed and parallel computing models based on the structure and function of biological membranes. In these systems, objects such as symbols or strings are processed within compartments defined by membranes, and the communication between compartments and with the external environment plays a critical role in the computation. P systems are hierarchical and can be represented graphically, with rules governing the production, consumption, and movement of objects within and between regions. While these systems have largely remained theoretical, some have been shown to have the potential to solve NP-complete problems and have been proposed as hardware implementations for unconventional computing.
+
+
+== Biological approaches ==
+
+Biological computing, also known as bio-inspired computing or natural computation, is the study of using models inspired by biology to solve computer science problems, particularly in the fields of artificial intelligence and machine learning. It encompasses a range of computational paradigms including artificial neural networks, evolutionary algorithms, swarm intelligence, artificial immune systems, and more, which can be implemented using traditional electronic hardware or alternative physical media such as biomolecules or trapped-ion quantum computing devices. It also includes the study of understanding biological systems through engineering semi-synthetic organisms and viewing natural processes as information processing. The concept of the universe itself as a computational mechanism has also been proposed.
+
+
+=== Neuroscience ===
+
+Neuromorphic computing involves using electronic circuits to mimic the neurobiological architectures found in the human nervous system, with the goal of creating artificial neural systems that are inspired by biological ones. These systems can be implemented using a variety of hardware, such as memristors, spintronic memories, and transistors, and can be trained using a range of software-based approaches, including error backpropagation and canonical learning rules. The field of neuromorphic engineering seeks to understand how the design and structure of artificial neural systems affects their computation, representation of information, adaptability, and overall function, with the ultimate aim of creating systems that exhibit similar properties to those found in nature. Wetware computers, which are composed of living neurons, are a conceptual form of neuromorphic computing that has been explored in limited prototypes.
+
+
+=== Cellular automata and amorphous computing ===
+
+Cellular automata are discrete models of computation consisting of a grid of cells in a finite number of states, such as on and off. The state of each cell is determined by a fixed rule based on the states of the cell and its neighbors. There are four primary classifications of cellular automata, ranging from patterns that stabilize into homogeneity to those that become extremely complex and potentially Turing-complete. Amorphous computing refers to the study of computational systems using large numbers of parallel processors with limited computational ability and local interactions, regardless of the physical substrate. Examples of naturally occurring amorphous computation can be found in developmental biology, molecular biology, neural networks, and chemical engineering. The goal of amorphous computation is to understand and engineer novel systems through the characterization of amorphous algorithms as abstractions.
+
+
+=== Evolutionary computation ===
+
+Evolutionary computation is a type of artificial intelligence and soft computing that uses algorithms inspired by biological evolution to find optimized solutions to a wide range of problems. It involves generating an initial set of candidate solutions, stochastically removing less desired solutions, and introducing small random changes to create a new generation. The population of solutions is subjected to natural or artificial selection and mutation, resulting in evolution towards increased fitness according to the chosen fitness function. Evolutionary computation has proven effective in various problem settings and has applications in both computer science and evolutionary biology.
+
+
+== Mathematical approaches ==
+
+
+=== Ternary computing ===
+
+Ternary computing is a type of computing that uses ternary logic, or base 3, in its calculations rather than the more common binary system. Ternary computers use trits, or ternary digits, which can be defined in several ways, including unbalanced ternary, fractional unbalanced ternary, balanced ternary, and unknown-state logic. Ternary quantum computers use qutrits instead of trits. Ternary computing has largely been replaced by binary computers, but it has been proposed for use in high-speed, low-power consumption devices using the Josephson junction as a balanced ternary memory cell.
+
+
+=== Reversible computing ===
+
+Reversible computing is a type of unconventional computing where the computational process can be reversed to some extent. In order for a computation to be reversible, the relation between states and their successors must be one-to-one, and the process must not result in an increase in physical entropy. Quantum circuits are reversible as long as they do not collapse quantum states, and reversible functions are bijective, meaning they have the same number of inputs as outputs.
+
+
+=== Chaos computing ===
+
+Chaos computing is a type of unconventional computing that utilizes chaotic systems to perform computation. Chaotic systems can be used to create logic gates and can be rapidly switched between different patterns, making them useful for fault-tolerant applications and parallel computing. Chaos computing has been applied to various fields such as meteorology, physiology, and finance.
+
+
+=== Stochastic computing ===
+
+Stochastic computing is a method of computation that represents continuous values as streams of random bits and performs complex operations using simple bit-wise operations on the streams. It can be viewed as a hybrid analog/digital computer and is characterized by its progressive precision property, where the precision of the computation increases as the bit stream is extended. Stochastic computing can be used in iterative systems to achieve faster convergence, but it can also be costly due to the need for random bit stream generation and is vulnerable to failure if the assumption of independent bit streams is not met. It is also limited in its ability to perform certain digital functions.
+
+
+== See also ==
+Network computing (disambiguation)
+WDR paper computer
+MONIAC hydraulic computer
+Hypercomputation
+
+
+== References ==

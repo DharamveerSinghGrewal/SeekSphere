@@ -1,0 +1,93 @@
+The ARM Neoverse is a group of 64-bit ARM processor cores licensed by Arm Holdings. The cores are intended for datacenter, edge computing, and high-performance computing use. The group consists of ARM...
+
+The ARM Neoverse is a group of 64-bit ARM processor cores licensed by Arm Holdings. The cores are intended for datacenter, edge computing, and high-performance computing use. The group consists of ARM Neoverse V-Series, ARM Neoverse N-Series, and ARM Neoverse E-Series.
+
+
+== Neoverse V-Series ==
+The Neoverse V-Series processors are intended for high-performance computing.
+
+
+=== Neoverse V1 ===
+Neoverse V1 (code named Zeus) is derived from the Cortex-X1 and implements the ARMv8.4-A instruction set and some part of ARMv8.6-A. It was officially announced by Arm on September 22, 2020. It is said to be initially realized with a 7 nm process from TSMC. One of the changes from the X1 is that it supports SVE 2x256-bit.
+According to The Next Platform, the AWS Graviton3 is based on the Neoverse V1.
+
+
+=== Neoverse V2 ===
+Neoverse V2 (code named Demeter) is derived from the ARM Cortex-X3 and implements the ARMv9.0-A instruction set. It was officially announced by Arm on September 14, 2022. NVIDIA Grace, AWS Graviton4 and Google Axion are based on the Neoverse V2.
+Notable changes from the Neoverse V1:
+
+BTB capacity: 12K entries
+TAGE predictor: 8-table
+micro-op cache: 1536 entries (reduced for efficiency)
+Decode width: 6
+Rename / Dispatch width: 8
+ROB: 320 entry
+Execution ports: 15
+L2 cache: 1024-2048 KB per core
+CMN-700 mesh interconnect
+Up to 256 cores per die
+Up to 512 MB SLC
+Up to 4 TB/s bandwidth
+
+
+=== Neoverse V3 ===
+Neoverse V3 (code named Poseidon) was teased by Arm alongside the V2 and E2 announcements. It is targeted for systems including DDR5, PCIe gen6, and CXL 3.0. The codename Poseidon was first used for the generation succeeding Zeus, now V1, and targeted for 2021 on a 5nm node.
+
+
+== Neoverse N-Series ==
+The Neoverse N-Series processors are intended for core datacenter usage.
+
+
+=== Neoverse N1 ===
+On February 20, 2019, Arm announced the Neoverse N1 microarchitecture (code named Ares) derived from the Cortex-A76 redesigned for infrastructure/server applications. The reference design supports up to 64 or 128 Neoverse N1 cores.
+Notable changes from the Cortex-A76:
+
+Coherent I-cache and D-cache with 4-cycle LD-use
+L2 cache: 512–1024 KB per core
+Mesh interconnect instead of 1–4 cores per cluster
+Neoverse N1 implements the ARMv8.2-A instruction set.
+The Ampere Altra (2-socket 80-core) and AWS Graviton2 (64-core) CPU platforms are based on Neoverse N1 cores and were released in 2020.
+
+
+=== Neoverse N2 ===
+The Neoverse N2 (code named Perseus) is derived from the Cortex-A710 and implements the ARMv9.0-A instruction set. It was officially announced by Arm on September 22, 2020. On August 28, 2023, Arm announced the Neoverse CSS N2 (Genesis), a customizable CPU subsystem implementation by Arm to reduce the time to market for customers. Microsoft Azure Cobalt 100 128 Core CPU and Alibaba Yitian 710 use Neoverse N2.
+Notable changes from the Neoverse N1:
+
+BTB capacity: 8K entries
+micro-op cache: 1536 entries
+Rename / Dispatch width: 5
+ROB: 160+ entry
+Pipeline depth: 10 cycles
+Execution ports: 13
+SVE2 support
+CMN-700 mesh interconnect
+
+
+=== Neoverse N-Next ===
+Neoverse N-Next, presumably N3, was teased by Arm alongside the V2 and E2 announcements. It is targeted for systems including DDR5, PCIe gen6, and CXL 3.0.
+
+
+== Neoverse E-Series ==
+The Neoverse E-Series processors are intended for edge computing. They are designed for increased data throughput at decreased power consumption.
+
+
+=== Neoverse E1 ===
+Neoverse E1 is derived from the Cortex-A65AE and implements the ARMv8.2-A instruction set. It support SMT.
+
+
+=== Neoverse E2 ===
+Neoverse E2 is derived from the Cortex-A510 and implements the ARMv9-A instruction set.
+
+
+=== Neoverse E-Next ===
+Neoverse E-Next, presumably E3, was teased by Arm alongside the V2 and E2 announcements. It is targeted for systems including DDR5, PCIe gen6, and CXL 3.0.
+
+
+== Matrix multiplication theoretical performance ==
+
+
+== Successors ==
+With code name Poseidon a successor for Neoverse V1 (aka Zeus) was first publicly mentioned on TechCon 2018. Actual introduction (used by third party chip designers in their products) was given in form of a rough target date of 2021. Its initial realization process is said to be 5 nm by TSMC.
+
+
+== References ==

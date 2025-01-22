@@ -1,0 +1,23 @@
+A Cloud Guru is an online learning platform that specializes in teaching cloud computing and related technologies. Most of the courses offered prepare students to take certification exams for the thre...
+
+A Cloud Guru is an online learning platform that specializes in teaching cloud computing and related technologies. Most of the courses offered prepare students to take certification exams for the three major cloud providers (Microsoft Azure, Google Cloud Platform, and Amazon Web Services).
+
+
+== History ==
+In 2015, Ant Stanley and Ryan Kroonenburg established the company in London, United Kingdom. They built the online training provider in four weeks from Ryan's bedroom, with Ryan's brother Sam Kroonenburg joining soon after.
+In July 2016, Ant Stanley left A Cloud Guru, leaving Melbourne brothers Sam and Ryan to run the business.
+A Cloud Guru raised $7 million in funding in July 2017, and an additional $33 million in April 2019.
+On December 16, 2019, it was announced that the company would acquire Linux Academy. The company asserted that the acquisition would make it "the largest cloud computing training library in the world".
+On June 2, 2021, A Cloud Guru was acquired by Vista Equity Partners and combined with Pluralsight in a deal that valued the company at more than $2 billion. Vista Equity Partners had previously acquired Pluralsight in April 2021. The acquisition of both Pluralsight and A Cloud Guru by the private equity firm is known as a rollup acquisition strategy.
+
+
+== See also ==
+Pluralsight
+Vista Equity Partners
+
+
+== References ==
+
+
+== External links ==
+Website

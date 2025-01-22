@@ -1,0 +1,123 @@
+PowerEdge is a server line by Dell, following the naming convention for other Dell products: PowerVault (data storage) and PowerConnect (data transfer & switches). Below is an overview of current and ...
+
+PowerEdge is a server line by Dell, following the naming convention for other Dell products: PowerVault (data storage) and PowerConnect (data transfer & switches).
+Below is an overview of current and former servers within Dell's PowerEdge product line. Different models are or were available as towers, 19-inch racks or blades. In the current naming scheme, towers are designated by T, racks by R, and blades by M (for modular). The 19″ rack-servers come in different physical heights expressed in rack units or U. Most modern servers are either 1U or 2U high while in the past the 4U was more common.
+
+
+== Model naming ==
+Over the years, many different types of PowerEdge servers have been introduced and there was wide variety of product and family codes used within the PowerEdge name.
+
+
+=== Itanium servers ===
+The Dell Itanium-based servers were introduced before this new naming-convention was introduced and were only available as rack servers.
+
+
+=== New naming conventions ===
+Three digits
+Since the introduction of the Generation 10 servers in 2007 Dell has adopted a standardized method for naming their servers; the name of each server is now represented by a letter followed by 3 digits. The letter indicates the type of server: R (for Rack-mountable) indicates a 19″ rack-mountable server, M (for Modular) indicates a blade server, whilst T (for Tower) indicates a stand-alone server.
+This letter is then followed by three digits.
+
+The first digit refers to the number of sockets in the system: 1 to 3 for one socket, 4 to 7 for two sockets, and 8 or 9 for four sockets.
+The middle digit refers to the generation: 0 for Generation 10, 1 for Generation 11, and so on.
+The third digit indicates the make of the CPU: 0 for Intel or 5 for AMD.
+For example: The Dell PowerEdge M610 is a two-socket blade server of the 11th generation using an Intel CPU. Whereas the R605 is a two-socket, 10th generation AMD-based rack-server.
+
+Four digits
+For four-digit naming convention:
+
+The first digit after the letter indicates the class of the system, with 1–5 defaulting to iDRAC Basic and 6–9 defaulting to iDRAC Express.
+The second digit indicates the generation, with 0 for 10th generation, 1 for 11th generation and so on.
+The third digit indicates the number of CPU sockets, 1 for one socket and 2 for two sockets.
+The fourth digit indicates the make of the CPU, 0 for Intel and 5 for AMD.
+For example: The Dell PowerEdge R6415 model is a rack, mid-range, 14th generation, single CPU socket system with AMD Processor.
+
+
+== Blade servers ==
+Since Generation 10, there are models for the M1000e enclosure. The blade-servers in Generation 8 and Generation 9 are using another enclosure that is not compatible with the current M1000e system. In form-factor there are two models: half-height and full-height.
+In an enclosure you can fit 8 full or 16 half-height blades (or a mix). Each server has two or four on-board NIC's and two additional Mezzanine card-slots for additional I/O options: 1 Gb or 10 Gb Ethernet cards, Fibre Channel HBA's or InfiniBand slots. Apart from USB connectors a blade-server doesn't offer direct connections: all I/O goes via the midplane of the enclosure.
+
+
+== Early systems ==
+
+
+== Generation 1 ==
+
+
+== Generation 2 ==
+
+
+== Generation 3 ==
+
+
+== Generation 4 ==
+
+
+== Generation 5 ==
+
+
+== Itanium ==
+The Itanium line was a separate 'generation' from the traditional server line, but roughly falls between generations 5 and 6.
+
+
+== Generation 6 ==
+
+
+== Generation 7 ==
+
+
+== Generation 8 ==
+
+
+== Generation 9 ==
+
+
+== Generation 10 ==
+
+
+== Generation 11 ==
+Released by Dell in 2010
+
+
+== Generation 12 ==
+In March 2012 Dell introduced their 12th generation servers based on Intel Xeon. There are two basic lines: 620 and 720. On the 720 line, Dell currently offers two rack-model servers: the Poweredge R720 and the R720XD — where the latter offers the option to extend the system to up to 26 internal disks.
+The Poweredge 620 series offer models for rack, tower and a ½ height blade-server M620. A ½ height blade means that you can fit up to 16 of those servers in one M1000e enclosure. The M520 and M620 can also be used in the new PowerEdge VRTX system. The new M420 is 1/4 height, so 32 fit in a M1000e chassis but does require a special full height holder that fits 4 M420's in one full-height (=double) slot.
+For the Generation 12 server-line the out of band server-management system iDRAC received a new version: iDRAC 7. iDRAC allows you to access the server-console via a separate Ethernet connection allowing you to get access to the server even when there is no (working) operating system or (normal) network connection available. It offers more or less the same functionality as a network-enabled KVM switch, but with some additional options.
+An overview of the offered servers as per July 2012
+
+Other 12th Generation servers, which are comparable in capabilities with the above detailed M or R versions of the same model number, are:
+
+PE T320 Tower
+PE T420 Tower
+
+
+== Generation 13 ==
+In September 2014 Dell introduced their 13th generation servers based on Intel Xeon
+
+
+== Generation 14 ==
+In July 2017 Dell EMC introduced their 14th generation servers, adding support for latest Intel Xeon Scalable Processors, better NVMe support and other updates.
+
+
+== Generation 15 ==
+On March 17, 2021, Dell officially launched their 15th generation PowerEdge servers with some models already available in 2019.
+
+
+== Generation 16 ==
+
+Dell officially launched their 16th generation PowerEdge servers in the first half of 2023.
+
+
+== Generation 17 ==
+
+
+== PowerEdge SC Value Servers ==
+Independent from the main generations of servers a value line was produced.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==

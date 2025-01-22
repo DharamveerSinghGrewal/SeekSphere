@@ -1,0 +1,181 @@
+Cloud computing enables users to access scalable and on-demand computing resources via the internet, utilizing hardware and software virtualization. It is a rapidly evolving technology capable of deli...
+
+Cloud computing enables users to access scalable and on-demand computing resources via the internet, utilizing hardware and software virtualization. It is a rapidly evolving technology capable of delivering extensible services efficiently, supporting a wide range of applications from personal storage solutions to enterprise-level systems. Despite its advantages, cloud computing also faces several challenges. Privacy concerns remain a primary issue, as users often lose direct control over their data once it is stored on servers owned and managed by cloud providers. This loss of control can create uncertainties regarding data privacy, unauthorized access, and compliance with regional regulations such as the General Data Protection Regulation (GDPR), the Health Insurance Portability and Accountability Act (HIPAA), and the California Consumer Privacy Act (CCPA). Service agreements and shared responsibility models define the boundaries of control and accountability between the cloud provider and the customer, but misunderstandings or mismanagement in these areas can still result in security breaches or accidental data loss. Cloud providers offer tools, such as AWS Artifact (compliance documentation and audits), Azure Compliance Manager (compliance assessments and risk analysis), and Google Assured Workloads (region-specific data compliance), to assist customers in managing compliance requirements. 
+Security issues in cloud computing are generally categorized into two broad groups. The first involves risks faced by cloud service providers, including vulnerabilities in their infrastructure, software, or third-party dependencies. The second includes risks faced by cloud customers, such as misconfigurations, inadequate access controls, and accidental data exposure. These risks are often amplified by human error or a lack of understanding of the shared responsibility model. Security responsibilities also vary depending on the service model—whether Infrastructure as a Service (IaaS), Platform as a Service (PaaS), or Software as a Service (SaaS). In general, cloud providers are responsible for hardware security, physical infrastructure, and software updates, while customers are responsible for data encryption, identity and access management (IAM), and application-level security. 
+Another significant concern is uncertainty regarding guaranteed Quality of Service (QoS), particularly in multi-tenant environments where resources are shared among customers. Major cloud providers address these concerns through Service Level Agreements (SLAs), which define performance and uptime guarantees and often offer compensation in the form of service credits when guarantees are unmet. Automated management and remediation processes, supported by tools such as AWS CloudWatch, Azure Monitor, and Google Cloud Operations Suite, help detect and respond to large-scale failures. Despite these tools, managing QoS in highly distributed and multi-tenant systems remains complex. For latency-sensitive workloads, cloud providers have introduced edge computing solutions, such as AWS Wavelength, Azure Edge Zones, and Google Distributed Cloud Edge, to minimize latency by processing data closer to the end-user.  
+Jurisdictional and regulatory requirements regarding data residency and sovereignty introduce further complexity. Data stored in one region may fall under the legal jurisdiction of that region, creating potential conflicts for organizations operating across multiple geographies. Major cloud providers, such as AWS, Microsoft Azure, and Google Cloud, address these concerns by offering region-specific data centers and compliance management tools designed to align with regional regulations and legal frameworks. 
+
+
+== Factors Influencing Adoption and Suitability of Cloud Computing ==
+The decision to adopt cloud computing or maintain on-premises infrastructure depends on factors such as scalability, cost structure, latency requirements, regulatory constraints, and infrastructure customization. 
+Organizations with variable or unpredictable workloads, limited capital for upfront investments, or a focus on rapid scalability benefit from cloud adoption. Startups, SaaS companies, and e-commerce platforms often prefer the pay-as-you-go operational expenditure (OpEx) model of cloud infrastructure. Additionally, companies prioritizing global accessibility, remote workforce enablement, disaster recovery, and leveraging advanced services such as AI/ML and analytics are well-suited for the cloud. In recent years, some cloud providers have started offering specialized services for high-performance computing and low-latency applications, addressing some use cases previously exclusive to on-premises setups. 
+On the other hand, organizations with strict regulatory requirements, highly predictable workloads, or reliance on deeply integrated legacy systems may find cloud infrastructure less suitable. Businesses in industries like defense, government, or those handling highly sensitive data often favor on-premises setups for greater control and data sovereignty. Additionally, companies with ultra-low latency requirements, such as high-frequency trading (HFT) firms, rely on custom hardware (e.g., FPGAs) and physical proximity to exchanges, which most cloud providers cannot fully replicate despite recent advancements. Similarly, tech giants like Google, Meta, and Amazon build their own data centers due to economies of scale, predictable workloads, and the ability to customize hardware and network infrastructure for optimal efficiency. However, these companies also use cloud services selectively for certain workloads and applications where it aligns with their operational needs. 
+In practice, many organizations are increasingly adopting hybrid cloud architectures, combining on-premises infrastructure with cloud services. This approach allows businesses to balance scalability, cost-effectiveness, and control, offering the benefits of both deployment models while mitigating their respective limitations. 
+
+
+== Cloud Migration Challenges ==
+According to the 2024 State of the Cloud Report by Flexera, approximately 50% of respondents identified the following top challenges when migrating workloads to public clouds: 
+
+"Understanding application dependencies"
+"Comparing on-premise and cloud costs"
+"Assessing technical feasibility."
+
+
+== Leaky Abstractions ==
+Cloud computing abstractions aim to simplify resource management, but leaky abstractions can expose underlying complexities. These variations in abstraction quality depend on the cloud vendor, service and architecture. Mitigating leaky abstractions requires users to understand the implementation details and limitations of the cloud services they utilize. 
+
+
+== Privacy ==
+The increased use of cloud computing services such as Gmail and Google Docs has pressed the issue of privacy concerns of cloud computing services to the utmost importance. The provider of such services lie in a position such that with the greater use of cloud computing services has given access to a plethora of data. This access has the immense risk of data being disclosed either accidentally or deliberately. The privacy of the companies can be compromised as all the information is sent to the cloud service provider. Privacy advocates have criticized the cloud model for giving hosting companies' greater ease to control—and thus, to monitor at will—communication between host company and end user, and access user data (with or without permission). Instances such as the secret NSA program, working with AT&T, and Verizon, which recorded over 10 million telephone calls between American citizens, causes uncertainty among privacy advocates, and the greater powers it gives to telecommunication companies to monitor user activity. A cloud service provider (CSP) can complicate data privacy because of the extent of virtualization (virtual machines) and cloud storage used to implement cloud service. CSP operations, customer or tenant data may not remain on the same system, or in the same data center or even within the same provider's cloud; this can lead to legal concerns over jurisdiction.
+While there have been efforts (such as US-EU Safe Harbor) to "harmonize" the legal environment, providers such as Amazon still cater to major markets (typically to the United States and the European Union) by deploying local infrastructure and allowing customers to select "regions and availability zones". Cloud computing poses privacy concerns because the service provider can access the data that is on the cloud at any time. It could accidentally or deliberately alter or even delete information. This becomes a major concern as these service providers employ administrators, which can leave room for potential unwanted disclosure of information on the cloud.
+
+
+== Technical issues ==
+Sometimes there can be some technical issues like servers might be down so at that time it becomes difficult to gain access to the resources at any time and from anywhere e.g. non-availability of services can be due to denial of service attack. To use the technique of cloud computing there should always be a strong internet connection without which we would not be able to take advantage of the cloud computing. The other issue related to the cloud computing is that it consumes the great power of physical devices such as a smartphone.
+
+
+=== Sharing information without a warrant ===
+Many cloud providers can share information with third parties if necessary for purposes of law and order even without a warrant. That is permitted in their privacy policies which users have to agree to before they start using cloud services.
+There are life-threatening situations in which there is no time to wait for the police to issue a warrant. Many cloud providers can share information immediately with the police in such situations.
+
+
+==== Example of a privacy policy that allows this ====
+The Dropbox privacy policy states that 
+
+We may share information as discussed below …
+Law & Order. We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to (a) comply with the law; (b) protect any person from death or serious bodily injury; (c) prevent fraud or abuse of Dropbox or our users; or (d) protect Dropbox's property rights. 
+
+
+==== Previous situation about this ====
+The Sydney Morning Herald reported about the Mosman bomb hoax, which was a life-threatening situation, that:
+
+As to whether NSW Police needed a warrant to access the information it was likely to have, Byrne said it depended on the process taken. "Gmail does set out in their process in terms of their legal disclosure guidelines [that] it can be done by a search warrant ... but there are exceptions that can apply in different parts of the world and different service providers. For example, Facebook generally provides an exception for emergency life threatening situations that are signed off by law enforcement."
+Another computer forensic expert at iT4ensics, which works for large corporations dealing with matters like internal fraud, Scott Lasak, said that police "would just contact Google" and "being of a police or FBI background Google would assist them".
+"Whether or not they need to go through warrants or that sort of thing I'm not sure. But even for just an IP address they might not even need a warrant for something like that being of a police background.
+...
+NSW Police would not comment on whether it had received help from Google. The search giant also declined to comment, instead offering a standard statement on how it cooperated with law enforcement.
+A spokesman for the online users' lobby group Electronic Frontiers Australia, Stephen Collins, said Google was likely to have handed over the need information on the basis of "probable cause or a warrant", which he said was "perfectly legitimate". He also said “It happens with relative frequency. … Such things are rarely used in Australia for trivial or malevolent purposes.”
+
+
+== Privacy solutions ==
+Solutions to privacy in cloud computing include policy and legislation as well as end users' choices for how data is stored. The cloud service provider needs to establish clear and relevant policies that describe how the data of each cloud user will be accessed and used. Cloud service users can encrypt data that is processed or stored within the cloud to prevent unauthorized access. Cryptographic encryption mechanisms are certainly the best options. In addition, authentication and integrity protection mechanisms ensure that data only goes where the customer wants it to go and it is not modified in transit.
+Strong authentication is a mandatory requirement for any cloud deployment. User authentication is the primary basis for access control, and specially in the cloud environment, authentication and access control are more important than ever since the cloud and all of its data are publicly accessible. Biometric identification technologies linking users' biometrics information to their data are available. These technologies use searchable encryption techniques, and perform identification in an encrypted domain so that cloud providers or potential attackers do not gain access to sensitive data or even the contents of the individual queries.
+
+
+== Compliance ==
+To comply with regulations including FISMA, HIPAA, and SOX in the United States, the Data Protection Directive in the EU and the credit card industry's PCI DSS, users may have to adopt community or hybrid deployment modes that are typically more expensive and may offer restricted benefits. This is how Google is able to "manage and meet additional government policy requirements beyond FISMA" and Rackspace Cloud or QubeSpace are able to claim PCI compliance.
+Many providers also obtain a SAS 70 Type II audit, but this has been criticised on the grounds that the hand-picked set of goals and standards determined by the auditor and the auditee are often not disclosed and can vary widely. Providers typically make this information available on request, under non-disclosure agreement.
+Customers in the EU contracting with cloud providers outside the EU/EEA have to adhere to the EU regulations on export of personal data.
+A multitude of laws and regulations have forced specific compliance requirements onto many companies that collect, generate or store data. These policies may dictate a wide array of data storage policies, such as how long information must be retained, the process used for deleting data, and even certain recovery plans. Below are some examples of compliance laws or regulations.
+
+United States, the Health Insurance Portability and Accountability Act (HIPAA) requires a contingency plan that includes, data backups, data recovery, and data access during emergencies.
+The privacy laws of Switzerland demand that private data, including emails, be physically stored in Switzerland.
+In the United Kingdom, the Civil Contingencies Act of 2004 sets forth guidance for a business contingency plan that includes policies for data storage.
+In a virtualized cloud computing environment, customers may never know exactly where their data is stored. In fact, data may be stored across multiple data centers in an effort to improve reliability, increase performance, and provide redundancies. This geographic dispersion may make it more difficult to ascertain legal jurisdiction if disputes arise.
+
+
+=== FedRAMP ===
+
+U.S. Federal Agencies have been directed by the Office of Management and Budget to use a process called FedRAMP (Federal Risk and Authorization Management Program) to assess and authorize cloud products and services. Federal CIO Steven VanRoekel issued a memorandum to federal agency Chief Information Officers on December 8, 2011 defining how federal agencies should use FedRAMP. FedRAMP consists of a subset of NIST Special Publication 800-53 security controls specifically selected to provide protection in cloud environments. A subset has been defined for the FIPS 199 low categorization and the FIPS 199 moderate categorization. The FedRAMP program has also established a Joint Accreditation Board (JAB) consisting of Chief Information Officers from DoD, DHS, and GSA. The JAB is responsible for establishing accreditation standards for 3rd party organizations who perform the assessments of cloud solutions. The JAB also reviews authorization packages, and may grant provisional authorization (to operate). The federal agency consuming the service still has final responsibility for final authority to operate.
+
+
+== Legal ==
+As with other changes in the landscape of computing, certain legal issues arise with cloud computing, including trademark infringement, security concerns and sharing of proprietary data resources.
+The Electronic Frontier Foundation has criticized the United States government during the Megaupload seizure process for considering that people lose property rights by storing data on a cloud computing service.
+One important but not often mentioned problem with cloud computing is the problem of who is in "possession" of the data. If a cloud company is the possessor of the data, the possessor has certain legal rights. If the cloud company is the "custodian" of the data, then a different set of rights would apply. The next problem in the legalities of cloud computing is the problem of legal ownership of the data. Many Terms of Service agreements are silent on the question of ownership.
+These legal issues are not confined to the time period in which the cloud-based application is actively being used. There must also be consideration for what happens when the provider-customer relationship ends. In most cases, this event will be addressed before an application is deployed to the cloud. However, in the case of provider insolvencies or bankruptcy the state of the data may become blurred.
+
+
+== Vendor lock-in ==
+Because cloud computing is still relatively new, standards are still being developed. Many cloud platforms and services are proprietary, meaning that they are built on the specific standards, tools and protocols developed by a particular vendor for its particular cloud offering. This can make migrating off a proprietary cloud platform prohibitively complicated and expensive.
+Three types of vendor lock-in can occur with cloud computing:
+
+Platform lock-in: cloud services tend to be built on one of several possible virtualization platforms, for example VMware or Xen. Migrating from a cloud provider using one platform to a cloud provider using a different platform could be very complicated.
+Data lock-in: since the cloud is still new, standards of ownership, i.e. who actually owns the data once it lives on a cloud platform, are not yet developed, which could make it complicated if cloud computing users ever decide to move data off of a cloud vendor's platform.
+Tools lock-in: if tools built to manage a cloud environment are not compatible with different kinds of both virtual and physical infrastructure, those tools will only be able to manage data or apps that live in the vendor's particular cloud environment.
+Heterogeneous cloud computing is described as a type of cloud environment that prevents vendor lock-in, and aligns with enterprise data centers that are operating hybrid cloud models. The absence of vendor lock-in lets cloud administrators select their choice of hypervisors for specific tasks, or to deploy virtualized infrastructures to other enterprises without the need to consider the flavor of hypervisor in the other enterprise.
+A heterogeneous cloud is considered one that includes on-premises private clouds, public clouds and software-as-a-service clouds. Heterogeneous clouds can work with environments that are not virtualized, such as traditional data centers. Heterogeneous clouds also allow for the use of piece parts, such as hypervisors, servers, and storage, from multiple vendors.
+Cloud piece parts, such as cloud storage systems, offer APIs but they are often incompatible with each other. The result is complicated migration between backends, and makes it difficult to integrate data spread across various locations. This has been described as a problem of vendor lock-in.
+The solution to this is for clouds to adopt common standards.
+Heterogeneous cloud computing differs from homogeneous clouds, which have been described as those using consistent building blocks supplied by a single vendor. Intel General Manager of high-density computing, Jason Waxman, is quoted as saying that a homogeneous system of 15,000 servers would cost $6 million more in capital expenditure and use 1 megawatt of power.
+
+
+== Service lock-in within the same vendor ==
+Service lock-in within the same vendor occurs when a customer becomes dependent on specific services within a cloud vendor, making it challenging to switch to alternative services within the same vendor when their needs change. 
+
+
+== Open source ==
+
+Open-source software has provided the foundation for many cloud computing implementations, prominent examples being the Hadoop framework and VMware's Cloud Foundry. In November 2007, the Free Software Foundation released the Affero General Public License, a version of GPLv3 intended to close a perceived legal loophole associated with free software designed to run over a network.
+
+
+== Open standards ==
+
+Most cloud providers expose APIs that are typically well documented (often under a Creative Commons license) but also unique to their implementation and thus not interoperable. Some vendors have adopted others' APIs and there are a number of open standards under development, with a view to delivering interoperability and portability. As of November 2012, the Open Standard with broadest industry support is probably OpenStack, founded in 2010 by NASA and Rackspace, and now governed by the OpenStack Foundation. OpenStack supporters include AMD, Intel, Canonical, SUSE Linux, Red Hat, Cisco, Dell, HP, IBM, Yahoo, Huawei and now VMware.
+
+
+== Security ==
+
+Security is generally a desired state of being free from harm (anything that compromises the state of an entity's well-being). As defined in information security, it is a condition in which an information asset is protected against its confidentiality (quality or state of being free from unauthorized or insecure disclosure contrary to the defined access rights as listed in the access control list and or matrix), integrity (a quality or state of being whole/ as complete as original and uncorrupted as functionally proven by the hash integrity values) and availability (a desired state of an information resource being accessible only by authorized parties (as listed in access control list and or matrix) in the desired state and at the right time. Security is an important domain in as far as cloud computing is concerned, there are a number of issues to be addressed if the cloud is to be perfectly secure (a condition i doubt will ever be achieved)(Martin Muduva, 2015).
+As cloud computing is achieving increased popularity, concerns are being voiced about the security issues introduced through adoption of this new model. The effectiveness and efficiency of traditional protection mechanisms are being reconsidered as the characteristics of this innovative deployment model can differ widely from those of traditional architectures. An alternative perspective on the topic of cloud security is that this is but another, although quite broad, case of "applied security" and that similar security principles that apply in shared multi-user mainframe security models apply with cloud security.
+The relative security of cloud computing services is a contentious issue that may be delaying its adoption. Physical control of the Private Cloud equipment is more secure than having the equipment off site and under someone else's control. Physical control and the ability to visually inspect data links and access ports is required in order to ensure data links are not compromised. Issues barring the adoption of cloud computing are due in large part to the private and public sectors' unease surrounding the external management of security-based services. It is the very nature of cloud computing-based services, private or public, that promote external management of provided services. This delivers great incentive to cloud computing service providers to prioritize building and maintaining strong management of secure services.
+Security issues have been categorized into sensitive data access, data segregation, privacy, bug exploitation, recovery, accountability, malicious insiders, management console security, account control, and multi-tenancy issues. Solutions to various cloud security issues vary, from cryptography, particularly public key infrastructure (PKI), to use of multiple cloud providers, standardization of APIs, and improving virtual machine support and legal support.
+Cloud computing offers many benefits, but is vulnerable to threats. As cloud computing uses increase, it is likely that more criminals find new ways to exploit system vulnerabilities. Many underlying challenges and risks in cloud computing increase the threat of data compromise. To mitigate the threat, cloud computing stakeholders should invest heavily in risk assessment to ensure that the system encrypts to protect data, establishes trusted foundation to secure the platform and infrastructure, and builds higher assurance into auditing to strengthen compliance. Security concerns must be addressed to maintain trust in cloud computing technology.
+Data breach is one of the big concerns in cloud computing. A compromised server could significantly harm the users as well as cloud providers. A variety of information could be stolen. These include credit card and social security numbers, addresses, and personal messages. The U.S. now requires cloud providers to notify customers of breaches. Once notified, customers now have to worry about identity theft and fraud, while providers have to deal with federal investigations, lawsuits and reputational damage. Customer lawsuits and settlements have resulted in over $1 billion in losses to cloud providers.
+
+
+== Availability ==
+A cloud provider may shut down without warning. For instance, the Anki robot company suddenly went bankrupt in 2019, making 1.5 million robots unresponsive to voice command.
+
+
+== Sustainability ==
+Although cloud computing is often assumed to be a form of green computing, there is currently no way to measure how "green" computers are.
+The primary environmental problem associated with the cloud is energy use. Phil Radford of Greenpeace said “we are concerned that this new explosion in electricity use could lock us into old, polluting energy sources instead of the clean energy available today.” Greenpeace ranks the energy usage of the top ten big brands in cloud computing, and successfully urged several companies to switch to clean energy.
+On December 15, 2011, Greenpeace and Facebook announced together that Facebook would shift to use clean and renewable energy to power its own operations. Soon thereafter, Apple agreed to make all of its data centers ‘coal free’ by the end of 2013 and doubled the amount of solar energy powering its Maiden, NC data center. Following suit, Salesforce agreed to shift to 100% clean energy by 2020.
+Citing the servers' effects on the environmental effects of cloud computing, in areas where climate favors natural cooling and renewable electricity is readily available, the environmental effects will be more moderate. (The same holds true for "traditional" data centers.) Thus countries with favorable conditions, such as Finland, Sweden and Switzerland, are trying to attract cloud computing data centers. Energy efficiency in cloud computing can result from energy-aware scheduling and server consolidation. However, in the case of distributed clouds over data centers with different sources of energy including renewable energy, the use of energy efficiency reduction could result in a significant carbon footprint reduction.
+
+
+== Abuse ==
+As with privately purchased hardware, customers can purchase the services of cloud computing for nefarious purposes. This includes password cracking and launching attacks using the purchased services. In 2009, a banking trojan illegally used the popular Amazon service as a command and control channel that issued software updates and malicious instructions to PCs that were infected by the malware.
+
+
+== IT governance ==
+
+The introduction of cloud computing requires an appropriate IT governance model to ensure a secured computing environment and to comply with all relevant organizational information technology policies. As such, organizations need a set of capabilities that are essential when effectively implementing and managing cloud services, including demand management, relationship management, data security management, application lifecycle management, risk and compliance management. A danger lies with the explosion of companies joining the growth in cloud computing by becoming providers. However, many of the infrastructural and logistical concerns regarding the operation of cloud computing businesses are still unknown. This over-saturation may have ramifications for the industry as a whole.
+
+
+== Consumer end storage ==
+The increased use of cloud computing could lead to a reduction in demand for high storage capacity consumer end devices, due to cheaper low storage devices that stream all content via the cloud becoming more popular. In a Wired article, Jake Gardner explains that while unregulated usage is beneficial for IT and tech moguls like Amazon, the anonymous nature of the cost of consumption of cloud usage makes it difficult for business to evaluate and incorporate it into their business plans.
+
+
+== Ambiguity of terminology ==
+Outside of the information technology and software industry, the term "cloud" can be found to reference a wide range of services, some of which fall under the category of cloud computing, while others do not. The cloud is often used to refer to a product or service that is discovered, accessed and paid for over the Internet, but is not necessarily a computing resource. The term "cloud" retains the aura of something noumenal and numinous. Examples of service that are sometimes referred to as "the cloud" include, but are not limited to, crowd sourcing, cloud printing, crowd funding, cloud manufacturing.
+
+
+== Performance interference and noisy neighbors ==
+Due to its multi-tenant nature and resource sharing, cloud computing must also deal with the "noisy neighbor" effect. This effect in essence indicates that in a shared infrastructure, the activity of a virtual machine on a neighboring core on the same physical host may lead to increased performance degradation of the VMs in the same physical host, due to issues such as e.g. cache contamination.
+Due to the fact that the neighboring VMs may be activated or deactivated at arbitrary times, the result is an increased variation in the actual performance of cloud resources. This effect seems to be dependent on the nature of the applications that run inside the VMs but also other factors such as scheduling parameters and the careful selection may lead to optimized assignment in order to minimize the phenomenon. This has also led to difficulties in comparing various cloud providers on cost and performance using traditional benchmarks for service and application performance, as the time period and location in which the benchmark is performed can result in widely varied results. This observation has led in turn to research efforts to make cloud computing applications intrinsically aware of changes in the infrastructure so that the application can automatically adapt to avoid failure.
+
+
+== Monopolies and privatization of cyberspace ==
+Philosopher Slavoj Žižek points out that, although cloud computing enhances content accessibility, this access is "increasingly grounded in the virtually monopolistic privatization of the cloud which provides this access". According to him, this access, necessarily mediated through a handful of companies, ensures a progressive privatization of global cyberspace. Žižek criticizes the argument purported by supporters of cloud computing that this phenomenon is part of the "natural evolution" of the Internet, sustaining that the quasi-monopolies "set prices at will but also filter the software they provide to give its "universality" a particular twist depending on commercial and ideological interests."
+
+
+== Limitations of Service Level Agreements ==
+Typically, cloud providers' Service Level Agreements (SLAs) do not encompass all forms of service interruptions. Exclusions typically include planned maintenance, downtime resulting from external factors such as network issues, human errors, like misconfigurations, natural disasters, force majeure events, or security breaches. Typically, customers bear the responsibility of monitoring SLA compliance and must file claims for any unmet SLAs within a designated timeframe. Customers should be aware of how deviations from SLAs are calculated, as these parameters may vary by service. These requirements can place a considerable burden on customers. Additionally, SLA percentages and conditions can differ across various services within the same provider, with some services lacking any SLA altogether. In cases of service interruptions due to hardware failures in the cloud provider, the company typically does not offer monetary compensation. Instead, eligible users may receive credits as outlined in the corresponding SLA. 
+
+
+== Cloud cost overruns ==
+In a report by Gartner, a survey of 200 IT leaders revealed that 69% experienced budget overruns in their organizations' cloud expenditures during 2023. Conversely, 31% of IT leaders whose organizations stayed within budget attributed their success to accurate forecasting and budgeting, proactive monitoring of spending, and effective optimization. 
+The 2024 Flexera State of Cloud Report identifies the top cloud challenges as managing cloud spend, followed by security concerns and lack of expertise. Public cloud expenditures exceeded budgeted amounts by an average of 15%. The report also reveals that cost savings is the top cloud initiative for 60% of respondents. Furthermore, 65% measure cloud progress through cost savings, while 42% prioritize shorter time-to-market, indicating that cloud's promise of accelerated deployment is often overshadowed by cost concerns. 
+
+
+== Implementation challenges ==
+Applications hosted in the cloud are susceptible to the fallacies of distributed computing, a series of misconceptions that can lead to significant issues in software development and deployment. 
+
+
+== See also ==
+Cloud computing
+
+
+== References ==

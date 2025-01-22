@@ -1,0 +1,31 @@
+The current state of quantum computing is referred to as the noisy intermediate-scale quantum (NISQ) era, characterized by quantum processors containing up to 1,000 qubits which are not advanced enoug...
+
+The current state of quantum computing is referred to as the noisy intermediate-scale quantum (NISQ) era, characterized by quantum processors containing up to 1,000 qubits which are not advanced enough yet for fault-tolerance or large enough to achieve quantum advantage. These processors, which are sensitive to their environment (noisy) and prone to quantum decoherence, are not yet capable of continuous quantum error correction. This intermediate-scale is defined by the quantum volume, which is based on the moderate number of qubits and gate fidelity. The term NISQ was coined by John Preskill in 2018.
+According to Microsoft Azure Quantum's scheme, NISQ computation is considered level 1, the lowest of the quantum computing implementation levels.
+In October 2023, the 1,000 qubit mark was passed for the first time by Atom Computing's 1,180 qubit quantum processor.  However, as of 2024, only two quantum processors have over 1,000 qubits, with sub-1,000 quantum processors still remaining the norm.
+
+
+== Algorithms ==
+NISQ algorithms are quantum algorithms designed for quantum processors in the NISQ era. Common examples are the variational quantum eigensolver (VQE) and quantum approximate optimization algorithm (QAOA), which use NISQ devices but offload some calculations to classical processors. These algorithms have been successful in quantum chemistry and have potential applications in various fields including physics, materials science, data science, cryptography, biology, and finance. However, due to noise during circuit execution, they often require error mitigation techniques.
+These methods constitute a way of reducing the effect of noise by running a set of circuits and applying post-processing to the measured data. In contrast to quantum error correction, where errors are continuously detected and corrected during the run of the circuit, error mitigation can only use the outcome of the noisy circuits.
+
+
+== Beyond-NISQ era ==
+The creation of a computer with tens of thousands of qubits and enough error correction would eventually end the NISQ era. These beyond-NISQ devices would be able to, for example, implement Shor's algorithm for very large numbers and break RSA encryption.
+In April 2024, researchers at Microsoft announced a significant reduction in error rates that required only 4 logical qubits, suggesting that quantum computing at scale could be years away instead of decades.
+
+
+== See also ==
+Quantum complexity theory
+Quantum noise
+List of companies involved in quantum computing or communication
+List of quantum processors
+Timeline of quantum computing and communication
+Quantum information
+
+
+== References ==
+
+
+== External links ==
+John Preskill lecture on NISQ era

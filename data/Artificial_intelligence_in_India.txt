@@ -1,0 +1,29 @@
+The AI market in India is projected to reach $8 billion by 2025, growing at a compound annual growth rate (CAGR) of over 40% from 2020 to 2025.  This growth is part of the broader AI boom, a global pe...
+
+The AI market in India is projected to reach $8 billion by 2025, growing at a compound annual growth rate (CAGR) of over 40% from 2020 to 2025. 
+This growth is part of the broader AI boom, a global period of rapid technological advancements starting in the late 2010s and gaining prominence in the early 2020s. Globally, breakthroughs in protein folding by Google DeepMind and the rise of generative AI models from OpenAI have defined this era. In India, the development of AI has been similarly transformative, with applications in healthcare, finance, and education, bolstered by government initiatives like NITI Aayog's 2018 National Strategy for Artificial Intelligence.
+While AI presents significant opportunities for economic growth and social development in India, challenges such as data privacy concerns, skill shortages, and ethical considerations need to be addressed for responsible AI deployment.
+
+
+== Legislation ==
+India currently does not have specific laws regulating artificial intelligence (AI). However, the Indian government has introduced several initiatives and guidelines aimed at the responsible development and deployment of AI technologies.
+The Indian government has tasked NITI Aayog, its apex public policy think tank, with establishing guidelines and policies for AI. In 2018, NITI Aayog released the National Strategy for Artificial Intelligence, also known as #AIForAll, which focuses on healthcare, agriculture, education, smart cities, and smart mobility.
+In 2021, NITI Aayog published the "Principles for Responsible AI," addressing ethical considerations for AI deployment in India. These principles cover system considerations, such as decision-making and accountability, and societal considerations, such as the impact of automation on employment. The second part of this document, "Operationalizing Principles for Responsible AI," released in August 2021, focuses on implementing these ethical principles through regulatory and policy interventions, capacity building, and incentivizing ethical practices.
+In 2023, the Indian government enacted the Digital Personal Data Protection Act, which addresses some privacy concerns related to AI platforms. The Ministry of Electronics and Information Technology (MeitY) has also issued advisories requiring platforms to obtain explicit permission before deploying unreliable AI models and to label AI-generated content to prevent misuse.
+India is a member of the Global Partnership on Artificial Intelligence (GPAI), which promotes the responsible use of AI through international collaboration. In 2023, the GPAI Summit was held in New Delhi, where experts discussed responsible AI, data governance, and the future of work.
+Other Indian agencies, such as the Bureau of Indian Standards (BIS), are also working on AI policies. BIS has established a committee to propose draft standards for AI, focusing on safety, reliability, and ethical considerations.
+India has not yet enacted specific AI regulations. However, the government has introduced measures to promote innovation and address ethical concerns and risks associated with AI. These efforts aim to support the growth of India's AI ecosystem and ensure responsible AI deployment.
+India has launched an AI Data Bank aimed at fostering innovation and enhancing national security. This initiative is designed to harness the power of artificial intelligence by providing a centralized repository of data that can be utilized across various sectors, including governance, business, healthcare, education, and space exploration. By facilitating access to crucial information, the AI Data Bank will support research and development efforts, stimulate technological advancements, and bolster the country’s security framework. This strategic move underscores India's commitment to leveraging AI for national progress and safeguarding its interests in an increasingly digital world.
+
+
+== AI companies of India ==
+The following is a list of notable AI companies of India, along with their corporate headquarters location.
+
+
+== See also ==
+HCLTech
+Infosys
+Tata Elxsi
+
+
+== References ==

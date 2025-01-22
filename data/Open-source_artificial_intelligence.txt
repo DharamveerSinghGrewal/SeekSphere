@@ -1,0 +1,169 @@
+Open-source artificial intelligence is an AI system that is freely available to use, study, modify, and share. These attributes extend to each of the system's components, including datasets, code, and...
+
+Open-source artificial intelligence is an AI system that is freely available to use, study, modify, and share. These attributes extend to each of the system's components, including datasets, code, and model parameters, promoting a collaborative and transparent approach to AI development. Free and open-source software (FOSS) licenses, such as the Apache License, MIT License, and GNU General Public License, outline the terms under which open-source artificial intelligence can be accessed, modified, and redistributed.
+The open-source model provides widespread access to new AI technologies, allowing individuals and organizations of all sizes to participate in AI research and development. This approach supports collaboration and allows for shared advancements within the field of artificial intelligence. In contrast, closed-source artificial intelligence is proprietary, restricting access to the source code and internal components. Only the owning company or organization can modify or distribute a closed-source artificial intelligence system, prioritizing control and protection of intellectual property over external contributions and transparency. Companies often develop closed products in an attempt to keep a competitive advantage in the marketplace. However, some experts suggest that open-source AI tools may have a development advantage over closed-source products and have the potential to overtake them in the marketplace.
+Popular open-source artificial intelligence project categories include large language models, machine translation tools, and chatbots. For software developers to produce open-source artificial intelligence (AI) resources, they must trust the various other open-source software components they use in its development. Open-source AI software has been speculated to have potentially increased risk compared to closed-source AI as bad actors may remove safety protocols of public models as they wish. Similarly, closed-source AI has also been speculated to have an increased risk compared to open-source AI due to issues of dependence, privacy, opaque algorithms, corporate control and limited availability while potentially slowing beneficial innovation.
+There also is a debate about the openness of AI systems as openness is differentiated – an article in Nature suggests that some systems presented as open, such as Meta's Llama 3, "offer little more than an API or the ability to download a model subject to distinctly non-open use restrictions". Such software has been criticized as "openwashing" systems that are better understood as closed. There are some works and frameworks that assess the openness of AI systems as well as a new definition by the Open Source Initiative about what constitutes open source AI.
+
+
+== History ==
+The history of open-source artificial intelligence (AI) is intertwined with both the development of AI technologies and the growth of the open-source software movement. Open-source AI has evolved significantly over the past few decades, with contributions from various academic institutions, research labs, tech companies, and independent developers. This section explores the major milestones in the development of open-source AI, from its early days to its current state.
+
+
+=== Early development of AI and open-source software ===
+The concept of AI dates back to the mid-20th century, when computer scientists like Alan Turing and John McCarthy laid the groundwork for modern AI theories and algorithms. Early AI research focused on developing symbolic reasoning systems and rule-based expert systems. During this period, the idea of open-source software was beginning to take shape, with pioneers like Richard Stallman advocating for free software as a means to promote collaboration and innovation in programming.
+The Free Software Foundation, founded in 1985 by Stallman, was one of the first major organizations to promote the idea of software that could be freely used, modified, and distributed. The ideas from this movement eventually influenced the development of open-source AI, as more developers began to see the potential benefits of open collaboration in software creation, including AI models and algorithms.
+
+
+=== Emergence of open-source AI (1990s-2000s) ===
+In the 1990s, open-source software began to gain more traction as the internet facilitated collaboration across geographical boundaries. The rise of machine learning and statistical methods also led to the development of more practical AI tools. However, it wasn't until the early 2000s that open-source AI began to take off, with the release of foundational libraries and frameworks that were available for anyone to use and contribute to.
+One of the early open-source AI frameworks was Scikit-learn, released in 2007. Scikit-learn became one of the most widely used libraries for machine learning due to its ease of use and robust functionality, providing implementations of common algorithms like regression, classification, and clustering. Around the same time, other open-source machine learning libraries such as OpenCV (2000), Torch (2002), and Theano (2007) were developed by tech companies and research labs, further cementing the growth of open-source AI.
+
+
+=== Rise of open-source AI models and frameworks (2010s) ===
+The 2010s marked a significant shift in the development of AI, driven by the advent of deep learning and neural networks. Open-source deep learning frameworks such as TensorFlow (developed by Google Brain) and PyTorch (developed by Facebook's AI Research Lab) revolutionized the AI landscape by making complex deep learning models more accessible. These frameworks allowed researchers and developers to build and train sophisticated neural networks for tasks like image recognition, natural language processing (NLP), and autonomous driving.
+During this time, AI models like Google's BERT (2018) for natural language processing and OpenAI's GPT series (2018–present) for text generation also became widely available in open-source form. These models demonstrated the potential for AI to revolutionize industries by improving understanding and generation of human language, sparking further interest in open-source AI development.
+
+
+=== Key milestones in open-source AI (2020s–Present) ===
+
+
+==== Companies and models ====
+The 2020s saw the continued growth and maturation of open-source AI. Companies and research organizations began to release large-scale pre-trained models to the public, which led to a boom in both commercial and academic applications of AI. Notably, Hugging Face, a company focused on NLP, became a hub for the development and distribution of state-of-the-art AI models, including open-source versions of transformers like GPT-2, GPT-3, and BERT.
+With the announcement of GPT-2, OpenAI originally planned to keep the source code of their models private citing concerns about malicious applications. After OpenAI faced public backlash, however, it released the source code for GPT-2 to GitHub three months after its release. OpenAI has not publicly released the source code or pretrained weights for the GPT-3 or GPT-4 models, though their functionalities can be integrated by developers through the OpenAI API.
+The rise of large language models (LLMs) and generative AI, such as OpenAI's GPT-3 (2020), further propelled the demand for open-source AI frameworks. These models have been used in a variety of applications, including chatbots, content creation, and code generation, demonstrating the broad capabilities of AI systems.
+The LF AI & Data Foundation, a project under the Linux Foundation, has significantly influenced the open-source AI landscape by fostering collaboration and innovation, and supporting open-source projects. By providing a neutral platform, LF AI & Data unites developers, researchers, and organizations to build cutting-edge AI and data solutions, addressing critical technical challenges and promoting ethical AI development.
+As of October 2024, the foundation comprised 77 member companies from North America, Europe, and Asia, and hosted 67 open-source software (OSS) projects contributed by a diverse array of organizations, including silicon valley giants such as Nvidia, Amazon, Intel, and Microsoft. Other large conglomerates like Alibaba, TikTok, AT&T, and IBM have also contributed. Research organizations such as NYU, University of Michigan AI labs, Columbia University, Penn State are also associate members of the LF AI & Data Foundation.
+In September 2022, the PyTorch Foundation was established to oversee the widely used PyTorch deep learning framework, which was donated by Meta. The foundation's mission is to drive the adoption of AI tools by fostering and sustaining an ecosystem of open-source, vendor-neutral projects integrated with PyTorch, and to democratize access to state-of-the-art tools, libraries, and other components, making these innovations accessible to everyone.
+The PyTorch Foundation also separates business and technical governance, with the PyTorch project maintaining its technical governance structure, while the foundation handles funding, hosting expenses, events, and management of assets such as the project's website, GitHub repository, and social media accounts, ensuring open community governance. Upon its inception, the foundation formed a governing board comprising representatives from its initial members: AMD, Amazon Web Services, Google Cloud, Hugging Face, IBM, Intel, Meta, Microsoft, and NVIDIA.
+In 2024, Meta released a collection of large AI models, including Llama 3.1 405B, comparable to the most advanced closed-source models. The company claimed its approach to AI would be open-source, differing from other major tech companies. The Open Source Initiative and others stated that Llama is not open-source despite Meta describing it as open-source, due to Llama's software license prohibiting it from being used for some purposes.
+
+
+==== Ethics ====
+In parallel with the development of AI models, there has been growing interest in ensuring ethical standards in open-source AI development. This includes addressing concerns such as bias, privacy, and the potential for misuse of AI systems. As a result, frameworks for responsible AI development and the creation of guidelines for documenting ethical considerations, such as the Model Card concept introduced by Google, have gained popularity, though studies show the continued need for their adoption to avoid unintended negative outcomes.
+
+
+== Applications ==
+
+
+=== Machine learning ===
+
+Open-source artificial intelligence has brought widespread accessibility to machine learning (ML) tools, enabling developers to implement and experiment with ML models across various industries. Sci-kit Learn, Tensorflow, and PyTorch are three of the most widely used open-source ML libraries, each contributing unique capabilities to the field. Sci-kit Learn is known for its robust toolkit, offering accessible functions for classification, regression, clustering, and dimensionality reduction. This library simplifies the ML pipeline from data preprocessing to model evaluation, making it ideal for users with varying levels of expertise. Tensorflow, initially developed by Google, supports large-scale ML models, especially in production environments requiring scalability, such as healthcare, finance, and retail. PyTorch, favored for its flexibility and ease of use, has been particularly popular in research and academia, supporting everything from basic ML models to advanced deep learning applications, and it is now widely used by the industry, too.
+
+
+=== Natural Language Processing ===
+
+
+==== Large language models ====
+Open-source AI has played a crucial role in developing and adopting of Large Language Models (LLMs), transforming text generation and comprehension capabilities. While proprietary models like OpenAI's GPT series have redefined what is possible in applications such as interactive dialogue systems and automated content creation, fully open-source models have also made significant strides. Google's BERT, for instance, is an open-source model widely used for tasks like entity recognition and language translation, establishing itself as a versatile tool in NLP. These open-source LLMs have democratized access to advanced language technologies, enabling developers to create applications such as personalized assistants, legal document analysis, and educational tools without relying on proprietary systems.
+
+
+==== Machine Translation ====
+
+Open-source machine translation models have paved the way for multilingual support in applications across industries. Hugging Face's MarianMT is a prominent example, providing support for a wide range of language pairs, becoming a valuable tool for translation and global communication. Another notable model, OpenNMT, offers a comprehensive toolkit for building high-quality, customized translation models, which are used in both academic research and industries. Alongside these open-source models, open-source datasets such as the WMT (Workshop on Machine Translation) datasets, Europarl Corpus, and OPUS have played a critical role in advancing machine translation technology. These datasets provide diverse, high-quality parallel text corpora that enable developers to train and fine-tune models for specific languages and domains.
+
+
+=== Text-to-image models ===
+
+
+=== Computer vision models ===
+Open-source AI has led to considerable advances in the field of computer vision, with libraries such as OpenCV (Open Computer Vision Library) playing a pivotal role in the democratization of powerful image processing and recognition capabilities. OpenCV provides a comprehensive set of functions that can support real-time computer vision applications, such as image recognition, motion tracking, and facial detection. Originally developed by Intel, OpenCV has become one of the most popular libraries for computer vision due to its versatility and extensive community support. The library includes a range of pre-trained models and utilities for handling common tasks, making OpenCV into a valuable resource for both beginners and experts of the field. Beyond OpenCV, other open-source computer vision models like YOLO (You Only Look Once) and Detectron2 offer specialized frameworks for object detection, classification, and segmentation, contributing to advancements in applications like security, autonomous vehicles, and medical imaging.
+Unlike the previous generations of Computer Vision models, which process image data through convolutional layers, newer generations of computer vision models, referred to as Vision Transformer (ViT), rely on attention mechanisms similar to those found in the area of natural language processing. ViT models break down an image into smaller patches and apply self-attention to identify which areas of the image are most relevant, effectively capturing long-range dependencies within the data. This shift from convolutional operations to attention mechanisms enables ViT models to achieve state-of-the-art accuracy in image classification and other tasks, pushing the boundaries of computer vision applications.
+
+
+=== Robotics ===
+
+Open-source artificial intelligence has made a notable impact in robotics by providing a flexible, scalable development environment for both academia and industry. The Robot Operating System (ROS) stands out as a leading open-source framework, offering tools, libraries, and standards essential for building robotics applications. ROS simplifies the development process, allowing developers to work across different hardware platforms and robotic architectures. Furthermore, Gazebo, an open-source robotic simulation software often paired with ROS, enables developers to test and refine their robotic systems in a virtual environment before real-world deployment.
+
+
+=== Healthcare ===
+
+In the healthcare industry, open-source AI has revolutionized diagnostics, patient care, and personalized treatment options. Open-source libraries like Tensorflow and PyTorch have been applied extensively in medical imaging for tasks such as tumor detection, improving the speed and accuracy of diagnostic processes. Additionally, OpenChem, an open-source library specifically geared toward chemistry and biology applications, enables the development of predictive models for drug discovery, helping researchers identify potential compounds for treatment. NLP models, adapted for analyzing electronic health records (EHRs), have also become instrumental in healthcare. By summarizing patient data, detecting patterns, and flagging potential issues, open-source AI has enhanced clinical decision-making and improved patient outcomes, demonstrating the transformative power of AI in medicine.
+
+
+=== Military ===
+
+Open-source AI has become a critical component in military applications, highlighting both its potential and its risks. Meta's Llama models, which have been described as open-source by Meta, were adopted by U.S. defense contractors like Lockheed Martin and Oracle after unauthorized adaptations by Chinese researchers affiliated with the People's Liberation Army (PLA) came to light. The Open Source Initiative and others have contested Meta's use of the term open-source to describe Llama, due to Llama's license containing an acceptable use policy that prohibits use cases including non-U.S. military use. Chinese researchers used an earlier version of Llama to develop tools like ChatBIT, optimized for military intelligence and decision-making, prompting Meta to expand its partnerships with U.S. contractors to ensure the technology could be used strategically for national security. These applications now include logistics, maintenance, and cybersecurity enhancements.
+
+
+== Benefits ==
+The open-source movement has influenced the development of artificial intelligence, enabling the widespread adoption and collaboration that are key to its rapid evolution. By making AI tools freely available, open-source platforms empower individuals, research institutions, and companies to contribute, adapt, and innovate on top of existing technologies.
+
+
+=== Democratizing access ===
+Open-source AI democratizes access to cutting-edge tools, lowering entry barriers for individuals and smaller organizations that may lack resources. By making these technologies freely available, open-source AI allows developers to innovate and create AI solutions that might have been otherwise inaccessible due to financial constraints, enabling independent developers and researchers, smaller organizations, and startups to utilize advanced AI models without the financial burden of proprietary software licenses. This affordability encourages innovation in niche or specialized applications, as developers can modify existing models to meet unique needs.
+
+
+=== Collaboration and faster advancements ===
+By sharing code, data, and research findings, open-source AI enables collective problem-solving and innovation. Large-scale collaborations, such as those seen in the development of frameworks like TensorFlow and PyTorch, have accelerated advancements in machine learning (ML) and deep learning. 
+The open-source nature of these platforms also facilitates rapid iteration and improvement, as contributors from across the globe can propose modifications and enhancements to existing tools. Beyond enhancements directly within ML and deep learning, this collaboration can lead to faster advancements in the products of AI, as shared knowledge and expertise are pooled together.
+
+
+=== Equitable development ===
+The openness of the development process encourages diverse contributions, making it possible for underrepresented groups to shape the future of AI. This inclusivity not only fosters a more equitable development environment but also helps to address biases that might otherwise be overlooked by larger, profit-driven corporations. With contributions from a broad spectrum of perspectives, open-source AI has the potential to create more fair, accountable, and impactful technologies that better serve global communities.
+
+
+=== Transparency and obscurity ===
+
+One key benefit of open-source AI is the increased transparency it offers compared to closed-source alternatives. With open-source models, the underlying algorithms and code are accessible for inspection, which promotes accountability and helps developers understand how a model reaches its conclusions. Additionally, open-weight models such as GPT-3, LLaMA, and Stable Diffusion allow developers to directly access model parameters, potentially facilitating the reduced bias and increased fairness in their applications. This transparency can help create systems with human-readable outputs, or "explainable AI", which is a growingly key concern, especially in high-stakes applications such as healthcare, criminal justice, and finance, where the consequences of decisions made by AI systems can be significant (though may also pose certain risks, as mentioned in the Concerns section).
+
+
+=== Privacy and independence ===
+A Nature editorial suggests medical care could become dependent on AI models that could be taken down at any time, are difficult to evaluate, and may threaten patient privacy. Its authors propose that health-care institutions, academic researchers, clinicians, patients and technology companies worldwide should collaborate to build open-source models for health care of which the underlying code and base models are easily accessible and can be fine-tuned freely with own data sets.
+
+
+== Concerns ==
+In parallel with its benefits, open-source AI brings with it important ethical and social implications, as well as quality and security concerns.
+
+
+=== Quality and security ===
+Open-sourced development of AI has been criticized by researchers for additional quality and security concerns beyond general concerns regarding AI safety.
+Current open-source models underperform closed-source models on most tasks, but open-source models are improving faster to close the gap.
+Open-source development of models has been deemed to have theoretical risks. Once a model is public, it cannot be rolled back or updated if serious security issues are detected. For example, Open-source AI may allow bioterrorism groups like Aum Shinrikyo to remove fine-tuning and other safeguards of AI models to get AI to help develop more devastating terrorist schemes. The main barrier to developing real-world terrorist schemes lies in stringent restrictions on necessary materials and equipment. Furthermore, the rapid pace of AI advancement makes it less appealing to use older models, which are more vulnerable to attacks but also less capable.
+In July 2024, the United States released a presidential report saying it did not find sufficient evidence to restrict revealing model weights.
+
+
+=== Equity, social, and ethical implications ===
+There have been numerous cases of artificial intelligence leading to unintentionally biased products. Some notable examples include AI software predicting higher risk of future crime and recidivism for African-Americans when compared to white individuals, voice recognition models performing worse for non-native speakers, and facial-recognition models performing worse for women and darker-skinned individuals.
+Researchers have also criticized open-source artificial intelligence for existing security and ethical concerns. An analysis of over 100,000 open-source models on Hugging Face and GitHub using code vulnerability scanners like Bandit, FlawFinder, and Semgrep found that over 30% of models have high-severity vulnerabilities. Furthermore, closed models typically have fewer safety risks than open-sourced models. The freedom to augment open-source models has led to developers releasing models without ethical guidelines, such as GPT4-Chan.
+With AI systems increasingly employed into critical frameworks of society such as law enforcement and healthcare, there is a growing focus on preventing biased and unethical outcomes through guidelines, development frameworks, and regulations. Open-source AI has the potential to both exacerbate and mitigate bias, fairness, and equity, depending on its use.
+
+
+== Improving AI models ==
+While AI suffers from a lack of centralized guidelines for ethical development, frameworks for addressing the concerns regarding AI systems are emerging. These frameworks, often products of independent studies and interdisciplinary collaborations, are frequently adapted and shared across platforms like GitHub and Hugging Face to encourage community-driven enhancements.
+
+
+=== Common development malpractices ===
+
+
+==== Data quality ====
+There are numerous systemic problems that may contribute to inequitable and biased AI outcomes, stemming from causes such as biased data, flaws in model creation, and failing to recognize or plan for the possibility of these outcomes. As highlighted in research, poor data quality—such as the underrepresentation of specific demographic groups in datasets—and biases introduced during data curation lead to skewed model outputs.
+A study of open-source AI projects revealed a failure to scrutinize for data quality, with less than 28% of projects including data quality concerns in their documentation. This study also showed a broader concern that developers do not place enough emphasis on the ethical implications of their models, and even when developers do take ethical implications into consideration, these considerations overemphasize certain metrics (behavior of models) and overlook others (data quality and risk-mitigation steps). These issues are compounded by AI documentation practices, which often lack actionable guidance and only briefly outline ethical risks without providing concrete solutions.
+
+
+==== Transparency and "black boxes" ====
+Another key flaw notable in many of the systems shown to have biased outcomes is their lack of transparency. Many open-source AI models operate as "black boxes", where their decision-making process is not easily understood, even by their creators. This lack of interpretability can hinder accountability, making it difficult to identify why a model made a particular decision or to ensure it operates fairly across diverse groups.
+Furthermore, when AI models are closed-source (proprietary), this can facilitate biased systems slipping through the cracks, as was the case for numerous widely adopted facial recognition systems. These hidden biases can persist when those proprietary systems fail to publicize anything about the decision process which could help reveal those biases, such as confidence intervals for decisions made by AI. Especially for systems like those used in healthcare, being able to see and understand systems' reasoning or getting "an [accurate] explanation" of how an answer was obtained is "crucial for ensuring trust and transparency".
+
+
+=== Frameworks for improvement ===
+Efforts to counteract these challenges have resulted in the creation of structured documentation frameworks that guide the ethical development and deployment of AI:
+
+Model Cards: Introduced in a Google research paper, these documents provide transparency about an AI model's intended use, limitations, and performance metrics across different demographics. They serve as a standardized tool to highlight ethical considerations and facilitate informed usage. Though still relatively new, Google believes this framework will play a crucial role in helping increase AI transparency.
+Measurement Modeling: This method combines qualitative and quantitative methods through a social sciences lens, providing a framework that helps developers check if an AI system is accurately measuring what it claims to measure. The framework focuses on two key concepts, examining test-retest reliability ("construct reliability") and whether a model measures what it aims to model ("construct validity"). Through these concepts, this model can help developers break down abstract ideas which can't be directly measured (like socioeconomic status) into specific, measurable components while checking for errors or mismatches that could lead to bias. By making these assumptions clear, this framework helps create AI systems that are more fair and reliable.
+Datasheets for Datasets: This framework emphasizes documenting the motivation, composition, collection process, and recommended use cases of datasets. By detailing the dataset's lifecycle, datasheets enable users to assess its appropriateness and limitations.
+Model Openness Framework: This emerging approach includes principles for transparent AI development, focusing on the accessibility of both models and datasets to enable auditing and accountability.
+As AI use grows, increasing AI transparency and reducing model biases has become increasingly emphasized as a concern. These frameworks can help empower developers and stakeholders to identify and mitigate bias, fostering fairness and inclusivity in AI systems. Using these frameworks can help the open-source community create tools that are not only innovative but also equitable and ethical.
+
+
+== See also ==
+
+Explainable artificial intelligence
+Artificial intelligence in Wikimedia projects
+
+
+== References ==
+
+
+== External links ==
+Is keeping AI closed source safer and better for society than open sourcing AI?, interactive argument map on Kialo

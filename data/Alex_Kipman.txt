@@ -1,0 +1,37 @@
+Alex Kipman (born 1979) is a Brazilian engineer and inventor who is the founder and chief executive officer (CEO) of Analog AI. Previously, he was the lead developer of the Microsoft HoloLens smartgla...
+
+Alex Kipman (born 1979) is a Brazilian engineer and inventor who is the founder and chief executive officer (CEO) of Analog AI. Previously, he was the lead developer of the Microsoft HoloLens smartglasses and helped develop the Xbox Kinect.
+
+
+== Early life and education ==
+Kipman was born in Curitiba in 1979. The son of a Brazilian diplomat, Kipman grew up around the world. When he was seven or eight, he learned how to program the Atari 2600. Later on he would go to RIT, graduating in 2001 with a degree in software engineering.
+
+
+== Career ==
+Kipman joined Microsoft in 2001, starting development on Microsoft's integrated development environment (IDE) Visual Studio. Starting 2005, he helped in the development of Microsoft Windows, until joining the Xbox department in 2008, where he oversaw the acquisition of the technology for the Xbox Kinect from an Israeli company, PrimeSense. The product was finished two years later.
+In 2011, Time magazine named him to its list of its 100 Most Influential People in the World, a list consisting of leaders, artists, innovators, icons and heroes. In a subsequent interview with Fast Company, he said "Software is the only art form in existence that is not bound by the confines of physics." In 2012 he was named Inventor of the Year by the Intellectual Property Owners Association.
+In 2013, Kipman gave the commencement speech at his alma mater, the Rochester Institute of Technology (RIT).
+In 2016, he gave a Ted Talk on mixed reality, called "A futuristic vision of the age of Holograms". In a 2017 interview with Alice Bonasio, he emphasized his passion for mixed reality, stating how it gives him a sense of "displacement superpowers". During the Hololens 2 reveal at the Mobile World Congress in 2019, Alex Kipman talked about how the Hololens 2 would be the "next era" of mixed reality, making it more culturally relevant.
+In 2019 while he was developing metaverse technologies, the Smithsonian Institution in Washington, D.C named Kipman the winner of an American Ingenuity Award, calling him a pioneer of holographic and augmented reality technology. Later that year he gave a speech in Shanghai announcing that Microsoft's second-generation HoloLens would ship later that year.
+In 2021, he received the Longuet-Higgins Prize by the Pattern Analysis and Machine Intelligence (PAMI) Technical Committee at the Conference on Computer Vision and Pattern Recognition (CVPR) for fundamental contributions in computer vision.
+In May 2022, Kipman left Microsoft to found Analog AI. He has been the CEO of Analog AI since 2023. In March 2024, he joined Verses AI as a strategic advisor.
+
+
+== Awards and recognition ==
+Popular Mechanics Breakthrough Award (2009)
+Producers Guild of America Digital 25: Visionaries, Innovators and Producers list (2010)
+Time's Top 25 Nerds of the Year (2010)
+Time's 2011 100 People of the Year
+Fast Company 100 Most Creative People in Business (2011)
+National Inventor of the Year, Intellectual Property Foundation (2012)
+Rochester Institute of Technology Innovators Hall of Fame (2013)
+Smithsonian American Ingenuity Awards (2019)
+Longuet-Higgins prize by IEEE for fundamental contributions in computer vision (2021)
+
+
+== References ==
+
+
+== External links ==
+Fastcompany interview
+Ted speech

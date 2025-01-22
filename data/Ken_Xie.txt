@@ -1,0 +1,29 @@
+Ken Xie (Chinese: 谢青; pinyin: Xiè Qīng) is an American billionaire businessman who founded Systems Integration Solutions (SIS), NetScreen, and Fortinet.  He is CEO of Fortinet, a cybersecurity firm ba...
+
+Ken Xie (Chinese: 谢青; pinyin: Xiè Qīng) is an American billionaire businessman who founded Systems Integration Solutions (SIS), NetScreen, and Fortinet. 
+He is CEO of Fortinet, a cybersecurity firm based in Silicon Valley. Xie was previously the CEO of NetScreen, which was acquired by Juniper Networks for $4 billion in 2004. He built the first ASIC-based firewall/VPN appliance in 1996.
+
+
+== Early life ==
+Xie was born and raised in China. He graduated from Tsinghua University with a B.S. and M.S. in electrical engineering, and from Stanford University with an M.S. in electrical engineering.
+
+
+== Career ==
+In 1993, Xie founded a network security company, Systems Integration Solutions (SIS). Xie built the first ASIC-based firewall/VPN appliance in 1996, in his garage in Palo Alto, California. That same year he founded NetScreen Technologies, an online security firm, with Yan Ke and Feng Deng. NetScreen Technologies was later acquired by Juniper Networks Inc. for $4 billion.
+
+
+=== Fortinet ===
+In 2000, Xie left NetScreen to create Fortinet with his brother Michael Xie, an electrical engineer. Since then, Ken Xie has served as Fortinet's CEO, while Michael Xie is president and chief technology officer. Xie has stated that he founded Fortinet because he believed that security must be embedded in the end-to-end computing and networking infrastructure. The Xie brothers launched the initial FortiGate products in May 2002. Xie has led Fortinet to acquire security monitoring firm AccelOps, endpoint security firm enSilo, SOAR platform provider CyberSponse, and the IoT-focused security firm Bradford Networks.
+In January 2019, Xie was a discussion leader for the Centre for Cybersecurity’s cyber workforce session at Davos’ World Economic Forum (WEF) summit. In February 2020, Ken Xie spoke at the RSA conference in San Francisco about the importance of SD-WAN, edge computing, and automation. Xie is a founding member and a member of the board of directors of the Cyber Threat Alliance. 
+
+
+== Personal life ==
+Xie is married and lives in Los Altos Hills, California. He is the father of Jaime Xie, a fashion influencer and star on the Netflix reality TV series Bling Empire. In September 2020, Xie joined the Forbes 400 list.
+Xie was made a member of the National Academy of Engineering in 2013.
+
+
+=== Private foundation ===
+Xie runs a private foundation, along with his brother. Since 2009, Xie has had more than $30 million in income tax deductions by contributing shares of Fortinet to this private foundation. In 2017, the private foundation spent $3 million on a home in Cupertino, California which Xie and his then-girlfriend lived in. In January 2020, the house was transferred from the foundation to a LLC.
+
+
+== References ==

@@ -1,0 +1,100 @@
+Hanson Robotics Limited is a Hong Kong–based engineering and robotics company founded by David Hanson, known for its development of human-like robots with artificial intelligence (AI) for consumer, en...
+
+Hanson Robotics Limited is a Hong Kong–based engineering and robotics company founded by David Hanson, known for its development of human-like robots with artificial intelligence (AI) for consumer, entertainment, service, healthcare, and research applications. The robots include Albert HUBO, the first walking robot with human-like expressions; BINA48, an interactive humanoid robot bust; and Sophia, the world's first robot citizen. The company has 45 employees.
+Hanson Robotics' robots feature a patented spongy elastomer skin called Frubber that resembles human skin in its feel and flexibility. Underneath the Frubber are proprietary motor control systems by which the robots mimic human expressions.
+
+
+== History ==
+In 2013, the company moved from Texas to Hong Kong Science Park and planned to develop a robotics hub in Hong Kong.
+In October 2016, the company was selected as one of nine companies to join the Disney Accelerator program.
+
+
+== Humanoid robots ==
+The company has focused on building robots that mimic the look of humans.
+
+
+=== Sophia ===
+
+Sophia is Hanson Robotics' most well-known robot, is regularly featured in news outlets, and receives a great deal of public interest. The company's latest creation made her debut at the 2016 South by Southwest (SXSW) show, with her interview by CNBC reaching a broad audience. Since then, she has become a global media personality, having conducted numerous press interviews and appeared on broadcast television shows including CBS 60 Minutes with Charlie Rose, the Tonight Show Starring Jimmy Fallon, and Good Morning Britain. She has also been a keynote and panel speaker at global conferences and events, including those hosted by ITU, United Nations.
+Sophia was featured in AUDI's annual report and has graced the cover and centerfold of ELLE Magazine. Sophia is also the first United Nations Development Programme's first ever Innovation Champion, and the first non-human to be given any UN title. In 2018, Sophia won an Edison Award for Innovation in that competition's robotics category.
+
+
+=== Alice ===
+Alice was developed in 2008 for MIRA Labs in Geneva, Switzerland. The female robot has an emotionally expressive face. She acts to serve cognitive robotics research at the University of Geneva and is part of the INDIGO cognitive robotics consortium, where Hanson Robotics is a founding member.
+
+
+=== Albert Einstein HUBO ===
+
+Albert Einstein HUBO was, developed in November 2005 in collaboration with the Korea Advanced Institute of Science and Technology (KAIST) HUBO group of Korea. Inspired by German-born theoretical physicist Albert Einstein, the expressive walking humanoid featured Einstein's head on a HUBO robot body. KAIST built the walking body, and Hanson Robotics built the animatronic head and the face, which uses elastic polymer called Frubber.
+The robot debuted at the Asia-Pacific Economic Cooperation (APEC) Summit in November 2005.
+Albert Einstein HUBO can perform realistic facial expressions and mimic Albert Einstein's voice via a voice synthesizer. The robot is currently at the University of California, San Diego at the California Institute for Telecommunications and Information Technology (Calit2).
+
+
+=== BINA48 ===
+
+BINA48 (Breakthrough Intelligence via Neural Architecture 48) is a humanoid robot who has a bust-like head and shoulders mounted on a frame, and can produce realistic facial appearance from 30 motors beneath her Frubber skin. She was released by Hanson in 2010. She is described as a "technological sketch" of a human being, commissioned by millionaire Martine Rothblatt to mimic the appearance of her spouse of over 35 years, Bina Rothblatt.
+BINA48 includes a database with dozens of books which she is able to recite. BINA48 is currently stationed at the non-profit Terasem Movement Foundation, Inc.
+
+
+=== Han ===
+Han debuted in 2015 at the Global Sources electronics fair in Hong Kong. The robot was designed to identify and replicate human expressions. He is able to detect people using an array of cameras and speech recognition technology, decipher their gender, age, and facial indications of emotion (i.e. happy or sad), and as such, Hanson Robotics has suggested the robot could be of use in hotels or customer service positions. Han is bald with masculine features. He possesses a British accent, and specializes in making humorous facial expressions.
+
+
+=== Jules ===
+Jules debuted in 2006 at Wired Nextfest. Jules is a robot that has machine learning capabilities, face tracking, and facial recognition. His software was development by Hanson Robotics in collaboration with the Personality Forge AI Chatbot Platform, with Personality Forge founder and developer, Benji Adams, and AI developer Heather McKeen. Jules is described as having a "statistically perfect androgynous face". The robot currently resides at the University of West England in Bristol.
+
+
+=== Professor Einstein ===
+Professor Einstein is Hanson Robotics' first personal robot available to consumers. The robot was developed in 2016 and was unveiled at the Consumer Electronics Show (CES) in Las Vegas in January 2017. The robot first became available for purchase to consumers in January 2017 after launching on the crowdfunding platform Kickstarter, and later became available on Amazon and at other popular retailers across the United States.
+Professor Einstein is marketed as an educational tool to teach science, primarily to children ages 8–13. The robot can speak about science, tell jokes, and connect to Wifi to check the weather or access information on the internet. It has a corresponding app called the Stein-O-Matic that offers games, videos, and lessons. Motors allow it to walk, make different facial expressions, and an on-chest camera tracks faces.
+
+
+=== Philip K. Dick Android ===
+
+Philip K. Dick Android was shown publicly for the first time in 2005 at Wired Nextfest. He was designed as an android portrait of the American science fiction writer Philip K. Dick, and was programmed to contain thousands of pages of the writings of the author, including journals and letters, into a Latent Semantic Analysis (LSA) corpus and conversational system construct android.
+In 2005, Hanson and team received an AAAI award for their "intelligent conversational portrait" of Philip K. Dick. In 2005, the original robot was lost on a plane headed for San Francisco and was never found.
+In 2011, in collaboration with Dutch public broadcaster VPRO, Hanson Robotics developed and introduced a new version of the android. The android bust uses 36 servomotors to create facial expressions and has motion-tracking machine vision .
+Philip K. Dick Android is currently dedicated to research with the nonprofit Apollo Mind Initiative.
+
+
+=== Zeno ===
+Zeno debuted in 2007 at Wired Nextfest. The robot could see, hear, and talk. Zeno featured more than 28 specialized motors, an agile body, and expressive face. Named for creator David Hanson's son Zeno and designed as a nod to Astro Boy, In 2012, an updated version of Zeno was released, which included Dynamixel RX-28 and RX-64 servos, plus a sensor suite comprising a gyro, accelerometer, compass, torque sensors, touch sensors, and temperature sensors, as well as more cartoon-like features.
+
+
+=== Joey Chaos ===
+Joey Chaos was unveiled by Hanson Robotics at the 2007 RoboBusiness Conference and Expo in Boston, MA. The robot was created to study human-robot interaction and has camera eyes to track human faces and speech recognition software.
+
+
+== Criticism ==
+
+Hanson Robotics' humanoid robotics have been criticized by leading AI researchers. For example, Facebook's Yann LeCun has called Sophia a "puppet" and questioned the value of Sophia and similar robots, as well as the presentation of these robots as far more intelligent than what they truly are.
+Sophia being given citizenship in Saudi Arabia was further criticized, not only because of Sophia's lack of consciousness, but the difficulty of people achieving citizenship in that country despite actually living and working there for years
+.
+
+
+== Awards ==
+Gold Medal, Edison Innovation Awards, 2018
+Winner of 2009 Italian Centro Nationale Riserche (CNR) Scholarship, 2008–2009
+Winner of TechTitan's Innovator of the Year award, 2007
+Winner of TX State Emerging Technology Award, 2007
+Cooper-Hewitt Smithsonian Best Design Triennial, December 2006
+UTA ARRI Innovation Award, February 2006
+2005 AAAI award, First Place for Open Interaction (PKD Android)
+NIST ATP Award, "Highly meritorious" designation, 2004 (with funding pending the 2005 Congressional spending bill)
+World Technology Award, nominee and semifinalist: Best IT Hardware, 2004
+Themed Entertainment Association, Best Themed Display Award, First Place for the "World of Disney Themed Store" at Walt Disney World, Orlando, FL, 1996
+Rhode Island School of Design Merit Award, 1992-1996
+
+
+== Affiliations ==
+Member, American Association for the Advancement of Science (AAAS) since 2000
+Member, American Association for Artificial Intelligence (AAAI) since 2001
+Member, SPIE since 2001
+Member, Visual Sciences Society (VSS) since 2003
+
+
+== References ==
+
+
+== External links ==
+Official website

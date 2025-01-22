@@ -1,0 +1,110 @@
+Apple Intelligence is an artificial intelligence system developed by Apple Inc. Relying on a combination of on-device and server processing, it was announced on June 10, 2024, at WWDC 2024, as a built...
+
+Apple Intelligence is an artificial intelligence system developed by Apple Inc. Relying on a combination of on-device and server processing, it was announced on June 10, 2024, at WWDC 2024, as a built-in feature of Apple's iOS 18, iPadOS 18, and macOS Sequoia, which were announced alongside Apple Intelligence. Apple Intelligence is free for all users with supported devices. It launched for developers and testers on July 29, 2024, in U.S. English, with the iOS 18.1, macOS 15.1, and iPadOS 18.1 developer betas, released partially in October 2024, and will fully launch by 2025. UK, Australia, Canada, New Zealand, and South African localized versions of English gained support on December 11, 2024, while Chinese, English (India), English (Singapore), French, German, Italian, Japanese, Korean, Portuguese, Spanish, and Vietnamese will be added over the course of 2025. Apple Intelligence is also set to start rolling out in the European Union in April 2025.
+
+
+== Models ==
+Apple Intelligence consists of an on-device model as well as a cloud model running on servers primarily using Apple silicon. Both models consist of a generic foundation model, as well as multiple adapter models that are more specialized to particular tasks like text summarization and tone adjustment.
+According to a human evaluation done by Apple's machine learning division, the on-device foundation model beat or tied equivalent small models by Mistral AI, Microsoft, and Google, while the server foundation models beat the performance of OpenAI's GPT-3, while roughly matching the performance of GPT-4.
+Apple's cloud models are built on a Private Cloud Compute platform which is designed heavily with user privacy and end-to-end encryption in mind. Unlike other generative AI services like ChatGPT which use servers from third-parties, Apple Intelligence's cloud models are run entirely on Apple servers with custom Apple silicon hardware built for end-to-end encryption. It was also designed to make sure that the software running on said servers matches the independently verifiable software accessible to researchers. In case of a software mismatch, Apple devices will refuse to connect to the servers.
+
+
+== Functionality and features ==
+
+
+=== Writing Tools ===
+Apple Intelligence features writing tools that are powered by AI, including Rewrite, and Proofread. These features help enhance users' writing to make it more friendly, concise or professional, similar to Grammarly's AI writing features. It can also be used to generate summaries, key points, tables, and lists from an article or piece of writing. GPT-4o will be available as an optional integrated part of Writing Tools.
+
+
+=== Image Playground ===
+
+Apple Intelligence can be used to generate images on-device with the Image Playground app. Similarly to OpenAI's DALL-E, it can be used to generate images using AI, using phrases and descriptions to create an image with customizable styles such as Animation and Sketch. In Notes, users can access Image Playground on iPad, MacOS and iPhone through the Image Wand tool in the Apple Pencil palette without having to open the Image Playground app. Rough sketches made with Apple Pencil can be transformed into images.
+
+
+=== Genmoji ===
+
+Using Apple Intelligence text-to-image models, users can create original "Genmoji" images by typing descriptions. Users can pick people in photos and create Genmoji images that resemble them. Similarly to emoji, Genmoji can be added inline to text messages, tapbacks, stickers and can be shared in Messages as well in third-party applications as inline messages or as stickers.
+
+
+=== Siri overhaul ===
+Siri, Apple's virtual assistant, has been updated with enhanced capabilities made possible by Apple Intelligence. The latest iteration features an updated user interface, improved natural language processing, and the option to interact via text by double tapping the home bar without enabling the feature in the Accessibility menu, or double-clicking the command key on macOS. In a later update, Apple Intelligence will add the ability for Siri to use personal context from device activities to answer queries.
+
+
+=== Mail ===
+Apple Intelligence adds a feature called Priority Messages to the Mail app, which shows urgent emails such as same-day invitations or boarding passes, with AI generated summaries of the email. The Mail app also gains the ability to categorize incoming mail into Primary, Transactions, Updates, and Promotions based on what the email contains, which Apple claims is done all on-device.
+
+
+=== Photos ===
+Apple's Photos app includes a feature to create custom memory movies and enhanced search capabilities. Users can describe a story, and using Apple Intelligence, selects matching photos, videos, and music. Users can also remove distractions in images with the Clean Up tool in the Photos app. Apple Intelligence identifies background objects and removes them with a tap, brush, or circle. It organizes these into a movie with a narrative arc based on identified themes. Additionally, users can search for specific photos or videos by description and/or keyword, and Apple Intelligence can pinpoint particular moments within video clips.
+
+
+=== Notifications ===
+Using the Notification Summary feature, Apple Intelligence can summarize notifications from messaging apps and groups of notifications from apps so that users don't have to examine large amounts of notifications. A new Reduce Interruptions focus mode silences notifications deemed unimportant while letting important notifications go through.
+
+
+=== Visual Intelligence ===
+On the iPhone 16 and 16 Pro or later, users are able to hold down the Camera Control button and take a picture of an item to then either send to ChatGPT or search with Google. The image taken is not stored on your device, and Apple claims they do not get the image either. This is meant to allow people to learn more about items faster.
+
+
+=== ChatGPT integration ===
+As a result of the company's partnership with OpenAI, Apple Intelligence also includes a system-wide integration with ChatGPT, allowing Siri to determine when to send certain complex user requests to ChatGPT. This system-wide integration is powered by GPT-4o. ChatGPT integration is opt-in by default, with users being prompted before any data or photos are sent to ChatGPT servers and IP addresses being obscured when requests are sent to OpenAI's servers. Using ChatGPT features is free for all users without needing to sign in, however, they will only get a limited number of GPT-4o requests until switching to a less powerful GPT. Paid subscribers can sign in to gain access to paid features systemwide including more requests using GPT-4o. Apple plans to integrate other models such as Google's Gemini into the system in the future.
+
+
+== Development ==
+
+
+=== Background ===
+Apple first implemented artificial intelligence features in its products with the release of Siri in the iPhone 4S in 2011. In the years after its release, Apple engaged in efforts to ensure its artificial intelligence operations remained covert; according to University of California, Berkeley professor Trevor Darrell, the company's secrecy deterred graduate students. The company started expanding its artificial intelligence team in 2015, opening up its operations by publishing more scientific papers and joining AI industry research groups. Apple reportedly acquired more AI companies from 2016 to 2020. In 2017, Apple released the iPhone 8 and the iPhone X with the A11 Bionic processor, which featured its first dedicated Neural Engine for accelerating common machine learning tasks. Despite its investments in artificial intelligence, Siri was criticized both by reviewers and internally at Apple for lagging behind other AI assistants.
+The rapid development of generative artificial intelligence and the release of ChatGPT in late 2022 reportedly blindsided Apple executives and forced the company to refocus its efforts on AI. In an interview with Good Morning America, Apple CEO Tim Cook stated that generative AI had "great promise" but had some potential dangers, and that it was "looking closely" at ChatGPT. It was first reported in July 2023 that Apple was creating its own internal large language model, codenamed "Ajax". In October 2023, Apple was reportedly on track to release generative AI features into its operating systems by 2024, including a significantly redeveloped Siri. In an earnings call in February 2024, Cook stated that the company was spending a "tremendous amount of time and effort" into AI features that would be shared "later that year".
+
+
+=== Release timeline ===
+
+
+== Supported devices ==
+All Macs and iPads with an M-series Apple silicon chip will support Apple Intelligence with the release of macOS 15.1 and iPadOS 18.1. iPhones and iPads with the A17 Pro chip or later and the A18 chip or later will also be supported with the release of iOS 18.1. Apple claims the less capable Neural Engine of older chips, which is used for AI tasks, are not powerful enough for Apple Intelligence features. Analyst Ming-Chi Kuo speculates that the RAM requirements of the on-device model prohibits Apple Intelligence from running on older iPhone models. 
+Apple Intelligence cannot be used on Macs if the operating system is booted off of an external drive, but workarounds exist to circumvent the limitation.
+
+
+=== Macs ===
+MacBook Air (M1, 2020) or later
+MacBook Pro (M1, 2020) or later
+Mac Mini (M1, 2020) or later
+Mac Pro (M2 Ultra, 2023)
+Mac Studio (M1 Max/Ultra, 2022) or later
+iMac (M1, 2021) or later
+
+
+=== iPads ===
+iPad Pro (M1, 5th generation, 2021) or later
+iPad Air (M1, 5th generation, 2022) or later
+iPad mini (A17 Pro, 7th generation, 2024) or later
+
+
+=== iPhones ===
+iPhone 15 Pro and 15 Pro Max or later
+iPhone 16 and 16 Plus or later
+
+
+== Reception ==
+
+
+=== Critical response ===
+Apple Intelligence received mixed reviews upon its release. Allison Johnson of The Verge found the release "underwhelming", but noted features like notification summarization "a little more promising".
+
+
+=== News summary controversy ===
+In December 2024, BBC News sent a complaint to Apple over its notification summary feature falsely stating that Luigi Mangione, then recently arrested following the shooting of UnitedHealthcare CEO Brian Thompson, had killed himself. In January 2025, the BBC followed up its complaint, showing the feature incorrectly proclaiming that Luke Littler won the PDC World Darts Championship hours before the final was about to took place and that "Brazilian  [sic] tennis player" Rafael Nadal came out as gay.
+In a response to the BBC, an Apple spokesperson clarified that all Apple Intelligence features were still in beta and were being continuously improved, and encouraged users to send feedback for unexpected summaries. Notification summaries for all news applications were later disabled in the iOS 18.3 beta, and a disclaimer was added to the Settings app warning that summaries "may contain errors".
+
+
+== See also ==
+Multimodal large language model – Type of machine learning modelPages displaying short descriptions of redirect targets
+
+
+== References ==
+
+
+== External links ==
+Official website
+Apple Developer page

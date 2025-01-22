@@ -1,0 +1,15 @@
+ == Data Science Africa (DSA) == Data Science Africa (DSA) is a non-profit knowledge sharing professional group that aims at bringing together leading researchers and practitioners working on data sci...
+
+
+== Data Science Africa (DSA) ==
+Data Science Africa (DSA) is a non-profit knowledge sharing professional group that aims at bringing together leading researchers and practitioners working on data science methods or applications relevant to Africa, and providing training on state of the art data science methods to students and others interested in developing practical skills. Since 2013, DSA has been organizing conference, workshops and summer schools on machine learning and data science across East Africa. Facilitators of Summer School and workshops are researchers and practitioners from the academia, private and public institutions across the world.
+
+
+== Summer School and Workshops ==
+The first summer school which started as Gaussian Process Summer School was held at Makerere University in Kampala, Uganda from 6th to 9 August 2013.
+The First Data Science Summer School and Workshop was held at Dedan Kimathi University of Technology in Nyeri, Kenya from 15th to 19 June 2015.
+The Second Data Science Summer School was held at Makerere University, Kampala, Uganda from 27th to 29 July 2016, and the workshop was held at Pulse Lab, Kampala, Uganda from 30 July to 1 August 2016.
+The Third Data Science Summer School and Workshop was held at Nelson Mandela African Institute of Science and Technology, Tanzania from 19th to 21 July 2017. Among the sponsors of the event was ARM
+
+
+== References ==

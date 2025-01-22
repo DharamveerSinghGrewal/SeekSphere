@@ -1,0 +1,14 @@
+In computing, hyperscale is the ability of an architecture to scale appropriately as increased demand is added to the system. This typically involves the ability to seamlessly provide and add compute,...
+
+In computing, hyperscale is the ability of an architecture to scale appropriately as increased demand is added to the system.
+This typically involves the ability to seamlessly provide and add compute, memory, networking, and storage resources to a given node or set of nodes that make up a larger computing, distributed computing, or grid computing environment. Hyperscale computing is necessary in order to build a robust and scalable cloud, big data, map reduce, or distributed storage system and is often associated with the infrastructure required to run large distributed sites such as Google, Facebook, Twitter, Amazon, Microsoft, IBM Cloud or Oracle Cloud.
+Companies like Ericsson, AMD, and Intel provide hyperscale infrastructure kits for IT service providers.
+Companies like Scaleway, Switch, Alibaba, IBM, QTS, Digital Realty Trust, Equinix, Oracle, Meta, Amazon Web Services, SAP, Microsoft and Google build data centers for hyperscale computing. Such companies are sometimes called "hyperscalers." They are recognized for their massive scale in cloud computing and data management, operating in environments that require extensive infrastructure to accommodate large-scale data processing and storage.
+
+
+== See also ==
+Software-defined networking
+Software-defined storage
+
+
+== References ==

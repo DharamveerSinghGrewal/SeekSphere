@@ -1,0 +1,85 @@
+In quantum computing, the threshold theorem (or quantum fault-tolerance theorem) states that a quantum computer with a physical error rate below a certain threshold can, through application of quantum...
+
+In quantum computing, the threshold theorem (or quantum fault-tolerance theorem) states that a quantum computer with a physical error rate below a certain threshold can, through application of quantum error correction schemes, suppress the logical error rate to arbitrarily low levels. This shows that quantum computers can be made fault-tolerant, as an analogue to von Neumann's threshold theorem for classical computation. This result was proven (for various error models) by the groups of Dorit Aharanov and Michael Ben-Or; Emanuel Knill, Raymond Laflamme, and Wojciech Zurek; and Alexei Kitaev independently. These results built on a paper of Peter Shor, which proved a weaker version of the threshold theorem.
+
+
+== Explanation ==
+The key question that the threshold theorem resolves is whether quantum computers in practice could perform long computations without succumbing to noise. Since a quantum computer will not be able to perform gate operations perfectly, some small constant error is inevitable; hypothetically, this could mean that quantum computers with imperfect gates can only apply a constant number of gates before the computation is destroyed by noise.
+Surprisingly, the quantum threshold theorem shows that if the error to perform each gate is a small enough constant, one can perform arbitrarily long quantum computations to arbitrarily good precision, with only some small added overhead in the number of gates. The formal statement of the threshold theorem depends on the types of error correction codes and error model being considered. Quantum Computation and Quantum Information, by Michael Nielsen and Isaac Chuang, gives the general framework for such a theorem:
+Threshold theorem for quantum computation: 481 : A quantum circuit on n qubits and containing p(n) gates may be simulated with probability of error at most ε using
+
+  
+    
+      
+        O
+        (
+        
+          log
+          
+            c
+          
+        
+        ⁡
+        (
+        p
+        (
+        n
+        )
+        
+          /
+        
+        ε
+        )
+        p
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle O(\log ^{c}(p(n)/\varepsilon )p(n))}
+  
+
+gates (for some constant c) on hardware whose components fail with probability at most p, provided p is below some constant threshold, 
+  
+    
+      
+        p
+        <
+        
+          p
+          
+            
+              t
+              h
+            
+          
+        
+      
+    
+    {\displaystyle p<p_{\rm {th}}}
+  
+, and given reasonable assumptions about the noise in the underlying hardware.
+
+Threshold theorems for classical computation have the same form as above, except for classical circuits instead of quantum. The proof strategy for quantum computation is similar to that of classical computation: for any particular error model (such as having each gate fail with independent probability p), use error correcting codes to build better gates out of existing gates. Though these "better gates" are larger, and so are more prone to errors within them, their error-correction properties mean that they have a lower chance of failing than the original gate (provided p is a small-enough constant). Then, one can use these better gates to recursively create even better gates, until one has gates with the desired failure probability, which can be used for the desired quantum circuit. According to quantum information theorist Scott Aaronson:"The entire content of the Threshold Theorem is that you're correcting errors faster than they're created. That's the whole point, and the whole non-trivial thing that the theorem shows. That's the problem it solves."
+
+
+== Threshold value in practice ==
+Current estimates put the threshold for the surface code on the order of 1%, though estimates range widely and are difficult to calculate due to the exponential difficulty of simulating large quantum systems. At a 0.1% probability of a depolarizing error, the surface code would require approximately 1,000-10,000 physical qubits per logical data qubit, though more pathological error types could change this figure drastically.
+
+
+== See also ==
+Quantum error correction schemes
+Physical and logical qubits
+Fault tolerance
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Gil Kalai. "Perpetual Motion of The 21st Century?".
+Scott Aaronson. "PHYS771 Lecture 14: Skepticism of Quantum Computing": «The entire content of the Threshold Theorem is that you're correcting errors faster than they're created. That's the whole point, and the whole non-trivial thing that the theorem shows. That's the problem it solves.»

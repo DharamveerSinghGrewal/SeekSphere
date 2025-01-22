@@ -1,0 +1,72 @@
+Superconducting logic refers to a class of logic circuits or logic gates that use the unique properties of superconductors, including zero-resistance wires, ultrafast Josephson junction switches, and ...
+
+Superconducting logic refers to a class of logic circuits or logic gates that use the unique properties of superconductors, including zero-resistance wires, ultrafast Josephson junction switches, and quantization of magnetic flux (fluxoid). As of 2023, superconducting computing is a form of cryogenic computing, as superconductive electronic circuits require cooling to cryogenic temperatures for operation, typically below 10 kelvin. Often superconducting computing is applied to quantum computing, with an important application known as superconducting quantum computing.
+Superconducting digital logic circuits use single flux quanta (SFQ), also known as magnetic flux quanta, to encode, process, and transport data. SFQ circuits are made up of active Josephson junctions and passive elements such as inductors, resistors, transformers, and transmission lines. Whereas voltages and capacitors are important in semiconductor logic circuits such as CMOS, currents and inductors are most important in SFQ logic circuits. Power can be supplied by either direct current or alternating current, depending on the SFQ logic family.
+
+
+== Fundamental concepts ==
+The primary advantage of superconducting computing is improved power efficiency over conventional CMOS technology.  Much of the power consumed, and heat dissipated, by conventional processors comes from moving information between logic elements rather than the actual logic operations.  Because superconductors have zero electrical resistance, little energy is required to move bits within the processor.  This is expected to result in power consumption savings of a factor of 500 for an exascale computer. For comparison, in 2014 it was estimated that a 1 exaFLOPS computer built in CMOS logic is estimated to consume some 500 megawatts of electrical power.  Superconducting logic can be an attractive option for ultrafast CPUs, where switching times are measured in picoseconds and operating frequencies approach 770 GHz.  However, since transferring information between the processor and the outside world does still dissipate energy, superconducting computing was seen as well-suited for computations-intensive tasks where the data largely stays in the cryogenic environment, rather than big data applications where large amounts of information are streamed from outside the processor.
+As superconducting logic supports standard digital machine architectures and algorithms, the existing knowledge base for CMOS computing will still be useful in constructing superconducting computers.  However, given the reduced heat dissipation, it may enable innovations such as three-dimensional stacking of components.  However, as they require inductors, it is harder to reduce their size.  As of 2014, devices using niobium as the superconducting material operating at 4 K were considered state-of-the-art.  Important challenges for the field were reliable cryogenic memory, as well as moving from research on individual components to large-scale integration.
+Josephson junction count is a measure of superconducting circuit or device complexity, similar to the transistor count used for semiconductor integrated circuits.
+
+
+== History ==
+Superconducting computing research has been pursued by the U. S. National Security Agency since the mid-1950s. However, progress could not keep up with the increasing performance of standard CMOS technology.  As of 2016 there are no commercial superconducting computers, although research and development continues.
+Research in the mid-1950s to early 1960s focused on the cryotron invented by Dudley Allen Buck, but the liquid-helium temperatures and the slow switching time between superconducting and resistive states caused this research to be abandoned.  In 1962 Brian Josephson established the theory behind the Josephson effect, and within a few years IBM had fabricated the first Josephson junction. IBM invested heavily in this technology from the mid-1960s to 1983. By the mid-1970s IBM had constructed a superconducting quantum interference device using these junctions, mainly working with lead-based junctions and later switching to lead/niobium junctions. In 1980 the Josephson computer revolution was announced by IBM through the cover page of the May issue of Scientific American. One of the reasons which justified such a large-scale investment lies in that Moore's law - enunciated in 1965 - was expected to slow down and reach a plateau 'soon'. However, on the one hand Moore's law kept its validity, while the costs of improving superconducting devices were basically borne entirely by IBM alone and the latter, however big, could not compete with the whole world of semiconductors which provided nearly limitless resources.  Thus, the program was shut down in 1983 because the technology was not considered competitive with standard semiconductor technology.  Founded by researchers with this IBM program, HYPRES developed and commercialized superconductor integrated circuits from its commercial superconductor foundry in Elmsford, New York.    The Japanese Ministry of International Trade and Industry funded a superconducting research effort from 1981 to 1989 that produced the ETL-JC1, which was a 4-bit machine with 1,000 bits of RAM.
+In 1983, Bell Labs created niobium/aluminum oxide Josephson junctions that were more reliable and easier to fabricate.  In 1985, the Rapid single flux quantum logic scheme, which had improved speed and energy efficiency, was developed by researchers at Moscow State University.  These advances led to the United States' Hybrid Technology Multi-Threaded project, started in 1997, which sought to beat conventional semiconductors to the petaflop computing scale.  The project was abandoned in 2000, however, and the first conventional petaflop computer was constructed in 2008.  After 2000, attention turned to superconducting quantum computing.  The 2011 introduction of reciprocal quantum logic by Quentin Herr of Northrop Grumman, as well as energy-efficient rapid single flux quantum by Hypres, were seen as major advances.
+The push for exascale computing beginning in the mid-2010s, as codified in the National Strategic Computing Initiative, was seen as an opening for superconducting computing research as exascale computers based on CMOS technology would be expected to require impractical amounts of electrical power.  The Intelligence Advanced Research Projects Activity, formed in 2006, currently coordinates the U. S. Intelligence Community's research and development efforts in superconducting computing.
+
+
+== Conventional computing techniques ==
+Despite the names of many of these techniques containing the word "quantum", they are not necessarily platforms for quantum computing.
+
+
+=== Rapid single flux quantum (RSFQ) ===
+Rapid single flux quantum (RSFQ) superconducting logic was developed in the Soviet Union in the 1980s. Information is carried by the presence or absence of a single flux quantum (SFQ). The Josephson junctions are critically damped, typically by addition of an appropriately sized shunt resistor, to make them switch without a hysteresis. Clocking signals are provided to logic gates by separately distributed SFQ voltage pulses.
+Power is provided by bias currents distributed using resistors that can consume more than 10 times as much static power than the dynamic power used for computation. The simplicity of using resistors to distribute currents can be an advantage in small circuits and RSFQ continues to be used for many applications where energy efficiency is not of critical importance.
+RSFQ has been used to build specialized circuits for high-throughput and numerically intensive applications, such as communications receivers and digital signal processing.
+Josephson junctions in RSFQ circuits are biased in parallel. Therefore, the total bias current grows linearly with the Josephson junction count. This currently presents the major limitation on the integration scale of RSFQ circuits, which does not exceed a few tens of thousands of Josephson junctions per circuit.
+
+
+=== LR-RSFQ ===
+Reducing the resistor (R) used to distribute currents in traditional RSFQ circuits and adding an inductor (L) in series can reduce the static power dissipation and improve energy efficiency.
+
+
+=== Low Voltage RSFQ (LV-RSFQ) ===
+Reducing the bias voltage in traditional RSFQ circuits can reduce the static power dissipation and improve energy efficiency.
+
+
+=== Energy-Efficient Single Flux Quantum Technology (ERSFQ/eSFQ) ===
+Efficient rapid single flux quantum (ERSFQ) logic was developed to eliminate the static power losses of RSFQ by replacing bias resistors with sets of inductors and current-limiting Josephson junctions.
+Efficient single flux quantum (eSFQ) logic is also powered by direct current, but differs from ERSFQ in the size of the bias current limiting inductor and how the limiting Josephson junctions are regulated.
+
+
+=== Reciprocal Quantum Logic (RQL) ===
+Reciprocal Quantum Logic (RQL) was developed to fix some of the problems of RSFQ logic. RQL uses reciprocal pairs of SFQ pulses to encode a logical '1'. Both power and clock are provided by multi-phase alternating current signals. RQL gates do not use resistors to distribute power and thus dissipate negligible static power.
+Major RQL gates include: AndOr, AnotB, Set/Reset (with nondestructive readout), which together form a universal logic set and provide memory capabilities.
+
+
+=== Adiabatic Quantum Flux Parametron (AQFP) ===
+Adiabatic Quantum flux parametron (AQFP) logic was developed for energy-efficient operation and is powered by alternating current.
+On January 13, 2021, it was announced that a 2.5 GHz prototype AQFP-based processor called MANA (Monolithic Adiabatic iNtegration Architecture) had achieved an energy efficiency that was 80 times that of traditional semiconductor processors, even accounting for the cooling.
+
+
+== Quantum computing techniques ==
+
+Superconducting quantum computing is a promising implementation of quantum information technology that involves nanofabricated superconducting electrodes coupled through Josephson junctions. As in a superconducting electrode, the phase and the charge are conjugate variables. There exist three families of superconducting qubits, depending on whether the charge, the phase, or neither of the two are good quantum numbers. These are respectively termed charge qubits, flux qubits, and hybrid qubits.
+
+
+== See also ==
+Beyond CMOS
+Logic gate
+Quantum flux parametron
+Superconductivity
+Unconventional computing
+
+
+== References ==
+
+
+== External links ==
+Superconducting Technology Assessment, NSA, 2005 - Promoted RSFQ R&D projects.
+ExaScale Computing Study: Technology Challenges in Achieving... Report 2008, "6.2.4 Superconducting Logic"

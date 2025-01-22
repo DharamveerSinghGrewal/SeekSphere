@@ -1,0 +1,58 @@
+David Hanson Jr.  is an American roboticist who is the founder and Chief Executive Officer (CEO) of Hanson Robotics, a Hong Kong–based robotics company founded in 2013. The designer and researcher cre...
+
+David Hanson Jr.  is an American roboticist who is the founder and Chief Executive Officer (CEO) of Hanson Robotics, a Hong Kong–based robotics company founded in 2013.
+The designer and researcher creates human-looking robots who have realistic facial expressions, including Sophia and other robots designed to mimic human behavior. Sophia has received widespread media attention, and was the first robot to be granted citizenship.
+
+
+== Early life and education ==
+Hanson was born on December 20, 1969, in Dallas, Texas, United States. He studied at Highland Park High School for his senior year to focus on math and science. As a teenager, Hanson’s hobbies included drawing and reading science fiction works by writers like Isaac Asimov and Philip K. Dick—the latter of whom he would later replicate in android form.
+Hanson has a Bachelor of Fine Arts from the Rhode Island School of Design in Film, Animation, Video (FAV) and a Ph.D. from the University of Texas at Dallas in interactive arts and engineering. In 1995 as part of an independent-study project on out-of-body experiences, he built a humanoid head in his own likeness, operated by a remote operator.
+
+
+== Career ==
+Hanson’s career has focused on creating humanlike robots. Hanson's most well-known creation is Sophia, the world's first ever robot citizen.
+In 2004 at a Denver American Association for the Advancement of Science (AAAS) conference, Hanson presented K-Bot, a robotic head created with polymer skin, finely sculpted features, and big blue eyes. Named after his lab assistant Kristen Nelson, the robot head had 24 servomotors for realistic movement and cameras in its eyes. At the time he was 33 years old and a graduate student at the University of Texas Dallas.
+After he graduated from university, Hanson worked as an artist, and went on to work for Disney where he was a sculptor and material researcher in the Disney Imagineering Lab. He has worked as a designer, sculptor, and robotics developer for Universal Studios and MTV. In 2004, Hanson built the humanoid robot Hertz, a female presenting animated robot head that took about nine months to build.
+Hanson is the founder and CEO of Hong Kong-based Hanson Robotics, which was founded in 2013.
+Hanson has been published in materials science, artificial intelligence, cognitive science, and robotics journals.
+Hanson argues precise human looks are a must if people are going to effectively communicate with robots. Hanson believes social humanoid robots have the potential to serve humanity in a variety of functions and helping roles, like tutor, companion, or security guard. He argues the realism of his work has the potential to pose "an identity challenge to the human being," and that realistic robots may polarize the market between those who love realistic robots and those who find them disturbing. Many of Hanson's creations currently serve at research or non-profit institutions around the world, including at  the University of Cambridge, University of Geneva, University of Pisa and in laboratories for cognitive science and AI research.
+Hanson's creation Zeno, a two-foot tall robot designed in the style of a cartoon boy, provides treatment sessions to children with autism in Texas as a result of a collaboration between the University of Texas at Arlington, Dallas Autism Treatment Center, Texas Instruments and National Instruments, and Hanson.
+Other robots include Albert Einstein HUBO, a robotic head designed to look like Albert Einstein's and put it on top of the "HUBO" bipedal robotic frame, and Professor Einstein, a 14.5 inch personal robot that engages in conversation and acts as a companion/tutor.
+Hanson collaborated with musician David Byrne on Song for Julio, which appeared at the Reina Sofia Museum in Madrid in 2008 as part of the  Máquinas&Almas (Souls&Machines) exhibit, and his creations have appeared in other museums around the world.
+
+
+== Educational institutions ==
+From 2011 to 2013 Hanson was an adjunct professor of Computer Science and Engineering Teaching at the University of Texas at Arlington. He also taught in 2010 at the University of North Texas as an adjunct professor in fine arts, kinetic/interactive sculpture, and at the University of Texas at Dallas as an instructor of independent study in interactive sculpture.
+
+
+== Public and media appearances ==
+Hanson has keynote speeches at leading international technology conferences such as the Consumer Electronics Show and IBC.
+
+
+== Selected publications ==
+
+
+=== Books ===
+Bar-Cohen, Yoseph; Hanson, David (2009). Marom, Ari (ed.). The Coming Robot Revolution: Expectations and Fears About Emerging Intelligent, Humanlike Machines. New York: Springer. ISBN 978-0387853482.
+
+
+=== Papers ===
+Hanson, D. (2002). Bio-inspired Facial Expression Interface for Emotive Robots. AAAI National Conference. Edmonton, Canada.
+Hanson, D.; White, V. (2004). Converging the Capabilities of ElectroActive Polymer Artificial Muscles and the Requirements of Bio-inspired Robotics. Proc. SPIE‘s Electroactive Polymer Actuators and Devices Conf., 10th Smart Structures and Materials Symposium. San Diego, US.
+Hanson, D. (2005). "Bioinspired Robotics" (PDF). In Bar-Cohen, Yoseph (ed.). Biomimetics. CRC Press. doi:10.1109/ROMAN.2009.5326148. S2CID 8768746. Archived from the original (PDF) on 2017-12-22.
+Hanson, D. (December 2005). Expanding the Aesthetics Possibilities for Humanlike Robots. Proc. IEEE Humanoid Robotics Conference, special session on the Uncanny Valley. Journal of Research in Personality. Vol. 68. Tskuba, Japan. pp. 96–113. doi:10.1016/j.jrp.2017.02.001.
+Hanson, D.; Bergs, R.; Tadesse, Y.; White, V.; Priya, S. (2006). Enhancement of EAP Actuated Facial Expressions by Designed Chamber Geometry in Elastomers. Proc. SPIE‘s Electroactive Polymer Actuators and Devices Conf., 10th Smart Structures and Materials Symposium. San Diego, CA.
+Tadesse, Y.; Priya, S.; Stephanou, H.; Popa, D.; Hanson, D. (2006). "Piezoelectric Actuation and Sensing for Facial Robotics". Ferroelectrics. 345 (1): 13–25. Bibcode:2006Fer...345...13T. doi:10.1080/00150190601018010. S2CID 122300723.
+Hanson, David (2017) [2007]. Humanizing Interfaces — an Integrative Analysis of HumanLike Robots (PhD dissertation). University of Texas at Dallas. ASIN B072MFGVBR.
+Hanson, D.; Baurmann, S.; Riccio, T.; Margolin, R.; Dockins, T.; Tavares, M.; Carpenter, K. (2008). Zeno: a Cognitive Character (PDF). AAAI Conference on Artificial Intelligence. pp. 9–11.
+Hanson, D.; Mazzei, D.; Garver, C.; De Rossi, D.; Stevenson, M. (2012). "Realistic Humanlike Robots for Treatment of ASD, Social Training, and Research; Shown to Appeal to Youths with ASD, Cause Physiological Arousal, and Increase Human-to-Human Social Engagement". PETRA.
+Mazzei, D.; Lazzeri, N.; Hanson, D.; De Rossi, D. (2012). HEFES: An Hybrid Engine for Facial Expressions Synthesis to Control Human-Like Androids and Avatars. The Fourth IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics. doi:10.1109/BioRob.2012.6290687.
+Bergman, M.; Zhuang, Z.; Palmiero, A.; Wander, J.; Heimbuch, B.; McDonald, M.; Hanson, D. (2014). "Development of an Advanced Respirator Fit Test Headform". J Occup Environ Hyg. 11 (2): 117–25. doi:10.1080/15459624.2013.816434. PMC 4470376. PMID 24369934.
+
+
+== References ==
+
+
+== External links ==
+Official website
+David Hanson at TED

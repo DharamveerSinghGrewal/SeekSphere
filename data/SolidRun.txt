@@ -1,0 +1,77 @@
+SolidRun is an Israeli company producing embedded systems components, mainly mini computers, Single-board computers and computer-on-module devices. It is specially known for the CuBox family of mini-c...
+
+SolidRun is an Israeli company producing embedded systems components, mainly mini computers, Single-board computers and computer-on-module devices. It is specially known for the CuBox family of mini-computers, and for producing motherboards and processing components such as the HummingBoard motherboard.
+Situated in Acre, Israel, SolidRun develops and manufactures products aimed both for the private entertainment sector, and for companies developing processor based products, notably components of "Internet of Things" technology systems.
+Within the scope of the IoT technology, SolidRun's mini computers are aimed to cover the intermediate sphere, between sensors and user devices, and between the larger network or Cloud framework. Within such a network, mini computers or system-on-module devices, act as mediators gathering and processing information from sensors or user devices and communicating with the network - this is also known as Edge computing.
+
+
+== History ==
+
+SolidRun was founded in 2010 by co-founders Rabeeh Khoury (formally an engineer at Marvell Technology Group) and Kossay Omary. The goal of SolidRun has been to develop, produce and market components aimed for integration with IoT systems.
+The company today is situated in Acre in the Northern District of Israel, and headed by Dr. Atai Ziv (CEO).
+The major product development line aimed at the consumer market is the CuBox family of mini-computers. The first of which was announced in December 2011, followed by the development of the CuBox-i series, announced in November 2013. The most recent addition to the CuBox line has been the CuBoxTV (announced in December 2014), which has been marketed primarily for the home entertainment market. A further primary product developed by SolidRun is the Hummingboard, an uncased single-board computer, marketed to developers as an integrated processing component.
+SolidRun develops all of its products using Open-source software (such as Linux and OpenELEC), identifying itself as a member of the OSS community and a promoter of Open-source software platforms.
+The products developed by SolidRun are classed into a number of families, based upon the processor maker. Each family offers a range of mini-computers, SOM's & and networking solutions - currently divided into NXP's i.MX 6, i.MX 8 and LX2160A processor families, Marvell Armada and Octeon families, and Texas Instruments Sitara family. Every processing family offering different advantages with different application capacities.
+
+
+== IoT and industrial products ==
+
+
+=== SOMs ===
+
+A compact system-on-module ARM based processing board, with a Freescale i.MX 6 system-on-chip & networking, power management and storage capabilities. At 47 mm × 30 mm (1.9 in × 1.2 in), the MicroSoM is aimed for device and system developing, as an all rounded modular processing component.
+The SOM varies between 4 models ranging in performance, especially in regard to processing. The Single-core and Dual-Light-core SOMs house a Vivante GC880 GPU, 10/100 Mbit/s Ethernet network connection and a 2 Lane CSI camera interface port. The Single-core variant holds 32-bit DDR3, 512 MB memory, while the Dual-light variant holds 64-bit DDR3, 1 GB memory.
+The Dual-core and Quad-core SOM's house a Vivante GC2000 GPU, 10/100/1000 Mbit/s Ethernet network connection and a 4 Lane CSI camera interface port, they also include a built in 802.1 b/g/n wireless and a 4.0 Bluetooth port. Both variants offer 64-bit DDR3 memory at a 1066 Mbit/s speed, the dual-core coming with 1 GB of memory, while the Quad-core comes with 2 GB of memory.
+Models & specifications:
+
+TI AM64x Sitara
+
+
+=== CuBox-i & CuBox-M ===
+
+Announced in December 2011, CuBox and CuBox-i are a series of fanless nettop-class mini computers, all cube shaped and approximate 2 × 2 × 2 inches in size, weighing around 91 g (3.2 oz).
+The first generation CuBox was a low-power ARM architecture CPU based computer, using the Marvell Armada 510 (88AP510) SoC with an ARM v6/v7-compliant superscalar processor core, Vivante GC600 OpenGL 3.0 and OpenGL ES 2.0 capable 2D/3D graphics processing unit, Marvell vMeta HD Video Decoder hardware engine, and TrustZone security extensions, Cryptographic Engines and Security Accelerator (CESA) co-processor.
+In November 2013, SolidRun released a family of CuBox-i computers initially named CuBox-i1, i2, i2eX, and i4Pro, containing a range of different i.MX6 processors by Freescale Semiconductor.
+A further development in the family, CuBoxTV was announced in December 2014 as a mid-range CuBox-i SOM device designed to run Kodi on an OpenELEC Operating system, developed for the home entertainment market. CuBoxTV was based on an ARM architecture Quad core CPU, 1 GB, 64 bit memory, GC2000 GPU with an OpenGL ES quad shader, and a host of video, audio and picture decoders and encoders supporting all major file type. The device has a number of connection ports including HDMI, 10/100/1000 Ethernet, USB 2.0, eSATA and optical audio.
+
+
+=== HummingBoard ===
+A compact computer-on-module ARM-based mini computer, running an i.MX6 or iMX8M SoC. HummingBoard is marketed as a modular fanless mini computer, to be integrated with larger networks or systems, especially in the area of IoT development.
+
+
+== Networking products ==
+
+
+=== Marvell ARMADA A388 family ===
+A388 SOM
+Based on the Marvell ARMADA 388 SoC, the SOM features a Dual core ARM Cortex-A9 with 1.6 GHz processing power (up to 1.3 GHz in industrial grade), and up to 2 GB, 32-bit DDR3L memory. At 30 mm × 50 mm the ARMADA MicroSoM is the basis for a number of SolidRun's products in this product family.
+ClearFog A388
+Announced in November 2015, SolidRun's ClearFog Single-board computer (SBC) is based on Marvell's Armada 38x ARM Cortex-A9 Dual SoC and is marketed as a modular development integration SBC. The ClearFog is divided into two grades: Base and Pro, differing mainly in connectivity options and size.
+The ClearFog is a fanless SBC based on a Marvell ARMADA A388 dual 1.6 GHz core SOM, with 1 GB memory, Mikroelektronika mikroBUS Click Board support, and various connection ports including USB 3.0, mPCIE & Ethernet ports. The Clearfog Pro has a Marvell 88E6176 DSA chip.
+
+
+=== NXP Layerscape LX2160A family ===
+LX2160A COM Express type 7
+
+
+=== Marvell OCTEON TX2 CN9130 family ===
+
+
+== See also ==
+Raspberry Pi
+Internet of Things
+Industry 4.0
+
+
+== References ==
+
+
+== External links ==
+
+Official website
+cuboxtv.com Archived 2 June 2015 at the Wayback Machine
+"About SolidRun". solid-run.com. Retrieved 25 April 2015.
+Tenebaum, Gil (18 June 2014). "An Arab-Israeli Company Is Offering The Smallest Computer Ever For Only $55". Jewish Business News. Retrieved 25 April 2015.
+Brodkin, Jon (6 July 2014). ""HummingBoard" looks like a Raspberry Pi but packs in more power". arstechnica.com. Ars Technica. Retrieved 25 April 2015.
+Cooper, Daniel (3 July 2014). "HummingBoard is a Raspberry Pi rival that lets you swap out its processor". engadget.com. Engadget.
+Harris, Richard (10 October 2016). "SolidRun updates its quad-core iMX6 MicroSom for IoT applications". appdevelopermagazine.com. App Developer Magazine.

@@ -1,0 +1,24 @@
+Richard Forno is a consultant, lecturer, and writer in the area of Washington, DC.   == Education == Forno earned a Bachelor's degree in international relations from American University in 1994, a mas...
+
+Richard Forno is a consultant, lecturer, and writer in the area of Washington, DC.
+
+
+== Education ==
+Forno earned a Bachelor's degree in international relations from American University in 1994, a master's degree in international relations from Salve Regina University in 2002, and a PhD degree in Internet studies from Curtin University of Technology in 2010. He is also a graduate of Valley Forge Military Academy and College and the United States Naval War College.
+
+
+== Work ==
+Dr. Forno is Graduate Program Director for University of Maryland's Cybersecurity Program, co-founder of the Maryland Cyber Challenge & Conference, and a visiting scientist at the Software Engineering Institute of Carnegie Mellon University. At one time, Forno was the Chief Information Security Officer for Network Solutions.
+Forno writes and publishes on his web site articles on technology, computer security, and politics, roughly at the rate of one every two weeks. An example of his articles is "The Joke of Federal Cybersecurity Oversight".
+
+
+== The Joke of Federal Cybersecurity Oversight ==
+Dated March 2004. Toward the beginning of the essay, Forno lists a series of news articles, mostly from CNET News.com, that describe inadequacies in the Federal Government's computer security. (He also notes his opinion that the mass media, in its drive to attract attention, tends to ignore news of positive developments in Federal computer security.)
+In the rest of the essay, Forno criticizes the Government for insecure administration of information technology.
+
+"Granted, popular enterprise technology is nowhere as secure as it should be, but today's federal cybersecurity woes result more from flawed technology management practices than flawed technology. To that end, we need to foster and reward innovative, effective management processes in the federal computer security arena and terminate the current technology management and oversight philosophy that tolerates and rewards idleness and mediocrity while doing little to actually eliminate them."
+
+
+== References ==
+
+Other

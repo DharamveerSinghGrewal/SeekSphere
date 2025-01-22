@@ -1,0 +1,11 @@
+A data science competition platform is used by businesses to host data science challenges that are hard to solve for one group.   == Platform == Historically, crowdsourcing challenges have been known ...
+
+A data science competition platform is used by businesses to host data science challenges that are hard to solve for one group.
+
+
+== Platform ==
+Historically, crowdsourcing challenges have been known to solve very complex problems. The Netflix Prize is one such competition. Since then there have been several platforms developed on the idea of data science competitions. Research has been completed on how competition can improve research performance. Companies like JPMorgan Chase also run internal contests involving large numbers of employees.
+Examples of data science competition platforms include Bitgrit, Correlation One, Kaggle, InnoCentive, Microprediction, AIcrowd, and Alibaba Tianchi. Alibaba's competition platform was used in KDD 2017.
+
+
+== References ==

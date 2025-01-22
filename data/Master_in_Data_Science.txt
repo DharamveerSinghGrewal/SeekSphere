@@ -1,0 +1,159 @@
+A Master of Science in Data Science is an interdisciplinary degree program designed to provide studies in scientific methods, processes, and systems to extract knowledge or insights from data in vario...
+
+A Master of Science in Data Science is an interdisciplinary degree program designed to provide studies in scientific methods, processes, and systems to extract knowledge or insights from data in various forms, either structured or unstructured, similar to data mining.
+
+
+== Overview ==
+As an area of expertise and field, data science is defined as a "concept to unify statistics, data analysis and their related quantitative and qualitative methods" in order to "understand and analyze actual phenomena" with data. It employs techniques and theories drawn from many fields within the broad areas of mathematics, statistics, information science, and computer science, in particular from the subdomains of machine learning, statistical classification, cluster analysis, data mining, databases, and visualization.
+The degree is relatively new, with graduate schools, business schools, and data science centers often housing the programs. Data science degree programs have emerged to address the growing and unique need for data scientists who can provide insight into multiple organizational issues and interests across several disciplines.
+When Harvard Business Review called data scientist "The Sexiest Job of the 21st Century" the term became a buzzword, and is now often applied to business analytics, or even arbitrary use of data, or used as a term for statistics. While many university programs now offer a data science degree, there exists no consensus on a definition or curriculum contents.
+
+
+== Master in Data Science programs ==
+
+
+=== Australia ===
+James Cook University
+Macquarie University
+Monash University
+Queensland University of Technology
+University of Melbourne
+University of New England (Australia)
+University of New South Wales
+University of Newcastle (Australia)
+University of Queensland
+University of Sydney
+University of Technology Sydney
+University of Western Australia
+Western Sydney University
+
+
+=== United States ===
+Boston University
+Brown University
+Cabrini University
+Carnegie Mellon University
+City University of Seattle
+Columbia University
+Cornell University
+Duke University
+Drexel University
+Harvard University
+Illinois Institute of Technology
+Indiana University, Bloomington
+Johns Hopkins University
+Lehigh University
+Lewis University
+Merrimack College
+New Jersey Institute of Technology
+New York University
+North Carolina State University
+Northwestern University
+Rutgers University
+Saint Peter's University
+Southern Methodist University
+Stanford University
+Syracuse University
+Tufts University
+University of California, Berkeley
+University of California, San Diego
+University of Colorado Boulder
+University of Connecticut
+University of Illinois Urbana–Champaign
+University of Michigan
+University of Minnesota - Twin Cities
+University of St. Thomas
+University of Pennsylvania
+University of Rochester
+University of Southern California
+University of Virginia
+University of Wisconsin
+Utica College
+
+
+=== Canada ===
+McGill University
+Ryerson University
+University of Alberta
+University of British Columbia
+University of Calgary
+University of the Fraser Valley
+
+
+=== United Kingdom ===
+City University London
+Coventry University
+De Montfort University
+Goldsmiths, University of London
+Imperial College London
+Newcastle University
+Robert Gordon University
+Royal Holloway, University of London
+University College London
+University of Bristol
+University of Dundee
+University of Durham
+University of East Anglia
+University of East London
+University of Essex
+University of Greenwich
+University of Liverpool
+University of Manchester
+University of St. Andrews
+University of Warwick
+
+
+=== Ireland ===
+Dublin Institute of Technology
+Institute of Technology, Blanchardstown
+IT Carlow
+University College Cork
+
+
+=== India ===
+IIT
+Indian Institute of Science
+National Institutes of Technology (India)
+Brainware University
+Christ University
+Vellore Institute of Technology
+Kalinga Institute of Industrial Technology
+BITS Pilani
+Jawaharlal Nehru Technological University
+
+
+=== Germany ===
+FernUniversität in Hagen
+Frankfurt School of Finance & Management
+Friedrich–Alexander University Erlangen–Nürnberg (FAU)
+RWTH Aachen University
+
+
+=== France ===
+Télécom Paris Tech
+Télécom SudParis
+ESSEC Business School
+
+
+=== Finland ===
+University of Helsinki
+Aalto University
+
+
+=== Denmark ===
+Aalborg University
+
+
+=== New Zealand ===
+University of Auckland
+University of Canterbury
+University of Otago
+
+
+=== Hong Kong ===
+City University of Hong Kong
+Chinese University of Hong Kong
+University of Hong Kong
+
+
+== References ==

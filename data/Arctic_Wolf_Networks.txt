@@ -1,0 +1,27 @@
+Arctic Wolf Networks is a cybersecurity company that provides security monitoring to detect and respond to cyber threats. The company monitors on-premises computers, networks and cloud-based informati...
+
+Arctic Wolf Networks is a cybersecurity company that provides security monitoring to detect and respond to cyber threats. The company monitors on-premises computers, networks and cloud-based information assets from malicious activity such as cybercrime, ransomware, and malicious software attacks.
+
+
+== History ==
+Founded in 2012, Arctic Wolf focused on providing managed security services to small and mid-market organizations. The company was listed as a Gartner Cool Vendor in security for mid-sized enterprises in June 2018. 
+
+
+== Acquisitions ==
+In December 2018, Arctic Wolf announced the acquisition of the company RootSecure, and subsequently turned the RootSecure product offering into a vulnerability management service.
+On February 1, 2022, Arctic Wolf acquired Tetra Defense. 
+In October 2023, Arctic Wolf acquired Revelstoke, a cybersecurity company.
+Cylance was acquired from Blackberry Limited by Arctic Wolf in December 2024.
+
+
+== Funding ==
+In March 2020, following a $60M D Round of funding, the company announced moving its headquarters from Sunnyvale, California to Eden Prairie, Minnesota in October 2020.
+In October 2020, Arctic Wolf announced a $200M E Round of funding at a valuation of 1.3B$.
+On July 19, 2021, Arctic Wolf secured $150M at Series F, tripling its valuation to $4.3B.
+
+
+== References ==
+
+
+== External links ==
+Official website

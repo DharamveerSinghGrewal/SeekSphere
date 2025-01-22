@@ -1,0 +1,47 @@
+CryptoKitties is a blockchain game developed by Canadian studio Dapper Labs. The game allows players to buy, sell, and create non-fungible tokens (NFTs) using Ethereum. These NFTs represent virtual ca...
+
+CryptoKitties is a blockchain game developed by Canadian studio Dapper Labs. The game allows players to buy, sell, and create non-fungible tokens (NFTs) using Ethereum. These NFTs represent virtual cats. The game's popularity in December 2017 congested the Ethereum network, causing it to reach an all-time high in the number of transactions and slowing it down significantly.
+Dapper Labs was spun-off from Axiom Zen. Both companies are based in Vancouver, Canada. CryptoKitties is the first major game to use blockchains, and one of the earliest examples of a blockchain project designed for recreation.
+
+
+== Gameplay ==
+Players purchase, breed and trade virtual cats that have different visual features of varying levels of rarity. Players must purchase Ether cryptocurrency to join the game, and spend it to perform each breeding and trade action within the game.
+The virtual cats are breedable and carry a unique number and 256-bit distinct genome with DNA and different attributes (known as "cattributes") that can be passed to offspring. Several traits can be passed down from the parents to the offspring. There are a total of 12 cattributes for any cat, including pattern, mouth shape, fur, eye shape, base color, accent color, highlight color, eye color, and optional wild, environment, 'purrstige' and 'secret'. Other features like cool downtimes are not passed down, but are instead a function of the 'generation' of the offspring, which is one more than the 'generation' of the highest 'generation' attribute.
+A CryptoKitty does not have a permanently assigned gender. While they can only engage in one breeding session at one time, each cat is able to act as either matron or sire. There is a 'cooldown' time that indicates how soon the cat can breed again, which goes up with the number of breeds, capped at one week.
+The virtual cats are static images that can only be purchased, bred and sold. The game has no goal.
+
+
+== Technology ==
+CryptoKitties operates on Ethereum's underlying blockchain network. Each CryptoKitty is a non-fungible token (NFT). Each is unique and owned by the user, validated through the blockchain, and its value can appreciate or depreciate based on the market. CryptoKitties cannot be replicated and cannot be transferred without the user's permission, even by the game developers. Users can interact with their CryptoKitties, having the ability to buy, sell, and sire (breed) them. However, the CryptoKitty art is not on the blockchain and is instead owned by Axiom Zen. The company released some of the art under a new 'Nifty' license that lets players use the image of their CryptoKitty in a limited way.
+
+
+== History ==
+A test version of CryptoKitties was unveiled at ETH Waterloo on October 19, 2017, an Ethereum hackathon. The game launched on 28 November 2017 following a five-day closed beta.
+Genesis, the first high selling cat, was sold for ETH246.9255 (~US$117,712) in December 2017.
+On March 20, 2018, it was announced that CryptoKitties would be spun off into its own company, Dapper Labs, and raised $12 million from several top venture capital firms and angel investors. The investment round was led by New York based Union Square Ventures and San Francisco based Andreessen Horowitz.
+On May 12, 2018, a CryptoKitty was sold for $140,000. In May 2018, CryptoKitties launched their first celebrity-branded CryptoKitty with Stephen Curry, an American professional basketball player. As part of the partnership, Curry was given three CryptoKitties with special imagery, the first of which he put up for auction. The company later suspended the auction, claiming that Stephen Curry was not as involved as they initially thought. The company was later sued for trade secret theft over the Stephen Curry collectibles. The court ruled in the company's favour, stating that "[t]he evidence demonstrates that Defendant, not Plaintiff, developed the idea to license digital collectibles using the likeness of celebrities first…".
+In October 2018, CryptoKitties reached the milestone of 1 million cats being bred with a volume of 3.2 million transactions on its smart contracts. In November 2018, Dapper Labs, which was spun out of Axiom Zen as the developer of CryptoKitties, raised an additional $15 million in a venture round led by Venrock. The company doubled its valuation in this round.
+In 2018, CryptoKitties was used by the German museum ZKM Center for Art and Media Karlsruhe to showcase blockchain technology.
+By 2022, the game had fallen to generally fewer than 100 sales a day, for a total value of less than $10,000.
+
+
+== Technology ==
+A CryptoKitty's ownership is tracked via a smart contract on the Ethereum blockchain. Each CryptoKitty is represented as a non-fungible token using the ERC-721 token standard on Ethereum. Generation 0 CryptoKitties were sold to players in an auction at the rate of one every 15 minutes (672 per week) for one year. New CryptoKitties are created by breeding existing CryptoKitties.
+Based on the limited number of cats going into circulation and their limited genomes, there is a limit of around 4 billion total cats that can be bred. Each cat has a distinct visual appearance ("phenotype") determined by its immutable genes ("genotype") stored in the smart contract. Because cats are tokens on a blockchain, they can be bought, sold, or transferred digitally, with strong guarantees of ownership.
+Axiom Zen developed the game. Until November 2018, Axiom Zen intended to continually release a new CryptoKitty every 15 minutes, with the rest of supply determined by breeding of CryptoKitties. CryptoKitty owners may put them up for sale via an auction for a price set in Ether (ETH). They could also put them up for sire, where another player can pay to breed with a specific CryptoKitty.
+
+
+== Reception ==
+Shortly after launch, there were concerns that CryptoKitties was crowding out other businesses that use the Ethereum platform. The game caused an increase in pending transactions on Ethereum, and at one point accounted for about 25% of network traffic on Ethereum. Ethereum miners increased the gas limit in response to CryptoKitties, which allowed for more data per block and increasing transactions per second. A variety of similar websites, such as Etheremon, Ethertulips, and CryptoBots, were also created. Marketplace sites such as OpenSea and RareBits were created as a response. In March 2021 CryptoKitties announced plans to switch to the Flow blockchain in the "near future".
+
+
+== See also ==
+Decentralized application
+Crypto art
+
+
+== References ==
+
+
+== External links ==
+Official website

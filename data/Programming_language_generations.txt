@@ -1,0 +1,46 @@
+Programming languages have been classified into several programming language generations. Historically, this classification was used to indicate increasing power of programming styles. Later writers h...
+
+Programming languages have been classified into several programming language generations. Historically, this classification was used to indicate increasing power of programming styles. Later writers have somewhat redefined the meanings as distinctions previously seen as important became less significant to current practice.
+
+
+== Generations ==
+
+
+=== Second generation (2GL) ===
+
+Examples: assembly languages
+Second-generation programming language (2GL) is a generational way to categorize assembly languages.
+
+
+=== Third generation (3GL) ===
+
+Examples: C, C++, Java, Python, PHP, Perl, C#, BASIC, Pascal, Fortran, ALGOL, COBOL
+3GLs are much more machine-independent (portable) and more programmer-friendly. This includes features like improved support for aggregate data types and expressing concepts in a way that favors the programmer, not the computer. A third-generation language improves over a second-generation language by having the computer take care of non-essential details. 3GLs are more abstract than previous generations of languages, and thus can be considered higher-level languages than their first- and second-generation counterparts. First introduced in the late 1950s, Fortran, ALGOL, and COBOL are examples of early 3GLs.
+Most popular general-purpose languages today, such as C, C++, C#, Java, and BASIC, are also third-generation languages, although each of these languages can be further subdivided into other categories based on other contemporary traits. Most 3GLs support structured programming. Many support object-oriented programming. Traits like these are more often used to describe a language rather than just being a 3GL.
+
+
+=== Fourth generation (4GL) ===
+
+Examples: ABAP, Unix shell, SQL, PL/SQL, Oracle Reports, R, Halide
+Fourth-generation languages tend to be specialized toward very specific programming domains. 4GLs may include support for database management, report generation, mathematical optimization, GUI development, or web development.
+
+
+=== Fifth generation (5GL) ===
+
+Examples: Prolog, OPS5, Mercury, CVXGen 
+, Geometry Expert
+A fifth-generation programming language (5GL) is any programming language based on problem-solving using constraints given to the program, rather than using an algorithm written by a programmer. They may use artificial intelligence techniques to solve problems in this way. Most constraint-based and logic programming languages and some other declarative languages are fifth-generation languages.
+While fourth-generation programming languages are designed to build specific programs, fifth-generation languages are designed to make the computer solve a given problem without the programmer. This way, the user only needs to worry about what problems need to be solved and what conditions need to be met, without worrying about how to implement a routine or algorithm to solve them. Fifth-generation languages are used mainly in Artificial Intelligence or AI research. OPS5 and Mercury are examples of fifth-generation languages, as is ICAD, which was built upon Lisp. KL-ONE is an example of a related idea, a frame language.
+
+
+== History ==
+The terms "first-generation" and "second-generation" programming language were not used prior to the coining of the term "third-generation"; none of these three terms are mentioned in early compendiums of programming languages. The introduction of a third generation of computer technology coincided with the creation of a new generation of programming languages. The marketing for this generational shift in machines correlated with several important changes in what were called high-level programming languages, discussed below, giving technical content to the second/third-generation distinction among high-level programming languages as well while retroactively renaming Machine code languages as first generation, and assembly languages as second generation.
+Initially, all programming languages at a higher level than assembly were termed "third-generation", but later on, the term "fourth-generation" was introduced to try to differentiate the (then) new declarative languages (such as Prolog and domain-specific languages) which claimed to operate at an even higher level, and in a domain even closer to the user (e.g. at a natural-language level) than the original, imperative high-level languages such as Pascal, C, ALGOL, Fortran, BASIC, etc.
+"Generational" classification of high-level languages (third generation and later) was never fully precise and was later perhaps abandoned, with more precise classifications gaining common usage, such as object-oriented, declarative and functional. C gave rise to C++ and later to Java and C#; Lisp to CLOS; Ada to Ada 2012; and even COBOL to COBOL 2002. New languages have emerged in that "generation" as well.
+
+
+== See also ==
+Timeline of programming languages
+
+
+== References ==

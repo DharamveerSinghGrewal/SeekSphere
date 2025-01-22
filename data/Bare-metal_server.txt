@@ -1,0 +1,84 @@
+In computer networking, a bare-metal server is a physical computer server that is used by one consumer, or tenant, only. Each server offered for rental is a distinct physical piece of hardware that is...
+
+In computer networking, a bare-metal server is a physical computer server that is used by one consumer, or tenant, only. Each server offered for rental is a distinct physical piece of hardware that is a functional server on its own. They are not virtual servers running in multiple pieces of shared hardware.
+The term is used for distinguishing between servers that can host multiple tenants and which use virtualisation and cloud hosting. Unlike bare-metal servers, cloud servers are shared between multiple tenants. Each bare-metal server may run any amount of work for a user, or have multiple simultaneous users, but they are dedicated entirely to the entity who is renting them.
+
+
+== Bare-metal advocacy ==
+Hypervisors provide some isolation between tenants but there can still be a noisy neighbour effect. If a physical server is multi-tenanted, peaks of load from one tenant may consume enough machine resources to temporarily affect other tenants. As the tenants are otherwise isolated, it is also hard to manage or load balance this. Bare-metal servers, and single tenancy, can avoid this.  In addition, hypervisors provide weaker isolation and are much more risky from a security point-of-view compared to using separate machines. Attackers have always found vulnerabilities in the isolation software (such as hypervisors), covert channels are impractical to counter without physically separate machines, and shared hardware is vulnerable to defects in hardware protection mechanisms such as Rowhammer, Spectre, and Meltdown.  As, once again, server costs are dropping as a proportion of total cost of ownership against their administration overhead, the classic solution of 'throwing hardware at the problem' becomes viable again.
+
+
+== Bare-metal cloud hosting ==
+Bare-metal cloud servers do not run a hypervisor, are not virtualised -- but can still be delivered via a cloud-like service model.
+Infrastructure as a service, particularly through infrastructure as code, offers many advantages to make hosting conveniently manageable. Combining the features of both cloud hosting, and bare-metal servers, offers most of these, whilst still conveying the performance advantages. These cloud offerings are also called Bare-Metal-as-a-Service (BMaaS).
+Some bare-metal cloud servers may run a hypervisor or containers, e.g., to simplify maintenance or provide additional layers of isolation.
+Note that the distinction between these services and the traditional dedicated server offerings is the user's ability to provision infrastructures composed out of multiple servers, a complex network and storage setup rather than servers in isolation.
+
+
+== Bare-metal cloud software ==
+Both commercial and open-source platforms exist enabling companies to build their own private bare-Metal private clouds.
+BMaaS software typically takes over the lifecycle management of the equipment in a datacenter (compute, storage and network Switches, firewalls, load balancers and others). It enables datacenter operators to offload much of the manual work typically associated with deploying hardware. It also reduces waste by simplifying reuse and increases security by implementing automatic cleanup and automatic segmentation between tenants at the network level. Increasingly BMaaS software is used internally to reduce the costs associated with lifecycle management of equipment for enterprises with large fleets of servers.
+BMaaS software aims to simplify hardware management and enable its as-a-service consumption. It handles primarily the layer below a hyper-converged or container-based solution. It often collaborates with the layers above through integrations such as the Kubernetes cluster autoscaler.
+
+
+== Comparison with composable disaggregated infrastructure ==
+BMaaS software has a similar objective to composable disaggregated infrastructure in that it aims to offer the user the ability to "compose" the desired compute unit defined as a set of resources (such as compute or storage). The distinction is that the storage and compute need not be "dissagregated" (accessed from outside the server unit) as this often requires specialized hardware. Instead, the same result is achieved with off-the-shelf hardware by selecting a matching server that matches the desired characteristics (RAM, CPU cores, local disk capacity, GPU, FPGA, SmartNICs) from a pool of servers and reconfiguring the network so that the server joins the others that a tenant has deployed.
+Note that in some implementations, the storage component is external to the systems using iSCSI blurring the lines between BMaaS and composable infrastructure. This allows the user to choose the size and performance of the node's storage in a manner similar to classical virtualized Infrastructure as a Service offerings. This has the advantage of lower variability (snowflaking) in the hardware pool and the possibility of faster migration from one equipment to another in the event of hardware failure.
+
+
+== Use in edge computing ==
+As new workloads such as augmented reality, mixed reality, connected cars, and telerobotics are gaining ground so is the demand for low latency cloud services so does demand for edge computing.
+Bare Metal and the BMaaS automation software is used for edge cloud implementations, where large numbers of small data-centers need to be automated and then consumed as a service and where the service needs to offer the lowest latency possible.
+
+
+== History ==
+At one time, all servers were bare-metal servers. Servers were kept on-premises and often belonged to the organisation using and operating them. Operating systems developed very early on (early 1960s) to allow time-sharing. Single large computers, mainframes or minis, were commonly housed in centralised locations and their services shared through a bureau. The shift to cheap commodity PCs in the 1980s changed this as the market expanded, and most organisations, even the smallest, began to purchase or lease their own computers. Popular growth of the internet, and particularly the web, in the 1990s encouraged the practice of hosting in data centres, where many customers shared the facilities of single servers. Small web servers at this time often cost more for their connectivity than their hardware cost, encouraging this centralisation. HTTP 1.1's ability for virtual hosting also made it easy to co-host many web sites on the same server.
+From around 2000, or 2005 in commercially practical terms, interest grew in the use of virtual servers and then cloud hosting, where infrastructure as a service made the computing service the fungible commodity, rather than the server hardware. Hypervisors were developed which could offer many virtual machines hosted on larger physical servers. The load pattern of multiple users has long been recognised as being smoother overall than individual users, so these virtual machines could make more efficient use of the physical hardware and its costs, whilst also appearing to have higher individual performance than a simple cost-share would suggest.
+One of the forefathers of bare metal provisioning is Cobbler that appeared in the 1990s and was using the Preboot Execution Environment (PXE) protocol. Since then various cloud providers have been building their own in-house stacks in order to offer variants of dedicated servers or bare metal cloud offerings such as:
+
+April 2015 OpenStack Ironic component was launched as part of the Kilo release.
+March 2020, Equinix acquired bare metal cloud provider Packet
+for $335 million.
+
+May 2020 Packet released a part of their stack as Tinkerbell
+June 2020 MetalSoft was launched to commercialize the Stack behind Bigstep Cloud.
+
+
+== Examples of BMaaS software ==
+Examples of BMaaS software both open-source and commercial:
+
+OpenStack Ironic (open source)
+Canonical MaaS (open source)
+MetalSoft (commercial)
+RackN DigitalRebar (commercial) 
+Tinkerbell (open source) 
+xCAT (open source)
+RackHD (open source)
+Cobbler (open source)
+Foreman (open source)
+Puppet Labs Razor (commercial)
+
+
+== Companies offering BMaaS products ==
+Equinix Metal (former Packet)
+OVHCloud
+Internap
+
+
+== See also ==
+On-premises software
+
+
+== References ==
+
+
+== External links ==
+Canonical MaaS
+MetalSoft
+Cisco UCS Director
+RackN Digital Rebar
+Equinix Metal
+xCAT
+Puppet Labs razor
+Bigstep Metal Cloud
+Cisco UCS

@@ -1,0 +1,6 @@
+X.1205 is a technical standard that provides an overview of cybersecurity, it was developed by the Standardization Sector of the International Telecommunication Union (ITU-T). The standard provides an...
+
+X.1205 is a technical standard that provides an overview of cybersecurity, it was developed by the Standardization Sector of the International Telecommunication Union (ITU-T). The standard provides an overview of cybersecurity as well as a taxonomy of threats in cybersecurity.
+
+
+== References ==

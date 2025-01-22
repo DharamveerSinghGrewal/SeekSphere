@@ -1,0 +1,69 @@
+Open-source robotics is a branch of robotics where robots are developed with open-source hardware and free and open-source software, publicly sharing blueprints, schematics, and source code. It is thu...
+
+Open-source robotics is a branch of robotics where robots are developed with open-source hardware and free and open-source software, publicly sharing blueprints, schematics, and source code. It is thus closely related to the open design movement, the maker movement and open science.
+
+
+== Requirements ==
+Open source robotics means that information about the hardware is easily discerned, so that others can easily rebuild it.  In turn, this requires design to use only easily available standard subcomponents and tools, and for the build process to be documented in detail including a bill of materials and detailed ('Ikea style') step-by-step building and testing instructions.   (A CAD file alone is not sufficient, as it does not show the steps for performing or testing the build).   These requirements are standard to open source hardware in general, and are formalised by various licences,  certifications, especially those defined by the peer-reviewed journals HardwareX and Journal of Open Hardware.
+Licensing requirements for software are the same as for any open source software.  But in addition, for software components to be of practical use in real robot systems, they need to be compatible with other software, usually as defined by some robotics middleware community standard.
+
+
+== Hardware systems ==
+Applications to date include:
+
+Robot arms, e.g. PARA or Thor
+Wheeled mobile robots. e.g. OpenScout
+Four-legged robots such as the Open Dynamic Robot Initiative
+UAV quadcopters such as Agilicious
+Humanoid robots, e.g. iCub
+Self-driving cars, e.g. OpenPodcar (→ Personal rapid transit)
+Robot fish, eg. OpenFish
+Laboratory robotics such as chemical liquid handling 
+Vertical farming
+Swarm robots, e.g. HeRoSwarm
+Domestic tasks: vacuum cleaning, floor washing and grass  mowing
+Robot sports including robot combat and autonomous racing
+Education
+
+
+== Hardware subcomponents ==
+Most open source hardware definitions allow non-open subcomponents to be used in modular design, as long as they are easily available. However many designs try to push openness down into as many subcomponents as possible, with the aim of ultimately reaching fully open designs.
+Open hardware manual-drive vehicles and their subcomponents, such as from Open Source Ecology, are often used as starting points and extended with automation systems.
+Open subcomponents can include open-source computing hardware as subcomponents, such as Arduino and RISC-V, as well as open source motors and drivers such as the Open Source Motor Controller and ODrive.
+Open source robots are often used together with, so are designed to interface to, the open source robotics middleware Robot Operating System and various open source simulators such as Gazebo, running on the open source Linux operating system.
+
+
+== Software subcomponents ==
+
+
+=== Middleware ===
+Robotics middleware is software which links multiple other software components together.  In robotics, this specifically means real-time communication systems with standardized message passing protocols.   The predominant open source middleware is ROS2, the robot operating system, now as version 2.   Other alternatives include ROS1,  YARP — used in the iCub, URBI, and Orca.
+
+
+=== Driver software ===
+Most robot sensors and actuators require software drivers. There is little standardization of open source software at this level, because each hardware device is different. Creating open drivers for closed hardware is difficult as it requires both low level programming and reverse engineering.
+
+
+=== Simulation software ===
+Open source robotics simulators include Gazebo, MuJoCo and Webots. Open source 3D game engines such as Godot are also sometimes used as simulators, when equipped with suitable middleware interfaces.
+
+
+=== Automation software ===
+At the level of AI, many standard algorithms have open source software implementations, mostly in ROS2.   Major components include:
+
+Machine vision systems such as the YOLO object detector.
+3D photogrammetry
+SLAM such as gmapping
+Mobile robot planning such as move base
+Arm inverse kinematics such as moveIt
+
+
+== Community ==
+The first signs of the increasing popularity of building and sharing robot designs were found with the DIY community. What began with small competitions for remote operated vehicles (e.g. Robot combat), soon developed to the building of autonomous telepresence robots such as Sparky and then true robots (being able to take decisions themselves) as the Open Automaton Project. Several commercial companies now also produce kits for making simple robots.
+The community has adopted open source hardware licenses, certifications, and peer-reviewed publications, which check that source has been made correctly and permanently available under community definitions, and which validate that this has been done.   These processes have become critically important due to many historical projects claiming to be open source but them reverting on the promise due to commercialisation or other pressures.
+As with other forms of open source hardware, the community continues to debate precise criteria for 'ease of build'.  A common standard is that designs should be buildable by a   technical university student, in a few days, using typical fablab tools, but definitions of all of these subterms can also be debated.
+Compared to other forms of open source hardware, open source robotics typically includes a large software element, so involves software as well as hardware engineers.  Open source concepts are more established in open source software than hardware, so robotics is a field in which those concepts can be shared and transferred from software to hardware.
+While the community in open source robotics is multi-faceted with a wide range of backgrounds, a sizable sub-community uses the ROS middleware and meets annually at the ROSCon conference to discuss development of ROS itself and automation components built on it.
+
+
+== References ==

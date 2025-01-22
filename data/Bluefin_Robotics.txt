@@ -1,0 +1,25 @@
+Bluefin Robotics is an American robotics company, headquartered in Quincy, Massachusetts, which specialises in the design and manufacture of military and civilian autonomous underwater vehicles (AUVs)...
+
+Bluefin Robotics is an American robotics company, headquartered in Quincy, Massachusetts, which specialises in the design and manufacture of military and civilian autonomous underwater vehicles (AUVs) and related technology. The company was founded in 1997, and became a wholly owned subsidiary of Battelle Memorial Institute in 2005. Its products include the Bluefin-21 underwater search robot and its military derivative, the Knifefish minesweeping AUV, which entered service with the United States Navy in 2017. Bluefin was involved in the development of several advanced Navy projects, including the Black Pearl AUV and the Proteus optionally-manned submersible.
+
+
+== Company history and overview ==
+Bluefin Robotics was founded in 1997 by James Bellingham and Frank van Mierlo, both engineers from the Massachusetts Institute of Technology. Dr Bellingham was the manager of the MIT AUV laboratory.
+In 2005, the company became a wholly owned subsidiary of the Battelle Memorial Institute, an Ohio-based nonprofit research and development company. In 2010, Bluefin Robotics won a gold award at the 7th Annual Team Massachusetts Economic Impact Awards, and in 2013 it received accolades from R&D Magazine and the Robotics Business Review. In April 2014, it received a US$7.11 million federal contract from the US Navy's Office of Naval Research for the development of the Navy's experimental Black Pearl AUV.
+As of 2014, Bluefin Robotics employs around 200 people. The company is a member of several business and technology associations, including the Marine Technology Society (MTS), the Association for Unmanned Vehicle Systems International (AUVSI), the Mine Warfare Association (MINWARA), the National Defense Industrial Association (NDIA) and the Massachusetts Technology Leadership Council (MassTLC).
+In February 2016, General Dynamics Mission Systems acquired Bluefin Robotics. Bluefin Robotics will become part of General Dynamics Mission Systems’ Maritime and Strategic Systems line of business. The value of the transaction has not been disclosed.
+
+
+== In the media ==
+The company's Bluefin-21, is a torpedo-shaped multirole AUV, was used in the search for Malaysian airlines MH370.
+The Knifefish, a derivative of the Bluefin-21, was developed in partnership with General Dynamics Advanced Information Systems to perform minesweeping operations for the US Navy, replacing the trained minesweeping dolphins and sealions of the Marine Mammal Program in concert with the Navy's Littoral Combat Ships. The Knifefish is scheduled to begin sea trials in 2015 and to enter into active naval service in 2017.
+The Bluefin SandShark Micro-AUV is an autonomous UUV weighing less than 15 pounds. Its functions include intelligence missions, small-scale survey missions recovering data, communications relays, conducting training, or functioning as a decoy for the U.S. Navy.
+HAUV is a two-man-portable hovering AUV designed for real-time data identification of structural issues on a ship's hull. In March 2011, an HAUV was used to inspect the hull of the Navy's oldest commissioned warship, USS Constitution, in Boston Harbor. In 2016, in conjunction with the Office of Naval Research, Bluefin Robotics developed the third generation Hovering Autonomous Underwater Vehicle (HAUV-3).
+
+
+== References ==
+
+
+== See also ==
+
+Unmanned underwater vehicle

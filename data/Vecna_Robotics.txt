@@ -1,0 +1,25 @@
+Vecna Robotics, Inc. is an American robotics and technology company headquartered in Waltham, Massachusetts. Incorporated in 2018 as a spin-off from Vecna Technologies, the company specializes in auto...
+
+Vecna Robotics, Inc. is an American robotics and technology company headquartered in Waltham, Massachusetts. Incorporated in 2018 as a spin-off from Vecna Technologies, the company specializes in automated material handling, hybrid fulfillment and workflow optimization for industrial applications.
+In December 2017, the firm won the DHL & Dell Robotics Innovation Challenge for developing the Tote Retrieval System (TRS), an automated guided vehicle (AGV) capable of warehouse navigation and mobile piece-picking from conventional shelves.
+
+
+== History ==
+Vecna Robotics originated as a division of Vecna Technologies, which had been founded in 1998  by MIT engineering alumni, Daniel Theobald. According to a December 2017 profile of   Theobald by Forbes contributor, Frederick Daso, the company name ‘Vecna’ is derived from the Czech word věčný, fem. věčná, meaning ‘eternal’. Vecna Technologies focused primarily on health-care software development, while the robotics division engaged in research for the U.S. Navy, U.S. Air Force and National Aeronautics and Space Administration.
+The company was later based in Cambridge, MA and supported efforts to build the Massachusetts Robotics Cluster.
+In the mid-2000s era, Vecna Robotics received funding from the U.S. Army, DARPA and other government agencies to develop the Battlefield Extraction-Assist Robot (BEAR). The humanoid robot was originally designed to rescue wounded soldiers from the battle field, but as the company refined and adapted its robotics software, other commercial applications became evident. In turn, Vecna Robotics abstracted its autonomy software or "brain" from the BEAR's physical hardware and utilized the same methodology to develop a range of logistics robots. In April 2012, the QC Bot, a robotic courier, was piloted in hospitals to distribute medicine and food. The company's product expansion continued in April 2017 when additional logistics robots became generally available to the industrial sector. Concurrently, Vecna Robotics was established as a wholly owned subsidiary of Vecna Technologies. The separation positioned Vecna Robotics to seek outside investment as well as specialize in autonomous mobile solutions for manufacturing and warehouse applications.
+In January 2018, Daniel Patt, the former deputy director of DARPA's Strategic Technology Office (STO), joined as CEO. The same year, Vecna Robotics spun out from former parent, Vecna Technologies. 60 existing employees transferred to positions in the new company. According to a filing with the SEC, Vecna Robotics reincorporated in Delaware and raised $13.5 million in a funding round that began August 14, 2018. The round was led by Columbus, Ohio-based venture capital firm, Drive Capital, and marked the first outside equity investment in the new company Vecna Robotics. In January 2020, an additional $50M in investment was announced along with a change of leadership as Theobald took over as CEO.
+In June 2021, the company announced former founder and CEO of Lifesize Craig Malloy as CEO.
+In January 2022, the company announced a series C raise led by Tiger Global with participation from Lineage Logistics, Proficio Capital Partners, and IMPULSE, bringing the company's total capital raised to $128.5 million.
+In March 2022, the company released the industry's first co-bot pallet jack in partnership with forklift maker Big Joe.
+
+
+== Technology ==
+Vecna Robotics’ automated material handling product line includes the RC20 Conveyor, RC500 Conveyor, RL350 Lifter, RL3600 Pallet Truck, RT4500 Tugger and the Tote Retrieval System (TRS). As of October 2018, the company's RL3600 Pallet Trucks were deployed at Milton CAT's Milford, Massachusetts distribution center to increase fulfillment speed. The RL3600 addressed the problem of retrieving slow-selling items stored at long walking distances. In March 2018, a fleet of six RT4500 Tuggers were profiled by Cade Metz in The New York Times as new “robotic colleagues” at the FedEx industrial shipping hub in Kernersville, North Carolina. In this warehouse application, the tuggers pull trains of carts with bulky goods such as car tires or canoes to manage a growing percentage of eCommerce orders for items unable to fit on conveyor belts. In addition to Vecna Robotics’ hardware line, the company also developed artificial intelligence (AI) software designed to integrate warehouse management systems, robotics and human workflow.
+
+
+== References ==
+
+
+== External links ==
+Official website

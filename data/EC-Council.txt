@@ -1,0 +1,56 @@
+EC-Council is a cybersecurity certification, education, training, and services company based in Albuquerque, New Mexico.   == History == Jay Bavisi is the Founder of EC-Council Holding Pte Ltd, the pa...
+
+EC-Council is a cybersecurity certification, education, training, and services company based in Albuquerque, New Mexico.
+
+
+== History ==
+Jay Bavisi is the Founder of EC-Council Holding Pte Ltd, the parent company of all of EC-Council Group of Companies. The first organization of the group, International Council of Electronic Commerce Consultants (EC-Council) was founded in 2001 in response to the September 11 attacks to certify professionals who could protect against attacks on electronic commerce.
+EQT Private Equity invested in EC-Council in September 2021 EC-Council is the creator of popular certification programs such as CEH, CHFI, ECSA/LPT and the Certified Ethical Hacker (CEH) program for white hat hackers in 2003. EC-Council became a certifier of training courses and exams instead of founding entirely new schools, mobilizing entrepreneurs in the information security training business. CEH courses were offered in more than 60 countries by 2007, and the program expanded rapidly.
+As of 2023, the CEH certification is part of the possible certifications to some cyber-security functions within the United States Department of Defense, as part of its Directive 8140. 
+In 2010, the EC-Council part of the organisations selected by the Pentagon to oversee training of Department of Defense employees who work in computer security-related jobs.
+
+
+== Controversies, shortcomings and plagiarism ==
+In May 2006, the website of the EC-Council was defaced, and again in 2014, restored, then defaced, again, due to password reuse. The attacker managed to exfiltrate sensitive data like passport pictures from the applicants, including notably Edward Snowden's.
+On at least two instances, the EC-Council's website has also been prone to Cross-site scripting vulnerabilities. In June of 2011, two vulnerabilities were discovered, both on the "portal" subdomain. An additional vulnerability was found in May 2013.
+During 2011, an EC-Council employee has been using comments spam to advertise the Certified Ethical Hacker certification. This was called a "fictional theory" by Jay Bavisi, President of EC-Council, despite evidences proving otherwise.
+The EC-Council has also been holding sexist discourse on several occasions:
+
+In 2015, writing that "women should wear pants suit with heels" to be credible when doing pentesting.
+In 2021, publishing a survey about the challenges faced by women in cybersecurity, with "Only men can do this job" and "Women can't handle this job" and "women aren't encouraged enough" as sole possible answers, and explaining that "the post cannot be sexist coming from all women teams".
+In March 2016, the website of the EC-Council was serving the Angler exploit kit. It took several days for the issue to be resolved.
+In 2021, the EC-Council took its entire blog down due to apparent systematic copyright violations and plagiarism conducted by its marketing team.
+
+
+== Certifications ==
+EC-Council offers professional certifications for the IT security field, such as Certified Network Defender (CND), Certified Chief Information Security Officer (CCISO), and Computer Hacking Forensics Investigator (CHFI). It also offers certifications in fields related to IT security, including disaster recovery, software security, digital forensics, and general IT security knowledge.
+
+
+== Services and products ==
+
+
+=== EC-Council University (ECCU) ===
+EC-Council University (ECCU) was licensed by the Wyoming Board of Education in 2006, despite major concerns from the state Education Department, including the lack of clarity whether the "school would offer substantive academic activity". It offers bachelor's and master's degrees in cybersecurity and graduate certificate programs since 2015.
+
+
+=== EC-Council CodeRed ===
+EC-Council CodeRed was launched in 2019 as a cybersecurity learning platform with a library of 4,000 video lessons. It provides "microdegrees" on niche technical subjects.
+
+
+=== EC-Council Global Services ===
+EC-Council Global Services (EGS) is the consulting services division of the EC-Council Group. It received CREST membership for its cyber incident response, penetration testing, and vulnerability assessment services in 2020.
+
+
+=== EC-Council Aware ===
+EC-Council Aware is a cybersecurity training app that was launched in 2020 for iOS and Android.
+
+
+=== EC-Council CyberQ ===
+EC-Council launched its CyberQ platform in 2020. It is a cloud-based cyber range platform that automates the process of using cloud technology to deploy cyber targets.
+
+
+=== EC-Council events ===
+EC-Council hosts various IT security conferences including Hacker Halted, Global CyberLympics, TakeDownCon, and Global CISO Forum.
+
+
+== References ==

@@ -1,0 +1,110 @@
+In computer science, primitive data types are a set of basic data types from which all other data types are constructed. Specifically it often refers to the limited set of data representations in use ...
+
+In computer science, primitive data types are a set of basic data types from which all other data types are constructed. Specifically it often refers to the limited set of data representations in use by a particular processor, which all compiled programs must use. Most processors support a similar set of primitive data types, although the specific representations vary. More generally, primitive data types may refer to the standard data types built into a programming language (built-in types). Data types which are not primitive are referred to as derived or composite.
+Primitive types are almost always value types, but composite types may also be value types.
+
+
+== Common primitive data types ==
+The most common primitive types are those used and supported by computer hardware, such as integers of various sizes, floating-point numbers, and Boolean logical values. Operations on such types are usually quite efficient. Primitive data types which are native to the processor have a one-to-one correspondence with objects in the computer's memory, and operations on these types are often the fastest possible in most cases. Integer addition, for example, can be performed as a single machine instruction, and some offer specific instructions to process sequences of characters with a single instruction. But the choice of primitive data type may affect performance, for example it is faster using SIMD operations and data types to operate on an array of floats.: 113 
+
+
+=== Integer numbers ===
+
+An integer data type represents some range of mathematical integers. Integers may be either signed (allowing negative values) or unsigned (non-negative integers only). Common ranges are:
+
+
+=== Floating-point numbers ===
+
+A floating-point number represents a limited-precision rational number that may have a fractional part. These numbers are stored internally in a format equivalent to scientific notation, typically in binary but sometimes in decimal. Because floating-point numbers have limited precision, only a subset of real or rational numbers are exactly representable; other numbers can be represented only approximately. Many languages have both a single precision (often called float) and a double precision type (often called double).
+
+
+=== Booleans ===
+
+A Boolean type, typically denoted bool or boolean, is typically a logical type that can have either the value true or the value false. Although only one bit is necessary to accommodate the value set true and false, programming languages typically implement Boolean types as one or more bytes.
+Many languages (e.g. Java, Pascal and Ada) implement Booleans adhering to the concept of Boolean as a distinct logical type. Some languages, though, may implicitly convert Booleans to numeric types at times to give extended semantics to Booleans and Boolean expressions or to achieve backwards compatibility with earlier versions of the language. For example, early versions of the C programming language that followed ANSI C and its former standards did not have a dedicated Boolean type. Instead, numeric values of zero are interpreted as false, and any other value is interpreted as true. The newer C99 added a distinct Boolean type _Bool (the more intuitive name bool as well as the macros true and false can be included with stdbool.h), and C++ supports bool as a built-in type and true and false as reserved words.
+
+
+== Specific languages ==
+
+
+=== Java ===
+The Java virtual machine's set of primitive data types consists of:
+
+byte, short, int, long, char (integer types with a variety of ranges)
+float and double, floating-point numbers with single and double precisions
+boolean, a Boolean type with logical values true and false
+returnAddress, a value referring to an executable memory address. This is not accessible from the Java programming language and is usually left out.
+
+
+=== C basic types ===
+
+The set of basic C data types is similar to Java's. Minimally, there are four types, char, int, float, and double, but the qualifiers short, long, signed, and unsigned mean that C contains numerous target-dependent integer and floating-point primitive types. C99 extended this set by adding the Boolean type _Bool and allowing the modifier long to be used twice in combination with int (e.g. long long int).
+
+
+=== XML Schema ===
+The XML Schema Definition language provides a set of 19 primitive data types:
+
+string: a string, a sequence of Unicode code points
+boolean: a Boolean
+decimal: a number represented with decimal notation
+float and double: floating-point numbers
+duration, dateTime, time, date, gYearMonth, gYear, gMonthDay, gDay, and gMonth: Calendar dates and times
+hexBinary and base64Binary: binary data encoded as hexadecimal or Base64
+anyURI: a URI
+QName: a qualified name
+NOTATION: a QName declared as a notation in the schema. Notations are used to embed non-XML data types. This type cannot be used directly - only derived types that enumerate a limited set of QNames may be used.
+
+
+=== JavaScript ===
+In JavaScript, there are 7 primitive data types: string, number, bigint, boolean, symbol, undefined, and null. Their values are considered immutable. These are not objects and have no  methods or  properties; however, all primitives except undefined and null have  object wrappers.
+
+
+=== Visual Basic .NET ===
+In Visual Basic .NET, the primitive data types consist of 4 integral types, 2 floating-point types, a 16-byte decimal type, a Boolean type, a date/time type, a Unicode character type, and a Unicode string type.
+
+
+=== Rust ===
+Rust has primitive unsigned and signed fixed width integers in the format u or i respectively followed by any bit width that is a power of two between 8 and 128 giving the types u8, u16, u32, u64, u128, i8, i16, i32, i64 and i128. Also available are the types usize and isize which are unsigned and signed integers that are the same bit width as a reference with the usize type being used for indices into arrays and indexable collection types.
+Rust also has:
+
+bool for the Boolean type.
+f32 and f64 for 32 and 64-bit floating point numbers.
+char for a unicode character. Under the hood these are unsigned 32-bit integers with values that correspond to the char's codepoint but only values that correspond to a valid unicode scalar value are valid.
+
+
+== Built-in types ==
+Built-in types are distinguished from others by having specific support in the compiler or runtime, to the extent that it would not be possible to simply define them in a header file or standard library module. Besides integers, floating-point numbers, and Booleans, other built-in types include:
+
+The void type and null pointer type nullptr_t in C++11 and C23
+Characters and strings (see below)
+Tuple in Standard ML, Python, Scala, Swift, Elixir
+List in Common Lisp, Python, Scheme, Haskell
+Fixed-point number  with a variety of precisions and a programmer-selected scale.
+Complex number in C99, Fortran, Common Lisp, Python, D, Go. This is two floating-point numbers, a real part and an imaginary part.
+Rational number in Common Lisp
+Arbitrary-precision Integer type in Common Lisp, Erlang, Haskell
+Associative arrays, records or sets in Perl, PHP, Python, Ruby, JavaScript, Lua, D, Go
+Reference (also called a pointer or handle or descriptor),
+Symbols, in Lisp
+First-class function, in all functional languages, JavaScript, Lua, D, Go, and in newer standards of C++, Java, C#, Perl
+
+
+=== Characters and strings ===
+A character type is a type that can represent all Unicode characters, hence must be at least 21 bits wide. Some languages such as Julia include a true 32-bit Unicode character type as primitive. Other languages such as JavaScript, Python, Ruby, and many dialects of BASIC do not have a primitive character type but instead add strings as a primitive data type, typically using the UTF-8 encoding. Strings with a length of one are normally used to represent single characters.
+Some languages have character types that are too small to represent all Unicode characters. These are more properly categorized as integer types that have been given a misleading name. For example C includes a char type, but it is defined to be the smallest addressable unit of memory, which several standards (such as POSIX) require to be 8 bits. Recent versions of these standards refer to char as a numeric type. char is also used for a 16-bit integer type in Java, but again this is not a Unicode character type. 
+The term string also does not always refer to a sequence of Unicode characters, instead referring to a sequence of bytes. For example, x86-64 has string instructions to move, set, search, or compare a sequence of items, where an item could be 1, 2, 4, or 8 bytes long.
+
+
+== See also ==
+Language primitive
+List of data structures § Data types
+Object type
+Primitive wrapper class
+Variable (computer science)
+
+
+== References ==
+
+
+== External links ==
+ Media related to Primitive types at Wikimedia Commons

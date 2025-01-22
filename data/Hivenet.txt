@@ -1,0 +1,72 @@
+Hivenet (formerly Hive, legally registered as Hive Computing Services SA) is a Swiss technology company specializing in distributed cloud storage and computing services. Founded in 2022 by David Gurle...
+
+Hivenet (formerly Hive, legally registered as Hive Computing Services SA) is a Swiss technology company specializing in distributed cloud storage and computing services. Founded in 2022 by David Gurle, the company rebranded from Hive to Hivenet in 2024 to emphasize its focus on networked, community-driven cloud solutions. Hivenet aims to provide sustainable cloud solutions by utilizing crowdsourced storage and computing resources from user devices, reducing reliance on centralized data centers. The company offers services such as cloud storage, sending capabilities, and GPUs for cloud computing, leveraging its distributed network architecture.
+
+
+== History ==
+
+
+=== Founding and early years (2022–2023) ===
+Hivenet was founded in 2022 as Hive Computing Services SA by David Gurle, a French entrepreneur known for founding Symphony Communication Services. The company was established with the aim of creating a sustainable and decentralized cloud computing platform by leveraging idle storage and computing resources from user devices.
+In 2021, the company raised €7 million in a seed funding round, which facilitated the development of its core technology and the launch of its initial services.
+
+
+=== Series A funding and expansion ===
+In March 2024, Hivenet secured €12 million in a Series A funding round led by SC Ventures, the innovation, fintech investment, and ventures arm of Standard Chartered. The funding aimed to accelerate the global expansion of Hivenet's services and to enhance its distributed cloud infrastructure.
+In November 2024, Hivenet announced a continuation of their ongoing strategic partnership with Inria, the French National Institute for Research in Computer Science and Automation, to collaborate on developing a sovereign distributed cloud solution.
+
+
+=== Rebranding to Hivenet (2024) ===
+In late 2024, the company rebranded its master brand from Hive to Hivenet to better reflect its mission of creating a networked, community-driven cloud platform. The rebranding was part of a strategic move to distinguish the company in the evolving cloud computing market and to align with its expanded service offerings.
+
+
+== Technology and architecture ==
+Hivenet's platform is based on a distributed cloud architecture that utilizes the unused storage and computing resources of connected devices. By decentralizing data storage and processing, Hivenet aims to reduce the environmental impact associated with traditional data centers.
+The technology employs encryption and fragmentation techniques to ensure data security and integrity. Data is split into encrypted fragments and distributed across multiple devices in the network, reducing the risk of data breaches and improving redundancy.
+
+
+== Business model ==
+Hivenet operates on a shared economy model, where users can contribute their unused storage and computing resources in exchange for credits or reduced service fees.
+
+
+== Corporate governance ==
+Hivenet is led by founder and CEO David Gurle. The management team includes:
+
+Queenie Chan, chief marketing officer, who oversees the go-to-market strategy and public relations for Hivenet's distributed cloud platform.
+Pierre-Eric Jacoupy, chief product officer, responsible for the development of Hivenet's various products.
+The board of directors comprises industry experts and investors who guide the company's strategic direction.
+
+
+== Partnerships and collaborations ==
+In November 2024, Hivenet entered into an official continuation of their strategic partnership with Inria, the French National Institute for Research in Computer Science and Automation. The collaboration aims to develop a sovereign distributed cloud solution that enhances data privacy and security for users in Europe.
+Hivenet has also collaborated with various academic institutions and technology firms to advance research in distributed computing and sustainable cloud infrastructure.
+
+
+== Funding and growth ==
+In November 2021, Hivenet raised €7 million in a seed funding round, which was instrumental in developing its distributed cloud platform.
+In March 2024, the company secured €12 million in a Series A funding round led by SC Ventures, the innovation arm of Standard Chartered. Other participants included private investors interested in sustainable technology solutions. The funding was aimed at accelerating Hivenet's global expansion and enhancing its technology infrastructure.
+Following the Series A round, Hivenet announced plans to expand its services into new markets and to invest in research and development for its distributed cloud technologies.
+
+
+== Reception ==
+Hivenet has been recognized by industry analysts and media outlets for its innovative approach to cloud computing. ZDNet highlighted Hivenet's potential to disrupt the traditional cloud market by promoting sustainability and decentralization.
+Fortune noted that Hivenet's distributed model could address the growing environmental concerns associated with data centers. Tech.eu referred to Hivenet as part of a new wave of companies aiming to democratize cloud services.
+
+
+== Awards and recognitions ==
+In June 2024, Hivenet received the Bpifrance Deep Tech label, awarded by Bpifrance to startups demonstrating technological innovation and high growth potential. The label acknowledges Hivenet's efforts in advancing distributed cloud computing technologies.
+
+
+== See also ==
+Distributed computing
+Cloud computing
+Peer-to-peer computing
+Edge computing
+David Gurle
+
+
+== References ==
+
+
+== External links ==
+Official website

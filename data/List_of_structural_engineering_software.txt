@@ -1,0 +1,16 @@
+This is list of notable software packages that implement engineering analysis of structure against applied loads using structural engineering and structural engineering theory.   == See also == List o...
+
+This is list of notable software packages that implement engineering analysis of structure against applied loads using structural engineering and structural engineering theory.
+
+
+== See also ==
+List of computer-aided engineering software
+List of BIM software
+
+
+== References ==
+
+Top 5 Structural Design and Analysis Software That Get the Work Done!, February 2016
+Structure Magazine, Software Guide, August 2014
+Autodesk Completes Acquisition of Robobat, 1/15/2008
+Industry Canada, 2014-03-19

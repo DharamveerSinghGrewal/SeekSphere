@@ -1,0 +1,9 @@
+The National Cybersecurity Alliance (NCA), is an American nonprofit 501(c)(3) organization which promotes cyber security awareness and education. The NCA works with various stakeholders across governm...
+
+The National Cybersecurity Alliance (NCA), is an American nonprofit 501(c)(3) organization which promotes cyber security awareness and education. The NCA works with various stakeholders across government, industry, and civil society promoting partnerships between the federal government and technology corporations. NCA's primary federal partner is the Cybersecurity and Infrastructure Security Agency within the U.S. Department of Homeland Security.
+NCA's core efforts include Cybersecurity Awareness Month (October), Data Privacy Day (January 28), and Cyber Secure Business. 
+Cyber Security Awareness Month was launched by the NCA and the U.S. Department of Homeland Security (DHS) in October, 2004 to raise public knowledge of best cyber practices among Americans. When Cyber Security Awareness Month first began, the focus was on simple precautions such as keeping antivirus software up to date. The month has expanded in reach and involvement. Operated in many respects as a grassroots campaign, the month's effort has grown to include the participation of a multitude of industry participants that engage their customers, employees, and the general public in awareness, as well as college campuses, non-profits, and other groups.
+In 2009, DHS Secretary Janet Napolitano launched the National Cybersecurity Alliance (NCA) and the U.S. Department of Homeland Security (DHS) Cyber Security Awareness Month in Washington, D.C., becoming the highest-ranking government official to participate in the month's activities. Today, leading administration officials from DHS, the White House, and other agencies regularly participate in NCA events across the United States.
+
+
+== References ==

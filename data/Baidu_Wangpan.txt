@@ -1,0 +1,56 @@
+Baidu Wangpan or Baidu Netdisk (Chinese: 百度网盘; pinyin: Bǎidù Wǎngpán; translation: Baidu Web Drive) is a cloud service provided by Baidu, Inc., headquartered in Haidian District in Beijing. It offers ...
+
+Baidu Wangpan or Baidu Netdisk (Chinese: 百度网盘; pinyin: Bǎidù Wǎngpán; translation: Baidu Web Drive) is a cloud service provided by Baidu, Inc., headquartered in Haidian District in Beijing. It offers a cloud storage service, client software, file management, resources sharing, and Third Party Integration. After being created on one client terminal, files can be synchronized automatically on other internet-connected client terminals. It was launched as Baidu WangPan on 23 March 2012. On 22 August 2013, an offer of permanent free 2 terabytes of storage for users was announced.
+
+
+== History ==
+
+
+=== Launch of Baidu WangPan ===
+The March 2012 Baidu Developer Conference released a Cloud development strategy, including the launch of a Developer Center Website (http://developer.baidu.com/en/ Archived 17 May 2014 at the Wayback Machine), and a cloud storage platform called Baidu WangPan, meaning "web disk", for individual users. Baidu WangPan had PC and Android client terminals, provided users a free 15 GB of space and allowed users to upload files and access them. It operated in competition with established Cloud operations such as Dropbox.
+
+
+=== Investment in Cloud Computing Center ===
+On 19 August 2012, Baidu started to build its Cloud Computing Center in Shanxi's Yangquan, which is the hometown of Baidu's Founder Robin Li. Baidu was reported to invest CNY4.708 billion in this center, with CNY2.92 billion for equipment and CNY1.788 billion for infrastructure. It aimed to "attract the world's top information technology manufacturers, and promote the information technology industry development in Yangquan and Shanxi."
+
+
+=== Upgrade to Baidu Cloud ===
+During the 2012 Baidu World Conference, Baidu announced upgrades to Baidu WangPan, and a re-branding to "Baidu Cloud". It also launched a new logo, using graphics of clouds, which has been used since.  It also issued "seven weapons" for developers, including: PCS, Screen X technical building services Site App, applications, cloud MTC LBS moving clouds, cloud Test Engine, Baidu engine BAE, and kernel browsing.
+
+
+=== Partnership with Qualcomm ===
+On 19 November 2012, Baidu offered free cloud storage for Qualcomm chip-based devices. It provided Snapdragon-powered Android phones with 30GB cloud storage, which had been tailored to suit the Snapdragon S4 MSM 8×25 processor and the Snapdragon S4 MSM8x25Q processor.
+
+
+=== Participation in Chinese Cloud Storage War ===
+On 22 August 2013, Baidu Cloud announced its offer of 2 terabytes of free permanent storage for users, as its strategy in the Cloud Storage 'war' in China. The other competitors in the war included Tencent, Qihoo 360, Sina, Huawei, and 115.com. Before the war, China’s free storage services were mainly focused on storage capacity under 15GB.
+
+
+=== Rename to Baidu Wangpan ===
+On 11 October 2016, Baidu Yun were renamed to Baidu Wangpan. Meanwhile, its cloud computing services were renamed to Baidu Yun.
+
+
+=== Notorious Markets list ===
+In 2022, the Office of the United States Trade Representative named Baidu Wangpan on its list of Notorious Markets for Counterfeiting and Piracy.
+
+
+== Technology ==
+
+
+=== File management ===
+Baidu Wangpan supports preview of files of photos, musics, videos and documents on each of its client terminal without downloading them as local files. The videos can be viewed directly on the web browsers, Android system, and iOS system. It provides file synchronization, enabling users to upload and download files of different types. It supports file sharing between different users, and different devices.
+
+
+=== Resource sharing ===
+Baidu Wangpan provides a platform to share resources. Combined with its own search engine, users can search resources and browse them online.
+
+
+=== Third party integration ===
+Baidu's cloud operation can be divided into two main categories: 1. Personal users (http://yun.baidu.com), and 2. Developers (https://web.archive.org/web/20140517205344/http://developer.baidu.com/en/), which is the Open Cloud.
+
+
+== Controversy ==
+On 26 December 2013, the Japanese government's National Information Security Center (NISC) and Ministry of Education, Culture, Science and Technology advised 140 institutions to either disable the cloud-input function of Baidu Input Method Editors (IMEs) or stop using Baidu IMEs. According to Bloomberg News, Tsuneo Tosaka, IDC Japan's Software & Security Research Manager claimed: "Baidu provides the service using a cloud server, which means content flows through servers in China" and "Government-related documents from Japan central ministries and findings from university research institutions are important, so there is a possibility that sensitive information leaks abroad." NISC also suggested not using Google input software and Microsoft input software.
+
+
+== References ==

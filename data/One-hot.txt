@@ -1,0 +1,61 @@
+In digital circuits and machine learning, a one-hot is a group of bits among which the legal combinations of values are only those with a single high (1) bit and all the others low (0). A similar impl...
+
+In digital circuits and machine learning, a one-hot is a group of bits among which the legal combinations of values are only those with a single high (1) bit and all the others low (0). A similar implementation in which all bits are '1' except one '0' is sometimes called one-cold. In statistics, dummy variables represent a similar technique for representing categorical data.
+
+
+== Applications ==
+
+
+=== Digital circuitry ===
+One-hot encoding is often used for indicating the state of a state machine. When using binary, a decoder is needed to determine the state. A one-hot state machine, however, does not need a decoder as the state machine is in the nth state if, and only if, the nth bit is high.
+A ring counter with 15 sequentially ordered states is an example of a state machine. A 'one-hot' implementation would have 15 flip flops chained in series with the Q output of each flip flop connected to the D input of the next and the D input of the first flip flop connected to the Q output of the 15th flip flop. The first flip flop in the chain represents the first state, the second represents the second state, and so on to the 15th flip flop, which represents the last state. Upon reset of the state machine all of the flip flops are reset to '0' except the first in the chain, which is set to '1'. The next clock edge arriving at the flip flops advances the one 'hot' bit to the second flip flop. The 'hot' bit advances in this way until the 15th state, after which the state machine returns to the first state.
+An address decoder converts from binary to one-hot representation. 
+A priority encoder converts from one-hot representation to binary.
+
+
+==== Comparison with other encoding methods ====
+
+
+===== Advantages =====
+Determining the state has a low and constant cost of accessing one flip-flop
+Changing the state has the constant cost of accessing two flip-flops
+Easy to design and modify
+Easy to detect illegal states
+Takes advantage of an FPGA's abundant flip-flops
+Using a one-hot implementation typically allows a state machine to run at a faster clock rate than any other encoding of that state machine
+
+
+===== Disadvantages =====
+Requires more flip-flops than other encodings, making it impractical for PAL devices
+Many of the states are illegal
+
+
+=== Natural language processing ===
+In natural language processing, a one-hot vector is a 1 × N matrix (vector) used to distinguish each word in a vocabulary from every other word in the vocabulary. The vector consists of 0s in all cells with the exception of a single 1 in a cell used uniquely to identify the word. One-hot encoding ensures that machine learning does not assume that higher numbers are more important. For example, the value '8' is bigger than the value '1', but that does not make '8' more important than '1'. The same is true for words: the value 'laughter' is not more important than 'laugh'.
+
+
+=== Machine learning and statistics ===
+In machine learning, one-hot encoding is a frequently used method to deal with categorical data. Because many machine learning models need their input variables to be numeric, categorical variables need to be transformed in the pre-processing part. 
+
+Categorical data can be either nominal or ordinal. Ordinal data has a ranked order for its values and can therefore be converted to numerical data through ordinal encoding. An example of ordinal data would be the ratings on a test ranging from A to F, which could be ranked using numbers from 6 to 1. Since there is no quantitative relationship between nominal variables' individual values, using ordinal encoding can potentially create a fictional ordinal relationship in the data. Therefore, one-hot encoding is often applied to nominal variables, in order to improve the performance of the algorithm.
+For each unique value in the original categorical column, a new column is created in this method. These dummy variables are then filled up with zeros and ones (1 meaning TRUE, 0 meaning FALSE).
+Because this process creates multiple new variables, it is prone to creating a 'big p' problem (too many predictors) if there are many unique values in the original column. Another downside of one-hot encoding is that it causes multicollinearity between the individual variables, which potentially reduces the model's accuracy.
+Also, if the categorical variable is an output variable, you may want to convert the values back into a categorical form in order to present them in your application.
+In practical usage, this transformation is often directly performed by a function that takes categorical data as an input and outputs the corresponding dummy variables. An example would be the dummyVars function of the Caret library in R.
+
+
+== See also ==
+Constant-weight code – Method for encoding data in communications, where a constant number of bits are set
+Two-out-of-five code – Error-detection code for decimal digits, widely used in barcoding and at one time in telephone exchanges
+Bi-quinary coded decimal – Numeral encoding scheme
+Gray code – Ordering of binary values, used for positioning and error correction
+Kronecker delta – Mathematical function of two variables; outputs 1 if they are equal, 0 otherwise
+Indicator vector
+Serial decimal – computer numeric representation is one in which ten bits are reserved for each digitPages displaying wikidata descriptions as a fallback
+Single-entry vector – Concept in mathematicsPages displaying short descriptions of redirect targets
+Unary numeral system – Base-1 numeral system
+Uniqueness quantification – Logical property of being the one and only object satisfying a condition
+XOR gate – Logic gate
+
+
+== References ==

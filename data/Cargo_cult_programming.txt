@@ -1,0 +1,31 @@
+Cargo cult programming is a style of computer programming characterized by the ritual inclusion of code or program structures that serve no real purpose. Cargo cult programming is symptomatic of a pro...
+
+Cargo cult programming is a style of computer programming characterized by the ritual inclusion of code or program structures that serve no real purpose. Cargo cult programming is symptomatic of a programmer not understanding either a bug they were attempting to solve or the apparent solution (compare shotgun debugging, deep magic). The term cargo cult programmer may apply when anyone inexperienced with the problem at hand copies some program code from one place to another with little understanding of how it works or whether it is required.
+Cargo cult programming can also refer to the practice of applying a design pattern or coding style blindly without understanding the reasons behind that design principle. Some examples are adding unnecessary comments to self-explanatory code, overzealous adherence to the conventions of a programming paradigm, or adding deletion code for objects that garbage collection automatically collects.
+
+
+== Etymology ==
+
+Cargo cults are millenarian movements that arose in Melanesia under colonial rule, and inspired Richard Feynman to coin the expression cargo cult science. In Feynman's description, after the end of the Second World War practitioners believed that air delivery of cargo would resume if they carried out the proper rituals, such as building runways, lighting fires next to them, and wearing headphones carved from wood while sitting in fabricated control towers. "The form is perfect.  It looks exactly the way it looked before.  But it doesn’t work."
+The term then became used more widely as a metaphor for empty rituals. The term "cargo-cult programming" appeared in version 2.5.1 of the Jargon File, a glossary of computing slang, released in January 1991. The term "cargo cult" in anthropology, meanwhile, is increasingly avoided for failing to represent the complexity of Melanesian beliefs.
+
+
+== Cargo cult software engineering ==
+A related term to cargo cult programming in software engineering is cargo cult software engineering, coined by Steve McConnell.: 23-26 
+McConnell describes software development organizations that attempt to emulate more successful development houses, either by slavishly following a software development process without understanding the reasoning behind it, or by attempting to emulate a commitment-oriented development approach (in which software developers devote large amounts of time and energy toward seeing their projects succeed) by mandating the long hours and unpaid overtime, while in successful companies these might instead be consequences of high motivation instead of causes of success.
+In both cases, McConnell contends that competence ultimately determines whether a project succeeds or fails, regardless of the development approach taken; furthermore, he claims that incompetent "imposter organizations" (which merely imitate the form of successful software development organizations) are in fact engaging in what he calls cargo cult software engineering.: 11–13 
+
+
+== See also ==
+Black box
+Cargo cult science
+Copy and paste programming
+GitHub Copilot
+Magic (programming)
+Magical thinking
+
+
+== References ==
+
+
+== Further reading ==

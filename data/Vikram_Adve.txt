@@ -1,0 +1,19 @@
+Vikram Adve (born 28 June 1966) is the Donald B. Gillies professor in the Department of Computer Science and a Professor in Electrical and Computer Engineering at the University of Illinois at Urbana-...
+
+Vikram Adve (born 28 June 1966) is the Donald B. Gillies professor in the Department of Computer Science and a Professor in Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign.
+
+
+== Academia ==
+In 2020, Vikram Adve became a co-founder and co-director of the Center for Digital Agriculture and leads AIFARMS, a $20M National Artificial Intelligence Research Institute funded by NIFA and NSF at University of Illinois at Urbana-Champaign.
+Vikram Adve, along with Chris Lattner, designed and developed the LLVM compiler infrastructure project in 2001. Vikram Adve and Chris Lattner received the 2012 ACM Software System Award for the LLVM software system.
+Vikram Adve's research interests include compilers and programming languages, and edge computing, approximate computing, software security, system reliability, and parallel programming. His group open-sourced the HPVM compiler infrastructure for various Central processing unit and Graphics processing unit architectures, Field-programmable gate array and domain-specific accelerators.
+Vikram Adve served as interim head of University of Illinois Department of Computer Science from 2017 to 2019.
+Prior to joining the faculty at University of Illinois Urbana-Champaign, he was a research scientist at Rice University from 1993 to 1999. He got his PhD degree from University of Wisconsin-Madison in 1993.
+
+
+== See also ==
+Chris Lattner
+Mary K. Vernon
+
+
+== References ==

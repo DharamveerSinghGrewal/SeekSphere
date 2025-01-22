@@ -1,0 +1,89 @@
+Election cybersecurity or election security refers to the protection of elections and voting infrastructure from cyberattack or cyber threat – including the tampering with or infiltration of voting ma...
+
+Election cybersecurity or election security refers to the protection of elections and voting infrastructure from cyberattack or cyber threat – including the tampering with or infiltration of voting machines and equipment, election office networks and practices, and voter registration databases.
+Cyber threats or attacks to elections or voting infrastructure could be carried out by insiders within a voting jurisdiction, or by a variety of other actors ranging from nefarious nation-states, to organized cyber criminals to lone-wolf hackers. Motives may range from a desire to influence the election outcome, to discrediting democratic processes, to creating public distrust or even political upheaval.
+
+
+== Legislation and policy best practices ==
+A variety of experts and interest groups have emerged to address voting infrastructure vulnerabilities and to support democracies in their security efforts. From these efforts have come a general set of policy ideas for election security, including:
+
+Transition from black-box proprietary voting systems to transparent open-source voting systems
+Implement universal use of paper ballots, marked by hand and read by optical scanner, ensuring a voter-verified paper audit trail (VVPAT).
+Pass voter machine certification requirements that, for example, phase out touch-screen voting machines – especially the most vulnerable direct-recording electronic (DRE) devices and follow recommendations like those by the US Election Assistance Commission.
+Verify voting results by requiring election officials to conduct risk-limiting audits, a statistical post-election audit before certification of final results.
+Ballot accounting and reconciliation to ensure all ballots are accounted for
+Give voters an opportunity to fix any mistakes that would otherwise get their ballots thrown out
+Ban electronic voting
+Secure all voting infrastructure from databases to equipment using cyber hygiene tools such as the CIS "20 Critical Security Controls" or NIST's Cybersecurity Framework.
+Provide resources, training and information-sharing to election leaders for cyber maintenance and on-going monitoring.
+Designate elections as critical infrastructure and provide appropriate funding to implement infrastructure upgrades, audits, and cyber hygiene measures.
+Pre-election logic and accuracy testing to check for equipment malfunctions
+Institute a pre-election threat assessment plan to bolster technical support capacity for election officials requesting assistance.
+Call upon outside experts to conduct cyber assessments – government specialists, white-hat hackers, cybersecurity vendors and security researchers – where needed.
+
+
+== Role of white hat hackers ==
+The "white hat" hacker community has also been involved in the public debate. 
+
+
+=== Voting Village at DEFCON ===
+From July 27–30, 2017, DEFCON – the world's largest, longest running and best-known hacker conference – hosted a "Voting Machine Hacking Village" at its annual conference in Las Vegas, Nevada to highlight election security vulnerabilities. The event featured 25 different pieces of voting equipment used in federal, state and local U.S. elections and made them available to white-hat hackers and IT researchers for the purpose of education, experimentation, and to demonstrate the cyber vulnerabilities of such equipment. During the 3-day event, thousands of hackers, media and elected officials witnessed the hacking of every piece of equipment, with the first machine to be compromised in under 90 minutes.  One voting machine was hacked remotely and was configured to play Rick Astley's song "Never Gonna Give You Up." Additional findings of the Voting Village were published in a report issued by DEFCON in October 2017.
+The "Voting Village" was brought back for a second year at DEF CON, which was held in Las Vegas, August 9–12, 2018. The 2018 event dramatically expanded its inquiries to include more of the election environment, from voter registration records to election night reporting and many more of the humans and machines in the middle. DEF CON 2018 also featured a greater variety of voting machines, election officials, equipment, election system processes, and election night reporting. Voting Village participants consisted of hackers, IT and security professionals, journalists, lawyers, academics, and local, state and federal government leaders. A full report was issued on the 2018 Village Findings at a press conference in Washington, DC, held on September 27, 2018.
+At the 2024 Voting Village, hackers discovered pages of flaws in voting machines used in the United States, and expressed frustration with the slow pace of implementation by vendors. Harri Hursti who cofounded the effort warned that nation states like China and Russia likely know about all these flaws and have teams working on this 24/7.
+
+
+=== Other Researcher Discoveries ===
+In 2024, cybersecurity researcher Jason Parker discovered a vulnerability in Georgia’s voter cancellation portal that allowed users to bypass the requirement for a driver’s license number, enabling the submission of voter registration cancellations with minimal, publicly available information. The discovery drew attention to weaknesses in the system and the importance of continued efforts to secure election infrastructure.
+
+
+== Europe ==
+Russia's 2016 attempts to interfere in U.S. elections fits a pattern of similar incidents across Europe for at least a decade. Cyberattacks in Ukraine, Bulgaria, Estonia, Germany, France and Austria that investigators attributed to suspected Kremlin-backed hackers appeared aimed at influencing election results, sowing discord and undermining trust in public institutions that include government agencies, the media and elected officials.
+
+
+== United States ==
+
+The United States is characterized by a highly decentralized election administration system. Elections are a constitutional responsibility of state and local election entities such as secretaries of state, election directors, county clerks or other local level officials encompassing more than 6,000+ local subdivisions nationwide.
+However, election security has been characterized as a national security concern increasingly drawing the involvement of federal government entities such as the U.S. Department of Homeland Security. In early 2017, Jeh Johnson, Secretary of Homeland Security designated elections as "critical infrastructure" making the subsector eligible to receive prioritized cybersecurity assistance and other federal protections from the Department of Homeland Security. The designation applies to storage facilities, polling places, and centralized vote tabulations locations used to support the election process, and information and communications technology to include voter registration databases, voting machines, and other systems to manage the election process and report and display results on behalf of state and local governments. In particular, hackers falsifying official instructions before an election could affect voter turnout or hackers falsifying online results after an election could sow discord.
+
+
+=== Post 2016 Election ===
+Election security has become a major focus and area of debate in recent years, especially since the 2016 U.S. Presidential Election.  In 2017, DHS confirmed that a U.S. foreign adversary, Russia, attempted to interfere in the 2016 U.S. Presidential Election via "a multi-faceted approach intended to undermine confidence in [the American] democratic process." This included conducting cyber espionage against political targets, launching propaganda or "information operations" (IO) campaigns on social media, and accessing elements of multiple U.S. state or local electoral boards.
+On September 22, 2017, it was reported that the U.S. Department of Homeland Security (DHS) notified 21 states that they were targeted by Kremlin-backed hackers during the 2016 election. Those states included Alabama, Alaska, Colorado, Connecticut, Delaware, Florida, Illinois, Maryland, Minnesota, Ohio, Oklahoma, Oregon, North Dakota, Pennsylvania, Virginia, Washington, Arizona, California, Iowa, Texas, and Wisconsin. Currently, hackers only reportedly succeeded in breaching the voter registration system of one state: Illinois. There was no evidence of votes being changed.
+In the aftermath of the 2016 hacking, a growing bench of national security and cyber experts have emerged noting that Russia is just one potential threat. Other actors including North Korea, Iran, organized criminals possess, and individual hackers have motives and technical capability to infiltrate or interfere with elections and democratic operations.  Leaders and experts have warned that a future attack on elections or voting infrastructure by Russian-backed hackers or others with nefarious intent, such as seen in 2016, is likely in 2018 and beyond.
+One recommendation to prevent disinformation from fake election-related web sites and email spoofing is for local governments to use .gov domain names for web sites and email addresses. These are controlled by the federal government, which authenticates the legitimate government controls the domain. Many local governments use .com or other top-level domain names; an attacker could easily and quickly set up an altered copy of the site on a similar-sounding .com address using a private registrar.
+In 2018 assessment of US state election security by the Center for American Progress, no state received an "A" based on their measurements of seven election security factors. Forty states received a grade of C or below. A separate 2017 report from the Center for American Progress outlines nine solutions which states can implement to secure their elections, including:
+
+requiring paper ballots or records of every vote
+the replacement of outdated voting equipment
+conducting post election audits
+update old voter registration systems and e-poll books
+enacting cybersecurity standards for voting systems
+pre-election testing of voting equipment
+threat assessments with required sharing of findings
+coordination of election security between state and federal agencies
+the allocating of federal funds for ensuring election security
+Some have called for public testing of voter machines and mandatory post-election audits.
+
+
+== Security of voter registration databases ==
+The Help America Vote Act of 2002 requires that all states with voter registration implement “a single, uniform, official, centralized, interactive computerized statewide voter registration list,” or voter registration database (VRDB). 
+The importance of VRDB security was underlined during the 2016 general election when several states’ systems were targeted by bad actors. Only the Illinois database was successfully accessed. The Department of Homeland Security assessed “with high confidence that the penetration was carried out by Russian actors” who were able to view—though not edit—voter registration records before the state shut down the VRDB for nearly two weeks. No voter records were compromised in the attack.
+A biennial survey of state VRDB security practices by the Center for Election Innovation & Research since 2018 has consistently found that "strong and improving policies and practices to secure voter registration databases are widespread across states." 
+Among the policies and practices noted in the 2024 results are:
+
+Professional IT staffing and cybersecurity training
+Access secured by multi-factor or similar authentication, by limiting users to necessary information, or both
+Identifying and stopping potential threats through monitoring of VRDB activity, regular audits of the system and traffic, or both
+Backing up critical data
+
+
+== See also ==
+Open-source voting systems
+Voter registration in the United States
+
+
+== References ==
+
+
+== External links ==
+Verified Voting - U.S. advocacy organization that catalogs voting equipment used in each state

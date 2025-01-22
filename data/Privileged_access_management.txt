@@ -1,0 +1,35 @@
+Privileged Access Management (PAM) is a type of identity management and branch of cybersecurity that focuses on the control, monitoring, and protection of privileged accounts within an organization. A...
+
+Privileged Access Management (PAM) is a type of identity management and branch of cybersecurity that focuses on the control, monitoring, and protection of privileged accounts within an organization. Accounts with privileged status grant users enhanced permissions, making them prime targets for attackers due to their extensive access to vital systems and sensitive data.
+
+
+== Implementation and models ==
+PAM can be implemented as a Software-as-a-Service (SaaS) solution or an on-premises offering, providing organizations with the flexibility to choose the model that best fits their needs. The objective is to safeguard, regulate, observe, examine, and manage privileged access across diverse environments and platforms. PAM solutions adopt Zero Trust and least-privilege frameworks, guaranteeing that users receive only the essential computer access control needed for their roles, thereby minimizing the likelihood of unauthorized entry or security incidents.
+PAM focuses on securing and overseeing privileged accounts to prevent unauthorized access to critical resources, while SNMP is used for monitoring and managing network devices. These two components can work together to enhance overall network security by ensuring that SNMP configurations and access controls are protected and only accessible to authorized personnel, thus safeguarding against potential security breaches and unauthorized modifications to network settings.
+In July 2023, the Keeper Security survey revealed that only 43% of SMBs have deployed Privileged Access Management (PAM) solutions, significantly lower than other leading security technologies such as network, email, endpoint security, and SIEM tools, which all exceed 75% deployment.
+
+
+== Key features ==
+PAM solutions play a crucial role in reducing security vulnerabilities, adhering to information security standards, and protecting an organization's IT infrastructure. They establish a comprehensive system for handling privileged accounts, encompassing the gathering, safeguarding, administration, verification, documentation, and examination of privileged access:
+
+Privileged Session Management controls and records high-risk user sessions, aiding in audit and compliance with searchable session recordings.
+Privileged Password Vault secures credential granting with role-based management and automated workflows.
+Privileged Threat Analytics check privileged session recordings to identify high-risk users and monitor for questionable behavior and anomalies. This helps in early detection of internal and external threats, allowing for immediate action to prevent breaches.
+Least Privileged Access: PAM safeguards the organization and thwarts security breaches by granting administrators precisely the access they need. This method employs a least-privilege security strategy, meticulously allocating administrative permissions across different systems.
+UNIX Identity Consolidation replaces native UNIX systems' individual authentication and authorization with a more secure, integrated identity management via Active Directory (AD). This approach broadens AD's authentication and authorization scope to include UNIX, Linux, and Mac systems.
+When combined with customer identity access management, Privileged Access Governance enhances governance features. This integration offers cohesive policies, automated and role-specific attestation, and provisioning. It guarantees a consistent governance framework for every employee, irrespective of their position or access level.
+Unified access management is an essential component of Privileged Access Management (PAM), encompassing user permissions, privileged access control, and identity management within a Unified Identity Security Platform. It efficiently addresses identity sprawl, streamlining cybersecurity efforts while promoting governance and operational efficiency. By integrating user data across various platforms, it centralizes management and enhances situational awareness, making it a pivotal tool in modern cybersecurity and identity management.
+According to Security-First Compliance for Small Businesses book the best practices for managing privileged access (PAM) encompass:
+
+Distinguishing between privileged and non-privileged access for users with elevated permissions.
+Constraining the count of users possessing privileged rights.
+Restricting privileged rights solely to in-house staff.
+Mandating Multi-Factor Authentication (MFA) for accessing privileged accounts.
+
+
+== See also ==
+List of ISO standards 28000–29999
+Cybersecurity information technology list
+
+
+== References ==

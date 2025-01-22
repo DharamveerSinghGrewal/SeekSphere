@@ -1,0 +1,43 @@
+Cloud-based quantum computing is the invocation of quantum emulators, simulators or processors through the cloud. Increasingly, cloud services are being looked on as the method for providing access to...
+
+Cloud-based quantum computing is the invocation of quantum emulators, simulators or processors through the cloud. Increasingly, cloud services are being looked on as the method for providing access to quantum processing. Quantum computers achieve their massive computing power by initiating quantum physics into processing power and when users are allowed access to these quantum-powered computers through the internet it is known as quantum computing within the cloud.
+In 2016, IBM connected a small quantum computer to the cloud and it allows for simple programs to be built and executed on the cloud. In early 2017, researchers from Rigetti Computing demonstrated the first programmable cloud access using the pyQuil Python library. Many people from academic researchers and professors to schoolkids, have already built programs that run many different quantum algorithms using the program tools. Some consumers hoped to use the fast computing to model financial markets or to build more advanced AI systems. These use methods allow people outside a professional lab or institution to experience and learn more about such a phenomenal technology.
+
+
+== Application ==
+Cloud based quantum computing is used in several contexts:
+
+In teaching, teachers can use cloud-based quantum computing to help their students better understand quantum mechanics, as well as implement and test quantum algorithms.
+In research, scientists can use cloud-based quantum resources to test quantum information theories, perform experiments, compare architectures, amongst other things.
+In games, developers can use cloud-based quantum resources can create quantum games to introduce people to quantum concepts.
+In digital transformation where terabytes of big data available to process and forecast valuable future outcomes.
+Used in cloud based quantum app development to build customized applications for small businesses.
+
+
+== Existing platforms ==
+qBraid Lab by qBraid  is a cloud-based platform for quantum computing. It provides software tools for researchers and developers in quantum, as well as access to quantum hardware. qBraid provides cloud based access to IBM and Amazon Braket devices including IBM, Xanadu, OQC, QuEra, Amazon Braket simulators, Rigetti, and IonQ as of August 2023. The cloud  quantum computing platform comes with a free tier where unlimited hardware and simulator access is available with the purchase of credits.
+Quandela Cloud  by Quandela  is the first cloud-accessible European photonic quantum computer. The computer is interfaced using the Perceval scripting language, with tutorials and documentation available online for free.
+Xanadu Quantum Cloud by Xanadu which consists of cloud-based access to three fully programmable photonic quantum computers.
+Forest by Rigetti Computing, which consists of a tool suite for quantum computing. It includes a programming language, development tools and example algorithms.
+LIQUi> by Microsoft, which is a software architecture and tool suite for quantum computing. It includes a programming language, example optimization and scheduling algorithms, and quantum simulators.
+Q#, a quantum programming language by Microsoft on the .NET Framework seen as a successor to LIQUi|>.
+IBM Q Experience by IBM, providing access to quantum hardware as well as HPC simulators. These can be accessed programmatically using the Python-based Qiskit framework, or via graphical interface with the IBM Q Experience GUI. Both are based on the OpenQASM standard for representing quantum operations. There is also a tutorial and online community. Currently available simulators and quantum devices are:
+Multiple transmon qubit processors. Those with 5 and 16 qubits are publicly accessible. Devices up to 65 qubits are available through the IBM Q Network.
+A 32 qubit cloud-based simulator. Software for locally hosted simulators are also provided as part of Qiskit.
+Quantum in the Cloud by The University of Bristol, which consists of a quantum simulator and a four qubit optical quantum system.
+Quantum Playground by Google, which features a simulator with a simple interface, and a scripting language and 3D quantum state visualization.
+Quantum in the Cloud by Tsinghua University. It is a four-qubit new quantum cloud experience based on nuclear magnetic resonance-NMRCloudQ.
+Quantum Inspire by Qutech is the first platform in Europe providing cloud-based quantum computing to two hardware chips. Next to a 5-qubit transmon processor, Quantum Inspire is the first platform in the world  to provide online access to a fully programmable  2-qubit electron spin quantum processor:
+Spin-2 is a 2-qubit spin qubit quantum computer, hosting two single electron spin qubits in a double quantum dot in isotopically purified 28Si.
+Starmon-5 consists of five superconducting transmon qubits in an X configuration.
+Next to the quantum chips, the platform gives access to QX, a quantum emulator backend. Two instances of the QX emulator are available, emulating up to 26 qubits on a commodity cloud-based server and up to 31 qubits using one 'fat' nodes on Cartesius, the Dutch national supercomputer of SurfSara. Circuit based quantum algorithms can be created through a graphical user interface or through the Python-based Quantum Inspire SDK, providing a backend for the projectQ framework, the Qiskit framework. Quantum Inspire provides a knowledge base with user guides and some example algorithms written in cQASM.
+Amazon Braket, as of November 2022, provides access to quantum computers built by IonQ, Rigetti, Xanadu, QuEra, and Oxford Quantum Circuits. D-Wave machines can be used via the AWS Marketplace. Braket also provides a quantum algorithm development environment and simulator.
+Forge by QC Ware, providing access to D-Wave hardware as well as Google and IBM simulators. The platform offers a 30-day free trial including one minute of quantum computing time.
+
+
+== References ==
+
+
+== External links ==
+List of quantum tools on quantum computing report
+List of quantum computing simulators on quantiki

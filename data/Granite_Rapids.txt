@@ -1,0 +1,58 @@
+Granite Rapids is the codename for 6th generation Xeon Scalable server processors designed by Intel, launched on 24 September 2024. Featuring up to 128 P-cores, Granite Rapids is designed for high per...
+
+Granite Rapids is the codename for 6th generation Xeon Scalable server processors designed by Intel, launched on 24 September 2024. Featuring up to 128 P-cores, Granite Rapids is designed for high performance computing applications. The platform equivalent Sierra Forest processors with up to 288 E-cores launched in June 2024 before Granite Rapids.
+
+
+== Background ==
+On February 17, 2022, Intel announced that upcoming Xeon generations would be split into two tracks for those with P-cores exclusively and E-cores exclusively. These two tracks are intended to serve different market segments with P-core Xeon processors targeting high performance computing while E-core Xeon processors target cloud customers who prioritize greater core density, energy efficiency and performance in heavily multi-threaded workloads over strong single-threaded usage.
+On January 10, 2023, Intel released its 4th generation Xeon processors codenamed Sapphire Rapids. Sapphire Rapids was the first server processors by Intel to utilize a disaggregated MCM approach and included in-silicon accelerators. Sapphire Rapids launched late and topped out at 60 cores, far behind AMD's 96 cores offered in its EPYC 9654 processor. 5th generation Emerald Rapids processors quickly followed Sapphire Rapids with a launch on December 14, 2023. Emerald Rapids is socket-compatible with existing Sapphire Rapids systems and brought significantly increased L3 cache and pushed the maximum core count from 60 to 64.
+On August 28, 2023, Intel shared details on the architecture behind Granite Rapids and Sierra Forest in a presentation at the annual Hot Chips conference. On September 6, 2023, Intel released a video on its packaging techniques which showed a Granite Rapids package with five dies on a single substrate.
+
+
+=== Branding ===
+During Intel's Vision event in April 2024, new branding for Xeon processors was unveiled. The Xeon Scalable branding that was introduced in 2017 would be retired in favor of a simplified "Xeon 6" brand for 6th generation Xeon processors. This change brings greater emphasis on processor generation numbers. The badge for the Xeon brand was changed to be more visually in line with the badge design used for Intel's Core Ultra processors since 2023.
+
+
+== Architecture ==
+Granite Rapids processors are x86 server processors based on Intel's Redwood Cove P-core architecture.
+
+
+=== Packaging ===
+Granite Rapids dies are connected using Intel's Embedded Multi-die Interconnect Bridge (EMIB) packaging technique which is Intel's alternative to TSMC's Infinity Fan-Out (InFO) packaging technique. Rather than use a traditional silicon interposer, EMIB embeds a silicon bridge within an organic substrate to connect multiple dies. EMIB bridges act as a high-bandwidth, low-latency, and low-power solution for die-to-die communication. In contrast, a traditional interposer would be much larger in area and would instead be placed on top of the substrate with dies on top of the interposer. An interposer to connect all five dies in Granite Rapids processors would be prohibitively large. Intel previously used a much smaller interposer with Meteor Lake's Foveros base tile.
+
+
+=== Compute tile ===
+The compute tile in Granite Rapids contains cores, cache and DDR5 memory controllers. A single compute tile houses up to 44 Redwood Cove P-cores, though some cores are disabled for redundance and yield reasons. Redwood Cove cores were first introduced in Meteor Lake mobile processors. For Granite Rapids, Redwood Cove has undergone a minor node shrink from Intel 4 to Intel 3. Compared to the Raptor Cove cores in Emerald Rapids, Redwood Cove brings increased L1 cache to 112KB per core with a 16-way 64KB L1 instructions cache that is doubled from Raptor Cove's 32KB instructions cache while retaining the same 2MB of L2 cache per core. Furthermore, Redwood Cove's new Matrix Engine allows for AMX FP16 acceleration that benefits AI inference workloads. Unlike Sierra Forest, the Redwood Cove cores in Granite Rapids are able to issue AVX-512 and newly added AVX-512-FP16 instructions.
+
+
+==== Memory controllers ====
+A compute tile also contains DDR5 memory controllers that natively support DDR5-6400. Each XCC compute tile provides four channels of DDR5 for a total of 12 memory channels across three compute tiles. This provides flexibility as SKUs with eight memory channels can be created by using two XCC compute tiles instead of three or with a single MCC compute tile. SKUs with four memory channels can use only one XCC compute tile. Lower core count Granite Rapids SKUs use monolithic LCC and MCC dies that both have an 8 channel memory controller.
+Additionally, Granite Rapids adds support for Multiplexer Combined Ranks (MCR) memory DIMMs. MCR DIMMs were designed to provide higher capacities and increased memory bandwidth to high core count server processors compared to regular DDR5 RDIMMs rather than adding more DIMM slots to server motherboards due to physical space constraints. For example, a dual socket AMD EPYC "Genoa" system with 48 total DIMM slots (24 per socket) serving 12 memory channels cannot fit within a standard 19 inch server motherboard form factor. This configuration may add over 5 inches to a server motherboard so it is instead more common to have 24 total DIMM slots (12 per socket) to stay within the 19 inch motherboard standard. MCR memory is able to use both 64-byte ranks simultaneously with a data buffer that compiles the 64-byte data from each rank into one piece of 128-byte data to the CPU. Granite Rapids can support up to DDR5-8800 across 12 memory channels. On April 17, 2024, JEDEC released its updated JESD79-5C DDR5 SDRAM standard that seeks to improve reliability for high-performance servers running highly clocked DDR5 memory. This is addressed through expanded timing parameters and Per-Row Activation Counting (PRAC) to improve data integrity.
+
+
+=== I/O ===
+I/O in Granite Rapids processors is provided by two dies fabricated on the more mature Intel 7 process. It has an estimated die area of 241 mm2. The same I/O tiles in Granite Rapids can be shared with Sierra Forest E-core processors. The I/O tiles provide 136 PCIe 5.0 lanes, an increase from Emerald Rapid's 128 lanes. These 136 PCIe 5.0 lanes support CXL 2.0 Type 3 and up to 6 UPI links. The previous generation Emerald Rapids supported CXL 1.1 Type 1 and Type 2. Granite Rapids  is able to function as an SoC with self-booting capabilities without requiring a link to an external PCH. This brings Granite Rapids in line with AMD's EPYC processors that can function as SoCs.
+
+
+== Products ==
+
+
+=== Granite Rapids-SP ===
+Granite Rapids-SP (Scalable Performance) uses the Beechnut City platform with the smaller LGA 4710 socket, targeted towards mainstream server. It is a direct successor to Sapphire Rapids-SP and Emerald Rapids-SP that used the similarly sized LGA 4677 socket. Granite Rapids-SP features up to 86 cores and 8-channel DDR5 memory support. TDPs up to 350W are supported on Beechnut City platform.
+
+
+=== Granite Rapids-AP ===
+Granite Rapids-AP (Advanced Performance) uses the Avenue City platform with the larger LGA 7529 socket. With the larger socket, Granite Rapids-AP SKUs reach higher core counts up to 128 and support 96 PCIe 5.0 lanes and 12-channel DDR5 memory (Up to 3 TB (1 DIMM per channel) or up to 6 TB (2 DIMM per channel) while using 256GB memory modules in both variants). Increased TDPs up to 500W are supported on Avenue City platform. Granite Rapids is the first time that Intel has used the Advanced Performance moniker since the release of Cascade Lake in April 2019.
+
+
+=== Granite Rapids-D ===
+Granite Rapids-D processors are due to be released in 2025 as the successor to 2021's Ice Lake-D processors. Granite Rapids-D is targeted at edge computing and networking with lower power consumption and integrated I/O and accelerators. Granite Rapids-D offers doubled vRAN (Virtual Radio Access Network) processing capacity and leverages Advanced Vector Extensions and integrated vRAN Boost acceleration for 5G networking. Intel announced at MWC Barcelona in February 2024 that Granite Rapids-D silicon was already sampling to customers.
+
+
+== See also ==
+Intel's process–architecture–optimization model
+Intel's tick–tock model
+List of Intel CPU microarchitectures
+
+
+== References ==

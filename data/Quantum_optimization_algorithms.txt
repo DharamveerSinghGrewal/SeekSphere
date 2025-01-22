@@ -1,0 +1,1870 @@
+Quantum optimization algorithms are quantum algorithms that are used to solve optimization problems. Mathematical optimization deals with finding the best solution to a problem (according to some crit...
+
+Quantum optimization algorithms are quantum algorithms that are used to solve optimization problems. Mathematical optimization deals with finding the best solution to a problem (according to some criteria) from a set of possible solutions. Mostly, the optimization problem is formulated as a minimization problem, where one tries to minimize an error which depends on the solution: the optimal solution has the minimal error. Different optimization techniques are applied in various fields such as mechanics, economics and engineering, and as the complexity and amount of data involved rise, more efficient ways of solving optimization problems are needed. Quantum computing may allow problems which are not practically feasible on classical computers to be solved, or suggest a considerable speed up with respect to the best known classical algorithm.
+
+
+== Quantum data fitting ==
+Data fitting is a process of constructing a mathematical function that best fits a set of data points. The fit's quality is measured by some criteria, usually the distance between the function and the data points.
+
+
+=== Quantum least squares fitting ===
+One of the most common types of data fitting is solving the least squares problem, minimizing the sum of the squares of differences between the data points and the fitted function.
+The algorithm is given 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ input data points 
+  
+    
+      
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          y
+          
+            1
+          
+        
+        )
+        ,
+        (
+        
+          x
+          
+            2
+          
+        
+        ,
+        
+          y
+          
+            2
+          
+        
+        )
+        ,
+        .
+        .
+        .
+        ,
+        (
+        
+          x
+          
+            N
+          
+        
+        ,
+        
+          y
+          
+            N
+          
+        
+        )
+      
+    
+    {\displaystyle (x_{1},y_{1}),(x_{2},y_{2}),...,(x_{N},y_{N})}
+  
+ and 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  
+ continuous functions 
+  
+    
+      
+        
+          f
+          
+            1
+          
+        
+        ,
+        
+          f
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          f
+          
+            M
+          
+        
+      
+    
+    {\displaystyle f_{1},f_{2},...,f_{M}}
+  
+. The algorithm finds and gives as output a continuous function 
+  
+    
+      
+        
+          f
+          
+            
+              
+                λ
+                →
+              
+            
+          
+        
+      
+    
+    {\displaystyle f_{\vec {\lambda }}}
+  
+ that is a linear combination of 
+  
+    
+      
+        
+          f
+          
+            j
+          
+        
+      
+    
+    {\displaystyle f_{j}}
+  
+:
+
+  
+    
+      
+        
+          f
+          
+            
+              
+                λ
+                →
+              
+            
+          
+        
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            M
+          
+        
+        
+          f
+          
+            j
+          
+        
+        (
+        x
+        )
+        
+          λ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle f_{\vec {\lambda }}(x)=\sum _{j=1}^{M}f_{j}(x)\lambda _{j}}
+  
+
+In other words, the algorithm finds the complex coefficients 
+  
+    
+      
+        
+          λ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \lambda _{j}}
+  
+, and thus the vector 
+  
+    
+      
+        
+          
+            
+              λ
+              →
+            
+          
+        
+        =
+        (
+        
+          λ
+          
+            1
+          
+        
+        ,
+        
+          λ
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          λ
+          
+            M
+          
+        
+        )
+      
+    
+    {\displaystyle {\vec {\lambda }}=(\lambda _{1},\lambda _{2},...,\lambda _{M})}
+  
+.
+The algorithm is aimed at minimizing the error, which is given by:
+
+  
+    
+      
+        E
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            |
+            
+              
+                f
+                
+                  
+                    
+                      λ
+                      →
+                    
+                  
+                
+              
+              (
+              
+                x
+                
+                  i
+                
+              
+              )
+              −
+              
+                y
+                
+                  i
+                
+              
+            
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            |
+            
+              
+                ∑
+                
+                  j
+                  =
+                  1
+                
+                
+                  M
+                
+              
+              
+                f
+                
+                  j
+                
+              
+              (
+              
+                x
+                
+                  i
+                
+              
+              )
+              
+                λ
+                
+                  j
+                
+              
+              −
+              
+                y
+                
+                  i
+                
+              
+            
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          
+            |
+            
+              F
+              
+                
+                  
+                    λ
+                    →
+                  
+                
+              
+              −
+              
+                
+                  
+                    y
+                    →
+                  
+                
+              
+            
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle E=\sum _{i=1}^{N}\left\vert f_{\vec {\lambda }}(x_{i})-y_{i}\right\vert ^{2}=\sum _{i=1}^{N}\left\vert \sum _{j=1}^{M}f_{j}(x_{i})\lambda _{j}-y_{i}\right\vert ^{2}=\left\vert F{\vec {\lambda }}-{\vec {y}}\right\vert ^{2}}
+  
+
+where 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  
+ is defined to be the following matrix:
+
+  
+    
+      
+        
+          F
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    f
+                    
+                      1
+                    
+                  
+                  (
+                  
+                    x
+                    
+                      1
+                    
+                  
+                  )
+                
+                
+                  ⋯
+                
+                
+                  
+                    f
+                    
+                      M
+                    
+                  
+                  (
+                  
+                    x
+                    
+                      1
+                    
+                  
+                  )
+                
+              
+              
+                
+                  
+                    f
+                    
+                      1
+                    
+                  
+                  (
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  )
+                
+                
+                  ⋯
+                
+                
+                  
+                    f
+                    
+                      M
+                    
+                  
+                  (
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  )
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋱
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    f
+                    
+                      1
+                    
+                  
+                  (
+                  
+                    x
+                    
+                      N
+                    
+                  
+                  )
+                
+                
+                  ⋯
+                
+                
+                  
+                    f
+                    
+                      M
+                    
+                  
+                  (
+                  
+                    x
+                    
+                      N
+                    
+                  
+                  )
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle {F}={\begin{pmatrix}f_{1}(x_{1})&\cdots &f_{M}(x_{1})\\f_{1}(x_{2})&\cdots &f_{M}(x_{2})\\\vdots &\ddots &\vdots \\f_{1}(x_{N})&\cdots &f_{M}(x_{N})\\\end{pmatrix}}}
+  
+
+The quantum least-squares fitting algorithm makes use of a version of Harrow, Hassidim, and Lloyd's quantum algorithm for linear systems of equations (HHL), and outputs the coefficients 
+  
+    
+      
+        
+          λ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \lambda _{j}}
+  
+ and the fit quality estimation 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+  
+. It consists of three subroutines: an algorithm for performing a pseudo-inverse operation, one routine for the fit quality estimation, and an algorithm for learning the fit parameters.
+Because the quantum algorithm is mainly based on the HHL algorithm, it suggests an exponential improvement in the case where 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  
+ is sparse and the condition number (namely, the ratio between the largest and the smallest eigenvalues) of both 
+  
+    
+      
+        F
+        
+          F
+          
+            †
+          
+        
+      
+    
+    {\displaystyle FF^{\dagger }}
+  
+ and 
+  
+    
+      
+        
+          F
+          
+            †
+          
+        
+        F
+      
+    
+    {\displaystyle F^{\dagger }F}
+  
+ is small.
+
+
+== Quantum semidefinite programming ==
+Semidefinite programming (SDP) is an optimization subfield dealing with the optimization of a linear objective function (a user-specified function to be minimized or maximized), over the intersection of the cone of positive semidefinite matrices with an affine space. The objective function is an inner product of a matrix 
+  
+    
+      
+        C
+      
+    
+    {\displaystyle C}
+  
+ (given as an input) with the variable 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+. Denote by 
+  
+    
+      
+        
+          
+            S
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {S} ^{n}}
+  
+ the space of all 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+  
+ symmetric matrices. The variable 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ must lie in the (closed convex) cone of positive semidefinite symmetric matrices 
+  
+    
+      
+        
+          
+            S
+          
+          
+            +
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {S} _{+}^{n}}
+  
+. The inner product of two matrices is defined as:
+
+  
+    
+      
+        ⟨
+        A
+        ,
+        B
+        
+          ⟩
+          
+            
+              
+                S
+              
+              
+                n
+              
+            
+          
+        
+        =
+        
+          
+            t
+            r
+          
+        
+        (
+        
+          A
+          
+            T
+          
+        
+        B
+        )
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+            ,
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          A
+          
+            i
+            j
+          
+        
+        
+          B
+          
+            i
+            j
+          
+        
+        .
+      
+    
+    {\displaystyle \langle A,B\rangle _{\mathbb {S} ^{n}}={\rm {tr}}(A^{T}B)=\sum _{i=1,j=1}^{n}A_{ij}B_{ij}.}
+  
+
+The problem may have additional constraints (given as inputs), also usually formulated as inner products. Each constraint forces the inner product of the matrices 
+  
+    
+      
+        
+          A
+          
+            k
+          
+        
+      
+    
+    {\displaystyle A_{k}}
+  
+ (given as an input) with the optimization variable 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ to be smaller than a specified value 
+  
+    
+      
+        
+          b
+          
+            k
+          
+        
+      
+    
+    {\displaystyle b_{k}}
+  
+ (given as an input). Finally, the SDP problem can be written as:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      min
+                      
+                        X
+                        ∈
+                        
+                          
+                            S
+                          
+                          
+                            n
+                          
+                        
+                      
+                    
+                  
+                
+              
+              
+                ⟨
+                C
+                ,
+                X
+                
+                  ⟩
+                  
+                    
+                      
+                        S
+                      
+                      
+                        n
+                      
+                    
+                  
+                
+              
+            
+            
+              
+                
+                  subject to
+                
+              
+              
+                ⟨
+                
+                  A
+                  
+                    k
+                  
+                
+                ,
+                X
+                
+                  ⟩
+                  
+                    
+                      
+                        S
+                      
+                      
+                        n
+                      
+                    
+                  
+                
+                ≤
+                
+                  b
+                  
+                    k
+                  
+                
+                ,
+                
+                k
+                =
+                1
+                ,
+                …
+                ,
+                m
+              
+            
+            
+              
+              
+                X
+                ⪰
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{array}{rl}{\displaystyle \min _{X\in \mathbb {S} ^{n}}}&\langle C,X\rangle _{\mathbb {S} ^{n}}\\{\text{subject to}}&\langle A_{k},X\rangle _{\mathbb {S} ^{n}}\leq b_{k},\quad k=1,\ldots ,m\\&X\succeq 0\end{array}}}
+  
+
+The best classical algorithm is not known to unconditionally run in polynomial time. The corresponding feasibility problem is known to either lie outside of the union of the complexity classes NP and co-NP, or in the intersection of NP and co-NP.
+
+
+=== The quantum algorithm ===
+The algorithm inputs are 
+  
+    
+      
+        
+          A
+          
+            1
+          
+        
+        .
+        .
+        .
+        
+          A
+          
+            m
+          
+        
+        ,
+        C
+        ,
+        
+          b
+          
+            1
+          
+        
+        .
+        .
+        .
+        
+          b
+          
+            m
+          
+        
+      
+    
+    {\displaystyle A_{1}...A_{m},C,b_{1}...b_{m}}
+  
+ and parameters regarding the solution's trace, precision and optimal value (the objective function's value at the optimal point).
+The quantum algorithm consists of several iterations. In each iteration, it solves a feasibility problem, namely, finds any solution satisfying the following conditions (giving a threshold 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+):
+
+  
+    
+      
+        
+          
+            
+              
+                ⟨
+                C
+                ,
+                X
+                
+                  ⟩
+                  
+                    
+                      
+                        S
+                      
+                      
+                        n
+                      
+                    
+                  
+                
+                ≤
+                t
+              
+            
+            
+              
+                ⟨
+                
+                  A
+                  
+                    k
+                  
+                
+                ,
+                X
+                
+                  ⟩
+                  
+                    
+                      
+                        S
+                      
+                      
+                        n
+                      
+                    
+                  
+                
+                ≤
+                
+                  b
+                  
+                    k
+                  
+                
+                ,
+                
+                k
+                =
+                1
+                ,
+                …
+                ,
+                m
+              
+            
+            
+              
+                X
+                ⪰
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{array}{lr}\langle C,X\rangle _{\mathbb {S} ^{n}}\leq t\\\langle A_{k},X\rangle _{\mathbb {S} ^{n}}\leq b_{k},\quad k=1,\ldots ,m\\X\succeq 0\end{array}}}
+  
+
+In each iteration, a different threshold 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+ is chosen, and the algorithm outputs either a solution 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ such that 
+  
+    
+      
+        ⟨
+        C
+        ,
+        X
+        
+          ⟩
+          
+            
+              
+                S
+              
+              
+                n
+              
+            
+          
+        
+        ≤
+        t
+      
+    
+    {\displaystyle \langle C,X\rangle _{\mathbb {S} ^{n}}\leq t}
+  
+ (and the other constraints are satisfied, too) or an indication that no such solution exists. The algorithm performs a binary search to find the minimal threshold 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+ for which a solution 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ still exists: this gives the minimal solution to the SDP problem.
+The quantum algorithm provides a quadratic improvement over the best classical algorithm in the general case, and an exponential improvement when the input matrices are of low rank.
+
+
+== Quantum combinatorial optimization ==
+The combinatorial optimization problem is aimed at finding an optimal object from a finite set of objects. The problem can be phrased as a maximization of an objective function which is a sum of Boolean functions. Each Boolean function 
+  
+    
+      
+        
+        
+          C
+          
+            α
+          
+        
+        :
+        {
+        
+          
+            0
+            ,
+            1
+            }
+          
+          
+            n
+          
+        
+        →
+        {
+        
+          0
+          ,
+          1
+        
+        }
+      
+    
+    {\displaystyle \,C_{\alpha }\colon \lbrace {0,1\rbrace }^{n}\rightarrow \lbrace {0,1}\rbrace }
+  
+ gets as input the 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+-bit string 
+  
+    
+      
+        z
+        =
+        
+          z
+          
+            1
+          
+        
+        
+          z
+          
+            2
+          
+        
+        …
+        
+          z
+          
+            n
+          
+        
+      
+    
+    {\displaystyle z=z_{1}z_{2}\ldots z_{n}}
+  
+ and gives as output one bit (0 or 1). The combinatorial optimization problem of 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ bits and 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  
+ clauses is finding an 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+-bit string 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  
+ that maximizes the function
+
+  
+    
+      
+        C
+        (
+        z
+        )
+        =
+        
+          ∑
+          
+            α
+            =
+            1
+          
+          
+            m
+          
+        
+        
+          C
+          
+            α
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle C(z)=\sum _{\alpha =1}^{m}C_{\alpha }(z)}
+  
+
+Approximate optimization is a way of finding an approximate solution to an optimization problem, which is often NP-hard. The approximated solution of the combinatorial optimization problem is a string 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  
+ that is close to maximizing 
+  
+    
+      
+        C
+        (
+        z
+        )
+      
+    
+    {\displaystyle C(z)}
+  
+.
+
+
+=== Quantum approximate optimization algorithm ===
+For combinatorial optimization, the quantum approximate optimization algorithm (QAOA) briefly had a better approximation ratio than any known polynomial time classical algorithm (for a certain problem), until a more effective classical algorithm was proposed. The relative speed-up of the quantum algorithm is an open research question.
+QAOA consists of the following steps:
+
+Defining a cost Hamiltonian 
+  
+    
+      
+        
+          H
+          
+            C
+          
+        
+      
+    
+    {\displaystyle H_{C}}
+  
+ such that its ground state encodes the solution to the optimization problem.
+Defining a mixer Hamiltonian 
+  
+    
+      
+        
+          H
+          
+            M
+          
+        
+      
+    
+    {\displaystyle H_{M}}
+  
+.
+Defining the oracles 
+  
+    
+      
+        
+          U
+          
+            C
+          
+        
+        (
+        γ
+        )
+        =
+        exp
+        ⁡
+        (
+        −
+        ı
+        γ
+        
+          H
+          
+            C
+          
+        
+        )
+      
+    
+    {\displaystyle U_{C}(\gamma )=\exp(-\imath \gamma H_{C})}
+  
+ and 
+  
+    
+      
+        
+          U
+          
+            M
+          
+        
+        (
+        α
+        )
+        =
+        exp
+        ⁡
+        (
+        −
+        ı
+        α
+        
+          H
+          
+            M
+          
+        
+        )
+      
+    
+    {\displaystyle U_{M}(\alpha )=\exp(-\imath \alpha H_{M})}
+  
+, with parameters 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+  
+ and α.
+Repeated application of the oracles 
+  
+    
+      
+        
+          U
+          
+            C
+          
+        
+      
+    
+    {\displaystyle U_{C}}
+  
+ and 
+  
+    
+      
+        
+          U
+          
+            M
+          
+        
+      
+    
+    {\displaystyle U_{M}}
+  
+, in the order: 
+  
+    
+      
+        U
+        (
+        
+          γ
+        
+        ,
+        
+          α
+        
+        )
+        =
+        
+          ∐
+          
+            i
+            =
+            1
+          
+          
+            N
+          
+        
+        (
+        
+          U
+          
+            C
+          
+        
+        (
+        
+          γ
+          
+            i
+          
+        
+        )
+        
+          U
+          
+            M
+          
+        
+        (
+        
+          α
+          
+            i
+          
+        
+        )
+        )
+      
+    
+    {\displaystyle U({\boldsymbol {\gamma }},{\boldsymbol {\alpha }})=\coprod _{i=1}^{N}(U_{C}(\gamma _{i})U_{M}(\alpha _{i}))}
+  
+
+Preparing an initial state, that is a superposition of all possible states and apply 
+  
+    
+      
+        U
+        (
+        
+          γ
+        
+        ,
+        
+          α
+        
+        )
+      
+    
+    {\displaystyle U({\boldsymbol {\gamma }},{\boldsymbol {\alpha }})}
+  
+ to the state.
+Using classical methods to optimize the parameters 
+  
+    
+      
+        
+          γ
+        
+        ,
+        
+          α
+        
+      
+    
+    {\displaystyle {\boldsymbol {\gamma }},{\boldsymbol {\alpha }}}
+  
+ and measure the output state of the optimized circuit to obtain the approximate optimal solution to the cost Hamiltonian. An optimal solution will be one that maximizes the expectation value of the cost Hamiltonian 
+  
+    
+      
+        
+          H
+          
+            C
+          
+        
+      
+    
+    {\displaystyle H_{C}}
+  
+.
+
+The layout of the algorithm, viz, the use of cost and mixer Hamiltonians are inspired from the Quantum Adiabatic theorem, which states that starting in a ground state of a time-dependent Hamiltonian, if the Hamiltonian evolves slowly enough, the final state will be a ground state of the final Hamiltonian. Moreover, the adiabatic theorem can be generalized to any other eigenstate as long as there is no overlap (degeneracy) between different eigenstates across the evolution. Identifying the initial Hamiltonian with 
+  
+    
+      
+        
+          H
+          
+            M
+          
+        
+      
+    
+    {\displaystyle H_{M}}
+  
+ and the final Hamiltonian with 
+  
+    
+      
+        
+          H
+          
+            C
+          
+        
+      
+    
+    {\displaystyle H_{C}}
+  
+, whose ground states encode the solution to the optimization problem of interest, one can approximate the optimization problem as the adiabatic evolution of the Hamiltonian from an initial to the final one, whose ground (eigen)state gives the optimal solution. In general, QAOA relies on the use of unitary operators dependent on 
+  
+    
+      
+        2
+        p
+      
+    
+    {\displaystyle 2p}
+  
+ angles (parameters), where 
+  
+    
+      
+        p
+        >
+        1
+      
+    
+    {\displaystyle p>1}
+  
+ is an input integer, which can be identified the number of layers of the oracle 
+  
+    
+      
+        U
+        (
+        
+          γ
+        
+        ,
+        
+          α
+        
+        )
+      
+    
+    {\displaystyle U({\boldsymbol {\gamma }},{\boldsymbol {\alpha }})}
+  
+. These operators are iteratively applied on a state that is an equal-weighted quantum superposition of all the possible states in the computational basis. In each iteration, the state is measured in the computational basis and the Boolean function 
+  
+    
+      
+        C
+        (
+        z
+        )
+      
+    
+    {\displaystyle C(z)}
+  
+ is estimated. The angles are then updated classically to increase 
+  
+    
+      
+        C
+        (
+        z
+        )
+      
+    
+    {\displaystyle C(z)}
+  
+. After this procedure is repeated a sufficient number of times, the value of 
+  
+    
+      
+        C
+        (
+        z
+        )
+      
+    
+    {\displaystyle C(z)}
+  
+ is almost optimal, and the state being measured is close to being optimal as well. A sample circuit that implements QAOA on a quantum computer is given in figure. This procedure is highlighted using the following example of finding the minimum vertex cover of a graph.
+
+
+=== QAOA for finding the minimum vertex cover of a graph ===
+The goal here is to find a minimum vertex cover of a graph: a collection of vertices such that each edge in the graph contains at least one of the vertices in the cover. Hence, these vertices “cover” all the edges. We wish to find a vertex cover that has the smallest possible number of vertices. Vertex covers can be represented by a bit string where each bit denotes whether the corresponding vertex is present in the cover. For example, the bit string 0101 represents a cover consisting of the second and fourth vertex in a graph with four vertices.
+
+Consider the graph given in the figure. It has four vertices and there are two minimum vertex cover for this graph: vertices 0 and 2, and the vertices 1 and 2. These can be respectively represented by the bit strings 1010 and 0110. The goal of the algorithm is to sample these bit strings with high probability. In this case, the cost Hamiltonian has two ground states, |1010⟩ and |0110⟩, coinciding with the solutions of the problem. The mixer Hamiltonian is the simple, non-commuting sum of Pauli-X operations on each node of the graph and they are given by:
+
+  
+    
+      
+        
+          H
+          
+            C
+          
+        
+        =
+        −
+        0.25
+        
+          Z
+          
+            3
+          
+        
+        +
+        0.5
+        
+          Z
+          
+            0
+          
+        
+        +
+        0.5
+        
+          Z
+          
+            1
+          
+        
+        +
+        1.25
+        
+          Z
+          
+            2
+          
+        
+        +
+        0.75
+        (
+        
+          Z
+          
+            0
+          
+        
+        
+          Z
+          
+            1
+          
+        
+        +
+        
+          Z
+          
+            0
+          
+        
+        
+          Z
+          
+            2
+          
+        
+        +
+        
+          Z
+          
+            2
+          
+        
+        
+          Z
+          
+            3
+          
+        
+        +
+        
+          Z
+          
+            1
+          
+        
+        
+          Z
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle H_{C}=-0.25Z_{3}+0.5Z_{0}+0.5Z_{1}+1.25Z_{2}+0.75(Z_{0}Z_{1}+Z_{0}Z_{2}+Z_{2}Z_{3}+Z_{1}Z_{2})}
+  
+
+  
+    
+      
+        
+          H
+          
+            M
+          
+        
+        =
+        
+          X
+          
+            0
+          
+        
+        +
+        
+          X
+          
+            1
+          
+        
+        +
+        
+          X
+          
+            2
+          
+        
+        +
+        
+          X
+          
+            3
+          
+        
+      
+    
+    {\displaystyle H_{M}=X_{0}+X_{1}+X_{2}+X_{3}}
+  
+
+Implementing QAOA algorithm for this four qubit circuit with two layers of the ansatz in qiskit (see figure) and optimizing leads to a probability distribution for the states given in the figure. This shows that the states |0110⟩ and |1010⟩ have the highest probabilities of being measured, just as expected.
+
+
+=== Generalization of QAOA to constrained combinatorial optimisation ===
+In principle the optimal value of 
+  
+    
+      
+        C
+        (
+        z
+        )
+      
+    
+    {\displaystyle C(z)}
+  
+ can be reached up to arbitrary precision, this is guaranteed by the adiabatic theorem or alternatively by the universality of the QAOA unitaries. However, it is an open question whether this can be done in a feasible way.
+For example, it was shown that QAOA exhibits a strong dependence on the ratio of a problem's constraint to variables (problem density) placing a limiting restriction on the algorithm's capacity to minimize a corresponding objective function.
+It was soon recognized that a generalization of the QAOA process is essentially an alternating application of a continuous-time quantum walk on an underlying graph followed by a quality-dependent phase shift applied to each solution state. This generalized QAOA was termed as QWOA (Quantum Walk-based Optimisation Algorithm).
+In the paper How many qubits are needed for quantum computational supremacy submitted to arXiv, the authors conclude that a QAOA circuit with 420 qubits and 500 constraints would require at least one century to be simulated using a classical simulation algorithm running on state-of-the-art supercomputers so that would be sufficient for quantum computational supremacy.
+A rigorous comparison of QAOA with classical algorithms can give estimates on depth 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ and number of qubits required for quantum advantage. A study of QAOA and MaxCut algorithm shows that 
+  
+    
+      
+        p
+        >
+        11
+      
+    
+    {\displaystyle p>11}
+  
+ is required for scalable advantage.
+
+
+=== Variations of QAOA ===
+Several variations to the basic structure of QAOA have been proposed, which include variations to the ansatz of the basic algorithm. The choice of ansatz typically depends on the problem type, such as combinatorial problems represented as graphs, or problems strongly influenced by hardware design. However, ansatz design must balance specificity and generality to avoid overfitting and maintain applicability to a wide range of problems. For this reason, designing optimal ansatze for QAOA is an extensively researched and widely investigated topic. Some of the proposed variants are:
+
+Multi-angle QAOA
+QAOA+
+Digitised counteradiabatic QAOA
+Quantum alternating operator ansatz,which allows for constrains on the optimization problem etc.
+Another variation of QAOA focuses on techniques for parameter optimization, which aims at selecting the optimal set of initial parameters for a given problem and avoiding barren plateaus, which represent parameters leading to eigenstates which correspond to plateaus in the energy landscape of the cost Hamiltonian. 
+Finally, there has been significant research interest in leveraging specific hardware to enhance the performance of QAOA across various platforms, such as trapped ion, neutral atoms, superconducting qubits, and photonic quantum computers. The goals of these approaches include overcoming hardware connectivity limitations and mitigating noise-related issues to broaden the applicability of QAOA to a wide range of combinatorial optimization problems.
+
+
+== See also ==
+Adiabatic quantum computation
+Quantum annealing
+
+
+== References ==
+
+
+== External links ==
+Implementation of the QAOA algorithm for the knapsack problem with Classiq

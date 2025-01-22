@@ -1,0 +1,19 @@
+Rethink Robotics (formerly Heartland Robotics, Inc.) is a robotics company co-founded by Rodney Brooks and Ann Whittaker in 2008. In 2018 the assets of Rethink Robotics were bought by the German autom...
+
+Rethink Robotics (formerly Heartland Robotics, Inc.) is a robotics company co-founded by Rodney Brooks and Ann Whittaker in 2008. In 2018 the assets of Rethink Robotics were bought by the German automation specialist HAHN Group. In 2021 Rethink Robotics joined the United Robotics Group GmbH. 
+Rethink Robotics has won awards and has been an Edison Awards finalist.
+
+
+== History ==
+Rethink Robotics was founded in 2008 as a startup aiming to create low-cost robots. In 2012, they released the robot Baxter. In 2015, they released a smaller and more flexible counterpart to Baxter, Sawyer, that was designed to perform smaller, more detailed tasks.
+In 2016, they released their collaborative robots (cobots) worldwide. These robots were designed to be easy to set up and work alongside, rather than replace, humans in factory environments.
+In October 2018, Rethink Robotics ceased operations and sold off its assets. Other companies picked up support for the robots.
+
+Most of the Rethink Robotics assets were bought by a distributor, the HAHN Group, a German automation specialist.  HAHN Group acquired all of Rethink's patents and trademarks as well as Rethink's Intera 5 software platform.
+About 100 Baxter robots and the rights to sell them in North America were bought by Hunan CoThink Robotics Technology Company.
+In October 2019, one year after the acquisition of assets through the German HAHN Group, Rethink Robotics launched the new Sawyer BLACK Edition. The headquarters of Rethink Robotics moved from Rheinböllen to Bochum in mid 2020, and signed a partnership with Siemens.
+In August 2024 Rethink Robotics GmbH was shut down due to operational reasons.
+In September 2024 Rethink Robotics, Inc. reappears with new products. After a long hiatus, the company celebrated its rebirth at the IMTS The International Manufacturing Technology Show in 2024 with a new product portfolio including a cobot and AMR line.
+
+
+== References ==

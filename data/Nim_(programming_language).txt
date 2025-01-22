@@ -1,0 +1,356 @@
+Nim is a general-purpose, multi-paradigm, statically typed, compiled high-level system programming language, designed and developed by a team around Andreas Rumpf. Nim is designed to be "efficient, ex...
+
+Nim is a general-purpose, multi-paradigm, statically typed, compiled high-level system programming language, designed and developed by a team around Andreas Rumpf. Nim is designed to be "efficient, expressive, and elegant", supporting metaprogramming, functional, message passing, procedural, and object-oriented programming styles by providing several features such as compile time code generation, algebraic data types, a foreign function interface (FFI) with C, C++, Objective-C, and JavaScript, and supporting compiling to those same languages as intermediate representations.
+
+
+== Description ==
+Nim is statically typed. It supports compile-time metaprogramming features such as syntactic macros and term rewriting macros. Term rewriting macros enable library implementations of common data structures, such as bignums and matrices, to be implemented efficiently and with syntactic integration, as if they were built-in language facilities. Iterators are supported and can be used as first class entities, as can functions, allowing for the use of functional programming methods. Object-oriented programming is supported by inheritance and multiple dispatch. Functions can be generic and overloaded, and generics are further enhanced by Nim's support for type classes. Operator overloading is also supported. Nim includes multiple tunable memory management strategies, including tracing garbage collection, reference counting, and fully manual systems, with the default being deterministic reference counting with optimizations via move semantics and cycle collection via trial deletion.[Nim] ... presents a most original design that straddles Pascal and Python and compiles to C code or JavaScript.
+As of August 2023, Nim compiles to C, C++, JavaScript, Objective-C, and LLVM.
+
+
+== History ==
+
+Andreas Rumpf is the designer and original implementer of Nim. He received a diploma in computer science from the University of Kaiserslautern-Landau, Germany. His research interests include hard realtime systems, embedded systems, compiler construction and artificial intelligence. 
+Nim's original website design by Dominik Picheta and Hugo Locurcio. Joseph Wecker created the Nim logo.
+The Nim programming language is a concise, fast programming language that compiles to C, C++ and JavaScript. Nim's initial development was started in 2005 by Andreas Rumpf. It was originally named Nimrod when the project was made public in 2008.: 4–11  
+The first version of the Nim compiler was written in Pascal using the Free Pascal compiler. In 2008, a version of the compiler written in Nim was released. The compiler is free and open-source software, and is being developed by a community of volunteers working with Andreas Rumpf. The language was officially renamed from Nimrod to Nim with the release of version 0.10.2 in December 2014. On September 23, 2019, version 1.0 of Nim was released, signifying the maturing of the language and its toolchain. On August 1st, 2023, version 2.0 of Nim was released, signifying the completion, stabilization of, and switch to the ARC/ORC memory model.
+
+
+== Language design ==
+
+
+=== Syntax ===
+The syntax of Nim resembles that of Python. Code blocks and nesting statements are identified through use of whitespace, according to the offside-rule. Many keywords are identical to their Python equivalents, which are mostly English keywords, whereas other programming languages usually use punctuation. With the goal of improving upon its influence languages, even though Nim supports indentation-based syntax like Python, it introduced additional flexibility. For example, a single statement may span multiple lines if a comma or binary operator is at the end of each line. Nim also supports user-defined operators.
+Unlike Python, Nim implements (native) static typing. Nim's type system allows for easy type conversion, casting, and provides syntax for generic programming. Nim notably provides type classes which can stand in for multiple types, and provides several such type classes 'out of the box'. Type classes allow working with several types as if they were a single type. For example:
+
+openarray – Represents arrays of different sizes, sequences, and strings
+SomeSignedInt – Represents all the signed integer types
+SomeInteger – Represents all the Integer types, signed or not
+SomeOrdinal – Represents all the basic countable and ordered types, except of non integer number
+This code sample demonstrates the use of typeclasses in Nim]
+
+echo twiceIfIsNumber(67) # Passes an int to the function
+echo twiceIfIsNumber(67u8) # Passes an uint8
+echo twiceIfIsNumber(true) # Passes a bool (Which is also an Ordinal)
+
+
+=== Influence ===
+According to the language creator, Nim was conceived to combine the best parts of Ada typing system, Python flexibility, and powerful Lisp macro system.
+Nim was influenced by specific characteristics of existing languages, including the following:
+
+Modula-3: traced vs untraced pointers
+Object Pascal: type safe bit sets (set of char), case statement syntax, various type names and filenames in the standard library
+Ada: subrange types, distinct type, safe variants – case objects
+C++: operator overloading, generic programming
+Python: Off-side rule
+Lisp: Macro system, AST manipulation, homoiconicity
+Oberon: export marker
+C#: async/await, lambda macros
+ParaSail: pointer-free programming
+
+
+=== Uniform Function Call Syntax ===
+Nim supports Uniform Function Call Syntax (UFCS) and identifier equality, which provides a large degree of flexibility in use.
+For example, each of these lines print "hello world", just with different syntax:
+
+
+=== Identifier equality ===
+Nim is almost fully style-insensitive; two identifiers are considered equal if they only differ by capitalization and underscores, as long as the first characters are identical. This is to enable a mixture of styles across libraries: one user can write a library using snake_case as a convention, and it can be used by a different user in a camelCase style without issue.
+
+
+=== Stropping ===
+The stropping feature allows the use of any name for variables or functions, even when the names are reserved words for keywords. An example of stropping is the ability to define a variable named if, without clashing with the keyword if. Nim's implementation of this is achieved via backticks, allowing any reserved word to be used as an identifier.
+
+
+== Compiler ==
+The Nim compiler emits fast, optimized C code by default. It defers compiling-to-object code to an external C compiler to leverage existing compiler optimization and portability. Many C compilers are supported, including Clang, Microsoft Visual C++ (MSVC), MinGW, and GNU Compiler Collection (GCC). The Nim compiler can also emit C++, Objective-C, and JavaScript code to allow easy interfacing with application programming interfaces (APIs) written in those languages; developers can simply write in Nim, then compile to any supported language. This also allows writing applications for iOS and Android. There is also an unofficial LLVM backend, allowing use of the Nim compiler in a stand-alone way.
+The Nim compiler is self-hosting, meaning it is written in the Nim language. The compiler supports cross-compiling, so it is able to compile software for any of the supported operating systems, no matter the development machine. This is useful for compiling applications for embedded systems, and for uncommon and obscure computer architectures.
+
+
+=== Compiler options ===
+By default, the Nim compiler creates a debug build. 
+With the option -d:release a release build can be created, which is optimized for speed and contains fewer runtime checks. 
+With the option -d:danger all runtime checks can be disabled, if maximum speed is desired.
+
+
+=== Memory management ===
+Nim supports multiple memory management strategies, including the following:
+
+--mm:arc – Automatic reference counting (ARC) with move semantics optimizations, offers a shared heap. It offers fully deterministic performance for hard realtime systems. Reference cycles may cause memory leaks: these may be dealt with by manually annotating {.acyclic.} pragmas or by using --mm:orc.
+--mm:orc – Same as --mm:arc but adds a cycle collector (the "O") based on "trial deletion". The cycle collector only analyzes types if they are potentially cyclic.
+--mm:refc – Standard deferred reference counting based garbage collector with a simple mark-and-sweep backup GC in order to collect cycles. Heaps are thread-local.
+--mm:markAndSweep – Simple mark-and-sweep based garbage collector. Heaps are thread-local.
+--mm:boehm – Boehm based garbage collector, it offers a shared heap.
+--mm:go – Go's garbage collector, useful for interoperability with Go. Offers a shared heap.
+--mm:none – No memory management strategy nor a garbage collector. Allocated memory is simply never freed, unless manually freed by the developer's code.
+As of Nim 2.0, ORC is the default GC.
+
+
+== Development tools ==
+
+
+=== Bundled ===
+Many tools are bundled with the Nim install package, including:
+
+
+==== Nimble ====
+Nimble is the standard package manager used by Nim to package Nim modules. It was initially developed by Dominik Picheta, who is also a core Nim developer. Nimble has been included as Nim's official package manager since Oct 27, 2015, the v0.12.0 release.
+Nimble packages are defined by .nimble files, which contain information about the package version, author, license, description, dependencies, and more.: 132  These files support a limited subset of the Nim syntax called NimScript, with the main limitation being the access to the FFI. These scripts allow changing of test procedure, or for custom tasks to be written.
+The list of packages is stored in a JavaScript Object Notation (JSON) file which is freely accessible in the nim-lang/packages repository on GitHub. This JSON file provides Nimble with a mapping between the names of packages and their Git or Mercurial repository URLs.
+Nimble comes with the Nim compiler. Thus, it is possible to test the Nimble environment by running:
+nimble -v.
+This command will reveal the version number, compiling date and time, and Git hash of nimble. Nimble uses the Git package, which must be available for Nimble to function properly. The Nimble command-line is used as an interface for installing, removing (uninstalling), and upgrading–patching module packages.: 130–131 
+
+
+==== c2nim ====
+c2nim is a source-to-source compiler (transcompiler or transpiler) meant to be used on C/C++ headers to help generate new Nim bindings. The output is human-readable Nim code that is meant to be edited by hand after the translation process.
+
+
+==== koch ====
+koch is a maintenance script that is used to build Nim, and provide HTML documentation.
+
+
+==== nimgrep ====
+nimgrep is a generic tool for manipulating text. It is used to search for regex, peg patterns, and contents of directories, and it can be used to replace tasks. It is included to assist with searching Nim's style-insensitive identifiers.
+
+
+==== nimsuggest ====
+nimsuggest is a tool that helps any source code editor query a .nim source file to obtain useful information like definition of symbols or suggestions for completions.
+
+
+==== niminst ====
+niminst is a tool to generate an installer for a Nim program. 
+It creates .msi installers for Windows via Inno Setup, and install and uninstall scripts for Linux, macOS, and Berkeley Software Distribution (BSD).
+
+
+==== nimpretty ====
+nimpretty is a source code beautifier, used to format code according to the official Nim style guide.
+
+
+==== Testament ====
+Testament is an advanced automatic unit tests runner for Nim tests. Used in developing Nim, it offers process isolation tests, generates statistics about test cases, supports multiple targets and simulated Dry-Runs, has logging, can generate HTML reports, can skip tests from a file, and more.
+
+
+=== Other notable tools ===
+Some notable tools not included in the Nim distribution include:
+
+
+==== choosenim ====
+choosenim was developed by Dominik Picheta, creator of the Nimble package manager, as a tool to enable installing and using multiple versions of the Nim compiler. It downloads any Nim stable or development compiler version from the command line, enabling easy switching between them.
+
+
+==== nimpy ====
+nimpy is a library that enables convenient Python integration in Nim programs.
+
+
+==== pixie ====
+pixie is a feature-rich 2D graphics library, similar to Cairo or the Skia. It uses SIMD acceleration to speed-up image manipulation drastically. It supports many image formats, blending, masking, blurring, and can be combined with the boxy library to do hardware accelerated rendering.
+
+
+==== nimterop ====
+nimterop is a tool focused on automating the creation of C/C++ wrappers needed for Nim's foreign function interface.
+
+
+== Libraries ==
+
+
+=== Pure/impure libraries ===
+Pure libraries are modules written in Nim only. They include no wrappers to access libraries written in other programming languages.
+Impure libraries are modules of Nim code which depend on external libraries that are written in other programming languages such as C.
+
+
+=== Standard library ===
+The Nim standard library includes modules for all basic tasks, including:
+
+System and core modules
+Collections and algorithms
+String handling
+Time handling
+Generic Operating System Services
+Math libraries
+Internet Protocols and Support
+Threading
+Parsers
+Docutils
+XML Processing
+XML and HTML code generator
+Hashing
+Database support (PostgreSQL, MySQL and SQLite)
+Wrappers (Win32 API, POSIX)
+
+
+=== Use of other libraries ===
+A Nim program can use any library which can be used in a C, C++, or JavaScript program. Language bindings exist for many libraries, including GTK, Qt QML, wxWidgets, SDL 2, Raylib, Godot, UE5, Cairo, OpenGL, Vulkan, WinAPI, zlib, libzip, OpenSSL and cURL. Nim works with PostgreSQL, MySQL, and SQLite databases.
+There are open source tools of various degree of support that can be used to interface Nim with Lua, Julia, Rust, 
+C#,
+and Python programming languages or transpile Nim to TypeScript.
+
+
+== Examples ==
+
+
+=== Hello world ===
+The "Hello, World!" program in Nim:
+
+Another version of "Hello World" can be accomplished by calling the write function with the stdout stream:
+
+
+=== Fibonacci ===
+Several implementations of the Fibonacci function, showcasing implicit returns, default parameters, iterators, recursion, and while loops:
+
+
+=== Factorial ===
+Program to calculate the factorial of a positive integer using the iterative approach, showcasing try/catch error handling and for loops:Using the module math from Nim's standard library:
+
+
+=== Reversing a string ===
+A simple demonstration showing the implicit result variable and the use of iterators.
+
+One of Nim's more exotic features is the implicit result variable. Every procedure in Nim with a non-void return type has an implicit result variable that represents the value to be returned. In the for loop we see an invocation of countdown which is an iterator. If an iterator is omitted, the compiler will attempt to use an items iterator, if one is defined for the type specified.
+
+
+=== Graphical user interface ===
+Using GTK 3 with GObject introspection through the gintro module:
+
+This code requires the gintro module to work, which is not part of the standard library. To install the module gintro and many others you can use the tool nimble, which comes as part of Nim. To install the gintro module with nimble you do the following:
+nimble install gintro
+
+
+== Programming paradigms ==
+
+
+=== Functional programming ===
+Functional programming is supported in Nim through first-class functions and code without side effects via the noSideEffect pragma or the func keyword. Nim will perform side effect analysis and raise compiling errors for code that does not obey the contract of producing no side effects when compiled with the experimental feature strictFuncs, planned to become the default in later versions.
+Contrary to purely functional programming languages, Nim is a multi-paradigm programming language, so functional programming restrictions are opt-in on a function-by-function basis.
+
+
+==== First-class functions ====
+Nim supports first-class functions by allowing functions to be stored in variables or passed anonymously as parameters to be invoked by other functions. The std/sugar module provides syntactic sugar for anonymous functions in type declarations and instantiation.
+
+
+==== Side effects ====
+Side effects of functions annotated with the noSideEffect pragma are checked, and the compiler will refuse to compile functions failing to meet those. Side effects in Nim include mutation, global state access or modification, asynchronous code, threaded code, and IO. Mutation of parameters may occur for functions taking parameters of var or ref type: this is expected to fail to compile with the currently-experimental strictFuncs in the future. The func keyword introduces a shortcut for a noSideEffect pragma.
+
+func binarySearch[T](a: openArray[T]; elem: T): int
+# is short for...
+proc binarySearch[T](a: openArray[T]; elem: T): int {.noSideEffect.}
+
+{.experimental: "strictFuncs".}
+
+type
+  Node = ref object
+    le, ri: Node
+    data: string
+
+func len(n: Node): int =
+  # valid: len does not have side effects
+  var it = n
+  while it != nil:
+    inc result
+    it = it.ri
+
+func mut(n: Node) =
+  let m = n # is the statement that connected the mutation to the parameter
+  m.data = "yeah" # the mutation is here
+  # Error: 'mut' can have side effects
+  # an object reachable from 'n' is potentially mutated
+
+
+==== Function composition ====
+Uniform function call syntax allows for the chaining of arbitrary functions, perhaps best exemplified with the std/sequtils library.
+
+
+==== Algebraic data types and pattern matching ====
+Nim has support for product types via the object type, and for sum types via object variants: raw representations of tagged unions, with an enumerated type tag that must be safely matched upon before fields of variants can be accessed. These types can be composed algebraically. Structural pattern matching is available, but relegated to macros in various third-party libraries.
+
+
+=== Object-oriented programming ===
+Despite being primarily an imperative and functional language, Nim supports various features for enabling object-oriented paradigms.
+
+
+==== Subtyping and inheritance ====
+Nim supports limited inheritance by use of ref objects and the of keyword. To enable inheritance, any initial ("root") object must inherit from RootObj. Inheritance is of limited use within idiomatic Nim code: with the notable exception of Exceptions.Subtyping relations can also be queried with the of keyword.
+
+
+==== Method calls and encapsulation ====
+Nim's uniform function call syntax enables calling ordinary functions with syntax similar to method call invocations in other programming languages. This is functional for "getters": and Nim also provides syntax for the creation of such "setters" as well. Objects may be made public on a per-field basis, providing for encapsulation.
+
+
+==== Dynamic dispatch ====
+Static dispatch is preferred, more performant, and standard even among method-looking routines. Nonetheless, if dynamic dispatch is so desired, Nim provides the method keyword for enabling dynamic dispatch on reference types.
+
+
+=== Metaprogramming ===
+
+
+==== Templates ====
+Nim supports simple substitution on the abstract syntax tree via its templates.
+
+The genType is invoked at compile-time and a Test type is created.
+
+
+==== Generics ====
+Nim supports both constrained and unconstrained generic programming.
+Generics may be used in procedures, templates and macros. Unconstrained generic identifiers (T in this example) are defined after the routine's name in square brackets. Constrained generics can be placed on generic identifiers, or directly on parameters. 
+
+One can further clarify which types the procedure will accept by specifying a type class (in the example above, SomeSignedInt).
+
+
+==== Macros ====
+Macros can rewrite parts of the code at compile-time. Nim macros are powerful and can operate on the abstract syntax tree before or after semantic checking.
+
+Here's a simple example that creates a macro to call code twice:
+The twice macro in this example takes the echo statement in the form of an abstract syntax tree as input. In this example we decided to return this syntax tree without any manipulations applied to it. But we do it twice, hence the name of the macro. The result is that the code gets rewritten by the macro to look like the following code at compile time:
+
+
+=== Foreign function interface (FFI) ===
+Nim's FFI is used to call functions written in the other programming languages that it can compile to. This means that libraries written in C, C++, Objective-C, and JavaScript can be used in the Nim source code. One should be aware that both JavaScript and C, C++, or Objective-C libraries cannot be combined in the same program, as they are not as compatible with JavaScript as they are with each other. Both C++ and Objective-C are based on and compatible with C, but JavaScript is incompatible, as a dynamic, client-side web-based language.: 226 
+The following program shows the ease with which external C code can be used directly in Nim.
+
+In this code the printf function is imported into Nim and then used.
+Basic example using 'console.log' directly for the JavaScript compiling target:
+
+The JavaScript code produced by the Nim compiler can be executed with Node.js or a web browser.
+
+
+=== Parallelism ===
+
+To activate threading support in Nim, a program should be compiled with --threads:on command line argument. Each thread has a separate garbage collected heap and sharing of memory is restricted, which helps with efficiency and stops race conditions by the threads.Nim also has a channels module that simplifies passing data between threads.
+
+
+=== Concurrency ===
+
+Asynchronous IO is supported either via the asyncdispatch module in the standard library or the external chronos library. Both libraries add async/await syntax via the macro system, without need for special language support. An example of an asynchronous HTTP server:
+
+
+== Community ==
+
+
+=== Online ===
+Nim has an active community on the self-hosted, self-developed official forum. Further, the project uses a Git repository, bug tracker, RFC tracker, and wiki hosted by GitHub, where the community engages with the language. There are also official online chat rooms, bridged between IRC, Matrix, Discord, Gitter, and Telegram.
+
+
+=== Conventions ===
+The first Nim conference, NimConf, took place on June 20, 2020. It was held digitally due to COVID-19, with an open call for contributor talks in the form of YouTube videos. The conference began with language overviews by Nim developers Andreas Rumpf and Dominik Picheta. Presentation topics included talks about web frameworks, mobile development, Internet of things (IoT) devices, and game development, including a talk about writing Nim for Game Boy Advance. NimConf 2020 is available as a YouTube playlist. NimConf 2021 occurred the following year, was also held digitally, and included talks about game development, REPLs, real-time operating systems, Nim in the industry, object-relational mapping (ORM), fuzzing, language design, and graphics libraries.
+In addition to official conferences, Nim has been featured at various other conventions. A presentation on Nim was given at the O'Reilly Open Source Convention (OSCON) in 2015. Four speakers represented Nim at FOSDEM 2020, including the creator of the language, Andreas Rumpf. At FOSDEM 2022, Nim hosted their own developer room virtually due to the COVID-19 pandemic. Talks were held on concurrency, embedded programming, programming for GPUs, entity-component systems, game development, rules engines, Python interop, and metaprogramming.
+
+
+== See also ==
+
+C (programming language)
+C++ (programming language)
+Crystal (programming language)
+D (programming language)
+Go (programming language)
+Rust (programming language)
+Fat pointer
+
+
+== References ==
+
+
+== External links ==
+Official website 
+Nim on GitHub
+Information about Nim on Stack Overflow
+Computer Programming with the Nim Programming Language  A gentle Introduction by Stefan Salewski

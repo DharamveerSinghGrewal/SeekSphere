@@ -1,0 +1,41 @@
+Squid (Korean: 오징어, ojingŏ) is a children's game played in South Korea. The game is named as such because the shape of the playing field drawn on the ground resembles that of a squid. There are region...
+
+Squid (Korean: 오징어, ojingŏ) is a children's game played in South Korea. The game is named as such because the shape of the playing field drawn on the ground resembles that of a squid. There are regional variations of the name such as "squid gaisan" (with gaisan thought to be a variation of the Japanese word kaisen 開戦, 'to start a war'), or "squid takkari". It is a multiplayer game, and the game is divided into two teams, offensive and defensive. There are two main purposes, either for the attackers to achieve the purpose of the attack, or for the teams to annihilate each other.
+
+
+== Gameplay ==
+There are multiple versions of the rules for different areas and groups. Regional names differ.
+
+
+=== General rule elements ===
+The home bases for each of the teams are called "houses" (집 chip). The top circle is the house for the offensive team (area 1), while the middle triangle and bottom rectangle are the house for the defensive team (area 3). The figure that makes up the game court, excluding area 1, is called the "squid".
+The objective for the offensive team is to leave their house and move outside the squid around to the bottom "gate" of the defensive house (shown open on the diagram at the bottom of area 3), enter the squid through the gate, then pass through the defensive house (area 3) into the intersection of the offensive and defensive houses (area 2). The objective for the defenders is to eliminate all attacking players before the attackers can accomplish this goal. Only one attacker needs to reach area 2 (after traversing area 3) for the entire attacking team to win.
+Attacking players are required to move only by hopping on one foot until they "promote" by hopping over the thin gap between the two promotion zones. However, in some variations, attackers can use both feet while standing on the promotion zones (area 4), even if they have not yet crossed the gap. Once promoted, they may use both feet in or outside of the squid. Defending players may exit the squid through the gate, but they must hop on one foot until they reenter the squid; defenders cannot be promoted.
+Players are eliminated when they enter or exit the squid at any location other than the gate. Players are allowed to reach over the boundary of the squid, but eliminated if any part of their body touches the ground on the other side of the boundary (including touching the boundary itself). The promotion zones (area 4) count as the outside of the squid, but the gap between the two promotion areas is inside the squid. Players are also eliminated if they use two feet when they are only allowed to use one, or if they touch the ground with any other body part (i.e., fall down). Pushing, grabbing, and pulling opponents is allowed. It is possible for the attackers to win by pushing or pulling all defenders to the ground and/or out of the squid.
+
+
+=== Regional variations ===
+Because the game is informally played among children, there are no official rules, and their common features are mainly attested through multiple people who played it as children. However, a few examples of regional variations in rules are listed.
+
+
+==== Regional names ====
+In some parts of Busan Geoje and other regions in southern Kyungsang province, the game is called ojingeo dalguji. In the Jongno region the game is called ojingeo po; in Songpa district, ojingeo isang; in Daegu Gyeonggi province and southern Seoul, ojingeo gaisan.
+
+
+==== Squid ttaeng (Busan) ====
+Squid ttaeng (오징어땡 ojingeo ttaeng) is a regional variation of the game that is popular in Busan. It usually involves ten or more participants. The origin of the game is assumed to be influenced by both the large presence of squid in the waters around Gadeokdo island and by the popularity of squid as a snack among local children. The game starts by dividing two teams, with at least ten people per team. A squid with a pentagon-shaped body and a round tail is drawn. The team that wins a game of rock paper scissors becomes the defensive team and the team that loses becomes the offensive team. If the offensive team reaches the house of the defensive team and shouts Ttaeng! (땡!, the sound of a bell), the game is won by the offensive team and the two teams change sides.
+
+
+==== Squid unification game ====
+Squid unification game (오징어통일놀이 ojingeo tongilnoli) is a regional variation of the squid game that is based in Haenam. The game is said to have originated from the Three Kingdoms period of Korea when the kingdoms were fighting for land. In this version, the area which the offensive team has to reach while passing the defensive team is called the "unification area".
+
+
+===== Ojingeo dalguji =====
+For this variation, the person who is promoted is called cheolin (철, 'iron man'). The game starts when the offensive team yells Ojingeo! (오징어!, 'Squid!') and the defensive team replies with Dalguji! (달구지!, 'Cart!').
+
+
+== In popular culture ==
+The 2021 streaming television series Squid Game on Netflix is named after this children's game, but features a version with deadly stakes.
+
+
+== References ==

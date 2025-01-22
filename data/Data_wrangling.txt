@@ -1,0 +1,63 @@
+Data wrangling, sometimes referred to as data munging, is the process of transforming and mapping data from one "raw" data form into another format with the intent of making it more appropriate and va...
+
+Data wrangling, sometimes referred to as data munging, is the process of transforming and mapping data from one "raw" data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics. The goal of data wrangling is to assure quality and useful data. Data analysts typically spend the majority of their time in the process of data wrangling compared to the actual analysis of the data.
+The process of data wrangling may include further munging, data visualization, data aggregation, training a statistical model, as well as many other potential uses. Data wrangling typically follows a set of general steps which begin with extracting the data in a raw form from the data source, "munging" the raw data (e.g. sorting) or parsing the data into predefined data structures, and finally depositing the resulting content into a data sink for storage and future use. It is closely aligned with the ETL process. 
+
+
+== Background ==
+The "wrangler" non-technical term is often said to derive from work done by the United States Library of Congress's National Digital Information Infrastructure and Preservation Program (NDIIPP) and their program partner the Emory University Libraries based MetaArchive Partnership. The term "mung" has roots in munging as described in the Jargon File. The term "data wrangler" was also suggested as the best analogy to describe someone working with data.
+One of the first mentions of data wrangling in a scientific context was by Donald Cline during the NASA/NOAA Cold Lands Processes Experiment. Cline stated the data wranglers "coordinate the acquisition of the entire collection of the experiment data." Cline also specifies duties typically handled by a storage administrator for working with large amounts of data. This can occur in areas like major research projects and the making of films with a large amount of complex computer-generated imagery. In research, this involves both data transfer from research instrument to storage grid or storage facility as well as data manipulation for re-analysis via high-performance computing instruments or access via cyberinfrastructure-based digital libraries.
+With the upcoming of artificial intelligence in data science it has become increasingly important for automation of data wrangling to have very strict checks and balances, which is why the munging process of data has not been automated by machine learning. Data munging requires more than just an automated solution, it requires knowledge of what information should be removed and artificial intelligence is not to the point of understanding such things.
+
+
+== Connection to data mining ==
+Data wrangling is a superset of data mining and requires processes that some data mining uses, but not always. The process of data mining is to find patterns within large data sets, where data wrangling transforms data in order to deliver insights about that data. Even though data wrangling is a superset of data mining does not mean that data mining does not use it, there are many use cases for data wrangling in data mining. Data wrangling can benefit data mining by removing data that does not benefit the overall set, or is not formatted properly, which will yield better results for the overall data mining process.
+An example of data mining that is closely related to data wrangling is ignoring data from a set that is not connected to the goal: say there is a data set related to the state of Texas and the goal is to get statistics on the residents of Houston, the data in the set related to the residents of Dallas is not useful to the overall set and can be removed before processing to improve the efficiency of the data mining process.
+
+
+== Benefits ==
+With an increase of raw data comes an increase in the amount of data that is not inherently useful, this increases time spent on cleaning and organizing data before it can be analyzed which is where data wrangling comes into play. The result of data wrangling can provide important metadata statistics for further insights about the data, it is important to ensure metadata is consistent otherwise it can cause roadblocks. Data wrangling allows analysts to analyze more complex data more quickly, achieve more accurate results, and because of this better decisions can be made. Many businesses have moved to data wrangling because of the success that it has brought.
+
+
+== Core ideas ==
+
+The main steps in data wrangling are as follows:
+
+These steps are an iterative process that should yield a clean and usable data set that can then be used for analysis. This process is tedious but rewarding as it allows analysts to get the information they need out of a large set of data that would otherwise be unreadable.
+
+The result of using the data wrangling process on this small data set shows a significantly easier data set to read. All names are now formatted the same way, {first name last name}, phone numbers are also formatted the same way {area code-XXX-XXXX}, dates are formatted numerically {YYYY-mm-dd}, and states are no longer abbreviated. The entry for Jacob Alan did not have fully formed data (the area code on the phone number is missing and the birth date had no year), so it was discarded from the data set. Now that the resulting data set is cleaned and readable, it is ready to be either deployed or evaluated.
+
+
+== Typical use ==
+The data transformations are typically applied to distinct entities (e.g. fields, rows, columns, data values, etc.) within a data set, and could include such actions as extractions, parsing, joining, standardizing, augmenting, cleansing, consolidating, and filtering to create desired wrangling outputs that can be leveraged downstream.
+The recipients could be individuals, such as data architects or data scientists who will investigate the data further, business users who will consume the data directly in reports, or systems that will further process the data and write it into targets such as data warehouses, data lakes, or downstream applications.
+
+
+== Modus operandi ==
+Depending on the amount and format of the incoming data, data wrangling has traditionally been performed manually (e.g. via spreadsheets such as Excel), tools like KNIME or via scripts in languages such as Python or SQL. R, a language often used in data mining and statistical data analysis, is now also sometimes used for data wrangling. Data wranglers typically have skills sets within: R or Python, SQL, PHP, Scala, and more languages typically used for analyzing data.
+Visual data wrangling systems were developed to make data wrangling accessible for non-programmers, and simpler for programmers. Some of these also include embedded AI recommenders and programming by example facilities to provide user assistance, and program synthesis techniques to autogenerate scalable dataflow code. Early prototypes of visual data wrangling tools include OpenRefine and the Stanford/Berkeley Wrangler research system; the latter evolved into Trifacta.
+Other terms for these processes have included data franchising, data preparation, and data munging.
+
+
+== Example ==
+Given a set of data that contains information on medical patients your goal is to find correlation for a disease. Before you can start iterating through the data ensure that you have an understanding of the result, are you looking for patients who have the disease? Are there other diseases that can be the cause? Once an understanding of the outcome is achieved then the data wrangling process can begin.
+Start by determining the structure of the outcome, what is important to understand the disease diagnosis.
+Once a final structure is determined, clean the data by removing any data points that are not helpful or are malformed, this could include patients that have not been diagnosed with any disease.
+After cleaning look at the data again, is there anything that can be added to the data set that is already known that would benefit it? An example could be most common diseases in the area, America and India are very different when it comes to most common diseases.
+Now comes the validation step, determine validation rules for which data points need to be checked for validity, this could include date of birth or checking for specific diseases.
+After the validation step the data should now be organized and prepared for either deployment or evaluation. This process can be beneficial for determining correlations for disease diagnosis as it will reduce the vast amount of data into something that can be easily analyzed for an accurate result.
+
+
+== See also ==
+Alteryx
+Data janitor
+Data preparation
+OpenRefine
+Trifacta
+
+
+== References ==
+
+
+== External links ==
+"What is Data Wrangling? Benefits, tools, and skills?". My Influencer Journey. Retrieved 2022-01-26.

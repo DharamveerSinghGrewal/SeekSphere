@@ -1,0 +1,18 @@
+Services Computing has become a cross-discipline that covers the science and technology of bridging the gap between business services and IT services. The underlying technology suite includes Web serv...
+
+Services Computing has become a cross-discipline that covers the science and technology of bridging the gap between business services and IT services. The underlying technology suite includes Web services and service-oriented architecture (SOA), cloud computing, business consulting methodology and utilities, business process modeling, transformation and integration. This scope of Services Computing covers the whole life-cycle of service provision that includes business componentization, services modeling, services creation, services realization, services annotation, services deployment, services discovery, services composition, services delivery, service-to-service collaboration, services monitoring, services optimization, as well as services management. The goal of Services Computing is to enable IT services and computing technology to perform business services more efficiently and effectively.
+
+
+== References ==
+
+
+== External links ==
+Technical Committee on Services Computing, IEEE Computer Society (TCSVC)
+IEEE Transactions on Services Computing (TSC)
+IEEE World Congress on Services (SERVICES)
+IEEE International Conference on Cloud Computing (CLOUD)
+IEEE International Conference on Edge Computing (EDGE)
+IEEE International Conference on Digital Health (ICDH)
+IEEE International Conference on Web Services (ICWS)
+IEEE International Conference on Services Computing (SCC)
+IEEE International Conference on Smart Data Services (SMDS)

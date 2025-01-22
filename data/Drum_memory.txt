@@ -1,0 +1,47 @@
+Drum memory was a magnetic data storage device invented by Gustav Tauschek in 1932 in Austria.  Drums were widely used in the 1950s and into the 1960s as computer memory. Many early computers, called ...
+
+Drum memory was a magnetic data storage device invented by Gustav Tauschek in 1932 in Austria.  Drums were widely used in the 1950s and into the 1960s as computer memory.
+Many early computers, called drum computers or drum machines, used drum memory as the main working memory of the computer.  Some drums were also used as secondary storage as for example various IBM drum storage drives and the UNIVAC FASTRAND series of drums.
+Drums were displaced as primary computer memory by magnetic core memory, which offered a better balance of size, speed, cost, reliability and potential for further improvements.  Drums were then replaced by hard disk drives for secondary storage, which were both less expensive and offered denser storage. The manufacturing of drums ceased in the 1970s.
+
+
+== Technical design ==
+A drum memory or drum storage unit contained a large metal cylinder, coated on the outside surface with a ferromagnetic recording material. It could be considered the precursor to the hard disk drive (HDD), but in the form of a drum (cylinder) rather than a flat disk. In most designs, one or more rows of fixed read-write heads ran along the long axis of the drum, one for each track. The drum's controller simply selected the proper head and waited for the data to appear under it as the drum turned (rotational latency). Not all drum units were designed with each track having its own head. Some, such as the English Electric DEUCE drum and the UNIVAC FASTRAND had multiple heads moving a short distance on the drum in contrast to modern HDDs, which have one head per platter surface.
+In November 1953 Hagen published a paper disclosing "air floating" of magnetic heads in an experimental sheet metal drum.  A US patent filed in January 1954 by Baumeister of IBM disclosed a "spring loaded and air supported shoe for poising a magnetic head above a rapidly rotating magnetic drum."  Flying heads became standard in drums and hard disk drives.
+Magnetic drum units used as primary memory were addressed by word. Drum units used as secondary storage were addressed by block. Several modes of block addressing were possible, depending on the device.
+
+Blocks took up an entire track and were addressed by track.
+Tracks were divided into fixed length sectors and addressing was by track and sectors.
+Blocks were variable length, and blocks were addressed by track and record number.
+Blocks were variable length with a key, and could be searched by key content.
+Some devices were divided into logical cylinders, and addressing by track was actually logical cylinder and track.
+The performance of a drum with one head per track is comparable to that of a disk with one head per track and is determined almost entirely by the rotational latency, whereas in an HDD with moving heads its performance includes a rotational latency delay plus the time to position the head over the desired track (seek time). In the era when drums were used as main working memory, programmers often did optimum programming—the programmer—or the assembler, e.g., Symbolic Optimal Assembly Program (SOAP)—positioned code on the drum in such a way as to reduce the amount of time needed for the next instruction to rotate into place under the head. They did this by timing how long it would take after loading an instruction for the computer to be ready to read the next one, then placing that instruction on the drum so that it would arrive under a head just in time. This method of timing-compensation, called the "skip factor" or "interleaving", was used for many years in storage memory controllers.
+
+
+== History ==
+Tauschek's original drum memory (1932) had a capacity of about 500,000 bits (62.5 kilobytes).
+One of the earliest functioning computers to employ drum memory was the Atanasoff–Berry computer (1942). It stored 3,000 bits; however, it employed capacitance rather than magnetism to store the information.  The outer surface of the drum was lined with electrical contacts leading to capacitors contained within.
+Magnetic drums were developed for the U.S. Navy by Engineering Research Associates (ERA) in 1946 and 1947.  An experimental ERA study was completed and reported to the Navy on June 19, 1947. Other early drum storage device development occurred at Birkbeck College (University of London), Harvard University, IBM and the University of Manchester. An ERA drum was the internal memory for the ATLAS-I computer delivered to the U.S. Navy in October 1950 and later sold commercially as the ERA 1101 and UNIVAC 1101. Through mergers, ERA became a division of UNIVAC shipping the Series 1100 drum as a part of the UNIVAC File Computer in 1956; each drum stored 180,000 6-bit characters (135 kilobytes).
+The first mass-produced computer, the IBM 650 (1954), initially had up to 2,000 10-digit words, about 17.5 kilobytes, of drum memory (later doubled to 4,000 words, about 35 kilobytes, in the Model 4).
+In BSD Unix and its descendants, /dev/drum was the name of the default virtual memory (swap) device, deriving from the historical use of drum secondary-storage devices as backup storage for pages in virtual memory.
+Magnetic drum memory units were used in the Minuteman ICBM launch control centers from the beginning in the early 1960s until the REACT upgrades in the mid-1990s.
+
+
+== See also ==
+CAB 500
+Carousel memory (magnetic rolls)
+Karlqvist gap
+Manchester Mark 1
+Random-access memory
+Wisconsin Integrally Synchronized Computer
+
+
+== References ==
+
+
+== External links ==
+
+The Story of Mel: the classic story about one programmer's drum machine hand-coding antics: Mel Kaye.
+Librascope LGP-30: The drum memory computer referenced in the above story, also referenced on Librascope LGP-30.
+Librascope RPC-4000: Another drum memory computer referenced in the above story
+Oral history interview with Dean Babcock

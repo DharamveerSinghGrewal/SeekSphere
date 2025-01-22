@@ -1,0 +1,30 @@
+Mazor Robotics Ltd. (Hebrew: מזור רובוטיקה, Mazor Robotika) was an Israeli medical device company and manufacturer of a robotic guidance system for spine surgery that was acquired by Medtronic in Dece...
+
+Mazor Robotics Ltd. (Hebrew: מזור רובוטיקה, Mazor Robotika) was an Israeli medical device company and manufacturer of a robotic guidance system for spine surgery that was acquired by Medtronic in December 2018. Surgeons that utilized Mazor Robotics Renaissance generally specialize in orthopedic surgery or neurosurgery.
+
+
+== History ==
+In 2001, the company was founded by Professor Moshe Shoham, and Eli Zehavi. Professor Shoham was the Head of the Medical Robotics Laboratory of the Faculty of Mechanical Engineering at Technion and Mr. Zehavi was a former Vice President of Engineering at Elscint. Between 2001-2002, the company was based in the Technion incubator offices T3 which transfers innovative technology to commercialization for global markets.
+The company was originally incorporated under the name M.A.S.O.R. Surgical Technologies, then later changed its name to Mazor Surgical Technologies. In 2010, the company changed its name to Mazor Robotics. The very first Mazor Robotics product, Spine Assist, was approved by the FDA in 2004. Renaissance Guidance System, Mazor's next generation product, was released commercially in 2011.
+In 2003, Ori Hadomi, former CFO of Denex, was appointed CEO of Mazor Robotics. Mr. Hadomi was also Founder and CEO of 7D Ltd. (motion tracker for medical applications), and Chairman of the Izmel Scientific committee.
+In early 2004, Mazor Robotics received its first CE mark for its initial product, SpineAssist. With this important milestone for the company, SpineAssist became the first commercially available mechanical guidance system for spine surgery. The company began marketing SpineAssist in Europe, registering its first sale soon afterwards. Later in 2004, the company also received its first FDA clearance for SpineAssist and became the first FDA approved robotic system for spinal surgery. In June 2011, the company launched its current robotic device, Renaissance Guidance System, which replaced the former SpineAssist model. In Feb. 2014 Prof. Shoham was elected into the National Academy of Engineering (NAE) for contributions to robotic technology for image-guided surgery. In December 2018, Medtronic acquired Mazor Robotics in a $1.7 billion deal.
+
+
+== Technology ==
+Professor Moshe Shoham invented the SmartAssist platform that was the basis for the company’s initial technology. With the company’s first product, SpineAssist, challenges included: matching of the pre-operative images to the intraoperative CT scan and customizing the technology for different spine applications, such as deformity and minimally-invasive degenerative repair.
+
+
+=== Renaissance Guidance System ===
+Renaissance is the Mazor Robotics next generation surgical guidance system with 1.5 mm accuracy (FDA 510(k) filing). It is a bone-mounted system and represents the majority of spinal robotic experience worldwide.
+
+
+=== MazorX ===
+MazorX is a table-mounted active robotic arm designed for spine surgery. It can be used as an open platform for K-wire placement or integrate with Medtronic Stealth.
+
+
+== See also ==
+Health care in Israel
+Israeli technology
+
+
+== References ==

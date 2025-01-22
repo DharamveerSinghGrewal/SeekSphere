@@ -1,0 +1,327 @@
+In game theory, a Bayesian game is a strategic decision-making model which assumes players have incomplete information. Players may hold private information relevant to the game, meaning that the payo...
+
+In game theory, a Bayesian game is a strategic decision-making model which assumes players have incomplete information. Players may hold private information relevant to the game, meaning that the payoffs are not common knowledge. Bayesian games model the outcome of player interactions using aspects of Bayesian probability. They are notable because they allowed, for the first time in game theory, for the specification of the solutions to games with incomplete information.
+Hungarian economist John C. Harsanyi introduced the concept of Bayesian games in three papers from 1967 and 1968: He was awarded the Nobel Memorial Prize in Economic Sciences for these and other contributions to game theory in 1994. Roughly speaking, Harsanyi defined Bayesian games in the following way: players are assigned by nature at the start of the game a set of characteristics. By mapping probability distributions to these characteristics and by calculating the outcome of the game using Bayesian probability, the result is a game whose solution is, for technical reasons, far easier to calculate than a similar game in a non-Bayesian context.
+
+
+== Normal form games with incomplete information ==
+
+
+=== Elements ===
+A Bayesian game is defined by (N,A,T,p,u), where it consists of the following elements: 
+
+Set of players, N: The set of players within the game
+Action sets, ai: The set of actions available to Player i. An action profile a = (a1, . . . , aN) is a list of actions, one for each player
+Type sets, ti: The set of types of players i. "Types" capture the private information a player can have. A type profile t = (t1, . . . , tN) is a list of types, one for each player
+Payoff functions, u: Assign a payoff to a player given their type and the action profile. A payoff function, u= (u1, . . . , uN) denotes the utilities of player i
+Prior, p: A probability distribution over all possible type profiles, where p(t) = p(t1, . . . ,tN) is the probability that Player 1 has type t1 and Player N has type tN.
+
+
+=== Pure strategies ===
+In a strategic game, a pure strategy is a player's choice of action at each point where the player must make a decision.
+
+
+=== Three stages ===
+There are three stages of Bayesian games, each describing the players' knowledge of types within the game.
+
+Ex-ante stage game. Players do not know their own types or those of other players. A player recognises payoffs as expected values based on a prior distribution of all possible types.
+Interim stage game. Players know their own type, but only a probability distribution of other players. A player studies the expected value of the other player's type when considering payoffs.
+Ex-post stage game. Players know their own types and those of other players. The payoffs are known to players.
+
+
+=== Improvements over non-Bayesian games ===
+There are two important and novel aspects to Bayesian games that were themselves specified by Harsanyi. The first is that Bayesian games should be considered and structured identically to complete information games. Except, by attaching probability to the game, the final game functions as though it were an incomplete information game. Therefore, players can be essentially modelled as having incomplete information and the probability space of the game still follows the law of total probability. Bayesian games are also useful in that they do not require infinite sequential calculations. Infinite sequential calculations would arise where players (essentially) try to "get into each other's heads". For example, one may ask questions and decide "If I expect some action from player B, then player B will anticipate that I expect that action, so then I should anticipate that anticipation" ad infinitum. Bayesian games allows for the calculation of these outcomes in one move by simultaneously assigning different probability weights to different outcomes. The effect of this is that Bayesian games allow for the modeling of a number of games that in a non-Bayesian setting would be irrational to compute.
+
+
+== Bayesian Nash equilibrium ==
+A Bayesian-Nash Equilibrium of a Bayesian game is a Nash equilibrium of its associated ex-ante normal form game.
+In a non-Bayesian game, a strategy profile is a Nash equilibrium if every strategy in that profile is a best response to every other strategy in the profile; i.e., there is no strategy that a player could play that would yield a higher payoff, given all the strategies played by the other players.
+An analogous concept can be defined for a Bayesian game, the difference being that every player's strategy maximizes their expected payoff given their beliefs about the state of nature. A player's beliefs about the state of nature are formed by conditioning the prior probabilities 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+ on the player's own type according to Bayes' rule.
+A Bayesian Nash equilibrium (BNE) is defined as a strategy profile that maximizes the expected payoff for each player given their beliefs and given the strategies played by the other players. That is, a strategy profile 
+  
+    
+      
+        σ
+      
+    
+    {\displaystyle \sigma }
+  
+ is a Bayesian Nash equilibrium if and only if for every player 
+  
+    
+      
+        i
+        ,
+      
+    
+    {\displaystyle i,}
+  
+ keeping the strategies of every other player fixed, strategy 
+  
+    
+      
+        
+          σ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \sigma _{i}}
+  
+ maximizes the expected payoff of player 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ according to that player's beliefs.
+For finite Bayesian games, i.e., both the action and the type space are finite, there are two equivalent representations. The first is called the agent-form game  (see Theorem 9.51 of the Game Theory book) which expands the number of players from 
+  
+    
+      
+        
+          |
+        
+        N
+        
+          |
+        
+      
+    
+    {\displaystyle |N|}
+  
+ to 
+  
+    
+      
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            
+              |
+            
+            N
+            
+              |
+            
+          
+        
+        
+          |
+        
+        
+          Θ
+          
+            i
+          
+        
+        
+          |
+        
+      
+    
+    {\textstyle \sum _{i=1}^{|N|}|\Theta _{i}|}
+  
+, i.e., every type of each player becomes a player. The second is called the induced normal form (see Section 6.3.3 of Multiagent Systems) which still has 
+  
+    
+      
+        
+          |
+        
+        N
+        
+          |
+        
+      
+    
+    {\displaystyle |N|}
+  
+ players yet expands the number of each player i's actions from 
+  
+    
+      
+        
+          |
+        
+        
+          A
+          
+            i
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |A_{i}|}
+  
+ to 
+  
+    
+      
+        
+          |
+        
+        
+          A
+          
+            i
+          
+        
+        
+          
+            |
+          
+          
+            
+              |
+            
+            
+              Θ
+              
+                i
+              
+            
+            
+              |
+            
+          
+        
+      
+    
+    {\textstyle |A_{i}|^{|\Theta _{i}|}}
+  
+, i.e., the pure policy is a combination of actions the player should take for different types. Nash Equilibrium (NE) can be computed in these two equivalent representations, and the BNE can be recovered from the NE.
+
+Consider two players with a zero-sum objective function. A linear program can be formed to compute BNE.
+
+
+== Extensive form games with incomplete information ==
+
+
+=== Elements of extensive form games ===
+Extensive form games with perfect or imperfect information, have the following elements:
+
+Set of players
+Set of decision nodes
+A player function assigning a player to each decision node
+Set of actions for each player at each of her decision nodes
+Set of terminal nodes
+A payoff function for each player
+
+
+=== Nature and information sets ===
+Nature's node is usually denoted by an unfilled circle. Its strategy is always specified and always completely mixed. Usually, Nature is at the root of the tree, however Nature can move at other points as well.
+An information set of player i is a subset of player i's decision nodes that she cannot distinguish between. That is, if player i is at one of her decision nodes in an information set, she does not know which node within the information set she is at.
+For two decision nodes to be in the same information set, they must
+
+Belong to the same player; and
+Have the same set of actions
+Information sets are denoted by dotted lines, which is the most common notation today.
+
+
+=== The role of beliefs ===
+In Bayesian games, player's beliefs about the game are denoted by a probability distribution over various types.
+If players do not have private information, the probability distribution over types is known as a common prior.
+
+
+=== Bayes' rule ===
+An assessment of an extensive form game is a pair <b, μ>
+
+Behavior Strategy profile; and
+Belief system
+An assessment <b, μ> satisfies Bayes' rule if μ(x|hi) = Pr[x is reached given b−i ] / Σ Pr[x' is reached given b−i ] whenever hi is reached with strictly positive probability according to b−i.
+
+
+=== Perfect Bayesian equilibrium ===
+
+A perfect Bayesian equilibrium in an extensive form game is a combination of strategies and a specification of beliefs such that the following two conditions are satisfied:
+
+Bayesian consistency: the beliefs are consistent with the strategies under consideration;
+Sequential rationality: the players choose optimally given their beliefs.
+Bayesian Nash equilibrium can result in implausible equilibria in dynamic games, where players move sequentially rather than simultaneously. As in games of complete information, these can arise via non-credible strategies off the equilibrium path. In games of incomplete information there is also the additional possibility of non-credible beliefs.
+To deal with these issues, Perfect Bayesian equilibrium, according to subgame perfect equilibrium requires that, starting from any information set, subsequent play be optimal. It requires that beliefs be updated consistently with Bayes' rule on every path of play that occurs with positive probability.
+
+
+=== Stochastic Bayesian games ===
+Stochastic Bayesian games combine the definitions of Bayesian games and stochastic games, to represent environment states (e.g. physical world states) with stochastic transitions between states as well as uncertainty about the types of different players in each state. The resulting model is solved via a recursive combination of the Bayesian Nash equilibrium and the Bellman optimality equation. Stochastic Bayesian games have been used to address diverse problems, including defense and security planning, cybersecurity of power plants, autonomous driving, mobile edge computing, self-stabilization in dynamic systems, and misbehavior treating in crowdsourcing IoT.
+
+
+=== Incomplete information over collective agency ===
+The definition of Bayesian games and Bayesian equilibrium has been extended to deal with collective agency.  One approach is to continue to treat individual players as reasoning in isolation, but to allow them, with some probability, to reason from the perspective of a collective. Another approach is to assume that players within any collective agent know that the agent exists, but that other players do not know this, although they suspect it with some probability. For example, Alice and Bob may sometimes optimize as individuals and sometimes collude as a team, depending on the state of nature, but other players may not know which of these is the case.
+
+
+== Example ==
+
+
+=== Sheriff's dilemma ===
+A sheriff faces an armed suspect. Both must simultaneously decide whether to shoot the other or not.
+The suspect can either be of type "criminal" or type "civilian". The sheriff has only one type. The suspect knows its type and the Sheriff's type, but the Sheriff does not know the suspect's type. Thus, there is incomplete information (because the suspect has private information), making it a Bayesian game. There is a probability p that the suspect is a criminal, and a probability 1-p that the suspect is a civilian; both players are aware of this probability (common prior assumption, which can be converted into a complete-information game with imperfect information).
+The sheriff would rather defend himself and shoot if the suspect shoots, or not shoot if the suspect does not (even if the suspect is a criminal). The suspect would rather shoot if he is a criminal, even if the sheriff does not shoot, but would rather not shoot if he is a civilian, even if the sheriff shoots. Thus, the payoff matrix of this Normal-form game for both players depends on the type of the suspect. This game is defined by (N,A,T,p,u), where:
+
+N = {Suspect, Sheriff}
+ASuspect = {Shoot, Not} , ASheriff = {Shoot, Not}
+TSuspect = {Criminal, Civilian} , TSheriff = {*}
+pCriminal = p , pCivilian = (1 - p)
+It is assumed that the payoffs, u, are given as follows:
+
+If both players are rational and both know that both players are rational and everything that is known by any player is known to be known by every player (i.e. player 1 knows player 2 knows that player 1 is rational and player 2 knows this, etc. ad infinitum – common knowledge), play in the game will be as follows according to perfect Bayesian equilibrium:
+When the type is "criminal", the dominant strategy for the suspect is to shoot, and when the type is "civilian", the dominant strategy for the suspect is not to shoot; alternative strictly dominated strategy can thus be removed. Given this, if the sheriff shoots, he will have a payoff of 0 with probability p and a payoff of -1 with probability 1-p, i.e. an expected payoff of p-1; if the sheriff does not shoot, he will have a payoff of -2 with probability p and a payoff of 0 with probability 1-p, i.e. an expected payoff of -2p. Thus, the Sheriff will always shoot if p-1 > -2p, i.e. when p > 1/3.
+
+
+=== The market for lemons ===
+
+The Market for Lemons is related to a concept known as adverse selection.
+Set up
+There is a used car. Player 1 is a potential buyer who is interested in the car. Player 2 is the owner of the car and knows the value v of the car (how good it is, etc.). Player 1 does not and believes that the value v of the car to the owner (Player 2) is distributed uniformly between 0 and 100 (i.e., each of two value sub-intervals of [0, 100] of equal length are equally likely).
+Player 1 can make a bid p between 0 and 100 (inclusive) I Player 2 can then accept or reject the offer. The payoffs as follows:
+
+Player 1's payoff: Bid Accepted is 3/2v-p, Bid Rejected is 0
+Player 2's payoff: Bid Accepted is p, Bid Rejected is v
+Side point: cut-off strategy
+Player 2's strategy: Accept all bids above a certain cut-off P*, and Reject and bid below P*, is known as a cut-off strategy, where P* is called the cut-off.
+
+Only "lemons" (used cars in bad conditions, specifically with value at most equal to p) are traded
+Player 1 can guarantee herself a payoff of zero by bidding 0, hence in equilibrium, p = 0
+Since only "lemons" (used cars in bad conditions) are traded, the market collapses
+No trade is possible even when trade would be economically efficient
+
+
+=== Enter the monopolized market ===
+A new company (player1) that wants to enter a market that is monopolised by a large company will encounter two types of monopolist (player2), type1 is prevented and type2 is allowed. Player1 will never have complete information about player2, but may be able to infer the probability of type1 and type2 appearing from whether the previous firm entering the market was blocked, it is a Bayesian game. The reason for these judgements is that there are blocking costs for player2, which may need to make significant price cuts to prevent player1 from entering the market, so it will block player1 when the profit it steals from entering the market is greater than the blocking costs.
+
+
+== See also ==
+Bayesian-optimal mechanism
+Bayesian-optimal pricing
+Bayesian programming
+Bayesian inference
+
+
+== References ==
+
+
+== Further reading ==
+Gibbons, Robert (1992). Game Theory for Applied Economists. Princeton University Press. pp. 144–52. ISBN 1400835887.
+Levin, Jonathan (2002). "Games with Incomplete Information" (PDF). Retrieved 25 August 2016.

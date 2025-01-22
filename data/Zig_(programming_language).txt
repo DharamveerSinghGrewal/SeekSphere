@@ -1,0 +1,120 @@
+Zig (Also known as Ziglang) is an imperative, general-purpose, statically typed, compiled system programming language designed by Andrew Kelley. It is free and open-source software, released under an ...
+
+Zig (Also known as Ziglang) is an imperative, general-purpose, statically typed, compiled system programming language designed by Andrew Kelley. It is free and open-source software, released under an MIT License.
+A major goal of the language is to improve on the C language, (also taking inspiration from Rust), with the intent of being even smaller and simpler to program in, while offering more functionality. The improvements in language simplicity relate to flow control, function calls, library imports, variable declaration and Unicode support. Further, the language makes no use of macros or preprocessor instructions. Features adopted from modern languages include the addition of compile time generic programming data types, allowing functions to work on a variety of data, along with a small set of new compiler directives to allow access to the information about those types using reflective programming (reflection). Like C, Zig omits garbage collection, and has manual memory management. To help eliminate the potential errors that arise in such systems, it includes option types, a simple syntax for using them, and a unit testing framework built into the language. Zig has many features for low-level programming, notably packed structs (structs without padding between fields), arbitrary-width integers and multiple pointer types.
+The main drawback of the system is that, although Zig has a growing community, as of 2024, it remains a new language with areas for improvement in maturity, ecosystem and tooling. Also the learning curve for Zig can be steep, especially for those unfamiliar with low-level programming concepts. The availability of learning resources is limited for complex use cases, though this is gradually improving as interest and adoption increase. Other challenges mentioned by the reviewers are interoperability with other languages (extra effort to manage data marshaling and communication is required), as well as manual memory deallocation (disregarding proper memory management results directly in memory leaks). 
+The development is funded by the Zig Software Foundation (ZSF), a non-profit corporation with Andrew Kelley as president, which accepts donations and hires multiple full-time employees. Zig has very active contributor community, and is still in its early stages of development. Despite this, a Stack Overflow survey in 2024 found that Zig software developers earn salaries of $103,000 USD per year on average, making it one of the best-paying programming languages. However, only 0.83% reported they were proficient in Zig.
+
+
+== Language ==
+
+
+=== Goals ===
+The primary goal of Zig is to be a better solution to the sorts of tasks that are currently solved with C. A primary concern in that respect is readability; Zig attempts to use existing concepts and syntax wherever possible, avoiding the addition of different syntax for similar concepts. Further, it is designed for "robustness, optimality and maintainability", including a variety of features to improve safety, optimization, and testing. The small and simple syntax is an important part of the maintenance, as it is a goal of the language to allow maintainers to debug the code without having to learn the intricacies of a language they might not be familiar with. Even with these changes, Zig can compile into and against existing C code; C headers can be included in a Zig project and their functions called, and Zig code can be linked into C projects by including the compiler-built headers.
+In keeping with the overall design philosophy of making the code simple and easy to read, the Zig system as a whole also encompasses a number of stylistic changes compared to C and other C-like languages. For instance, the Rust language has operator overloading which means a statement like a = b + c might actually be a function call to a type’s overloaded version of the plus operator. Further, that function might panic which might pre-empt any following code. In Zig, if something calls a function, it looks like a function call; if it doesn’t, it doesn’t look like a function call. If it raises an error, it is explicit in the syntax, error handling is handled through error types and can be handled with catch or try.
+The goals of Zig are in contrast to those of many other languages designed in the same time period, like Go, Rust, Carbon, and Nim. Generally, these languages are more complex with added features like operator overloading, functions that masquerade as values (properties), and many other features intended to aid in building large programs. These sorts of features have more in common with C++’s approach, and these languages are more along the lines of that language. Zig has a more conservative extension of the type system, supporting compile time generics and accommodating a form of duck typing with the comptime directive.
+
+
+=== Memory handling ===
+One of the primary sources of bugs in C programs is the memory management system, based on malloc. malloc sets aside a block of memory for use in the code and returns a reference to that memory as a pointer. There is no system to ensure that memory is released when the program no longer needs it, which can lead to programs using up all available memory, a memory leak. More common is a dangling pointer that does not refer to a properly allocated memory object.
+A common solution to these problems is a garbage collector (GC), which examines the program for pointers to previously allocated memory, and removing any blocks that no longer have anything pointing to them. Although this greatly reduces, or even eliminates, memory errors, GC systems are relatively slow compared to manual memory management, and have unpredictable performance that makes them unsuited to systems programming. Another solution is automatic reference counting (ARC), which implements the same basic concept of identifying blocks of disused memory, but does so at pointer creation and destruction time by maintaining the number of pointers to a block, meaning there is no need to perform exhaustive pointer searches, which are rendered unnecessary at the cost of adding reference counter adjustment overhead to every pointer creation and destruction operation.
+Zig aims to provide performance similar to or better than C, so GC and ARC are not suitable solutions. Instead, it uses a modern, as of 2022, concept known as option types. Instead of a pointer being allowed to point to nothing, or nil, a separate type is used to indicate data that is optionally empty. This is similar to using a structure with a pointer and a boolean that indicates whether the pointer is valid, but the state of the boolean is invisibly managed by the language and does not need to be explicitly managed by the programmer. So, for instance, when the pointer is declared it is set to "unallocated", and when that pointer receives a value from a malloc, it is set to "allocated" if the malloc succeeded.
+The advantage to this model is that it has very low or zero overhead; the compiler has to create the code to pass along the optional type when pointers are manipulated, as opposed to a simple pointer, but this allows it to directly express possible memory problems at compile time with no runtime support. For instance, creating a pointer with a null value and then attempting to use it is perfectly acceptable in C, leading to null-pointer errors. In contrast, a language using optional types can check that all code paths only attempt to use pointers when they are valid. While this does not eliminate all potential problems, when issues do occur at runtime the error can be more precisely located and explained.
+Another change for memory management in Zig is that the actual allocation is handled through structs describing the action, as opposed to calling the memory management functions in libc. For instance, in C if one wants to write a function that makes a string containing multiple copies of another string, the function might look like this:
+
+In the code, the function would examine the size of original and then malloc times that length to set aside memory for the string it will build. That malloc is invisible to the functions calling it, if they fail to later release the memory, a leak will occur. In Zig, this might be handled using a function like:
+
+In this code, the allocator variable is passed a struct that describes what code should perform the allocation, and the repeat function returns either the resulting string or, using the optional type as indicated by the !, an Allocator.Error. By directly expressing the allocator as an input, memory allocation is never "hidden" within another function, it is always exposed to the API by the function that is ultimately calling for the memory to be allocated. No allocations are performed inside Zig’s standard library. Further, as the struct can point to anything, one can use alternative allocators, even ones written in the program. This can allow, for instance, small-object allocators that do not use the operating system functions that normally allocate an entire memory page.
+Optional types are an example of a language feature that offers general functionality while still being simple and generic. They do not have to be used to solve null pointer problems, they are also useful for any type of value where "no value" is an appropriate answer. Consider a function countTheNumberOfUsers that returns an integer, and an integer variable, theCountedUsers that holds the result. In many languages, a magic number would be placed in theCountedUsers to indicate that countTheNumberOfUsers has not yet been called, while many implementations would just set it to zero. In Zig, this could be implemented as an var theCountedUsers: ?i32 = null which sets the variable to a clear "not been called" value.
+Another more general feature of Zig that also helps manage memory problems is the concept of defer, which marks some code to be performed at the end of a function no matter what happens, including possible runtime errors. If a particular function allocates some memory and then disposes of it when the operation is complete, one can add a line to defer a free to ensure it is released no matter what happens.
+Zig memory management avoids hidden allocations. Allocation is not managed in the language directly. Instead, heap access is done via the standard library, explicitly.
+
+
+=== Direct interaction with C ===
+Zig promotes a gradual approach to portability that combines new Zig code with existing C code. To do this, it aims to make interaction with existing C libraries as seamless as possible. Zig imports its own libraries with the @import directive, typically in this fashion:
+
+Zig code within that file can now call functions inside std, for instance:
+
+To work with C code, one simply replaces the @import with @cImport:
+
+The Zig code can now call functions in the soundio library as if they were native Zig code. As Zig uses new data types that are explicitly defined, unlike C’s more generic int and float, a small number of directives are used to move data between the C and Zig types, including @intCast and @ptrCast.
+
+
+=== Comptime ===
+By using the comptime keyword, the programmer can explicitly have Zig evaluate sections of code at compile time, as opposed to runtime. Being able to run code at compile time allows Zig to have the functionality of macros and conditional compilation without the need for a separate preprocessor language.
+During compile time, types become first-class citizens. This enables compile-time duck typing, and is how Zig implements generic types.
+For instance, in Zig, a generic linked list type might be implemented using a function like:
+
+This function takes in some type T, and returns a custom struct defining a linked list with that data type.
+
+
+== Compiler ==
+Zig is not just a new language: it also includes a C and C++ compilers, and can be used with either or both languages by leveraging with the commands zig cc and zig c++, providing many headers including the C standard library (libc) and C++ Standard Library (libcxx) for many different platforms. This allows Zig’s cc and c++ sub-commands to act as cross compilers out of the box (similarly to Clang).
+Zig treats cross-compiling as a first-class use-case of the language. This means any Zig compiler can compile runnable binaries for any of its target platforms, of which there are dozens. These include not only widely-used modern systems like ARM and x86-64, but also PowerPC, SPARC, MIPS, RISC-V and even the IBM z/Architectures (S390). The toolchain can compile to any of these targets without installing additional software, all the needed support is in the basic system. The experimental support is also provided for less known platforms like AMD and Nvidia GPUs or PlayStation 4 and 5 (with various degree of support).
+Cross-compilation is also available for variety of the operating systems (mostly desktop ones). Popular UNIX-like ones and Windows are officially supported (and documented), but (minimal) applications can and have been made for Android (with Android NDK) or iOS.
+Zig uses LLVM (written in C++) as a backend for optimization. Since version 0.10 the Zig compiler is written in the Zig programming language, i.e., it is a self-hosting compiler. The self-hosted linker is tightly coupled with the self-hosted compiler.
+
+
+== Packages ==
+Version 0.11.0 bundles an experimental package manager, but no official package repository is available. Instead a package is simply a URL that points to a compressed file. Each package includes a standard `build.zig` file (that the Zig compiler uses by convention to compile the source code) and, ideally, a `build.zig.zon` file containing metadata with name and version of the package.
+
+
+== Examples ==
+
+
+=== Hello World ===
+
+
+=== Generic linked list ===
+
+Output
+
+
+=== String repetition with allocator ===
+
+Output
+
+
+== History ==
+The name “Zig” was reportedly chosen through a process involving a Python script that randomly combined letters, starting with the letter “Z” and followed by a vowel or “Y”, in order to generate four-letter words. Despite the intended length, “Zig”, a three-letter word, was ultimately selected from the various combinations produced by the script.
+The previous bootstrapping compiler, written in Zig and C++ using LLVM as a back-end, supporting many of its native targets, was removed in version 0.11.
+
+
+== Projects ==
+Bun is a JavaScript and TypeScript runtime written in Zig, using Safari’s JavaScriptCore virtual machine.
+Ghostty is a terminal emulator written in Zig.
+The TigerBeetle financial transaction database is written in Zig.
+See a more comprehensive list of companies and projects utilizing Zig in production.
+
+
+== See also ==
+
+C
+C++
+D
+Nim
+Go
+Rust
+Carbon
+V
+
+
+== References ==
+
+
+=== Citations ===
+
+
+=== Bibliography ===
+Elizabeth, Jane (2017-10-19). "Tired of C? New programming language Zig aims to be more pragmatic and readable". jaxenter. Archived from the original on 2020-10-01. Retrieved 2020-04-22.
+Yegulalp, Serdar (2016-08-29). "New challenger joins Rust to topple C language". InfoWorld. Retrieved 2020-02-11.
+Owens, Jeffery (2023-12-02). Mastering Zig Programming. Independently Published. ISBN 979-8870587332.
+Allen, Corby (2024-06-20). Zig Programming Mastery. Independently Published. ISBN 979-8329021424.
+
+
+== External links ==
+Official website
+Zig on GitHub
+Movie: Introducing Zig
+Movie: The Road to 1.0
+Zig Weekly

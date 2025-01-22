@@ -1,0 +1,36 @@
+Ionos SE ([iː'ɔnɔs]; proper spelling IONOS) is a German Internet service provider that is known for its web hosting, domain and cloud computing products. The company is part of the United Internet Gro...
+
+Ionos SE ([iː'ɔnɔs]; proper spelling IONOS) is a German Internet service provider that is known for its web hosting, domain and cloud computing products. The company is part of the United Internet Group and operates in several continental European countries, (excluding Portugal) the UK and North America. Its headquarters are located in the western part of Germany in Montabaur, a small town situated in Rhineland-Palatinate.
+The Internet access business (DSL and mobile communications) was spun off into 1&1 Telecommunication.
+
+
+== History ==
+1&1 (at the time known as 1&1 Internet) was founded in Germany in 1988. The company developed data center and network architecture to enable internet access, becoming one of the first web hosting companies. Ten years later, in 1998, 1&1 became a shareholder of Schlund+Partner.
+In 2000, the company changed its name to United Internet and moved its product business to 1&1 Internet AG. In the same year, 1&1 began operating in the United Kingdom, and three years later began serving United States customers. The company's biggest North American data center is located in Lenexa, Kansas. In 2023, the same data center became the site for hosting Ionos’ cloud products.
+In 2018, 1&1 merged with cloud infrastructure specialists ProfitBricks (founded by Achim Weiss) and rebranded as 1&1 Ionos. The rebrand involved a name change and a slightly redesigned website, but the service offerings and prices initially stayed the same. However, 1&1 Ionos introduced some new services the following year, including a personal consultant service for customers. As of September 2019, 1&1 Ionos held second place in a ranking of the market share of global web hosting providers. In August 2021, the company changed its legal name in the United States to IONOS Inc.
+Weiss described the reasons for the rebrand, stating:
+
+"As this new company is more than just a hosting provider, we have opted for a new name — and IONOS fits perfectly. It is inspired by the ionosphere; the upper part of the Earth's atmosphere that contains a high concentration of ions and free electrons. It is inspiring to look at, whether viewing from down on Earth, or up in outer space and is, of course, situated in the clouds."
+
+
+== Research and initiatives ==
+Ionos has actively engaged in research to understand the varying levels of digitalization among small and medium-sized businesses (SMBs). This initiative involves surveying U.S. and European companies for insights into their digitization and cybersecurity efforts. The survey is conducted in cooperation with YouGov, an international research data and analytics group.
+The company is currently researching the adoption of artificial intelligence (AI) by businesses. A survey conducted in 2024 within the U.S. market found that 55% of American SMBs are using or would consider using AI, a 5% increase compared to last year and a higher adoption compared to European SMBs.
+
+
+== Products and services ==
+In addition to shared hosting solutions, the company also offers dedicated, virtual and cloud servers as well as various email solutions. Ionos also acts as a domain registrar, with the actual allocation managed by its sister company InterNetX and its US subsidiary PSI-USA Inc.
+In line with the company’s AI initiative, Ionos has also begun integrating AI support into its tools, such as the AI website builder.
+
+
+== Eco-friendly efforts ==
+Ionos uses sustainable methods to reduce carbon emissions, including using 100% renewable energy in data centers and administrative buildings in the UK and Germany. The carbon is offset in other locations worldwide with green certificates or by using local renewable sources.
+The company’s 2030 climate strategy outlines plans to reduce data center carbon emissions by switching to biofuel-powered generators and continuing to source renewable energy. The strategy also involves encouraging technology suppliers to set their own climate goals.
+
+
+== Server outages ==
+In April 2019, customers in the United Kingdom complained of lengthy server outages due to a malfunctioning uninterruptible power supply (UPS), which resulted in websites being offline. Call center staff could also not answer customer questions due to support tools not functioning properly. Ionos eventually fixed and addressed the issue, stating: "For when such cases occur, we have UPS systems and emergency power generators that ensure power supply is uninterrupted during an emergency. One of the five UPS systems in the affected data center suffered a technical malfunction, which meant several servers suffered a temporary loss of power and had to be restarted. As file systems had to be repaired after the power failure, some servers were not immediately available again. We're continuing to look into the cause of the error of the affected UPS system, however, all UPS systems are working properly again."
+In October 2022, Ionos opened a new data center in Worcester, UK to enhance data center reliability. Equipped with photovoltaic panels on the roof, these supply up to 10% of the site’s energy use. In 2023, the data center received tier IV certification.
+
+
+== References ==

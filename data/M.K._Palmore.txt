@@ -1,0 +1,23 @@
+Malcolm K. Palmore, simply referred to as M.K. Palmore (born 1969), is an American cybersecurity executive and former FBI agent. He currently serves as a director in Google Cloud's Office of the Chief...
+
+Malcolm K. Palmore, simply referred to as M.K. Palmore (born 1969), is an American cybersecurity executive and former FBI agent. He currently serves as a director in Google Cloud's Office of the Chief Information Security Officer (CISO), where he leads initiatives to support customers in navigating digital transformation and enhancing their cybersecurity posture, since 2021. Between 2019 and 2021, Palmore served as vice president and field chief security officer (CSO) at Palo Alto Networks. Before joining Palo Alto Networks, Palmore spent more than a quarter of a century in public service, primarily with the U.S. Marine Corps and later with Federal Bureau of Investigation (FBI). He served as the head of the Cyber Security Branch at the FBI’s San Francisco field office.
+
+
+== Early life and education ==
+Palmore was born and raised in Washington, D.C. He attended the United States Naval Academy, earning a bachelor's degree in political science, and later obtained a Master of Business Administration (MBA) from Pepperdine Graziadio Business School.
+
+
+== Career ==
+Palmore began his professional career in 1992 as a commissioned officer in the U.S. Marine Corps, leaving the service as a captain in 1997.  From 1997 to 2019, Palmore served as a Special Agent with the Federal Bureau of Investigation (FBI). During the service, he led counterterrorism and cybercrime investigations, crisis management, and efforts to safeguard public safety and national security. He also held various leadership roles, including serving as head of the Cyber Security Branch at the San Francisco field office.
+From 2019 to 2021, M.K. Palmore served as vice president and field chief security officer (Americas) at Palo Alto Networks. In 2021, Palmore joined Google Cloud as director of the Office of the Chief Information Security Officer (CISO). In this capacity, he helps organizations improve their cybersecurity resilience as they adopt cloud technology and leads efforts to align cybersecurity strategies with business goals.
+
+
+== Additional career ==
+In January 2024, Palmore was appointed as the president & member of the board of directors at Cyversity, a U.S. based nonprofit organization dedicated to increasing diversity in the cybersecurity field. He also serves on the Strategic Advisory Board of Dataminr, an event and risk detection firm.
+
+
+== Advocacy ==
+Palmore advocates for diversity, equity, and inclusion (DEI) within cybersecurity. He emphasizes the need for diverse perspectives to address complex cyber threats and has actively worked to recruit and mentor underrepresented talent in the sector. Palmore participates in industry events, panels, and summits, speaking on topics such as the evolving threat landscape, leadership, public cloud adoption, and AI governance in cybersecurity. In 2023, he participated in a panel titled "Ransom-where? The U.S. Cities Fighting Back Against Hackers" at TechCrunch Disrupt 2023. The discussion focused on the growing threat of ransomware attacks against local governments, schools, and hospitals, with a particular emphasis on how both local governments and startups can combat the increasing ransomware threat. Palmore supports the implementation of a Zero Trust security architecture, emphasizing its ability to increase network visibility and reduce the risk of unwanted actions within an organization’s systems.
+
+
+== References ==

@@ -1,0 +1,842 @@
+Adiabatic quantum computation (AQC) is a form of quantum computing which relies on the adiabatic theorem to perform calculations and is closely related to quantum annealing.   == Description == First,...
+
+Adiabatic quantum computation (AQC) is a form of quantum computing which relies on the adiabatic theorem to perform calculations and is closely related to quantum annealing.
+
+
+== Description ==
+First, a (potentially complicated) Hamiltonian is found whose ground state describes the solution to the problem of interest. Next, a system with a simple Hamiltonian is prepared and initialized to the ground state. Finally, the simple Hamiltonian is adiabatically evolved to the desired complicated Hamiltonian. By the adiabatic theorem, the system remains in the ground state, so at the end, the state of the system describes the solution to the problem. Adiabatic quantum computing has been shown to be polynomially equivalent to conventional quantum computing in the circuit model.
+The time complexity for an adiabatic algorithm is the time taken to complete the adiabatic evolution which is dependent on the gap in the energy eigenvalues (spectral gap) of the Hamiltonian. Specifically, if the system is to be kept in the ground state, the energy gap between the ground state and the first excited state of 
+  
+    
+      
+        H
+        (
+        t
+        )
+      
+    
+    {\displaystyle H(t)}
+  
+ provides an upper bound on the rate at which the Hamiltonian can be evolved at time 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+. When the spectral gap is small, the Hamiltonian has to be evolved slowly. The runtime for the entire algorithm can be bounded by:
+
+  
+    
+      
+        T
+        =
+        O
+        
+          (
+          
+            
+              1
+              
+                g
+                
+                  m
+                  i
+                  n
+                
+                
+                  2
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle T=O\left({\frac {1}{g_{min}^{2}}}\right)}
+  
+
+where 
+  
+    
+      
+        
+          g
+          
+            m
+            i
+            n
+          
+        
+      
+    
+    {\displaystyle g_{min}}
+  
+ is the minimum spectral gap for 
+  
+    
+      
+        H
+        (
+        t
+        )
+      
+    
+    {\displaystyle H(t)}
+  
+.
+AQC is a possible method to get around the problem of energy relaxation. Since the quantum system is in the ground state, interference with the outside world cannot make it move to a lower state. If the energy of the outside world (that is, the "temperature of the bath") is kept lower than the energy gap between the ground state and the next higher energy state, the system has a proportionally lower probability of going to a higher energy state. Thus the system can stay in a single system eigenstate as long as needed.
+Universality results in the adiabatic model are tied to quantum complexity and QMA-hard problems. The k-local Hamiltonian is QMA-complete for k ≥ 2. QMA-hardness results are known for physically realistic lattice models of qubits such as
+
+  
+    
+      
+        H
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          h
+          
+            i
+          
+        
+        
+          Z
+          
+            i
+          
+        
+        +
+        
+          ∑
+          
+            i
+            <
+            j
+          
+        
+        
+          J
+          
+            i
+            j
+          
+        
+        
+          Z
+          
+            i
+          
+        
+        
+          Z
+          
+            j
+          
+        
+        +
+        
+          ∑
+          
+            i
+            <
+            j
+          
+        
+        
+          K
+          
+            i
+            j
+          
+        
+        
+          X
+          
+            i
+          
+        
+        
+          X
+          
+            j
+          
+        
+      
+    
+    {\displaystyle H=\sum _{i}h_{i}Z_{i}+\sum _{i<j}J^{ij}Z_{i}Z_{j}+\sum _{i<j}K^{ij}X_{i}X_{j}}
+  
+
+where 
+  
+    
+      
+        Z
+        ,
+        X
+      
+    
+    {\displaystyle Z,X}
+  
+ represent the Pauli matrices 
+  
+    
+      
+        
+          σ
+          
+            z
+          
+        
+        ,
+        
+          σ
+          
+            x
+          
+        
+      
+    
+    {\displaystyle \sigma _{z},\sigma _{x}}
+  
+. Such models are used for universal adiabatic quantum computation. The Hamiltonians for the QMA-complete problem can also be restricted to act on a two dimensional grid of qubits or a line of quantum particles with 12 states per particle. If such models were found to be physically realizable, they too could be used to form the building blocks of a universal adiabatic quantum computer.
+In practice, there are problems during a computation. As the Hamiltonian is gradually changed, the interesting parts (quantum behavior as opposed to classical) occur when multiple qubits are close to a tipping point. It is exactly at this point when the ground state (one set of qubit orientations) gets very close to a first energy state (a different arrangement of orientations). Adding a slight amount of energy (from the external bath, or as a result of slowly changing the Hamiltonian) could take the system out of the ground state, and ruin the calculation. Trying to perform the calculation more quickly increases the external energy; scaling the number of qubits makes the energy gap at the tipping points smaller.
+
+
+== Adiabatic quantum computation in satisfiability problems ==
+Adiabatic quantum computation solves satisfiability problems and other combinatorial search problems. Specifically, these kind of problems seek a state that satisfies
+
+  
+    
+      
+        
+          C
+          
+            1
+          
+        
+        ∧
+        
+          C
+          
+            2
+          
+        
+        ∧
+        ⋯
+        ∧
+        
+          C
+          
+            M
+          
+        
+      
+    
+    {\displaystyle C_{1}\wedge C_{2}\wedge \cdots \wedge C_{M}}
+  
+. This expression contains the satisfiability of M clauses, for which clause 
+  
+    
+      
+        
+          C
+          
+            i
+          
+        
+      
+    
+    {\displaystyle C_{i}}
+  
+ has the value True or False, and can involve n bits. Each bit is a variable 
+  
+    
+      
+        
+          x
+          
+            j
+          
+        
+        ∈
+        {
+        0
+        ,
+        1
+        }
+      
+    
+    {\displaystyle x_{j}\in \{0,1\}}
+  
+ such that 
+  
+    
+      
+        
+          C
+          
+            i
+          
+        
+      
+    
+    {\displaystyle C_{i}}
+  
+ is a Boolean value function of 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle x_{1},x_{2},\dots ,x_{n}}
+  
+. QAA solves this kind of problem using quantum adiabatic evolution. It starts with an Initial Hamiltonian 
+  
+    
+      
+        
+          H
+          
+            B
+          
+        
+      
+    
+    {\displaystyle H_{B}}
+  
+:
+
+  
+    
+      
+        
+          H
+          
+            B
+          
+        
+        =
+        
+          H
+          
+            
+              B
+              
+                1
+              
+            
+          
+        
+        +
+        
+          H
+          
+            
+              B
+              
+                2
+              
+            
+          
+        
+        +
+        ⋯
+        +
+        
+          H
+          
+            
+              B
+              
+                M
+              
+            
+          
+        
+      
+    
+    {\displaystyle H_{B}=H_{B_{1}}+H_{B_{2}}+\dots +H_{B_{M}}}
+  
+
+where 
+  
+    
+      
+        
+          H
+          
+            
+              B
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle H_{B_{i}}}
+  
+ shows the Hamiltonian corresponding to the clause 
+  
+    
+      
+        
+          C
+          
+            i
+          
+        
+      
+    
+    {\displaystyle C_{i}}
+  
+. Usually, the choice of 
+  
+    
+      
+        
+          H
+          
+            
+              B
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle H_{B_{i}}}
+  
+ won't depend on different clauses, so only the total number of times each bit is involved in all clauses matters. Next, it goes through an adiabatic evolution, ending in the Problem Hamiltonian 
+  
+    
+      
+        
+          H
+          
+            P
+          
+        
+      
+    
+    {\displaystyle H_{P}}
+  
+:
+
+  
+    
+      
+        
+          H
+          
+            P
+          
+        
+        =
+        
+          ∑
+          
+            C
+          
+          
+
+          
+        
+        
+          H
+          
+            P
+            ,
+            C
+          
+        
+      
+    
+    {\displaystyle H_{P}=\sum \limits _{C}^{}H_{P,C}}
+  
+
+where 
+  
+    
+      
+        
+          H
+          
+            P
+            ,
+            C
+          
+        
+      
+    
+    {\displaystyle H_{P,C}}
+  
+ is the satisfying Hamiltonian of clause C.
+It has eigenvalues:
+
+  
+    
+      
+        
+          h
+          
+            C
+          
+        
+        (
+        
+          z
+          
+            1
+            C
+          
+        
+        ,
+        
+          z
+          
+            2
+            C
+          
+        
+        …
+        
+          z
+          
+            n
+            C
+          
+        
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  0
+                
+                
+                  
+                    
+                      clause 
+                    
+                  
+                  C
+                  
+                    
+                       satisfied
+                    
+                  
+                
+              
+              
+                
+                  1
+                
+                
+                  
+                    
+                      clause 
+                    
+                  
+                  C
+                  
+                    
+                       violated
+                    
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle h_{C}(z_{1C},z_{2C}\dots z_{nC})={\begin{cases}0&{\mbox{clause }}C{\mbox{ satisfied}}\\1&{\mbox{clause }}C{\mbox{ violated}}\end{cases}}}
+  
+
+For a simple path of adiabatic evolution with run time T, consider:
+
+  
+    
+      
+        H
+        (
+        t
+        )
+        =
+        (
+        1
+        −
+        t
+        
+          /
+        
+        T
+        )
+        
+          H
+          
+            B
+          
+        
+        +
+        (
+        t
+        
+          /
+        
+        T
+        )
+        
+          H
+          
+            P
+          
+        
+      
+    
+    {\displaystyle H(t)=(1-t/T)H_{B}+(t/T)H_{P}}
+  
+
+and let 
+  
+    
+      
+        s
+        =
+        t
+        
+          /
+        
+        T
+      
+    
+    {\displaystyle s=t/T}
+  
+. This results in:
+
+  
+    
+      
+        
+          
+            
+              H
+              ~
+            
+          
+        
+        (
+        s
+        )
+        =
+        (
+        1
+        −
+        s
+        )
+        
+          H
+          
+            B
+          
+        
+        +
+        s
+        
+          H
+          
+            P
+          
+        
+      
+    
+    {\displaystyle {\tilde {H}}(s)=(1-s)H_{B}+sH_{P}}
+  
+, which is the adiabatic evolution Hamiltonian of the algorithm.
+In accordance with the adiabatic theorem, start from the ground state of Hamiltonian 
+  
+    
+      
+        
+          H
+          
+            B
+          
+        
+      
+    
+    {\displaystyle H_{B}}
+  
+ at the beginning, proceed through an adiabatic process, and end in the ground state of problem Hamiltonian 
+  
+    
+      
+        
+          H
+          
+            P
+          
+        
+      
+    
+    {\displaystyle H_{P}}
+  
+.
+Then measure the z-component of each of the n spins in the final state. This will produce a string 
+  
+    
+      
+        
+          z
+          
+            1
+          
+        
+        ,
+        
+          z
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          z
+          
+            n
+          
+        
+      
+    
+    {\displaystyle z_{1},z_{2},\dots ,z_{n}}
+  
+ which is highly likely to be the result of the satisfiability problem. The run time T must be sufficiently long to assure correctness of the result. According to the adiabatic theorem, T is about 
+  
+    
+      
+        ε
+        
+          /
+        
+        
+          g
+          
+            
+              m
+              i
+              n
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \varepsilon /g_{\mathrm {min} }^{2}}
+  
+, where
+
+  
+    
+      
+        
+          g
+          
+            
+              m
+              i
+              n
+            
+          
+        
+        =
+        
+          min
+          
+            0
+            ≤
+            s
+            ≤
+            1
+          
+        
+        (
+        
+          E
+          
+            1
+          
+        
+        (
+        s
+        )
+        −
+        
+          E
+          
+            0
+          
+        
+        (
+        s
+        )
+        )
+      
+    
+    {\displaystyle g_{\mathrm {min} }=\min _{0\leq s\leq 1}(E_{1}(s)-E_{0}(s))}
+  
+ is the minimum energy gap between ground state and first excited state.
+
+
+== Comparison to gate-based quantum computing ==
+Adiabatic quantum computing is equivalent in power to standard gate-based quantum computing that implements arbitrary unitary operations. However, the mapping challenge on gate-based quantum devices differs substantially from quantum annealers as logical variables are mapped only to single qubits and not to chains.
+
+
+== D-Wave quantum processors ==
+The D-Wave One is a device made by Canadian company D-Wave Systems, which claims that it uses quantum annealing to solve optimization problems. On 25 May 2011, Lockheed-Martin purchased a D-Wave One for about US$10 million. In May 2013, Google purchased a 512 qubit D-Wave Two.
+The question of whether the D-Wave processors offer a speedup over a classical processor is still unanswered. Tests performed by researchers at Quantum Artificial Intelligence Lab (NASA), USC, ETH Zurich, and Google show that as of 2015, there is no evidence of a quantum advantage.
+
+
+== Notes ==

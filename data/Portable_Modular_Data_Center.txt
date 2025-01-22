@@ -1,0 +1,20 @@
+A Portable Modular Data Center (PMDC) is a type of modular data center designed for portability. PMDCs are typically built into 20, 40, or 53-foot intermodal containers (shipping containers). Designed...
+
+A Portable Modular Data Center (PMDC) is a type of modular data center designed for portability. PMDCs are typically built into 20, 40, or 53-foot intermodal containers (shipping containers). Designed to be weather-resistant and well insulated, PMDCs can be placed in many environments. They can be stored and then deployed when needed to augment traditional data centers or provide backup functionality in the event of a disaster.
+Portable Modular Data Centers are often used for edge computing applications such as 4G and 5G broadband cellular network deployments. This is because PMDCs are comparatively easy to deploy and they are able to provide service at a lower latency due to their physical proximity to customers.
+
+
+== Design ==
+A typical Portable Modular Data Center includes a diesel generator for power, servers, and other computing resources, along with cooling units to manage the heat from high-density computing. PMDCs also feature internet connectivity, often through satellite uplinks.
+
+
+== See also ==
+Shipping container architecture
+
+
+== References ==
+
+
+== External links ==
+
+IBM Portable Modular Data Center Homepage

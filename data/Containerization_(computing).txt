@@ -1,0 +1,50 @@
+In software engineering, containerization is operating-system–level virtualization or application-level virtualization over multiple network resources so that software applications can run in isolated...
+
+In software engineering, containerization is operating-system–level virtualization or application-level virtualization over multiple network resources so that software applications can run in isolated user spaces called containers in any cloud or non-cloud environment, regardless of type or vendor. The term "container" is overloaded, and it is important to ensure that the intended definition aligns with the audience's understanding. 
+
+
+== Usage ==
+Each container is basically a fully functional and portable cloud or non-cloud computing environment surrounding the application and keeping it independent of other environments running in parallel. Individually, each container simulates a different software application and runs isolated processes by bundling related configuration files, libraries and dependencies. But, collectively, multiple containers share a common operating system kernel (OS).
+In recent times, containerization technology has been widely adopted by cloud computing platforms like Amazon Web Services, Microsoft Azure,  Google Cloud Platform, and IBM Cloud. Containerization has also been pursued by the U.S. Department of Defense as a way of more rapidly developing and fielding software updates, with first application in its F-22 air superiority fighter.
+
+
+== Types of containers ==
+OS containers
+Application containers
+
+
+== Security issues ==
+Because of the shared OS, security threats can affect the whole containerized system.
+In containerized environments, security scanners generally protect the OS, but not the application containers, which adds unwanted vulnerability.
+
+
+== Container management, orchestration, clustering ==
+Container orchestration or container management is mostly used in the context of application containers. Implementations providing such orchestration include Kubernetes and Docker swarm.
+
+
+== Container cluster management ==
+Container clusters need to be managed. This includes functionality to create a cluster, to upgrade the software or repair it, balance the load between existing instances, scale by starting or stopping instances to adapt to the number of users, to log activities and monitor produced logs or the application itself by querying sensors. Open-source implementations of such software include OKD and Rancher. Quite a number of companies provide container cluster management as a managed service, like Alibaba, Amazon, Google, Microsoft.
+
+
+== See also ==
+Docker (software)
+Kubernetes
+Open Container Initiative
+Virtual machines
+
+
+== Further reading ==
+Journal articles
+
+Bentaleb, Ouafa; Belloum, Adam S. Z.; Sebaa, Abderrazak; El-Maouhab, Aouaouche (8 June 2021). "Containerization technologies: taxonomies, applications and challenges". The Journal of Supercomputing. 78: 1144–1181. doi:10.1007/s11227-021-03914-1. S2CID 236220833.
+Watada, Junzo; Roy, Arunava; Kadikar, Ruturaj; Pham, Hoang; Xu, Bing (2019). "Emerging Trends, Techniques and Open Issues of Containerization: A Review". IEEE Access. 7: 152443–152472. Bibcode:2019IEEEA...7o2443W. doi:10.1109/ACCESS.2019.2945930. S2CID 204970781.
+van den Berg, Tom; Siegel, Barry; Cramp, Anthony (April 2017). "Containerization of high level architecture-based simulations: A case study". The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology. 14 (2): 115–138. doi:10.1177/1548512916662365. S2CID 64405143.
+Zhang, Xiao; Tang, Yu; Li, Hao; Liu, Shaotao; Lin, Di (2021). "Containerization Design for Autonomous and Controllable Cloud Distributed System". Communications, Signal Processing, and Systems. Lecture Notes in Electrical Engineering. Vol. 654. pp. 30–38. doi:10.1007/978-981-15-8411-4_4. ISBN 978-981-15-8410-7. S2CID 236762442.
+Odun-Ayo, Isaac; Geteloma, Victor; Eweoya, Ibukun; Ahuja, Ravin (2019). "Virtualization, Containerization, Composition, and Orchestration of Cloud Computing Services". Computational Science and Its Applications – ICCSA 2019. Lecture Notes in Computer Science. Vol. 11622. pp. 403–417. doi:10.1007/978-3-030-24305-0_30. ISBN 978-3-030-24304-3. S2CID 195769647.
+Books
+
+Gabriel N. Schenker, Hideto Saito, Hui-Chuan Chloe Lee, Ke-Jou Carol Hsu, (2019) Getting Started with Containerization: Reduce the operational burden on your system by automating and managing your containers, Packt Publishing, ISBN 978-1-83864-903-6
+Jeeva S. Chelladhurai, Vinod Singh, Pethuru Raj (2014), Learning Docker, Packt Publishing, ISBN 978-0-9888202-0-3
+
+
+== References ==

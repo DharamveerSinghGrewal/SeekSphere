@@ -1,0 +1,55 @@
+SAP Converged Cloud is a private managed cloud developed and marketed by SAP. It is a set of cloud computing services that offer managed private cloud based on an OpenStack technology-based public clo...
+
+SAP Converged Cloud is a private managed cloud developed and marketed by SAP.
+It is a set of cloud computing services that offer managed private cloud based on an OpenStack technology-based public cloud. It is used by SAP's organization for their own internal IT resources to create a mix of different cloud computing environments made up of OpenStack services.
+It offers compute, storage, and platform services that are accessible to SAP software.
+
+
+== History ==
+In 2012, SAP promoted aspects of cloud computing. In October 2012, SAP announced a platform as a service called the SAP Cloud Platform.
+In May 2013, a managed private cloud called the S/4HANA Enterprise Cloud service was announced.
+SAP Converged Cloud was announced in January 2015. SAP Converged Cloud is managed under The Converged Cloud unit, an SAP business unit established in 2015 headed by Markus Riedinger as Unit manager.
+The Converged Cloud BETA went live in May 2017, included OpenStack technology-based storage, compute network components, and shared new services made by SAP: Later, Designate (DNS as a Service) was added as well.
+
+
+== Converged Cloud characteristics and components ==
+
+
+=== Converged infrastructure ===
+SAP Converged Cloud follows the premise of Converged infrastructure: the integration of compute, storage, and networking components and technologies into self-provisioning pools of shared resources and supported by IT services. One of the benefits of a data center based on converged infrastructure is that manual tasks can be automated thus reducing the time and cost to carry them out.
+
+
+=== Open standards ===
+SAP Converged Cloud is supporting the VMware hypervisors. It supports multiple operating systems (Microsoft, Red Hat, Ubuntu, etc.)
+SAP Converged Cloud is compatible with public cloud platforms based on OpenStack technology, such as RackSpace and Nebula.
+
+
+== SAP Converged Cloud Professional Services ==
+SAP Converged Cloud consultants work with SAP's users to help them configure SAPs products. These users receive advice on how they can implement cloud in a consistent manner and how to get value from their cloud investment.
+
+
+=== Services ===
+SAP Cloud Marketing – Delivers information on the possible uses for cloud services and identifies opportunities to begin implementing cloud.
+
+
+=== Cloud products ===
+Compute is the service that can deliver a virtual server on demand. New virtual servers, or compute instances, can be brought online and can be customized to meet a variety of computing needs. It is built on OpenStack's open-source operating environment.
+Object Storage 
+Content Delivery Network (CDN) is a webservice that delivers data from the Object Storage to users all around the world. Using a network of servers from Akamai Technologies, SAP's CDN routes content to local servers nearer to the customers.
+Block Storage enables customers to store data from Compute instances. Block Storage is used in applications requiring frequent read/write access such as web applications.
+Load Balancers are a managed load balancing service that allow for the automatic distribution of incoming traffic across compute resources.
+DNS
+Monitoring is a complementary dashboard that delivers fundamental compute and block storage metrics, providing visibility into resource utilization, application performance, and operational health.
+Platform as a Service (PaaS) and Software as a Service (SaaS) Special cloud-based web services (like Applications, Databases, Multimedia, etc.).
+
+
+== See also ==
+List of SAP products
+OpenStack
+
+
+== References ==
+
+
+== External links ==
+1Gbps Unmetered VPS Hosting

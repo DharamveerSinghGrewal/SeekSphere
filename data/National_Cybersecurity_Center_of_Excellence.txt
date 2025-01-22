@@ -1,0 +1,59 @@
+The National Cybersecurity Center of Excellence (NCCoE) is a US government organization that builds and publicly shares solutions to cybersecurity problems faced by U.S. businesses. The center, locate...
+
+The National Cybersecurity Center of Excellence (NCCoE) is a US government organization that builds and publicly shares solutions to cybersecurity problems faced by U.S. businesses. The center, located in Rockville, Maryland, was established in 2012 through a partnership with the National Institute of Standards and Technology (NIST), the state of Maryland, and Montgomery County. The center is partnered with nearly 20 market-leading IT companies, which contribute hardware, software and expertise.
+The NCCoE asks industry sector members about their cybersecurity problems, and then selects issues that affect an entire sector or reach across sectors. The center forms a team of people from cybersecurity technology companies, other federal agencies and academia to address each problem. The teams work in the center's labs to build example solutions using commercially available, off-the-shelf products. For each example solution, the NCCoE publishes a practice guide, a collection of the materials and information needed to deploy the example solution, and makes it available to the general public. The center's goal is to "accelerate the deployment and use of secure technologies" that can help businesses improve their defenses against cyber attacks.
+
+
+== History ==
+
+
+=== NIST ===
+The NCCoE is part of NIST, a non-regulatory federal agency within the U.S. Department of Commerce that develops measurement standards and conducts research in measurement science. According to the NIST website, the Federal Information Security Management Act of 2002 (FISMA) "reaffirmed NIST's role of developing information security standards (Federal Information Processing Standards) and guidelines for non-national security federal information systems and assigned NIST some specific responsibilities, including the development of:
+Standards to be used by Federal agencies to categorize information and information systems based on the objectives of providing appropriate levels of information security according to a range of risk levels; 
+Guidelines recommending the types of information and information systems to be included in each category; and
+Minimum information security requirements (management, operational and technical security controls) for information and information systems in each category."
+Many private sector organizations voluntarily adopt these standards, guidelines and security requirements. As a NIST center, the NCCoE is an applied space for the demonstration of standards-based approaches to cybersecurity.
+
+
+=== Executive Order 13636, "Improving Critical Infrastructure Cybersecurity" ===
+President Barack Obama issued Executive Order 13636, "Improving Critical Infrastructure Cybersecurity", in February 2013 tasking NIST to create a cybersecurity framework that helps organizations mitigate risks to the nation's essential systems such as power generation and distribution, the financial services sector, and transportation. NIST released the Framework for Improving Critical Infrastructure Cybersecurity in February 2014, which "consists of standards, guidelines and practices to promote the protection of critical infrastructure." The NCCoE demonstrates how the framework can be implemented in real-world environments. When an industrial sector approaches the center with a cybersecurity problem, the center maps the solution's hoped-for capabilities to the Cybersecurity Framework, as well as to other standards, controls and best practices.
+
+
+=== Media coverage ===
+The NCCoE's launch was formally announced on February 21, 2012, by U.S. Senator Barbara Mikulski (D-Md.), Maryland Lt. Governor Anthony Brown, Montgomery County Executive Isiah Leggett and Under Secretary of Commerce for Standards and Technology and NIST Director Patrick D. Gallagher. NIST issued a press release the same day stating that the center was created to "work to strengthen U.S. economic growth by supporting automated and trustworthy e-government and e-commerce." The NCCoE will "host multi-institutional, collaborative efforts that build on expertise from industry and government", according to the press release.
+
+
+=== Federally funded research and development center ===
+In September 2014, the National Institute of Standards and Technology (NIST) awarded a contract to the MITRE Corporation to operate the Department of Commerce's first Federally Funded Research and Development Center (FFRDC), the National Cybersecurity FFRDC, which supports the NCCoE. According to the press release on the NIST website, "this FFRDC is the first solely dedicated to enhancing the security of the nation's information systems." 
+The press release states that the FFRDC will help the NCCoE "expand and accelerate its public-private collaborations" and focus on "boosting the security of U.S. information systems." 
+"FFRDCs operate in the public interest and are required to be free from organizational conflicts of interest as well as bias toward any particular company, technology or product—key attributes given the NCCoE's collaborative nature…The first three task orders under the contract will allow the NCCoE to expand its efforts in developing use cases and building blocks and provide operations management and facilities planning."
+
+
+== Collaborators ==
+
+
+=== Founding partners ===
+The partners that founded the NCCoE are the National Institute of Standards and Technology (NIST), the state of Maryland and Montgomery County. This partnership was instrumental in establishing the center as a nationally recognized cybersecurity resource that has the potential to increase the number of local cybersecurity companies, local workforce development and provide local companies with exposure to NIST's expertise.
+
+
+=== National Cybersecurity Excellence Partners ===
+National Cybersecurity Excellence Partners (NCEPs) offer technology companies the opportunity to develop long-term relationships with the NCCoE and NIST. As core partners, NCEPs can provide hardware, software, or personnel who collaborate with the NCCoE on current projects.
+
+
+=== Industry representatives ===
+Sector representatives approach the NCCoE on behalf of their industry to share business problems that can be solved through a cybersecurity solution. These representatives can also provide insight during the project build process and help validate the center's approach to developing an example solution.
+
+
+=== Experts from government and academia ===
+Members of government agencies and academic institutions can discuss their cybersecurity challenges with the NCCoE, provide insight and feedback on existing center projects, or collaborate with technology companies in the center's labs.
+
+
+=== Users ===
+Other users, such as businesses working to improve their cybersecurity, have the opportunity to test the NCCoE's example solutions, evaluate their effectiveness, and provide feedback.
+
+
+== See also ==
+National Cyber Security Centre
+
+
+== References ==

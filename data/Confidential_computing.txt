@@ -1,0 +1,118 @@
+Confidential computing is a security and privacy-enhancing computational technique focused on protecting data in use. Confidential computing can be used in conjunction with storage and network encrypt...
+
+Confidential computing is a security and privacy-enhancing computational technique focused on protecting data in use. Confidential computing can be used in conjunction with storage and network encryption, which protect data at rest and data in transit respectively. It is designed to address software, protocol, cryptographic, and basic physical and supply-chain attacks, although some critics have demonstrated architectural and side-channel attacks effective against the technology.
+The technology protects data in use by performing computations in a hardware-based trusted execution environment (TEE). Confidential data is released to the TEE only once it is assessed to be trustworthy. Different types of confidential computing define the level of data isolation used, whether virtual machine, application, or function, and the technology can be deployed in on-premise data centers, edge locations, or the public cloud. It is often compared with other privacy-enhancing computational techniques such as fully homomorphic encryption, secure multi-party computation, and Trusted Computing.
+Confidential computing is promoted by the Confidential Computing Consortium (CCC) industry group, whose membership includes major providers of the technology. 
+
+
+== Properties ==
+Trusted execution environments (TEEs) "prevent unauthorized access or modification of applications and data while they are in use, thereby increasing the security level of organizations that manage sensitive and regulated data". Trusted execution environments can be instantiated on a computer's processing components such as a central processing unit (CPU) or a graphics processing unit (GPU).  In their various implementations, TEEs can provide different levels of isolation including virtual machine, individual application, or compute functions.
+Typically, data in use in a computer's compute components and memory exists in a decrypted state and can be vulnerable to examination or tampering by unauthorized software or administrators. According to the CCC, confidential computing protects data in use through a minimum of three properties:
+
+Data confidentiality: "Unauthorized entities cannot view data while it is in use within the TEE".
+Data integrity: "Unauthorized entities cannot add, remove, or alter data while it is in use within the TEE".
+Code integrity: "Unauthorized entities cannot add, remove, or alter code executing in the TEE".
+In addition to trusted execution environments, remote cryptographic attestation is an essential part of confidential computing.  The attestation process assesses the trustworthiness of a system and helps ensure that confidential data is released to a TEE only after it presents verifiable evidence that it is genuine and operating with an acceptable security posture.  It allows the verifying party to assess the trustworthiness of a confidential computing environment through an "authentic, accurate, and timely report about the software and data state" of that environment. "Hardware-based attestation schemes rely on a trusted hardware component and associated firmware to execute attestation routines in a secure environment". Without attestation, a compromised system could deceive others into trusting it, claim it is running certain software in a TEE, and potentially compromise the confidentiality or integrity of the data being processed or the integrity of the trusted code.
+
+
+== Technical approaches ==
+Technical approaches to confidential computing may vary in which software, infrastructure and administrator elements are allowed to access confidential data. The "trust boundary," which circumscribes a trusted computing base (TCB), defines which elements have the potential to access confidential data, whether they are acting benignly or maliciously.  Confidential computing implementations enforce the defined trust boundary at a specific level of data isolation. The three main types of confidential computing are:
+
+Virtual machine isolation
+Application isolation, also known as process isolation
+Function isolation, also known as library isolation
+Virtual machine isolation removes the elements controlled by the computer infrastructure or cloud provider, but allows potential data access by elements inside a virtual machine running on the infrastructure.  Application or process isolation permits data access only by authorized software applications or processes. Function or library isolation is designed to permit data access only by authorized subroutines or modules within a larger application, blocking access by any other system element, including unauthorized code in the larger application.
+
+
+== Threat model ==
+As confidential computing is concerned with the protection of data in use, only certain threat models can be addressed by this technique. Other types of attacks are better addressed by other privacy-enhancing technologies.
+
+
+=== In scope ===
+The following threat vectors are generally considered in scope for confidential computing:
+
+Software attacks:  including attacks on the host’s software and firmware. This may include the operating system, hypervisor, BIOS, other software and workloads.
+Protocol attacks:  including "attacks on protocols associated with attestation as well as workload and data transport". This includes vulnerabilities in the "provisioning or placement of the workload" or data that could cause a compromise.
+Cryptographic attacks: including "vulnerabilities found in ciphers and algorithms due to a number of factors, including mathematical breakthroughs, availability of computing power and new computing approaches such as quantum computing". The CCC notes several caveats in this threat vector, including relative difficulty of upgrading cryptographic algorithms in hardware and recommendations that software and firmware be kept up-to-date. A multi-faceted, defense-in-depth strategy is recommended as a best practice.
+Basic physical attacks: including cold boot attacks, bus and cache snooping and plugging attack devices into an existing port, such as a PCI Express slot or USB port.
+Basic upstream supply-chain attacks:  including attacks that would compromise TEEs through changes such as added debugging ports.
+The degree and mechanism of protection against these threats varies with specific confidential computing implementations.
+
+
+=== Out of scope ===
+Threats generally defined as out of scope for confidential computing include:
+
+Sophisticated physical attacks: including physical attacks that "require long-term and/or invasive access to hardware" such as chip scraping techniques and electron microscope probes.
+Upstream hardware supply-chain attacks: including attacks on the CPU manufacturing process, CPU supply chain in key injection/generation during manufacture. Attacks on components of a host system that are not directly providing the capabilities of the trusted execution environment are also generally out-of-scope.
+Availability attacks: confidential computing is designed to protect the confidentiality and integrity of protected data and code. It does not address availability attacks such as Denial of Service or Distributed Denial of Service attacks.
+
+
+== Use cases ==
+Confidential computing can be deployed in the public cloud, on-premise data centers, or distributed "edge" locations, including network nodes, branch offices, industrial systems and others.
+
+
+=== Data privacy and security ===
+Confidential computing protects the confidentiality and integrity of data and code from the infrastructure provider, unauthorized or malicious software and system administrators, and other cloud tenants, which may be a concern for organizations seeking control over sensitive or regulated data. The additional security capabilities offered by confidential computing can help accelerate the transition of more sensitive workloads to the cloud or edge locations.
+
+
+=== Multi-party analytics ===
+Confidential computing can enable multiple parties to engage in joint analysis using confidential or regulated data inside a TEE while preserving privacy and regulatory compliance.  In this case, all parties benefit from the shared analysis, but no party's sensitive data or confidential code is exposed to the other parties or system host. Examples include multiple healthcare organizations contributing data to medical research, or multiple banks collaborating to identify financial fraud or money laundering.
+Oxford University researchers proposed the alternative paradigm called "Confidential Remote Computing" (CRC), which supports confidential operations in Trusted Execution Environments across endpoint computers considering multiple stakeholders as mutually distrustful data, algorithm and hardware providers.
+
+
+=== Regulatory compliance ===
+Confidential computing assists in data protection and regulatory compliance by limiting which software and people may access regulated data, as well as providing greater assurance of data and code integrity.  In addition, TEEs can assist with data governance by providing evidence of steps taken to mitigate risks and demonstrate that these were appropriate. In 2021, the European Union Agency for Cybersecurity (ENISA) classifies confidential computing as a "State of the Art" technology with respect to protecting data under the European Union's General Data Protection Regulation and Germany's IT Security Act (ITSiG).
+
+
+=== Data localization, sovereignty and residency ===
+Regulations regarding data localization and residency or data sovereignty may require that sensitive data remain in a specific country or geographic bloc to provide assurance that the data will only be used in compliance with local law.  Using confidential computing, only the workload owner holds the encryption keys required to decrypt data for processing inside a verified TEE.  This provides a technological safeguard that reduces the risk of data being exfiltrated and processed in plaintext in other countries or jurisdictions without the workload owner's consent.
+Additional use cases for confidential computing include blockchain applications with enhanced record privacy and code integrity, privacy-preserving advertising technology, confidential databases and more.
+
+
+== Criticism ==
+Multiple academic and security research groups have demonstrated architectural and side-channel attacks against CPU-based TEEs based on a variety of approaches. These include page faults, caching, and the memory bus, as well as specifically Æpic and SGAxe against Intel SGX, and CIPHERLEAKS against AMD SEV-SNP.  Update mechanisms in the hardware, such as Trusted computing base (TCB) recovery, can mitigate side-channel vulnerabilities as they are discovered.
+The definition of confidential computing itself has also been criticized by some academic researchers. Scholars at the Technical University of Dresden, Germany called it, "imprecise, incomplete and even conflicting." Researchers have made recommendations to make it more detailed and exact to facilitate research and comparisons with other security technologies.
+"Confidential Remote Computing" (CRC) paradigm, claims to revert confidential computing to original design principles of TEEs and advocate for small enclaves, running in available end-users computers. CRC adds practices and templates for multiple stakeholders, such as different data owners, hardware owners and algorithm owners. CRC extends the broad notion of confidential computing by adding practices and methodologies for individual use.
+None of the major microprocessor or GPU providers offer Confidential computing hardware in devices for personal computers anymore, which limits use cases only to server-class platforms. Intel SGX was introduced for PCs in 6th Generation Intel Core (Skylake) processors in 2015, but deprecated in the 11th Generation Intel Core processors (Rocket Lake) in 2022.
+
+
+== Comparison with other privacy-enhancing technologies ==
+Confidential computing is often compared to other security or privacy-enhancing technologies, including fully homomorphic encryption, secure multi-party computing and trusted computing.
+
+
+=== Fully homomorphic encryption ===
+Fully homomorphic encryption (FHE) is a form of encryption that permits users to perform computations on encrypted data without first decrypting it. Confidential computing, in contrast, transfers encrypted data inside a hardware-enforced, access-controlled TEE in the processor and memory, decrypts the data, and performs the required computations. Data may be re-encrypted before exiting the TEE. Compared to each other, FHE performance can suffer from higher computational overhead than confidential computing and require extensive application-specific coding but is less susceptible to side-channel attacks since data is never decrypted.  Several researchers have described use cases where confidential computing TEEs and FHE work together to mitigate shortcomings of the technologies acting individually.
+
+
+=== Secure multi-party computation ===
+Secure multi-party computation (SMPC) is a privacy-preserving technology that allows multiple parties to jointly compute a task using distributed algorithms while keeping each party's data private from the others. Confidential computing can also be used for privacy-preserving multi-party collaboration.  Compared to each other, distributed computing with SMPC can be more expensive in terms of computation and network bandwidth, but less susceptible to side-channel attacks since no party ever holds the complete data set.
+
+
+=== Trusted computing ===
+Trusted computing is a concept and set of standards published by the Trusted Computing Group that aim to establish trust in computing systems by using standardized hardware-based mechanisms like the Trusted Platform Module (TPM).  From a technical perspective, Trusted Computing and confidential computing rely on similar security concepts, such as trust architecture and remote attestation protocols.  However, Trusted Computing targets a different set of threat models and large variety of platforms (e.g., phones, laptops, servers, network equipment); confidential computing addresses attack vectors that target confidentiality and integrity of code and data in use, notably through the use of Trusted Execution Environments and memory encryption.
+
+
+== Providers ==
+Confidential computing use cases require a combination of hardware and software, often delivered in conjunction with cloud service providers or server manufacturers.
+
+
+=== Cloud computing providers ===
+Confidential computing technology and services can be accessed via public cloud computing providers, including Alibaba Cloud, Baidu Cloud, Google Cloud, IBM Cloud, Microsoft Azure, OVHcloud and others.
+
+
+=== Application providers ===
+Application software is required to enable most confidential computing use cases. Providers of confidential computing software applications include Anjuna, CanaryBit, Cosmian, CYSEC, Decentriq, Edgeless Systems, Enclaive, Fortanix, IBM Hyper Protect Services, Mithril Security, Oblivious, Opaque Systems, Scontain, Secretarium and others.
+
+
+== Confidential Computing Consortium ==
+Confidential computing is supported by an advocacy and technical collaboration group called the Confidential Computing Consortium.  The CCC was formed in 2019 under the Linux Foundation.  The founding premiere members were Alibaba, Arm, Google Cloud, Huawei, Intel, Microsoft and Red Hat. The founding general members included SUSE, Baidu, ByteDance, Decentriq, Fortanix, Kindite, Oasis Labs, Swisscom, Tencent and VMware.  The CCC states its efforts are "focused on projects securing data in use and accelerating the adoption of confidential computing through open collaboration."
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Confidential Computing Consortium

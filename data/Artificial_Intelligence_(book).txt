@@ -1,0 +1,32 @@
+Artificial Intelligence (AI) is a university textbook on artificial intelligence, written by Patrick Henry Winston. It was first published in 1977, and the third edition of the book was released in 19...
+
+Artificial Intelligence (AI) is a university textbook on artificial intelligence, written by Patrick Henry Winston. It was first published in 1977, and the third edition of the book was released in 1992. It was used as the course textbook for MIT course 6.034.
+
+
+== Content ==
+The book is intended to explain how computers reason and perceive, and introduce the field of artificial intelligence. It describes the field, both as a branch of engineering and as a science, providing a computational perspective. Ideas for representing knowledge, using knowledge, and building practical systems are provided. The intended audience includes engineers, computer scientists, psychologists, biologists, linguists, or philosophers.: Back cover 
+
+
+== Editions ==
+Three editions were published in total (1977, 1984, 1992). The first edition included a section on Lisp programming.: Preface  The second edition removed the Lisp section, and added chapters on logic, and learning.: Preface  Implementation details for the second edition were provide by the companion book, LISP second edition (Winston and Horn).: Preface  The third edition was significantly changed, adding a section on learning, including neural networks. The third edition was also updated to reflect changes in computer performance that had occurred since the second edition was published, and to address artificial intelligence at scale.: Preface 
+
+
+== Reception ==
+Cambridge University Press reviewer Tony Owen found the 1984 edition to be complete and suitable for classroom work. In addition, he highlighted the companion book LISP. ACM reviewer Doris Appleby commented that the 2nd and 3rd editions were better suited to those working in fields related to Artificial Intelligence. In this way she felt that Winston had chosen the path of popularizing Artificial Intelligence, making the text more of a general survey. The procedural English methods (half-English, half-program form) used to describe algorithms and programs in the text were regarded as satisfactory. Appleby also highlighted the companion book LISP in her review of the third edition.
+
+
+== References ==
+
+
+== See also ==
+LISP (book)
+Paradigms of AI Programming
+Artificial Intelligence: A Modern Approach
+
+
+== External links ==
+"Books of Patrick Henry Winson and Friends". Massachusetts Institute of Technology.
+"Artificial Intelligence (Third Edition)---From the Back Cover". Massachusetts Institute of Technology.
+"Illustrative Lisp software is available in a zip file". Massachusetts Institute of Technology.
+"Code from Winston's AI book". Carnegie Mellon University.
+"ftp.ai.mit.edu/pub/books-by-phw/ai3/ (ftp)". Massachusetts Institute of Technology.

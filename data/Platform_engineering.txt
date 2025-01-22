@@ -1,0 +1,17 @@
+Platform engineering is a software engineering discipline focused on the development of self-service toolchains, services, and processes to create an internal developer platform (IDP). The shared IDP ...
+
+Platform engineering is a software engineering discipline focused on the development of self-service toolchains, services, and processes to create an internal developer platform (IDP). The shared IDP can be utilized by software development teams, enabling them to innovate.
+Platform engineering uses components like configuration management, infrastructure orchestration, and role-based access control to improve reliability. The discipline is associated with DevOps and platform as a service practices.
+
+
+== Purpose & Impact ==
+Platform engineering aims to improve software engineering productivity by creating streamlined toolchains that can be used by developers. It can be used for digital transformation, or to expand CI/CD setups.
+According to a panel of experts at PlatformCon 2024, it was stated that building an internal developer platform can improve more than just developer productivity. Platform engineering, which centralizes best practices and components for development teams, is gaining prominence as DevSecOps practices and frameworks become increasingly embedded across organizations. Platform engineering aims to normalize and standardize developer workflows by providing developers with optimized “golden paths” for most of their workloads and flexibility to define exceptions for the rest. Organizations can follow one of two paths when developing a new platform engineering initiative. One option is to build an authentication and visualization layer that sits across multiple point tools — but this does not solve the underlying problems of legacy technology stacks and tooling silos. Therefore, this would likely not be a long-term solution. Alternatively, the organization could implement an internal developer platform (IDP) that reduces the cognitive load on developers by bringing multiple technologies and tools into a single self-service experience.
+Platform engineering’s benefits include faster time to market, reduced security and compliance risk, and improved developer experience. Establishing a product-oriented culture and setting clear business goals are critical for success in platform engineering. Therefore it can be stated that platform engineering has increased importance wherever businesses strive to do more with less.
+
+
+== Criticism of Platform Engineering ==
+Despite its benefits, platform engineering faces several criticisms. One major concern is the complexity and overhead associated with building and maintaining such platforms. Additionally, creating a one-size-fits-all platform might not address the unique needs of all development teams, leading to inefficiencies and frustration. Siloed teams and a lack of focus on resolving operational issues can also hinder the effectiveness of the platforms created.
+
+
+== References ==

@@ -1,0 +1,63 @@
+Qiskit (Quantum Information Software Kit) is an open-source software development kit (SDK) for working with quantum Computers at the level of circuits, pulses, and algorithms. It provides tools for cr...
+
+Qiskit (Quantum Information Software Kit) is an open-source software development kit (SDK) for working with quantum Computers at the level of circuits, pulses, and algorithms. It provides tools for creating and manipulating quantum programs and running them on prototype quantum devices on IBM Quantum Platform or on simulators on a local computer. It follows the circuit model for universal quantum computation, and can be used for any quantum hardware (currently supports superconducting qubits and trapped ions) that follows this model.
+Qiskit was founded by IBM Research to allow software development for their cloud quantum computing service, IBM Quantum Experience. Contributions are also made by external supporters, typically from academic institutions.
+The primary version of Qiskit uses the Python programming language. Versions for Swift and JavaScript were initially explored, though the development for these versions has halted. Instead, a minimal re-implementation of basic features is available as MicroQiskit, which is made to be easy to port to alternative platforms.
+A range of Jupyter notebooks are provided with examples of quantum computing being used. Examples include the source code behind scientific studies that use Qiskit, as well as a set of exercises to help people to learn the basics of quantum programming. An open source textbook based on Qiskit is available as a university-level quantum algorithms or quantum computation course supplement.
+
+
+== Components ==
+Qiskit is made of elements that work together to enable quantum computing. The central goal of Qiskit is to build a software stack that makes it easier for anyone to use quantum computers, regardless of their skill level or area of interest; Qiskit allows users to design experiments and applications and run them on real quantum computers and/or classical simulators. Qiskit provides the ability to develop quantum software both at the machine code level of OpenQASM, and at abstract levels suitable for end-users without quantum computing expertise. This functionality is provided by the following components.
+
+
+=== Qiskit Terra ===
+The element Terra is the foundation on which the rest of Qiskit is built. Qiskit Terra provides tools to create quantum circuits at or close to the level of quantum machine code. It allows the processes that run on quantum hardware to be explicitly constructed in terms of quantum gates. It also provides tools to allow quantum circuits to be optimized for a device, as well as managing batches of jobs and running them on remote-access quantum devices and simulators.
+The following shows a simple example of Qiskit Terra. In this, a quantum circuit is created for two qubits, which consists of the quantum gates required to create a Bell state. The quantum circuit then ends with quantum measurements, which extract a bit from each qubit.
+
+
+=== Qiskit Aer ===
+The element Aer provides high-performance quantum computing simulators with realistic noise models. In the near-term, development of quantum software will depend largely on simulation of small quantum devices. For Qiskit, this is provided by the Aer component. This provides simulators hosted locally on the user's device, as well as HPC resources available through the cloud. The simulators can also simulate the effects of noise for simple and sophisticated noise models.
+
+Continuing with the previous example: Once the quantum circuit has been created, it can be run on a backend (either quantum hardware or a simulator). In the following example, a local simulator is used.The final print statement here will show the results returned by the backend. This is a Python dictionary that describes the bit strings obtained from multiple runs of the quantum circuit. In the quantum circuit used in this example, the bit strings '00' and '11' should be the only possible results, and should occur with equal probability. The full results will therefore typically have the samples split approximately equally between the two, such as {'00':519, '11':505} .
+Experiments done on quantum hardware using Qiskit have been used in many research papers, such as in tests of quantum error correction, generation of entanglement and simulation of far-from-equilibrium dynamics.
+
+
+=== Qiskit Ignis ===
+As of version 0.7.0, released on 6th December 2021, Qiskit Ignis has been deprecated and superseded by the Qiskit Experiments project.
+The element Ignis provides tools for quantum hardware verification, noise characterization, and error correction. Ignis is a component that contains tools for characterizing noise in near-term devices, as well as allowing computations to be performed in the presence of noise. This includes tools for benchmarking near-term devices, error mitigation and error correction.
+Ignis is meant for those who want to design quantum error correction codes, or who wish to study ways to characterize errors through methods such as tomography, or even to find a better way for using gates by exploring dynamical decoupling and optimal control.
+
+
+=== Qiskit Aqua ===
+As of version 0.9.0, released on 2nd April 2021, Qiskit Aqua has been deprecated with its support ending and eventual archival being no sooner than 3 months from that date.
+The element Aqua provided a library of cross-domain algorithms upon which domain-specific applications can be built. However, the Qiskit 0.25.0 release included a restructuring of the applications and algorithms. What previously has been referred to as Qiskit Aqua, the single applications and algorithms module of Qiskit, is now split into dedicated application modules for Optimization, Finance, Machine Learning and Nature (including Physics & Chemistry). The core algorithms and opflow operator functionality were moved to Qiskit Terra.
+Additionally, to the restructuring, all algorithms follow a unified paradigm: algorithms are classified according to the problems they solve, and within one application class algorithms can be used interchangeably to solve the same problem. This means that, unlike before, algorithm instances are decoupled from the problem they solve.
+
+
+=== Qiskit Optimization ===
+Qiskit Optimization is an open-source framework that covers the whole range from high-level modeling of optimization problems, with automatic conversion of problems to different required representations, to a suite of easy-to-use quantum optimization algorithms that are ready to run on classical simulators, as well as on real quantum devices via Qiskit. The Optimization module enables easy, efficient modeling of optimization problems using docplex.
+
+
+=== Qiskit Finance ===
+Qiskit Finance is an open-source framework that contains uncertainty components for stock/securities problems, Ising translators for portfolio optimizations and data providers to source real or random data to finance experiments.
+
+
+=== Qiskit Machine Learning ===
+The Machine Learning package (as of 2021) contains sample datasets at present. It has some classification algorithms such as QSVM and VQC (Variational Quantum Classifier), where this data can be used for experiments, and there is also QGAN (Quantum Generative Adversarial Network) algorithm.
+
+
+=== Qiskit Nature ===
+Qiskit Nature is an open-source framework that supports problems including ground state energy computations, excited states and dipole moments of molecule, both open and closed-shell. The code comprises chemistry drivers, which when provided with a molecular configuration will return one and two-body integrals as well as other data that is efficiently computed classically. This output data from a driver can then be used as input in Qiskit Nature that contains logic which is able to translate this into a form that is suitable for quantum algorithms.
+
+
+== See also ==
+IBM Quantum Platform
+Cirq, Google's Quantum framework
+Quantum programming
+
+
+== References ==
+
+
+== Further reading ==
+Qiskit Textbook

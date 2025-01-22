@@ -1,0 +1,55 @@
+Mohawk Data Sciences Corporation (MDS) was an early computer hardware company, started by former Univac engineers in 1964; by 1985 they were struggling to sell off part of their company.   == History ...
+
+Mohawk Data Sciences Corporation (MDS) was an early computer hardware company, started by former Univac engineers in 1964;
+by 1985 they were struggling to sell off part of their company.
+
+
+== History ==
+ 
+
+The company was founded in Herkimer, New York, by George Cogar, Lauren King, and Ted Robinson, former Univac employees.
+Their success in selling their first product, a Key-to-Tape Data Entry device that allowed doing away with Keypunch devices, brought them enough cash to also grow via acquisition.
+Among their acquisitions was Atron Corporation, developer of a minicomputer, the Atron 501 and 502. From the know-how acquired and absorbed, Mohawk expanded into the areas of controlling line printers and also Remote Job Entry (RJE).  This was the basis of their MDS 2400 RJE product, which supported 2780 and HASP.
+Another major acquisition was Anelex Corporation of Boston, at the time the second-largest manufacturer of printers behind IBM and an early entrant in the hard disk drive market. Mohawk finalized their acquisition of Anelex in October 1967.
+Financial difficulties a decade-and-a-half after the company opened led to the company's restructuring, renaming and eventual takeover. By that time, headquarters had been in Parsippany, New Jersey, with manufacturing in Herkimer.
+
+
+=== Other Mohawk-branded RJE products ===
+Mohawk's 1103 Data Transmission System
+Mohawk's Series 21, which also had local processing capability. It ran CP/M and supported:
+COBOL
+MOBOL, their own variation
+office automation
+
+
+=== Qantel Corporation ===
+Mohawk acquired Qantel Corporation in 1980, later called "its strongest asset". Having sold around 10,000 systems worldwide, in the sports world it was known as the supplier for the computer hardware and software for "12 of the 28 teams in the National Football League".
+Mohawk renamed itself Qantel in 1988, and in 1992 the remains of the latter, after bankruptcy, was acquired by Decision Data Computer Corporation.
+
+
+== MDS Series 21 ==
+The MDS Series 21 (21/20, 21/40, 21/50) was configured as a CRT (which Mohawk called an "Operator Station") and a system unit (called a "Controller Console").: Intro_p.3  Up to four floppy disk drives could be housed in the latter.
+
+Floppies contained 74 tracks, 26 128-character sectors per track. Track 0 was the index track. A floppy contained up to 1,898 128-character records.: Diskettes, p.2 
+Screen - The 21/20 used a 480 character (12 lines x 40 characters) screen. The 21/40 could use either that screen or a larger, industry-standard sized 1,920 character screen (24 lines x 80 characters).
+45 Characters/second printer  - The Model 2141 printer's line width was (up to) 132 characters; the character set accommodated a 96-character set.
+Line printers - Lines/minute speeds were
+up to 185 LPM (Model 2142-1)
+up to 340 LPM (Model 2142-2)
+up to 600 LPM (Model 2145)
+IBM Mainframe-compatible 9-track tapes drives:
+Model 2481 - 800 BPI
+Model 2482 - 1600 BPI
+
+
+== MOBOL ==
+Mohawk's MOBOL—Mohawk Business Oriented Language—was described as "look[ing] nothing like COBOL".
+The language's source code was compiled, rather than being run interpretively.
+After a MOBOL program was compiled, a utility named MOBOLIST was used to display applicable messages (if any) for errors detected during compilation.: Intro_p.1 
+
+
+=== MOBOL Syntax ===
+The syntax (5,1) 'Hello, World' would output Hello, World to the screen at the beginning of the fifth line.
+
+
+== References ==

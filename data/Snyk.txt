@@ -1,0 +1,37 @@
+Snyk Limited is a developer-oriented cybersecurity company, specializing in securing custom developed code, open-source dependencies and cloud infrastructure. It was founded in 2015 out of London and ...
+
+Snyk Limited is a developer-oriented cybersecurity company, specializing in securing custom developed code, open-source dependencies and cloud infrastructure. It was founded in 2015 out of London and Tel Aviv and is headquartered in Boston.
+
+
+== History ==
+Snyk was founded in 2015 by Guy Podjarny (Hebrew: גיא פודחרני), Assaf Hefetz (אסף חפץ), and Danny Grander, (דני גרנדר) coming from Unit 8200, a SIGINT unit of the Israel Defense Forces. Podjarny started as CEO. 
+In July 2019, Peter McKay, one of the first investors, succeeded him, while Podjarny became president and chairman of the Board of Directors. 
+In 2022, the company had approximately 1,400 employees.  It also has offices in Tel Aviv, Ottawa, Zurich and London.
+
+
+=== Acquisitions ===
+Snyk acquisitions include:
+
+DeepCode (Sep-2020), which provided what became Snyk Code, a product for static application security testing. Snyk Code is a cloud-based, AI-powered code review platform that checks, tests, and debugs code. It uses machine learning to check for mistakes in code. The platform currently supports Apex, C#,  C/C++, Go, Java, JavaScript, Kotlin, PHP, Python, Ruby,  Scala,  Swift, TypeScript, and Visual Basic (.NET).
+Manifold (Jan-2021), which was focused on software asset management.
+FossID (May-2021), which provided vulnerability scanning in C/C++ applications and the capability to identify pieces of code copied from the internet, e.g., from Stackoverflow, which could contain vulnerabilities. FossID was reacquired by the founders in Sep-2022 and is refocused on its core principles.
+CloudSkiff (Oct-2021), which was known for its open-source tool for drift detection (detection of changes in the outside environment which may invalidate software infrastructure configuration, database setup, etc.).
+Fugue (Feb-2022), which provided cloud security posture management (CSPM) solutions.
+Probely (Nov-2024), a start-up based in Porto, Portugal focused on dynamic application security testing (DAST).
+
+
+=== Financing ===
+In 2016, the company initially raised $3 million. In March 2018, its Series A funding was $7 million. In late 2019, it raised $70 million and a further $150 million in January 2020. In September 2021, a $300 million Series F funding round valued the company at $8.5 billion. This came six months after a valuation of $4.7 billion. Qatar Investment Authority led the next funding round in December 2022, with Snyk raising close to $200 million.
+In December 2021, Bloomberg reported that Snyk was preparing for an IPO in 2022.
+In January 2023, ServiceNow Inc. invested $25 million in Snyk.
+
+
+== Products ==
+The company's security products are designed to help software developers find weaknesses, violations, and vulnerabilities in their code. The company's vulnerability database records security issues found in open-source software libraries, and corrects the code. Security vulnerabilities are identified and addressed during the development process, before the software product is in use.
+
+
+== References ==
+
+
+== External links ==
+Official website
