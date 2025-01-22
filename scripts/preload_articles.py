@@ -8,7 +8,15 @@ from search_app.fetcher import fetch_and_save_articles
 import redis
 DATA_DIR = "./data"
 TECHNOLOGY_KEYWORDS = [
-    
+    "artificial intelligence",
+    "machine learning",
+    "blockchain",
+    "programming languages",
+    "cybersecurity",
+    "cloud computing",
+    "data science",
+    "robotics",
+    "quantum computing",
     "software engineering",
 ]
 
